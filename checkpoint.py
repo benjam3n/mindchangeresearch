@@ -1,73 +1,162 @@
-from pathlib import Path
+"""Package accepted research without inferring completion or overwriting its entry points."""
 from collections import Counter
-import json,hashlib,re,zipfile,datetime
+from pathlib import Path
+import argparse, hashlib, io, json, subprocess, sys, zipfile
 
-ROOT=Path(__file__).parent
-lines=['inquiry','representation','values','conditions','methods','systems']
-allocation=json.loads((ROOT/'allocation.json').read_text())['skills']
-slots=[]
-for line in lines:
-    entries=json.loads((ROOT/line/'application-ledger.json').read_text())
-    entries={(x['skill_id'],x['application_number']):x for x in entries}
-    for s in [s for s in allocation if s['line']==line]:
-        for n in range(1,s['applications']+1):
-            entry=dict(entries.get((s['id'],n),{'skill_id':s['id'],'application_number':n,'status':'pending','missing_requirements':['No application entry yet']}))
-            entry.update({'line':line,'rank':s['rank'],'slot_id':f"{s['id']}-{n:02d}",'integration_review':'not individually certified by root; see review records'})
-            f=entry.get('file')
-            if f:
-                p=Path(f)
-                if not p.is_absolute():p=ROOT/p if p.parts[0]==line else ROOT/line/p
-                entry['file']=str(p.relative_to(ROOT))
-                entry['record_exists']=p.exists()
-                if p.exists():entry['record_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
-            slots.append(entry)
-assert len(slots)==300 and len({x['slot_id'] for x in slots})==300
-now=datetime.datetime.now(datetime.timezone.utc).isoformat()
-run_state_path=ROOT/'run-state.json'
-run_state=json.loads(run_state_path.read_text())
-if run_state.get('status')=='ready_for_continuation':
-    run_state['base_ledger_updated_utc']=now
-    run_state_path.write_text(json.dumps(run_state,indent=2)+'\n')
-counts=Counter(x['status'] for x in slots)
-post_cycles=[]
-for f in sorted(ROOT.glob('post-allocation/cycle-*/cycle-ledger.json')):
-    cycle=json.loads(f.read_text())
-    cycle['ledger_file']=str(f.relative_to(ROOT))
-    post_cycles.append(cycle)
-post_attempts=sum(c.get('attempt_counts',{}).get('substantive_records',0) for c in post_cycles)
-post_complete=sum(c.get('attempt_counts',{}).get('complete_within_scope',0) for c in post_cycles)
-post_partial=sum(c.get('attempt_counts',{}).get('partial',0) for c in post_cycles)
-post_distinct=sum(c.get('attempt_counts',{}).get('distinct_new_keep_findings',0) for c in post_cycles)
-ledger={'intended_mind_change':'Preserve exact remaining obligations and distinguish recorded attempts from completed original operations.',
- 'updated_utc':now,'required_applications':300,'status_counts':dict(counts),'status_basis':'Per-line source-aware execution ledger. These are scoped reported statuses, not independent certification that every semantic edge is valid.',
- 'gosm':json.loads((ROOT/'gosm/progress.json').read_text()),'applications':slots,
- 'post_allocation_cycles':post_cycles,
- 'actual_mind_change':'Missing original requirements survive aggregation instead of disappearing behind a document count; post-allocation applications, distinct findings and later uptake are counted separately.',
- 'benefit':'Unperformed human and dependency stages remain retrievable, while continuing inquiry cannot inflate the frozen quota or discovery count.','verdict':'KEEP for this concrete accounting; no discovery credit for ordinary persistence.',
- 'organization':'Frozen skill quotas with independent execution, depth, evidence and review fields, followed by separately frozen post-allocation cycles.','next_attempts':['Resume gated original stages only when their inputs exist','Add genuinely diverse prospective cycles','Consolidate only each next group of four distinct findings']}
-integration_path=ROOT/'research/chat-integration.json'
-if integration_path.exists():
-    ledger['chat_integrations']=[json.loads(integration_path.read_text())]
-(ROOT/'Research_Ledger.json').write_text(json.dumps(ledger,indent=2))
+ROOT = Path(__file__).resolve().parent
+ARCHIVE = ROOT / 'Mind_Change_Research_Checkpoint.zip'
+MANIFEST = ROOT / 'Checkpoint_Manifest.sha256'
+PARTS = ROOT / 'checkpoint-parts'
+PART_SIZE = 524288
+EXCLUDED_DIRS = {'.git', '__pycache__', 'node_modules', 'checkpoint-parts', '.pytest_cache'}
+EXCLUDED_FILES = {ARCHIVE.name, MANIFEST.name, '.DS_Store'}
 
-mds=list((ROOT/'sources').glob('*.md'));hashes={}
-for f in mds:hashes.setdefault(hashlib.sha256(f.read_bytes()).hexdigest(),[]).append(str(f.relative_to(ROOT)))
-receipts=[]
-for f in (ROOT/'sources').glob('*.txt'):
-    t=f.read_text();m=re.search(r'original-source: skills/([^/]+)/SKILL.md',t);h=re.search(r'original-sha256: ([0-9a-f]+)',t)
-    if m and h:receipts.append({'skill_id':m.group(1),'requirements':str(f.relative_to(ROOT)),'source_sha256':h.group(1),'matching_emitted_sources':hashes.get(h.group(1),[])})
-audit={'scope':'Original reader receipt identities versus preserved emitted byte hashes. Does not certify procedure execution or findings.','receipts':receipts,'selected_skills_without_verified_source':[s['id'] for s in allocation if not any(r['skill_id']==s['id'] and r['matching_emitted_sources'] for r in receipts)]}
-(ROOT/'Source_Integrity.json').write_text(json.dumps(audit,indent=2))
-byline={line:Counter(x['status'] for x in slots if x['line']==line) for line in lines}
-table='\n'.join(['| Line | Complete in stated scope | Partial | Blocked | Pending |','| --- | ---: | ---: | ---: | ---: |']+['| '+line+' | '+' | '.join(str(byline[line][s]) for s in ['complete','partial','blocked','pending'])+' |' for line in lines])
-# Current subject views are generated separately from execution accounting.
-import sys
-sys.path.insert(0, str(ROOT / 'tools'))
-from build_mind_change import build as build_subject_views
-from checkpoint_archive import build as build_archive
-build_subject_views()
-import subprocess
-subprocess.run([sys.executable, str(ROOT / 'tools/check_mind_change.py')], check=True)
-build_archive()
-print(json.dumps({'updated_utc': now, 'applications': dict(counts),
-                  'verified_selected_source_missing': audit['selected_skills_without_verified_source']}))
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+def corpus():
+    result = {}
+    for path in sorted(ROOT.rglob('*')):
+        rel = path.relative_to(ROOT)
+        if any(p in EXCLUDED_DIRS for p in rel.parts) or rel.as_posix() in EXCLUDED_FILES:
+            continue
+        if path.is_symlink():
+            raise ValueError(f'Symlink requires explicit packaging policy: {rel}')
+        if path.is_file():
+            result[rel.as_posix()] = path.read_bytes()
+    return result
+
+def validate_ledger():
+    ledger = json.loads((ROOT / 'Research_Ledger.json').read_text())
+    entries = ledger['applications']
+    if len(entries) != 300 or len({x['slot_id'] for x in entries}) != 300:
+        raise ValueError('Frozen 300-slot allocation is not intact')
+    if +Counter(x['status'] for x in entries) != +Counter(ledger['status_counts']):
+        raise ValueError('Authoritative ledger counts disagree with entries')
+    for entry in entries:
+        name = entry.get('file')
+        if name:
+            path = ROOT / name
+            if not path.is_file():
+                raise ValueError(f'Missing application record: {name}')
+            expected = entry.get('record_sha256')
+            if expected and digest(path.read_bytes()) != expected:
+                raise ValueError(f'Application hash changed without ledger integration: {name}')
+    return ledger
+
+def render_progress(ledger):
+    counts = Counter(ledger['status_counts'])
+    post = Counter()
+    for cycle in ledger.get('post_allocation_cycles', []):
+        post.update(cycle.get('attempt_counts', {}))
+    text = '''# Progress and outstanding obligations
+
+[Changes](changes/README.md) · [Recipes](recipes/README.md) · [Inquiries](inquiries/perspective-25/README.md)
+
+Generated from the accepted [Research_Ledger.json](Research_Ledger.json). This view does not certify execution independently or infer benefit from completion. Source receipts are checked separately in [Source_Integrity.json](Source_Integrity.json).
+
+The initial obligation remains 150 distinct skills, with 50×3 + 50×2 + 50×1 = 300 applications, plus ten GOSM runs. [allocation.json](allocation.json) retains the allocation. Imported inquiries and repository maintenance do not count toward these obligations or add distinct KEEP findings.
+
+'''
+    text += f"Reported initial states: **{counts['complete']} complete within scope, {counts['partial']} partial, {counts['blocked']} blocked, {counts['pending']} pending**. GOSM: **{ledger['gosm']['completed']}/{ledger['gosm']['required']}** completed variants, with verdicts and limitations in the ledger.\n\n"
+    text += f"Post-allocation: **{post['substantive_records']} substantive attempts, {post['complete_within_scope']} complete within scope, {post['partial']} partial, {post['distinct_new_keep_findings']} distinct new KEEP findings**. Four distinct unconsolidated demonstrated KEEP findings trigger a consolidation; inspect cycle coverage before adding one.\n\n"
+    text += '| Original line | Complete | Partial | Blocked | Pending |\n| --- | ---: | ---: | ---: | ---: |\n'
+    for line in ['inquiry', 'representation', 'values', 'conditions', 'methods', 'systems']:
+        sub = Counter(x['status'] for x in ledger['applications'] if x['line'] == line)
+        text += f"| [{line}]({line}/application-ledger.json) | {sub['complete']} | {sub['partial']} | {sub['blocked']} | {sub['pending']} |\n"
+    text += '\n## Exact unfinished stages\n\nResume a stage when its required input or capability becomes available. Do other substantive work while unavailable stages remain gated. Preserve prior execution and its limitations.\n\n| Slot | Status | Record | Remaining requirements as recorded |\n| --- | --- | --- | --- |\n'
+    for entry in ledger['applications']:
+        if entry['status'] == 'complete':
+            continue
+        missing = entry.get('missing_requirements', [])
+        if not isinstance(missing, list):
+            missing = [missing]
+        note = '; '.join(str(v) for v in missing).replace('|', '\\|').replace('\n', ' ')
+        name = entry.get('file')
+        link = f'[record]({name})' if name else 'No record'
+        text += f"| {entry['slot_id']} | {entry['status']} | {link} | {note} |\n"
+    text += '\nThis page is generated by checkpoint.py. Current conceptual entry points and active instructions are separately authored and never overwritten by the package builder. Read [run-state.json](run-state.json) before claiming shared work.\n'
+    (ROOT / 'progress.md').write_text(text)
+
+def manifest_bytes(files):
+    return ''.join(f'{digest(data)}  {name}\n' for name, data in files.items()).encode()
+
+def check():
+    validate_ledger()
+    files = corpus()
+    expected_manifest = manifest_bytes(files)
+    if MANIFEST.read_bytes() != expected_manifest:
+        raise ValueError('Manifest does not match current corpus')
+    meta = json.loads((PARTS / 'metadata.json').read_text())
+    compat = json.loads((PARTS / 'manifest.json').read_text())
+    if (compat['sha256'] != meta['archive_sha256'] or
+            compat['file_count'] != meta['archive_entries'] or compat['parts'] != meta['parts']):
+        raise ValueError('Compatibility transport metadata differs from current metadata')
+    if sorted(p.name for p in PARTS.glob('part-[0-9][0-9][0-9]')) != [p['name'] for p in meta['parts']]:
+        raise ValueError('Unexpected or missing transport part')
+    chunks = []
+    for part in meta['parts']:
+        data = (PARTS / part['name']).read_bytes()
+        if len(data) != part['bytes'] or digest(data) != part['sha256']:
+            raise ValueError(f"Invalid transport part: {part['name']}")
+        chunks.append(data)
+    data = b''.join(chunks)
+    if len(data) != meta['archive_bytes'] or digest(data) != meta['archive_sha256']:
+        raise ValueError('Reassembled archive differs from metadata')
+    if ARCHIVE.exists() and ARCHIVE.read_bytes() != data:
+        raise ValueError('Local archive differs from transport parts')
+    with zipfile.ZipFile(io.BytesIO(data)) as archive:
+        wanted = set(files) | {MANIFEST.name}
+        if len(archive.namelist()) != len(wanted) or set(archive.namelist()) != wanted:
+            raise ValueError('Archive paths differ from corpus plus manifest')
+        for name, content in files.items():
+            if archive.read(name) != content:
+                raise ValueError(f'Archive content mismatch: {name}')
+        if archive.read(MANIFEST.name) != expected_manifest:
+            raise ValueError('Archived manifest mismatch')
+    return {'corpus_files': len(files), 'archive_entries': len(files) + 1, 'parts': len(chunks), 'archive_sha256': digest(data)}
+
+def build():
+    # Preserve the concurrently accepted inventory and its executable checks.
+    # Neither this generator nor the inventory builder changes research status.
+    sys.path.insert(0, str(ROOT / 'tools'))
+    from build_mind_change import build as build_subject_views
+    build_subject_views()
+    checked = subprocess.run([sys.executable, str(ROOT / 'tools/check_mind_change.py')],
+                             cwd=ROOT, capture_output=True, text=True)
+    if checked.returncode:
+        raise ValueError('Inventory validation failed: ' + checked.stdout + checked.stderr)
+    render_progress(validate_ledger())
+    files = corpus()
+    manifest = manifest_bytes(files)
+    MANIFEST.write_bytes(manifest)
+    with zipfile.ZipFile(ARCHIVE, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for name, data in [*files.items(), (MANIFEST.name, manifest)]:
+            item = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+            item.compress_type = zipfile.ZIP_DEFLATED
+            item.external_attr = 0o100644 << 16
+            archive.writestr(item, data, compresslevel=9)
+    data = ARCHIVE.read_bytes()
+    PARTS.mkdir(exist_ok=True)
+    entries = []
+    for i, start in enumerate(range(0, len(data), PART_SIZE)):
+        name = f'part-{i:03d}'
+        chunk = data[start:start + PART_SIZE]
+        (PARTS / name).write_bytes(chunk)
+        entries.append({'name': name, 'bytes': len(chunk), 'sha256': digest(chunk)})
+    desired = {p['name'] for p in entries}
+    for path in PARTS.glob('part-[0-9][0-9][0-9]'):
+        if path.name not in desired:
+            path.unlink()
+    metadata = {'archive': ARCHIVE.name, 'archive_sha256': digest(data), 'archive_bytes': len(data), 'corpus_files': len(files), 'archive_entries': len(files) + 1, 'part_size': PART_SIZE, 'parts': entries, 'exclusions': 'Transport directory, generated archive, manifest self-entry, .git and runtime caches; all other corpus bytes including empty and binary files are preserved.'}
+    (PARTS / 'metadata.json').write_text(json.dumps(metadata, indent=2) + '\n')
+    compatibility = {'archive': ARCHIVE.name, 'sha256': digest(data),
+                     'file_count': len(files) + 1, 'parts': entries}
+    (PARTS / 'manifest.json').write_text(json.dumps(compatibility, indent=2) + '\n')
+    return check()
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true')
+    args = parser.parse_args()
+    print(json.dumps(check() if args.check else build(), indent=2))

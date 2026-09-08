@@ -1,0 +1,76 @@
+{
+  "archive": "Mind_Change_Research_Checkpoint.zip",
+  "archive_sha256": "5d8d1c25375117c9f85ce44b1e7227463cabf6627372121c7c29ea232b039e94",
+  "archive_bytes": 6592846,
+  "corpus_files": 1804,
+  "archive_entries": 1805,
+  "part_size": 524288,
+  "parts": [
+    {
+      "name": "part-000",
+      "bytes": 524288,
+      "sha256": "e6f2e10a10f3e37318861fe6c3a3debfcf8e5212cf697624b9011733409f03e2"
+    },
+    {
+      "name": "part-001",
+      "bytes": 524288,
+      "sha256": "9fc17d28e1f379623c8dfe9bf4abf3e5729a9e1ddd7f675711071c69f5e0761a"
+    },
+    {
+      "name": "part-002",
+      "bytes": 524288,
+      "sha256": "74939b6dcb530f3ae0bfda52ae4ee2f56fc051e9bb521173d7bdc98045b8756e"
+    },
+    {
+      "name": "part-003",
+      "bytes": 524288,
+      "sha256": "60362cdfdfba9a8c8a07aed35dbe5531487dd406070d92e2b74c54e08cdeb3c9"
+    },
+    {
+      "name": "part-004",
+      "bytes": 524288,
+      "sha256": "b0dc0d8a8ddd05f872dc02d35bfa2c5652915423e3af7bcf9d3d8de815d76e5c"
+    },
+    {
+      "name": "part-005",
+      "bytes": 524288,
+      "sha256": "a577084fc5ab6999dd3874c5b63e970e5bf24b07d28ecab63bd3adfcd290cf21"
+    },
+    {
+      "name": "part-006",
+      "bytes": 524288,
+      "sha256": "b4f36c354982810f7fdf409f1f1c965fe48504500fd75b2ad3bfeda91bb8283f"
+    },
+    {
+      "name": "part-007",
+      "bytes": 524288,
+      "sha256": "475643a3d346a72eb9a18d42302ee2c2827b1a1d01db82bc5589c4b3673376f1"
+    },
+    {
+      "name": "part-008",
+      "bytes": 524288,
+      "sha256": "bedd623041b41b7cc501882d41726be7c7af0577b2d40ba6401c4f4c851f56c9"
+    },
+    {
+      "name": "part-009",
+      "bytes": 524288,
+      "sha256": "a618fe048513880eb5fa239e2c8a17568bba6be14c40e3e5c72060da93ba524e"
+    },
+    {
+      "name": "part-010",
+      "bytes": 524288,
+      "sha256": "154ee652993c0ca898ddc14c52a6cbfe3120213db499c3179273a6b3b86bc937"
+    },
+    {
+      "name": "part-011",
+      "bytes": 524288,
+      "sha256": "dfd5b1c4b8e13af64f4781172df47e96112bcceb904ffc6e9d82fb5f585d0813"
+    },
+    {
+      "name": "part-012",
+      "bytes": 301390,
+      "sha256": "63a636876367002ee8e536a51e16ae5c49e8ce8d11be18c9a47eeb5c1a8882b5"
+    }
+  ],
+  "exclusions": "Transport directory, generated archive, manifest self-entry, .git and runtime caches; all other corpus bytes including empty and binary files are preserved."
+}

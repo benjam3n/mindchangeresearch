@@ -1,9 +1,13 @@
-# Complete research checkpoint
+# Complete checkpoint recovery
 
-The numbered parts reconstruct the complete current corpus, including original sources, receipts, ledgers, rejected and unresolved records, chat material, current subject views, and generators.
+The `part-NNN` files are consecutive binary pieces of the complete research checkpoint. [metadata.json](metadata.json) gives the exact count, sizes, per-part hashes, aggregate archive hash and corpus count for this version.
 
-Run `python3 checkpoint-parts/reassemble.py` from the repository root. The command verifies every part, the complete ZIP, every archived file hash, and archive coverage.
+From the repository root, run:
 
-Archive SHA-256: `de280269cfb40b8eadcafa8b6a4b8c35d1d9ed5928e2ac7d662733f443110ff1`. Files: 1732. [Exact part specification](manifest.json).
+```bash
+python checkpoint-parts/reassemble.py
+```
 
-Checkpoint parts and their transport metadata are outside the corpus to prevent recursive packaging. The reconstruction program is also preserved as `tools/reassemble_checkpoint.py` inside the archive. A checkpoint preserves work without changing its evidential standing.
+The script verifies every part, the joined archive, every corpus file against the archived manifest, and the archive's exact path set before writing `Mind_Change_Research_Checkpoint.zip`. All research files are also available as native repository paths.
+
+Rebuild the complete accepted checkpoint with `python checkpoint.py`; validate it with `python checkpoint.py --check`. Commit parts and metadata together with the corresponding corpus changes. The transport directory is excluded from the archive to prevent recursive packaging; its integrity is checked separately. See [repository-sync.md](../repository-sync.md).

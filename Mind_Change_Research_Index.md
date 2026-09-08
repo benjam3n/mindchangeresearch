@@ -1,12 +1,22 @@
-# Mind Change Research
+# Research index
 
-| Present need | Relevant material |
-|---|---|
-| Identify what can change and what directly contributes | [Target families](mind-change/targets.md), [functional AI changes](mind-change/ai.md), [contributor evidence](mind-change/evidence.md) |
-| Turn a contributor into a usable operation | [Contribution construction](mind-change/contribution-construction.md), [required subject systems](mind-change/subject-systems.md) |
-| Change access, order, connection, or use of something already available | [Forms of change](mind-change/relations.md), [perspective construction](mind-change/perspective-construction.md), [reusable findings](mind-change/findings.md) |
-| Improve the process that produces later changes | [Recursive improvement](mind-change/recursive-improvement.md), [correction system](mind-change/subject-systems.md) |
-| Correct the project’s interpretation and organization | [Intent audit](research/intent-audit.md), [chat integration](research/chat-integration.md) |
-| Continue a required investigation or inspect its evidence | [Execution accounting](research/status.md), [ledger](Research_Ledger.json), [working instruction](working-instruction.md) |
+Choose an entrance according to what has become relevant; the available entrances can themselves change.
 
-The [definition](mind-change/definition.md) preserves the user’s breadth and benefit criterion. The current target map contains candidate relationships; recipes, performed operations, observed effects, and retained improvements have separate standing. Historical records and exact source receipts remain in the [complete checkpoint](checkpoint-parts/README.md).
+- [Detailed target and contributor inventory](mind-change/targets.md), [functional AI changes](mind-change/ai.md) and [contributor evidence](mind-change/evidence.md)
+- [Contribution construction](mind-change/contribution-construction.md) and [required Subject Systems](mind-change/subject-systems.md)
+- [Forms of change](mind-change/relations.md), [perspective constructions](mind-change/perspective-construction.md), [reusable findings](mind-change/findings.md) and [recursive improvement](mind-change/recursive-improvement.md)
+- [Changes and open gaps](changes/README.md)
+- [Usable routes and worked cases](recipes/README.md)
+- [All 25 inquiries](inquiries/perspective-25/README.md)
+- [Full source investigation](sources/perspective-inquiries-25/Perspective_Inquiries_25.md)
+- [Cross-inquiry consequences and concluding method](inquiries/perspective-25/cross-inquiry-and-method.md)
+- [What the research misread and how it is repaired](reviews/2026-09-08-intent-and-organization.md)
+- [Current intent](intent.md)
+- [Exact progress, source integrity and outstanding obligations](progress.md)
+- [Integration and verification record](studies/2026-09-08-perspective-integration.md)
+
+Historical chronological selection views remain in [root consolidations](consolidations/root-01.md), [cycle 1](post-allocation/cycle-01/consolidation-01-transition-gates.md), [cycle 2](post-allocation/cycle-02/consolidation-02-query-evidence-card.md), and [cycle 3](post-allocation/cycle-03/consolidation-03-recipe-compiler.md). Their scopes and original evidence remain attached. The [reviewed earlier index](sources/repository-review-2026-09-08/Mind_Change_Research_Index.md) is preserved as historical text; its old scratch links are not current navigation.
+
+[Working instruction](working-instruction.md) · [Research prompt](methods/improved-research-prompt.txt) · [Source import](sources/perspective-inquiries-25/README.md)
+
+The [contributor-inventory intent audit](research/intent-audit.md) and [its integration record](research/chat-integration.md) arrived in concurrent commit c419b119 and are preserved alongside the 25-inquiry review. [Research status](research/status.md) provides its corresponding accounting view.

@@ -1,0 +1,65 @@
+{
+  "imported_artifacts_verified": 10,
+  "inquiries": 25,
+  "options": 373,
+  "current_navigation_links_checked": 322,
+  "application_records_hash_verified": 300,
+  "worked_cases": [
+    "copied/independent evidence",
+    "timing policy regions and ties",
+    "equal totals/different overlap",
+    "criterion-dependent rankings"
+  ],
+  "scope": "Source, navigation, accounting and finite calculations; no human-effect or general-perfection certification",
+  "baseline_remote_commit": "07e6af64c65fb682305659b2ec830e21743c0f15",
+  "baseline_native_tree": "6e1d25527b4974a70a5532c06ecb41d47c020380",
+  "checkpoint_source_sha256": "7ba425b197be8d38ba9715873464dd0ba2eca43e2da3aeb985ab5ffda83fba6b",
+  "checkpoint_source_files": 1465,
+  "checkpoint_files_preserved_byte_for_byte": 1451,
+  "checkpoint_paths_with_current_controls_manifest_or_concurrent_annotations": [
+    "Checkpoint_Manifest.sha256",
+    "Mind_Change_Research_Index.md",
+    "README.md",
+    "Research_Ledger.json",
+    "automation-prompt.txt",
+    "checkpoint.py",
+    "methods/improved-research-prompt.txt",
+    "post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
+    "post-allocation/cycle-03/consolidation-03-recipe-compiler.md",
+    "post-allocation/cycle-03/cycle-ledger.json",
+    "post-allocation/cycle-03/integration-review.md",
+    "repository-sync.md",
+    "run-state.json",
+    "working-instruction.md"
+  ],
+  "missing_baseline_files": [],
+  "concurrent_parent_commit": "c419b119ba8a18258ef55a97da02d158e543b0fa",
+  "concurrent_native_tree": "0b0c11fabb5a2ed190e3fc37b3005f9c6e34fab1",
+  "native_authoritative_files_preserved_byte_for_byte_from_concurrent_parent": [
+    "Research_Ledger.json",
+    "Source_Integrity.json",
+    "allocation.json",
+    "run-state.json"
+  ],
+  "concurrent_inventory": {
+    "targets": 616,
+    "families": 62,
+    "source_files_hash_verified": 169,
+    "canonical_subject_references_verified": 31,
+    "probe_replay": "five finite result groups passed"
+  },
+  "counts_unchanged": {
+    "initial": {
+      "complete": 233,
+      "partial": 66,
+      "blocked": 1,
+      "pending": 0
+    },
+    "gosm_completed": 10,
+    "post_allocation_attempts": 29,
+    "distinct_post_allocation_keeps": 12
+  },
+  "research_credit_from_this_import": 0,
+  "archive_check": "Run python checkpoint.py --check; archive hash lives in checkpoint-parts/metadata.json to avoid self-reference.",
+  "live_automation_configuration": "not inspected or edited"
+}

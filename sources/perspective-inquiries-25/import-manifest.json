@@ -1,0 +1,67 @@
+{
+  "import_date": "2026-09-08",
+  "origin": "Files produced in the preceding conversation turn",
+  "status": "philosophical investigation and scoped arguments; not observed human effects or original-skill completion",
+  "files": [
+    {
+      "path": "Perspective_Inquiries_25.md",
+      "sha256": "711872cf23704315727efffa65ffd1f77e52f7092525fe2427b01a0c446dfb31",
+      "bytes": 277777,
+      "role": "canonical delivered investigation"
+    },
+    {
+      "path": "authority_and_completion_final.md",
+      "sha256": "36e1ca8c37227ff235f4cfddb94ddbe03a4bb629c1968ed151ef8fbbe5987244",
+      "bytes": 23412,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "authority_and_completion_review.md",
+      "sha256": "a551d0b8774d2cb584d1862ba202f9fb4e2d0f2102bbbad5acff98f97adaf0c0",
+      "bytes": 26097,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "cross_inquiry_derivations.md",
+      "sha256": "4210858c1d0aca6d98b1372a08551a84d2a31256182d99db120bd14acacb57c3",
+      "bytes": 15237,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiries_01_05.md",
+      "sha256": "8b5dacb764f365df059ffea15135e6612a0caa9f4869e891fd54e30d17bc09f4",
+      "bytes": 51436,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiries_06_10.md",
+      "sha256": "2d88ac767acc4b7a0e56b0eb3381fefd9b7c91ee43d32448303bc51efd806db1",
+      "bytes": 44178,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiries_11_15.md",
+      "sha256": "23b348bb39df3c2eccb8e2af7fa83a71fdcb327c697bcaaf0d0794ea249cce4c",
+      "bytes": 48812,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiries_16_20.md",
+      "sha256": "4b2c1a065e6f6f55c4ec850e95f7551347d72c396295e71cb080242419df47b0",
+      "bytes": 40619,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiries_21_25.md",
+      "sha256": "f2bed6792f4f3d43dd228311ec7f5c1e68667bf2d18f5e200cbac0109de04b0f",
+      "bytes": 51379,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    },
+    {
+      "path": "inquiry_opening.md",
+      "sha256": "54e5940d18077da8d28faa30fbd864107c3fa4d3bc541bc12b741a5bdf4ada77",
+      "bytes": 2360,
+      "role": "preserved contributing draft; canonical investigation governs its delivered interpretation"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Source snapshot for the intent review. Native controls are from remote commit 07e6af64c65fb682305659b2ec830e21743c0f15. checkpoint.py was recovered from the verified checkpoint archive with SHA-256 7ba425b197be8d38ba9715873464dd0ba2eca43e2da3aeb985ab5ffda83fba6b. These files are historical evidence, not active instructions.
