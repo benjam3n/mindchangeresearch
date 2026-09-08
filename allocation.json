@@ -1,0 +1,1556 @@
+{
+  "version": 1,
+  "selection": "Provisional contextual portfolio; full qualitative scoring and later ranking corrections are recorded separately.",
+  "skills": [
+    {
+      "rank": 1,
+      "id": "ar",
+      "title": "Assume Right Search",
+      "description": "Assume Right - Deep recursive rightness search. For every claim, assume it's right — find what must follow, then assume THOSE implications are right too. Recurse until bedrock. Track every claim found.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 2,
+      "id": "aex",
+      "title": "Assumption Extraction",
+      "description": "Extract hidden assumptions from any content. Surfaces what must be true for claims to hold, enabling deeper analysis.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 3,
+      "id": "dd",
+      "title": "Dimension Discovery",
+      "description": "Identify the key dimensions that define a problem space, enabling comprehensive enumeration. Use before space_enumeration for novel domains.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 4,
+      "id": "se",
+      "title": "Space Enumeration",
+      "description": "Generate comprehensive lists by systematically covering all dimensions. Ensures nothing is missed through structured enumeration.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 5,
+      "id": "spd",
+      "title": "Space Discovery",
+      "description": "Discover what space exists BEFORE generating guesses. Maps dimensions, stakeholders, time horizons, and adjacent spaces. Run this before guess_generation to ensure comprehensive coverage.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": "Search Methods",
+      "invokes": [
+        "gg"
+      ]
+    },
+    {
+      "rank": 6,
+      "id": "u",
+      "title": "Universalize",
+      "description": "Universalize - Extract the complete space of assumptions, dimensions, and alternatives from any claim. Map before you judge. Track every finding.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 7,
+      "id": "ipss",
+      "title": "Interpretation Space Search",
+      "description": "Ambiguity means multiple interpretations are possible.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": "Search Methods",
+      "invokes": []
+    },
+    {
+      "rank": 8,
+      "id": "mss",
+      "title": "Model Space Search",
+      "description": "Understanding = finding a model that fits.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": "Search Methods",
+      "invokes": []
+    },
+    {
+      "rank": 9,
+      "id": "frq",
+      "title": "Find Right Question",
+      "description": "Find the right question to ask by diagnosing your actual situation and generating the most actionable question.",
+      "line": "inquiry",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 10,
+      "id": "orgn",
+      "title": "Organization Analysis",
+      "description": "Analyzes at the organizational level. Identifies structure, incentives, culture, resources, and processes to find where the org helps or hinders a goal.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 11,
+      "id": "sim",
+      "title": "Simplification",
+      "description": "Takes any complex thing (plan, explanation, process, argument) and strips it to its essential core without losing meaning.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 12,
+      "id": "ro",
+      "title": "Reorder a List Expertly",
+      "description": "Reorder an existing list using an explicit objective, multi-dimensional scoring, dependency awareness, and sanity checks — producing a defensible best-to-worst order with confidence flags.",
+      "line": "representation",
+      "applications": 3,
+      "category": "List & Pattern",
+      "invokes": []
+    },
+    {
+      "rank": 13,
+      "id": "wre",
+      "title": "Writing Requirements Engineering",
+      "description": "Derive writing requirements before drafting. Builds a multi-stage requirements object: artifact definition, thesis object, technical requirements, philosophical requirements, expansion requirements, outline requirements, exclusions, traceability, and draft gate.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 14,
+      "id": "w",
+      "title": "High Quality Writing",
+      "description": "Generative writing tool. Criteria-based specification for satisfying prose. Organized hierarchically — upstream criteria determine whether writing works; downstream criteria determine how well.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 15,
+      "id": "alt",
+      "title": "Abstraction Level",
+      "description": "Choose the right level of abstraction for understanding, deciding, executing, communicating, or creating. Zoom in, zoom out, or reframe.",
+      "line": "representation",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 16,
+      "id": "ma",
+      "title": "Morphological Analysis (Morphological Box)",
+      "description": "Invented by Fritz Zwicky. Break a problem into independent dimensions,",
+      "line": "representation",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 17,
+      "id": "ctcov",
+      "title": "Cognitive Coverage Analysis",
+      "description": "Assess whether a system covers all types of thinking. Identifies gaps across cognitive dimensions and recommends additions.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Skill Improvement",
+      "invokes": []
+    },
+    {
+      "rank": 18,
+      "id": "difr",
+      "title": "Differentiation Reasoning",
+      "description": "Reason about what makes things different by identifying similarities first, then classifying differences by significance and contextual relevance.",
+      "line": "representation",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 19,
+      "id": "vcl",
+      "title": "Value Clarification",
+      "description": "Discover what you actually value — not what you think you value — by examining behavior, trade-offs, and revealed preferences.",
+      "line": "values",
+      "applications": 3,
+      "category": "Ethics & Values",
+      "invokes": []
+    },
+    {
+      "rank": 20,
+      "id": "ve",
+      "title": "Value Elicitation",
+      "description": "Value elicitation discovers what someone ACTUALLY values - their intrinsic goals.",
+      "line": "values",
+      "applications": 3,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 21,
+      "id": "vcd",
+      "title": "Value Conflict Decomposition",
+      "description": "Goals often serve multiple intrinsic values that conflict with each other.",
+      "line": "values",
+      "applications": 3,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 22,
+      "id": "pre",
+      "title": "Preference Elicitation",
+      "description": "Elicit user preferences by presenting concrete trade-offs rather than asking open-ended questions. System does the work by generating options and letting user select.",
+      "line": "values",
+      "applications": 3,
+      "category": "Questions & Analysis",
+      "invokes": [
+        "boc"
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "grfr",
+      "title": "Goal Reframing Procedure",
+      "description": "Transform impossible or problematic goals into achievable versions. No such thing as an impossible goal - only insufficient decomposition. Includes explicit substitution handling.",
+      "line": "values",
+      "applications": 3,
+      "category": "Goal Processing",
+      "invokes": [
+        "ve"
+      ]
+    },
+    {
+      "rank": 24,
+      "id": "funr",
+      "title": "Fun/Exploration Reasoning",
+      "description": "Reason about what's interesting, playful, or worth exploring for its own sake. Follow curiosity threads, note unexpected connections, and assess what exploration reveals.",
+      "line": "values",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 25,
+      "id": "mp",
+      "title": "Motivation Psychology Orderings",
+      "description": "Orderings that account for human psychological factors — energy, motivation, habits, and engagement for sustainable performance.",
+      "line": "values",
+      "applications": 3,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 26,
+      "id": "trust",
+      "title": "Trust Analysis",
+      "description": "Assess trust dynamics — who trusts whom, on what dimensions (competence, integrity, benevolence), what would build or erode trust, and how trust asymmetries create organizational dysfunction.",
+      "line": "values",
+      "applications": 3,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 27,
+      "id": "td",
+      "title": "Temporal/Deadline Orderings",
+      "description": "Orderings driven by temporal constraints, deadlines, and timing requirements.",
+      "line": "conditions",
+      "applications": 3,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 28,
+      "id": "rso",
+      "title": "Resource Optimization Orderings",
+      "description": "Orderings for maximizing throughput, minimizing waste, and efficient resource utilization.",
+      "line": "conditions",
+      "applications": 3,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 29,
+      "id": "ecal",
+      "title": "Effort Calibration",
+      "description": "Determine how much thinking to invest in a decision. Maps stakes, reversibility, and diminishing returns to effort levels (minimum, standard, maximum).",
+      "line": "conditions",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 30,
+      "id": "kta",
+      "title": "Knowledge to Action",
+      "description": "Convert knowledge into action by diagnosing what actually blocks execution: unclear steps, activation energy, competing commitments, emotional barriers, or identity conflicts.",
+      "line": "conditions",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 31,
+      "id": "de",
+      "title": "Dependency Extraction",
+      "description": "Extract dependencies between steps, tasks, or items. Identifies what must happen before what, enabling proper sequencing and parallel execution.",
+      "line": "conditions",
+      "applications": 3,
+      "category": "Planning & Projects",
+      "invokes": []
+    },
+    {
+      "rank": 32,
+      "id": "to",
+      "title": "Topological Ordering",
+      "description": "Generate valid execution sequences from dependencies. Respects hard constraints, optimizes for priorities, and identifies parallel execution opportunities.",
+      "line": "conditions",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 33,
+      "id": "lt",
+      "title": "Learning Transfer",
+      "description": "Apply knowledge and skills from one domain to new contexts through systematic transfer strategies",
+      "line": "conditions",
+      "applications": 3,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 34,
+      "id": "memy",
+      "title": "Memory & Retention",
+      "description": "Systematic approach to remembering what matters. Decides what's worth encoding, selects strategies, creates retrieval cues, and builds connective knowledge structures.",
+      "line": "conditions",
+      "applications": 3,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 35,
+      "id": "sp",
+      "title": "Steelman Prompt",
+      "description": "Improves a prompt before it gets answered. Adds precision, scope, criteria, skill routing, and failure-proofing without answering the question.",
+      "line": "methods",
+      "applications": 3,
+      "category": null,
+      "invokes": [
+        "wsib",
+        "itp",
+        "extract"
+      ]
+    },
+    {
+      "rank": 36,
+      "id": "given",
+      "title": "Rank Skills by ROI for a Given Goal",
+      "description": "Given a goal, rank relevant skills from highest to lowest expected ROI, including negative-ROI skills with reasons.",
+      "line": "methods",
+      "applications": 3,
+      "category": "Skill Routing",
+      "invokes": []
+    },
+    {
+      "rank": 37,
+      "id": "wsib",
+      "title": "What Skill Is Best",
+      "description": "Choose the single best skill to run RIGHT NOW for a prompt, with confidence calibration, runner-up comparison, and fallback if first choice fails.",
+      "line": "methods",
+      "applications": 3,
+      "category": "Skill Routing",
+      "invokes": [
+        "skill"
+      ]
+    },
+    {
+      "rank": 38,
+      "id": "mrc",
+      "title": "Meta-Reasoning Core",
+      "description": "Three core metacognitive questions. What am I trying to achieve? Is this the best way? Am I making progress?",
+      "line": "methods",
+      "applications": 3,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 39,
+      "id": "mtcg",
+      "title": "Metacognition",
+      "description": "Thinking about your own thinking. Observes your current cognitive strategy, assesses whether it's working, checks for active biases, and decides whether to continue or switch approaches.",
+      "line": "methods",
+      "applications": 3,
+      "category": "Metacognition",
+      "invokes": []
+    },
+    {
+      "rank": 40,
+      "id": "pbtc",
+      "title": "Pre-Baked Thesis Check",
+      "description": "Detect when reasoning is working backwards from a predetermined conclusion. Surfaces the signs that the 'analysis' is actually a case built to support a thesis that was chosen before the evidence was examined.",
+      "line": "methods",
+      "applications": 3,
+      "category": null,
+      "invokes": [
+        "araw",
+        "aex",
+        "sdc",
+        "se",
+        "claim"
+      ]
+    },
+    {
+      "rank": 41,
+      "id": "unx",
+      "title": "Unexpected - Non-Obvious Solution Discovery",
+      "description": "Find non-obvious solutions. Three layers — obvious, unexpected, reframed — using disruption techniques that force the search off its default path.",
+      "line": "methods",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 42,
+      "id": "foht",
+      "title": "Figure Out How To",
+      "description": "Figure Out How To - Method discovery when you know WHAT but not HOW. Systematically map the method space, test candidates, and find approaches that survive scrutiny.",
+      "line": "methods",
+      "applications": 3,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 43,
+      "id": "gjs",
+      "title": "Goal Journey System",
+      "description": "A goal journey is NOT a narrative arc. It's a CHAIN OF GOALS. Integration hub for GOSM goal processing.",
+      "line": "systems",
+      "applications": 3,
+      "category": "Goal Processing",
+      "invokes": [
+        "araw",
+        "ve",
+        "emv"
+      ]
+    },
+    {
+      "rank": 44,
+      "id": "fut",
+      "title": "Future Analysis",
+      "description": "Systematically explore what the future looks like for any trend, technology, decision, or domain across multiple timeframes.",
+      "line": "systems",
+      "applications": 3,
+      "category": "Strategy & Planning",
+      "invokes": []
+    },
+    {
+      "rank": 45,
+      "id": "gd",
+      "title": "Goal Decomposition Methodology",
+      "description": "A methodology for decomposing abstract goals into specific, actionable components. Includes clarification vs substitution verification.",
+      "line": "systems",
+      "applications": 3,
+      "category": "Goal Processing",
+      "invokes": []
+    },
+    {
+      "rank": 46,
+      "id": "gsr",
+      "title": "Goal-Structure Reconstruction",
+      "description": "Given any conclusion, statement, or claim, reconstruct the goal-structure. Includes detection of goal drift and substitution in chains.",
+      "line": "systems",
+      "applications": 3,
+      "category": "Goal Processing",
+      "invokes": []
+    },
+    {
+      "rank": 47,
+      "id": "grf",
+      "title": "Goal Refinement",
+      "description": "Transform vague or incomplete goals into SMART goals with explicit clarification vs substitution distinction",
+      "line": "systems",
+      "applications": 3,
+      "category": "Goal Processing",
+      "invokes": []
+    },
+    {
+      "rank": 48,
+      "id": "lpd",
+      "title": "Leverage Point Discovery (Arbitrage & System Insertion)",
+      "description": "Most valuable strategies exploit leverage points - places where small",
+      "line": "systems",
+      "applications": 3,
+      "category": "Diagnosis & Recovery",
+      "invokes": []
+    },
+    {
+      "rank": 49,
+      "id": "sysarch",
+      "title": "System Architecture Design",
+      "description": "Design system architecture from requirements by decomposing into subsystems, defining interfaces, evaluating candidate architectures against quality attributes, and documenting architectural views (functional, physical, behavioral).",
+      "line": "systems",
+      "applications": 3,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 50,
+      "id": "ltai",
+      "title": "Long-Term AI Orchestration",
+      "description": "Plan for AI-agent coordination and autonomous operation. Design handoff protocols, error recovery, and human oversight.",
+      "line": "systems",
+      "applications": 3,
+      "category": "AI & Automation",
+      "invokes": []
+    },
+    {
+      "rank": 51,
+      "id": "ifss",
+      "title": "Inference Space Search",
+      "description": "Information implies other information. But not all inferences are equal:",
+      "line": "inquiry",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 52,
+      "id": "qaf",
+      "title": "Question Analysis Framework",
+      "description": "This framework provides methods for analyzing questions to determine:",
+      "line": "inquiry",
+      "applications": 2,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 53,
+      "id": "qr",
+      "title": "Question Route",
+      "description": "Map any question to the nearest node in the 438-question graph, show connected questions by route type, and suggest reasoning skills that match.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": "Research & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 54,
+      "id": "ael",
+      "title": "Assumption Elimination",
+      "description": "Before asserting anything, verify it can be confirmed by the listener.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": "Assumptions & Critique",
+      "invokes": []
+    },
+    {
+      "rank": 55,
+      "id": "fctl",
+      "title": "Factual Claim Testing",
+      "description": "Test whether a factual claim is true. Assess evidence quality, check for common errors, and deliver a verdict with confidence level.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": "Claim Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 56,
+      "id": "cscl",
+      "title": "Causal Claim Analysis",
+      "description": "Test whether X actually causes Y. Check confounders, mechanisms, temporal ordering, and counterfactuals.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": "Claim Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 57,
+      "id": "rci",
+      "title": "Recursive Causal Interrogation",
+      "description": "A systematic approach to reasoning: tracing causes through questioning.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 58,
+      "id": "rca",
+      "title": "Root Cause Analysis",
+      "description": "Systematically trace symptoms back to their underlying root causes using structured diagnostic techniques. Supports context-adaptive variants.",
+      "line": "inquiry",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 59,
+      "id": "op",
+      "title": "Order Procedure",
+      "description": "Determine the correct execution order for a set of steps based on dependencies and constraints",
+      "line": "representation",
+      "applications": 2,
+      "category": "Planning & Projects",
+      "invokes": []
+    },
+    {
+      "rank": 60,
+      "id": "cn",
+      "title": "Communication Narrative Orderings",
+      "description": "Orderings for presentations, writing, and communication where sequence affects audience engagement and comprehension.",
+      "line": "representation",
+      "applications": 2,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 61,
+      "id": "draft",
+      "title": "Draft and Revise",
+      "description": "Structured drafting with revision cycles. First draft captures structure, second draft fixes logic, third draft polishes prose. Each revision has specific criteria. Prevents the common failure of trying to write perfectly on the first pass.",
+      "line": "representation",
+      "applications": 2,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 62,
+      "id": "re",
+      "title": "Reading Effectively",
+      "description": "Read strategically for comprehension, retention, and application using research-backed techniques",
+      "line": "representation",
+      "applications": 2,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 63,
+      "id": "anag",
+      "title": "Analogy Generation",
+      "description": "Explains concept X in terms of familiar concept Y by mapping structural correspondence, then testing where the analogy breaks.",
+      "line": "representation",
+      "applications": 2,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 64,
+      "id": "cda",
+      "title": "Cross-Domain Analogy",
+      "description": "Find analogies from other domains to generate novel insights. Transfer solutions and patterns across fields.",
+      "line": "representation",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 65,
+      "id": "categorize",
+      "title": "Categorize",
+      "description": "Organize items, files, folders, or output into discovered categories. Discovers dimensions from the data itself, not from theory. Handles large inputs by sampling.",
+      "line": "representation",
+      "applications": 2,
+      "category": null,
+      "invokes": [
+        "gg"
+      ]
+    },
+    {
+      "rank": 66,
+      "id": "txm",
+      "title": "Taxonomy Maintenance",
+      "description": "Systematic process for creating, updating, and maintaining taxonomies and classification systems.",
+      "line": "representation",
+      "applications": 2,
+      "category": "Procedures & Meta",
+      "invokes": []
+    },
+    {
+      "rank": 67,
+      "id": "gu",
+      "title": "Goal Understanding Pre-Processor",
+      "description": "MANDATORY first step before attempting any goal. Parses input as guesses, classifies OPEN vs CLOSED, fills goal journey structure. Includes clarification vs substitution check.",
+      "line": "values",
+      "applications": 2,
+      "category": null,
+      "invokes": [
+        "araw",
+        "ve",
+        "pbi",
+        "cmp",
+        "gjs"
+      ]
+    },
+    {
+      "rank": 68,
+      "id": "ig",
+      "title": "Intuition Goals",
+      "description": "Handle goals driven by intuition rather than explicit reasoning — validate the intuition, find the underlying pattern, convert to actionable goal.",
+      "line": "values",
+      "applications": 2,
+      "category": "Goal Type Handlers",
+      "invokes": [
+        "ar",
+        "exd"
+      ]
+    },
+    {
+      "rank": 69,
+      "id": "eg",
+      "title": "Exploratory Goals",
+      "description": "Handle goals where the objective is exploration and discovery rather than reaching a known destination.",
+      "line": "values",
+      "applications": 2,
+      "category": "Goal Type Handlers",
+      "invokes": []
+    },
+    {
+      "rank": 70,
+      "id": "hab",
+      "title": "Habit Design",
+      "description": "Designs a plan to build a new habit or break an old one using cue-routine-reward structure, environment design, and obstacle planning.",
+      "line": "values",
+      "applications": 2,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 71,
+      "id": "hf",
+      "title": "Habit Formation",
+      "description": "Build new habits and break unwanted ones using behavioral science principles",
+      "line": "values",
+      "applications": 2,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 72,
+      "id": "eqi",
+      "title": "Emotional Intelligence",
+      "description": "Systematically develop emotional awareness, regulation, and social skill — treating EQ as a learnable competency, not a personality trait.",
+      "line": "values",
+      "applications": 2,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 73,
+      "id": "socg",
+      "title": "Social Cognition",
+      "description": "Understanding and navigating social dynamics. Identifies social context, models perspectives, predicts reactions, and plans moves with awareness of stated and unstated norms.",
+      "line": "values",
+      "applications": 2,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 74,
+      "id": "al",
+      "title": "Active Listening",
+      "description": "Systematic procedure for listening deeply to understand others, build trust, and improve communication outcomes",
+      "line": "values",
+      "applications": 2,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 75,
+      "id": "empth",
+      "title": "Empathic Thinking",
+      "description": "Systematically see from another person's perspective — not just \"what would they feel\" but \"what do they see, believe, value, fear, and want given THEIR context and history?\" Empathy as an analytical skill, not just a feeling.",
+      "line": "values",
+      "applications": 2,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 76,
+      "id": "qs",
+      "title": "Queue Scheduling Orderings",
+      "description": "Orderings for managing queues — FIFO, priority queues, shortest job first, fair queuing.",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 77,
+      "id": "enough",
+      "title": "Sufficiency Check",
+      "description": "Determine whether something has been examined, built, planned, or analyzed enough — or whether more work is needed, and specifically what's missing.",
+      "line": "conditions",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 78,
+      "id": "tobd",
+      "title": "To Be Determined (Operational)",
+      "description": "Sequence unresolved TBDs by dependency and impact for operational resolution, identifying parallel tracks, blockers, and the critical resolution path.",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Strategy & Planning",
+      "invokes": []
+    },
+    {
+      "rank": 79,
+      "id": "nstep",
+      "title": "Minimal Next Step",
+      "description": "The absolute simplest next-step skill. What are you trying to do? What's one thing you can do in the next 5 minutes? Do that.",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Skill Routing",
+      "invokes": []
+    },
+    {
+      "rank": 80,
+      "id": "pt",
+      "title": "Progress Tracking",
+      "description": "Monitor and report project status effectively",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Planning & Projects",
+      "invokes": []
+    },
+    {
+      "rank": 81,
+      "id": "acr",
+      "title": "Active Recall",
+      "description": "Use retrieval practice and self-testing to strengthen learning and identify gaps",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Career & Learning",
+      "invokes": []
+    },
+    {
+      "rank": 82,
+      "id": "spr",
+      "title": "Spaced Repetition",
+      "description": "Design and implement spaced repetition systems for durable long-term retention of knowledge",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Career & Learning",
+      "invokes": []
+    },
+    {
+      "rank": 83,
+      "id": "ska",
+      "title": "Skill Acquisition",
+      "description": "Systematically acquire new skills using deliberate practice principles",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Career & Learning",
+      "invokes": []
+    },
+    {
+      "rank": 84,
+      "id": "dlp",
+      "title": "Deliberate Practice",
+      "description": "Design and execute targeted practice sessions that maximize skill improvement",
+      "line": "conditions",
+      "applications": 2,
+      "category": "Career & Learning",
+      "invokes": []
+    },
+    {
+      "rank": 85,
+      "id": "svs",
+      "title": "Systematic Variation (SCAMPER)",
+      "description": "SCAMPER is an acronym for 7 transformation operations:",
+      "line": "methods",
+      "applications": 2,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 86,
+      "id": "crtv",
+      "title": "Creativity Procedure",
+      "description": "Systematic procedure for generating novel ideas. Moves through divergent generation, combinatorial play, and convergent evaluation against the original need.",
+      "line": "methods",
+      "applications": 2,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 87,
+      "id": "gg",
+      "title": "Guess Generation (Exhaustive Search with Coverage Tracking)",
+      "description": "Generate exhaustive guesses about user input using ALL search methods with coverage tracking. Guessing is SEARCH through possibility space. Tracks space created vs space covered to ensure comprehensive exploration.",
+      "line": "methods",
+      "applications": 2,
+      "category": "Core Exploration",
+      "invokes": [
+        "qag"
+      ]
+    },
+    {
+      "rank": 88,
+      "id": "md",
+      "title": "Method Derivation",
+      "description": "Derive the appropriate method from the situation rather than",
+      "line": "methods",
+      "applications": 2,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 89,
+      "id": "pcd",
+      "title": "Procedure Discovery",
+      "description": "Find or create the procedures needed to execute a plan",
+      "line": "methods",
+      "applications": 2,
+      "category": "Procedures & Meta",
+      "invokes": []
+    },
+    {
+      "rank": 90,
+      "id": "pci",
+      "title": "Procedure Improvement",
+      "description": "Systematically improve GOSM library procedures using schema-driven validation and tier-based progress tracking",
+      "line": "methods",
+      "applications": 2,
+      "category": "Procedures & Meta",
+      "invokes": []
+    },
+    {
+      "rank": 91,
+      "id": "pv",
+      "title": "Procedure Validation",
+      "description": "Validate that a procedure is complete, executable, and all dependencies are satisfiable. Catches issues before execution.",
+      "line": "methods",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 92,
+      "id": "satr",
+      "title": "Saturation Analysis",
+      "description": "Analyzes whether an area has too much coverage. Identifies redundancy, finds rarely-used items, and recommends consolidation or pruning.",
+      "line": "methods",
+      "applications": 2,
+      "category": "Skill Improvement",
+      "invokes": []
+    },
+    {
+      "rank": 93,
+      "id": "gaa",
+      "title": "GOSM Approach Audit",
+      "description": "An honest audit of the GOSM system's approach, claims, and limitations — applying the system's own standards to itself.",
+      "line": "systems",
+      "applications": 2,
+      "category": "Diagnosis & Recovery",
+      "invokes": [
+        "araw"
+      ]
+    },
+    {
+      "rank": 94,
+      "id": "sysdecomp",
+      "title": "System Decomposition",
+      "description": "Break a complex system into manageable subsystems and components using structured decomposition. Defines component responsibilities, interactions, and validates completeness of the breakdown.",
+      "line": "systems",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 95,
+      "id": "sysintegration",
+      "title": "Systems Integration",
+      "description": "Plan and execute the integration of subsystems into a working whole. Produces an integration plan with strategy selection, dependency analysis, integration sequence, test cases, and issue tracking.",
+      "line": "systems",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 96,
+      "id": "sya",
+      "title": "Systems Analysis",
+      "description": "Analyze complex systems using causal loop diagrams, stock and flow models, feedback loop identification, and system archetypes",
+      "line": "systems",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 97,
+      "id": "systhink",
+      "title": "Systems Thinking",
+      "description": "Analyze feedback loops, emergent behavior, system dynamics, stocks and flows, and leverage points. See the system, not just the parts.",
+      "line": "systems",
+      "applications": 2,
+      "category": "Questions & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 98,
+      "id": "requirements",
+      "title": "Requirements Elicitation & Specification",
+      "description": "Systematically discover, categorize, and specify all requirements for a project or system. Surfaces hidden requirements, resolves conflicts, and produces a structured specification.",
+      "line": "systems",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 99,
+      "id": "tracematrix",
+      "title": "Requirements Traceability Matrix",
+      "description": "Create and maintain bidirectional traceability from stakeholder needs through requirements to design, implementation, and test. Identifies orphan requirements, gold-plating, and coverage gaps.",
+      "line": "systems",
+      "applications": 2,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 100,
+      "id": "exd",
+      "title": "Experimental Design",
+      "description": "Systematic procedure for designing rigorous experiments with proper controls, variables, and validity considerations",
+      "line": "systems",
+      "applications": 2,
+      "category": "Research & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 101,
+      "id": "ht",
+      "title": "Hypothesis Testing",
+      "description": "Systematic procedure for formulating testable hypotheses, designing tests, and updating beliefs based on evidence. Supports context-adaptive variants.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 102,
+      "id": "src",
+      "title": "Source Credibility Assessment",
+      "description": "Procedure for evaluating the credibility and reliability of any information source",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Research & Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 103,
+      "id": "av",
+      "title": "Assumption Verification",
+      "description": "Systematically verify assumptions by classifying type, determining verification method, executing, and updating confidence.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Evaluation & Validation",
+      "invokes": []
+    },
+    {
+      "rank": 104,
+      "id": "sdc",
+      "title": "Self-Deception Check",
+      "description": "Detect when reasoning is actually rationalization. Mechanical checks for motivated reasoning, emotional override, and evidence asymmetry.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 105,
+      "id": "mtcl",
+      "title": "Meta Claim Analysis",
+      "description": "Evaluate claims about claims. Analyze what level a claim operates at, check self-referential consistency, and assess impact on object-level analysis.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Claim Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 106,
+      "id": "rlcl",
+      "title": "Relational Claim Analysis",
+      "description": "Evaluate claims about how things relate. Verify the relationship type, test its strength, and identify its boundaries.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Claim Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 107,
+      "id": "icl",
+      "title": "Intentional Claim Analysis",
+      "description": "Evaluate claims about what someone wants or intends. Check behavioral evidence, stated vs revealed preferences, and alternative intentions.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Claim Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 108,
+      "id": "dvs",
+      "title": "Diversity Search Orderings",
+      "description": "Orderings that prioritize behavioral diversity, novelty, and coverage of solution space over convergence to a single optimum.",
+      "line": "inquiry",
+      "applications": 1,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 109,
+      "id": "mv",
+      "title": "MECE Validation",
+      "description": "Validate that a list is MECE (Mutually Exclusive, Collectively Exhaustive). Identifies overlaps and gaps.",
+      "line": "representation",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 110,
+      "id": "ctgp",
+      "title": "Category Gap Analysis",
+      "description": "Analyzes gaps within a category by comparing what should exist to what currently exists, then prioritizes missing items by importance.",
+      "line": "representation",
+      "applications": 1,
+      "category": "Skill Improvement",
+      "invokes": []
+    },
+    {
+      "rank": 111,
+      "id": "nusr",
+      "title": "New User Accessibility",
+      "description": "Analyze from the newcomer's perspective. Simulates first-use experience, identifies confusion points, assesses onboarding path, finds jargon and assumed knowledge, and recommends simplifications.",
+      "line": "representation",
+      "applications": 1,
+      "category": "Skill Improvement",
+      "invokes": []
+    },
+    {
+      "rank": 112,
+      "id": "vdp",
+      "title": "Visual Design Principles",
+      "description": "Eight principles of visual design derived from first principles (cognitive load, gestalt perception, reading research). Use as a gate before any visual design work -- every design decision should trace back to one of these principles. If a design element can't be justified by a principle, remove it.",
+      "line": "representation",
+      "applications": 1,
+      "category": "Marketing & Growth",
+      "invokes": []
+    },
+    {
+      "rank": 113,
+      "id": "prd",
+      "title": "Presentation Design",
+      "description": "Systematic procedure for designing visually effective presentations, slides, and handouts that enhance rather than compete with your message",
+      "line": "representation",
+      "applications": 1,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 114,
+      "id": "sum",
+      "title": "Summarize",
+      "description": "Summarize anything — text, conversations, situations, projects, decisions, or experiences — using the interpretation that best matches what the user actually needs.",
+      "line": "representation",
+      "applications": 1,
+      "category": "List & Pattern",
+      "invokes": []
+    },
+    {
+      "rank": 115,
+      "id": "omtx",
+      "title": "Matrix Generation",
+      "description": "Generates comparison and analysis matrices. Takes items and dimensions, fills cells with evidence-based assessments, and highlights patterns across the matrix.",
+      "line": "representation",
+      "applications": 1,
+      "category": "List & Pattern",
+      "invokes": []
+    },
+    {
+      "rank": 116,
+      "id": "met",
+      "title": "Metaphor Method",
+      "description": "A systematic method for using metaphors to:",
+      "line": "representation",
+      "applications": 1,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 117,
+      "id": "collab",
+      "title": "Collaborative Thinking",
+      "description": "Multi-stakeholder reasoning, perspective integration, finding solutions that work for multiple parties, identifying hidden agreements, and surfacing conflicting assumptions between people.",
+      "line": "values",
+      "applications": 1,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 118,
+      "id": "col",
+      "title": "Collaboration Design",
+      "description": "Designs how a group of people should work together — roles, communication, decisions, handoffs, and accountability.",
+      "line": "values",
+      "applications": 1,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 119,
+      "id": "gdm",
+      "title": "Group Decision Making",
+      "description": "Systematic procedure for making effective decisions in groups, avoiding common pitfalls, and leveraging collective intelligence",
+      "line": "values",
+      "applications": 1,
+      "category": "Decision Making",
+      "invokes": []
+    },
+    {
+      "rank": 120,
+      "id": "tfac",
+      "title": "Team Facilitation",
+      "description": "Design and run effective group sessions that produce clear outcomes, manage group dynamics, and keep participants engaged.",
+      "line": "values",
+      "applications": 1,
+      "category": "Communication & Collaboration",
+      "invokes": []
+    },
+    {
+      "rank": 121,
+      "id": "fd",
+      "title": "Feedback Delivery",
+      "description": "Systematic procedure for delivering feedback that is heard, received, and acted upon, and for receiving feedback gracefully",
+      "line": "values",
+      "applications": 1,
+      "category": "Writing & Communication",
+      "invokes": []
+    },
+    {
+      "rank": 122,
+      "id": "cfr",
+      "title": "Conflict Resolution",
+      "description": "Systematic procedure for de-escalating tensions, finding common ground, and navigating difficult conversations productively",
+      "line": "values",
+      "applications": 1,
+      "category": "Diagnosis & Recovery",
+      "invokes": []
+    },
+    {
+      "rank": 123,
+      "id": "rtas",
+      "title": "Rights Assessment",
+      "description": "Identify and evaluate rights in a situation by mapping all parties, determining applicable rights, assessing respect, and identifying remedies.",
+      "line": "values",
+      "applications": 1,
+      "category": "Domain-Specific Analysis",
+      "invokes": []
+    },
+    {
+      "rank": 124,
+      "id": "rlg",
+      "title": "Relationship Goals",
+      "description": "Handle relationship-related goals — clarify desired state, assess current reality, identify gaps, plan actions within your control.",
+      "line": "values",
+      "applications": 1,
+      "category": "Goal Type Handlers",
+      "invokes": [
+        "ve"
+      ]
+    },
+    {
+      "rank": 125,
+      "id": "memk",
+      "title": "Knowledge Capture",
+      "description": "Systematic approach to capturing, organizing, and maintaining personal knowledge for future retrieval and use.",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Personal Development",
+      "invokes": []
+    },
+    {
+      "rank": 126,
+      "id": "lrs",
+      "title": "Learning System",
+      "description": "Systematically capture, analyze, and apply learnings to improve campaign effectiveness",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Career & Learning",
+      "invokes": []
+    },
+    {
+      "rank": 127,
+      "id": "ld",
+      "title": "Learning Discovery Orderings",
+      "description": "Orderings optimized for acquiring knowledge, validating hypotheses, and iterative learning when understanding matters more than speed.",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Orderings",
+      "invokes": []
+    },
+    {
+      "rank": 128,
+      "id": "pwif",
+      "title": "Physical World Interface",
+      "description": "Bridge thinking to real-world action — account for physical logistics, materials, locations, time, and failure modes that pure reasoning ignores.",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Utility & Integration",
+      "invokes": []
+    },
+    {
+      "rank": 129,
+      "id": "rwif",
+      "title": "Real-World Interface",
+      "description": "Bridge the gap between thinking/planning and physical execution. Converts plans into actionable checklists with logistics, failure modes, and contingencies.",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Utility & Integration",
+      "invokes": []
+    },
+    {
+      "rank": 130,
+      "id": "hsi",
+      "title": "Human Systems Integration",
+      "description": "Ensure system design accounts for human capabilities, limitations, and needs across all user populations. Addresses human factors, training, staffing, and accessibility.",
+      "line": "conditions",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 131,
+      "id": "rva",
+      "title": "Reversibility Analysis",
+      "description": "Systematic procedure for analyzing decision reversibility, option value, and optimal commitment timing",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Decision Making",
+      "invokes": []
+    },
+    {
+      "rank": 132,
+      "id": "fr",
+      "title": "Failure Recovery",
+      "description": "Structured recovery procedures when projects encounter failures, providing clear decision trees and specific actions for common failure modes.",
+      "line": "conditions",
+      "applications": 1,
+      "category": "Diagnosis & Recovery",
+      "invokes": []
+    },
+    {
+      "rank": 133,
+      "id": "iterate",
+      "title": "Figure Out What to Iterate On",
+      "description": "Meta-iteration skill. Identifies what needs iteration, at what level, in what dimension, at what scale, and what should be deleted — then executes the highest-value iteration.",
+      "line": "methods",
+      "applications": 1,
+      "category": null,
+      "invokes": [
+        "evaluate",
+        "tbd",
+        "next",
+        "wsib",
+        "certainty",
+        "sycs"
+      ]
+    },
+    {
+      "rank": 134,
+      "id": "uf",
+      "title": "Useful For",
+      "description": "Given a skill or method, map its best-fit use cases, failure conditions, limits, and alternative skills with explicit switch conditions.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Skill Routing",
+      "invokes": []
+    },
+    {
+      "rank": 135,
+      "id": "adep",
+      "title": "Adaptive Extraction Pipeline",
+      "description": "Breadth-first, learned extraction pipeline that clarifies goals first, samples broadly, learns user preferences, and extracts selectively from highest-value items.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Procedures & Meta",
+      "invokes": []
+    },
+    {
+      "rank": 136,
+      "id": "upth",
+      "title": "Unproceduralized Thinking",
+      "description": "Identify cognitive operations that don't have explicit procedures yet. Observes thinking processes, surfaces implicit steps and tacit knowledge, formalizes them into explicit procedures, tests, and refines.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 137,
+      "id": "la",
+      "title": "Limitation Analysis",
+      "description": "Systematically identify limitations across multiple dimensions,",
+      "line": "methods",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 138,
+      "id": "benf",
+      "title": "Benefit Estimation",
+      "description": "Estimates the benefits of an action or investment. Lists direct, indirect, and downstream benefits, quantifies where possible, and calculates expected value.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Evaluation & Validation",
+      "invokes": []
+    },
+    {
+      "rank": 139,
+      "id": "boc",
+      "title": "Better Option Check",
+      "description": "Prevent user from settling on suboptimal option by systematically checking if better options exist that match their preferences. System surfaces what user may not have considered.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Decision Making",
+      "invokes": [
+        "cta",
+        "ve"
+      ]
+    },
+    {
+      "rank": 140,
+      "id": "utp",
+      "title": "Utopia Analysis",
+      "description": "Systematically construct and examine the best possible outcome — what would ideal actually look like, and what would it take to get there?",
+      "line": "methods",
+      "applications": 1,
+      "category": "Strategy & Planning",
+      "invokes": []
+    },
+    {
+      "rank": 141,
+      "id": "cmplx",
+      "title": "Complex Analysis",
+      "description": "Framework for genuinely complex problems that resist simple answers. Identify sources of complexity, choose appropriate tools, decompose without oversimplifying, and synthesize.",
+      "line": "methods",
+      "applications": 1,
+      "category": "Core Exploration",
+      "invokes": []
+    },
+    {
+      "rank": 142,
+      "id": "abts",
+      "title": "A/B Test Design",
+      "description": "Design a valid experiment with a clear hypothesis, proper controls, sufficient sample size, and pre-defined decision criteria.",
+      "line": "systems",
+      "applications": 1,
+      "category": "User & Need",
+      "invokes": []
+    },
+    {
+      "rank": 143,
+      "id": "emv",
+      "title": "Empirical Validation",
+      "description": "Empirical validation step for GOSM plans - adds external reality testing beyond coherence checks",
+      "line": "systems",
+      "applications": 1,
+      "category": "Evaluation & Validation",
+      "invokes": []
+    },
+    {
+      "rank": 144,
+      "id": "dom",
+      "title": "Dominance Analysis",
+      "description": "Identify options that dominate others — strictly better on all dimensions, or better on some and equal on the rest.",
+      "line": "systems",
+      "applications": 1,
+      "category": "Decision Making",
+      "invokes": []
+    },
+    {
+      "rank": 145,
+      "id": "mcd",
+      "title": "Multi-Criteria Decision Analysis",
+      "description": "Systematic procedure for making decisions involving multiple criteria, tradeoffs, and stakeholders",
+      "line": "systems",
+      "applications": 1,
+      "category": "Decision Making",
+      "invokes": []
+    },
+    {
+      "rank": 146,
+      "id": "cba",
+      "title": "Cost-Benefit Analysis",
+      "description": "Systematically quantify costs and benefits to evaluate decisions, including NPV calculation, sensitivity analysis, and intangible factors",
+      "line": "systems",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 147,
+      "id": "lcca",
+      "title": "Life Cycle Cost Analysis",
+      "description": "Estimate total cost of ownership across the full system lifecycle. Covers development, production, operations, support, and disposal phases with sensitivity analysis and alternative comparison.",
+      "line": "systems",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 148,
+      "id": "ram",
+      "title": "Reliability, Availability, Maintainability Analysis",
+      "description": "Analyze and specify system reliability, availability, and maintainability characteristics. Models failure behavior, predicts system performance, and identifies improvement opportunities.",
+      "line": "systems",
+      "applications": 1,
+      "category": null,
+      "invokes": []
+    },
+    {
+      "rank": 149,
+      "id": "ret",
+      "title": "Retrospective",
+      "description": "Learn from completed work to improve future performance",
+      "line": "systems",
+      "applications": 1,
+      "category": "Planning & Projects",
+      "invokes": []
+    },
+    {
+      "rank": 150,
+      "id": "ssr",
+      "title": "Session Review (Learning Capture)",
+      "description": "Capture learnings at end of session for continuous improvement. Reviews what worked, what did not, surprises, and procedure gaps.",
+      "line": "systems",
+      "applications": 1,
+      "category": "Strategy & Planning",
+      "invokes": []
+    }
+  ],
+  "gosm_runs": 10
+}

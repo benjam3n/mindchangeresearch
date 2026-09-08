@@ -15,10 +15,10 @@ Start with:
 - `methods/improved-research-prompt.txt` — current recurring research instruction.
 - `working-instruction.md` — execution and attribution rules.
 - `post-allocation/cycle-03/consolidation-03-recipe-compiler.md` — current operational recipe.
-- `Mind_Change_Research_Checkpoint.zip` — complete corpus, including every preserved source, receipt, substantive record, rejection, partial gate, and support artifact.
+- `checkpoint-parts/` — the complete corpus archive split into eleven repository-safe parts, including every preserved source, receipt, substantive record, rejection, partial gate, and support artifact. Run `python3 checkpoint-parts/reassemble.py` from the repository root to recreate `Mind_Change_Research_Checkpoint.zip`.
 - `Checkpoint_Manifest.sha256` — path-preserving hashes for extracted files.
 
-The bootstrap commit keeps the complete historical corpus in the checkpoint archive and exposes the current control files and newest cycle directly. Committing a document does not change its ledger status. Human, physical, delayed, stakeholder, and unavailable-dependency stages remain unresolved until observed.
+The bootstrap commit keeps the complete historical corpus in the split checkpoint archive and exposes the current control files and newest cycle directly. The reconstructed ZIP must hash to `7ba425b197be8d38ba9715873464dd0ba2eca43e2da3aeb985ab5ffda83fba6b`. Committing a document does not change its ledger status. Human, physical, delayed, stakeholder, and unavailable-dependency stages remain unresolved until observed.
 
 Actual mind change: Persistence is now part of run acceptance, but repository presence is explicitly not a completion or benefit certificate.
 

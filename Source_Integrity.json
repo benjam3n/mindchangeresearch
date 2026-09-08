@@ -1,0 +1,1788 @@
+{
+  "scope": "Original reader receipt identities versus preserved emitted byte hashes. Does not certify procedure execution or findings.",
+  "receipts": [
+    {
+      "skill_id": "acr",
+      "requirements": "sources/conditions-acr.requirements.txt",
+      "source_sha256": "b3811e921be28db24464c6ee19a6a2617b43133847400e5379594fbd78c1f26c",
+      "matching_emitted_sources": [
+        "sources/conditions-acr.original.md"
+      ]
+    },
+    {
+      "skill_id": "benf",
+      "requirements": "sources/methods-benf.requirements.txt",
+      "source_sha256": "c4429258ef5d182cba6e53ccdae944979747316196357df8aa8104dd0a2a035a",
+      "matching_emitted_sources": [
+        "sources/methods-benf.original.md",
+        "sources/root-benf.md"
+      ]
+    },
+    {
+      "skill_id": "pce",
+      "requirements": "sources/root-pce.requirements.txt",
+      "source_sha256": "f69bea75e39e38766337f4de8caba7b8f063cdbb074cea4b746d1241596c5c71",
+      "matching_emitted_sources": [
+        "sources/root-pce.md"
+      ]
+    },
+    {
+      "skill_id": "trust",
+      "requirements": "sources/values-trust.receipt.txt",
+      "source_sha256": "987f4d64a9df18d78bab4a8c4edf538b8bd70278e38d2b84c741c36debad8d0c",
+      "matching_emitted_sources": [
+        "sources/values-trust.md"
+      ]
+    },
+    {
+      "skill_id": "mrc",
+      "requirements": "sources/methods-mrc.requirements.txt",
+      "source_sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+      "matching_emitted_sources": [
+        "sources/methods-mrc.original.md"
+      ]
+    },
+    {
+      "skill_id": "exd",
+      "requirements": "sources/systems-exd.requirements.txt",
+      "source_sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+      "matching_emitted_sources": [
+        "sources/systems-exd.md",
+        "sources/values-exd.md"
+      ]
+    },
+    {
+      "skill_id": "mtcl",
+      "requirements": "sources/inquiry-mtcl.requirements.txt",
+      "source_sha256": "530f970e2668e50f5926d77b3cd487186a6edb57178f5813b01919dcfa421188",
+      "matching_emitted_sources": [
+        "sources/inquiry-mtcl.original.md"
+      ]
+    },
+    {
+      "skill_id": "sya",
+      "requirements": "sources/systems-sya.requirements.txt",
+      "source_sha256": "e57e669391ec2bb17a72c71743f04caaa76dc469e8601522d18e0388c732a08e",
+      "matching_emitted_sources": [
+        "sources/systems-sya.md"
+      ]
+    },
+    {
+      "skill_id": "satr",
+      "requirements": "sources/methods-satr.requirements.txt",
+      "source_sha256": "4715511980deaaf999e241f986c782e720e2ece7f4efe2944444dacb54e164fb",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-satr.original.md",
+        "sources/methods-satr.original.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/inquiry-araw.requirements.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "qr",
+      "requirements": "sources/inquiry-qr.requirements.txt",
+      "source_sha256": "cc8ae7f93ef8eba72dc48f41222d1a6f4a4cb8fb4ca7191105f021653029ee26",
+      "matching_emitted_sources": [
+        "sources/inquiry-qr.original.md"
+      ]
+    },
+    {
+      "skill_id": "mv",
+      "requirements": "sources/representation-mv.requirements.txt",
+      "source_sha256": "5b83d3bad6c78a9220223b20b7e1b70e7fdce24f793a2411e454fd4b9a37104d",
+      "matching_emitted_sources": [
+        "sources/representation-mv.md"
+      ]
+    },
+    {
+      "skill_id": "cta",
+      "requirements": "sources/methods-cta.requirements.txt",
+      "source_sha256": "5a023d5153de1aa42976334e6976a2d684427181538553e20c0b2a95460a765b",
+      "matching_emitted_sources": [
+        "sources/methods-cta.original.md",
+        "sources/conditions-handoff-cta.original.md"
+      ]
+    },
+    {
+      "skill_id": "gsr",
+      "requirements": "sources/systems-gsr.requirements.txt",
+      "source_sha256": "e808c58bd3068b9c7025b4fc9bb22c14646c0749c729437bfedb15cf4af63ad0",
+      "matching_emitted_sources": [
+        "sources/systems-gsr.md"
+      ]
+    },
+    {
+      "skill_id": "orgn",
+      "requirements": "sources/representation-orgn.requirements.txt",
+      "source_sha256": "866a4ee702de6bb2b176d82a37d9ff443cb7a5ef4dc1d6f10feeccd017589d95",
+      "matching_emitted_sources": [
+        "sources/representation-orgn.md"
+      ]
+    },
+    {
+      "skill_id": "benf",
+      "requirements": "sources/root-benf.requirements.txt",
+      "source_sha256": "c4429258ef5d182cba6e53ccdae944979747316196357df8aa8104dd0a2a035a",
+      "matching_emitted_sources": [
+        "sources/methods-benf.original.md",
+        "sources/root-benf.md"
+      ]
+    },
+    {
+      "skill_id": "sdc",
+      "requirements": "sources/inquiry-sdc-resume.requirements.txt",
+      "source_sha256": "d46ecd8285fe7a6cebff3559f3c9a5937fed4d5d148d3b10457b3893e5ce1d0f",
+      "matching_emitted_sources": [
+        "sources/inquiry-sdc.original.md",
+        "sources/inquiry-sdc-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "memy",
+      "requirements": "sources/conditions-memy.requirements.txt",
+      "source_sha256": "c03680b911670c8c5af2183187039b2f5416f7ffb93b70b3a3dc24a3646b0b46",
+      "matching_emitted_sources": [
+        "sources/conditions-memy.original.md"
+      ]
+    },
+    {
+      "skill_id": "frq",
+      "requirements": "sources/inquiry-frq.requirements.txt",
+      "source_sha256": "88817bd27fdbbf807c1a84e0efaaaaee98c2d944f19cb0b09990507476354d94",
+      "matching_emitted_sources": [
+        "sources/inquiry-frq.original.md"
+      ]
+    },
+    {
+      "skill_id": "gg",
+      "requirements": "sources/inquiry-gg.requirements.txt",
+      "source_sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+      "matching_emitted_sources": [
+        "sources/inquiry-gg-resume.original.md",
+        "sources/methods-gg.original.md",
+        "sources/representation-gg.md",
+        "sources/inquiry-gg.original.md"
+      ]
+    },
+    {
+      "skill_id": "tfac",
+      "requirements": "sources/values-tfac.receipt.txt",
+      "source_sha256": "65356dc151f976d3f0117b10a8f2bd4d6ee6aaa0c136a7103c315182a6925a65",
+      "matching_emitted_sources": [
+        "sources/values-tfac.md"
+      ]
+    },
+    {
+      "skill_id": "ltai",
+      "requirements": "sources/systems-ltai.requirements.txt",
+      "source_sha256": "c1413674ed46c4fe0c256b525efb1aba9d3a15bb52b054ad2f052e4dbcbcb469",
+      "matching_emitted_sources": [
+        "sources/systems-ltai.md",
+        "sources/root-ltai.md"
+      ]
+    },
+    {
+      "skill_id": "emv",
+      "requirements": "sources/inquiry-emv-resume.requirements.txt",
+      "source_sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+      "matching_emitted_sources": [
+        "sources/values-emv.md",
+        "sources/systems-emv.md",
+        "sources/inquiry-emv.original.md",
+        "sources/inquiry-emv-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "categorize",
+      "requirements": "sources/representation-categorize.requirements.txt",
+      "source_sha256": "d9090b3053d18679551e4f4210040e4606dc0c8af4f2d1f3b21bc6d30fd05cc1",
+      "matching_emitted_sources": [
+        "sources/representation-categorize.md"
+      ]
+    },
+    {
+      "skill_id": "alt",
+      "requirements": "sources/representation-alt.requirements.txt",
+      "source_sha256": "f2fd8d03abef313271dcd19e2aeb991ae393b75d0c817324dbbba29a74c040d3",
+      "matching_emitted_sources": [
+        "sources/representation-alt.md"
+      ]
+    },
+    {
+      "skill_id": "gg",
+      "requirements": "sources/methods-gg.requirements.txt",
+      "source_sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+      "matching_emitted_sources": [
+        "sources/inquiry-gg-resume.original.md",
+        "sources/methods-gg.original.md",
+        "sources/representation-gg.md",
+        "sources/inquiry-gg.original.md"
+      ]
+    },
+    {
+      "skill_id": "sysintegration",
+      "requirements": "sources/systems-sysintegration.requirements.txt",
+      "source_sha256": "5fef7d47a8f71118a7e481929789ca89c95011e42a3cead2384094c4d97a4899",
+      "matching_emitted_sources": [
+        "sources/systems-sysintegration.md"
+      ]
+    },
+    {
+      "skill_id": "cscl",
+      "requirements": "sources/inquiry-cscl.requirements.txt",
+      "source_sha256": "afe21d0dea034fd0d42db78cd402360de2d8d48af2193cd21fbfff5b5768ec5d",
+      "matching_emitted_sources": [
+        "sources/inquiry-cscl.original.md"
+      ]
+    },
+    {
+      "skill_id": "op",
+      "requirements": "sources/representation-op.requirements.txt",
+      "source_sha256": "9d2473590fea4495dbff9d006180555a5b7b52da96b1a751b2c51b16fbfdccca",
+      "matching_emitted_sources": [
+        "sources/representation-op.md"
+      ]
+    },
+    {
+      "skill_id": "ssr",
+      "requirements": "sources/systems-ssr.requirements.txt",
+      "source_sha256": "4c27465f078201054dfb3aeaa7ac95c998224aa7b5028b343fe0b0fac4e5dbba",
+      "matching_emitted_sources": [
+        "sources/systems-ssr.md"
+      ]
+    },
+    {
+      "skill_id": "gosm",
+      "requirements": "sources/root-gosm.requirements.txt",
+      "source_sha256": "4224530e1b14958cd0e2921a173c4772406f7673fa561ee8c27dac548e362f4b",
+      "matching_emitted_sources": [
+        "sources/root-gosm.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/methods-araw.requirements.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "kta",
+      "requirements": "sources/conditions-kta.requirements.txt",
+      "source_sha256": "ff83e0e3cb26ebd8f2abde61a23bf6547d8ebd45b6960bbd7669ac34684a7da8",
+      "matching_emitted_sources": [
+        "sources/conditions-kta.original.md"
+      ]
+    },
+    {
+      "skill_id": "spd",
+      "requirements": "sources/inquiry-spd-resume.requirements.txt",
+      "source_sha256": "f2667cdcdd88b51f2c5baf6473f6fcd58222a018004eb24229b44287401fe371",
+      "matching_emitted_sources": [
+        "sources/inquiry-spd.original.md",
+        "sources/inquiry-spd-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "gu",
+      "requirements": "sources/values-gu.receipt.txt",
+      "source_sha256": "177c0f93074d2eee57395d981c880f54cfe337a9386b13795663e99543fde469",
+      "matching_emitted_sources": [
+        "sources/values-gu.md"
+      ]
+    },
+    {
+      "skill_id": "rlcl",
+      "requirements": "sources/inquiry-rlcl.requirements.txt",
+      "source_sha256": "3c0b4d9c898e6ced67eb1b3f58f70b47b86e2756dea1abcda90db4aa7283be15",
+      "matching_emitted_sources": [
+        "sources/inquiry-rlcl.original.md"
+      ]
+    },
+    {
+      "skill_id": "fut",
+      "requirements": "sources/systems-fut.requirements.txt",
+      "source_sha256": "ba2043704b2da54c771f19c00ed58a7c0da5c0c043347f4cded617f2d72c4889",
+      "matching_emitted_sources": [
+        "sources/systems-fut.md"
+      ]
+    },
+    {
+      "skill_id": "pcd",
+      "requirements": "sources/methods-pcd.requirements.txt",
+      "source_sha256": "929b5f4a3ae4f9ff0c5cf340cc216fb138a9c3d083f819b42a47e210d3dcf943",
+      "matching_emitted_sources": [
+        "sources/methods-pcd.original.md"
+      ]
+    },
+    {
+      "skill_id": "cmplx",
+      "requirements": "sources/methods-cmplx.requirements.txt",
+      "source_sha256": "a25f288836d145f9eb7cd258f14a27fd17c16295f891adb04f931edd19b591bd",
+      "matching_emitted_sources": [
+        "sources/methods-cmplx.original.md",
+        "sources/root-cmplx.md"
+      ]
+    },
+    {
+      "skill_id": "prd",
+      "requirements": "sources/representation-prd.requirements.txt",
+      "source_sha256": "06f6cc5b73e15a632a9b4730581abaaf66f4cd8a539e926f81f29fbd05fc3854",
+      "matching_emitted_sources": [
+        "sources/representation-prd.md"
+      ]
+    },
+    {
+      "skill_id": "given",
+      "requirements": "sources/methods-given.requirements.txt",
+      "source_sha256": "d41817b70672ec4a2d2cad9e42d2951ab6c14064adf98fb1ad4bcf2fd1ac10c6",
+      "matching_emitted_sources": [
+        "sources/methods-given.original.md",
+        "sources/given.md"
+      ]
+    },
+    {
+      "skill_id": "rtas",
+      "requirements": "sources/values-rtas.receipt.txt",
+      "source_sha256": "006142aae3eaffc75074ffd7cb1b41eba4091e4e876cfd3978ef41c7fade3f35",
+      "matching_emitted_sources": [
+        "sources/values-rtas.md"
+      ]
+    },
+    {
+      "skill_id": "dlp",
+      "requirements": "sources/conditions-dlp.requirements.txt",
+      "source_sha256": "1b822c436a48a7ed031c973f0bb8748a8ce0c3b4307daa0a66c65be0de56b27b",
+      "matching_emitted_sources": [
+        "sources/conditions-dlp.original.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/systems-araw.requirements.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "ram",
+      "requirements": "sources/systems-ram.requirements.txt",
+      "source_sha256": "efd0fbb4475e17f490cfc377d55c4c99297be8973835daa585909b84a47f8c2d",
+      "matching_emitted_sources": [
+        "sources/conditions-ram.original.md",
+        "sources/systems-ram.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/values-araw.receipt.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "gaa",
+      "requirements": "sources/systems-gaa.requirements.txt",
+      "source_sha256": "90022795ffbdcea6bf95364e5f795abc90c7a81edef6f9c85c7275c05cb47631",
+      "matching_emitted_sources": [
+        "sources/systems-gaa.md"
+      ]
+    },
+    {
+      "skill_id": "dvs",
+      "requirements": "sources/inquiry-dvs.requirements.txt",
+      "source_sha256": "5acd0ae4ec8338872b2abde2f08bb6f07a20ba165765decdd797ed2a0e0bb314",
+      "matching_emitted_sources": [
+        "sources/inquiry-dvs.original.md",
+        "sources/dvs.md"
+      ]
+    },
+    {
+      "skill_id": "pv",
+      "requirements": "sources/methods-pv.requirements.txt",
+      "source_sha256": "2775d4c3d00eba35e587cf0e7ae3c4f11c1d6b35c2d7e65d75f73b6cb7380aab",
+      "matching_emitted_sources": [
+        "sources/conditions-pv.original.md",
+        "sources/methods-pv.original.md"
+      ]
+    },
+    {
+      "skill_id": "ctgp",
+      "requirements": "sources/representation-ctgp.requirements.txt",
+      "source_sha256": "3dd8c30249005b573096d6a0c0319a67a716f4e271fe95059e1d8140cf0a26c9",
+      "matching_emitted_sources": [
+        "sources/representation-ctgp.md"
+      ]
+    },
+    {
+      "skill_id": "ifss",
+      "requirements": "sources/inquiry-ifss.requirements.txt",
+      "source_sha256": "25b758be27098c2faa889a77d33a64d8a99307134b0787c8bb37d63d6107284e",
+      "matching_emitted_sources": [
+        "sources/inquiry-ifss.original.md"
+      ]
+    },
+    {
+      "skill_id": "aex",
+      "requirements": "sources/inquiry-aex.requirements.txt",
+      "source_sha256": "7942e0f726d98b54944c0aca211d7d8abb94bcb1defd2ce0823aeebcbdf56d4a",
+      "matching_emitted_sources": [
+        "sources/inquiry-aex.original.md",
+        "sources/representation-aex.md"
+      ]
+    },
+    {
+      "skill_id": "gjs",
+      "requirements": "sources/values-gjs.receipt.txt",
+      "source_sha256": "ee227265cb163c9f624210ec4198e7e432c5608e22f57eeba7c91868639497f9",
+      "matching_emitted_sources": [
+        "sources/systems-gjs.md",
+        "sources/values-gjs.md",
+        "sources/gjs.md"
+      ]
+    },
+    {
+      "skill_id": "grf",
+      "requirements": "sources/systems-grf.requirements.txt",
+      "source_sha256": "5fc6768f11fd92e1e2413cc1dfbcbfb2cf6d359970493f6b8f43c2480340685e",
+      "matching_emitted_sources": [
+        "sources/systems-grf.md"
+      ]
+    },
+    {
+      "skill_id": "requirements",
+      "requirements": "sources/systems-requirements.requirements.txt",
+      "source_sha256": "a5df8fd7720aa03a05e948e4da39ac8532582e6f44e85226d2bccaa7c7ae85b5",
+      "matching_emitted_sources": [
+        "sources/conditions-requirements.original.md",
+        "sources/systems-requirements.md"
+      ]
+    },
+    {
+      "skill_id": "sysdecomp",
+      "requirements": "sources/systems-sysdecomp.requirements.txt",
+      "source_sha256": "6a23f3c14bcfd3dd7764ef1c8b91820cde2999098d99781db5bacc62dbb19535",
+      "matching_emitted_sources": [
+        "sources/systems-sysdecomp.md"
+      ]
+    },
+    {
+      "skill_id": "socg",
+      "requirements": "sources/values-socg.receipt.txt",
+      "source_sha256": "beabf547e62b55b2de08b63da949a79f55ddaeba65ccc37a281b87e456f99f00",
+      "matching_emitted_sources": [
+        "sources/values-socg.md"
+      ]
+    },
+    {
+      "skill_id": "fd",
+      "requirements": "sources/values-fd.receipt.txt",
+      "source_sha256": "4e4d4971d3becf54656c6d8e89289d11453571cf225cc6317ca521188e394c17",
+      "matching_emitted_sources": [
+        "sources/values-fd.md"
+      ]
+    },
+    {
+      "skill_id": "testplan",
+      "requirements": "sources/conditions-testplan.requirements.txt",
+      "source_sha256": "f163576791e46837b2e6327ecfaaca6eaeb69f55c854f691452ac0c16003f912",
+      "matching_emitted_sources": [
+        "sources/conditions-testplan.original.md"
+      ]
+    },
+    {
+      "skill_id": "qaf",
+      "requirements": "sources/inquiry-qaf.requirements.txt",
+      "source_sha256": "68297932bad84fbcf8d6727a6e1a6a272ac9a002b969e73fb79eace239363524",
+      "matching_emitted_sources": [
+        "sources/inquiry-qaf.original.md"
+      ]
+    },
+    {
+      "skill_id": "difr",
+      "requirements": "sources/representation-difr.requirements.txt",
+      "source_sha256": "fe682b61e708658424de624ef735e41e012675f74e1cd5c93afb4186304bb4e8",
+      "matching_emitted_sources": [
+        "sources/representation-difr.md"
+      ]
+    },
+    {
+      "skill_id": "ht",
+      "requirements": "sources/inquiry-ht.requirements.txt",
+      "source_sha256": "0269802291dbe0bfa90e3ac0d0ad9972e6440bf2d14354728ca10235e52a4fea",
+      "matching_emitted_sources": [
+        "sources/inquiry-ht.original.md",
+        "sources/inquiry-ht-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "itp",
+      "requirements": "sources/methods-itp.requirements.txt",
+      "source_sha256": "3572153877d93f9d4cf45d8fa6b13f51e67b656ba991b0b70b4595a90f51f76f",
+      "matching_emitted_sources": [
+        "sources/methods-itp.original.md"
+      ]
+    },
+    {
+      "skill_id": "upth",
+      "requirements": "sources/root-upth.requirements.txt",
+      "source_sha256": "4640f6a050a4dd37444253af1e781e25ad263f1ee01279144056f551e489baf5",
+      "matching_emitted_sources": [
+        "sources/methods-upth.original.md",
+        "sources/root-upth.md"
+      ]
+    },
+    {
+      "skill_id": "ar",
+      "requirements": "sources/inquiry-ar.requirements.txt",
+      "source_sha256": "2731e8b327c4a149a2d66db7555f38627c4a11a648272b6364096e1e6f327a05",
+      "matching_emitted_sources": [
+        "sources/inquiry-ar.original.md",
+        "sources/root-ar.md",
+        "sources/values-ar.md"
+      ]
+    },
+    {
+      "skill_id": "cba",
+      "requirements": "sources/systems-cba.requirements.txt",
+      "source_sha256": "b3fb102c85faf409e0843f3a9c2410aafb795c0c168003e3336bcdc456bea882",
+      "matching_emitted_sources": [
+        "sources/systems-cba.md"
+      ]
+    },
+    {
+      "skill_id": "cfr",
+      "requirements": "sources/values-cfr.receipt.txt",
+      "source_sha256": "de7e787e1722b25a50c08bb42822fd5099982241e70dea109fe073427a186991",
+      "matching_emitted_sources": [
+        "sources/values-cfr.md"
+      ]
+    },
+    {
+      "skill_id": "cn",
+      "requirements": "sources/representation-cn.requirements.txt",
+      "source_sha256": "1cea22b36d4cc2db2560714c970089ec63a18939c49729cd55af98d93f05df2b",
+      "matching_emitted_sources": [
+        "sources/representation-cn.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/representation-araw.requirements.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "to",
+      "requirements": "sources/conditions-to.requirements.txt",
+      "source_sha256": "fe51a424fd241687178bd23fe83b7560799663336c1597fc36c40190732051d7",
+      "matching_emitted_sources": [
+        "sources/conditions-to.original.md"
+      ]
+    },
+    {
+      "skill_id": "systhink",
+      "requirements": "sources/systems-systhink.requirements.txt",
+      "source_sha256": "c4db4101b6b5c3739e6e0af8b841cb3270fd34b2b97af25691465f08c132f450",
+      "matching_emitted_sources": [
+        "sources/systems-systhink.md"
+      ]
+    },
+    {
+      "skill_id": "lt",
+      "requirements": "sources/conditions-lt.requirements.txt",
+      "source_sha256": "67cdb6c9b1669873e01c1ec2fe7ac42317f70c367decccb981c1a9a30ac9467e",
+      "matching_emitted_sources": [
+        "sources/conditions-lt.original.md"
+      ]
+    },
+    {
+      "skill_id": "unx",
+      "requirements": "sources/methods-unx.requirements.txt",
+      "source_sha256": "078b47e1917f52c96f47df01ffb4d6f27b0933f1536a8d59cd91b32a25cc339c",
+      "matching_emitted_sources": [
+        "sources/methods-unx.original.md"
+      ]
+    },
+    {
+      "skill_id": "grfr",
+      "requirements": "sources/values-grfr.receipt.txt",
+      "source_sha256": "b3873fd30364f53fce5218097c7c79aeb512e4cc0cc61a1b83b5e25acd2d4a98",
+      "matching_emitted_sources": [
+        "sources/values-grfr.md"
+      ]
+    },
+    {
+      "skill_id": "ska",
+      "requirements": "sources/conditions-ska.requirements.txt",
+      "source_sha256": "4282f8ebbfd35f09de17664a05ebe6960cdd093b2dfec893410aba391e69a482",
+      "matching_emitted_sources": [
+        "sources/conditions-ska.original.md"
+      ]
+    },
+    {
+      "skill_id": "emv",
+      "requirements": "sources/inquiry-emv.requirements.txt",
+      "source_sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+      "matching_emitted_sources": [
+        "sources/values-emv.md",
+        "sources/systems-emv.md",
+        "sources/inquiry-emv.original.md",
+        "sources/inquiry-emv-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "ve",
+      "requirements": "sources/systems-ve.requirements.txt",
+      "source_sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+      "matching_emitted_sources": [
+        "sources/systems-ve.md",
+        "sources/values-ve.md"
+      ]
+    },
+    {
+      "skill_id": "ctcov",
+      "requirements": "sources/representation-ctcov.requirements.txt",
+      "source_sha256": "ad2c322eb64750a1554e4a9a697800dc4bbcd968aa8c5334c6c999220e2c5a36",
+      "matching_emitted_sources": [
+        "sources/representation-ctcov.md"
+      ]
+    },
+    {
+      "skill_id": "src",
+      "requirements": "sources/inquiry-src.requirements.txt",
+      "source_sha256": "5e555c63d984de6184256811a3ee9235da90698ce0503e25deac59c558aad590",
+      "matching_emitted_sources": [
+        "sources/inquiry-src.original.md"
+      ]
+    },
+    {
+      "skill_id": "utp",
+      "requirements": "sources/methods-utp.requirements.txt",
+      "source_sha256": "61c5e4653b3a86f75fa145732b23b4dcd770299e4a97b09cd332abbeb796e8b4",
+      "matching_emitted_sources": [
+        "sources/methods-utp.original.md",
+        "sources/root-utp.md"
+      ]
+    },
+    {
+      "skill_id": "txm",
+      "requirements": "sources/representation-txm.requirements.txt",
+      "source_sha256": "14a1e65b42c1e2d604d79d8757556b19886683022dc61e6412060314fc0a77f5",
+      "matching_emitted_sources": [
+        "sources/representation-txm.md"
+      ]
+    },
+    {
+      "skill_id": "mss",
+      "requirements": "sources/inquiry-mss.requirements.txt",
+      "source_sha256": "3abdf5e18a8da124cb695090b8ff12f580fb5a3d5359aebb7c0341a14c55ff02",
+      "matching_emitted_sources": [
+        "sources/inquiry-mss.original.md"
+      ]
+    },
+    {
+      "skill_id": "funr",
+      "requirements": "sources/values-funr.receipt.txt",
+      "source_sha256": "c115a4cf0f8ada363a40631f4db33badf871afb7007c6a2ab861b93c4d54e62c",
+      "matching_emitted_sources": [
+        "sources/values-funr.md"
+      ]
+    },
+    {
+      "skill_id": "given",
+      "requirements": "sources/given.requirements.txt",
+      "source_sha256": "d41817b70672ec4a2d2cad9e42d2951ab6c14064adf98fb1ad4bcf2fd1ac10c6",
+      "matching_emitted_sources": [
+        "sources/methods-given.original.md",
+        "sources/given.md"
+      ]
+    },
+    {
+      "skill_id": "dd",
+      "requirements": "sources/inquiry-dd.requirements.txt",
+      "source_sha256": "bd543239bf98d469796132de756dacf0f85b44939127e83eeb940c8895ad7b22",
+      "matching_emitted_sources": [
+        "sources/inquiry-dd.original.md"
+      ]
+    },
+    {
+      "skill_id": "memk",
+      "requirements": "sources/conditions-memk.requirements.txt",
+      "source_sha256": "05b1f28bc00cfcd64d3275afc2af7b126120318067f73da1ae4a57314d6b9d7d",
+      "matching_emitted_sources": [
+        "sources/conditions-memk.original.md"
+      ]
+    },
+    {
+      "skill_id": "la",
+      "requirements": "sources/methods-la.requirements.txt",
+      "source_sha256": "33e909a5717c1e38255b030fe87cc0fe97b25f357f39fff0e51e19f01ebec0eb",
+      "matching_emitted_sources": [
+        "sources/root-la.md",
+        "sources/methods-la.original.md"
+      ]
+    },
+    {
+      "skill_id": "draft",
+      "requirements": "sources/root-draft.requirements.txt",
+      "source_sha256": "5d2269d1fead6f0cf4710326e0ac9b95f5d54d53c324f725e8912315866c025a",
+      "matching_emitted_sources": [
+        "sources/root-draft.md",
+        "sources/representation-draft.md"
+      ]
+    },
+    {
+      "skill_id": "boc",
+      "requirements": "sources/values-boc.receipt.txt",
+      "source_sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+      "matching_emitted_sources": [
+        "sources/methods-boc.original.md",
+        "sources/values-boc.md",
+        "sources/conditions-handoff-boc.original.md"
+      ]
+    },
+    {
+      "skill_id": "spd",
+      "requirements": "sources/inquiry-spd.requirements.txt",
+      "source_sha256": "f2667cdcdd88b51f2c5baf6473f6fcd58222a018004eb24229b44287401fe371",
+      "matching_emitted_sources": [
+        "sources/inquiry-spd.original.md",
+        "sources/inquiry-spd-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "eg",
+      "requirements": "sources/values-eg.receipt.txt",
+      "source_sha256": "672082e9a51cd16d5692e8aa6c844415d1944b07023df224fc29be6fe4314122",
+      "matching_emitted_sources": [
+        "sources/values-eg.md"
+      ]
+    },
+    {
+      "skill_id": "cmp",
+      "requirements": "sources/values-cmp.receipt.txt",
+      "source_sha256": "2ac629f7654fe692dc3b9e40519e443cc99821384cd6af5d30c8effb768bd405",
+      "matching_emitted_sources": [
+        "sources/values-cmp.md"
+      ]
+    },
+    {
+      "skill_id": "gg",
+      "requirements": "sources/inquiry-gg-resume.requirements.txt",
+      "source_sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+      "matching_emitted_sources": [
+        "sources/inquiry-gg-resume.original.md",
+        "sources/methods-gg.original.md",
+        "sources/representation-gg.md",
+        "sources/inquiry-gg.original.md"
+      ]
+    },
+    {
+      "skill_id": "tracematrix",
+      "requirements": "sources/systems-tracematrix.requirements.txt",
+      "source_sha256": "6dbd2aae8e0c93f4c08d768877026982bdc5ace51cb0bfba4f4052950027f268",
+      "matching_emitted_sources": [
+        "sources/systems-tracematrix.md"
+      ]
+    },
+    {
+      "skill_id": "cda",
+      "requirements": "sources/representation-cda.requirements.txt",
+      "source_sha256": "8dc43ab59a59964a8d01ba4886d3529d58dfce30125c15ce53df272bb079c607",
+      "matching_emitted_sources": [
+        "sources/representation-cda.md"
+      ]
+    },
+    {
+      "skill_id": "rso",
+      "requirements": "sources/conditions-rso.requirements.txt",
+      "source_sha256": "885c2ff81a63c41a48aa4906d11f79e485350842b459b1a36269ec83ff3b1bc8",
+      "matching_emitted_sources": [
+        "sources/conditions-rso.original.md"
+      ]
+    },
+    {
+      "skill_id": "td",
+      "requirements": "sources/conditions-td.requirements.txt",
+      "source_sha256": "d1f6e2501d163ed9bea1a66fd61f44dfa04cf83768d023b0a85168c6fc1fcb60",
+      "matching_emitted_sources": [
+        "sources/conditions-td.original.md"
+      ]
+    },
+    {
+      "skill_id": "nusr",
+      "requirements": "sources/representation-nusr.requirements.txt",
+      "source_sha256": "960242293ade4dab5032ce6e601a8825947ac744a652604d8acfa50470d9345c",
+      "matching_emitted_sources": [
+        "sources/representation-nusr.md"
+      ]
+    },
+    {
+      "skill_id": "enough",
+      "requirements": "sources/conditions-enough.requirements.txt",
+      "source_sha256": "fc9034f5f7b8bea8ac55f953916e27b1d74822f2adb7f934308dcbca893527a4",
+      "matching_emitted_sources": [
+        "sources/conditions-enough.original.md"
+      ]
+    },
+    {
+      "skill_id": "omtx",
+      "requirements": "sources/representation-omtx.requirements.txt",
+      "source_sha256": "15e1a9937234fb4cfb011209a8412f890aa3c8552dea9ecae92a9a6f40c87f76",
+      "matching_emitted_sources": [
+        "sources/representation-omtx.md"
+      ]
+    },
+    {
+      "skill_id": "rlg",
+      "requirements": "sources/values-rlg.receipt.txt",
+      "source_sha256": "ce6f13389dc21e2dfedc07d7a6a3cd05d819f29b567cfd19338573ffb494a31d",
+      "matching_emitted_sources": [
+        "sources/values-rlg.md"
+      ]
+    },
+    {
+      "skill_id": "pci",
+      "requirements": "sources/methods-pci.requirements.txt",
+      "source_sha256": "125a616aa2282251afb5e8bb9a8c144dc2222a614bc3a2677a1cb73329a1a8ee",
+      "matching_emitted_sources": [
+        "sources/methods-pci.original.md"
+      ]
+    },
+    {
+      "skill_id": "ael",
+      "requirements": "sources/inquiry-ael.requirements.txt",
+      "source_sha256": "02aa44adf2c17557bcef1856be82b993a0d4cdb62bad8c9954184e3255a46a06",
+      "matching_emitted_sources": [
+        "sources/inquiry-ael.original.md"
+      ]
+    },
+    {
+      "skill_id": "u",
+      "requirements": "sources/inquiry-u.requirements.txt",
+      "source_sha256": "eac6ec58c0ff043cd7b825ac1ace2503b8550819d636b9b85e8f5a89b33e463c",
+      "matching_emitted_sources": [
+        "sources/inquiry-u.original.md"
+      ]
+    },
+    {
+      "skill_id": "adep",
+      "requirements": "sources/conditions-handoff-adep.requirements.txt",
+      "source_sha256": "6275109031ca095cb778213f6a6cb29e86593db23751735c08109b314872371a",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-adep.original.md",
+        "sources/methods-adep.original.md"
+      ]
+    },
+    {
+      "skill_id": "vdp",
+      "requirements": "sources/representation-vdp.requirements.txt",
+      "source_sha256": "0af5c94e00d1c374d228fa4ce63cc26054798582150c8fdbc51dbca69349e870",
+      "matching_emitted_sources": [
+        "sources/representation-vdp.md"
+      ]
+    },
+    {
+      "skill_id": "re",
+      "requirements": "sources/representation-re.requirements.txt",
+      "source_sha256": "e8247b12ae63981a9115d96c1e5f4ee2d6b9f7c7ec2ec5989b62fac0ec356b75",
+      "matching_emitted_sources": [
+        "sources/representation-re.md"
+      ]
+    },
+    {
+      "skill_id": "uf",
+      "requirements": "sources/conditions-handoff-uf.requirements.txt",
+      "source_sha256": "bddade1a3612c0053979bed5e1845ef8b5293df488f43ec30d109b6a9609eea4",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-uf.original.md",
+        "sources/methods-uf.original.md"
+      ]
+    },
+    {
+      "skill_id": "fctl",
+      "requirements": "sources/inquiry-fctl.requirements.txt",
+      "source_sha256": "b3db94ff77d3dbda7ed0f1031b12725e4761c258b749861a6da2eb94f75c7b99",
+      "matching_emitted_sources": [
+        "sources/inquiry-fctl.original.md"
+      ]
+    },
+    {
+      "skill_id": "ar",
+      "requirements": "sources/values-ar.receipt.txt",
+      "source_sha256": "2731e8b327c4a149a2d66db7555f38627c4a11a648272b6364096e1e6f327a05",
+      "matching_emitted_sources": [
+        "sources/inquiry-ar.original.md",
+        "sources/root-ar.md",
+        "sources/values-ar.md"
+      ]
+    },
+    {
+      "skill_id": "araw",
+      "requirements": "sources/inquiry-araw-resume.requirements.txt",
+      "source_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+      "matching_emitted_sources": [
+        "sources/methods-araw.original.md",
+        "sources/inquiry-araw-resume.original.md",
+        "sources/values-araw.md",
+        "sources/representation-araw.md",
+        "sources/inquiry-araw.original.md",
+        "sources/systems-araw.md"
+      ]
+    },
+    {
+      "skill_id": "anag",
+      "requirements": "sources/representation-anag.requirements.txt",
+      "source_sha256": "1bccc9a5094c33a7516b089a831416a709023b86cb4e9e64a0a0e55b91f212aa",
+      "matching_emitted_sources": [
+        "sources/representation-anag.md"
+      ]
+    },
+    {
+      "skill_id": "sysk",
+      "requirements": "sources/root-sysk.requirements.txt",
+      "source_sha256": "8a7f6eded655be9198b0b7c00ec3cf479b942d463d529125f1e3c7dace4eeb77",
+      "matching_emitted_sources": [
+        "sources/root-sysk.md"
+      ]
+    },
+    {
+      "skill_id": "sum",
+      "requirements": "sources/representation-sum.requirements.txt",
+      "source_sha256": "124b711a8c057986c04be4af841e27b5343756a5c887b41791e5afefdbbe651a",
+      "matching_emitted_sources": [
+        "sources/representation-sum.md"
+      ]
+    },
+    {
+      "skill_id": "ret",
+      "requirements": "sources/systems-ret.requirements.txt",
+      "source_sha256": "e0d07d27ad26f387d2e083ecb540f9a0587dfb3381b22a1a2538b48fee85fbce",
+      "matching_emitted_sources": [
+        "sources/systems-ret.md"
+      ]
+    },
+    {
+      "skill_id": "ld",
+      "requirements": "sources/conditions-ld.requirements.txt",
+      "source_sha256": "1ac1b9a903b9c70638a44a5a31b2cbfe4816859b9a2822107e9d566581acae87",
+      "matching_emitted_sources": [
+        "sources/conditions-ld.original.md"
+      ]
+    },
+    {
+      "skill_id": "conops",
+      "requirements": "sources/conditions-conops.requirements.txt",
+      "source_sha256": "84518e1232453dcca229c8dd6771a2c2437630a5f2bb0dbd9181a016c46966e9",
+      "matching_emitted_sources": [
+        "sources/conditions-conops.original.md"
+      ]
+    },
+    {
+      "skill_id": "rva",
+      "requirements": "sources/conditions-rva.requirements.txt",
+      "source_sha256": "158060b84a2b3e8638edb5cfe28199c32a6ce939f447d9aa1634064c52327a11",
+      "matching_emitted_sources": [
+        "sources/conditions-rva.original.md"
+      ]
+    },
+    {
+      "skill_id": "eqi",
+      "requirements": "sources/values-eqi.receipt.txt",
+      "source_sha256": "b04eb99e568c722af4566fd4537efca24e92317a91b23cb39d649524fa8ac872",
+      "matching_emitted_sources": [
+        "sources/values-eqi.md"
+      ]
+    },
+    {
+      "skill_id": "ro",
+      "requirements": "sources/representation-ro.requirements.txt",
+      "source_sha256": "62b10d5bd32f960bf5a2493e4ec7c3321b7b37444848b442b56e7b2c88548845",
+      "matching_emitted_sources": [
+        "sources/representation-ro.md"
+      ]
+    },
+    {
+      "skill_id": "qag",
+      "requirements": "sources/inquiry-qag.requirements.txt",
+      "source_sha256": "9f071c2ead9c7194c6a146eae268b791c29c7976adb3ddecda07697b8cff477d",
+      "matching_emitted_sources": [
+        "sources/inquiry-qag-resume.original.md",
+        "sources/methods-qag.original.md",
+        "sources/inquiry-qag.original.md"
+      ]
+    },
+    {
+      "skill_id": "pt",
+      "requirements": "sources/conditions-pt.requirements.txt",
+      "source_sha256": "f32762a6f33c971df4808e1f0b56b4f013ca2da4366ebdb438e508bbb9cad798",
+      "matching_emitted_sources": [
+        "sources/conditions-pt.original.md"
+      ]
+    },
+    {
+      "skill_id": "collab",
+      "requirements": "sources/values-collab.receipt.txt",
+      "source_sha256": "3ccdae3f193bc690ff54521bddefb9ed274b643a5591e73cfb5fa399c721f7ca",
+      "matching_emitted_sources": [
+        "sources/values-collab.md"
+      ]
+    },
+    {
+      "skill_id": "satr",
+      "requirements": "sources/conditions-handoff-satr.requirements.txt",
+      "source_sha256": "4715511980deaaf999e241f986c782e720e2ece7f4efe2944444dacb54e164fb",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-satr.original.md",
+        "sources/methods-satr.original.md"
+      ]
+    },
+    {
+      "skill_id": "riskmgmt",
+      "requirements": "sources/conditions-riskmgmt.requirements.txt",
+      "source_sha256": "96858f6ccfa9528f7868bc1eec501b8badf6b318f0c94c30b5223952e8def955",
+      "matching_emitted_sources": [
+        "sources/conditions-riskmgmt.original.md"
+      ]
+    },
+    {
+      "skill_id": "abts",
+      "requirements": "sources/systems-abts.requirements.txt",
+      "source_sha256": "a7b443172b828ee91cebc70d353b0a65c5bf6761ed3f374ead59d5567912b57f",
+      "matching_emitted_sources": [
+        "sources/systems-abts.md"
+      ]
+    },
+    {
+      "skill_id": "mcd",
+      "requirements": "sources/systems-mcd.requirements.txt",
+      "source_sha256": "a54ce6e26ff17c23f70e043699bfef1f61bfd1de9b84471e52fc02fd79ad1017",
+      "matching_emitted_sources": [
+        "sources/systems-mcd.md"
+      ]
+    },
+    {
+      "skill_id": "uf",
+      "requirements": "sources/methods-uf.requirements.txt",
+      "source_sha256": "bddade1a3612c0053979bed5e1845ef8b5293df488f43ec30d109b6a9609eea4",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-uf.original.md",
+        "sources/methods-uf.original.md"
+      ]
+    },
+    {
+      "skill_id": "nstep",
+      "requirements": "sources/conditions-nstep.requirements.txt",
+      "source_sha256": "e0f2d9c2244536ed6518db0abce73048d4700ca0f976fea43b19efcad1436904",
+      "matching_emitted_sources": [
+        "sources/conditions-nstep.original.md"
+      ]
+    },
+    {
+      "skill_id": "requirements",
+      "requirements": "sources/conditions-requirements.requirements.txt",
+      "source_sha256": "a5df8fd7720aa03a05e948e4da39ac8532582e6f44e85226d2bccaa7c7ae85b5",
+      "matching_emitted_sources": [
+        "sources/conditions-requirements.original.md",
+        "sources/systems-requirements.md"
+      ]
+    },
+    {
+      "skill_id": "tobd",
+      "requirements": "sources/conditions-tobd.requirements.txt",
+      "source_sha256": "e5fffa2a8173b1f275751c71e815279ec2b0cc2e2134d92cdcd455f1fe7fa0d5",
+      "matching_emitted_sources": [
+        "sources/conditions-tobd.original.md"
+      ]
+    },
+    {
+      "skill_id": "qs",
+      "requirements": "sources/conditions-qs.requirements.txt",
+      "source_sha256": "872ee2d9683a4d28f4089e69a5cfb0d74799868c351ace929a6227964eeebe24",
+      "matching_emitted_sources": [
+        "sources/conditions-qs.original.md"
+      ]
+    },
+    {
+      "skill_id": "pbtc",
+      "requirements": "sources/methods-pbtc.requirements.txt",
+      "source_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+      "matching_emitted_sources": [
+        "sources/methods-pbtc.original.md"
+      ]
+    },
+    {
+      "skill_id": "mtcg",
+      "requirements": "sources/methods-mtcg.requirements.txt",
+      "source_sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+      "matching_emitted_sources": [
+        "sources/methods-mtcg.original.md"
+      ]
+    },
+    {
+      "skill_id": "qag",
+      "requirements": "sources/inquiry-qag-resume.requirements.txt",
+      "source_sha256": "9f071c2ead9c7194c6a146eae268b791c29c7976adb3ddecda07697b8cff477d",
+      "matching_emitted_sources": [
+        "sources/inquiry-qag-resume.original.md",
+        "sources/methods-qag.original.md",
+        "sources/inquiry-qag.original.md"
+      ]
+    },
+    {
+      "skill_id": "utp",
+      "requirements": "sources/root-utp.requirements.txt",
+      "source_sha256": "61c5e4653b3a86f75fa145732b23b4dcd770299e4a97b09cd332abbeb796e8b4",
+      "matching_emitted_sources": [
+        "sources/methods-utp.original.md",
+        "sources/root-utp.md"
+      ]
+    },
+    {
+      "skill_id": "ecal",
+      "requirements": "sources/conditions-ecal.requirements.txt",
+      "source_sha256": "a89b0c6c9d8a5304e68b7bfd94c4df0260428537e27c6fc2d62395605280c69a",
+      "matching_emitted_sources": [
+        "sources/conditions-ecal.original.md"
+      ]
+    },
+    {
+      "skill_id": "lcca",
+      "requirements": "sources/systems-lcca.requirements.txt",
+      "source_sha256": "a729686024289f1bb7f3f9e685b6fb3c4ff3729f0862dee96be746d2fcd45cac",
+      "matching_emitted_sources": [
+        "sources/systems-lcca.md"
+      ]
+    },
+    {
+      "skill_id": "pv",
+      "requirements": "sources/conditions-pv.requirements.txt",
+      "source_sha256": "2775d4c3d00eba35e587cf0e7ae3c4f11c1d6b35c2d7e65d75f73b6cb7380aab",
+      "matching_emitted_sources": [
+        "sources/conditions-pv.original.md",
+        "sources/methods-pv.original.md"
+      ]
+    },
+    {
+      "skill_id": "extract",
+      "requirements": "sources/methods-extract.requirements.txt",
+      "source_sha256": "ceebfc644e712ec985e6c09dbd3384eed07049f78d82ca59a7aca572639c0589",
+      "matching_emitted_sources": [
+        "sources/methods-extract.original.md"
+      ]
+    },
+    {
+      "skill_id": "qag",
+      "requirements": "sources/methods-qag.requirements.txt",
+      "source_sha256": "9f071c2ead9c7194c6a146eae268b791c29c7976adb3ddecda07697b8cff477d",
+      "matching_emitted_sources": [
+        "sources/inquiry-qag-resume.original.md",
+        "sources/methods-qag.original.md",
+        "sources/inquiry-qag.original.md"
+      ]
+    },
+    {
+      "skill_id": "av",
+      "requirements": "sources/inquiry-av.requirements.txt",
+      "source_sha256": "800cb198a0df5a4488efc33bb257647e357eed2ae71ed07362d79e1f7561312e",
+      "matching_emitted_sources": [
+        "sources/inquiry-av.original.md"
+      ]
+    },
+    {
+      "skill_id": "exd",
+      "requirements": "sources/values-exd.receipt.txt",
+      "source_sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+      "matching_emitted_sources": [
+        "sources/systems-exd.md",
+        "sources/values-exd.md"
+      ]
+    },
+    {
+      "skill_id": "sim",
+      "requirements": "sources/representation-sim.requirements.txt",
+      "source_sha256": "cb6eae424caf6767caaf5b117c884361dc130a8235a04642a64eb22c90d802e6",
+      "matching_emitted_sources": [
+        "sources/representation-sim.md"
+      ]
+    },
+    {
+      "skill_id": "al",
+      "requirements": "sources/values-al.receipt.txt",
+      "source_sha256": "d3f19e31956f00cdac228f049468e7954c695ebb576d11ca841a6e67f0bdec20",
+      "matching_emitted_sources": [
+        "sources/values-al.md"
+      ]
+    },
+    {
+      "skill_id": "draft",
+      "requirements": "sources/representation-draft.requirements.txt",
+      "source_sha256": "5d2269d1fead6f0cf4710326e0ac9b95f5d54d53c324f725e8912315866c025a",
+      "matching_emitted_sources": [
+        "sources/root-draft.md",
+        "sources/representation-draft.md"
+      ]
+    },
+    {
+      "skill_id": "rwif",
+      "requirements": "sources/conditions-rwif.requirements.txt",
+      "source_sha256": "1da632893e0d49d1563788ffa02a1316323e1bd1927c75662982feb29ab568d1",
+      "matching_emitted_sources": [
+        "sources/conditions-rwif.original.md"
+      ]
+    },
+    {
+      "skill_id": "ht",
+      "requirements": "sources/inquiry-ht-resume.requirements.txt",
+      "source_sha256": "0269802291dbe0bfa90e3ac0d0ad9972e6440bf2d14354728ca10235e52a4fea",
+      "matching_emitted_sources": [
+        "sources/inquiry-ht.original.md",
+        "sources/inquiry-ht-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "sp",
+      "requirements": "sources/sp.requirements.txt",
+      "source_sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+      "matching_emitted_sources": [
+        "sources/methods-sp.original.md",
+        "sources/sp.md"
+      ]
+    },
+    {
+      "skill_id": "emv",
+      "requirements": "sources/systems-emv.requirements.txt",
+      "source_sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+      "matching_emitted_sources": [
+        "sources/values-emv.md",
+        "sources/systems-emv.md",
+        "sources/inquiry-emv.original.md",
+        "sources/inquiry-emv-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "col",
+      "requirements": "sources/values-col.receipt.txt",
+      "source_sha256": "53e5bdbe771aaf02bd5eb2773c606badf440a356f8fb7d8964c47a3f83e9ec47",
+      "matching_emitted_sources": [
+        "sources/values-col.md"
+      ]
+    },
+    {
+      "skill_id": "lpd",
+      "requirements": "sources/systems-lpd.requirements.txt",
+      "source_sha256": "308bd220f96cacb2f05a87766641dcea4eb2fa7f491929a25cb7c2d05dd6b2eb",
+      "matching_emitted_sources": [
+        "sources/systems-lpd.md"
+      ]
+    },
+    {
+      "skill_id": "tradestudy",
+      "requirements": "sources/conditions-tradestudy.requirements.txt",
+      "source_sha256": "8bebf76cc01ac110f96339c62077d1702f7ea433a9b935967470085a1cb9caf6",
+      "matching_emitted_sources": [
+        "sources/conditions-tradestudy.original.md"
+      ]
+    },
+    {
+      "skill_id": "pwif",
+      "requirements": "sources/conditions-pwif.requirements.txt",
+      "source_sha256": "8ec1521490dfb8e0abebfcc3d97eb000844c4a738ded765ee71e7d5d071536de",
+      "matching_emitted_sources": [
+        "sources/conditions-pwif.original.md"
+      ]
+    },
+    {
+      "skill_id": "gdm",
+      "requirements": "sources/values-gdm.receipt.txt",
+      "source_sha256": "a9bbd47361481e96b2c14b46988e0fe5d5286e89897fb38e4a4b323f0cd5daa0",
+      "matching_emitted_sources": [
+        "sources/values-gdm.md"
+      ]
+    },
+    {
+      "skill_id": "spr",
+      "requirements": "sources/conditions-spr.requirements.txt",
+      "source_sha256": "5006de68793b5c3b3d2f8919388105e75992be5809ed4674594afb121378eb15",
+      "matching_emitted_sources": [
+        "sources/conditions-spr.original.md"
+      ]
+    },
+    {
+      "skill_id": "empth",
+      "requirements": "sources/values-empth.receipt.txt",
+      "source_sha256": "b51aa7afad8ad02d5d6e0e2c57b82d29c2a9e8fcb8a362cb3770b6664663ac45",
+      "matching_emitted_sources": [
+        "sources/values-empth.md"
+      ]
+    },
+    {
+      "skill_id": "dvs",
+      "requirements": "sources/dvs.requirements.txt",
+      "source_sha256": "5acd0ae4ec8338872b2abde2f08bb6f07a20ba165765decdd797ed2a0e0bb314",
+      "matching_emitted_sources": [
+        "sources/inquiry-dvs.original.md",
+        "sources/dvs.md"
+      ]
+    },
+    {
+      "skill_id": "gjs",
+      "requirements": "sources/systems-gjs.requirements.txt",
+      "source_sha256": "ee227265cb163c9f624210ec4198e7e432c5608e22f57eeba7c91868639497f9",
+      "matching_emitted_sources": [
+        "sources/systems-gjs.md",
+        "sources/values-gjs.md",
+        "sources/gjs.md"
+      ]
+    },
+    {
+      "skill_id": "aex",
+      "requirements": "sources/representation-aex.requirements.txt",
+      "source_sha256": "7942e0f726d98b54944c0aca211d7d8abb94bcb1defd2ce0823aeebcbdf56d4a",
+      "matching_emitted_sources": [
+        "sources/inquiry-aex.original.md",
+        "sources/representation-aex.md"
+      ]
+    },
+    {
+      "skill_id": "ig",
+      "requirements": "sources/values-ig.receipt.txt",
+      "source_sha256": "d23487b93d9044dff452692a41dd0a2a2ad77558f34c50b0924aa0f6565184d4",
+      "matching_emitted_sources": [
+        "sources/values-ig.md"
+      ]
+    },
+    {
+      "skill_id": "svs",
+      "requirements": "sources/methods-svs.requirements.txt",
+      "source_sha256": "eb82427aead79faffcee89235fb4f31465fd892dd560fc1e0466fcc9e2c25b47",
+      "matching_emitted_sources": [
+        "sources/methods-svs.original.md"
+      ]
+    },
+    {
+      "skill_id": "ltai",
+      "requirements": "sources/root-ltai.requirements.txt",
+      "source_sha256": "c1413674ed46c4fe0c256b525efb1aba9d3a15bb52b054ad2f052e4dbcbcb469",
+      "matching_emitted_sources": [
+        "sources/systems-ltai.md",
+        "sources/root-ltai.md"
+      ]
+    },
+    {
+      "skill_id": "gd",
+      "requirements": "sources/systems-gd.requirements.txt",
+      "source_sha256": "0f1038f0b90c2d7f33ed643fd1f644e1c1682a2777eb6314f515f2ad060284bb",
+      "matching_emitted_sources": [
+        "sources/systems-gd.md"
+      ]
+    },
+    {
+      "skill_id": "boc",
+      "requirements": "sources/methods-boc.requirements.txt",
+      "source_sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+      "matching_emitted_sources": [
+        "sources/methods-boc.original.md",
+        "sources/values-boc.md",
+        "sources/conditions-handoff-boc.original.md"
+      ]
+    },
+    {
+      "skill_id": "ma",
+      "requirements": "sources/representation-ma.requirements.txt",
+      "source_sha256": "bbf09161a65364d43e76f438375bb8ddcbc5e507b5e792b190413be31c05c4bf",
+      "matching_emitted_sources": [
+        "sources/representation-ma.md"
+      ]
+    },
+    {
+      "skill_id": "ve",
+      "requirements": "sources/values-ve.receipt.txt",
+      "source_sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+      "matching_emitted_sources": [
+        "sources/systems-ve.md",
+        "sources/values-ve.md"
+      ]
+    },
+    {
+      "skill_id": "pbi",
+      "requirements": "sources/values-pbi.receipt.txt",
+      "source_sha256": "852eac2cb902806aaaebcf561457280aa8191070fd67795131aa6bd99c348c9f",
+      "matching_emitted_sources": [
+        "sources/values-pbi.md"
+      ]
+    },
+    {
+      "skill_id": "icl",
+      "requirements": "sources/inquiry-icl.requirements.txt",
+      "source_sha256": "ffeacd4099c0f1648e6ba0f40a6f925b9ab5eea294f4d8688b5d87989c976b84",
+      "matching_emitted_sources": [
+        "sources/inquiry-icl.original.md"
+      ]
+    },
+    {
+      "skill_id": "foht",
+      "requirements": "sources/methods-foht.requirements.txt",
+      "source_sha256": "55ad28caf754e272795d983dc5b1e41f6153b8f418827d50336c2e983e1e1ea5",
+      "matching_emitted_sources": [
+        "sources/methods-foht.original.md"
+      ]
+    },
+    {
+      "skill_id": "met",
+      "requirements": "sources/representation-met.requirements.txt",
+      "source_sha256": "dea47c6636f128b4d93dba33bccc11321bea9d1cb2b5a24d26f8ed0a0d02e00b",
+      "matching_emitted_sources": [
+        "sources/representation-met.md"
+      ]
+    },
+    {
+      "skill_id": "cmplx",
+      "requirements": "sources/root-cmplx.requirements.txt",
+      "source_sha256": "a25f288836d145f9eb7cd258f14a27fd17c16295f891adb04f931edd19b591bd",
+      "matching_emitted_sources": [
+        "sources/methods-cmplx.original.md",
+        "sources/root-cmplx.md"
+      ]
+    },
+    {
+      "skill_id": "upth",
+      "requirements": "sources/methods-upth.requirements.txt",
+      "source_sha256": "4640f6a050a4dd37444253af1e781e25ad263f1ee01279144056f551e489baf5",
+      "matching_emitted_sources": [
+        "sources/methods-upth.original.md",
+        "sources/root-upth.md"
+      ]
+    },
+    {
+      "skill_id": "se",
+      "requirements": "sources/inquiry-se.requirements.txt",
+      "source_sha256": "694b7142dc2c9d38ad5ef8c9a2af07edc29aca5c2326d6700e6ddef72132cbbd",
+      "matching_emitted_sources": [
+        "sources/inquiry-se.original.md"
+      ]
+    },
+    {
+      "skill_id": "hab",
+      "requirements": "sources/values-hab.receipt.txt",
+      "source_sha256": "a3880bcfe1df1bb19ea8f841b0b268c74b12103c77f6c9aca7502e0f9fe769e6",
+      "matching_emitted_sources": [
+        "sources/values-hab.md"
+      ]
+    },
+    {
+      "skill_id": "ar",
+      "requirements": "sources/root-ar.requirements.txt",
+      "source_sha256": "2731e8b327c4a149a2d66db7555f38627c4a11a648272b6364096e1e6f327a05",
+      "matching_emitted_sources": [
+        "sources/inquiry-ar.original.md",
+        "sources/root-ar.md",
+        "sources/values-ar.md"
+      ]
+    },
+    {
+      "skill_id": "de",
+      "requirements": "sources/conditions-de.requirements.txt",
+      "source_sha256": "63c3e91be87f6c3465be7972dfe5eb58ca301632b4e670a6c79a9f2406fa6aed",
+      "matching_emitted_sources": [
+        "sources/conditions-de.original.md"
+      ]
+    },
+    {
+      "skill_id": "rci",
+      "requirements": "sources/inquiry-rci.requirements.txt",
+      "source_sha256": "4d1cbf1d6d5df350a8f079a2767c27f05771ab4b48dfdb5af169363d11391aef",
+      "matching_emitted_sources": [
+        "sources/inquiry-rci.original.md"
+      ]
+    },
+    {
+      "skill_id": "emv",
+      "requirements": "sources/values-emv.receipt.txt",
+      "source_sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+      "matching_emitted_sources": [
+        "sources/values-emv.md",
+        "sources/systems-emv.md",
+        "sources/inquiry-emv.original.md",
+        "sources/inquiry-emv-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "rca",
+      "requirements": "sources/inquiry-rca-resume.requirements.txt",
+      "source_sha256": "03bdadaf1c384895210ca427640a2f97518f4bff8d05beb1b721ba21c8a2237e",
+      "matching_emitted_sources": [
+        "sources/inquiry-rca.original.md",
+        "sources/inquiry-rca-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "wre",
+      "requirements": "sources/representation-wre.requirements.txt",
+      "source_sha256": "f3b5104ed229787c7fec425cca9e2928b26767cf1e0b03cf0ef05aa2b838741e",
+      "matching_emitted_sources": [
+        "sources/representation-wre.md"
+      ]
+    },
+    {
+      "skill_id": "mp",
+      "requirements": "sources/values-mp.receipt.txt",
+      "source_sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+      "matching_emitted_sources": [
+        "sources/values-mp.md"
+      ]
+    },
+    {
+      "skill_id": "hsi",
+      "requirements": "sources/conditions-hsi.requirements.txt",
+      "source_sha256": "45e6f3e16ed22c2a14e097739b46ca39d8ea1151946fba2cf8ac0f1f26ec7cb8",
+      "matching_emitted_sources": [
+        "sources/conditions-hsi.original.md"
+      ]
+    },
+    {
+      "skill_id": "vcl",
+      "requirements": "sources/values-vcl.receipt.txt",
+      "source_sha256": "effe88c92633bd84325671723b3dd080b5cc3e77f6d29f5dab7517ed073216c8",
+      "matching_emitted_sources": [
+        "sources/values-vcl.md"
+      ]
+    },
+    {
+      "skill_id": "hf",
+      "requirements": "sources/values-hf.receipt.txt",
+      "source_sha256": "dfc15bd40562bb228848a1109f54f7adf1769d11aa7ce9e4e5ef9d8f388e088b",
+      "matching_emitted_sources": [
+        "sources/values-hf.md"
+      ]
+    },
+    {
+      "skill_id": "vcd",
+      "requirements": "sources/values-vcd.receipt.txt",
+      "source_sha256": "f3e351791fd9a271fbca8b2e4c876ac8c522ee12baadec40c2f2635656a65241",
+      "matching_emitted_sources": [
+        "sources/values-vcd.md"
+      ]
+    },
+    {
+      "skill_id": "sdc",
+      "requirements": "sources/inquiry-sdc.requirements.txt",
+      "source_sha256": "d46ecd8285fe7a6cebff3559f3c9a5937fed4d5d148d3b10457b3893e5ce1d0f",
+      "matching_emitted_sources": [
+        "sources/inquiry-sdc.original.md",
+        "sources/inquiry-sdc-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "boc",
+      "requirements": "sources/conditions-handoff-boc.requirements.txt",
+      "source_sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+      "matching_emitted_sources": [
+        "sources/methods-boc.original.md",
+        "sources/values-boc.md",
+        "sources/conditions-handoff-boc.original.md"
+      ]
+    },
+    {
+      "skill_id": "gg",
+      "requirements": "sources/representation-gg.requirements.txt",
+      "source_sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+      "matching_emitted_sources": [
+        "sources/inquiry-gg-resume.original.md",
+        "sources/methods-gg.original.md",
+        "sources/representation-gg.md",
+        "sources/inquiry-gg.original.md"
+      ]
+    },
+    {
+      "skill_id": "crtv",
+      "requirements": "sources/methods-crtv.requirements.txt",
+      "source_sha256": "49f21926c4f2cf70c023c92b176151c4c1d9a878e13956e2a1b45161cc8a9706",
+      "matching_emitted_sources": [
+        "sources/methods-crtv.original.md"
+      ]
+    },
+    {
+      "skill_id": "rca",
+      "requirements": "sources/inquiry-rca.requirements.txt",
+      "source_sha256": "03bdadaf1c384895210ca427640a2f97518f4bff8d05beb1b721ba21c8a2237e",
+      "matching_emitted_sources": [
+        "sources/inquiry-rca.original.md",
+        "sources/inquiry-rca-resume.original.md"
+      ]
+    },
+    {
+      "skill_id": "la",
+      "requirements": "sources/root-la.requirements.txt",
+      "source_sha256": "33e909a5717c1e38255b030fe87cc0fe97b25f357f39fff0e51e19f01ebec0eb",
+      "matching_emitted_sources": [
+        "sources/root-la.md",
+        "sources/methods-la.original.md"
+      ]
+    },
+    {
+      "skill_id": "w",
+      "requirements": "sources/representation-w.requirements.txt",
+      "source_sha256": "996c29785f54fada9264fffca06a5855a0d2999ab4ceaf0fea289fb4179215da",
+      "matching_emitted_sources": [
+        "sources/representation-w.md"
+      ]
+    },
+    {
+      "skill_id": "gjs",
+      "requirements": "sources/gjs.requirements.txt",
+      "source_sha256": "ee227265cb163c9f624210ec4198e7e432c5608e22f57eeba7c91868639497f9",
+      "matching_emitted_sources": [
+        "sources/systems-gjs.md",
+        "sources/values-gjs.md",
+        "sources/gjs.md"
+      ]
+    },
+    {
+      "skill_id": "wsib",
+      "requirements": "sources/methods-wsib.requirements.txt",
+      "source_sha256": "913dcb46a5269e7b88f27be48fa7664364a05f7e4102f7da19f65c9205a46cfc",
+      "matching_emitted_sources": [
+        "sources/methods-wsib.original.md"
+      ]
+    },
+    {
+      "skill_id": "sysarch",
+      "requirements": "sources/systems-sysarch.requirements.txt",
+      "source_sha256": "08869404e6d3befd19ed3d24e8d99a08bee15241525cf0b3f09eaabe9dbd0a1f",
+      "matching_emitted_sources": [
+        "sources/systems-sysarch.md"
+      ]
+    },
+    {
+      "skill_id": "sp",
+      "requirements": "sources/methods-sp.requirements.txt",
+      "source_sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+      "matching_emitted_sources": [
+        "sources/methods-sp.original.md",
+        "sources/sp.md"
+      ]
+    },
+    {
+      "skill_id": "pre",
+      "requirements": "sources/values-pre.receipt.txt",
+      "source_sha256": "18b144496e87ffa8812c9f4fda1378e2be4ccc459f4c502588c7b14201b9a65f",
+      "matching_emitted_sources": [
+        "sources/values-pre.md"
+      ]
+    },
+    {
+      "skill_id": "ipss",
+      "requirements": "sources/inquiry-ipss.requirements.txt",
+      "source_sha256": "4967477d67334da4798c05381ce3b81a6a3648b419f189019ff7710405537377",
+      "matching_emitted_sources": [
+        "sources/inquiry-ipss.original.md"
+      ]
+    },
+    {
+      "skill_id": "dom",
+      "requirements": "sources/systems-dom.requirements.txt",
+      "source_sha256": "f340af10fcbce3697e4e4195cd9485686be1bf7fd0fdfb4d74275a60fe5439f6",
+      "matching_emitted_sources": [
+        "sources/systems-dom.md"
+      ]
+    },
+    {
+      "skill_id": "adep",
+      "requirements": "sources/methods-adep.requirements.txt",
+      "source_sha256": "6275109031ca095cb778213f6a6cb29e86593db23751735c08109b314872371a",
+      "matching_emitted_sources": [
+        "sources/conditions-handoff-adep.original.md",
+        "sources/methods-adep.original.md"
+      ]
+    },
+    {
+      "skill_id": "cta",
+      "requirements": "sources/conditions-handoff-cta.requirements.txt",
+      "source_sha256": "5a023d5153de1aa42976334e6976a2d684427181538553e20c0b2a95460a765b",
+      "matching_emitted_sources": [
+        "sources/methods-cta.original.md",
+        "sources/conditions-handoff-cta.original.md"
+      ]
+    },
+    {
+      "skill_id": "fr",
+      "requirements": "sources/conditions-fr.requirements.txt",
+      "source_sha256": "d1078bd2514de2e246b8cc6df45b55674d8064de9febd3416247500eaa6929e2",
+      "matching_emitted_sources": [
+        "sources/conditions-fr.original.md"
+      ]
+    },
+    {
+      "skill_id": "md",
+      "requirements": "sources/methods-md.requirements.txt",
+      "source_sha256": "31fe8a01dd0b0eb4cf06518a0bca2054275f2c777ac52341f77b4a672629dd4d",
+      "matching_emitted_sources": [
+        "sources/methods-md.original.md"
+      ]
+    },
+    {
+      "skill_id": "ram",
+      "requirements": "sources/conditions-ram.requirements.txt",
+      "source_sha256": "efd0fbb4475e17f490cfc377d55c4c99297be8973835daa585909b84a47f8c2d",
+      "matching_emitted_sources": [
+        "sources/conditions-ram.original.md",
+        "sources/systems-ram.md"
+      ]
+    },
+    {
+      "skill_id": "lrs",
+      "requirements": "sources/conditions-lrs.requirements.txt",
+      "source_sha256": "d7c39ae25c113b22c79b41856b00b41c28f13e9c32347bec547ea10beab0c4be",
+      "matching_emitted_sources": [
+        "sources/conditions-lrs.original.md"
+      ]
+    },
+    {
+      "skill_id": "iterate",
+      "requirements": "sources/methods-iterate.requirements.txt",
+      "source_sha256": "4fbd3a8d677d2cf94b909bc6c0ab425063cca71d5ea27df6bc6eab7a32daaf7c",
+      "matching_emitted_sources": [
+        "sources/methods-iterate.original.md"
+      ]
+    }
+  ],
+  "selected_skills_without_verified_source": []
+}
