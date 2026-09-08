@@ -18,3 +18,5 @@ The original verified archive at commit `07e6af64c65fb682305659b2ec830e21743c0f1
 The saved [automation-prompt.txt](automation-prompt.txt) now begins from the current repository. This policy and prompt update do not claim that an independently configured scheduled task was edited.
 
 The earlier `tools/checkpoint_archive.py` interface delegates to this same builder. Both transport metadata schemas are refreshed together for compatibility with the preserved recovery script. The inventory generator preserves imported identities and never writes README or the curated inquiry index.
+
+The recipe-and-deduction revision adds catalog/data.json and tools/render_catalog.py. The checkpoint builder also renders those linked views and runs tools/deductions.py before packaging. These operations check structure and finite supplied models, not human efficacy. The earlier corpus expansion and intent corrections are preserved; see revision/reconciliation.md for the concurrent parent and exact scope of the added work.

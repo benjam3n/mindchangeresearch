@@ -1,0 +1,146 @@
+[
+  {
+    "path": "findings/neighbor-xor.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Finish the earlier question about even-width neighbor-XOR rings and preserve mathematical exploration as a substantive end of this program.",
+      "Actual mind change": "The current inquiry replaced an unresolved even-width extension with a complete extinction criterion, its proof, and a tight bound for the erasing widths.",
+      "Benefit": "The criterion answers an infinite family of width questions that individual orbit traces leave open. Its mathematical value is the completed classification; no human emotional response is needed to establish it.",
+      "Verdict": "KEEP for the theorem and rule checks. This is an extension of a prior exploration, not a claim about all cellular automata or asynchronous updates.",
+      "Organization": "The general result leads; the five-cell record preserves the discovery that motivated it; finite traces remain supporting examples.",
+      "Next attempts": "Asynchronous or non-XOR updates are different specified objects. Their classification is not entailed by the synchronous XOR theorem."
+    }
+  },
+  {
+    "path": "findings/time-effort-and-value.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Complete the time and effort consequences of the existing scheduling and reuse cases without substituting more activity, faster output, or fewer changes for the actual objective.",
+      "Actual mind change": "A draft inference that positive switching cost made the original case impossible was rejected after the omitted advance-switch route was constructed. The corrected feasibility region is 0≤σ≤1/2, with a lower bound and an attaining schedule. The current repository front page uses substantive consequences instead of application totals as its main progress signal; requested exposure accounting remains separate.",
+      "Benefit": "A deferred scheduling extension is resolved, and the efficiency claim is restricted to the actual cost and value model instead of silently changing the user's goal.",
+      "Verdict": "KEEP for the derived inequalities and their use in the organization repair. No real-world schedule or human utility is invented.",
+      "Organization": "Keep the equations and boundary conditions with the recommendation. Counting operations or minutes without their roles loses the decision.",
+      "Next attempts": "Actual uncertain durations need a distribution or a stated robust bound. Without either, the deterministic inequalities remain conditional rather than becoming a fabricated forecast."
+    }
+  },
+  {
+    "path": "findings/exploration-and-goal-change.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Restore changes to the question, interpretation, and destination as legitimate research operations rather than forcing them through a previously fixed target.",
+      "Actual mind change": "The current instruction now branches between execution, exploration, and criterion reconsideration. It no longer makes a completed target specification the admission requirement for all three.",
+      "Benefit": "A known earlier finding now changes the later instruction it contradicted, and the efficiency objective is restored to the user's broader purpose.",
+      "Verdict": "KEEP for the resolved instruction conflict and objective correction. The mere preservation of these distinctions is not counted as a new empirical discovery.",
+      "Organization": "Goal changes belong among the substantive operations. The evaluation record preserves which criterion governed each conclusion without requiring every inquiry to start with the same criterion.",
+      "Next attempts": "Future comparisons can reveal another operation excluded by this three-way distinction. The present correction already applies to the documented exploration case."
+    }
+  },
+  {
+    "path": "findings/reference-and-concurrency.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Complete the outstanding content-precondition and concurrent-round consequences of the existing editing and timer records.",
+      "Actual mind change": "The deferred content-mismatch and two-round cancellation cases are now resolved by explicit invariants, concrete outputs, and executable operations. The distinction between recording a version and enforcing it is carried into the recipe audit.",
+      "Benefit": "The operations preserve the intended targets through reorder, reject an actual content mismatch before mutation, and keep B's deadline unchanged while A is canceled and restarted.",
+      "Verdict": "KEEP for the finite operations and product-state argument. Human comprehension and a production transaction interface remain separate questions.",
+      "Organization": "Bind each claim to the identity, content, criterion, or event history it actually needs. Do not impose every form of identity on every task.",
+      "Next attempts": "Real concurrent side effects require a specified execution interface. The finite independence and mismatch results above are already complete."
+    }
+  },
+  {
+    "path": "findings/composition-and-failure.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Replace “test mixed prerequisites and shared causes later” with the exact relation governing their repair.",
+      "Actual mind change": "The active treatment of prerequisites now distinguishes conjunction, alternatives, and shared causes, with a complete finite repair algorithm. A collection of individually useful recipes no longer implies that their concatenation is an adequate recipe.",
+      "Benefit": "The mixed-tree question is answered by {a} or {b,c}, and the general hitting-set result explains why. This supplies the missing operation behind a class of vague obstacle-repair instructions.",
+      "Verdict": "KEEP for the Boolean derivation, implemented repair enumeration, and composition countermodels.",
+      "Organization": "Store the relation among conditions with the conditions themselves. “Dependency” without its logical meaning is insufficient for choosing a repair.",
+      "Next attempts": "Nonmonotone effects or probabilistic common causes require an explicit different model. They cannot be inferred from the monotone repair theorem."
+    }
+  },
+  {
+    "path": "findings/recipe-adequacy.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Replace recipe quality as an adjective with exact conditions that separate an information failure, an instruction failure, and an execution failure.",
+      "Actual mind change": "The current revision replaces a schema-level executability claim with a necessary-and-sufficient selection condition, a stronger three-situation counterexample, and an implemented finite diagnosis policy. The active instructions no longer require a fixed recipe length or a fully fixed destination before exploratory work.",
+      "Benefit": "The result identifies a class of failures no obedient executor can compensate for and supplies a complete method for the finite cases where the required relations are available.",
+      "Verdict": "KEEP for the derivation and finite implementation. Psychological adequacy sets remain empirical or otherwise independently justified inputs.",
+      "Organization": "Use the theorem to assess whether the available information is enough; use the finite policy when the inputs are explicit; use the catalog to locate candidate operations after the relevant difference is known.",
+      "Next attempts": "The remaining empirical question is how accurately real observations identify adequate-action sets. That question does not postpone the exact selection result established here."
+    }
+  },
+  {
+    "path": "findings/reliability-and-benefit.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Preserve the user's ambition for highly reliable beneficial recipes while deriving what reliability would require, instead of replacing the ambition with either a promise or an experimental checklist.",
+      "Actual mind change": "Reliability is now decomposed into explicit success events, joint-model bounds, and population scope. The current catalog separates documented ingredients, candidate assemblies, completed finite operations, and unobserved human effects.",
+      "Benefit": "The derivation shows how strong recipe guarantees could be supported, why fidelity and correct handling are insufficient proxies, and which reliability improvements this revision actually achieved.",
+      "Verdict": "KEEP for the logical bounds and denominator distinctions. The repository has not established near-universal human efficacy for its 300 imported variants.",
+      "Organization": "Pair a recipe's actual operation with its strongest justified guarantee and remaining empirical link. Preserve the ambitious objective without inflating the achieved evidence.",
+      "Next attempts": "Deployment-specific rates require independent observations; the finite proofs and completed operations remain useful now."
+    }
+  },
+  {
+    "path": "findings/information-and-action.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Finish the deductions available when signal accuracy, observation cost, or the relevant decision changes, rather than sending those parameter changes to a future inquiry by default.",
+      "Actual mind change": "The current policy family now accepts arbitrary supplied binary accuracy, retains all six policies until dominance is justified, and computes exact endpoint minimax mixtures. Changed accuracy and signal count have completed deductions rather than merely future-work instructions.",
+      "Benefit": "The α=0 case exposes an actual invalid transfer of the old policy deletion, while the symbolic formulas identify what additional data would and would not be needed for other cases.",
+      "Verdict": "KEEP for these conditional mathematical results and their implementation. Real likelihoods, utilities, and effects require their own evidence.",
+      "Organization": "The formulas are the reusable result; numerical examples demonstrate boundaries; source records preserve the narrower findings and their history.",
+      "Next attempts": "Actual human response or unknown real likelihoods remain empirical questions. Their absence does not invalidate or postpone the finite derivations above."
+    }
+  },
+  {
+    "path": "findings/organization-and-representation.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Replace “organize this more efficiently” with a derived account of which distinctions an organization must preserve and which costs it actually changes.",
+      "Actual mind change": "Organization is now treated as preservation of answers plus the cost of obtaining them. This revision adds a completed-consequence entrance alongside the accepted inquiry, contributor, target, and method views, preserving native paths for archived findings.",
+      "Benefit": "The new arrangement fixes an observed access defect and prevents count, category, and chronology views from pretending to answer questions they omit.",
+      "Verdict": "KEEP for the theorem, generalized graph calculation, and actual path repair. Human navigation speed is not inferred from link validity.",
+      "Organization": "Read this result when choosing a representation; use the original graph record for its concrete derivation and the revision inventory for the repository-specific evidence.",
+      "Next attempts": "A new query family or measured workload can justify another representation. Those inputs are not needed to establish the preservation theorem."
+    }
+  },
+  {
+    "path": "findings/dependence-and-changed-models.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Finish several parameter changes that the earlier research left as instructions for later models, while retaining the exact information a conditional answer needs.",
+      "Actual mind change": "Partial dependence, reservation fees, changed timing, finite failure penalties, additional XOR controls, and unequal move costs now have conditional rules and worked answers. They are no longer represented only by next-attempt requests.",
+      "Benefit": "The dependency range overturns an unjustified interpolation; the duration calculation rejects an apparent all-waiting failure; the fee and cost formulas reveal the exact thresholds where the preferred route changes.",
+      "Verdict": "KEEP for the mathematical consequences of the specified models. No real machine, sensor, or person was measured.",
+      "Organization": "Changed premises lead directly to changed formulas and decisions. The original records retain the narrower starting cases and execution history.",
+      "Next attempts": "Unknown real dependence, prices, and failure rates need observations if a real application requires numerical values. The conditional results above are available without those observations."
+    }
+  },
+  {
+    "path": "revision/intent-audit.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Make the repository answer the user's actual request for consequential, reliably beneficial changes, including changes to its own interpretation and instructions, rather than rewarding procedural production.",
+      "Actual mind change": "The current work changed from importing and criticizing a catalog to correcting its central adequacy claims, completing deferred logical families, repairing conflicting active instructions, and exposing the historical corpus through usable paths.",
+      "Benefit": "The revision supplies the missing results and changes the controls that would otherwise reproduce the same narrowing. It preserves rather than inflates the earlier evidence.",
+      "Verdict": "KEEP for the identified defects and implemented repairs. User perspective change and empirical recipe efficacy are not asserted as observed.",
+      "Organization": "Read the main findings for consequences; use this audit for why the repository changed; use the inventory and historical evidence for provenance.",
+      "Next attempts": "Unknown human outcomes and independent navigation measurements remain open. The completed deductions and active repairs do not depend on those observations."
+    }
+  },
+  {
+    "path": "revision/perspectives-compared.md",
+    "record_role": "logical derivation or integration analysis; no new original-skill completion credit",
+    "assessment": {
+      "Intended mind change": "Replace the assumption that this repository needs a larger, better formatted procedure catalog if another interpretation better realizes the user's aim.",
+      "Actual mind change": "The current revision changed from improving a uniform catalog and its checks to deriving the conditions under which a catalog, compiler, representation, and instruction set can be adequate. It also changed the primary organization from production categories to completed consequences and the questions they settle.",
+      "Benefit": "This comparison exposed a real contradiction between an earlier exploration result and the active compiler, a missing implementation behind a PASS label, and a mismatch between the prior answer's efficiency objective and the user's broader objective. These findings directly determine the code, prose, and navigation changed in this revision.",
+      "Verdict": "KEEP for these explicit corrections and their present application. It is not evidence of an unobserved human response or a globally optimal organization.",
+      "Organization": "The alternative perspectives are retained here so the selected organization remains revisable. Their useful deductions are developed in the findings, rather than left as instructions to perform another perspective exercise.",
+      "Next attempts": "The genuine remaining questions concern empirical uptake, costs under different reading tasks, and whether new domains reveal further distinctions. They do not postpone the deductions or repository repairs made in this revision."
+    }
+  }
+]

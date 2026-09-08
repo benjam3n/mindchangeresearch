@@ -122,6 +122,13 @@ def build():
     sys.path.insert(0, str(ROOT / 'tools'))
     from build_mind_change import build as build_subject_views
     build_subject_views()
+    # Preserve the separate imported recipe catalog and its completed finite cases.
+    # Rendering validates structure; it does not certify assembled human efficacy.
+    for script in ['render_catalog.py', 'deductions.py']:
+        generated = subprocess.run([sys.executable, str(ROOT / 'tools' / script)],
+                                   cwd=ROOT, capture_output=True, text=True)
+        if generated.returncode:
+            raise ValueError(f'{script} failed: ' + generated.stdout + generated.stderr)
     checked = subprocess.run([sys.executable, str(ROOT / 'tools/check_mind_change.py')],
                              cwd=ROOT, capture_output=True, text=True)
     if checked.returncode:

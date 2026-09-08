@@ -11,8 +11,9 @@
   "verdict": "KEEP for ownership control and release.",
   "organization": "No line is owned; cycle 03 is preserved under post-allocation/cycle-03 and the frozen initial allocation remains unchanged.",
   "next_attempts": [
-    "Begin a genuinely diverse cycle 04",
-    "Measure timed recipe-compiler and source-order comparisons",
-    "Preserve version conflicts rather than overwriting newer work"
-  ]
+    "Read current findings and revision/deferred-work-disposition.md before selecting unfinished deductions",
+    "Resume original partial and blocked gates when exact inputs become available",
+    "Continue diverse work while preserving ownership and newer concurrent changes"
+  ],
+  "integration_revision": "Recipe catalog and completed deductions integrated after the 25-inquiry and contributor-inventory commits; original ledger status unchanged."
 }

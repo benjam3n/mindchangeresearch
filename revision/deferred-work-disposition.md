@@ -1,0 +1,31 @@
+# What happened to instructions that stood in for results
+
+This map records closures at the level of specified questions, rather than falsely marking every historical “next attempt” complete. The [432-record inventory](corpus-inventory.json) preserves every extracted next-attempt field. Historical suggestions can be already completed elsewhere, entailed by a general result, requests for a newly specified problem, or requests for unavailable observations.
+
+| Historical question or gap | Completed answer in this revision | What is still not established |
+|---|---|---|
+| Choose the next observation from confidence or a locus label | [A selector exists iff each observation class has a commonly adequate action; finite minimum-cost question policy implemented](../findings/recipe-adequacy.md) | Real adequate-action sets and the truth of a recipient's self-report |
+| Add unequal query costs to rule discovery | The same finite solver accepts positive costs and known question outcomes, selecting cost 1 over cost 3 in its worked case | An unspecified noise process or unlisted hypothesis cannot be inferred from a noiseless model |
+| Diagnose an insufficient recipe | Same-input incompatible-action witness and instruction-reachability impossibility proof | No universal psychological diagnosis is claimed |
+| Compare organizations beyond one frozen case | [Exact question-preservation theorem, coarsest answer partition, generalized graph distance loss](../findings/organization-and-representation.md) | Human workload costs not supplied by the theorem |
+| Change binary signal accuracy, cost, or number of signals | [Full joint family, six payoffs, exact minimax mixtures, finite arbitrary-signal value formula](../findings/information-and-action.md) | Unknown real joint likelihoods and utilities |
+| Test partial alarm correlation | [Exact posterior range [1/4,1], threshold u>9v; partial-copy model threshold λ<7/32](../findings/dependence-and-changed-models.md) | Which dependency mechanism describes real alarms |
+| Add reservation fee, changed duration, switching delay, or finite deadline penalty | [Fee threshold 6, duration-21 completion 09:36, report/setup deadline check, penalty threshold 10](../findings/dependence-and-changed-models.md) | Actual default rates, transaction times, or unstated preferences |
+| Add switch costs to the queue case | [Anticipatory switching schedule and exact σ≤1/2 feasibility limit](../findings/time-effort-and-value.md) | A different job set or machine's actual switching behavior |
+| Compare indivisible and divisible work | [Contiguous maximum versus aggregate capacity, with restart-cost conditions](../findings/time-effort-and-value.md) | Whether real work retains partial progress |
+| Account for cue creation, repeated use, or intrinsic interest | [Net benefit Σ savings minus construction cost, with intrinsic value retained when endorsed](../findings/time-effort-and-value.md) | Measured use frequencies and personal values |
+| Classify even-width neighbor-XOR rings | [All positive widths classified; universal extinction iff power of two; tight n-step bound](../findings/neighbor-xor.md) | A different asynchronous or non-XOR update |
+| Add a third XOR control or unequal move costs | [Odd-parity third control expands to all states; minimum-cost finite subset construction](../findings/dependence-and-changed-models.md) | Noncommutative or state-dependent operations need their specified transition model |
+| Combine blockers or several useful changes | [Minimal hitting-set repairs and explicit nonadditive benefit countermodels](../findings/composition-and-failure.md) | Unspecified interaction effects or probabilities |
+| Add a content precondition to identity-preserving edits | [Unique identity and expected-content operation executed; mismatch leaves input unchanged](../findings/reference-and-concurrency.md) | A production store's atomicity without an enforced commit interface |
+| Run concurrent restartable timer rounds | [Round-indexed state, duplicate handling, isolated cancellation, actual output trace](../findings/reference-and-concurrency.md) | Shared-resource interactions excluded by the product-state model |
+| Test a compound belief→permission→action transition | [A conjunction requires every necessary component; favorable change in one does not imply the rest](../findings/composition-and-failure.md) | Actual recipient acceptance, granted permission, or physical action without receipts |
+| Test changed criterion and fixed-target exceptions | [Comparison identity preserved while exploration and criterion revision remain available](../findings/exploration-and-goal-change.md) | A person's unexpressed value ordering |
+| Make near-guarantee precise enough to be useful | [Failure-chain lower bound, fidelity/benefit distinction, subgroup and denominator counterexamples](../findings/reliability-and-benefit.md) | Deployment rates meeting the bound |
+| Verify archive extraction and expose historical native paths | Hash-verified extraction and native repository integration, recorded in [verification](verification.md) | No claim that byte preservation proves substantive correctness |
+
+An instruction that asks for a genuinely different object—an asynchronous ring, three unspecified jobs, a noisy oracle without its likelihoods—does not have a unique numerical answer yet. The result is its dependency on the new specification, not a fabricated case described as the requested one. Where the old premise family permits a symbolic answer, that answer is supplied above.
+
+An instruction asking for an actual human response, a delayed retention observation, a stakeholder decision, an unavailable original procedure dependency, or elapsed-time measurements remains tied to that missing input. The old ledger statuses are not promoted by a model-generated substitute. Repeated historical instructions such as “run SVS” can also refer to operations already recorded in later source files; the chronological record remains inspectable rather than being rewritten as a fresh open obligation.
+
+The repair is therefore substantive and organizational: completed deductions now have their own accessible answers, procedure designs retain their actual status, and historical future-work paragraphs no longer masquerade as the current findings index.

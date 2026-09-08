@@ -1,90 +1,95 @@
 {
   "archive": "Mind_Change_Research_Checkpoint.zip",
-  "archive_sha256": "49b9fcd97e71ccee97491725d075a835e3d2aa9ae255f18a5e724a7c1dfbdc84",
-  "archive_bytes": 8176226,
-  "corpus_files": 1867,
-  "archive_entries": 1868,
+  "archive_sha256": "fdaa430c69142f63523d690d8423c8a616b4f762f93529c64f485f2ff7663079",
+  "archive_bytes": 8604481,
+  "corpus_files": 1926,
+  "archive_entries": 1927,
   "part_size": 524288,
   "parts": [
     {
       "name": "part-000",
       "bytes": 524288,
-      "sha256": "c14766731e6035fa5e659a6fd05226978078619ece513d91a23fa64be2197a05"
+      "sha256": "2016189c2a699608b19a8bdc9ff316d337ec5483d6ede0de8f699a2c52b4a6bb"
     },
     {
       "name": "part-001",
       "bytes": 524288,
-      "sha256": "7188b69135171c7651b9bb3d8e3fa0588bc6c0b4a75d9d875eab793c3fba30c8"
+      "sha256": "6b04aa4c567ee566a438a1512eb8fe72f997d0e383a0226f9049f65ae1996288"
     },
     {
       "name": "part-002",
       "bytes": 524288,
-      "sha256": "fca4aaa61a2e90181ebcf7afcfea0edfd29b40ae0d76d50b4a136471622d1d61"
+      "sha256": "372d5e57eee8833f02d097ee54a98a71f2c3a540dd467a37ef607e7bc21c7e4f"
     },
     {
       "name": "part-003",
       "bytes": 524288,
-      "sha256": "d2feb96be76f86783d13f7c3fb401db6b47f948beff486dce9faff0ff7aba78f"
+      "sha256": "8167beecce85973a9d8c66b295f8748219b3cb1f18f7e0163bce78739e8e485c"
     },
     {
       "name": "part-004",
       "bytes": 524288,
-      "sha256": "130df8291f71136a9297a1e5876ae6ce7cddc664183b1b2e39981ed1af0c70d2"
+      "sha256": "327a0f2207567928bbe80d9a55d381832ac6e8e49a7f7266d28ff028471b74c8"
     },
     {
       "name": "part-005",
       "bytes": 524288,
-      "sha256": "7b701576af9ad0bf5b4ba8b21abed40f689af4847b32c8472de7468700f4ce66"
+      "sha256": "0c21d6e700827bf6d50144ca3a7b34f82ddbdefc21bc13d24bcba7b04d32f4f8"
     },
     {
       "name": "part-006",
       "bytes": 524288,
-      "sha256": "e57ded0863e15a7dee5e4a6e798ddf57a1710b5f26ce801f54b810b9a7cfd995"
+      "sha256": "937ba4f1d72682a7a87df78ee1509fe66eb61402c6d67e84f27f98695c59dfd4"
     },
     {
       "name": "part-007",
       "bytes": 524288,
-      "sha256": "14f0b3e62be4a33d70a20b0cf4b8fda9f7770aeb66e0e1e60ba8208e04bd9c6a"
+      "sha256": "4495214b1a65481fcaa355518d2742dcb9fb372a6c38a6c7c2d6f32ebb7d76fb"
     },
     {
       "name": "part-008",
       "bytes": 524288,
-      "sha256": "b1986fead50215243a4c6c31a127a02066b12f8534df9f4ae058a555c14106c8"
+      "sha256": "2edb104f46eb8bf71451cb6dc0960439fc8e7ad26df8ab105347ac3bd82a4909"
     },
     {
       "name": "part-009",
       "bytes": 524288,
-      "sha256": "851d8a2a4e3348ba0c9646cf41678bfac831196c2b92ccb5cb8cb9f3a23cd3dd"
+      "sha256": "b0b4f4ebfed7dd75c32e2939b133f3156fae3b7158ac91b88f3c674e74e36d9f"
     },
     {
       "name": "part-010",
       "bytes": 524288,
-      "sha256": "c62d87c7d78e28320a7b3cc580d1fdc7f30ea880ed52d2fd3d1d56cbdbd9271b"
+      "sha256": "555d66b070097cb5b6245ca502487edb725b820e84ac30e7e6a4acd51eed6d3e"
     },
     {
       "name": "part-011",
       "bytes": 524288,
-      "sha256": "f50f36b8ffc3d718acfde61af13a78fbeb9369dda5286eeeb40638f6e32c678e"
+      "sha256": "ee803be35018869b110bb4fc890c8a0abb8412cab6bf1f6ddba3e4f2cd3a0640"
     },
     {
       "name": "part-012",
       "bytes": 524288,
-      "sha256": "d8ebf4695353d25b9281c85dc06e8faa16f33a79938a8d63f26ccfd555efd106"
+      "sha256": "41b939f16dc8de53698510db85ed0a4603f7ce32492a8d7dd6cc6da8fb62aadd"
     },
     {
       "name": "part-013",
       "bytes": 524288,
-      "sha256": "5a3bd621533913ea5c67430d73e363f65dc235dfc4ec97bb16439b950b19a7f0"
+      "sha256": "856a3d9a01ba2127dd550ce55ed4811c6ec76485013cde191abe6bf7744041d7"
     },
     {
       "name": "part-014",
       "bytes": 524288,
-      "sha256": "d2cca15a04f10543cda1421ce34518aaddd86ec73b73067f21b6414bb8211b04"
+      "sha256": "4af5de6ac45fb7cdb12c7c5a0a590f5e44294b2623b0ec4d9c44c0c568ecb995"
     },
     {
       "name": "part-015",
-      "bytes": 311906,
-      "sha256": "00c5ea868e60576a2deb04f31108607434f7739b5fa571c66f86d5f0a3bb7abc"
+      "bytes": 524288,
+      "sha256": "5605396b5750007ebefb778ee8654e5c3cd1d143f26bcf6d9490924172f95b41"
+    },
+    {
+      "name": "part-016",
+      "bytes": 215873,
+      "sha256": "8f139a521611f937c54099c83d20b12b10ca0ee4c1b5b7e5cb8219880a4fdcdf"
     }
   ],
   "exclusions": "Transport directory, generated archive, manifest self-entry, .git and runtime caches; all other corpus bytes including empty and binary files are preserved."

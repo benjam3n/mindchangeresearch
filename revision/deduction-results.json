@@ -1,0 +1,753 @@
+{
+  "scope": "Exact finite model checks; not human outcomes or whole-recipe reliability",
+  "selection": {
+    "unresolved": {
+      "kind": "unresolved",
+      "states": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "common_actions": [],
+      "reason": "No available question has adequate continuations for every answer"
+    },
+    "minimum_cost_policy": {
+      "kind": "question",
+      "question": "is_s1",
+      "cost": "1",
+      "branches": {
+        "yes": {
+          "kind": "action",
+          "action": "a",
+          "cost": "0"
+        },
+        "no": {
+          "kind": "action",
+          "action": "c",
+          "cost": "0"
+        }
+      }
+    },
+    "common_action": {
+      "kind": "action",
+      "action": "a",
+      "cost": "0"
+    }
+  },
+  "signal": {
+    "4/5": {
+      "t_interval": [
+        "3/10",
+        "1/2"
+      ],
+      "endpoint_payoffs": [
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "4/5",
+          "negative": "-9/5",
+          "both": "0",
+          "neither": "-1"
+        },
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "6/5",
+          "negative": "-11/5",
+          "both": "0",
+          "neither": "-1"
+        }
+      ],
+      "endpoint_regrets": {
+        "immediate": [
+          "0",
+          "1/5"
+        ],
+        "decline": [
+          "1",
+          "6/5"
+        ],
+        "positive": [
+          "1/5",
+          "0"
+        ],
+        "negative": [
+          "14/5",
+          "17/5"
+        ],
+        "both": [
+          "1",
+          "6/5"
+        ],
+        "neither": [
+          "2",
+          "11/5"
+        ]
+      },
+      "worst_regret": "1/10",
+      "optimal_candidates": [
+        {
+          "immediate": "1/2",
+          "positive": "1/2"
+        }
+      ]
+    },
+    "1/5": {
+      "t_interval": [
+        "0",
+        "1/5"
+      ],
+      "endpoint_payoffs": [
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "-11/5",
+          "negative": "6/5",
+          "both": "0",
+          "neither": "-1"
+        },
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "-9/5",
+          "negative": "4/5",
+          "both": "0",
+          "neither": "-1"
+        }
+      ],
+      "endpoint_regrets": {
+        "immediate": [
+          "1/5",
+          "0"
+        ],
+        "decline": [
+          "6/5",
+          "1"
+        ],
+        "positive": [
+          "17/5",
+          "14/5"
+        ],
+        "negative": [
+          "0",
+          "1/5"
+        ],
+        "both": [
+          "6/5",
+          "1"
+        ],
+        "neither": [
+          "11/5",
+          "2"
+        ]
+      },
+      "worst_regret": "1/10",
+      "optimal_candidates": [
+        {
+          "immediate": "1/2",
+          "negative": "1/2"
+        }
+      ]
+    },
+    "0": {
+      "t_interval": [
+        "0",
+        "0"
+      ],
+      "endpoint_payoffs": [
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "-3",
+          "negative": "2",
+          "both": "0",
+          "neither": "-1"
+        },
+        {
+          "immediate": "1",
+          "decline": "0",
+          "positive": "-3",
+          "negative": "2",
+          "both": "0",
+          "neither": "-1"
+        }
+      ],
+      "endpoint_regrets": {
+        "immediate": [
+          "1",
+          "1"
+        ],
+        "decline": [
+          "2",
+          "2"
+        ],
+        "positive": [
+          "5",
+          "5"
+        ],
+        "negative": [
+          "0",
+          "0"
+        ],
+        "both": [
+          "2",
+          "2"
+        ],
+        "neither": [
+          "3",
+          "3"
+        ]
+      },
+      "worst_regret": "0",
+      "optimal_candidates": [
+        {
+          "negative": "1"
+        }
+      ]
+    }
+  },
+  "independent_signal_matrices_checked": 50,
+  "minimal_repairs": [
+    [
+      "a"
+    ],
+    [
+      "b",
+      "c"
+    ]
+  ],
+  "graph_reduction": [
+    {
+      "vertices": 2,
+      "reachable_ordered_pairs": 1,
+      "changed_distances_after_edge_reduction": 0
+    },
+    {
+      "vertices": 3,
+      "reachable_ordered_pairs": 3,
+      "changed_distances_after_edge_reduction": 1
+    },
+    {
+      "vertices": 4,
+      "reachable_ordered_pairs": 6,
+      "changed_distances_after_edge_reduction": 3
+    },
+    {
+      "vertices": 5,
+      "reachable_ordered_pairs": 10,
+      "changed_distances_after_edge_reduction": 6
+    },
+    {
+      "vertices": 6,
+      "reachable_ordered_pairs": 15,
+      "changed_distances_after_edge_reduction": 10
+    },
+    {
+      "vertices": 7,
+      "reachable_ordered_pairs": 21,
+      "changed_distances_after_edge_reduction": 15
+    },
+    {
+      "vertices": 8,
+      "reachable_ordered_pairs": 28,
+      "changed_distances_after_edge_reduction": 21
+    },
+    {
+      "vertices": 9,
+      "reachable_ordered_pairs": 36,
+      "changed_distances_after_edge_reduction": 28
+    },
+    {
+      "vertices": 10,
+      "reachable_ordered_pairs": 45,
+      "changed_distances_after_edge_reduction": 36
+    },
+    {
+      "vertices": 11,
+      "reachable_ordered_pairs": 55,
+      "changed_distances_after_edge_reduction": 45
+    },
+    {
+      "vertices": 12,
+      "reachable_ordered_pairs": 66,
+      "changed_distances_after_edge_reduction": 55
+    }
+  ],
+  "representation_collision": [
+    [
+      "complete",
+      "chain"
+    ]
+  ],
+  "switching_cost_schedules": [
+    {
+      "switch_cost": "0",
+      "schedule": [
+        [
+          "A",
+          0,
+          "1"
+        ],
+        [
+          "switch",
+          "1",
+          1
+        ],
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "switch",
+          3,
+          "3"
+        ],
+        [
+          "A",
+          "3",
+          "6"
+        ]
+      ],
+      "feasible": true,
+      "necessary_time_bound": "6"
+    },
+    {
+      "switch_cost": "1/4",
+      "schedule": [
+        [
+          "A",
+          0,
+          "3/4"
+        ],
+        [
+          "switch",
+          "3/4",
+          1
+        ],
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "switch",
+          3,
+          "13/4"
+        ],
+        [
+          "A",
+          "13/4",
+          "13/2"
+        ]
+      ],
+      "feasible": true,
+      "necessary_time_bound": "13/2"
+    },
+    {
+      "switch_cost": "1/2",
+      "schedule": [
+        [
+          "A",
+          0,
+          "1/2"
+        ],
+        [
+          "switch",
+          "1/2",
+          1
+        ],
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "switch",
+          3,
+          "7/2"
+        ],
+        [
+          "A",
+          "7/2",
+          "7"
+        ]
+      ],
+      "feasible": true,
+      "necessary_time_bound": "7"
+    },
+    {
+      "switch_cost": "3/4",
+      "schedule": [
+        [
+          "A",
+          0,
+          "1/4"
+        ],
+        [
+          "switch",
+          "1/4",
+          1
+        ],
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "switch",
+          3,
+          "15/4"
+        ],
+        [
+          "A",
+          "15/4",
+          "15/2"
+        ]
+      ],
+      "feasible": false,
+      "necessary_time_bound": "15/2"
+    }
+  ],
+  "xor": [
+    {
+      "width": 1,
+      "seeds_checked": 2,
+      "all_extinct": true,
+      "nonextinct_witness": null
+    },
+    {
+      "width": 2,
+      "seeds_checked": 4,
+      "all_extinct": true,
+      "nonextinct_witness": null
+    },
+    {
+      "width": 3,
+      "seeds_checked": 8,
+      "all_extinct": false,
+      "nonextinct_witness": [
+        1,
+        {
+          "zero_reached": false,
+          "first_zero": null,
+          "period": 3,
+          "cycle": [
+            5,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "width": 4,
+      "seeds_checked": 16,
+      "all_extinct": true,
+      "nonextinct_witness": null
+    },
+    {
+      "width": 5,
+      "seeds_checked": 32,
+      "all_extinct": false,
+      "nonextinct_witness": [
+        1,
+        {
+          "zero_reached": false,
+          "first_zero": null,
+          "period": 15,
+          "cycle": [
+            17,
+            9,
+            29,
+            3,
+            18,
+            27,
+            6,
+            5,
+            23,
+            12,
+            10,
+            15,
+            24,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "width": 6,
+      "seeds_checked": 64,
+      "all_extinct": false,
+      "nonextinct_witness": [
+        1,
+        {
+          "zero_reached": false,
+          "first_zero": null,
+          "period": 6,
+          "cycle": [
+            17,
+            57,
+            5,
+            39,
+            20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "width": 7,
+      "seeds_checked": 128,
+      "all_extinct": false,
+      "nonextinct_witness": [
+        1,
+        {
+          "zero_reached": false,
+          "first_zero": null,
+          "period": 7,
+          "cycle": [
+            65,
+            33,
+            113,
+            9,
+            77,
+            43,
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "width": 8,
+      "seeds_checked": 256,
+      "all_extinct": true,
+      "nonextinct_witness": null
+    }
+  ],
+  "atomic_edit": {
+    "success": {
+      "applied": true,
+      "records": [
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": "chosen"
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ]
+    },
+    "reordered": {
+      "applied": true,
+      "records": [
+        {
+          "id": "C",
+          "text": "gamma"
+        },
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": "chosen"
+        }
+      ]
+    },
+    "failed": {
+      "applied": false,
+      "records": [
+        {
+          "id": "A",
+          "text": "alpha"
+        },
+        {
+          "id": "B",
+          "text": "beta"
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ],
+      "reason": "Content precondition failed"
+    }
+  },
+  "timer_trace": [
+    {
+      "event": [
+        "READY",
+        "A",
+        3
+      ],
+      "deadlines": {
+        "A": 8
+      }
+    },
+    {
+      "event": [
+        "READY",
+        "B",
+        4
+      ],
+      "deadlines": {
+        "A": 8,
+        "B": 9
+      }
+    },
+    {
+      "event": [
+        "CANCEL",
+        "A",
+        5
+      ],
+      "deadlines": {
+        "B": 9
+      }
+    },
+    {
+      "event": [
+        "READY",
+        "A",
+        10
+      ],
+      "deadlines": {
+        "B": 9,
+        "A": 15
+      }
+    }
+  ],
+  "model_variations": {
+    "alarm_posterior_range": [
+      "1/4",
+      "1"
+    ],
+    "partial_copy": [
+      {
+        "copy_probability": "0",
+        "posterior": "16/25"
+      },
+      {
+        "copy_probability": "7/32",
+        "posterior": "1/2"
+      },
+      {
+        "copy_probability": "1",
+        "posterior": "4/13"
+      }
+    ],
+    "third_control_cases": [
+      {
+        "third_control": "000",
+        "reachable_displacements": [
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "third_control": "001",
+        "reachable_displacements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "third_control": "010",
+        "reachable_displacements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "third_control": "011",
+        "reachable_displacements": [
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "third_control": "100",
+        "reachable_displacements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "third_control": "101",
+        "reachable_displacements": [
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "third_control": "110",
+        "reachable_displacements": [
+          0,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "third_control": "111",
+        "reachable_displacements": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "unequal_cost_witnesses": [
+      [
+        2,
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        1,
+        [
+          2
+        ]
+      ]
+    ],
+    "machine": {
+      "21_minute_duration_finish": "09:36",
+      "latest_start": "09:19",
+      "18_minute_report_plus_3_setup_plus_20_work": 41,
+      "reserve_fee_break_even": "6",
+      "failure_penalty_break_even": "10"
+    }
+  }
+}

@@ -82,3 +82,7 @@ Content assessment: Constraints, locus evidence, state typing, operator, invaria
 Organization assessment: B is the best tested operational view on the frozen cases; A remains the better audit view. The result is local, not maximal or universal.
 
 Next attempts: Test a compound three-edge transition; time independent executors; test false recipient self-report; test uncertain admissibility; run the preregistered human comparison.
+
+## Subsequent deduction and implementation
+
+The [adequacy theorem and finite solver](../../findings/recipe-adequacy.md) specify when available input can support a universally adequate choice and actually construct a policy for supplied finite models. Pairwise compatible situations can still lack one common adequate action. [Composition](../../findings/composition-and-failure.md) supplies the conjunction, alternative-route, and mixed-failure rules needed for compound transitions. The [current instruction](../../working-instruction.md) retains exploration and criterion formation; these finite results do not reinstate this historical card as a universal entrance requirement.

@@ -42,7 +42,8 @@ def validate():
     assert conclusion.endswith(canonical[end:])
 
     current = [ROOT / name for name in ['README.md', 'Mind_Change_Research_Index.md', 'intent.md', 'working-instruction.md', 'repository-sync.md', 'progress.md']]
-    for directory in ['changes', 'recipes', 'inquiries/perspective-25', 'reviews', 'studies']:
+    for directory in ['changes', 'recipes', 'inquiries/perspective-25', 'reviews', 'studies',
+                      'findings', 'catalog', 'catalog/targets', 'catalog/attempts', 'revision']:
         current.extend((ROOT / directory).glob('*.md'))
     current.append(source / 'README.md')
     checked = 0
@@ -94,10 +95,22 @@ def validate():
     assert max(throughput, key=throughput.get) == 'A'
     assert max(recovery, key=recovery.get) == 'B'
 
+    # Exercise the new constructions, including changed-model counterexamples.
+    from deductions import completed_examples, model_variation_examples
+    deduction_cases = completed_examples()
+    variation_cases = model_variation_examples()
+
     return {'imported_artifacts_verified': len(manifest['files']), 'inquiries': 25,
             'options': 373, 'current_navigation_links_checked': checked,
             'application_records_hash_verified': sum(bool(x.get('record_sha256')) for x in ledger['applications']),
             'worked_cases': ['copied/independent evidence', 'timing policy regions and ties', 'equal totals/different overlap', 'criterion-dependent rankings'],
+            'deduction_checks': {'xor_seeds': sum(x['seeds_checked'] for x in deduction_cases['xor']),
+                                 'signal_matrices': deduction_cases['independent_signal_matrices_checked'],
+                                 'third_control_cases': len(variation_cases['third_control_cases']),
+                                 'additional_cases': ['minimum-cost adequate policy and impossible selector',
+                                                      'mixed-failure minimal repairs', 'anticipatory switching',
+                                                      'content-mismatch atomic rejection', 'independent round cancellation',
+                                                      'partial-copy dependence threshold']},
             'scope': 'Source, navigation, accounting and finite calculations; no human-effect or general-perfection certification'}
 
 

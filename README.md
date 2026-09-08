@@ -4,6 +4,8 @@ Develop useful, efficient ways to change what a mind can notice, understand, car
 
 A worthwhile intended change, a procedure that can produce it, and an executor able to perform it are separate requirements. A statement, a modification operation, a usable recipe, and an observed effect are different contributions.
 
+The [completed deduction view](findings/README.md) adds exact recipe-selection conditions, dependency-sensitive policies, failure repairs, timing thresholds, and an all-width XOR theorem. The [72-target, 100-attempt recipe catalog](catalog/README.md) preserves the supplied 300 variants alongside the larger inventories. [Its audit and reconciliation](revision/intent-audit.md) distinguish new deductions from repairs already accepted concurrently.
+
 | Material | Content |
 |---|---|
 | [Perspectives](perspectives/catalog.md) | 3,000 actual statements, displayed without synthetic entry names. |

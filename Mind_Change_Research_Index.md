@@ -1,5 +1,7 @@
 # Mind changes
 
+[Completed deductions](findings/README.md) · [Worked finite recipes](catalog/worked-recipes.md) · [Imported 300 recipe variants](catalog/README.md) · [Closed and remaining questions](revision/deferred-work-disposition.md)
+
 The [25 inquiries](inquiries/perspective-25/README.md), [616 target and contributor entries](mind-change/targets.md), and [Subject Systems](mind-change/subject-systems.md) remain available alongside these twenty procedures with concrete sequences, cases, and stated evidence. This is partial coverage, and the statement rankings do not establish comparative recipe efficacy.
 
 | Subject | Procedure | Distinction |
