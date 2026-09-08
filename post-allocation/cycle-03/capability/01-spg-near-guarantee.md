@@ -1,81 +1,33 @@
-# SPG — replace a vague near-guarantee with an implementable test
+# Recipe specification and execution
 
-Intended mind change: Stop treating “a good recipe near-guarantees success even with a mediocre executor” as an implementation-ready capability claim.
+The user's recipe demand asks for methods reliable enough to compensate for limitations in the executor. Whether the intended result is worthwhile, whether the recipe can produce it, and whether the executor performs the necessary operations remain separate questions. Calling the demand underspecified identifies unfinished research; it does not discharge the demand.
 
-Actual starting judgment: The cooking analogy seemed specific enough to govern system design.
+This application supplied a prospective record format and a physical nonexecution boundary. Its earlier claim that a programmer could implement the result without clarification overstated that achievement. The [original record](../../../sources/repository/07e6af64c65f/post-allocation/cycle-03/capability/01-spg-near-guarantee.md) preserves that claim and its wording.
 
-Concrete input: original claim plus the boundary case of a physical relocation requested from a text-only model.
+## Record fields
 
-## Specificity gate result
+The proposed record contains a case identifier, available inputs, initial and intended states, the condition being changed, the operation and mechanism, preserved conditions, execution authority, an attempt receipt, an observation of success, the observed later state, adverse events, downstream action, and status. A programmer can store these fields. The fields do not determine their own values or perform the operation they describe.
 
-### Original claim and type
+For example, storing `mechanism: "choose a capable mechanism"` leaves the mechanism absent. Likewise, an initial state and a desired state do not specify how to produce the difference between them. The record format is implemented only as a specification here; a general procedure for diagnosing the cause of a new difficulty and constructing an adequate intervention remains unsupplied.
 
-“A good mind-change recipe near-guarantees success even with a mediocre executor.” Type: CAPABILITY with an embedded property claim.
+## Mechanism selection
 
-### Element status
+The associated compiler has supplied structures to work with in four constructed cases: an accepted calculation with missing publication permission, two copies of one observed event, an eight-row register, and separately transformable privacy fields. It can organize operations around those structures. That result does not demonstrate discovery of the decisive structure in an arbitrary new case.
 
-- TRIGGER: MISSING — eligible request, inputs, authority, and risk conditions are unspecified.
-- PROCEDURE: MISSING — “good recipe” and what the executor must do are unspecified.
-- OUTPUT: MISSING — success could mean a plan, attempt, changed state, action, or durable effect.
-- VALIDATION: MISSING — “near-guarantees,” comparison class, witness, time horizon, and harms are undefined.
+Further work must supply the missing operations in particular cases. For copied evidence, the prerequisite is the actual dependence relation, followed by the corresponding likelihood calculation. For conditional retrieval, the prerequisite is a preserved condition/action/exception record and a cue that reaches it. For physical relocation, the missing component can be an actor or actuator. Each dependency calls for different work; a shared record field cannot fulfill them all.
 
-### Questions and concrete options
+## Physical execution
 
-| Question | A | B | C |
-|---|---|---|---|
-| What triggers compilation? | every user request | only a request with a frozen target state and witness | only an evaluator-selected benchmark case |
-| What cases are eligible? | all mind changes | cases with available inputs and supported authority | finite text-only belief cases |
-| What procedure is mandatory? | one named skill | typed recipe compiler | fixed catalog lookup |
-| What output counts? | polished response | attempt plus transition receipt | changed target state observed later |
-| What is success? | executor says KEEP | preregistered witness passes and no veto condition occurs | recipient reports satisfaction |
-| What means “near”? | any high rate | a prespecified lower confidence bound | a fixed 95% threshold |
-| How is mediocre executor defined? | informal judgment | held-out executors below a frozen baseline band | deliberately degraded model |
-| What happens at unavailable physical gates? | call plan success | emit typed handoff and UNRESOLVED target | exclude the case |
+Consider “Move me from the living room to the quiet room” addressed to a text-only model without an actuator. A relocation plan changes the available description. It does not move the person. A request to an available actor could begin a different execution path, but neither that request nor its acceptance establishes completed relocation.
 
-Options are design alternatives, not observed facts. For prospective testing, choose: frozen target/witness; supported inputs and authority; typed compiler; attempt plus shape-specific receipt; prespecified statistical threshold; held-out executor band; typed handoff for unavailable gates.
+The absence of an actuator does not show that a better recipe is useless. It identifies a condition that any adequate route must satisfy. Research into the route remains possible while direct execution by this model remains unavailable. The original application correctly refused to count its text output as a physical change.
 
-## Specific replacement claim
+## Success frequency
 
-TRIGGER: When a new request has a frozen target state, a named transition locus, a preregistered success witness, available evidence inputs, and an authorized action boundary. Detected by a four-field eligibility record plus risk/authority checks.
+A comparative reliability study needs specified cases, an executor group, a success criterion, an observation period, and a rule for judging the observed frequency. A claim of near-guaranteed success requires its threshold and uncertainty rule to be fixed before interpreting the results. No such success rate was observed in this application.
 
-PROCEDURE:
+The proposed [experiment](../experiment/01-exd-recipe-compiler-trial.md) can compare supplied recipes under stated conditions. It does not construct a missing recipe. Executing the prescribed sequence and producing the intended effect also require separate observations: exact adherence can expose a defective recipe, while a skipped prerequisite can expose an execution failure. Neither observation alone establishes that the intended result was worth producing.
 
-1. Exclude attempts violating supported benefit, harm, autonomy, authority, or feasibility constraints.
-2. Diagnose the controlling locus from intermediate evidence rather than final output alone.
-3. Specify state variable, locus, criterion, operator, preserved invariant, and witness.
-4. Select a message, technique, tool, or handoff capable of executing that operator at that locus.
-5. Execute only the authorized available component.
-6. Verify with the preregistered shape-specific witness; record downstream action separately.
+The [contributor-inventory audit](../../../research/intent-audit.md) had independently narrowed the implementation claim before this merge. Its [reviewed record](../../../sources/repository/2a7c6d920bf9/post-allocation/cycle-03/capability/01-spg-near-guarantee.md), annotations, and [conditional construction procedures](../../../mind-change/contribution-construction.md) remain available. This revision also preserves the recipe demand as unfinished design work and removes the repeated framing blocks.
 
-OUTPUT: one JSON-compatible transition record containing `case_id`, `eligibility`, `admissibility`, `pre_state`, `target_state`, `locus`, `operator`, `invariant`, `mechanism`, `authority`, `attempt_receipt`, `success_witness`, `observed_post_state`, `adverse_events`, `downstream_action`, and `status`.
-
-VALIDATION: On a prospectively frozen held-out case set and frozen executor band, success occurs only when the case-specific witness passes and no veto-level harm or unauthorized transition occurs. “Near-guarantee” is accepted only if a threshold and confidence rule are fixed before data and met on the held-out set. No threshold is asserted as achieved here.
-
-### Implementation check
-
-| Check | Result |
-|---|---|
-| programmer can implement the complete recipe without supplying missing intellectual operations | UNRESOLVED: diagnosis and mechanism construction are not implemented by the field schema |
-| each step has sufficient operational content | PARTIAL: named inputs and outputs constrain the interface but do not determine the missing transformation |
-| output format specified | PASS |
-| validation measurable | PASS prospectively; efficacy UNRESOLVED |
-
-Implementation correction from the 2026-09-08 intent audit: this record completes a specificity exercise and supplies a prospective schema. It does not establish an executable general recipe. [Contribution construction](../../../mind-change/contribution-construction.md) supplies conditional operations; [the audit](../../../research/intent-audit.md) preserves the exact earlier PASS claims. The original procedure source and execution history remain unchanged.
-
-## Boundary case
-
-Request: “Move me from the living room to the quiet room” sent to a text-only model with no actuator or human execution receipt. Eligibility for direct relocation fails at feasibility/authority. The valid output is an interface plan or typed handoff with target status UNRESOLVED—not a successful location change. A recipe that always reports success here is bad regardless of prose quality; a good recipe cannot make an incapable executor perform the physical edge.
-
-## Outcome
-
-Actual mind change: I changed from a broad chef/recipe near-guarantee to a more specific prospective claim with an explicit implementation gap and unavailable execution edges.
-
-Benefit or harm: The replacement prevents plan quality from being counted as physical success and supplies a record structure for later testing. It proves no success rate.
-
-Verdict: REJECT the original as nonspecific; KEEP the testable specification; UNRESOLVED mechanism implementation and whether any near-guarantee threshold is attainable.
-
-Content assessment: Trigger, procedure, output, validation, threshold timing, executor definition, and nonapplication boundary are explicit.
-
-Organization assessment: Capability claims belong after eligibility and authority checks; the recipe may compensate for selection/execution variance only inside the executor’s available transition set.
-
-Next attempts: Define a held-out executor band; preregister a threshold; test an actuator-enabled case; test a recipient-controlled case; measure failure calibration rather than success alone.
+The ledger retains this application for the prospective specification and the physical nonexecution distinction. General mechanism selection, implemented general recipes, and recipient efficacy remain unresolved. The correction adds no completed application or finding credit.

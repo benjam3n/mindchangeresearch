@@ -1,0 +1,71 @@
+{
+  "scope": "All 12 substantive deliverable and construction files from this conversation before repository integration. Platform upload helpers are transport code, not research content.",
+  "files": [
+    {
+      "path": "Perspective_Modifications_3000.json",
+      "bytes": 630879,
+      "sha256": "e29b91ce7aa414147caf56c18f82679e1a1a8592b33701e0c102a8ad5151e991"
+    },
+    {
+      "path": "Perspective_Modifications_3000.md",
+      "bytes": 212718,
+      "sha256": "a72f65657f68d8c1bcba64281d12c0e07e849b5e41973f0238d7982f861d62c9"
+    },
+    {
+      "path": "Perspectives_3000.json",
+      "bytes": 748857,
+      "sha256": "0838e745c0563cf86126a3720ddbca73378a07a6e51856b2142134166823e0ed"
+    },
+    {
+      "path": "Perspectives_3000.md",
+      "bytes": 323063,
+      "sha256": "14cfeee9443884060894ae66aadde367f3dd66f530a481a68bade85daf1ea182"
+    },
+    {
+      "path": "Perspectives_3000_Ranked.json",
+      "bytes": 1435157,
+      "sha256": "ca0e8f4d7650f9f08a2e0e0d6c29153af6b4e7633d301cef2eea098aeba645a8"
+    },
+    {
+      "path": "Perspectives_3000_Ranked.md",
+      "bytes": 387347,
+      "sha256": "ab5598279b8dc0f23c0267d18fee3d932e3a62c05d6baa32145bc0b81bfa21a0"
+    },
+    {
+      "path": "build_ranked_catalog.py",
+      "bytes": 14593,
+      "sha256": "e72428770b7b1ce54f9d48ed9d510a07506dd8a3195c9f23593fac8a7b9a6245"
+    },
+    {
+      "path": "catalog-source.txt",
+      "bytes": 189552,
+      "sha256": "b8fa69f409b5f52c9862d1fb5f9440af711c4bc90a7156fe2d6925920516a727"
+    },
+    {
+      "path": "perspective-names.txt",
+      "bytes": 15975,
+      "sha256": "8a2270d115acd998a0618122f0892b0a98ca9c0e268ff7dcb43caf18d923cd13"
+    },
+    {
+      "path": "perspectives-source.txt",
+      "bytes": 287701,
+      "sha256": "ea0deca4f2ab6be05752b16c4e2307975772f0fbe0d3f06af9ba51014df81e0d"
+    },
+    {
+      "path": "ranking-assessment.txt",
+      "bytes": 7038,
+      "sha256": "3c96a96dc904b47d4fac65e02b54e942544cf0b1b69b953b876e2ba7d09e1b87"
+    },
+    {
+      "path": "ranking-leaders.json",
+      "bytes": 13352,
+      "sha256": "3818185f9ee52a8a77ed652126cfb0cf17bf365cfe2ccfb5d9e9a8bca2be3e3f"
+    }
+  ],
+  "request_sequence": "requests.md",
+  "current_views": [
+    "../../../perspectives/catalog.md",
+    "../../../operations/catalog.md",
+    "../../../perspectives/ranked.md"
+  ]
+}

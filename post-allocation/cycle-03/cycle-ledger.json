@@ -107,14 +107,27 @@
       "skill_id": "spg",
       "file": "post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
       "status": "complete",
-      "verdict": "REJECT vague near-guarantee; KEEP specific prospective specification; mechanism implementation and efficacy UNRESOLVED",
+      "verdict": "KEEP prospective specification and nonexecution boundary; general recipe implementation and efficacy UNRESOLVED; original design requirement retained",
       "depth_status": "Expanded original; no numerical 8x rule in source.",
       "distinct_new_finding": false,
       "novelty": "Specification and boundary application of the recipe compiler, not independent evidence of efficacy.",
       "later_use": "A physical relocation requested from a text-only system became a typed handoff, not a success claim.",
       "completion_scope": "Completed specificity exercise and prospective schema; implementation completeness is not established.",
       "implementation_status": "partial specification; locus diagnosis and mechanism construction remain unresolved",
-      "intent_audit": "research/intent-audit.md"
+      "intent_audit": "research/intent-audit.md",
+      "previous_reviewed_verdict": "REJECT vague near-guarantee; KEEP specific prospective specification; mechanism implementation and efficacy UNRESOLVED",
+      "historical_verdict": "REJECT vague near-guarantee; KEEP specific prospective replacement; efficacy UNRESOLVED",
+      "assessment_correction": {
+        "record_id": "PAC03-SPG-01",
+        "historical_record": "sources/repository/07e6af64c65f/post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
+        "assessment": "research.md#recipe-adequacy",
+        "supported_result": "Prospective validation specification and correct physical nonexecution boundary.",
+        "unsupported_extension": "Record-schema completeness does not implement general diagnosis or mechanism selection; rejecting an underspecified claim does not fulfill the design requirement.",
+        "recipe_implementation_status": "UNRESOLVED",
+        "human_efficacy_status": "UNRESOLVED",
+        "finding_credit_added": 0,
+        "concurrent_reviewed_record": "sources/repository/2a7c6d920bf9/post-allocation/cycle-03/capability/01-spg-near-guarantee.md"
+      }
     }
   ],
   "distinct_findings": [

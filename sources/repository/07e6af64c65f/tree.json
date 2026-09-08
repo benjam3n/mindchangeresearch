@@ -1,0 +1,385 @@
+{
+  "repository": "benjam3n/mindchangeresearch",
+  "commit": "07e6af64c65fb682305659b2ec830e21743c0f15",
+  "tree": "6e1d25527b4974a70a5532c06ecb41d47c020380",
+  "files": [
+    {
+      "path": "Checkpoint_Manifest.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36115f4114e097a8a7199e5fd34bd3e94ef42134",
+      "size": 147608
+    },
+    {
+      "path": "Mind_Change_Research_Index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6e86fc1098e3b128bdc548778306940c165ec2",
+      "size": 13163
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb4df911820a4c6df96f3a38d02f2f84b75555d",
+      "size": 2588
+    },
+    {
+      "path": "Research_Ledger.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3142c754c5277afcf2403eb45559d796507792c0",
+      "size": 325339
+    },
+    {
+      "path": "Source_Integrity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d56f2d23b492fd7dcf8fc6e981cd448ca4080b03",
+      "size": 62542
+    },
+    {
+      "path": "allocation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad01d20ff35767dbccba06a1f941fbb6f50df667",
+      "size": 54456
+    },
+    {
+      "path": "automation-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ac3c7cf4b1317bb958ebb00b8b65f6c916d2254",
+      "size": 4834
+    },
+    {
+      "path": "checkpoint-parts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e357e7af46fc9171a7577a2ddddb1726af5a2cd4",
+      "size": 1178
+    },
+    {
+      "path": "checkpoint-parts/part-000",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e2c00785826cdb9d861d0a2360ce4b3a36ace0d",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-001",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc696fa2db5a1110bf764b7d3a5b53d53d5048d",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-002",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc0093034f5cdd4f28ce23d2e306a603fbc4002",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-003",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf94c91330d6080e95f81a11b098f92388ef29c7",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-004",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c217ed70cc46233e962b893f42e7ec27f0edba0c",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-005",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "179d2e4e9dc33ab2318bd715ff8a57c4b72fde6c",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-006",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df5d9f0440366e726620be0995bb65564fa4ec0",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-007",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "862d22b0208ecaba1edbce25c8e971905287b6a4",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-008",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9ce7a19df3eeae32f5e37083fd7e0618408cec",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-009",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63af64c0bd937ea6177b37e77371690263fbcf2c",
+      "size": 524288
+    },
+    {
+      "path": "checkpoint-parts/part-010",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e701bd6d95042ececd2ef5d525d17d22e7b5f3",
+      "size": 78529
+    },
+    {
+      "path": "checkpoint-parts/reassemble.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5557db46f5bb64a8e45fc14ce529b70cc005b14",
+      "size": 884
+    },
+    {
+      "path": "methods/improved-research-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5393a15798423fce0e7c277ededa1a5e9bc33dc2",
+      "size": 4273
+    },
+    {
+      "path": "post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117d14358791ca14152ec7f32cada7e55458556e",
+      "size": 5723
+    },
+    {
+      "path": "post-allocation/cycle-03/capability/source-receipts/spg.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f30336ffe4c96e4c19d207580b2ce827712a30",
+      "size": 9341
+    },
+    {
+      "path": "post-allocation/cycle-03/capability/source-receipts/spg.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a4994da6557bf0e2700ae54ef46ecbabfdef93",
+      "size": 5759
+    },
+    {
+      "path": "post-allocation/cycle-03/consolidation-03-freeze.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d904df1fb6382a4494b1b57cb6fc5ab8d5addfb8",
+      "size": 2445
+    },
+    {
+      "path": "post-allocation/cycle-03/consolidation-03-recipe-compiler.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb602d39269d190dfa5041c32b311d24bf29903",
+      "size": 8236
+    },
+    {
+      "path": "post-allocation/cycle-03/cycle-ledger.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb0c4ca9340369c0a88db40e763f4d09aa9177f",
+      "size": 7162
+    },
+    {
+      "path": "post-allocation/cycle-03/experiment/01-exd-recipe-compiler-trial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "981f70bef79cb5e799d09dfcfc23a55f9212b2df",
+      "size": 6521
+    },
+    {
+      "path": "post-allocation/cycle-03/experiment/source-receipts/exd.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6357e717c76cb73d30a23f777be3db7b76c466",
+      "size": 9341
+    },
+    {
+      "path": "post-allocation/cycle-03/experiment/source-receipts/exd.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0bfd90186cc1c44c5bb0088bed3358d1d150602",
+      "size": 13872
+    },
+    {
+      "path": "post-allocation/cycle-03/frozen-inputs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd441eacb59113826e48c01d2718ba0ae4ccd8eb",
+      "size": 5797
+    },
+    {
+      "path": "post-allocation/cycle-03/insight/01-insd-transition-shape.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b948559bbc911b07e108a89e84c4fbed39fec94b",
+      "size": 7777
+    },
+    {
+      "path": "post-allocation/cycle-03/insight/insd-rederivation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4182f7b65173ed14f2e77f0c8a28a81f8cc97ed1",
+      "size": 1472
+    },
+    {
+      "path": "post-allocation/cycle-03/insight/source-receipts/insd.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c9ee00bd7d414f23acff342c70dcd13c6efc38c",
+      "size": 9342
+    },
+    {
+      "path": "post-allocation/cycle-03/insight/source-receipts/insd.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1593c7f87a3499d1b0fff89416aa4fd49d2fd2a7",
+      "size": 18569
+    },
+    {
+      "path": "post-allocation/cycle-03/integration-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c681b6cef36577ecdc43398d99b42c2cf48c262b",
+      "size": 6203
+    },
+    {
+      "path": "post-allocation/cycle-03/motivation/01-sdc-keep-count.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d4ef7ed4e1def510b693fe60b6b12c8d65f62c",
+      "size": 6558
+    },
+    {
+      "path": "post-allocation/cycle-03/motivation/source-receipts/sdc.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589f52e8aafd4656d5ca0953ef397f1ea3621162",
+      "size": 9341
+    },
+    {
+      "path": "post-allocation/cycle-03/motivation/source-receipts/sdc.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30408aa2bf2d33a0b80fbf4b8b2911a70b5ce969",
+      "size": 30685
+    },
+    {
+      "path": "post-allocation/cycle-03/recipient/01-persua-locus-before-message.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7fa7c4fabd8d216e7bd498a5ab4e3dcb983082",
+      "size": 6913
+    },
+    {
+      "path": "post-allocation/cycle-03/recipient/source-receipts/persua.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6fc0968db1a36aa731739ffd8194ab3cf333cd5",
+      "size": 9344
+    },
+    {
+      "path": "post-allocation/cycle-03/recipient/source-receipts/persua.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76c2d364b2e3229455ccadb24b224eb9d45d81f",
+      "size": 13406
+    },
+    {
+      "path": "post-allocation/cycle-03/time/01-fss-recipe-futures.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8146a4fae008db0e320a364d9d17d46e415c31a0",
+      "size": 6584
+    },
+    {
+      "path": "post-allocation/cycle-03/time/source-receipts/fss.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16db491e6c3b8475c8b4e7c085254cbb3b15eba4",
+      "size": 9341
+    },
+    {
+      "path": "post-allocation/cycle-03/time/source-receipts/fss.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497cbc6d7cc8a8324eba08185528a552b0122677",
+      "size": 2822
+    },
+    {
+      "path": "post-allocation/cycle-03/values/01-ncl-efficiency-subordinate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb8b4307680647cd2edb4c2cf8e4b3e32f450f8",
+      "size": 5553
+    },
+    {
+      "path": "post-allocation/cycle-03/values/source-receipts/ncl.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ed489f05a53ad3f23ea80f624f2a76163eda2a",
+      "size": 9341
+    },
+    {
+      "path": "post-allocation/cycle-03/values/source-receipts/ncl.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674652443cd09c1e740e69f1f6ebacff0a43206a",
+      "size": 5182
+    },
+    {
+      "path": "post-allocation/cycle-03/world/01-rwif-quiet-room.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1c6b6069229ad14d60778b3a6ac362b2d964688",
+      "size": 5633
+    },
+    {
+      "path": "post-allocation/cycle-03/world/source-receipts/rwif.stderr.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1a235a09c23b571ce5a7f4d7c3bd27dbad03e08",
+      "size": 9342
+    },
+    {
+      "path": "post-allocation/cycle-03/world/source-receipts/rwif.stdout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef19608bc84b1eb82a02cbd57923b4cb403b2c8b",
+      "size": 4880
+    },
+    {
+      "path": "repository-sync.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0d0361c55f6dfc51a957b008f3c87ed32d87933",
+      "size": 2503
+    },
+    {
+      "path": "run-state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2c96a3faac98ee353ed53eda9afadc6ddaed65",
+      "size": 1208
+    },
+    {
+      "path": "working-instruction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8be99da3a329b1399afbb2d4ab7f359e7abcab4",
+      "size": 7806
+    }
+  ]
+}

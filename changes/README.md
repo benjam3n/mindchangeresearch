@@ -1,4 +1,4 @@
-# What can change, and where to begin
+# Mind changes
 
 For the complete inherited contributor inventory, use [590 human and 26 functional AI targets](../mind-change/targets.md), [contributor construction](../mind-change/contribution-construction.md) and the [required Subject Systems](../mind-change/subject-systems.md). The shorter map below connects selected practical routes and foundational inquiries to that broader work.
 
@@ -44,3 +44,5 @@ These entrances overlap. They are a map of available work and missing demonstrat
 | The ambition of perfected understanding | [Perfection](../inquiries/perspective-25/22.md) and [concluding method](../inquiries/perspective-25/cross-inquiry-and-method.md) | Possibility, reaching and certifying are distinct; no exhaustive inventory or attained perfection claimed. |
 
 For a ready, specified transition, use a suitable [recipe](../recipes/README.md). For an emerging concern, begin with the encounter or inquiry it makes available. For provenance or unfinished original operations, use [progress](../progress.md). None of these entrances must become the permanent judge of the others.
+
+[Understanding](understanding.md) · [Evidence](evidence.md) · [Attention](attention.md) · [Memory](memory.md) · [Action](action.md) · [Motivation](motivation.md) · [Emotion](emotion.md) · [Goals](goals.md) · [Disagreement](disagreement.md) · [Trust](trust.md) · [Perception](perception.md) · [Imagination](imagination.md) · [Values](values.md) · [Feedback](feedback.md) provide the catalog-linked procedures and their actual cases.

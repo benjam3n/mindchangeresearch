@@ -1,0 +1,533 @@
+{
+  "scope": "Twenty concrete procedures and illustrations. Their supported effects are stated separately from proposed human or durable effects. This is an open collection; catalog size does not establish coverage or recipe efficacy.",
+  "recipes": [
+    {
+      "id": "contrasting-cases",
+      "subject": "Understanding",
+      "method": "Contrasting cases",
+      "description": "Knowing a rule includes distinguishing a case it governs from a near match it does not govern. Repeating its wording leaves that distinction unexamined.",
+      "procedure": [
+        "Express the rule as an explicit condition and its consequence.",
+        "Keep the rule's consequent and all other supplied facts fixed while changing one condition from present to absent.",
+        "Apply the rule to both cases and identify the changed condition that accounts for the different answers.",
+        "Change a surface feature while preserving that condition; apply the rule again. An unchanged relevant condition should preserve the answer within the rule's stated scope."
+      ],
+      "case": "For the stipulated rule 'rebuild the index before rollback when the schema has advanced,' a checksum mismatch alone does not establish the prerequisite. Adding 'schema advanced' requires rebuilding first. A changed person's name supplies neither a changed schema nor permission to act.",
+      "support": "The stored retrieval case supplies the conditional and a constructed transfer. The contrasting-case procedure is a proposed extension; human acquisition and retention have not been observed.",
+      "perspectives": [
+        "P0787",
+        "P0369"
+      ],
+      "operations": [
+        "PM1981",
+        "PM2605"
+      ],
+      "records": [
+        "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md"
+      ]
+    },
+    {
+      "id": "independent-reconstruction",
+      "subject": "Understanding",
+      "method": "Independent reconstruction",
+      "description": "A supplied answer and the ability to produce it under changed conditions are different capacities. The missing operation becomes visible when the conclusion is withheld.",
+      "procedure": [
+        "Retain the problem's premises and remove the worked conclusion from the material supplied for the next attempt.",
+        "Produce the missing dependency, calculation, or classification before revealing the reference result.",
+        "Compare the attempted transitions with the premises; identify the earliest unsupported transition rather than replacing the whole attempt with the answer.",
+        "Repeat on a changed input requiring the same dependency, preserving any boundary that changes the valid operation."
+      ],
+      "case": "With prior odds 1/9 and one independent likelihood factor of 4, reconstruct odds 4/9 and probability 4/13. With two conditionally independent factors, reconstruct 16/25. Displaying the second answer beforehand would turn this into recognition.",
+      "support": "The arithmetic follows from the supplied finite model. Context-isolated learning or delayed retention is not established by generating another answer in the same conversation.",
+      "perspectives": [
+        "P0631",
+        "P0630"
+      ],
+      "operations": [
+        "PM1982",
+        "PM2604"
+      ],
+      "records": [
+        "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md",
+        "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md"
+      ]
+    },
+    {
+      "id": "event-provenance",
+      "subject": "Evidence",
+      "method": "Event provenance",
+      "description": "Two reports copied from one event supply one event's evidence. Two different authors do not establish two independent observations.",
+      "procedure": [
+        "Associate each report with the observation it actually derives from; retain unknown ancestry as unknown.",
+        "Collapse deterministic copies into the same observation without deleting their provenance.",
+        "Use one likelihood contribution for each distinct event only where its joint or conditional-independence assumptions are supplied.",
+        "Apply the decision threshold after the evidential calculation; preserve uncertainty when the dependence model is missing."
+      ],
+      "case": "The existing alarm example specifies prior 0.10, sensitivity 0.80, and false-positive rate 0.20. Two copies of one HIGH event yield 4/13. Two HIGH events conditionally independent under both defect and no-defect hypotheses yield 16/25. Under the stipulated rule to replace when the posterior exceeds 0.50, the first case selects inspection and the second selects replacement.",
+      "support": "Exact calculation within the stipulated model, already exercised in the source record. No empirical calibration of an actual sensor is supplied.",
+      "perspectives": [
+        "P0406",
+        "P0401"
+      ],
+      "operations": [
+        "PM1208",
+        "PM1209"
+      ],
+      "records": [
+        "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md"
+      ]
+    },
+    {
+      "id": "discriminating-observations",
+      "subject": "Evidence",
+      "method": "Discriminating observations",
+      "description": "An observation that every remaining explanation predicts cannot separate those explanations. Additional reports can leave the actual uncertainty untouched.",
+      "procedure": [
+        "Write the competing explanations as distinct claims about the same event and conditions.",
+        "For each available observation, state the different result each explanation predicts; preserve missing predictions rather than inventing them.",
+        "Choose an obtainable observation whose possible results separate the live alternatives relevant to the decision.",
+        "Revise only the alternatives contradicted or supported by that result; weakening one explanation does not establish its rival."
+      ],
+      "case": "If both 'belief remains disputed' and 'belief is accepted but publishing permission is absent' fit nonpublication, another observation of nonpublication does not distinguish them. The person's accepted calculation and the permission record answer different unresolved questions.",
+      "support": "The permission-versus-belief distinction was exercised on constructed cases. Obtaining a person's actual belief or permission still requires the relevant evidence.",
+      "perspectives": [
+        "P0401",
+        "P0410",
+        "P0424"
+      ],
+      "operations": [
+        "PM0708",
+        "PM0081"
+      ],
+      "records": [
+        "post-allocation/cycle-03/recipient/01-persua-locus-before-message.md"
+      ]
+    },
+    {
+      "id": "attention-selection",
+      "subject": "Attention",
+      "method": "Attention selection",
+      "description": "A visible item and an item governing the next operation are different. Keeping all material in the record does not require processing all of it at once.",
+      "procedure": [
+        "Name the question being answered and the observations that could alter its answer.",
+        "Separate those observations from material that cannot alter this answer under the supplied conditions.",
+        "Keep the original material accessible while placing the relevant subset in the next working view.",
+        "Answer from that subset, then check whether an excluded condition changes the answer; restore such a condition if it does."
+      ],
+      "case": "In the existing finite case, the working set changes from {A,B,C} to {B}. The change succeeds as an artifact operation only if B remains available, A and C leave the active view, and no required dependency is lost. The record itself need not delete A or C.",
+      "support": "Finite selection and preservation criteria are supplied. A changed model input is not an observation of human attention.",
+      "perspectives": [
+        "P0836",
+        "P0823"
+      ],
+      "operations": [
+        "PM0126",
+        "PM0139"
+      ],
+      "records": [
+        "post-allocation/cycle-03/insight/01-insd-transition-shape.md"
+      ]
+    },
+    {
+      "id": "conditional-indexing",
+      "subject": "Memory",
+      "method": "Conditional indexing",
+      "description": "Stored information remains unusable when the encountered condition does not lead to its retrieval. An index changes access while leaving the underlying information intact.",
+      "procedure": [
+        "Preserve each original record, including its trigger, action, exception, result, and provenance.",
+        "Index the literal trigger to the original record rather than replacing the record with its summary.",
+        "Retrieve the exception together with the ordinary action.",
+        "Compare retrieved fields with the canonical record and retain multiple matches as a collision requiring resolution."
+      ],
+      "case": "The existing eight-row register preserves 48 fields. 'Checksum mismatch after deployment' retrieves the condition 'schema version advanced' and the action 'rebuild the read index before rollback.' An index returning only 'rollback' has discarded the decisive condition.",
+      "support": "The source records demonstrate immediate artifact retrieval. Spaced retrieval, durable memory, paraphrase robustness, and broader policy transfer remain separate questions.",
+      "perspectives": [
+        "P0370",
+        "P0377"
+      ],
+      "operations": [
+        "PM1983",
+        "PM2640"
+      ],
+      "records": [
+        "post-allocation/cycle-01/memory-capability/01-memk-capture.md",
+        "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md"
+      ]
+    },
+    {
+      "id": "conditional-transfer",
+      "subject": "Memory",
+      "method": "Conditional transfer",
+      "description": "A remembered action can transfer while its justification does not. The retained condition determines whether reuse is warranted.",
+      "procedure": [
+        "Recover the original condition, action, exception, and policy scope.",
+        "Match the new case to the condition rather than to the old actor's name or superficial appearance.",
+        "Identify any changed authority, policy, or dependency that could defeat the match.",
+        "Reuse the action only within the surviving scope; otherwise retain the old case as a candidate rather than an instruction."
+      ],
+      "case": "Changing the analyst's name to Dana leaves the stored checksum condition unchanged. It does not establish that Dana's organization authorizes the same rollback policy. The source's constructed transfer works within its stipulated policy, not every organization.",
+      "support": "A single constructed transfer is recorded; universal applicability is not.",
+      "perspectives": [
+        "P0792",
+        "P1793"
+      ],
+      "operations": [
+        "PM2626",
+        "PM2612"
+      ],
+      "records": [
+        "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md"
+      ]
+    },
+    {
+      "id": "prerequisite-order",
+      "subject": "Action",
+      "method": "Prerequisite order",
+      "description": "Possessing every required component does not make an action executable when its prerequisites arrive too late.",
+      "procedure": [
+        "List the actual operations and the result each dependent operation consumes.",
+        "Place each producer before its dependent operation; retain unrelated operations as unordered until another condition determines their order.",
+        "If dependencies form a cycle, identify the unavailable starting condition instead of inventing a valid sequence.",
+        "Check availability at the handoff and distinguish the ordered plan from completed execution."
+      ],
+      "case": "When rollback depends on a rebuilt read index, {rebuild, rollback} and {rollback, rebuild} contain the same operations but only the first order satisfies that dependency. A completed plan still does not establish that either operation occurred.",
+      "support": "The ordering relation is explicit in the existing finite retrieval case. No real rollback is requested or reported here.",
+      "perspectives": [
+        "P1791",
+        "P1076"
+      ],
+      "operations": [
+        "PM0055",
+        "PM2534"
+      ],
+      "records": [
+        "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md"
+      ]
+    },
+    {
+      "id": "start-stop-control",
+      "subject": "Action",
+      "method": "Starting and stopping",
+      "description": "Initiation, continuation, interruption, and termination are different controls. A strong intention supplies none of their execution receipts by itself.",
+      "procedure": [
+        "For the named action, separate the condition that permits starting from the event that actually starts it.",
+        "Identify the condition that requires continuation and the condition that requires interruption or termination.",
+        "Locate the actor or mechanism able to issue each control, including a missing control rather than calling it low motivation.",
+        "Record whether the control occurred and whether the intended process responded; a command and its effect can differ."
+      ],
+      "case": "A model can produce a relocation instruction while lacking an actuator. Adding a more emphatic instruction leaves that missing execution edge unchanged. Within a process that is executable, a start command also does not imply that a stop command is available.",
+      "support": "Capability distinctions and a nonexecution boundary are established in the records. Reliable control of a particular human action requires that action's actual mechanisms and observations.",
+      "perspectives": [
+        "P0954",
+        "P1788",
+        "P1010"
+      ],
+      "operations": [
+        "PM1880",
+        "PM1881",
+        "PM2535"
+      ],
+      "records": [
+        "post-allocation/cycle-03/capability/01-spg-near-guarantee.md"
+      ]
+    },
+    {
+      "id": "desire-method-separation",
+      "subject": "Motivation",
+      "method": "Desire and method",
+      "description": "Rejecting a method does not establish rejection of its goal. Wanting the goal does not establish an ability to execute the method.",
+      "procedure": [
+        "Retain the person's stated desired outcome and their stated objection to the proposed method as separate facts.",
+        "Compare a second method that reaches the same outcome while changing the object of that objection.",
+        "Check whether the objection remains before concluding that the outcome itself is unwanted.",
+        "Keep changed preference, chosen action, and executed action separate; do not infer any of them from the other alone."
+      ],
+      "case": "A contributor who values accurate work can reject 'redo everything now' while accepting a repair confined to the demonstrated mismatch. That contrast can identify an objection to scope or method. It does not measure an increase in motivation or supply missing time and execution capacity.",
+      "support": "The existing message and action-order comparisons are constructed. No contributor motivation or emotional response was observed.",
+      "perspectives": [
+        "P0953",
+        "P0935",
+        "P0958"
+      ],
+      "operations": [
+        "PM2081",
+        "PM2083"
+      ],
+      "records": [
+        "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md"
+      ]
+    },
+    {
+      "id": "feeling-interpretation",
+      "subject": "Emotion",
+      "method": "Feeling and interpretation",
+      "description": "A reported feeling supplies evidence of that report. It does not establish every causal or factual interpretation attached to the feeling.",
+      "procedure": [
+        "Preserve the person's actual report without substituting an inferred emotion.",
+        "Separate the event described, the meaning assigned to it, the reported feeling, and the contemplated response.",
+        "Examine the factual claim whose truth would change the response, retaining the feeling report while that claim remains unresolved.",
+        "Observe any later appraisal, feeling, or action separately rather than calling the revised explanation emotional regulation."
+      ],
+      "case": "'I'm worried rollback will erase reviewed changes' reports worry and a loss concern. Whether rollback erases those changes requires evidence about rollback. A response can address that concern without asserting that worry has fallen.",
+      "support": "The source contains a constructed later report and a revised response. It records no observed emotional improvement.",
+      "perspectives": [
+        "P0914",
+        "P0917"
+      ],
+      "operations": [
+        "PM2061",
+        "PM2063"
+      ],
+      "records": [
+        "post-allocation/cycle-01/motivation-emotion/02-eqi-appraisal-message.md"
+      ]
+    },
+    {
+      "id": "adverse-condition",
+      "subject": "Emotion",
+      "method": "Adverse conditions",
+      "description": "An unwanted experience can disclose a condition that should change. Reinterpreting the experience cannot be assumed to resolve the condition.",
+      "procedure": [
+        "Identify the reported loss, threat, demand, or unmet requirement without assuming its factual explanation is complete.",
+        "Separate changes to the external condition from changes to its interpretation and from support that makes it more bearable.",
+        "Determine which proposed operation can affect the condition actually at issue.",
+        "Preserve the person's choice and the observed result; a useful explanation may leave the material problem unresolved."
+      ],
+      "case": "If the stated concern is losing reviewed changes, preserving those changes and persuading the contributor to feel differently are different targets. The first requires a suitable repair or rollback procedure. The second cannot substitute for missing preservation.",
+      "support": "This is a design distinction derived from the supplied loss-concern case and catalog perspectives, not evidence that a particular intervention treats distress.",
+      "perspectives": [
+        "P2457",
+        "P2448"
+      ],
+      "operations": [
+        "PM2079",
+        "PM2064"
+      ],
+      "records": [
+        "post-allocation/cycle-01/motivation-emotion/02-eqi-appraisal-message.md"
+      ]
+    },
+    {
+      "id": "method-requirements",
+      "subject": "Goals",
+      "method": "Method requirements",
+      "description": "A condition required by one method becomes a requirement of the goal only if every adequate route requires it.",
+      "procedure": [
+        "State the desired condition separately from the proposed means.",
+        "Attach each alleged prerequisite to the operation that requires it.",
+        "Construct a route to the same desired condition that omits that operation.",
+        "Check whether the new route preserves the desired condition and actual constraints; if it does, the omitted prerequisite belonged to the method."
+      ],
+      "case": "The previous index required extracting an archive to reach 36 linked records. Extraction was a prerequisite of that storage arrangement, not of understanding those records. Exposing the needed records directly removes that prerequisite while preserving their bytes.",
+      "support": "The missing-link count is an observed property of the repository snapshot. The new exposed paths are checked by repository validation; no reading-time or recipient effect is inferred.",
+      "perspectives": [
+        "P0306",
+        "P1090"
+      ],
+      "operations": [
+        "PM0090",
+        "PM0711"
+      ],
+      "records": [
+        "research.md"
+      ]
+    },
+    {
+      "id": "success-criterion",
+      "subject": "Goals",
+      "method": "Success criteria",
+      "description": "A procedure can satisfy its recorded target while failing the concern that made the target worthwhile.",
+      "procedure": [
+        "Construct the state in which the stated completion criterion is satisfied exactly.",
+        "Identify what the original concern still requires in that state.",
+        "If a requirement remains unmet, separate completion of the current procedure from adequacy of the goal or criterion.",
+        "Revise the criterion explicitly before comparing new attempts; retain the earlier result under the criterion that actually governed it."
+      ],
+      "case": "A transition record can contain every required field while 'diagnose the locus' and 'choose a mechanism' remain unimplemented. Record completeness therefore cannot certify an executable recipe. Likewise, 3,000 ranked statements cannot certify 3,000 effective methods.",
+      "support": "Both mismatches are directly inspectable in the repository and this conversation's artifacts. Their correction does not establish a universal replacement recipe.",
+      "perspectives": [
+        "P0611",
+        "P1089",
+        "P1516"
+      ],
+      "operations": [
+        "PM0707",
+        "PM2830"
+      ],
+      "records": [
+        "research.md",
+        "post-allocation/cycle-03/capability/01-spg-near-guarantee.md"
+      ]
+    },
+    {
+      "id": "disagreement-comparison",
+      "subject": "Disagreement",
+      "method": "Claim comparison",
+      "description": "Identical facts can support different priorities; identical words can express different claims. The disagreement is not identified until the conflicting commitment is located.",
+      "procedure": [
+        "State each position using the same subject, period, reference class, and meanings where the speakers actually intend them.",
+        "Retain differences in meaning rather than silently imposing one definition.",
+        "Separate disputed facts from differing goals, priorities, permissions, and proposed methods.",
+        "Direct the next contribution to the remaining disagreement; additional evidence addresses a factual dispute only when that dispute remains live."
+      ],
+      "case": "Two people can accept the same alarm calculation while disagreeing about who may publish it. Repeating the calculation addresses neither the authorization question nor the disputed arrangement of decision power.",
+      "support": "The source exercises this distinction in a constructed publication case. Human agreement and subsequent publication are separate observations.",
+      "perspectives": [
+        "P2033",
+        "P2034",
+        "P2023"
+      ],
+      "operations": [
+        "PM0053",
+        "PM0077"
+      ],
+      "records": [
+        "post-allocation/cycle-03/recipient/01-persua-locus-before-message.md"
+      ]
+    },
+    {
+      "id": "domain-reliability",
+      "subject": "Trust",
+      "method": "Domain reliability",
+      "description": "Sincerity, access, competence, permission, and reliability answer different questions about relying on a source or actor.",
+      "procedure": [
+        "Name the specific claim or action on which reliance is proposed.",
+        "Identify the source's access to its evidence and competence for that particular task.",
+        "Separate repeated reports of one source from independent corroboration.",
+        "Retain uncertainty where the relevant reliability evidence is absent; do not fill it with general prestige or warmth."
+      ],
+      "case": "Two dashboard fields can agree because they copy one event. Agreement among displays does not increase the independence of their evidence. A second genuinely independent sensor changes the evidential relation, not merely the number of reassuring messages.",
+      "support": "The event-dependence example is exact within its supplied model. This procedure does not assign a general trustworthiness score to a person.",
+      "perspectives": [
+        "P2092",
+        "P2093",
+        "P0406"
+      ],
+      "operations": [
+        "PM1203",
+        "PM1206",
+        "PM1208"
+      ],
+      "records": [
+        "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md"
+      ]
+    },
+    {
+      "id": "query-representation",
+      "subject": "Perception",
+      "method": "Query and representation",
+      "description": "Two representations can preserve the same facts while exposing different relations. The question determines which loss matters.",
+      "procedure": [
+        "List the actual questions the representation must answer.",
+        "Answer them from the original representation before compressing or rearranging it.",
+        "Construct the alternative and repeat those same questions.",
+        "Keep the preserved answers and disclose changed answers; a reachability-preserving transformation need not preserve distance."
+      ],
+      "case": "The existing graph example reduces 28 edges to seven while preserving 56 reachability answers and changing 21 distances. It is adequate for those reachability queries and inadequate as a distance-preserving replacement.",
+      "support": "The source reports the finite graph comparison. It does not demonstrate a change in a human sensory system.",
+      "perspectives": [
+        "P0484",
+        "P0488"
+      ],
+      "operations": [
+        "PM0852",
+        "PM0864"
+      ],
+      "records": [
+        "gosm/03-representation-and-loss.md"
+      ]
+    },
+    {
+      "id": "alternative-interpretation",
+      "subject": "Imagination",
+      "method": "Alternative interpretations",
+      "description": "A current interpretation can be correct within its own question and still exclude a more useful question. Its failure need not be established before an alternative can be developed.",
+      "procedure": [
+        "Retain the strongest current account and the observations it explains.",
+        "Suspend one governing commitment without weakening the account merely to make departure easy.",
+        "Develop the alternative far enough to produce a different distinction, question, or executable operation on the same material.",
+        "Compare those consequences against the subject; retain valid contributions from either account and reject contradictions unsupported by the evidence."
+      ],
+      "case": "Treating this repository as an archive makes more complete storage the obvious next improvement. Treating it as access to usable mind-change procedures reveals missing retrieval paths and absent mechanisms despite the same preserved files. The second interpretation changes the repository work actually performed.",
+      "support": "This integration applies the alternative to a real repository. It does not establish that the resulting organization is globally optimal.",
+      "perspectives": [
+        "P0672",
+        "P0778",
+        "P2992"
+      ],
+      "operations": [
+        "PM2827",
+        "PM2829"
+      ],
+      "records": [
+        "research.md"
+      ]
+    },
+    {
+      "id": "separate-value-conditions",
+      "subject": "Values",
+      "method": "Separate value conditions",
+      "description": "An apparent tradeoff can be produced by bundling together fields that serve different concerns. Separating the fields can change the available alternatives.",
+      "procedure": [
+        "State each actual concern and the condition it requires, preserving constraints that cannot be exchanged for unrelated benefits.",
+        "Separate the affected object into the fields those conditions concern.",
+        "Construct combinations that preserve required fields while changing the source of conflict.",
+        "Retain an unresolved choice when the conditions still conflict; do not turn a new option into an assertion that the person's values changed."
+      ],
+      "case": "The recorded audit/privacy case separates dissent content, identity, contact route, decision authority, and expiry. Publishing the required content while withholding unnecessary identity can satisfy the stated case without trading privacy against a larger audit score.",
+      "support": "A field-level arrangement is demonstrated in the constructed case. Human value change and acceptance by a real stakeholder remain unobserved.",
+      "perspectives": [
+        "P1483",
+        "P1273",
+        "P1454"
+      ],
+      "operations": [
+        "PM0704",
+        "PM0859"
+      ],
+      "records": [
+        "post-allocation/cycle-02/values/01-vcd-privacy-auditability.md"
+      ]
+    },
+    {
+      "id": "correction-window",
+      "subject": "Feedback",
+      "method": "Correction timing",
+      "description": "A correct report can arrive after the action it could have changed is no longer available. Information quality and remaining correction opportunity are separate.",
+      "procedure": [
+        "Identify the action that a possible observation would change and the latest time that action remains available.",
+        "Compare the observation's arrival time with that action window.",
+        "Preserve an option before the window closes when doing so is feasible and consistent with the actual constraints.",
+        "Record the observed result and the remaining correction separately; later knowledge does not restore an expired opportunity."
+      ],
+      "case": "The recorded time case changes the report from 09:15 to 09:25 when action A must begin by 09:20. Waiting for the later report cannot preserve that start opportunity. Reserving or beginning an available action must be assessed against its own consequences.",
+      "support": "The source supplies a constructed timing comparison. It does not establish a universal rule to act early or to interrupt every uncertainty.",
+      "perspectives": [
+        "P1546",
+        "P0298",
+        "P0219"
+      ],
+      "operations": [
+        "PM0079",
+        "PM1885"
+      ],
+      "records": [
+        "post-allocation/cycle-01/time-reversibility/TD-prospective.md"
+      ]
+    }
+  ],
+  "record_titles": {
+    "gosm/03-representation-and-loss.md": "Reachability and distance preservation",
+    "post-allocation/cycle-01/memory-capability/01-memk-capture.md": "Conditional memory register",
+    "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md": "Conditional retrieval and changed-actor transfer",
+    "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md": "Repair scope and action order",
+    "post-allocation/cycle-01/motivation-emotion/02-eqi-appraisal-message.md": "Loss concern and response content",
+    "post-allocation/cycle-01/time-reversibility/TD-prospective.md": "Report timing and available actions",
+    "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md": "Evidence dependence calculation",
+    "post-allocation/cycle-02/values/01-vcd-privacy-auditability.md": "Privacy and auditability conditions",
+    "post-allocation/cycle-03/capability/01-spg-near-guarantee.md": "Recipe specification and execution",
+    "post-allocation/cycle-03/insight/01-insd-transition-shape.md": "Selection, addition, and preservation",
+    "post-allocation/cycle-03/recipient/01-persua-locus-before-message.md": "Accepted evidence and missing permission",
+    "research.md": "Research assessment"
+  }
+}

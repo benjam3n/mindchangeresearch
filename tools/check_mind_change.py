@@ -75,9 +75,15 @@ def main():
         require('mind-change/subject-systems.md' in text, f'Missing system rule: {name}')
         require('do not impose the former recipe card as a universal starting sequence' in text, f'Entry-point rule missing: {name}')
         require('realized epistemic transition' not in text, f'Reintroduced scope narrowing: {name}')
-    capability = (ROOT / 'post-allocation/cycle-03/capability/01-spg-near-guarantee.md').read_text()
-    require('UNRESOLVED: diagnosis and mechanism construction' in capability,
+    ledger = json.loads((ROOT / 'Research_Ledger.json').read_text())
+    capability_record = next(record for cycle in ledger['post_allocation_cycles']
+                             for record in cycle['records'] if record['id'] == 'PAC03-SPG-01')
+    # Preserve the actual assessment without requiring a rejected prose template.
+    require(capability_record['assessment_correction']['recipe_implementation_status'] == 'UNRESOLVED'
+            and capability_record['implementation_status'] ==
+            'partial specification; locus diagnosis and mechanism construction remain unresolved',
             'Implementation-completeness correction was lost')
+    require((ROOT / capability_record['file']).is_file(), 'Corrected capability record is missing')
     require('index=f' not in (ROOT / 'checkpoint.py').read_text(), 'Obsolete index generator restored')
 
     env = dict(os.environ, PYTHONDONTWRITEBYTECODE='1')

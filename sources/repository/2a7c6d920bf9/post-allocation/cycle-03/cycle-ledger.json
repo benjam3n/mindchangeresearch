@@ -1,0 +1,146 @@
+{
+  "cycle": "post-allocation/cycle-03",
+  "frozen_input": "post-allocation/cycle-03/frozen-inputs.md",
+  "initial_allocation_effect": "none; 233 complete, 66 partial, and 1 blocked original applications remain unchanged",
+  "source_fidelity": "Eight original skills were freshly loaded through the RSI reader with separate stdout/stderr receipts. All eight preserved stream pairs matched a fresh root-reader emission byte for byte in the final audit.",
+  "attempt_counts": {
+    "substantive_records": 8,
+    "complete_within_scope": 7,
+    "partial": 1,
+    "keep_verdicts": 8,
+    "distinct_new_keep_findings": 2,
+    "later_uptake_or_nonindependent_keeps": 6,
+    "rejected_or_unresolved_benefit_verdicts": 3
+  },
+  "records": [
+    {
+      "id": "PAC03-PERSUA-01",
+      "domain": "recipient, coordination, and belief",
+      "skill_id": "persua",
+      "file": "post-allocation/cycle-03/recipient/01-persua-locus-before-message.md",
+      "status": "complete",
+      "verdict": "KEEP; no human effect claimed",
+      "depth_status": "Original 8x floors met: 12 beliefs, 7 resistance points, 4 paths, and 12 message elements.",
+      "distinct_new_finding": true,
+      "finding_id": "unchanged-output-does-not-identify-mind-change-locus",
+      "later_use": "After permission was granted and evidence became disputed, the procedure switched from authority routing back to lineage evidence."
+    },
+    {
+      "id": "PAC03-INSD-01",
+      "domain": "representation, memory, capability, and action",
+      "skill_id": "insd",
+      "file": "post-allocation/cycle-03/insight/01-insd-transition-shape.md",
+      "status": "complete",
+      "verdict": "KEEP after timed no-note re-derivation",
+      "depth_status": "Original 8x floors met: 12 inversions, 4 representations, 4 cycles, and 5 crystal tests.",
+      "distinct_new_finding": true,
+      "finding_id": "transition-shape-determines-success-witness",
+      "later_use": "Reindexing passed on preserved 48/48 content plus changed retrieval cost; enablement did not become an action claim."
+    },
+    {
+      "id": "PAC03-NCL-01",
+      "domain": "values, harm, autonomy, and efficiency",
+      "skill_id": "ncl",
+      "file": "post-allocation/cycle-03/values/01-ncl-efficiency-subordinate.md",
+      "status": "complete",
+      "verdict": "KEEP qualified claim; REJECT universal efficiency priority",
+      "depth_status": "Expanded original; no numerical 8x rule in source.",
+      "distinct_new_finding": false,
+      "novelty": "Direct refinement and later use of the existing noncompensatory field-transformation finding.",
+      "later_use": "Changing the severe-harm increase from 2% to zero made the faster route admissible and selected."
+    },
+    {
+      "id": "PAC03-FSS-01",
+      "domain": "time and future strategy",
+      "skill_id": "fss",
+      "file": "post-allocation/cycle-03/time/01-fss-recipe-futures.md",
+      "status": "complete",
+      "verdict": "KEEP for scenario planning; no prediction certification",
+      "depth_status": "Expanded original; no numerical 8x rule in source.",
+      "distinct_new_finding": false,
+      "novelty": "Scenario application of existing authority, feedback, retrieval, and locus rules.",
+      "later_use": "Removing post-deployment feedback changed the target from catalog expansion to conservative gates and shadow evaluation."
+    },
+    {
+      "id": "PAC03-RWIF-01",
+      "domain": "physical location and action",
+      "skill_id": "rwif",
+      "file": "post-allocation/cycle-03/world/01-rwif-quiet-room.md",
+      "status": "partial",
+      "verdict": "KEEP interface; target location change UNRESOLVED",
+      "depth_status": "Expanded original; no numerical 8x rule in source.",
+      "missing_requirements": [
+        "No reservation, packing, travel, entry, or study-start observation exists",
+        "Actual travel duration is unavailable"
+      ],
+      "distinct_new_finding": false,
+      "novelty": "Direct physical uptake of the established plan-versus-action and availability gates.",
+      "later_use": "Room unavailability at 13:55 activated the fallback instead of continuing toward an infeasible end state."
+    },
+    {
+      "id": "PAC03-SDC-01",
+      "domain": "motivation attribution and research evaluation",
+      "skill_id": "sdc",
+      "file": "post-allocation/cycle-03/motivation/01-sdc-keep-count.md",
+      "status": "complete",
+      "verdict": "KEEP audit; REJECT raw KEEP-count inference",
+      "depth_status": "Original 8x floors met: 3 sections, 10 tests per section, 5 lookbacks, and 4 verifier types.",
+      "distinct_new_finding": false,
+      "novelty": "Audit and enforcement of the existing scoped-verdict, novelty, and later-uptake distinctions.",
+      "later_use": "The cycle reports two distinct findings rather than eight new discoveries."
+    },
+    {
+      "id": "PAC03-EXD-01",
+      "domain": "experiment and recipient outcome",
+      "skill_id": "exd",
+      "file": "post-allocation/cycle-03/experiment/01-exd-recipe-compiler-trial.md",
+      "status": "complete",
+      "verdict": "KEEP design; human efficacy UNRESOLVED",
+      "depth_status": "Expanded original; no numerical 8x rule in source.",
+      "distinct_new_finding": false,
+      "novelty": "Prospective validation design for the consolidated mechanism, not a new beneficial finding.",
+      "later_use": "The program claim was narrowed from human benefit to local utility and prospective testability."
+    },
+    {
+      "id": "PAC03-SPG-01",
+      "domain": "capability and validation",
+      "skill_id": "spg",
+      "file": "post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
+      "status": "complete",
+      "verdict": "REJECT vague near-guarantee; KEEP specific prospective specification; mechanism implementation and efficacy UNRESOLVED",
+      "depth_status": "Expanded original; no numerical 8x rule in source.",
+      "distinct_new_finding": false,
+      "novelty": "Specification and boundary application of the recipe compiler, not independent evidence of efficacy.",
+      "later_use": "A physical relocation requested from a text-only system became a typed handoff, not a success claim.",
+      "completion_scope": "Completed specificity exercise and prospective schema; implementation completeness is not established.",
+      "implementation_status": "partial specification; locus diagnosis and mechanism construction remain unresolved",
+      "intent_audit": "research/intent-audit.md"
+    }
+  ],
+  "distinct_findings": [
+    "unchanged-output-does-not-identify-mind-change-locus",
+    "transition-shape-determines-success-witness"
+  ],
+  "consolidation": {
+    "file": "post-allocation/cycle-03/consolidation-03-recipe-compiler.md",
+    "finding_ids": [
+      "noncompensatory-value-conflict-by-field-transformation",
+      "typed-two-stage-belief-transition",
+      "unchanged-output-does-not-identify-mind-change-locus",
+      "transition-shape-determines-success-witness"
+    ],
+    "new_cycle_03_findings_used": [
+      "unchanged-output-does-not-identify-mind-change-locus",
+      "transition-shape-determines-success-witness"
+    ],
+    "remaining_unconsolidated_distinct_findings": [],
+    "use_scope": "Conditional selection card on its preserved cases; not a complete general change-producing recipe or compulsory entry order."
+  },
+  "claims_not_made": [
+    "human belief, value, perception, motivation, memory, learning, location, or behavior changed",
+    "model weights changed",
+    "a near-guarantee threshold was defined or achieved",
+    "the recipe compiler is globally optimal",
+    "structural lookup counts equal measured human time"
+  ]
+}
