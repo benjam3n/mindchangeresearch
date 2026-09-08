@@ -1,0 +1,27 @@
+{
+  "run": "Executed retained gg_checks.py with its output directory redirected to a new temporary directory; input snapshot unchanged.",
+  "replay_directory": "/workspace/scratch/6205a677c51f/audit-work/gg-replay-mtydvn3p",
+  "current_next_operation_type": "dict",
+  "replayed_next_operation_type": "str",
+  "replayed_next_operation": "inspect the first incomplete dependency and execute a ready independent slot",
+  "current_exact_input_length": 374,
+  "replayed_exact_input_length": 203,
+  "lost_observation_keys": [
+    "active_queue_filters_completed",
+    "changed_hash_fixture_triggers_reread",
+    "historical_files_retained",
+    "missing_next_operation_fixture_parses",
+    "missing_next_operation_fixture_rejected",
+    "source_unchanged",
+    "v1_exact_input_matches_frozen_gg_input",
+    "v1_next_operation_specific",
+    "v1_syntax_roundtrip",
+    "v2_exact_input_matches_frozen_gg_input",
+    "v2_exact_roundtrip",
+    "v2_next_operation_skill",
+    "v2_next_operation_source_readable"
+  ],
+  "saved_main_source_hash": "5a617b8c6d20e32e3f3234e6f92e2c6703e5c4f43f65c2623044f4a8aa8f925d",
+  "current_archived_main_source_hash": "d55ee58d245c88bf0699e309fbe80a29a2b898906f3c914ee82fbde4d6f208e8",
+  "actual_current_readability": true
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Isolated validator counterexample; pinned source files untouched",
+  "mutation": {
+    "path": "mind-change/targets/07-attention.md",
+    "line": 10,
+    "before": "**Candidate contributors:** A spatial or verbal cue; sudden change; a question naming an overlooked feature; an object connected to the active goal.",
+    "after": "**Candidate contributors:** Determine the appropriate contributor and apply it."
+  },
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"scope\": \"Data, source fidelity, current access, correction uptake, executable retrieval, and finite source behavior; not human efficacy or universal recipe completeness.\", \"targets\": 616, \"families\": 62, \"preserved_source_files\": 169, \"canonical_subject_references\": 31, \"current_documents_checked\": 80, \"current_link_occurrences_checked\": 430, \"initial_slot_statuses_unchanged_from_integration_baseline\": true, \"integration_baseline_gate_applied\": false, \"retrieval_cases\": [\"368\", \"AI-1\", \"unknown target rejected\"], \"historical_probe_replay\": \"passed for five preserved result groups\", \"active_instruction_copies_checked\": 3}\n",
+  "stderr": ""
+}

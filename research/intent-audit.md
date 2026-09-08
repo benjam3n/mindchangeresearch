@@ -42,3 +42,5 @@ Verdict: KEEP for the implemented repository corrections after the integration c
 Organization: Current subjects and operations supply use; application records supply scoped derivations; ledgers supply accounting; source archives preserve exact provenance. Generation keeps these roles distinct.
 
 Next attempts: Construct a complete operation for a consequential uncovered target; apply a retained correction in a later independent task; compare access on an actual reader task; resolve an existing partial original-operation gate when its required input becomes available.
+
+[Cross-repository audit of deferred reasoning, placeholders, performativity, and avoidance of warranted conclusions](deferred-reasoning-2026-09-08/When-descriptions-replace-reasoning.md) examines these corrections alongside the original applications and the other three projects. Its [exact occurrence inventory and evidence](deferred-reasoning-2026-09-08/README.md) distinguish repaired historical defects, surviving failures, and legitimate specifications.

@@ -1,0 +1,466 @@
+{
+  "queue_all_24_orders": [
+    {
+      "order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "mean_wait": 8.0,
+      "finish": {
+        "A": 9,
+        "B": 10,
+        "C": 13,
+        "D": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "mean_wait": 7.75,
+      "finish": {
+        "A": 9,
+        "B": 10,
+        "D": 12,
+        "C": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "mean_wait": 8.5,
+      "finish": {
+        "A": 9,
+        "C": 12,
+        "B": 13,
+        "D": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "mean_wait": 8.75,
+      "finish": {
+        "A": 9,
+        "C": 12,
+        "D": 14,
+        "B": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "mean_wait": 8.0,
+      "finish": {
+        "A": 9,
+        "D": 11,
+        "B": 12,
+        "C": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "mean_wait": 8.5,
+      "finish": {
+        "A": 9,
+        "D": 11,
+        "C": 14,
+        "B": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "mean_wait": 6.0,
+      "finish": {
+        "B": 1,
+        "A": 10,
+        "C": 13,
+        "D": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "mean_wait": 5.75,
+      "finish": {
+        "B": 1,
+        "A": 10,
+        "D": 12,
+        "C": 15
+      },
+      "feasible": true
+    },
+    {
+      "order": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "mean_wait": 4.5,
+      "finish": {
+        "B": 1,
+        "C": 4,
+        "A": 13,
+        "D": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "mean_wait": 2.75,
+      "finish": {
+        "B": 1,
+        "C": 4,
+        "D": 6,
+        "A": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "mean_wait": 4.0,
+      "finish": {
+        "B": 1,
+        "D": 3,
+        "A": 12,
+        "C": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "mean_wait": 2.5,
+      "finish": {
+        "B": 1,
+        "D": 3,
+        "C": 6,
+        "A": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "mean_wait": 7.0,
+      "finish": {
+        "C": 3,
+        "A": 12,
+        "B": 13,
+        "D": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "mean_wait": 7.25,
+      "finish": {
+        "C": 3,
+        "A": 12,
+        "D": 14,
+        "B": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "mean_wait": 5.0,
+      "finish": {
+        "C": 3,
+        "B": 4,
+        "A": 13,
+        "D": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "mean_wait": 3.25,
+      "finish": {
+        "C": 3,
+        "B": 4,
+        "D": 6,
+        "A": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "mean_wait": 5.5,
+      "finish": {
+        "C": 3,
+        "D": 5,
+        "A": 14,
+        "B": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "mean_wait": 3.5,
+      "finish": {
+        "C": 3,
+        "D": 5,
+        "B": 6,
+        "A": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "mean_wait": 6.25,
+      "finish": {
+        "D": 2,
+        "A": 11,
+        "B": 12,
+        "C": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "mean_wait": 6.75,
+      "finish": {
+        "D": 2,
+        "A": 11,
+        "C": 14,
+        "B": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "mean_wait": 4.25,
+      "finish": {
+        "D": 2,
+        "B": 3,
+        "A": 12,
+        "C": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "mean_wait": 2.75,
+      "finish": {
+        "D": 2,
+        "B": 3,
+        "C": 6,
+        "A": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "mean_wait": 5.25,
+      "finish": {
+        "D": 2,
+        "C": 5,
+        "A": 14,
+        "B": 15
+      },
+      "feasible": false
+    },
+    {
+      "order": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "mean_wait": 3.25,
+      "finish": {
+        "D": 2,
+        "C": 5,
+        "B": 6,
+        "A": 15
+      },
+      "feasible": false
+    }
+  ],
+  "best_feasible_queue": {
+    "order": [
+      "B",
+      "A",
+      "D",
+      "C"
+    ],
+    "mean_wait": 5.75,
+    "finish": {
+      "B": 1,
+      "A": 10,
+      "D": 12,
+      "C": 15
+    },
+    "feasible": true
+  },
+  "architecture_interfaces": [
+    {
+      "application": 1,
+      "rows": 25,
+      "distinct_endpoint_pairs": 24,
+      "duplicates": [
+        {
+          "from": "A1-15",
+          "to": "A1-16",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "application": 2,
+      "rows": 25,
+      "distinct_endpoint_pairs": 24,
+      "duplicates": [
+        {
+          "from": "A2-15",
+          "to": "A2-16",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "application": 3,
+      "rows": 25,
+      "distinct_endpoint_pairs": 24,
+      "duplicates": [
+        {
+          "from": "A3-15",
+          "to": "A3-16",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "lifecycle_original_present_values": {
+    "direct": 147.08825154764637,
+    "compiled": 195.36358048071727,
+    "hybrid": 140.65699685192888,
+    "batch": 155.26590955660006
+  },
+  "same_values_from_six_aggregates_only": {
+    "direct": 147.08825154764637,
+    "compiled": 195.36358048071727,
+    "hybrid": 140.65699685192888,
+    "batch": 155.26590955660006
+  },
+  "lifecycle_aggregate_equality": true,
+  "representation_generator_status": "all51 existing application paths become complete by update_ledger.py:18",
+  "root_representation_partial_records": [
+    "representation/046-wre-1.md",
+    "representation/047-wre-2.md",
+    "representation/048-wre-3.md",
+    "representation/049-w-1.md",
+    "representation/050-w-2.md",
+    "representation/051-w-3.md",
+    "representation/029-vdp-1.md",
+    "representation/030-prd-1.md"
+  ]
+}

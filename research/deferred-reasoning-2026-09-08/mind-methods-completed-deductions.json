@@ -1,0 +1,53 @@
+{
+  "posterior_bound": {
+    "assumptions": "prior1/10; each alarm P(+|D)=4/5, P(+|notD)=1/5; both positive; unrestricted conditional dependence",
+    "joint_D_bound": [
+      "3/5",
+      "4/5"
+    ],
+    "joint_notD_bound": [
+      "0",
+      "1/5"
+    ],
+    "sharp_posterior_interval": [
+      "1/4",
+      "1"
+    ],
+    "endpoint_witnesses": [
+      {
+        "joint_positive_given_D": "3/5",
+        "joint_positive_given_not_D": "0",
+        "posterior": "1",
+        "replacement": true
+      },
+      {
+        "joint_positive_given_D": "3/5",
+        "joint_positive_given_not_D": "1/5",
+        "posterior": "1/4",
+        "replacement": false
+      },
+      {
+        "joint_positive_given_D": "4/5",
+        "joint_positive_given_not_D": "0",
+        "posterior": "1",
+        "replacement": true
+      },
+      {
+        "joint_positive_given_D": "4/5",
+        "joint_positive_given_not_D": "1/5",
+        "posterior": "4/13",
+        "replacement": false
+      }
+    ],
+    "replacement_unresolved": true
+  },
+  "downstream_only_patch_counterexample": {
+    "incorrect_posterior": "16/25",
+    "correct_posterior": "4/13",
+    "initial_threshold": "1/2",
+    "patched_initial_action": "inspect",
+    "later_threshold": "3/5",
+    "later_action_with_wrong_posterior": "replace",
+    "later_action_with_repaired_posterior": "inspect"
+  }
+}

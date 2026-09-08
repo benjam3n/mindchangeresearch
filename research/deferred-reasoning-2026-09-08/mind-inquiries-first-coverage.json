@@ -1,0 +1,171 @@
+{
+  "repository": "benjam3n/mindchangeresearch",
+  "commit": "2a7c6d920bf9e86cc9a247c39927bcce45e4deea",
+  "assigned_files": 16,
+  "bytes": 186544,
+  "inquiry_options": 188,
+  "option_count_meaning": "14 each in inquiries 01–07 and 15 each in 08–13; not an exhaustive possibility count",
+  "coverage_limit": "This addendum covers the assigned 16 files. Inquiry14–25, cross-review, and publication controls belong to other agents. Mapped canonical-source excerpts are duplicate occurrence evidence, not an independent full semantic read of that whole source.",
+  "files": [
+    {
+      "path": "inquiries/perspective-25/01.md",
+      "bytes": 10488,
+      "line_count": 38,
+      "sha256": "f5b9838363efa68a1671f0657e87553addd77ae1fc8bd352bd07c5237cc7edc7",
+      "git_blob_sha1": "705afd2985ee5de7150299ef175d50a66de0bd60",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/01.md"
+    },
+    {
+      "path": "inquiries/perspective-25/02.md",
+      "bytes": 10992,
+      "line_count": 36,
+      "sha256": "5f51dc1f7597f99d0b8bac4664b541ce1bb884c6449811b9c382ce526354803e",
+      "git_blob_sha1": "9d82e89c2da81828d49066907e6f8608838704df",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/02.md"
+    },
+    {
+      "path": "inquiries/perspective-25/03.md",
+      "bytes": 9936,
+      "line_count": 38,
+      "sha256": "3ddb3b4d080b5c7ee13e01431c6f214f2eafcfd90a90ab4558a756547b2f5e33",
+      "git_blob_sha1": "5e95d2f011fe5588081bd7295ca116c22fdad9ee",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/03.md"
+    },
+    {
+      "path": "inquiries/perspective-25/04.md",
+      "bytes": 10737,
+      "line_count": 38,
+      "sha256": "3435fa9150e41992eec319976b38797385fbc2058e72f35996815ccb45fdeea9",
+      "git_blob_sha1": "9630e1f45e5737b81af151f7132d94fefe4f582b",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/04.md"
+    },
+    {
+      "path": "inquiries/perspective-25/05.md",
+      "bytes": 10594,
+      "line_count": 36,
+      "sha256": "7b390824a43a76bc4de12ab335db1373aa012c58356b9dc92ebc230ba4d6ea95",
+      "git_blob_sha1": "7389dcf0a94f307f042a2d5de2430723faf233d7",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/05.md"
+    },
+    {
+      "path": "inquiries/perspective-25/06.md",
+      "bytes": 9777,
+      "line_count": 40,
+      "sha256": "fe8590174e1a4d3c4f0878db65c8a6b3796c3e564e42360efe43f1fd0c374051",
+      "git_blob_sha1": "6a6016794e7965b481d79cd6618d9a961c07687e",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/06.md"
+    },
+    {
+      "path": "inquiries/perspective-25/07.md",
+      "bytes": 8582,
+      "line_count": 40,
+      "sha256": "c2a97ef04076758b8c497148289ac84ae91666b3ea9834af3f0572ae1541ac24",
+      "git_blob_sha1": "efd4050053fd70b7d881756473ef193edac5b141",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/07.md"
+    },
+    {
+      "path": "inquiries/perspective-25/08.md",
+      "bytes": 9048,
+      "line_count": 43,
+      "sha256": "7babfc093272fc40825e6c6bf1c2f77f53335969bb7bec27fa3b5254dfaf1d2b",
+      "git_blob_sha1": "68895a4785badb5d636a206d0c7164deef1d6c3a",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/08.md"
+    },
+    {
+      "path": "inquiries/perspective-25/09.md",
+      "bytes": 8619,
+      "line_count": 43,
+      "sha256": "8a3f8296ff37fb47345b905880ba341801cec86919d82db85b03e640847557de",
+      "git_blob_sha1": "cdbb60e3e2d9f983bd09cb44fdf7c2bfa8d7f810",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/09.md"
+    },
+    {
+      "path": "inquiries/perspective-25/10.md",
+      "bytes": 9463,
+      "line_count": 47,
+      "sha256": "4b80692d8ff7662adc284aa54bef7e9647c338c94b1c740457752020de019172",
+      "git_blob_sha1": "4cda2fedb9d5ba79333f5c45fecdc0081c6da63b",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/10.md"
+    },
+    {
+      "path": "inquiries/perspective-25/11.md",
+      "bytes": 10697,
+      "line_count": 49,
+      "sha256": "c7085ac307c2e8c94cb946c644483374392fd957cf9318901d869bb5cb7be5e6",
+      "git_blob_sha1": "c04125c9c0e947220f0c3757ef6d08dd0b82f7e7",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/11.md"
+    },
+    {
+      "path": "inquiries/perspective-25/12.md",
+      "bytes": 9535,
+      "line_count": 47,
+      "sha256": "d782afca79d38b2f4865bec9203e8d95f1ae4b1b971d12752810fd422eda18eb",
+      "git_blob_sha1": "6260cc1d3fba1cf456a96df2c9019fab40c68502",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/12.md"
+    },
+    {
+      "path": "inquiries/perspective-25/13.md",
+      "bytes": 9462,
+      "line_count": 47,
+      "sha256": "eb2e98aa9d25654989e8a7ba7c823a4d9356f35d1a33ac07fc794096ffa541f5",
+      "git_blob_sha1": "3d8bfd09cac413c682577d666cac1f68d6a3ae46",
+      "semantic_read": "complete direct reading",
+      "scope": "first thirteen inquiries",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/inquiries/perspective-25/13.md"
+    },
+    {
+      "path": "sources/perspective-inquiries-25/authority_and_completion_review.md",
+      "bytes": 26097,
+      "line_count": 128,
+      "sha256": "a551d0b8774d2cb584d1862ba202f9fb4e2d0f2102bbbad5acff98f97adaf0c0",
+      "git_blob_sha1": "a2f97dcc923a4f118a75581c2b8b0b4eb5916792",
+      "semantic_read": "complete direct reading",
+      "scope": "assigned authority/source request",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/sources/perspective-inquiries-25/authority_and_completion_review.md"
+    },
+    {
+      "path": "sources/perspective-inquiries-25/authority_and_completion_final.md",
+      "bytes": 23412,
+      "line_count": 124,
+      "sha256": "36e1ca8c37227ff235f4cfddb94ddbe03a4bb629c1968ed151ef8fbbe5987244",
+      "git_blob_sha1": "80e9ca49835527be44fcc74d68645f546471e300",
+      "semantic_read": "complete direct reading",
+      "scope": "assigned authority/source request",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/sources/perspective-inquiries-25/authority_and_completion_final.md"
+    },
+    {
+      "path": "sources/perspective-inquiries-25/user-request.md",
+      "bytes": 9105,
+      "line_count": 27,
+      "sha256": "1b55ae128fa7786a35c296e3d3ffcb9fa236ecd9e3f6a59ab1b72dfda627cc44",
+      "git_blob_sha1": "f46b507d06fb83cc4bb489e6f0d5bc5eae14fd96",
+      "semantic_read": "complete direct reading",
+      "scope": "assigned authority/source request",
+      "pinned_url": "https://github.com/benjam3n/mindchangeresearch/blob/2a7c6d920bf9e86cc9a247c39927bcce45e4deea/sources/perspective-inquiries-25/user-request.md"
+    }
+  ]
+}

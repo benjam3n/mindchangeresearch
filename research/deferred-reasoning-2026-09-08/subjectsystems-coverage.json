@@ -1,0 +1,2202 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 33,
+    "lines": 3,
+    "git_blob_sha": "4a5bb25f7096ae714e1567277512b7b2c15ce857",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/.gitignore",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 4500,
+    "lines": 23,
+    "git_blob_sha": "69ebc47708c9004d81c44f0dec1de45b28aee8ef",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/AGENTS.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "README.md",
+    "bytes": 7220,
+    "lines": 58,
+    "git_blob_sha": "cbdd3a54927c1a22e385c27c21e1ac0a3c140230",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/README.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/custom-system-outputs.md",
+    "bytes": 596,
+    "lines": 5,
+    "git_blob_sha": "e79452aef6969a9ec340079112f6413260e01b50",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/custom-system-outputs.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/mind-change-selection.md",
+    "bytes": 8361,
+    "lines": 24,
+    "git_blob_sha": "28a344798483869497c5e81d1ed78f7f2c70bcfd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/mind-change-selection.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 11
+  },
+  {
+    "path": "cases/repository-construction.json",
+    "bytes": 2641,
+    "lines": 46,
+    "git_blob_sha": "8e5b476a2b2cbdb61ff9fb118d167138a26d0fc7",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/repository-construction.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/repository-construction.md",
+    "bytes": 1742,
+    "lines": 10,
+    "git_blob_sha": "c303badde9481195ec4ae2ff8398bd12578e1e9e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/repository-construction.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/repository-name-selection.md",
+    "bytes": 603,
+    "lines": 13,
+    "git_blob_sha": "82d38d552a0bcb4c8408666e146943f476c90377",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/repository-name-selection.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/resource-sharing.md",
+    "bytes": 1319,
+    "lines": 37,
+    "git_blob_sha": "a15a0f2481561f53fc9ce848613c88b368b7a871",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/resource-sharing.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/shape-rotation.md",
+    "bytes": 1893,
+    "lines": 16,
+    "git_blob_sha": "40c243cd4488c49b314c20e433db9f27de2135f6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/shape-rotation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/subject-boundaries.md",
+    "bytes": 2601,
+    "lines": 23,
+    "git_blob_sha": "08aac68e49ed4d38b1908e998037f2a55a2446c1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/subject-boundaries.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "cases/subject-name-boundary.md",
+    "bytes": 25266,
+    "lines": 76,
+    "git_blob_sha": "5507f8b634d44254ddf342df55e4c01f8e8fd839",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/cases/subject-name-boundary.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/README.md",
+    "bytes": 1039,
+    "lines": 25,
+    "git_blob_sha": "c9458b9b8f2f785c0cb8526c9e5a7256138ea837",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/README.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/history.json",
+    "bytes": 55681,
+    "lines": 1046,
+    "git_blob_sha": "a22ad0a7646002286e656d577ba423e1a6a91d91",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/history.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/manifest.json",
+    "bytes": 70829,
+    "lines": 1031,
+    "git_blob_sha": "535a96600f86b4e473967770225d9617d9f2f6d1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/manifest.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/perspective-hypotheses.txt",
+    "bytes": 3848,
+    "lines": 26,
+    "git_blob_sha": "377467998d45e8ea3f60bc3b876cb881fb01780d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/perspective-hypotheses.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/snapshots/discoveryengine-README.txt",
+    "bytes": 6999,
+    "lines": 192,
+    "git_blob_sha": "4fe49a3c721dde124eefc5b2779edccf7b1bdf42",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/snapshots/discoveryengine-README.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/snapshots/project-dashboard-README.txt",
+    "bytes": 1345,
+    "lines": 34,
+    "git_blob_sha": "45ecd63b18536cf91299289ecf636baaebcdb837",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/snapshots/project-dashboard-README.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/snapshots/reasoningtool2-CURRENT.txt",
+    "bytes": 6830,
+    "lines": 94,
+    "git_blob_sha": "aab1aa809e487d3d0de75d9dd8187d3215fd8693",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/snapshots/reasoningtool2-CURRENT.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/snapshots/reasoningtool2-METHODS.txt",
+    "bytes": 5080,
+    "lines": 38,
+    "git_blob_sha": "1f170efe02f3f0fadafc8f26484946252abecdbf",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/snapshots/reasoningtool2-METHODS.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/snapshots/sds-README.txt",
+    "bytes": 1588,
+    "lines": 39,
+    "git_blob_sha": "38e4d7b8017d0b8aedb0a3757ed8ee9e89b00788",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/snapshots/sds-README.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/araw_readme.txt",
+    "bytes": 15250,
+    "lines": 372,
+    "git_blob_sha": "93bd43e9d3e860363e9c47d0e0428d813b2fab7a",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/araw_readme.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/gosm_bridge.txt",
+    "bytes": 6158,
+    "lines": 197,
+    "git_blob_sha": "12c6b5f81acd2704174f34e2341a3af96acadcc8",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/gosm_bridge.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/gosm_hierarchy.txt",
+    "bytes": 4546,
+    "lines": 148,
+    "git_blob_sha": "e63ab41a65a60b80c1344627ae786efd3d857a94",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/gosm_hierarchy.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/gosm_history.txt",
+    "bytes": 8631,
+    "lines": 305,
+    "git_blob_sha": "8050f7e6d6c2ba03d1273028b1f0c0a1a0467c27",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/gosm_history.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/gosm_matrix.txt",
+    "bytes": 5309,
+    "lines": 126,
+    "git_blob_sha": "289c86034da924f03156b296205b06519ef46abb",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/gosm_matrix.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/gosm_outcome.txt",
+    "bytes": 4282,
+    "lines": 152,
+    "git_blob_sha": "02f2822252f25b12a04bad1b09543a78a39ffbc8",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/gosm_outcome.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_agents.txt",
+    "bytes": 1588,
+    "lines": 36,
+    "git_blob_sha": "b44a155a81151cb975ff550519580d160d72f2ed",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_agents.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_araw.txt",
+    "bytes": 24492,
+    "lines": 472,
+    "git_blob_sha": "7931a7ef1bb7c525744481a8b84dbc8975d7b67d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_araw.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 1
+  },
+  {
+    "path": "sources/studies/rt_cmp.txt",
+    "bytes": 5597,
+    "lines": 160,
+    "git_blob_sha": "5d119b34c8cc57a4bfba2b4f632c81fb36e7e4eb",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_cmp.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_dd.txt",
+    "bytes": 7260,
+    "lines": 237,
+    "git_blob_sha": "2958e9bb28e5622e32c97d241750872742e3a39e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_dd.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_foht.txt",
+    "bytes": 9416,
+    "lines": 294,
+    "git_blob_sha": "fef7c25fd56816086ab83682fd64c9f1fd6a1114",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_foht.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_fut.txt",
+    "bytes": 2950,
+    "lines": 123,
+    "git_blob_sha": "125587b02599f42c715bf475b42cd59838ac6e2e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_fut.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_gosm.txt",
+    "bytes": 5097,
+    "lines": 134,
+    "git_blob_sha": "8cc2474f0b3cf063bd408c3c04a469fad01639dd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_gosm.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/studies/rt_se.txt",
+    "bytes": 8041,
+    "lines": 294,
+    "git_blob_sha": "79693be120f46491bd237672148033d8a213025c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/studies/rt_se.txt",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/study-inventory.md",
+    "bytes": 6011,
+    "lines": 17,
+    "git_blob_sha": "59aafc947d85e756151cd94f3ccc4a97495f66dc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/study-inventory.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "sources/systems/araw.md",
+    "bytes": 3478,
+    "lines": 38,
+    "git_blob_sha": "3117a08673ba2fc5c01d9658a277bee887d3ac30",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/araw.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 12
+  },
+  {
+    "path": "sources/systems/automaticscience.md",
+    "bytes": 2790,
+    "lines": 29,
+    "git_blob_sha": "64c6bad358f7f5e3a5f6e5a6a9addeea1a2dfd1c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/automaticscience.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/autophilosophy.md",
+    "bytes": 7074,
+    "lines": 41,
+    "git_blob_sha": "60bd512503285ee389fce8dd91ffb2d3ff381c71",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/autophilosophy.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 2
+  },
+  {
+    "path": "sources/systems/axiomnet-historical.md",
+    "bytes": 1482,
+    "lines": 20,
+    "git_blob_sha": "e3e7241051930b1c9463f385a7c921cba1449da0",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/axiomnet-historical.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/bod.md",
+    "bytes": 1914,
+    "lines": 25,
+    "git_blob_sha": "e8e5e9f93bf37b45770986f0d1aa984fced51bc4",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/bod.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/discovery-engine.md",
+    "bytes": 1783,
+    "lines": 27,
+    "git_blob_sha": "07d5375546b152c4f712076fac99e5cefcb9d08c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/discovery-engine.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/gosm.md",
+    "bytes": 5025,
+    "lines": 50,
+    "git_blob_sha": "8d5105d7020b74594bcfd517a866ff05e8207b73",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/gosm.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 15
+  },
+  {
+    "path": "sources/systems/logicsystem.md",
+    "bytes": 2922,
+    "lines": 29,
+    "git_blob_sha": "68f5684e0b4f505c18b4c5092c34cb1494d51a20",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/logicsystem.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/master-framework.md",
+    "bytes": 859,
+    "lines": 15,
+    "git_blob_sha": "14dd57b5529de38a75cdaaad9fa750e3ac674eca",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/master-framework.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/postagi-reasoning.md",
+    "bytes": 17905,
+    "lines": 81,
+    "git_blob_sha": "110797f9aa910d5a96e83fb3819578d2ccffa113",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/postagi-reasoning.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/preferencefinder.md",
+    "bytes": 1606,
+    "lines": 24,
+    "git_blob_sha": "06fbe0eca13f860f20efbc9ebe8ddec05ab6d232",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/preferencefinder.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/project-dashboard.md",
+    "bytes": 1135,
+    "lines": 19,
+    "git_blob_sha": "e473c4f320afb0bed8e9729634a7e919998eeb88",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/project-dashboard.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/questionroute.md",
+    "bytes": 2867,
+    "lines": 34,
+    "git_blob_sha": "7e4793ed50e01f4bb0220a15427a6a8c83a906a2",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/questionroute.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/reasoningtool.md",
+    "bytes": 4793,
+    "lines": 44,
+    "git_blob_sha": "bfbeacf5d2219e1c4319d42678268dbf0458315a",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/reasoningtool.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 15
+  },
+  {
+    "path": "sources/systems/reasoningtool2.md",
+    "bytes": 2074,
+    "lines": 31,
+    "git_blob_sha": "c1863095f4d8a45f75b37255a50f15045b9375cf",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/reasoningtool2.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/resource-engineering.md",
+    "bytes": 3036,
+    "lines": 28,
+    "git_blob_sha": "9b534b3b5257cc0db6fc25d9d8cc1959fde08cac",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/resource-engineering.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/sds.md",
+    "bytes": 2569,
+    "lines": 35,
+    "git_blob_sha": "2f23fd0d2b8cf1da22a53d75597ffb6a2aa1090e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/sds.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/strategizer.md",
+    "bytes": 1234,
+    "lines": 20,
+    "git_blob_sha": "de89f8ff8aa8851b8277e9b6a827cbfd0c0d7479",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/strategizer.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/superintelbot.md",
+    "bytes": 1346,
+    "lines": 23,
+    "git_blob_sha": "fd5972d0fefa836798099ef5508e8f9dcfc71770",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/superintelbot.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/systemrecovery.md",
+    "bytes": 1583,
+    "lines": 25,
+    "git_blob_sha": "90cbec3bee4a4af7eae20c433c2639feb982056a",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/systemrecovery.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "sources/systems/truthfinder.md",
+    "bytes": 1807,
+    "lines": 30,
+    "git_blob_sha": "3ecab83dc34f83d544907ee35f813eb106e824f5",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/sources/systems/truthfinder.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 3
+  },
+  {
+    "path": "studies/README.md",
+    "bytes": 3384,
+    "lines": 143,
+    "git_blob_sha": "8c275b08d9edcef9f433b317d6f2301fb7b981f3",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/README.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/action/questions.md",
+    "bytes": 234,
+    "lines": 3,
+    "git_blob_sha": "547758bb51f661a7f47965ef3219e2624f7317a6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/action/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/attention/questions.md",
+    "bytes": 224,
+    "lines": 3,
+    "git_blob_sha": "a576dab8065bb311f2a696a258f3453c5898c1fe",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/attention/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/claim/questions.md",
+    "bytes": 526,
+    "lines": 7,
+    "git_blob_sha": "4a86957847bf131b421945190f1bc344c8fd8416",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/claim/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 4
+  },
+  {
+    "path": "studies/commitment/questions.md",
+    "bytes": 233,
+    "lines": 3,
+    "git_blob_sha": "53907cb0a7665f76596ecfa3707f024d9f2ded1d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/commitment/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/criterion/questions.md",
+    "bytes": 494,
+    "lines": 7,
+    "git_blob_sha": "3234789a95d35531dd20d0257d5e11020baac03d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/criterion/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 4
+  },
+  {
+    "path": "studies/design/questions.md",
+    "bytes": 514,
+    "lines": 7,
+    "git_blob_sha": "88fafa0e974935ce3dfd60ce5ca711d25db9fab7",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/design/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 4
+  },
+  {
+    "path": "studies/discovery/questions.md",
+    "bytes": 255,
+    "lines": 3,
+    "git_blob_sha": "5f13344ed82117f4dfd32e8e4093788b510a2ebd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/discovery/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/explanation/questions.md",
+    "bytes": 236,
+    "lines": 3,
+    "git_blob_sha": "b4ab939b1d49139f5dd4ed14dfc5a6e1302cbcd9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/explanation/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/expression/prompt-effect.md",
+    "bytes": 2618,
+    "lines": 32,
+    "git_blob_sha": "e5a384595558e069dab497f8b8bb80b06b8b4671",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/expression/prompt-effect.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/expression/questions.md",
+    "bytes": 1041,
+    "lines": 15,
+    "git_blob_sha": "2acd8ddb97f299be5b1739eb0528d706895019ca",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/expression/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 8
+  },
+  {
+    "path": "studies/goal/questions.md",
+    "bytes": 255,
+    "lines": 3,
+    "git_blob_sha": "f3398fee7490fb3a18e36c1306cfbb7a9c73ba6c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/goal/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/improvement/questions.md",
+    "bytes": 251,
+    "lines": 3,
+    "git_blob_sha": "af314c28d386b031c2168adcf9df86fb60066550",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/improvement/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/inquiry/questions.md",
+    "bytes": 1363,
+    "lines": 19,
+    "git_blob_sha": "bfd5ffb0c8717caa8d7585e4c148d74cac3267f9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/inquiry/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 10
+  },
+  {
+    "path": "studies/intelligence/questions.md",
+    "bytes": 280,
+    "lines": 3,
+    "git_blob_sha": "e726a38057d3ec63f1cf94420b09b14b98c4d7a3",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/intelligence/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/learning/questions.md",
+    "bytes": 244,
+    "lines": 3,
+    "git_blob_sha": "bd49446f631341f8b8f015f8f6aafaf704d8a97c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/learning/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/memory/functional-branch.md",
+    "bytes": 6161,
+    "lines": 63,
+    "git_blob_sha": "e42c1e27fb1646c7d2ec5a380dbdfa29c3db9edc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/memory/functional-branch.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/memory/questions.md",
+    "bytes": 244,
+    "lines": 3,
+    "git_blob_sha": "cf9e004cd4369cc31b4ef4ebe5422e50c1be15a0",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/memory/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/perspective/bearer.md",
+    "bytes": 1415,
+    "lines": 7,
+    "git_blob_sha": "510a7f8a914120a41487987723ffd1ffcf61aab6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/bearer.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/biological-response.md",
+    "bytes": 983,
+    "lines": 6,
+    "git_blob_sha": "977309f16c4327338e79b857a340a48e389c46c1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/biological-response.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/construction-question.md",
+    "bytes": 827,
+    "lines": 8,
+    "git_blob_sha": "663ac7369def8f4694b74093b391ab402d1c9e01",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/construction-question.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 8
+  },
+  {
+    "path": "studies/perspective/construction.md",
+    "bytes": 3313,
+    "lines": 23,
+    "git_blob_sha": "d08a6eaf31880b7046a7d3f03bfcec6831436aca",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/construction.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/definition.md",
+    "bytes": 1160,
+    "lines": 15,
+    "git_blob_sha": "02c1998bac84cf41f439a59d5cd33606b66cee68",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/definition.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/development.json",
+    "bytes": 25744,
+    "lines": 292,
+    "git_blob_sha": "6179ab3edd749147cf301c238623cc185f1a697d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/development.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/hypothesis.md",
+    "bytes": 764,
+    "lines": 9,
+    "git_blob_sha": "f33bb655c4f3e1783104a9fe4905d6bd02da023f",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/hypothesis.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/operation.md",
+    "bytes": 17944,
+    "lines": 219,
+    "git_blob_sha": "fc7e3b928debb7b720f409e32981cb8e9ac672ce",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/operation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/process.md",
+    "bytes": 1269,
+    "lines": 10,
+    "git_blob_sha": "ae49be5540b44bb570deda6740cadfd670513bcc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/process.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/questions.md",
+    "bytes": 248,
+    "lines": 3,
+    "git_blob_sha": "00e011f4befc7bff324b4b3948a98dfaefed5b64",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/perspective/response-change.md",
+    "bytes": 630,
+    "lines": 12,
+    "git_blob_sha": "05141f2c4edf25b7272f48072fabfe06a90ce479",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/response-change.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/subject-derivation.md",
+    "bytes": 2013,
+    "lines": 23,
+    "git_blob_sha": "546b4b55c0d51657febf51ad7ce6113bc3159427",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/subject-derivation.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/perspective/transformation.md",
+    "bytes": 7320,
+    "lines": 26,
+    "git_blob_sha": "39199d4477f2a447ac8529ff2c5d57f63e90648b",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/perspective/transformation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 9
+  },
+  {
+    "path": "studies/plan/questions.md",
+    "bytes": 499,
+    "lines": 7,
+    "git_blob_sha": "bfe92b86879459e19e2a7e2c9131c3dc2a73f898",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/plan/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 4
+  },
+  {
+    "path": "studies/prediction/questions.md",
+    "bytes": 226,
+    "lines": 3,
+    "git_blob_sha": "b2f76872da708324881b78f58c5d057d7251b7fe",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/prediction/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/preference/questions.md",
+    "bytes": 279,
+    "lines": 3,
+    "git_blob_sha": "3e116495975dd54ef39d7e9fde118584e25f4e54",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/preference/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/problem/questions.md",
+    "bytes": 523,
+    "lines": 7,
+    "git_blob_sha": "2422cedda02ac0a642eef220e780f20d9e000fbb",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/problem/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 4
+  },
+  {
+    "path": "studies/question/questions.md",
+    "bytes": 239,
+    "lines": 3,
+    "git_blob_sha": "96320eefbfb84692dd16815671e2235b228dda4e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/question/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/reasoning/operation-relation.md",
+    "bytes": 2938,
+    "lines": 14,
+    "git_blob_sha": "ae721c4f6c67aceaee6e1b9de5d091c3dde3f823",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/reasoning/operation-relation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/reasoning/operation.md",
+    "bytes": 2206,
+    "lines": 20,
+    "git_blob_sha": "bb91527b83e4cd26fbf40b48baffdd0c5edabbc8",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/reasoning/operation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/reasoning/questions.md",
+    "bytes": 264,
+    "lines": 3,
+    "git_blob_sha": "bdf0f100bb1141223864631cd77250249c254277",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/reasoning/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/relation/questions.md",
+    "bytes": 226,
+    "lines": 3,
+    "git_blob_sha": "dff77953e66f94d7c038e4d15e905aeb3a847a97",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/relation/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/resource/questions.md",
+    "bytes": 236,
+    "lines": 3,
+    "git_blob_sha": "4939736e31b2a693283d5089e8e2583f68125853",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/resource/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/subject/about-history.json",
+    "bytes": 47867,
+    "lines": 766,
+    "git_blob_sha": "d0dbcc0f4b82c6489d372cc0a6a6d61abde129c0",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/about-history.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/build.mjs",
+    "bytes": 54404,
+    "lines": 333,
+    "git_blob_sha": "358585ed0a407e9b3b2a9f0fe3a2c9df2879b41c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/build.mjs",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/completion-analysis.json",
+    "bytes": 22577,
+    "lines": 502,
+    "git_blob_sha": "ebd70215826c0dbd2561dc827c2b042cbef506bf",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/completion-analysis.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 1
+  },
+  {
+    "path": "studies/subject/completion.md",
+    "bytes": 1888,
+    "lines": 24,
+    "git_blob_sha": "c7376391f920495ff5cd489a83a887efdcb1b8ad",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/completion.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/completions.json",
+    "bytes": 34848,
+    "lines": 1257,
+    "git_blob_sha": "5701dfc22d57a01a01e4cd2a3ae084c08fecb422",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/completions.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 1
+  },
+  {
+    "path": "studies/subject/development.md",
+    "bytes": 42041,
+    "lines": 138,
+    "git_blob_sha": "5f7e0e4bba5199e2470f9f36bda13a2fd21afbae",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/development.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 20
+  },
+  {
+    "path": "studies/subject/domain-translation.md",
+    "bytes": 36525,
+    "lines": 185,
+    "git_blob_sha": "69b0a16dd87683e977c84f2dc97d57f3a2553e37",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/domain-translation.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/explorations.json",
+    "bytes": 40532,
+    "lines": 74,
+    "git_blob_sha": "521750896cb0ccc37e06e35537fbfe229814e00b",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/explorations.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/model.json",
+    "bytes": 39567,
+    "lines": 143,
+    "git_blob_sha": "5ce011b39025d7ec7af8dc3d45ba8b2786620732",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/model.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 1
+  },
+  {
+    "path": "studies/subject/name-change.md",
+    "bytes": 13159,
+    "lines": 48,
+    "git_blob_sha": "ab562fa0e6e27e814140252feededfdff24b6b8f",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/name-change.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/name.md",
+    "bytes": 1267,
+    "lines": 16,
+    "git_blob_sha": "d61cdb82ede06da77f342b91bdfc670c162a6249",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/name.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/perspective-case-results.json",
+    "bytes": 2300,
+    "lines": 139,
+    "git_blob_sha": "11d2970a805dc8db13963b120bdb3cef75e75130",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/perspective-case-results.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/perspective-investigation.json",
+    "bytes": 52609,
+    "lines": 1194,
+    "git_blob_sha": "c2cd21b3aa00af071e35481fac5a8af1230f117e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/perspective-investigation.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 9
+  },
+  {
+    "path": "studies/subject/project-subjects.json",
+    "bytes": 19196,
+    "lines": 488,
+    "git_blob_sha": "857fb330618bd3e6cdedcefc196a912f49d8c0cb",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/project-subjects.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 63
+  },
+  {
+    "path": "studies/subject/questions.md",
+    "bytes": 3309,
+    "lines": 32,
+    "git_blob_sha": "d97754e52695d36af19cd17f8bf03f70627ccfea",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 32
+  },
+  {
+    "path": "studies/subject/requirement.md",
+    "bytes": 26251,
+    "lines": 100,
+    "git_blob_sha": "4ae8bfdbb5d31baa000420694ef976a4916494d5",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/requirement.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/scope.md",
+    "bytes": 1292,
+    "lines": 15,
+    "git_blob_sha": "fc5fb9b7f633c95ea3ea92ab7ec2c8e178914b58",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/scope.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/subject-integration.json",
+    "bytes": 572322,
+    "lines": 11087,
+    "git_blob_sha": "9ced768befe6078fc2761cf1961872487ee9ffa4",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/subject-integration.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 491
+  },
+  {
+    "path": "studies/subject/translation.md",
+    "bytes": 1459,
+    "lines": 19,
+    "git_blob_sha": "0e7a137db9b9c114fb753d6fefcf344214e48ec6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/translation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/subject/type-relation.md",
+    "bytes": 1612,
+    "lines": 21,
+    "git_blob_sha": "49fa5d231fd219112b707024ed2d4ec328fac811",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/subject/type-relation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/composition.md",
+    "bytes": 1799,
+    "lines": 24,
+    "git_blob_sha": "dc63fca7617d2ab3569083bcbb59ad3dd10c3bbd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/composition.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/customization.md",
+    "bytes": 596,
+    "lines": 10,
+    "git_blob_sha": "dc15c30dbbf60139051269210c35438968a56cc2",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/customization.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/execution-results.json",
+    "bytes": 31711,
+    "lines": 1371,
+    "git_blob_sha": "1f2f42b6e6bf7ff873aa21478b0c0016128ea59a",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/execution-results.json",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/execution.md",
+    "bytes": 1949,
+    "lines": 61,
+    "git_blob_sha": "3716509fe36681412a034c9f2b79c2130e7a5752",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/execution.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/optimality.md",
+    "bytes": 793,
+    "lines": 9,
+    "git_blob_sha": "d08ca11a57a975154e4edd0396b21703d3455d06",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/optimality.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/purpose.md",
+    "bytes": 603,
+    "lines": 8,
+    "git_blob_sha": "aed2c45b84871bb42b04a4d6a595428594826890",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/purpose.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/result-reuse.md",
+    "bytes": 1631,
+    "lines": 6,
+    "git_blob_sha": "5d022828a0097cbee2b13de05d2f1a0bd9db47a1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/result-reuse.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/system/source-contribution.md",
+    "bytes": 29788,
+    "lines": 65,
+    "git_blob_sha": "52a6bcd1c9995ff5d00ef6a60c7abf818f9897ac",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/source-contribution.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 63
+  },
+  {
+    "path": "studies/system/study-systems.json",
+    "bytes": 95753,
+    "lines": 1936,
+    "git_blob_sha": "4dbf02029dc700ce9abcda65ea90e47dbe98bea0",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/study-systems.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 112
+  },
+  {
+    "path": "studies/system/study.md",
+    "bytes": 15495,
+    "lines": 68,
+    "git_blob_sha": "d1d39409d46569f8c57736f41d93ae9a0fd6c9a7",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/study.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 49
+  },
+  {
+    "path": "studies/system/technique.md",
+    "bytes": 11931,
+    "lines": 102,
+    "git_blob_sha": "479e2c8e036af1db35defbca81c80d45a8617bb7",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/system/technique.md",
+    "acquisition": "verified exact blob",
+    "review": "Full file content acquired, indexed and automated candidate scan; targeted semantic review only",
+    "instance_count": 0
+  },
+  {
+    "path": "studies/uncertainty/questions.md",
+    "bytes": 255,
+    "lines": 3,
+    "git_blob_sha": "f25e149bcd85fd3b535178b27a11b0905e7169b9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/uncertainty/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "studies/understanding/questions.md",
+    "bytes": 230,
+    "lines": 3,
+    "git_blob_sha": "3d67f5ee980274787fbff10cc93b00c7f102fc67",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/studies/understanding/questions.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "subjects/README.md",
+    "bytes": 6761,
+    "lines": 58,
+    "git_blob_sha": "6c26baee4dfad703c90ccebba36e56541c23880f",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/README.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/action.md",
+    "bytes": 541,
+    "lines": 11,
+    "git_blob_sha": "e6b789874c875996c11c13be03d71850f92409bc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/action.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/anticipation.md",
+    "bytes": 2462,
+    "lines": 41,
+    "git_blob_sha": "0c72fd55305a5d492ed398e106f15cce78750e78",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/anticipation.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/attention.md",
+    "bytes": 1121,
+    "lines": 27,
+    "git_blob_sha": "e763c7ab0e5fcf119087d039d62a5452a3ef554e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/attention.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/business.md",
+    "bytes": 564,
+    "lines": 11,
+    "git_blob_sha": "a2e25917bbf7bc5c3b7d1762477a519d534bf682",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/business.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/capability.md",
+    "bytes": 1564,
+    "lines": 33,
+    "git_blob_sha": "4cc81d156df953b2affb428399ae0d79dbf10836",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/capability.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/catalog.json",
+    "bytes": 345109,
+    "lines": 7755,
+    "git_blob_sha": "f53969de13797b20208532368c195d1533a0d971",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/catalog.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 1
+  },
+  {
+    "path": "subjects/claim.md",
+    "bytes": 4172,
+    "lines": 91,
+    "git_blob_sha": "ca0b2bd06b47820b351eb86c6c3a939848806f09",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/claim.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/commitment.md",
+    "bytes": 1268,
+    "lines": 31,
+    "git_blob_sha": "d1825af64af9e3b5de2219345a9529c9d3510170",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/commitment.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/comparison.md",
+    "bytes": 1744,
+    "lines": 37,
+    "git_blob_sha": "b297a1d8a3f67906c4b28e95e143a14828504e0d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/comparison.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/conflict.md",
+    "bytes": 1367,
+    "lines": 25,
+    "git_blob_sha": "611ebf3dfe31206214df0c8ed1cccc0a9e0dc09c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/conflict.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/criterion.md",
+    "bytes": 1887,
+    "lines": 43,
+    "git_blob_sha": "c1cf588231b5a23ad66200c4988e111822ba0009",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/criterion.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/design.md",
+    "bytes": 2609,
+    "lines": 47,
+    "git_blob_sha": "9b7c226d1887f92db96da2ac190a401c68f67869",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/design.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/deviation.md",
+    "bytes": 1837,
+    "lines": 33,
+    "git_blob_sha": "8bff47974468707c25951a68cb792607faf538c1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/deviation.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/discovery.md",
+    "bytes": 1696,
+    "lines": 37,
+    "git_blob_sha": "42f28a134ce22a99601ba3ece3f37fd9131dda08",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/discovery.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/equation.md",
+    "bytes": 417,
+    "lines": 9,
+    "git_blob_sha": "41c9b51a77fb5b7d2af37492e80d777c80d3864d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/equation.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/exchange.md",
+    "bytes": 515,
+    "lines": 9,
+    "git_blob_sha": "828d57842df9ca7df131d76d5c4603fc95b2d7be",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/exchange.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/execution.md",
+    "bytes": 1728,
+    "lines": 39,
+    "git_blob_sha": "4a47eab9b4468ed92c532a090ed7f63b6a646344",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/execution.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/experience.md",
+    "bytes": 284,
+    "lines": 5,
+    "git_blob_sha": "89da709bd8f4d948fd944345842a3893adaadbdc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/experience.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/explanation.md",
+    "bytes": 2028,
+    "lines": 43,
+    "git_blob_sha": "9753d14b6c746548d992876230b92dc96ca83bb6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/explanation.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/expression.md",
+    "bytes": 4128,
+    "lines": 90,
+    "git_blob_sha": "3098ce7ef7c6a585041679b95853884356ff3344",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/expression.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/game.md",
+    "bytes": 345,
+    "lines": 5,
+    "git_blob_sha": "3e6dd6799b1612b08824fef2a032258220acdc23",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/game.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/goal.md",
+    "bytes": 2239,
+    "lines": 57,
+    "git_blob_sha": "86c9ef4639536e3c7ac932edd7ff886ab87a25c9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/goal.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/graph.md",
+    "bytes": 668,
+    "lines": 13,
+    "git_blob_sha": "8fca505d22f02a7d447062041f8d7f370b6f33fb",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/graph.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/improvement.md",
+    "bytes": 1435,
+    "lines": 33,
+    "git_blob_sha": "b7ae9b2b6560ff4c1b5ca3f0a8b7f9851f237ec9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/improvement.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/inquiry.md",
+    "bytes": 2523,
+    "lines": 51,
+    "git_blob_sha": "6d6540dc3b7355e2ab9638492fb64cfc0ac8798e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/inquiry.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/integer.md",
+    "bytes": 454,
+    "lines": 9,
+    "git_blob_sha": "78ca6ade7295ec7e620bd2539e452747aa4fc3a9",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/integer.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/intelligence.md",
+    "bytes": 1647,
+    "lines": 33,
+    "git_blob_sha": "c0446dad7228aa0894e3db1af48cdb8fc9a4a8a0",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/intelligence.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/learning.md",
+    "bytes": 1781,
+    "lines": 41,
+    "git_blob_sha": "cc8b1ca8e41a86985f46c4617225c97a511626f5",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/learning.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/measurement.md",
+    "bytes": 1169,
+    "lines": 21,
+    "git_blob_sha": "ec3d3653e1245ea77d41963825f521037017abbc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/measurement.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/memory.md",
+    "bytes": 4635,
+    "lines": 96,
+    "git_blob_sha": "db08ade9f801eb1a7cf994b842b60a99e5aec79f",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/memory.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/model.md",
+    "bytes": 1950,
+    "lines": 37,
+    "git_blob_sha": "ccb8fc427ad98e001302abbcfdb3ac43b3950bd2",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/model.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/narrative.md",
+    "bytes": 1176,
+    "lines": 23,
+    "git_blob_sha": "791e375593637335d4a9a849ee6dc2dfc4c1c835",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/narrative.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/norm.md",
+    "bytes": 290,
+    "lines": 5,
+    "git_blob_sha": "098945853e28411492e37c14c5075b353d24f3dc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/norm.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/object.md",
+    "bytes": 266,
+    "lines": 5,
+    "git_blob_sha": "e32fd2c2b0aacc71987e3cebc4dcd6dae1407a40",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/object.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/perception.md",
+    "bytes": 671,
+    "lines": 13,
+    "git_blob_sha": "fe193b82b2917335fa9dda2796f17d18060963e7",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/perception.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/perspective.md",
+    "bytes": 10461,
+    "lines": 174,
+    "git_blob_sha": "c36442a25e019e86c04b2f89734a5da5e84e79bd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/perspective.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/plan.md",
+    "bytes": 1576,
+    "lines": 39,
+    "git_blob_sha": "4e27eb8b5c876690e065ae3f39f0df752814d4f6",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/plan.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/prediction.md",
+    "bytes": 1971,
+    "lines": 43,
+    "git_blob_sha": "345a49db96022803efc62530fd09441cf3c67f9d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/prediction.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/preference.md",
+    "bytes": 2167,
+    "lines": 49,
+    "git_blob_sha": "1056d353b4d58ba5f924b5a5f69cbfb035bf1c24",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/preference.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/price.md",
+    "bytes": 232,
+    "lines": 5,
+    "git_blob_sha": "4f5c2226bd7c3d01b551a5cf5c9a070d6635116d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/price.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/problem.md",
+    "bytes": 1853,
+    "lines": 43,
+    "git_blob_sha": "97f6fe7045208098de4350c3a7b1858a9cf8169d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/problem.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/production.md",
+    "bytes": 455,
+    "lines": 9,
+    "git_blob_sha": "186fb3685df17bf4e0ffd7ebe8db1ba18c3c34f4",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/production.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/question.md",
+    "bytes": 3591,
+    "lines": 85,
+    "git_blob_sha": "7d0df089150635041fac9c2713b9232f6712a6b1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/question.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/reasoning.md",
+    "bytes": 8608,
+    "lines": 169,
+    "git_blob_sha": "b20a23ee708f46f6265820d47be5e0e54bede70c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/reasoning.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/relation.md",
+    "bytes": 1995,
+    "lines": 43,
+    "git_blob_sha": "180bb58c797df77b774da0ba1a63864d7aa81700",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/relation.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/relations.json",
+    "bytes": 106870,
+    "lines": 2061,
+    "git_blob_sha": "b016b653ca22ebc752cd5f2e510d33cfcfb53e77",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/relations.json",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 64
+  },
+  {
+    "path": "subjects/resource.md",
+    "bytes": 4180,
+    "lines": 85,
+    "git_blob_sha": "6f21b4e641d21a234489d6c6bbb25c009e122676",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/resource.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/reward.md",
+    "bytes": 727,
+    "lines": 15,
+    "git_blob_sha": "5084eaf0caadfe135e8c69d313d336c0ab63d76d",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/reward.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/rule.md",
+    "bytes": 1666,
+    "lines": 33,
+    "git_blob_sha": "2b6e3cdb65f38176c91de1e3b21ba84439af67ce",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/rule.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/shape.md",
+    "bytes": 1727,
+    "lines": 31,
+    "git_blob_sha": "9e7ad726eea4a0c25453a99d591169cfcdb4c84b",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/shape.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/subject.md",
+    "bytes": 5601,
+    "lines": 112,
+    "git_blob_sha": "3d72f7fe58df19361a442efbf3b81c78bf707341",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/subject.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/system.md",
+    "bytes": 3538,
+    "lines": 71,
+    "git_blob_sha": "a5b16bb95bd468e0441dae5072a2957152e34319",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/system.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/uncertainty.md",
+    "bytes": 1296,
+    "lines": 23,
+    "git_blob_sha": "5593e44ff52b822bdb9a6f467c41b1823f8db38b",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/uncertainty.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "subjects/understanding.md",
+    "bytes": 1361,
+    "lines": 29,
+    "git_blob_sha": "e938aeb778ac6bfd9c9a725511f42f2d6e1a9795",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/subjects/understanding.md",
+    "acquisition": "verified exact blob",
+    "review": "Generated/source family reviewed; repeated record schema and all relevant family occurrences indexed",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/README.md",
+    "bytes": 3708,
+    "lines": 23,
+    "git_blob_sha": "96c101dd3bbc78727adb570b165c25178dc3ed19",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/README.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/catalog.json",
+    "bytes": 51664,
+    "lines": 603,
+    "git_blob_sha": "3bd5c0dfe50d9c4b65adfff4990d919bf781b233",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/catalog.json",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/claim-inference-counterexample-search.md",
+    "bytes": 1412,
+    "lines": 10,
+    "git_blob_sha": "14932eff602b06fc377169d7d3da32a851eb3b72",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/claim-inference-counterexample-search.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/claim-inference-finite-validity.md",
+    "bytes": 1019,
+    "lines": 13,
+    "git_blob_sha": "9a425842db882875f9a298500cef2701abb83401",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/claim-inference-finite-validity.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/content-placement.md",
+    "bytes": 1722,
+    "lines": 12,
+    "git_blob_sha": "efbff6c6a451d1280cf9af6b5f21fa6f5f45743c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/content-placement.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/correction-propagation.md",
+    "bytes": 1683,
+    "lines": 14,
+    "git_blob_sha": "36184b7490d6d6c4bb0e8c81e74c04aa468d6b38",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/correction-propagation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/criterion-discovery.md",
+    "bytes": 1320,
+    "lines": 11,
+    "git_blob_sha": "cf1a5f154b4d448f2b7ef48f4b09f4694ef1d41c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/criterion-discovery.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/design-alternative-construction.md",
+    "bytes": 1272,
+    "lines": 10,
+    "git_blob_sha": "a84247dbeb5b4331f6ed1b13c87223622ab7c66b",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/design-alternative-construction.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/design-candidate-exploration.md",
+    "bytes": 1390,
+    "lines": 11,
+    "git_blob_sha": "ec03ce708001e0f793c76e6b88078b98760f6dbc",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/design-candidate-exploration.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/discovery-contribution-assessment.md",
+    "bytes": 1200,
+    "lines": 10,
+    "git_blob_sha": "f6670031a2cb1629c0ccd64afa1b03a2247e0830",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/discovery-contribution-assessment.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/expression-construction.md",
+    "bytes": 1833,
+    "lines": 13,
+    "git_blob_sha": "3b697b1b20cec29f8796d8fad5bbadf6bc498146",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/expression-construction.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/expression-contribution-construction.md",
+    "bytes": 1449,
+    "lines": 11,
+    "git_blob_sha": "0d204c934da714a14960ca3c87c686c707a53140",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/expression-contribution-construction.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/goal-achievement-assessment.md",
+    "bytes": 925,
+    "lines": 13,
+    "git_blob_sha": "d4cdc62fe5abc983b46d7999bf8c43ea70562768",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/goal-achievement-assessment.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/goal-discovery.md",
+    "bytes": 1471,
+    "lines": 11,
+    "git_blob_sha": "3951fa07ad84db3dee8534d4a936b48d82a4707e",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/goal-discovery.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/improvement-candidate-revision.md",
+    "bytes": 1339,
+    "lines": 11,
+    "git_blob_sha": "84227592a290375b6c1d595b7ecaafe5f406891a",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/improvement-candidate-revision.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/mind-change-selection.md",
+    "bytes": 11157,
+    "lines": 32,
+    "git_blob_sha": "fbe7fd78044f0ee27434d705aba5a9863714d634",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/mind-change-selection.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/perspective-consequence-comparison.md",
+    "bytes": 2522,
+    "lines": 16,
+    "git_blob_sha": "87ae946a49bcaac7c39e699e00a26f65718101d3",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/perspective-consequence-comparison.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/preference-discovery.md",
+    "bytes": 1446,
+    "lines": 11,
+    "git_blob_sha": "566517a18b1889337d70553c385c51384fe5d548",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/preference-discovery.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/preference-question-route.md",
+    "bytes": 1380,
+    "lines": 10,
+    "git_blob_sha": "7e836f53dd4a2e47add1c9e5ed7cc8ed58ea1367",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/preference-question-route.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/problem-formulation-comparison.md",
+    "bytes": 1419,
+    "lines": 12,
+    "git_blob_sha": "d0ac39300a0dae3d96fd6cc28e4f8c284166af49",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/problem-formulation-comparison.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/reasoning-approach-selection.md",
+    "bytes": 1021,
+    "lines": 12,
+    "git_blob_sha": "36a7f26db19798bf025a294b4de7b838c8015fa3",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/reasoning-approach-selection.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/reasoning-candidate-finite-generation.md",
+    "bytes": 779,
+    "lines": 12,
+    "git_blob_sha": "70bfb712d0540cac355717f11544f908d8c1bd13",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/reasoning-candidate-finite-generation.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "systems/system-description-examination.md",
+    "bytes": 1675,
+    "lines": 13,
+    "git_blob_sha": "7716b87ba3b68b748049227c9d854a43c6c26a50",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/systems/system-description-examination.md",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "tools/build.py",
+    "bytes": 3658,
+    "lines": 92,
+    "git_blob_sha": "f681e7b09f3aee85171fe16b7bb77d90cf924113",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "tools/build_perspective_investigation.py",
+    "bytes": 5013,
+    "lines": 57,
+    "git_blob_sha": "a3994af0191d7791663f6814319d0ca9d330afd5",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build_perspective_investigation.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "tools/build_perspective_process.py",
+    "bytes": 1119,
+    "lines": 21,
+    "git_blob_sha": "1965c06050a0191b666a0d2f4cb8e550b9cc2618",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build_perspective_process.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 1
+  },
+  {
+    "path": "tools/build_study_systems.py",
+    "bytes": 6165,
+    "lines": 65,
+    "git_blob_sha": "bf86fcd3ef4989910abf0f9b33b1f18e81fa7415",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build_study_systems.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 2
+  },
+  {
+    "path": "tools/build_subject_integration.py",
+    "bytes": 4067,
+    "lines": 55,
+    "git_blob_sha": "930f4be6b8f9a4143b627818d14edc3eb71c2160",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build_subject_integration.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 1
+  },
+  {
+    "path": "tools/build_subject_names.py",
+    "bytes": 4110,
+    "lines": 76,
+    "git_blob_sha": "b9aa763bc04cc9f3100c9e397dd8860f171f18cd",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/build_subject_names.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 1
+  },
+  {
+    "path": "tools/check.py",
+    "bytes": 5579,
+    "lines": 88,
+    "git_blob_sha": "6326cffbd2d68812d75ac37e2d38de8a65d65dc1",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/check.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 1
+  },
+  {
+    "path": "tools/descriptions.py",
+    "bytes": 599,
+    "lines": 15,
+    "git_blob_sha": "bd60112f61b7c37939d8d811ed392e7265283280",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/descriptions.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "tools/run_perspective_case.py",
+    "bytes": 2609,
+    "lines": 51,
+    "git_blob_sha": "636c9372af68c731a2297418100743c21c7e592c",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/run_perspective_case.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  },
+  {
+    "path": "tools/run_study_cases.py",
+    "bytes": 6654,
+    "lines": 80,
+    "git_blob_sha": "8cefe3954d3e570d4279905d396a723a083c28e2",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/run_study_cases.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 1
+  },
+  {
+    "path": "tools/study_methods.py",
+    "bytes": 6058,
+    "lines": 99,
+    "git_blob_sha": "d4ceb3b6f06457d6aa86a91b3e18128fd5bca7ac",
+    "pinned_url": "https://github.com/benjam3n/subjectsystems/blob/55364748b120126cb9e8126cc685838f3c8409c3/tools/study_methods.py",
+    "acquisition": "verified exact blob",
+    "review": "Direct semantic review of file or all substantive records plus implementation",
+    "instance_count": 0
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "repository_sha": "07e6af64c65fb682305659b2ec830e21743c0f15",
+  "archive_sha256": "7ba425b197be8d38ba9715873464dd0ba2eca43e2da3aeb985ab5ffda83fba6b",
+  "scope": "17 formerly machine-only authored short method narratives, by agreement with audit_mind_methods; excludes six longer narratives, post-allocation, sources and receipts except supporting UTP source read",
+  "reviewer": "philosophy_challenge",
+  "summary": {
+    "files": 17,
+    "bytes": 122299,
+    "lines": 960,
+    "full_text_semantic": 17,
+    "additional_confirmed_core_deferral_or_placeholder_failures": 0,
+    "limited_demonstration_overstatements": 1,
+    "resolved_future_tail_examples": 1
+  },
+  "files": [
+    {
+      "path": "methods/benf-01.md",
+      "sha256": "361c0a2b1bf68f9a6450f062c0e8621c608bae1d0a7eab010e46197bed5b4741",
+      "bytes": 6181,
+      "lines": 41,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Complete stipulated distribution, expected/net benefit, break-even and changed-input decision; no fabricated behavioral probabilities."
+    },
+    {
+      "path": "methods/boc-01.md",
+      "sha256": "d6046245c76661460ee3db6677cc098efa079c6513cde6962c4ce9a6ec898c0a",
+      "bytes": 16058,
+      "lines": 94,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Complete 24-order base comparison, executed BOC\u2192CTA\u2192BOC dependency, five changed-input decisions, objective and empirical limits stated."
+    },
+    {
+      "path": "methods/cmplx-01.md",
+      "sha256": "bb0135af500d78169286e5546030ae024d18fe800e788d812f506a5612051e5e",
+      "bytes": 7965,
+      "lines": 44,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Performed finite count/value counterexample, horizon boundaries and pending-vs-null later classification; no claim to simulate actual research controller."
+    },
+    {
+      "path": "methods/cmplx-sysk-dependency.md",
+      "sha256": "72a4d0dc650bff065fe8f49b48b1bea91c3b3f459e061ccedf59a16af9e43134",
+      "bytes": 8276,
+      "lines": 56,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Concrete controller components and connections, finite traces and repeatability boundary; component labels have explicit referents."
+    },
+    {
+      "path": "methods/consolidation-01.md",
+      "sha256": "bb935e4b5ff0be93ab3dbc1f51f2e35cada1236f1092fef15922221b55365611",
+      "bytes": 4183,
+      "lines": 42,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Compared three arrangements, selected trigger view and retained source path; later examples supply results rather than instructing reader to retrieve."
+    },
+    {
+      "path": "methods/consolidation-02.md",
+      "sha256": "eb126b0d047dc766bb7cc144dc4c04c4f9ff18cfe9a9b4028fd0a4c4e2c6891d",
+      "bytes": 4030,
+      "lines": 38,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Compared medium/operation/broad-category arrangement and provided concrete retrieved outcomes; no new independent finding credit."
+    },
+    {
+      "path": "methods/consolidation-03.md",
+      "sha256": "040c1507f42c7b5d19e9ea537a3afc356f91bf560cd8366a501271899da42807",
+      "bytes": 2716,
+      "lines": 25,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Four query-result pairs and exceptions supplied, scope retained; organization benefit limited to declared uses."
+    },
+    {
+      "path": "methods/la-01.md",
+      "sha256": "2418edb125c4977dd7e54e0ebd2b5fafd4309ad1274ce1e9aec1d59ef2421ab2",
+      "bytes": 10012,
+      "lines": 56,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Twenty specific limitations, six plans, explicit first priority and feasible/infeasible schedule variants; result claimed as planning only."
+    },
+    {
+      "path": "methods/mrc-03.md",
+      "sha256": "c818c502f6a2bb5e9c0c3fe33c5a565e5b963f3065b064b0ae0f0617cc6841bc",
+      "bytes": 10594,
+      "lines": 93,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Exact five-bit XOR orbit, kernel/image proof, full state classification, concrete later time answers and width-four counterexample."
+    },
+    {
+      "path": "methods/mtcg-03.md",
+      "sha256": "51ad5a06870c5a535d292e57ca86ac3b75e634be13be543825486df2429cdf41",
+      "bytes": 7434,
+      "lines": 106,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Preserves correct answer, derives parameterized posterior and returns actual different/unresolved results for changed mechanisms."
+    },
+    {
+      "path": "methods/pv-01.md",
+      "sha256": "07c8035280d249a1691d3e86a6615533510ba7c2077f6e2bca1805726fd2e9cd",
+      "bytes": 6121,
+      "lines": 59,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Twelve-step validation is an actual validation task; repairs readiness branches with explicit distinction among optional helper, substituteable schema and empirical gate."
+    },
+    {
+      "path": "methods/satr-01.md",
+      "sha256": "b5ec2a629cce1b29d1a79b945efcd26fd6a5098bb252aab788571107c2408825",
+      "bytes": 6599,
+      "lines": 52,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Concrete diagnostic-role equivalence and 16\u219211 optional-queue selection; no claim of learning equivalence or performed future practice."
+    },
+    {
+      "path": "methods/satr-02.md",
+      "sha256": "a76fbfa0a01c62cc5def85b5c9c7c3a0bb032f969c905be82728b13da93a1abd",
+      "bytes": 5930,
+      "lines": 46,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Compared actual eight cues and three overlap clusters; rejected pruning and explicitly denied new useful-change credit."
+    },
+    {
+      "path": "methods/svs-01.md",
+      "sha256": "e174795b7f5dff1f474fa57f477099a1c158270b2bf4dde7426e45ca8b71919a",
+      "bytes": 7260,
+      "lines": 66,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Twenty-eight specified variants, selected JSON dispatch and explicit later answers; sign-reading expected-time optimality properly unresolved."
+    },
+    {
+      "path": "methods/unx-01.md",
+      "sha256": "56a0bc9cccc5478abcbcc265593173940e30226d71a2e0c524b42c6998d7b1dc",
+      "bytes": 6067,
+      "lines": 53,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Concrete alternative staging and later chair continuation; creative interpretation remains authored possibility, not factual emotion claim."
+    },
+    {
+      "path": "methods/utp-01.md",
+      "sha256": "d922874bd420acc75c7e0ff0328a9729ca2a82fae9f74fe6c4a15f112d43f1e7",
+      "bytes": 7987,
+      "lines": 45,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Original source requires ideal/stress/milestone analysis, which is supplied; line31 is operation-selection examples rather than dialogue execution; narrow description overstatement noted, no core deferral verdict."
+    },
+    {
+      "path": "methods/wsib-01.md",
+      "sha256": "e0d6452ee9c5136bc66cefa301102e731a83eafa7f22f4b00dc9f92059be1f03",
+      "bytes": 4886,
+      "lines": 44,
+      "review": "full_text_semantic",
+      "verdict": "no_additional_confirmed_core_deferral_or_placeholder_failure",
+      "note": "Ten alternatives evaluated and one selected; delegated SVS completed at linked artifact; line44 Run SVS future wording is stale/resolved, not active missing execution."
+    }
+  ],
+  "limited_observations": [
+    {
+      "id": "MRA-L01",
+      "path": "methods/utp-01.md",
+      "lines": [
+        7,
+        29,
+        31,
+        33,
+        37,
+        39,
+        41,
+        43
+      ],
+      "classification": "demonstration_description_overstates_execution_scope",
+      "confirmed_scope": "Three proposed next operations are called concrete dialogue variants and said to test a milestone containing execution; line31 supplies operation choices, not executed outputs. The later seed application at line33 is real authored output. The main UTP analysis and REJECT status remain legitimate.",
+      "not_counted_as": "unperformed core UTP analysis or false KEEP"
+    },
+    {
+      "id": "MRA-N01",
+      "path": "methods/wsib-01.md",
+      "lines": [
+        34,
+        36,
+        38,
+        44
+      ],
+      "classification": "future_wording_resolved_by_present_linked_execution",
+      "confirmed_scope": "The Run SVS tail at44 coexists with actual delegation and output in svs-01; it is not evidence the task was never done."
+    }
+  ],
+  "supporting_source_reads": [
+    {
+      "path": "sources/root-utp.md",
+      "review": "full_text_semantic_for_obligation_check",
+      "lines": 112
+    }
+  ],
+  "scope_limit": "Full prose review and selected cross-reference comparison, not independent rerun of every calculation or source procedure. Zero additional confirmed failures does not certify semantic perfection."
+}

@@ -1,0 +1,21 @@
+{
+  "purpose": "Isolated acceptance counterexample; no real ledger changed.",
+  "before": {
+    "skill_id": "synthetic-audit-case",
+    "application_number": 1,
+    "status": "complete_unverified",
+    "missing_requirements": [
+      "Derive the central conclusion; no derivation has been performed."
+    ],
+    "verdict": "KEEP"
+  },
+  "after": {
+    "skill_id": "synthetic-audit-case",
+    "application_number": 1,
+    "status": "complete",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "depth_status": " External or semantic effect limit retained: Derive the central conclusion; no derivation has been performed."
+  },
+  "conclusion": "normalize uses the status prefix to empty missing_requirements without testing whether the missing item is a genuine procedural obligation or an external effect limit."
+}

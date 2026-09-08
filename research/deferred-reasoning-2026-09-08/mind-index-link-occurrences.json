@@ -1,0 +1,218 @@
+[
+  {
+    "line": 22,
+    "label": "SP 01",
+    "target": "methods/sp-01.md",
+    "in_archive": true
+  },
+  {
+    "line": 23,
+    "label": "Full 150-skill assessment",
+    "target": "methods/given-01.md",
+    "in_archive": true
+  },
+  {
+    "line": 25,
+    "label": "First selection consolidation",
+    "target": "consolidations/root-01.md",
+    "in_archive": true
+  },
+  {
+    "line": 25,
+    "label": "Second consolidation",
+    "target": "consolidations/root-02.md",
+    "in_archive": true
+  },
+  {
+    "line": 25,
+    "label": "Third consolidation",
+    "target": "consolidations/root-03.md",
+    "in_archive": true
+  },
+  {
+    "line": 26,
+    "label": "Completion audit",
+    "target": "continuation/completion-audit.md",
+    "in_archive": true
+  },
+  {
+    "line": 27,
+    "label": "Post-allocation cycle 01 review",
+    "target": "post-allocation/cycle-01/integration-review.md",
+    "in_archive": true
+  },
+  {
+    "line": 27,
+    "label": "cycle ledger",
+    "target": "post-allocation/cycle-01/cycle-ledger.json",
+    "in_archive": true
+  },
+  {
+    "line": 27,
+    "label": "prospective freeze",
+    "target": "post-allocation/cycle-01/frozen-inputs.md",
+    "in_archive": true
+  },
+  {
+    "line": 28,
+    "label": "Transition-gate consolidation",
+    "target": "post-allocation/cycle-01/consolidation-01-transition-gates.md",
+    "in_archive": true
+  },
+  {
+    "line": 29,
+    "label": "Post-allocation cycle 02 review",
+    "target": "post-allocation/cycle-02/integration-review.md",
+    "in_archive": true
+  },
+  {
+    "line": 29,
+    "label": "ARAW 8x record",
+    "target": "post-allocation/cycle-02/belief/03-araw-8x-transition-first.md",
+    "in_archive": true
+  },
+  {
+    "line": 30,
+    "label": "Query-to-evidence consolidation",
+    "target": "post-allocation/cycle-02/consolidation-02-query-evidence-card.md",
+    "in_archive": true
+  },
+  {
+    "line": 38,
+    "label": "Timing",
+    "target": "gosm/01-time-and-options.md",
+    "in_archive": true
+  },
+  {
+    "line": 39,
+    "label": "Location",
+    "target": "gosm/02-location-and-observation.md",
+    "in_archive": true
+  },
+  {
+    "line": 40,
+    "label": "Representation",
+    "target": "gosm/03-representation-and-loss.md",
+    "in_archive": true
+  },
+  {
+    "line": 41,
+    "label": "Values",
+    "target": "gosm/04-motivation-and-plural-values.md",
+    "in_archive": true
+  },
+  {
+    "line": 42,
+    "label": "Uncertainty",
+    "target": "gosm/06-uncertainty-and-next-query.md",
+    "in_archive": true
+  },
+  {
+    "line": 43,
+    "label": "Negative control",
+    "target": "gosm/05-trust-and-duplication.md",
+    "in_archive": true
+  },
+  {
+    "line": 44,
+    "label": "Original source correction",
+    "target": "inquiry/13-fctl-fault-gates.md",
+    "in_archive": true
+  },
+  {
+    "line": 45,
+    "label": "Information policy",
+    "target": "inquiry/51-ht-information-policy.md",
+    "in_archive": true
+  },
+  {
+    "line": 46,
+    "label": "Recovered-source audit",
+    "target": "inquiry/10-spd-uncertainty.md",
+    "in_archive": true
+  },
+  {
+    "line": 47,
+    "label": "Finite dynamics",
+    "target": "methods/mrc-03.md",
+    "in_archive": true
+  },
+  {
+    "line": 48,
+    "label": "Reachability and measure",
+    "target": "methods/mtcg-02.md",
+    "in_archive": true
+  },
+  {
+    "line": 48,
+    "label": "MTCG 03",
+    "target": "methods/mtcg-03.md",
+    "in_archive": true
+  },
+  {
+    "line": 49,
+    "label": "Drafting repairs",
+    "target": "representation/044-draft-1.md",
+    "in_archive": true
+  },
+  {
+    "line": 49,
+    "label": "DRAFT 02",
+    "target": "representation/045-draft-2.md",
+    "in_archive": true
+  },
+  {
+    "line": 50,
+    "label": "Utility and option order",
+    "target": "methods/uf-01.md",
+    "in_archive": true
+  },
+  {
+    "line": 50,
+    "label": "BOC 01",
+    "target": "methods/boc-01.md",
+    "in_archive": true
+  },
+  {
+    "line": 51,
+    "label": "Typed two-stage belief transition",
+    "target": "post-allocation/cycle-02/belief/03-araw-8x-transition-first.md",
+    "in_archive": true
+  },
+  {
+    "line": 52,
+    "label": "Evidence dependence",
+    "target": "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md",
+    "in_archive": true
+  },
+  {
+    "line": 53,
+    "label": "Noncompensatory value navigation",
+    "target": "post-allocation/cycle-02/values/01-vcd-privacy-auditability.md",
+    "in_archive": true
+  },
+  {
+    "line": 54,
+    "label": "Semantic merge compatibility",
+    "target": "post-allocation/cycle-01/tools-coordination/01-col-semantic-merge-protocol.md",
+    "in_archive": true
+  },
+  {
+    "line": 55,
+    "label": "Lossless retrieval",
+    "target": "post-allocation/cycle-01/memory-capability/01-memk-capture.md",
+    "in_archive": true
+  },
+  {
+    "line": 56,
+    "label": "Reversibility and motivation boundaries",
+    "target": "post-allocation/cycle-01/time-reversibility/RVA-prospective.md",
+    "in_archive": true
+  },
+  {
+    "line": 56,
+    "label": "MP",
+    "target": "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md",
+    "in_archive": true
+  }
+]

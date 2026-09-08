@@ -6,7 +6,7 @@
   "preserved_source_files": 169,
   "canonical_subject_references": 31,
   "current_documents_checked": 80,
-  "current_link_occurrences_checked": 484,
+  "current_link_occurrences_checked": 486,
   "required_direct_destinations": [
     "Mind_Change_Research_Index.md",
     "README.md",
@@ -138,6 +138,8 @@
     "research.md",
     "research/chat-integration-checks.json",
     "research/chat-integration.md",
+    "research/deferred-reasoning-2026-09-08/README.md",
+    "research/deferred-reasoning-2026-09-08/When-descriptions-replace-reasoning.md",
     "research/intent-audit-baseline/source.json",
     "research/intent-audit.md",
     "research/status.md",

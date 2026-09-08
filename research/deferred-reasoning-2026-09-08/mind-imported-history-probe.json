@@ -1,0 +1,28 @@
+{
+  "historical_source_only": true,
+  "source_files_changed": false,
+  "contributor_erasure": {
+    "rows": 616,
+    "exit_code": 0,
+    "verification": {
+      "file": "/workspace/scratch/6205a677c51f/audit-work/mind-imported-history-probe/Mind_Change_Inventory.md",
+      "main_targets": 590,
+      "ai_targets": 26,
+      "families": 62,
+      "assessment_rows_with_routes": 14,
+      "canonical_subject_references": 31,
+      "source_notes": 27,
+      "definitions_preserved": true,
+      "bytes": 191378,
+      "words": 23477,
+      "all_internal_links_resolve": true
+    }
+  },
+  "audit_replay": {
+    "exit_code": 0,
+    "missing_saved_keys": [
+      "subject_study_replay"
+    ],
+    "all_computed_fields_match": true
+  }
+}

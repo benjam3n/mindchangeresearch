@@ -1,0 +1,187 @@
+{
+  "repository_sha": "07e6af64c65fb682305659b2ec830e21743c0f15",
+  "scope": "All15 current authored cycle01 narratives except previously full EQI; sources/receipts excluded. No independent rerun of all supporting fixtures.",
+  "summary": {
+    "files": 15,
+    "lines": 1769,
+    "bytes": 152403,
+    "full_text_semantic": 15,
+    "narrow_status_or_benefit_claim_failures": 2,
+    "additional_scope_boundaries": 2
+  },
+  "files": [
+    {
+      "path": "post-allocation/cycle-01/approach-selection/01-unx-transition-first.md",
+      "sha256": "fc5002c660660b37ff1c6d518bf61dd8098265e7f33712b8d44f46ba7bcbcfdb",
+      "bytes": 14060,
+      "lines": 113,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/approach-selection/02-upth-transition-selector.md",
+      "sha256": "f1008d66c0e8aa5c8e25d35a97fd0e1d2861f99482545340c2e184402aea969e",
+      "bytes": 22532,
+      "lines": 240,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/consolidation-01-transition-gates.md",
+      "sha256": "e7634f892bdc2a0bd80825204b6452e2f278c927810657c2d00e604ed9c3767e",
+      "bytes": 6797,
+      "lines": 57,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/consolidation-freeze.md",
+      "sha256": "d5dce783f7df143a466a94ef7639af27a3b8d0729aee2cda78fa9eabcfbde201",
+      "bytes": 2435,
+      "lines": 23,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/frozen-inputs.md",
+      "sha256": "03992506414f5f1f46097f0d5f844863950fde551a972a46805018164e62edb5",
+      "bytes": 4581,
+      "lines": 53,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/integration-review.md",
+      "sha256": "d6eecc7278982c818f50a6a7ef285a660f0383e2358edf39420b97b494666513",
+      "bytes": 5023,
+      "lines": 35,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/location-perception/01-ipss-query-conditioned-location.md",
+      "sha256": "07ff2e7f7611e94e213431c0a8eaf14d99f03734c9a76237eae5c9511eaf1cc2",
+      "bytes": 9412,
+      "lines": 106,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/location-perception/02-difr-composition-over-count.md",
+      "sha256": "d3f52d939b464980cda5d9fafd30b1467dcdaedeaa62d0f00ac12a999268ae3f",
+      "bytes": 10474,
+      "lines": 157,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/memory-capability/01-memk-capture.md",
+      "sha256": "c1765806611d9d50415e6cbfd5705b00542084f093cff4e71fc9b71c4db29920",
+      "bytes": 10171,
+      "lines": 144,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md",
+      "sha256": "3bbedf050e4f1c222522a08ab7862eccf61e89a005d2ee0db58a2a3c11d41a3b",
+      "bytes": 9806,
+      "lines": 143,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md",
+      "sha256": "9fc6d399c6a94d4e15935c2694c3fde234c7568f736eaa8bb38f3997ebfc65b7",
+      "bytes": 8329,
+      "lines": 76,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/time-reversibility/RVA-prospective.md",
+      "sha256": "26d2c29f738cce62541c5d3817f67d785d40b7d2d982ba8f11029f1853155f79",
+      "bytes": 11694,
+      "lines": 104,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/time-reversibility/TD-prospective.md",
+      "sha256": "4f76bdba5e85d476d5bc714606b6788ccb4743234e4b3467d91185880e8e9382",
+      "bytes": 8029,
+      "lines": 75,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/tools-coordination/01-col-semantic-merge-protocol.md",
+      "sha256": "57baf2950ac7cf8863af65f1dab95021867e70759ef842811b5578f05d038afa",
+      "bytes": 11624,
+      "lines": 133,
+      "review": "full_text_semantic"
+    },
+    {
+      "path": "post-allocation/cycle-01/tools-coordination/02-tracematrix-proposal-ledger.md",
+      "sha256": "17a75b59e21452abda72254780acf1594fd12ee83e97717b7c95294b7e3d60ba",
+      "bytes": 17436,
+      "lines": 310,
+      "review": "full_text_semantic"
+    }
+  ],
+  "findings": [
+    {
+      "id": "MRC01-01",
+      "path": "post-allocation/cycle-01/approach-selection/01-unx-transition-first.md",
+      "lines": [
+        19,
+        21,
+        74,
+        76,
+        78,
+        104,
+        106
+      ],
+      "classification": "benefit_claim_promotes_gate_specification_to_enforced_gate",
+      "evidence": "Selected response at76 is imperative specification. At78 it is correctly described as selects and specifies a transition. At104 benefit credits changing merge permissibility and removing dependence on human recall.",
+      "conclusion": "The response establishes selection/specification of a tool gate; it does not by itself establish enforcement or remove the implementation/integration dependency. The broader response-selection application remains legitimate.",
+      "limit": "Not proof that no gate was ever implemented elsewhere; COL separately reports finite candidate evaluation. No engine modification is demonstrated by the UNX selected response.",
+      "current_status": "Present in pinned07e6 baseline; later cycle02/03 review found no targeted revision; root owns current-head diff."
+    },
+    {
+      "id": "MRC01-02",
+      "path": "post-allocation/cycle-01/approach-selection/02-upth-transition-selector.md",
+      "lines": [
+        155,
+        157,
+        190,
+        200,
+        229,
+        231,
+        233
+      ],
+      "classification": "written_antideferral_correction_not_applied_to_credited_result",
+      "evidence": "At190 recommendation/prepared/executed distinction is identified; at200 outputs are instructed to receive statuses. Test155 remains gate instructions,157 credits terminal-condition match,229 credits gate produced,231 credits avoiding method narration with no changed execution.",
+      "conclusion": "The specific corrective distinction is available in the same record but does not constrain the benefit claim. Test1 is performed response selection/specification, not demonstrated enforcement of a gate. Discovery of the selector is not wholly unperformed.",
+      "limit": "5/5 may be valid as coverage of response-selection criteria; it is not5/5 achieved downstream effects. No human or runtime outcome is inferred.",
+      "current_status": "Present in pinned07e6 baseline; later cycle02/03 review found no targeted revision; root owns current-head diff."
+    }
+  ],
+  "boundary_observations": [
+    {
+      "id": "MRC01-B01",
+      "path": "post-allocation/cycle-01/consolidation-01-transition-gates.md",
+      "lines": [
+        29,
+        33,
+        35,
+        39,
+        47,
+        51
+      ],
+      "classification": "added_interpretation_limits_prospective_decision_claim",
+      "conclusion": "Freeze fixes a valid current record but does not explicitly fix accepted C1 versus completed C0 priority. The result supplies accepted-C1 meaning and no elapsed cost for quarantining. Two candidates survive; retaining C1 is conditionally justified under the added interpretation, not forced by the freeze alone."
+    },
+    {
+      "id": "MRC01-B02",
+      "path": "post-allocation/cycle-01/location-perception/01-ipss-query-conditioned-location.md",
+      "lines": [
+        81,
+        83,
+        84,
+        90,
+        94,
+        98
+      ],
+      "classification": "history_dependency_not_demonstrated",
+      "conclusion": "Query change changes selected location. No same-query comparison with different histories establishes history dependence; \u03c0(query,history) is legitimate notation but its history argument adds no demonstrated capability here."
+    }
+  ]
+}

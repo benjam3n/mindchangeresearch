@@ -1,0 +1,30 @@
+{
+  "repositories": {
+    "autophilosophy2": {
+      "commit": "41ccb8dda05e3c669afb04067c8d5e1c5119da3e",
+      "files": 94
+    },
+    "subjectsystems": {
+      "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "files": 220
+    },
+    "perspectiveoptimizer": {
+      "commit": "899c98c31708e9c5bd870a0d013d9f8325dc49e0",
+      "files": 99
+    },
+    "mindchangeresearch": {
+      "commit": "2a7c6d920bf9e86cc9a247c39927bcce45e4deea",
+      "files": 1822,
+      "intermediate_commit": "c419b119ba8a18258ef55a97da02d158e543b0fa",
+      "baseline_commit": "07e6af64c65fb682305659b2ec830e21743c0f15",
+      "baseline_archive_files": 1465,
+      "current_archive_files": 1805,
+      "current_archive_sha256": "5d8d1c25375117c9f85ce44b1e7227463cabf6627372121c7c29ea232b039e94"
+    }
+  },
+  "total_current_repository_files": 2235,
+  "scope_rule": "Pinned repository trees and preserved archives; latest Mind Change Research delta included. Not every historical commit.",
+  "counting_rule": "Confirmed defects, qualified unperformed proposals, legitimate procedures, lexical candidates and duplicated occurrences are separate. Inventory size is not a failure count.",
+  "review_rule": "Per-file ledgers distinguish full prose review, canonical/generated-family review, structured-field review and lexical indexing. File acquisition is not a certificate of semantic completeness.",
+  "evidence_rule": "Exact source paths, ranges, quotations and constructed counterexamples support the stated judgments. A hypothetical mutation is not represented as original source text."
+}

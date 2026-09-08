@@ -1,0 +1,1731 @@
+{
+  "commit": "c419b119ba8a18258ef55a97da02d158e543b0fa",
+  "summary": {
+    "files": 170,
+    "bytes": 2394913,
+    "exact_prior_file_duplicates": 79,
+    "distinct_files": 91,
+    "all_git_blobs_match": true,
+    "historical_snapshot_files": 145,
+    "standalone_source_files": 25,
+    "contributor_rows": 616,
+    "deduplicated_prior_occurrences": 1078,
+    "new_families": 16,
+    "verdicts": {
+      "confirmed-historical-gate-weakness": 1,
+      "legitimate-historical-candidate-scope": 1,
+      "qualified-historical-specification": 4,
+      "qualified-historical-application": 1,
+      "qualified-historical-deferred-work": 1,
+      "qualified-historical-target-risk": 1,
+      "qualified-historical-deferral": 1,
+      "confirmed-historical-semantic-narrowing": 1,
+      "qualified-historical-role-mismatch": 1,
+      "qualified-historical-reproduction-limit": 1,
+      "legitimate-historical-performed-work": 2,
+      "legitimate-historical-deferral": 1
+    }
+  },
+  "files": [
+    {
+      "path": "sources/chat-20260908/Mind_Change_Inventory.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/Mind_Change_Inventory.md",
+      "bytes": 277270,
+      "git_blob_sha1": "9ba9406a1ee7919fc5c647f07a4eb15643552309",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/Mind_Change_Inventory.original.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/Mind_Change_Inventory.original.md",
+      "bytes": 62522,
+      "git_blob_sha1": "28cf1a6690e0ce6f9cd63ad3f499d1b243ee280d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/Recursive_Self_Improvement_Assessment.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/Recursive_Self_Improvement_Assessment.md",
+      "bytes": 55210,
+      "git_blob_sha1": "dc328960c1d5fe6922da5514e1d3238692398537",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/audit_results.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/audit_results.json",
+      "bytes": 1936,
+      "git_blob_sha1": "57e255f82d61fa4c8b2ee02c3279db1c4b00b55a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/audit_rsi.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/audit_rsi.py",
+      "bytes": 4114,
+      "git_blob_sha1": "b64d257de0ade21317d54c463e103398f32a315a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/build_expanded_inventory.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/build_expanded_inventory.py",
+      "bytes": 9621,
+      "git_blob_sha1": "12e979c53615389a9fbbbc8723de4cdcf37e3476",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_001_136.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_001_136.txt",
+      "bytes": 32327,
+      "git_blob_sha1": "34e9048c3bd7af5d0a257f3c8e972ce7312f67f5",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_137_202.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_137_202.txt",
+      "bytes": 15287,
+      "git_blob_sha1": "9d5f18a23cf5e100b010ab93c77ba45374b3288c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_203_258.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_203_258.txt",
+      "bytes": 13374,
+      "git_blob_sha1": "930c582518e2531f6651c5276f9035a4fd6809a6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_259_319.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_259_319.txt",
+      "bytes": 14564,
+      "git_blob_sha1": "d8ac32c9856d5ceaf123fd1d78ca42a27e05538b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_320_377.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_320_377.txt",
+      "bytes": 13125,
+      "git_blob_sha1": "7f6598d4b46dfc83b7c9e052cbd4edca2a9c4b20",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_378_435.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_378_435.txt",
+      "bytes": 13409,
+      "git_blob_sha1": "d5b1968e14cf67bbd3c65aa6ead7668021dbfb65",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_436_496.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_436_496.txt",
+      "bytes": 14494,
+      "git_blob_sha1": "390d9974e78d6f4d4170fb25a9c4d2f21d1a84f8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_497_544.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_497_544.txt",
+      "bytes": 11191,
+      "git_blob_sha1": "8bb9d028da1751c6e83a5ab7a293f6b906eeb0b1",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_545_590.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_545_590.txt",
+      "bytes": 11567,
+      "git_blob_sha1": "bcf3e8608669c3ef3e3f03a6db0129c58e074371",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_ai.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_ai.txt",
+      "bytes": 6266,
+      "git_blob_sha1": "17ed4a3395e3482036e2ff7786305f10b4842657",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/contributors_sources.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/contributors_sources.json",
+      "bytes": 15103,
+      "git_blob_sha1": "9331adb0a69810e74b791c25b52f6dc282227e4f",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/inventory_expansion_front.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/inventory_expansion_front.md",
+      "bytes": 14052,
+      "git_blob_sha1": "b1433e2ce092d5bf40c7510b1d7ec6886e5a079d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/inventory_expansion_verification.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/inventory_expansion_verification.json",
+      "bytes": 339,
+      "git_blob_sha1": "70e8fe55a86749c58128382640dd22b8e84f93ca",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/mind_change_base.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/mind_change_base.json",
+      "bytes": 65700,
+      "git_blob_sha1": "ddd7043c38eff85b7876171438021f4bc79510c4",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Complete target/contributor row acquisition and indexing, role/schema/generated-family review, targeted semantic inspection; not independent empirical adjudication of every contributor claim.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/prior-reports/Contribution_Selection_Study_001.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/prior-reports/Contribution_Selection_Study_001.md",
+      "bytes": 9519,
+      "git_blob_sha1": "36f197040aed702bb61496fab1393dc8372e4ee8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/prior-reports/Perspective_Structure_and_Process_001.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/prior-reports/Perspective_Structure_and_Process_001.md",
+      "bytes": 66001,
+      "git_blob_sha1": "5c983db0f68609eda783665d9b8a5a37cadbf2c2",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/prior-reports/Repository_Construction_Design.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/prior-reports/Repository_Construction_Design.md",
+      "bytes": 28790,
+      "git_blob_sha1": "838291a336c90637a5ba0e549f80adbcd10a7414",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/AGENTS.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/AGENTS.md",
+      "bytes": 1259,
+      "git_blob_sha1": "afc46986a31b9e27c4a3e1aae0dbdd1e49814477",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/README.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/README.md",
+      "bytes": 3028,
+      "git_blob_sha1": "b3f6f0a77e97b57dc9ff545b5c68db6c9a527137",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/application-condition-extension.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/application-condition-extension.json",
+      "bytes": 816,
+      "git_blob_sha1": "3e212f5aa2b9347104992ba83e775ea91bf3eaf6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/application-condition-extension.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-observations.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-observations.json",
+      "bytes": 191,
+      "git_blob_sha1": "5435418f30988ef208450c1af266a35275237771",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/learning-observations.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-route.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-route.md",
+      "bytes": 963,
+      "git_blob_sha1": "38eccb0738c4942b4215b31fadbb2bfb998efe1b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/learning-route.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-routes.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-routes.json",
+      "bytes": 3012,
+      "git_blob_sha1": "4cf779fcc36d34388e2c869ca074fcf932ae8305",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/learning-routes.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-space.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-space.json",
+      "bytes": 2988,
+      "git_blob_sha1": "e12246638c931d884d1fc566ef4d17702606b033",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/learning-space.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-transfer.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/learning-transfer.md",
+      "bytes": 2033,
+      "git_blob_sha1": "53078369043059ae7f7cee6914fd2c470b6c654d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/learning-transfer.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/nonconscious-space.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/nonconscious-space.json",
+      "bytes": 934,
+      "git_blob_sha1": "a5ce5e60ee8876876590edb5433cec7ed465f6fb",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/nonconscious-space.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/perspective-space.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/perspective-space.md",
+      "bytes": 528,
+      "git_blob_sha1": "bbb63cba6e5a54689053d6118b8bd83e99600e0e",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/perspective-space.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/perspective-transitions.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/cases/perspective-transitions.json",
+      "bytes": 2123,
+      "git_blob_sha1": "7357d77c8c6ea25bbae27c3ce5f657a5289d8663",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/cases/perspective-transitions.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/README.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/README.md",
+      "bytes": 740,
+      "git_blob_sha1": "5466db67b84caebc3cab45dca6bff30322c623d8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/anticipation-outcome-branching.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/anticipation-outcome-branching.md",
+      "bytes": 784,
+      "git_blob_sha1": "4973e73159d180c70a1d98da50df7c01e2d0668c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/claim-branch-exploration.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/claim-branch-exploration.md",
+      "bytes": 755,
+      "git_blob_sha1": "8ab524cee393922595f237ab0f8b229857286321",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/constraint-source-examination.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/constraint-source-examination.md",
+      "bytes": 822,
+      "git_blob_sha1": "9cb2e7252c807e46f5b0b5f7cfcddda9fc6fc715",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/continuation-exclusion.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/continuation-exclusion.md",
+      "bytes": 803,
+      "git_blob_sha1": "a2a3830989237951fc4c468b2a3f3f89c51bb9d0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/dependency-regress.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/dependency-regress.md",
+      "bytes": 926,
+      "git_blob_sha1": "2ec5305fe08094171e31a627999b3f84ca1b6398",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/expression-vocabulary-removal.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/expression-vocabulary-removal.md",
+      "bytes": 833,
+      "git_blob_sha1": "ddb476891ac3b11b8759c88c32ea02359899d656",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/goal-means-regression.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/goal-means-regression.md",
+      "bytes": 785,
+      "git_blob_sha1": "3c1b3577646a3cafc48cdb0fcb5a3a3fd769b11a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-assumption-trial.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-assumption-trial.md",
+      "bytes": 793,
+      "git_blob_sha1": "84157519299d522a21717f07bbfde3428c667884",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-change-comparison.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-change-comparison.md",
+      "bytes": 806,
+      "git_blob_sha1": "2018482787349948ba3e285c9c4d2253809fd93d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-composition.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-composition.md",
+      "bytes": 835,
+      "git_blob_sha1": "3e4a7c930d2568100c82b0e26f9287f84951f99a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-dimension-discovery.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/perspective-dimension-discovery.md",
+      "bytes": 868,
+      "git_blob_sha1": "3ac5291eab8cfba71866bbf3545619b44b572580",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/reasoning-analogy-transfer.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/methods/reasoning-analogy-transfer.md",
+      "bytes": 759,
+      "git_blob_sha1": "7fa6cdadb02536ea6928d83afc0a2e7d1b70e41b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/adoption-correspondence.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/adoption-correspondence.md",
+      "bytes": 746,
+      "git_blob_sha1": "60d4a1470c77ed34f6cb50c36071ab9b03daad93",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/adoption-correspondence.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/conditions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/conditions.md",
+      "bytes": 2770,
+      "git_blob_sha1": "2ca251ed593347f5610afda7e059d50ad293efe1",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/conditions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/construction-questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/construction-questions.md",
+      "bytes": 517,
+      "git_blob_sha1": "729a56cfb156f5df8540e487338140502effcf99",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/construction-questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/construction.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/construction.md",
+      "bytes": 1237,
+      "git_blob_sha1": "5a33f05cd07f2abcbf427e498918831e1735717e",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/construction.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/definition.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/definition.md",
+      "bytes": 574,
+      "git_blob_sha1": "5690b9e7dc112b16f96f25af2073fc5878eb2cfe",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/definition.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/influence.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/influence.md",
+      "bytes": 2255,
+      "git_blob_sha1": "03c80c5269a2e64d964b4ad46f5b6dfb5b75ba82",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/influence.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/operation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/operation.md",
+      "bytes": 1754,
+      "git_blob_sha1": "e29f4f7811e95a4c8aced23f911dd14fbccfcf99",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/operation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/patterns.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/patterns.json",
+      "bytes": 16086,
+      "git_blob_sha1": "e622f3430933e0d67042170b2a0ddf7d0ca1c616",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/patterns.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/process.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/process.md",
+      "bytes": 282,
+      "git_blob_sha1": "420ea66f256fd17414e8a28cc8a51d8d11608084",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/relation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/relation.md",
+      "bytes": 1052,
+      "git_blob_sha1": "15b9aa7dd55e7a933dadde4688c691f6d5abe7f4",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/relation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/structure.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/structure.md",
+      "bytes": 2102,
+      "git_blob_sha1": "fd555ac152f7918c4a195f069c8be710cdab40f6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/subject-relevance.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/subject-relevance.md",
+      "bytes": 999,
+      "git_blob_sha1": "01199464c427d33efc872e4fd9b6ce40a037c493",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspective/subject-relevance.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/action.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/action.md",
+      "bytes": 217,
+      "git_blob_sha1": "c6798abb6f2a085498983159fb8bac895b8cdcc1",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/anticipation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/anticipation.md",
+      "bytes": 232,
+      "git_blob_sha1": "27ae0a1e61c89005707d308af30ab118e7a3160d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/attention.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/attention.md",
+      "bytes": 232,
+      "git_blob_sha1": "0735fa3ec4ac7b674269699c207730359952f775",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/claim.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/claim.md",
+      "bytes": 631,
+      "git_blob_sha1": "fdba8b8ca532c6fa4ce5325292d04af8efaf6c73",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/comparison.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/comparison.md",
+      "bytes": 198,
+      "git_blob_sha1": "2137b3c1a7efa60c8da14c32cdb29000709421b6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/consequence.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/consequence.md",
+      "bytes": 252,
+      "git_blob_sha1": "a5fb7229ce5247efcc068ff6d16db18c58495465",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/constraint.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/constraint.md",
+      "bytes": 209,
+      "git_blob_sha1": "f63b3ff264da7da6482fcb0bbbc02ceada758f6a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/continuation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/continuation.md",
+      "bytes": 233,
+      "git_blob_sha1": "e681fec8da324e1a753c3c8ff04b0978ade330c7",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/criterion.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/criterion.md",
+      "bytes": 337,
+      "git_blob_sha1": "ac0c75abe07d767433d694caa9199f09bc7090b7",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/execution.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/execution.md",
+      "bytes": 204,
+      "git_blob_sha1": "294c71ca0878244f662f5b6d8875144842480f43",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/explanation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/explanation.md",
+      "bytes": 663,
+      "git_blob_sha1": "f4dc6b34e0bb4ee46f85aa89e74a4d0e68366f5d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/exploration.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/exploration.md",
+      "bytes": 245,
+      "git_blob_sha1": "3eaf2b93201b9a2ebe4ff3e0208f94eb31b1ef4f",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/expression.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/expression.md",
+      "bytes": 951,
+      "git_blob_sha1": "77eac8867f722e8e759db9144f8664e7421af3c7",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/goal.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/goal.md",
+      "bytes": 933,
+      "git_blob_sha1": "8ea21e9424c456a59f83264e35f005a0f8bade38",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/learning.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/learning.md",
+      "bytes": 489,
+      "git_blob_sha1": "d51a0954f14148170a22acd3b8973f83c1af1792",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/model.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/model.md",
+      "bytes": 211,
+      "git_blob_sha1": "c12de4d461303f7bf2bbfb40cd52e1768630e3b5",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/option.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/option.md",
+      "bytes": 215,
+      "git_blob_sha1": "904806bf2555cea0c4c3f3a0dd111bdf697c525c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/perspective.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/perspective.md",
+      "bytes": 449,
+      "git_blob_sha1": "44e9a6c60cbfcb6f8061e2ecffe7f82b258828f0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/prediction.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/prediction.md",
+      "bytes": 242,
+      "git_blob_sha1": "05d1e75e23971f35a8e764037ea8b6ba71e1d553",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/problem.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/problem.md",
+      "bytes": 963,
+      "git_blob_sha1": "7a2906034a9274400033ad1947051d07eb412cfc",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/question.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/question.md",
+      "bytes": 517,
+      "git_blob_sha1": "18601df19e057360e1600a28cfd1fb99ef3bb4d2",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/reasoning.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/reasoning.md",
+      "bytes": 1246,
+      "git_blob_sha1": "f1d601d89a9965dfcfd397bcf2136bd7217de2ce",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/resource.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/resource.md",
+      "bytes": 375,
+      "git_blob_sha1": "b59bc561f535bef705d6a1574a9d2ec83a3d51b5",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/subject.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/subject.md",
+      "bytes": 353,
+      "git_blob_sha1": "7e85636cf749db66f7e645cf58d170a8257e5ece",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/uncertainty.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspective/types/uncertainty.md",
+      "bytes": 365,
+      "git_blob_sha1": "625e3a1872eacfaedf48680be39f7eff236a595e",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/__init__.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/__init__.py",
+      "bytes": 103,
+      "git_blob_sha1": "3914c8b58d3a66df25d230415f474f9d40a3d630",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspectiveoptimizer/__init__.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/core.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/core.py",
+      "bytes": 13003,
+      "git_blob_sha1": "30ee1abf970ddd8ece72c92cd653c0327e15ca8b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/perspectiveoptimizer/core.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/space.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/space.py",
+      "bytes": 12040,
+      "git_blob_sha1": "4fe038a3bcce289ed13eec88ccde30a3fba5a5b0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/pyproject.toml",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/pyproject.toml",
+      "bytes": 341,
+      "git_blob_sha1": "fff11667d189426019a81fd9ab07724cf1b3eb91",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/pyproject.toml",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/questions.md",
+      "bytes": 2434,
+      "git_blob_sha1": "d6593c2f11929de0e0ed9412947e138f9340217b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-routes.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-routes.json",
+      "bytes": 3677,
+      "git_blob_sha1": "7d8de335c82697c2e844d4931eb46b4eda6e1fcc",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/results/learning-routes.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-space-expanded.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-space-expanded.json",
+      "bytes": 27958,
+      "git_blob_sha1": "df4049c1762465beaba33c77899b418e199032c8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/results/learning-space-expanded.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-space.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/learning-space.json",
+      "bytes": 16949,
+      "git_blob_sha1": "c54a66a615d69b8eeb0be3ab2854c0ebd8579034",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/results/learning-space.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/perspective-transitions.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/perspective-transitions.json",
+      "bytes": 1980,
+      "git_blob_sha1": "4b070f0ccfc9a372f9742aa57fcf97bfae4c3774",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/results/perspective-transitions.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/summary.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/results/summary.json",
+      "bytes": 644,
+      "git_blob_sha1": "3f3b03c8c3b0ba033df147a856ed50076ad9f8ee",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/results/summary.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/README.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/README.md",
+      "bytes": 252,
+      "git_blob_sha1": "55f2ad9e894875fd6f6bf4eea1b036e80b6c9176",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/sources/README.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/clarification-source.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/clarification-source.json",
+      "bytes": 358,
+      "git_blob_sha1": "73b5599736c5466c6aecbfa1c9e6a5f3f04e5148",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/sources/clarification-source.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/perspective-clarification-2026-09-07.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/perspective-clarification-2026-09-07.txt",
+      "bytes": 3848,
+      "git_blob_sha1": "377467998d45e8ea3f60bc3b876cb881fb01780d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/sources/perspective-clarification-2026-09-07.txt",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/starter-questions.txt",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/starter-questions.txt",
+      "bytes": 845,
+      "git_blob_sha1": "0b5736581ebb2811b9a8659fc26251eafe8e5f44",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/sources/starter-questions.txt",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/subject-bindings.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/subject-bindings.json",
+      "bytes": 186322,
+      "git_blob_sha1": "9fd6490d3e6015cf2a050aec180f1b28e893eeae",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/theory-manifest.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/sources/theory-manifest.json",
+      "bytes": 400,
+      "git_blob_sha1": "4aad27d06b615d492804c8308744c5b3e15d2aed",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tests/test_space.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tests/test_space.py",
+      "bytes": 7058,
+      "git_blob_sha1": "0389fc4f9d24336d9ea322b7afedd48a935805d3",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/tests/test_space.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tools/check.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tools/check.py",
+      "bytes": 2933,
+      "git_blob_sha1": "81a0c8591b06896a479e88e3b8acacefb398d2da",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tools/run_examples.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/perspectiveoptimizer/tools/run_examples.py",
+      "bytes": 1575,
+      "git_blob_sha1": "c719d0581e8d68ff552c232b2c597c34e4f9e393",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "perspectiveoptimizer/tools/run_examples.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/AGENTS.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/AGENTS.md",
+      "bytes": 1379,
+      "git_blob_sha1": "af6390dfdd1326199f0902e520e535a2f56f2176",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/README.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/README.md",
+      "bytes": 7220,
+      "git_blob_sha1": "cbdd3a54927c1a22e385c27c21e1ac0a3c140230",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/README.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/discovery/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/discovery/questions.md",
+      "bytes": 255,
+      "git_blob_sha1": "5f13344ed82117f4dfd32e8e4093788b510a2ebd",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/discovery/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/improvement/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/improvement/questions.md",
+      "bytes": 251,
+      "git_blob_sha1": "af314c28d386b031c2168adcf9df86fb60066550",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/improvement/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/learning/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/learning/questions.md",
+      "bytes": 244,
+      "git_blob_sha1": "bd49446f631341f8b8f015f8f6aafaf704d8a97c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/learning/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/memory/functional-branch.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/memory/functional-branch.md",
+      "bytes": 6161,
+      "git_blob_sha1": "e42c1e27fb1646c7d2ec5a380dbdfa29c3db9edc",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/memory/functional-branch.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/memory/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/memory/questions.md",
+      "bytes": 244,
+      "git_blob_sha1": "cf9e004cd4369cc31b4ef4ebe5422e50c1be15a0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/memory/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/bearer.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/bearer.md",
+      "bytes": 1415,
+      "git_blob_sha1": "510a7f8a914120a41487987723ffd1ffcf61aab6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/bearer.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/biological-response.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/biological-response.md",
+      "bytes": 983,
+      "git_blob_sha1": "977309f16c4327338e79b857a340a48e389c46c1",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/biological-response.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/construction-question.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/construction-question.md",
+      "bytes": 827,
+      "git_blob_sha1": "663ac7369def8f4694b74093b391ab402d1c9e01",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/construction-question.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/construction.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/construction.md",
+      "bytes": 3313,
+      "git_blob_sha1": "d08a6eaf31880b7046a7d3f03bfcec6831436aca",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/construction.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/definition.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/definition.md",
+      "bytes": 1160,
+      "git_blob_sha1": "02c1998bac84cf41f439a59d5cd33606b66cee68",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/definition.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/development.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/development.json",
+      "bytes": 25744,
+      "git_blob_sha1": "6179ab3edd749147cf301c238623cc185f1a697d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/development.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/hypothesis.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/hypothesis.md",
+      "bytes": 764,
+      "git_blob_sha1": "f33bb655c4f3e1783104a9fe4905d6bd02da023f",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/hypothesis.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/operation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/operation.md",
+      "bytes": 17944,
+      "git_blob_sha1": "fc7e3b928debb7b720f409e32981cb8e9ac672ce",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/operation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/process.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/process.md",
+      "bytes": 1269,
+      "git_blob_sha1": "ae49be5540b44bb570deda6740cadfd670513bcc",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/process.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/questions.md",
+      "bytes": 248,
+      "git_blob_sha1": "00e011f4befc7bff324b4b3948a98dfaefed5b64",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/response-change.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/response-change.md",
+      "bytes": 630,
+      "git_blob_sha1": "05141f2c4edf25b7272f48072fabfe06a90ce479",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/response-change.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/subject-derivation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/subject-derivation.md",
+      "bytes": 2013,
+      "git_blob_sha1": "546b4b55c0d51657febf51ad7ce6113bc3159427",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/subject-derivation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/transformation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/perspective/transformation.md",
+      "bytes": 7320,
+      "git_blob_sha1": "39199d4477f2a447ac8529ff2c5d57f63e90648b",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/perspective/transformation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/operation-relation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/operation-relation.md",
+      "bytes": 2938,
+      "git_blob_sha1": "ae721c4f6c67aceaee6e1b9de5d091c3dde3f823",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/reasoning/operation-relation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/operation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/operation.md",
+      "bytes": 2206,
+      "git_blob_sha1": "bb91527b83e4cd26fbf40b48baffdd0c5edabbc8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/reasoning/operation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/questions.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/reasoning/questions.md",
+      "bytes": 264,
+      "git_blob_sha1": "bdf0f100bb1141223864631cd77250249c254277",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/reasoning/questions.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/requirement.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/requirement.md",
+      "bytes": 26251,
+      "git_blob_sha1": "4ae8bfdbb5d31baa000420694ef976a4916494d5",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/subject/requirement.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/subject-integration.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/subject-integration.json",
+      "bytes": 572322,
+      "git_blob_sha1": "9ced768befe6078fc2761cf1961872487ee9ffa4",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/subject/subject-integration.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/translation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/translation.md",
+      "bytes": 1459,
+      "git_blob_sha1": "0e7a137db9b9c114fb753d6fefcf344214e48ec6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/subject/translation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/type-relation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/subject/type-relation.md",
+      "bytes": 1612,
+      "git_blob_sha1": "49fa5d231fd219112b707024ed2d4ec328fac811",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/subject/type-relation.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/composition.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/composition.md",
+      "bytes": 1799,
+      "git_blob_sha1": "dc63fca7617d2ab3569083bcbb59ad3dd10c3bbd",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/composition.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/customization.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/customization.md",
+      "bytes": 596,
+      "git_blob_sha1": "dc15c30dbbf60139051269210c35438968a56cc2",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/customization.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/execution-results.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/execution-results.json",
+      "bytes": 31711,
+      "git_blob_sha1": "1f2f42b6e6bf7ff873aa21478b0c0016128ea59a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/execution-results.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/execution.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/execution.md",
+      "bytes": 1949,
+      "git_blob_sha1": "3716509fe36681412a034c9f2b79c2130e7a5752",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/execution.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/optimality.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/optimality.md",
+      "bytes": 793,
+      "git_blob_sha1": "d08ca11a57a975154e4edd0396b21703d3455d06",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/optimality.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/purpose.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/purpose.md",
+      "bytes": 603,
+      "git_blob_sha1": "aed2c45b84871bb42b04a4d6a595428594826890",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/purpose.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/result-reuse.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/result-reuse.md",
+      "bytes": 1631,
+      "git_blob_sha1": "5d022828a0097cbee2b13de05d2f1a0bd9db47a1",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/result-reuse.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/source-contribution.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/source-contribution.md",
+      "bytes": 29788,
+      "git_blob_sha1": "52a6bcd1c9995ff5d00ef6a60c7abf818f9897ac",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/source-contribution.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/study-systems.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/study-systems.json",
+      "bytes": 95753,
+      "git_blob_sha1": "4dbf02029dc700ce9abcda65ea90e47dbe98bea0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/study-systems.json",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/study.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/study.md",
+      "bytes": 15495,
+      "git_blob_sha1": "d1d39409d46569f8c57736f41d93ae9a0fd6c9a7",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/study.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/technique.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/studies/system/technique.md",
+      "bytes": 11931,
+      "git_blob_sha1": "479e2c8e036af1db35defbca81c80d45a8617bb7",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/studies/system/technique.md",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/subjects/catalog.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/subjects/catalog.json",
+      "bytes": 292201,
+      "git_blob_sha1": "152c0d7fdda3c1d54663f88e0333b2d175207008",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/README.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/README.md",
+      "bytes": 932,
+      "git_blob_sha1": "3d6b75f917a7fcc87eed7861902b06f24925f076",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/catalog.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/catalog.json",
+      "bytes": 1999,
+      "git_blob_sha1": "6e2182d5e753b6107f23605d2ec6b8e4427b74b6",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/claim-inference-counterexample-search.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/claim-inference-counterexample-search.md",
+      "bytes": 2698,
+      "git_blob_sha1": "0b97b3c9f4463d58c281adcbf5afcaa8961a0ed0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/claim-inference-finite-validity.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/claim-inference-finite-validity.md",
+      "bytes": 2567,
+      "git_blob_sha1": "6bb7afdfd93759f960ec45584be3bc77ad92ea4f",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/criterion-discovery.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/criterion-discovery.md",
+      "bytes": 2460,
+      "git_blob_sha1": "9145cd62fbdc8d6323a729aaa5160139249096eb",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/design-alternative-construction.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/design-alternative-construction.md",
+      "bytes": 2444,
+      "git_blob_sha1": "789a66f1d6dfa1602045b7c7710fe4af0bda85ad",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/design-candidate-exploration.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/design-candidate-exploration.md",
+      "bytes": 2654,
+      "git_blob_sha1": "bbba82bbabcf9a040c1dc6494325acfb6c499a3a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/discovery-contribution-assessment.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/discovery-contribution-assessment.md",
+      "bytes": 2800,
+      "git_blob_sha1": "6dfc157001fce2c217167caa87e255407d0fcb03",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/expression-contribution-construction.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/expression-contribution-construction.md",
+      "bytes": 2848,
+      "git_blob_sha1": "91f2ffbf7f6c56839cb48a2ffc9ec6efde73b8bf",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/goal-achievement-assessment.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/goal-achievement-assessment.md",
+      "bytes": 3343,
+      "git_blob_sha1": "0dcb911ad3f5190988448a5f23e5fe912638e9a0",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/goal-discovery.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/goal-discovery.md",
+      "bytes": 2822,
+      "git_blob_sha1": "1a2cd22a4d878a6b70b350851fab93a8519f9c65",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/improvement-candidate-revision.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/improvement-candidate-revision.md",
+      "bytes": 2439,
+      "git_blob_sha1": "92f79a70fdccbea963883844ef6e1f86eef121fc",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/preference-discovery.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/preference-discovery.md",
+      "bytes": 2802,
+      "git_blob_sha1": "ef9821f036169003cf2c60c71c589f2b9f0274ee",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/preference-question-route.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/preference-question-route.md",
+      "bytes": 2638,
+      "git_blob_sha1": "be006ef9630f5bba4fd8e3421f2bb5c748566b6d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/reasoning-approach-selection.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/reasoning-approach-selection.md",
+      "bytes": 3018,
+      "git_blob_sha1": "955a298bfa11411c00be98634f689c664e51d9d8",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/systems/reasoning-candidate-finite-generation.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/systems/reasoning-candidate-finite-generation.md",
+      "bytes": 2883,
+      "git_blob_sha1": "cbf4b74e0b9c549fce3bda73640e7a9ed11f768a",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_perspective_investigation.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_perspective_investigation.py",
+      "bytes": 5013,
+      "git_blob_sha1": "a3994af0191d7791663f6814319d0ca9d330afd5",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/build_perspective_investigation.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_perspective_process.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_perspective_process.py",
+      "bytes": 1119,
+      "git_blob_sha1": "1965c06050a0191b666a0d2f4cb8e550b9cc2618",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/build_perspective_process.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_study_systems.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_study_systems.py",
+      "bytes": 6165,
+      "git_blob_sha1": "bf86fcd3ef4989910abf0f9b33b1f18e81fa7415",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/build_study_systems.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_subject_integration.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_subject_integration.py",
+      "bytes": 4067,
+      "git_blob_sha1": "930f4be6b8f9a4143b627818d14edc3eb71c2160",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/build_subject_integration.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_subject_names.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/build_subject_names.py",
+      "bytes": 4188,
+      "git_blob_sha1": "22dac862fd3c6c59ad066fc1b483174dbd340b2c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/check.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/check.py",
+      "bytes": 3924,
+      "git_blob_sha1": "3039b23908983e93d7430743a1e8b3781f5121d4",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Historical version/format delta inspected by canonical data and template family. Two subject projections preserve all 471 core identity/name/target/exclusion records; type pages reuse unchanged 60-pattern source.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/descriptions.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/descriptions.py",
+      "bytes": 599,
+      "git_blob_sha1": "bd60112f61b7c37939d8d811ed392e7265283280",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/descriptions.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/run_perspective_case.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/run_perspective_case.py",
+      "bytes": 2609,
+      "git_blob_sha1": "636c9372af68c731a2297418100743c21c7e592c",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/run_perspective_case.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/run_study_cases.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/run_study_cases.py",
+      "bytes": 6654,
+      "git_blob_sha1": "8cefe3954d3e570d4279905d396a723a083c28e2",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/run_study_cases.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/repository-snapshots/subjectsystems/tools/study_methods.py",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/repository-snapshots/subjectsystems/tools/study_methods.py",
+      "bytes": 6058,
+      "git_blob_sha1": "d4ceb3b6f06457d6aa86a91b3e18128fd5bca7ac",
+      "git_blob_matches": true,
+      "exact_duplicate_of": "subjectsystems/tools/study_methods.py",
+      "review": "Exact byte duplicate of previously acquired and audited repository file; prior semantic classification reused with historical occurrence mapping.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/source-manifest.json",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/source-manifest.json",
+      "bytes": 30384,
+      "git_blob_sha1": "5dd3ee2a15c35c77c4bce25e19c0b6d13c640b84",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    },
+    {
+      "path": "sources/chat-20260908/user-messages.md",
+      "url": "https://github.com/benjam3n/mindchangeresearch/blob/c419b119ba8a18258ef55a97da02d158e543b0fa/sources/chat-20260908/user-messages.md",
+      "bytes": 3879,
+      "git_blob_sha1": "236b2dc096e6dd9cddecb1242295d458f7271f4d",
+      "git_blob_matches": true,
+      "exact_duplicate_of": null,
+      "review": "Distinct authored report, provenance, source notes, instructions, or builder inspected for reasoning-role and performance claims; public research claims are historical reported claims, not independently rerun studies.",
+      "status": "historical source imported into current repository; no active instruction authority inferred"
+    }
+  ]
+}

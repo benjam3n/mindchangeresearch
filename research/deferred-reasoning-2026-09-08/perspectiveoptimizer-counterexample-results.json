@@ -1,0 +1,20 @@
+{
+  "mutation": "Replaced every one of 60 perspective contributions and 13 method operations/results with generic instructions, regenerated published views; source hashes and programs unchanged.",
+  "results": {
+    "python3 tools/build.py": {
+      "returncode": 0,
+      "stdout": "Rendered 48 current files.\n",
+      "stderr": ""
+    },
+    "python3 tools/check.py": {
+      "returncode": 0,
+      "stdout": "PASS: 48 generated files; 114 links; 471 subject identities; 7 construction systems; replayed comparison cases.\n",
+      "stderr": ""
+    },
+    "python3 -m unittest discover -s tests -v": {
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_changed_continuation_is_retained_without_an_improvement_verdict (test_comparison.ConsequenceComparisonTests.test_changed_continuation_is_retained_without_an_improvement_verdict) ... ok\ntest_comparison_does_not_silently_change_its_conditions_or_domain (test_comparison.ConsequenceComparisonTests.test_comparison_does_not_silently_change_its_conditions_or_domain) ... ok\ntest_false_zero_and_unavailable_remain_distinct (test_comparison.ConsequenceComparisonTests.test_false_zero_and_unavailable_remain_distinct) ... ok\ntest_known_difference_does_not_hide_an_unresolved_required_observable (test_comparison.ConsequenceComparisonTests.test_known_difference_does_not_hide_an_unresolved_required_observable) ... ok\ntest_relabeling_does_not_establish_a_contribution (test_comparison.ConsequenceComparisonTests.test_relabeling_does_not_establish_a_contribution) ... ok\ntest_unknown_is_not_equivalence (test_comparison.ConsequenceComparisonTests.test_unknown_is_not_equivalence) ... ok\ntest_all_assignments_retained_with_exclusion_reasons (test_space.ConstructionTests.test_all_assignments_retained_with_exclusion_reasons) ... ok\ntest_duplicate_value_identity_is_rejected (test_space.ConstructionTests.test_duplicate_value_identity_is_rejected) ... ok\ntest_execution_bound_does_not_return_false_completeness (test_space.ConstructionTests.test_execution_bound_does_not_return_false_completeness) ... ok\ntest_expansion_preserves_start_and_adds_distinct_contribution (test_space.ConstructionTests.test_expansion_preserves_start_and_adds_distinct_contribution) ... ok\ntest_missing_consequential_contrast_rejects_extension (test_space.ConstructionTests.test_missing_consequential_contrast_rejects_extension) ... ok\ntest_new_dimension_can_expand_the_construction_basis (test_space.ConstructionTests.test_new_dimension_can_expand_the_construction_basis) ... ok\ntest_nonconscious_bearer_has_no_goal_or_choice_requirement (test_space.ConstructionTests.test_nonconscious_bearer_has_no_goal_or_choice_requirement) ... ok\ntest_unknown_rule_reference_is_not_silently_ignored (test_space.ConstructionTests.test_unknown_rule_reference_is_not_silently_ignored) ... ok\ntest_contradictory_unknown_assumptions_do_not_create_a_path (test_space.ReachabilityTests.test_contradictory_unknown_assumptions_do_not_create_a_path) ... ok\ntest_cycles_finish_without_inventing_new_states (test_space.ReachabilityTests.test_cycles_finish_without_inventing_new_states) ... ok\ntest_undeclared_destination_is_rejected (test_space.ReachabilityTests.test_undeclared_destination_is_rejected) ... ok\ntest_unknown_path_conditions_are_not_reported_as_established (test_space.ReachabilityTests.test_unknown_path_conditions_are_not_reported_as_established) ... ok\ntest_contradicted_condition_is_retained_with_reason (test_space.RelevanceTests.test_contradicted_condition_is_retained_with_reason) ... ok\ntest_numeric_zero_is_not_an_observed_false (test_space.RelevanceTests.test_numeric_zero_is_not_an_observed_false) ... ok\ntest_two_routes_can_be_relevant_without_forced_diagnosis (test_space.RelevanceTests.test_two_routes_can_be_relevant_without_forced_diagnosis) ... ok\ntest_unobserved_conditions_remain_unresolved (test_space.RelevanceTests.test_unobserved_conditions_remain_unresolved) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.006s\n\nOK\n"
+    }
+  }
+}
