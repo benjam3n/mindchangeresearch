@@ -1,0 +1,186 @@
+{
+  "schema": "completion-audit-v1",
+  "snapshot_utc": "2026-09-08T07:45:39.923411+00:00",
+  "authority": "Read-only integration audit. This file proposes no status mutation. Source hashes certify preserved bytes only, never procedure execution, semantic correctness, benefit, human effect, or completion.",
+  "mechanical": {
+    "allocation": {
+      "skills": 150,
+      "required_slots": 300,
+      "unique_slots": 300,
+      "unique_ranks": 150,
+      "rank_range": [1, 150],
+      "duplicate_slots": [],
+      "missing_slots": [],
+      "extra_slots": [],
+      "per_line_allocation_matches_main": true,
+      "per_line_ledger_matches_allocation": true,
+      "per_line_slots": {
+        "conditions": 50,
+        "inquiry": 51,
+        "methods": 49,
+        "representation": 51,
+        "systems": 49,
+        "values": 50
+      }
+    },
+    "current_overlaid_ledgers": {
+      "total_rows": 300,
+      "unique_rows": 300,
+      "status_counts": {
+        "complete": 198,
+        "partial": 58,
+        "blocked": 1,
+        "pending": 43
+      },
+      "per_line_status_counts": {
+        "conditions": {"complete": 33, "partial": 16, "blocked": 1, "pending": 0},
+        "inquiry": {"complete": 46, "partial": 4, "blocked": 0, "pending": 1},
+        "methods": {"complete": 29, "partial": 1, "blocked": 0, "pending": 19},
+        "representation": {"complete": 28, "partial": 0, "blocked": 0, "pending": 23},
+        "systems": {"complete": 42, "partial": 7, "blocked": 0, "pending": 0},
+        "values": {"complete": 20, "partial": 30, "blocked": 0, "pending": 0}
+      },
+      "required_metadata_keys_present_on_all_rows": true,
+      "source_fidelity_filled": 300,
+      "depth_status_filled": 300,
+      "missing_requirements_is_list": 300,
+      "complete_rows_with_nonempty_missing_requirements": 0,
+      "partial_or_blocked_rows_with_empty_missing_requirements": 0,
+      "pending_rows_with_empty_missing_requirements": ["inquiry/ht/1"],
+      "nonpending_rows_with_blank_later_use": 83,
+      "file_path_styles": {"absolute": 50, "root_relative_with_line": 49, "line_relative": 177, "null": 24}
+    },
+    "aggregate_and_index": {
+      "reported_status_counts": {"complete": 191, "partial": 56, "blocked": 1, "pending": 52},
+      "stale_against_overlaid_ledgers": true,
+      "status_differences": [
+        {"slot": "inquiry/qaf/1", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "inquiry/qaf/2", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "inquiry/rca/1", "aggregate": "pending", "overlaid": "partial"},
+        {"slot": "inquiry/rca/2", "aggregate": "pending", "overlaid": "partial"},
+        {"slot": "inquiry/av/1", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "methods/unx/2", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "methods/unx/3", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "methods/foht/2", "aggregate": "pending", "overlaid": "complete"},
+        {"slot": "methods/foht/3", "aggregate": "pending", "overlaid": "complete"}
+      ]
+    },
+    "application_files": {
+      "slots_with_corresponding_files": 300,
+      "nonpending_rows_missing_files": 0,
+      "pending_rows_with_existing_files": 43,
+      "current_ledger_null_paths_resolved_by_slot_or_proposal": 24,
+      "required_reflection_blocks_present_and_final_order_valid": 300,
+      "required_reflection_blocks_checked": ["Intended mind change:", "Actual mind change:", "Benefit:", "Verdict:", "Organization:", "Next attempts:"],
+      "warning": "File presence is inventory evidence only. It does not promote any pending row."
+    },
+    "source_integrity": {
+      "receipts": 198,
+      "requirements_files_present": 198,
+      "matching_emitted_source_paths_checked": 288,
+      "missing_or_hash_mismatched_paths": 0,
+      "selected_skills_without_verified_source": 0,
+      "ltai_source_sha256": "c1413674ed46c4fe0c256b525efb1aba9d3a15bb52b054ad2f052e4dbcbcb469",
+      "ltai_root_and_system_copies_match": true,
+      "scope_limit": "These checks certify bytes and receipt relationships only."
+    },
+    "progress_discrepancies": [
+      "Representation progress reports 43 completed documents and 25 KEEP/12 REJECT/6 unresolved, while the current representation ledger is 28 complete/23 pending and 51 slot documents now exist. Treat progress as stale document inventory, not completion evidence.",
+      "Methods progress labels la-01 partial while the methods ledger labels it complete. Its summary totals do not encode the 19 finalized pending candidates.",
+      "Conditions, inquiry, systems, and values progress totals match their current per-line ledger totals before proposal integration."
+    ]
+  },
+  "semantic_review": {
+    "current_partial_and_blocked_rows_reviewed": 59,
+    "reviewed_by_line": {"conditions": 17, "inquiry": 4, "methods": 1, "representation": 0, "systems": 7, "values": 30},
+    "unsupported_human_effect_promotions_found": 0,
+    "finding": "The partial/blocked records retain their live, human, delayed, external, or source-specific gates. Partial KEEP is scoped to demonstrated local artifacts or model operations, not human completion.",
+    "metadata_corrections": [
+      {
+        "slots": ["inquiry/rca/1", "inquiry/rca/2"],
+        "problem": "missing_requirements says only 'see source-specific unperformed operations in record'.",
+        "correction": "Name the absent original nine-level causal chain/depth and unavailable historical/human incident causes; preserve the shorter performed branches/tests."
+      },
+      {
+        "slots": ["inquiry/sdc/1"],
+        "problem": "missing_requirements is generic.",
+        "correction": "Name the unavailable human bodily response, emotional observation, read-aloud reaction, and recurring personal-pattern evidence."
+      }
+    ],
+    "candidate_findings": [
+      "HT1 is complete within its stipulated mathematical family: 7 hypotheses, 28 preregistered primary tests, explicit belief updates, adversarial cases, calibration, and three changed-input later uses. It makes no purchase or human-effect claim.",
+      "SPD3 is complete within model scope: GG/QAG/ARAW dependencies and five later-use fixtures are inspectable; source-candidate counts are not treated as findings or exhaustive coverage.",
+      "DRAFT1-2 execute the declared 8x writing products and keep human comprehension/emotion unobserved. DRAFT2's staged specific_prose_edits still says to preserve an 'unsent envelope' although the repaired final correctly posts it; update that stale phrase when next touching the record, without reverting the retained failed check.",
+      "WRE1-3 and W1-3 correctly remain partial: local requirements/writing checks pass, while semantically valid ARAW recursion or genuine reader/editor/participant criteria remain open.",
+      "PBTC1-3, MRC1-3, and MTCG1-3 are semantically scoped and inspectable. PBTC documentary CLEAN does not establish authorship psychology; MRC2 preserves the corrected repeated-versus-fresh probe distinction.",
+      "UF1 and BOC1 are complete local procedures; ADEP1 is partial with its human-profile, diverse-sample, rating, calibration, and downstream gates explicit.",
+      "PCD1-2 and PCI1-2 complete their original local procedure stages but retain UNRESOLVED semantic/external effects. ITERATE1 completes local execution and correctly changes its final verdict to REJECT because the apparent new KEEP repeats prior values-line findings.",
+      "QAF1-2 and AV1 have inspectable tables and derivations supporting their current status. For strict presentation conformance, compile their existing decisive premise, inference, strongest contrary case, and unresolved dependency into one compact certificate when next touched; this is not a present status reversal.",
+      "SATR1-2 are complete; SATR1 is a bounded local KEEP and SATR2 a repeated-result REJECT."
+    ]
+  },
+  "proposal_integration": {
+    "proposal_slot_rows": 29,
+    "unique_proposal_slots": 29,
+    "duplicate_proposal_slots": [],
+    "proposal_sources": {
+      "continuation/inquiry-proposal.json": 2,
+      "continuation/representation-proposal.json": 8,
+      "continuation/methods-core-proposal.json": 9,
+      "continuation/utility-proposal.json": 3,
+      "continuation/specs-proposal.json": 5,
+      "methods/conditions-handoff-results.json (SATR only)": 2
+    },
+    "manifest_hashes_rechecked": {"entries": 21, "mismatches": 0, "scope": "Inquiry and representation proposal manifests that supplied hashes."},
+    "safe_after_root_accepts_proposal_and_normalizes_schema": {
+      "complete": [
+        "inquiry/ht/1", "inquiry/spd/3",
+        "representation/draft/1", "representation/draft/2",
+        "methods/pbtc/1", "methods/pbtc/2", "methods/pbtc/3",
+        "methods/mrc/1", "methods/mrc/2", "methods/mrc/3",
+        "methods/mtcg/1", "methods/mtcg/2", "methods/mtcg/3",
+        "methods/pcd/1", "methods/pcd/2", "methods/pci/1", "methods/pci/2", "methods/iterate/1",
+        "methods/uf/1", "methods/boc/1", "methods/satr/1", "methods/satr/2"
+      ],
+      "partial": [
+        "representation/wre/1", "representation/wre/2", "representation/wre/3",
+        "representation/w/1", "representation/w/2", "representation/w/3",
+        "methods/adep/1"
+      ]
+    },
+    "promotion_blockers": [
+      "Do not copy methods-core proposal rows verbatim: rename source->source_fidelity, depth->depth_status, and missing->missing_requirements.",
+      "Do not copy specs proposal status strings verbatim. Map every complete_* status to the ledger enum complete. Because the proposal and records say no original local stage is missing, use missing_requirements=[] and retain external/semantic limits in depth_status and later_use.",
+      "Normalize proposal and existing ledger file paths to one root-relative convention; the current ledger mixes 50 absolute, 49 root-relative-with-line, 177 line-relative, and 24 null paths.",
+      "Fifteen older representation documents are not in the finalized representation proposal. Their file presence is not authorization to promote them."
+    ],
+    "projected_counts_after_accepting_all_29_unique_proposal_slots": {"complete": 220, "partial": 64, "blocked": 1, "pending": 15},
+    "remaining_pending_without_current_agent_proposal": [
+      "representation/ro/2", "representation/ro/3", "representation/ctcov/2", "representation/ctcov/3",
+      "representation/cda/1", "representation/cda/2", "representation/categorize/1", "representation/categorize/2",
+      "representation/txm/1", "representation/txm/2", "representation/mv/1", "representation/ctgp/1",
+      "representation/vdp/1", "representation/prd/1", "representation/sum/1"
+    ],
+    "risk_review_of_unproposed_representation_rows": {
+      "safe_only_after_explicit_owner_proposal": {
+        "complete": [
+          "representation/ro/2", "representation/ro/3", "representation/ctcov/2", "representation/ctcov/3",
+          "representation/cda/1", "representation/cda/2", "representation/categorize/1", "representation/categorize/2",
+          "representation/txm/1", "representation/txm/2", "representation/mv/1", "representation/ctgp/1", "representation/sum/1"
+        ],
+        "partial": ["representation/vdp/1", "representation/prd/1"]
+      },
+      "note": "VDP1 and PRD1 explicitly retain genuine viewer/accessibility gates. The other thirteen finish their local original procedures while keeping human effects unresolved where relevant. Do not integrate these inferred statuses without an owner proposal."
+    }
+  },
+  "root_integration_checklist": [
+    "Accept or reject each finalized agent proposal semantically; never promote from file presence or hash match alone.",
+    "Normalize methods-core and specs proposal schemas before writing ledger rows.",
+    "Apply the 29 unique proposal rows, then verify 220 complete + 64 partial + 1 blocked + 15 pending = 300.",
+    "Reconcile the nine existing base/overlay differences and the accepted proposal rows into Research_Ledger.json and Mind_Change_Research_Index.md in one root-owned update.",
+    "Rebuild per-line progress from accepted ledger states; specifically repair methods/la-01 and replace representation's stale 43-document summary.",
+    "Populate exact RCA1/RCA2/SDC1 missing requirements and normalize all ledger file paths.",
+    "Leave the fifteen unproposed representation rows pending until an explicit owner proposal exists.",
+    "After writing, recheck 300 unique allocation slots, status arithmetic, application path existence, required final reflection blocks, and source-receipt scope language."
+  ]
+}

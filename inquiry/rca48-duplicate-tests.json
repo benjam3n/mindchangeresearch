@@ -1,0 +1,175 @@
+[
+  {
+    "case": "one existing",
+    "existing": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "out_count": 15,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "exact_duplicate_count": 0
+  },
+  {
+    "case": "two exact existing",
+    "existing": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ],
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "out_count": 16,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ],
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "exact_duplicate_count": 1
+  },
+  {
+    "case": "two distinct reasons",
+    "existing": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ],
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "different reason",
+        "medium"
+      ]
+    ],
+    "out_count": 16,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ],
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "different reason",
+        "medium"
+      ]
+    ],
+    "exact_duplicate_count": 0
+  },
+  {
+    "case": "different relation",
+    "existing": [
+      [
+        "sure",
+        "hope",
+        "expansion",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "out_count": 16,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "expansion",
+        "existing reason",
+        "high"
+      ],
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "certainty contradicts uncertainty",
+        "medium"
+      ]
+    ],
+    "exact_duplicate_count": 0
+  },
+  {
+    "case": "different target",
+    "existing": [
+      [
+        "sure",
+        "maybe",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "out_count": 15,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "certainty contradicts uncertainty",
+        "medium"
+      ]
+    ],
+    "exact_duplicate_count": 0
+  },
+  {
+    "case": "exact repair then rerun",
+    "existing": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "out_count": 15,
+    "sure_hope": [
+      [
+        "sure",
+        "hope",
+        "contradiction",
+        "existing reason",
+        "high"
+      ]
+    ],
+    "exact_duplicate_count": 0
+  }
+]

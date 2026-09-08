@@ -1,0 +1,74 @@
+[
+  {
+    "skill_id": "upth",
+    "application_number": 1,
+    "file": "upth-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact reader stdout/receipt hash verified; original operations and missing stages disclosed",
+    "depth_status": "Expanded original procedure; no numerical 8x definition in source",
+    "missing_requirements": [
+      "No human expert elicitation, independent expert comparison or newcomer use is available."
+    ],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Last-page creative continuation and explicit-location boundary",
+    "source_sha256": "4640f6a050a4dd37444253af1e781e25ad263f1ee01279144056f551e489baf5",
+    "author": "root"
+  },
+  {
+    "skill_id": "la",
+    "application_number": 1,
+    "file": "la-01.md",
+    "status": "complete",
+    "source_fidelity": "Archived skill and original referenced YAML preserved with byte hashes; first-pass gap retained",
+    "depth_status": "Original 8x numeric floors met; all seven recovered source categories checked and original enumeration prompts applied",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Revised uninterrupted-window schedules accepted/rejected on exact input",
+    "source_sha256": "33e909a5717c1e38255b030fe87cc0fe97b25f357f39fff0e51e19f01ebec0eb",
+    "author": "root"
+  },
+  {
+    "skill_id": "benf",
+    "application_number": 1,
+    "file": "benf-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact reader stdout/receipt hash verified; original operations and missing stages disclosed",
+    "depth_status": "Expanded original procedure; no numerical 8x definition in source",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Exactly two uses changes the conditional time-only recommendation",
+    "source_sha256": "c4429258ef5d182cba6e53ccdae944979747316196357df8aa8104dd0a2a035a",
+    "author": "root"
+  },
+  {
+    "skill_id": "utp",
+    "application_number": 1,
+    "file": "utp-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact reader stdout/receipt hash verified; original operations and missing stages disclosed",
+    "depth_status": "Expanded original procedure; no numerical 8x definition in source",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "Existing creative/evidential selection is illustrated without independent new benefit",
+    "source_sha256": "61c5e4653b3a86f75fa145732b23b4dcd770299e4a97b09cd332abbeb796e8b4",
+    "author": "root"
+  },
+  {
+    "skill_id": "cmplx",
+    "application_number": 1,
+    "file": "cmplx-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact reader stdout/receipt hash verified; original operations and missing stages disclosed",
+    "depth_status": "Expanded original procedure; no numerical 8x definition in source",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Pending-versus-null disposition; repeatable versus one-off B enumeration",
+    "source_sha256": "a25f288836d145f9eb7cd258f14a27fd17c16295f891adb04f931edd19b591bd",
+    "author": "root"
+  }
+]

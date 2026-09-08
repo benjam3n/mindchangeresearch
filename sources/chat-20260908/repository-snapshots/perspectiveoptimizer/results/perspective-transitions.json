@@ -1,0 +1,81 @@
+{
+  "start": "transfer-failure",
+  "reachable": [
+    "application-question",
+    "cue-comparison",
+    "transfer-failure"
+  ],
+  "conditional_only": [
+    "application-condition",
+    "contrast-construction"
+  ],
+  "no_path_in_declared_graph": [
+    "missing-operation",
+    "unavailable-destination"
+  ],
+  "paths": [
+    {
+      "state": "transfer-failure",
+      "path": [],
+      "requires_observations": {},
+      "status": "reachable_under_declared_conditions"
+    },
+    {
+      "state": "cue-comparison",
+      "path": [
+        "compare-cue"
+      ],
+      "requires_observations": {},
+      "status": "reachable_under_declared_conditions"
+    },
+    {
+      "state": "application-question",
+      "path": [
+        "compare-cue",
+        "use-cue-success"
+      ],
+      "requires_observations": {},
+      "status": "reachable_under_declared_conditions"
+    },
+    {
+      "state": "contrast-construction",
+      "path": [
+        "compare-cue",
+        "use-cue-success",
+        "construct-contrast"
+      ],
+      "requires_observations": {
+        "contrasting_cases_available": true
+      },
+      "status": "conditional"
+    },
+    {
+      "state": "application-condition",
+      "path": [
+        "compare-cue",
+        "use-cue-success",
+        "construct-contrast",
+        "adopt-distinction"
+      ],
+      "requires_observations": {
+        "contrasting_cases_available": true,
+        "distinction_identified": true
+      },
+      "status": "conditional"
+    },
+    {
+      "state": "application-question",
+      "path": [
+        "compare-cue",
+        "use-cue-success",
+        "construct-contrast",
+        "revisit-question"
+      ],
+      "requires_observations": {
+        "contrasting_cases_available": true
+      },
+      "status": "conditional"
+    }
+  ],
+  "standing": "Reachability in the supplied graph with fixed observation meanings. Conditions do not change along an edge; real execution and unknown operations are outside this result."
+}

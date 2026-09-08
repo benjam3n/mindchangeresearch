@@ -1,0 +1,917 @@
+{
+  "topic": "edit",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Stable item names make the prospective editor\u2019s revision more accurate than explicit original-position wording.",
+      "type": "explicit candidate",
+      "voi": "high",
+      "verdict": "UNCERTAIN",
+      "evidence": "human target-selection comparison",
+      "findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "Delete the first item, then tag the second always tags the item that was second before deletion.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "edit.live_vs_initial_position",
+      "findings": [
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "Swapping deletion and tagging preserves the result of every positional edit pair.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "edit.delete_noncommuting",
+      "findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "A stable ID remains a unique selector when two live items share that ID.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "edit.duplicate_identity",
+      "findings": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "Deleting A and tagging B fail to commute even when IDs are unique, A differs from B, and both are present.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "edit.stable_id_commuting",
+      "findings": [
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "Reordering items before an edit preserves the meaning of every current-position selector.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "edit.reordered_held_out",
+      "findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "A deleted item can be selected as a live item without a tombstone or history mechanism.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "membership after deletion",
+      "findings": [
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ]
+    },
+    {
+      "id": "C8",
+      "claim": "Visible text is a unique item identity even when two items have identical text.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two stipulated duplicate-text records",
+      "findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "id": "C9",
+      "claim": "An ordinal retains its referent after insertion before that ordinal.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "list indexing definition",
+      "findings": [
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "Every deletion instruction can be safely repeated with the same positional arguments.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "repeated deletion derivation",
+      "findings": [
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "A stable item ID proves that the item\u2019s contents have not changed.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two stipulated versions",
+      "findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "A patch\u2019s final list alone proves that only the requested operations occurred.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two explicit histories",
+      "findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "The phrase move it supplies a unique referent after mentioning A and B without a binding rule.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two declared pronoun grammars",
+      "findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "A numbered display tells the editor whether its indices are zero-based or one-based without a convention.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "indexing definitions",
+      "findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56"
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "An ID-based patch applies to every document version containing the same IDs.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two stipulated task versions",
+      "findings": [
+        "F57",
+        "F58",
+        "F59",
+        "F60"
+      ]
+    },
+    {
+      "id": "C16",
+      "claim": "Checking selectors after performing the first destructive edit is equivalent to checking all selectors before it.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "preflight versus late-failure states",
+      "findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ]
+    },
+    {
+      "id": "C17",
+      "claim": "Two selectors naming the same live item always denote two independent operations.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "live-domain operations",
+      "findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ]
+    },
+    {
+      "id": "C18",
+      "claim": "A text-only after-state diff uniquely identifies the item changed when duplicate text records exchange positions.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "duplicate-text permutation",
+      "findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "kind": "AR",
+      "parent": "C1",
+      "text": "On the same revision task, name-based wording must produce more correct target selections.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F2",
+      "kind": "AW",
+      "parent": "C1",
+      "text": "An editor who already tracks original positions can select the same items; unfamiliar IDs can add lookup errors. No editor comparison exists.",
+      "classification": "Deferred countermodel",
+      "bedrock": "BEDROCK-TEST-DEFERRED: actual reader unavailable"
+    },
+    {
+      "id": "F3",
+      "kind": "ALT",
+      "parent": "F2",
+      "text": "Keep both candidates and compare exact target selections with a real editor.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F4",
+      "kind": "AR",
+      "parent": "F3",
+      "text": "Equal selections support semantic equivalence for that editor without an accuracy superiority claim.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F5",
+      "kind": "AR",
+      "parent": "C2",
+      "text": "On [A,B,C], the second operation must tag B.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F6",
+      "kind": "AW",
+      "parent": "C2",
+      "text": "Live positional decoding deletes A, leaving [B,C], and tags C.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.live_vs_initial_position"
+    },
+    {
+      "id": "F7",
+      "kind": "ALT",
+      "parent": "F6",
+      "text": "State whether the ordinal binds before or after mutation.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F8",
+      "kind": "AR",
+      "parent": "F7",
+      "text": "Binding original second selects B; binding current second selects C.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F9",
+      "kind": "AR",
+      "parent": "C3",
+      "text": "Deleting position zero then tagging position one must equal the reverse order.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F10",
+      "kind": "AW",
+      "parent": "C3",
+      "text": "The executed first order tags C; the reverse tags B.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.delete_noncommuting"
+    },
+    {
+      "id": "F11",
+      "kind": "ALT",
+      "parent": "F10",
+      "text": "Preserve mutation order when selectors are evaluated against current positions.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F12",
+      "kind": "AR",
+      "parent": "F11",
+      "text": "The command sequence carries a semantic dependency that the unordered action set loses.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F13",
+      "kind": "AR",
+      "parent": "C4",
+      "text": "Tag B must select exactly one item in [A,B,B].",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F14",
+      "kind": "AW",
+      "parent": "C4",
+      "text": "The decoder reports two matches and refuses to select either.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.duplicate_identity"
+    },
+    {
+      "id": "F15",
+      "kind": "ALT",
+      "parent": "F14",
+      "text": "Validate uniqueness before resolving an identity selector.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F16",
+      "kind": "AR",
+      "parent": "F15",
+      "text": "A duplicate becomes an explicit unresolved selection, rather than an arbitrary tag.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F17",
+      "kind": "AR",
+      "parent": "C5",
+      "text": "The two identity-based orders must produce different tagged survivors.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F18",
+      "kind": "AW",
+      "parent": "C5",
+      "text": "Both executed orders yield B tagged and C unchanged.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.stable_id_commuting"
+    },
+    {
+      "id": "F19",
+      "kind": "ALT",
+      "parent": "F18",
+      "text": "Distinguish selector movement from a dependency inherent in all edits.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F20",
+      "kind": "AR",
+      "parent": "F19",
+      "text": "Independent targets permit this pair to commute; the positional version still fails.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F21",
+      "kind": "AR",
+      "parent": "C6",
+      "text": "Second must select the same ID in [A,B,C] and [C,A,B].",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F22",
+      "kind": "AW",
+      "parent": "C6",
+      "text": "Second selects B in the first list and A in the second.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.reordered_held_out"
+    },
+    {
+      "id": "F23",
+      "kind": "ALT",
+      "parent": "F22",
+      "text": "Use stable identity when the task survives permutation of the list.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F24",
+      "kind": "AR",
+      "parent": "F23",
+      "text": "Deleting A and tagging B on the reordered fixture still tags B.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F25",
+      "kind": "AR",
+      "parent": "C7",
+      "text": "Delete B then tag live B must find B.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F26",
+      "kind": "AW",
+      "parent": "C7",
+      "text": "The live domain after deletion excludes B; there is no match.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: membership after deletion"
+    },
+    {
+      "id": "F27",
+      "kind": "ALT",
+      "parent": "F26",
+      "text": "State whether a command addresses live items or historical records.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F28",
+      "kind": "AR",
+      "parent": "F27",
+      "text": "A live command fails explicitly; a historical command requires a separate retained record.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F29",
+      "kind": "AR",
+      "parent": "C8",
+      "text": "The selector text=note must select one of two note entries.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F30",
+      "kind": "AW",
+      "parent": "C8",
+      "text": "Items A and B both contain note and remain distinct records.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two stipulated duplicate-text records"
+    },
+    {
+      "id": "F31",
+      "kind": "ALT",
+      "parent": "F30",
+      "text": "Use an ID separate from display text when duplicates are allowed.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F32",
+      "kind": "AR",
+      "parent": "F31",
+      "text": "Editing one duplicate no longer implicitly edits or selects the other.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F33",
+      "kind": "AR",
+      "parent": "C9",
+      "text": "Second in [A,B,C] and [X,A,B,C] must refer to B.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F34",
+      "kind": "AW",
+      "parent": "C9",
+      "text": "The new second item is A.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: list indexing definition"
+    },
+    {
+      "id": "F35",
+      "kind": "ALT",
+      "parent": "F34",
+      "text": "Bind intended identity before insertion or resolve ordinals in a named snapshot.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F36",
+      "kind": "AR",
+      "parent": "F35",
+      "text": "Snapshot second remains B while current second becomes A.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F37",
+      "kind": "AR",
+      "parent": "C10",
+      "text": "Delete current first twice must have the same result as deleting it once.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F38",
+      "kind": "AW",
+      "parent": "C10",
+      "text": "One call removes A; two calls remove A and B.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: repeated deletion derivation"
+    },
+    {
+      "id": "F39",
+      "kind": "ALT",
+      "parent": "F38",
+      "text": "Name the intended item and specify what happens when it is already absent.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F40",
+      "kind": "AR",
+      "parent": "F39",
+      "text": "An absent-A no-op policy preserves B on a retry; an error policy also prevents a second positional deletion.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F41",
+      "kind": "AR",
+      "parent": "C11",
+      "text": "Item B must have identical text in every version retaining ID B.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F42",
+      "kind": "AW",
+      "parent": "C11",
+      "text": "Version one has B=beta; version two has B=revised beta.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two stipulated versions"
+    },
+    {
+      "id": "F43",
+      "kind": "ALT",
+      "parent": "F42",
+      "text": "Carry a content precondition when the edit depends on old text.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F44",
+      "kind": "AR",
+      "parent": "F43",
+      "text": "Identity selects the same object; the precondition separately detects stale content.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F45",
+      "kind": "AR",
+      "parent": "C12",
+      "text": "A final [B tagged,C] must exclude any temporary deletion and restoration of C.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F46",
+      "kind": "AW",
+      "parent": "C12",
+      "text": "Both a direct edit and a delete/restore history yield that final list.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two explicit histories"
+    },
+    {
+      "id": "F47",
+      "kind": "ALT",
+      "parent": "F46",
+      "text": "Use an operation trace when forbidden intermediate actions matter.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F48",
+      "kind": "AR",
+      "parent": "F47",
+      "text": "Final-state equality remains adequate for a final-state-only requirement.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F49",
+      "kind": "AR",
+      "parent": "C13",
+      "text": "Both readers of the phrase must select the same item.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F50",
+      "kind": "AW",
+      "parent": "C13",
+      "text": "The stipulated grammar permits nearest noun B and topic noun A; both bindings fit the phrase.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two declared pronoun grammars"
+    },
+    {
+      "id": "F51",
+      "kind": "ALT",
+      "parent": "F50",
+      "text": "Repeat the target ID at the operation boundary.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F52",
+      "kind": "AR",
+      "parent": "F51",
+      "text": "Move B selects one referent under the declared unique-ID map.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F53",
+      "kind": "AR",
+      "parent": "C14",
+      "text": "Delete index 1 must select the same element under both conventions.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F54",
+      "kind": "AW",
+      "parent": "C14",
+      "text": "It selects B in zero-based [A,B,C] and A in one-based numbering.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: indexing definitions"
+    },
+    {
+      "id": "F55",
+      "kind": "ALT",
+      "parent": "F54",
+      "text": "State the indexing convention or use unambiguous named identity.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F56",
+      "kind": "AR",
+      "parent": "F55",
+      "text": "An explicit convention removes this off-by-one ambiguity before mutation.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F57",
+      "kind": "AR",
+      "parent": "C15",
+      "text": "Delete A/tag B must remain appropriate even when the task changed from B to C.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F58",
+      "kind": "AW",
+      "parent": "C15",
+      "text": "The later task requests tagging C while preserving the same IDs.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two stipulated task versions"
+    },
+    {
+      "id": "F59",
+      "kind": "ALT",
+      "parent": "F58",
+      "text": "Bind the patch to a task/version precondition as well as item IDs.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F60",
+      "kind": "AR",
+      "parent": "F59",
+      "text": "A matching ID no longer impersonates evidence that the old request still governs.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F61",
+      "kind": "AR",
+      "parent": "C16",
+      "text": "A missing B can be discovered after deleting A without changing the failure state.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F62",
+      "kind": "AW",
+      "parent": "C16",
+      "text": "Preflight failure preserves [A,C]; late failure leaves [C].",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: preflight versus late-failure states"
+    },
+    {
+      "id": "F63",
+      "kind": "ALT",
+      "parent": "F62",
+      "text": "Validate all required targets before the selected atomic revision.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F64",
+      "kind": "AR",
+      "parent": "F63",
+      "text": "The failure preserves the original list instead of exposing a partial edit.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F65",
+      "kind": "AR",
+      "parent": "C17",
+      "text": "Tag B and delete B must commute because there are two separately written commands.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F66",
+      "kind": "AW",
+      "parent": "C17",
+      "text": "Tag then delete leaves no B; delete then tag cannot find B under the live-item rule.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: live-domain operations"
+    },
+    {
+      "id": "F67",
+      "kind": "ALT",
+      "parent": "F66",
+      "text": "Compare resolved target identity and operation semantics before declaring independence.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F68",
+      "kind": "AR",
+      "parent": "F67",
+      "text": "Different command lines do not establish disjoint targets.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F69",
+      "kind": "AR",
+      "parent": "C18",
+      "text": "The diff must recover whether A or B moved when both display note.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F70",
+      "kind": "AW",
+      "parent": "C18",
+      "text": "Swapping A=note and B=note leaves the displayed text list unchanged.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: duplicate-text permutation"
+    },
+    {
+      "id": "F71",
+      "kind": "ALT",
+      "parent": "F70",
+      "text": "Preserve IDs in the audit representation when object identity matters.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F72",
+      "kind": "AR",
+      "parent": "F71",
+      "text": "The identity diff records a permutation that the text projection erases.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F73",
+      "kind": "AW",
+      "parent": "C2",
+      "text": "After deleting A, the current second selector names C rather than B.",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.live_vs_initial_position",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F74",
+      "kind": "ALT",
+      "parent": "F73",
+      "text": "Resolve intended original positions to stable IDs before the deletion.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F75",
+      "kind": "AR",
+      "parent": "F74",
+      "text": "The selected B identity remains B when A is removed.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F76",
+      "kind": "AR",
+      "parent": "F75",
+      "text": "The same identity also survives the independent permutation [C,A,B].",
+      "classification": "Necessary",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.reordered_held_out",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F77",
+      "kind": "AR",
+      "parent": "F76",
+      "text": "That mechanism relies on ID resolution returning exactly one live item.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F78",
+      "kind": "AW",
+      "parent": "F77",
+      "text": "Removing the uniqueness condition makes tag B ambiguous in [A,B,B].",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: edit.duplicate_identity",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F79",
+      "kind": "ALT",
+      "parent": "F78",
+      "text": "A preflight can require one live match for each needed ID before any mutation.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F80",
+      "kind": "AR",
+      "parent": "F79",
+      "text": "With input [A,C], missing B then stops the revision while A remains present; late checking would already have removed A.",
+      "classification": "Necessary",
+      "bedrock": "BEDROCK-TEST/LOGIC: explicit preflight/late-failure states",
+      "count_toward_independent_floor": false
+    }
+  ],
+  "depth": {
+    "claims": 18,
+    "base_findings": 72,
+    "dependency_continuation_nodes": 8,
+    "longest_continuation_edges": 8,
+    "independent_count_policy": "Only the 72 base findings are candidates for independent credit; 8 repeated continuation nodes contribute no new finding credit. Semantic dependencies, not IDs, determine valid depth.",
+    "status": "partial_8x_semantic_depth_review_required"
+  },
+  "live_tests": "finish-fixture-results.json; at least two distinct executed fixtures for this topic",
+  "human_dependency": "A real reader has not compared these candidate texts."
+}

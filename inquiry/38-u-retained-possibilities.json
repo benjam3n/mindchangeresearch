@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "A failed attempt can remain represented as an option with a failed result."
+  },
+  {
+    "id": 2,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "Failure of one attempt does not state the status of every other attempt."
+  },
+  {
+    "id": 3,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "Retaining an alternative can have a resource cost."
+  },
+  {
+    "id": 4,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "The source hope and sure labels can refer to distinct objects."
+  },
+  {
+    "id": 5,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "An attempted change has a result that can be described."
+  },
+  {
+    "id": 6,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "The selected next attempt can differ from the retained failed attempt."
+  },
+  {
+    "id": 7,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "A failure can constrain a narrower proposition than the original broad goal."
+  },
+  {
+    "id": 8,
+    "type": "unbundled-meta",
+    "parent": null,
+    "text": "Interest in investigating is not the same variable as the truth of a claim."
+  },
+  {
+    "id": 9,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "The future alternative space contains meaningful distinctions."
+  },
+  {
+    "id": 10,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "Changing conditions can change whether a replay tests the same proposition."
+  },
+  {
+    "id": 11,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "A useful retained record must remain retrievable for a live query."
+  },
+  {
+    "id": 12,
+    "type": "unbundled-meta",
+    "parent": null,
+    "text": "Benefit from this map must be evaluated on a later operation."
+  },
+  {
+    "id": 13,
+    "type": "state",
+    "parent": 1,
+    "text": "The option can be retained with its result, removed, or retained without its result."
+  },
+  {
+    "id": 14,
+    "type": "category",
+    "parent": 1,
+    "text": "This is an instance of retaining a tested alternative; siblings include a rejected hypothesis and a completed experiment."
+  },
+  {
+    "id": 15,
+    "type": "assumption",
+    "parent": 1,
+    "text": "A retained option has an identity that distinguishes it from its verdict."
+  },
+  {
+    "id": 16,
+    "type": "temporal",
+    "parent": 1,
+    "text": "A present failure and a later changed-condition attempt occupy different times."
+  },
+  {
+    "id": 17,
+    "type": "state",
+    "parent": 2,
+    "text": "Other attempts can be untested, independently failed, or successful within another scope."
+  },
+  {
+    "id": 18,
+    "type": "parameter",
+    "parent": 2,
+    "text": "Number of tested attempts ranges from one to all members of a declared finite set."
+  },
+  {
+    "id": 19,
+    "type": "dimension",
+    "parent": 2,
+    "text": "Attempt identity and evaluation scope are separate axes."
+  },
+  {
+    "id": 20,
+    "type": "perspective",
+    "parent": 2,
+    "text": "A current model can track the set; a human may or may not experience encouragement from it."
+  },
+  {
+    "id": 21,
+    "type": "parameter",
+    "parent": 3,
+    "text": "Retention cost may be one row, a large source bundle, or a repeated expensive operation."
+  },
+  {
+    "id": 22,
+    "type": "state",
+    "parent": 3,
+    "text": "Retain a pointer, retain full evidence, or regenerate from a verified source."
+  },
+  {
+    "id": 23,
+    "type": "scale",
+    "parent": 3,
+    "text": "A single rejected option and hundreds of rejected options create different retrieval spaces."
+  },
+  {
+    "id": 24,
+    "type": "assumption",
+    "parent": 3,
+    "text": "An available pointer still resolves when used; if not, its preservation is only nominal."
+  },
+  {
+    "id": 25,
+    "type": "dimension",
+    "parent": 4,
+    "text": "Left and right propositions can be identical or different."
+  },
+  {
+    "id": 26,
+    "type": "parameter",
+    "parent": 4,
+    "text": "The certainty predicate may apply to one tested outcome while the future option set has many members."
+  },
+  {
+    "id": 27,
+    "type": "category",
+    "parent": 4,
+    "text": "A relation between two attitudes is a binary relation; siblings include compatibility, support and tension."
+  },
+  {
+    "id": 28,
+    "type": "assumption",
+    "parent": 4,
+    "text": "The relation\u2019s actual operands are supplied rather than inferred from labels."
+  },
+  {
+    "id": 29,
+    "type": "state",
+    "parent": 5,
+    "text": "Result can be observed, ambiguous, absent or conditional."
+  },
+  {
+    "id": 30,
+    "type": "dimension",
+    "parent": 5,
+    "text": "Model output, source assertion and human experience are different result channels."
+  },
+  {
+    "id": 31,
+    "type": "perspective",
+    "parent": 5,
+    "text": "A reviewer can inspect an output without observing the user\u2019s experience."
+  },
+  {
+    "id": 32,
+    "type": "temporal",
+    "parent": 5,
+    "text": "Immediate output and delayed transfer are different observations."
+  },
+  {
+    "id": 33,
+    "type": "state",
+    "parent": 6,
+    "text": "Repeat unchanged, change conditions, choose a sibling, or defer selection."
+  },
+  {
+    "id": 34,
+    "type": "category",
+    "parent": 6,
+    "text": "A next-attempt choice is a portfolio allocation; siblings include replication and boundary testing."
+  },
+  {
+    "id": 35,
+    "type": "parameter",
+    "parent": 6,
+    "text": "Similarity to the earlier attempt can range from an exact replay to a new target."
+  },
+  {
+    "id": 36,
+    "type": "scale",
+    "parent": 6,
+    "text": "A one-slot choice and a four-slot portfolio admit different diversity constraints."
+  },
+  {
+    "id": 37,
+    "type": "dimension",
+    "parent": 7,
+    "text": "Scope can be an input, a procedure implementation, a target class or a universal claim."
+  },
+  {
+    "id": 38,
+    "type": "state",
+    "parent": 7,
+    "text": "A failed implementation can coexist with an unresolved underlying idea."
+  },
+  {
+    "id": 39,
+    "type": "assumption",
+    "parent": 7,
+    "text": "The failure observation actually bears on the proposition being narrowed."
+  },
+  {
+    "id": 40,
+    "type": "perspective",
+    "parent": 7,
+    "text": "A source defender may attribute failure to implementation; a critic may target the proposition. Both require a discriminator."
+  },
+  {
+    "id": 41,
+    "type": "category",
+    "parent": 8,
+    "text": "Investigation priority is a selection judgment; truth is an epistemic property."
+  },
+  {
+    "id": 42,
+    "type": "state",
+    "parent": 8,
+    "text": "An interesting claim can be false, unresolved or established."
+  },
+  {
+    "id": 43,
+    "type": "dimension",
+    "parent": 8,
+    "text": "Novelty, tractability and consequence can vary independently of truth status."
+  },
+  {
+    "id": 44,
+    "type": "temporal",
+    "parent": 8,
+    "text": "A resolved false claim can still motivate a later mechanism question."
+  },
+  {
+    "id": 45,
+    "type": "parameter",
+    "parent": 9,
+    "text": "Maybe as p>0 includes p=1; maybe as 0<p<1 does not."
+  },
+  {
+    "id": 46,
+    "type": "dimension",
+    "parent": 9,
+    "text": "Logical possibility and strict uncertainty are two candidate senses."
+  },
+  {
+    "id": 47,
+    "type": "state",
+    "parent": 9,
+    "text": "The sure/positive overlap and sure/strict exclusion occupy different cells in SE35."
+  },
+  {
+    "id": 48,
+    "type": "assumption",
+    "parent": 9,
+    "text": "The chosen meaning is declared for the fixture; the source intended meaning may remain unknown."
+  },
+  {
+    "id": 49,
+    "type": "temporal",
+    "parent": 10,
+    "text": "A changed source version creates a new input at a later time."
+  },
+  {
+    "id": 50,
+    "type": "parameter",
+    "parent": 10,
+    "text": "Change can concern price, actor, tool, semantics or opportunity window."
+  },
+  {
+    "id": 51,
+    "type": "state",
+    "parent": 10,
+    "text": "A replay can replicate, extend or fail to address the earlier claim."
+  },
+  {
+    "id": 52,
+    "type": "assumption",
+    "parent": 10,
+    "text": "The recorded changed condition is causally or logically relevant, rather than decorative."
+  },
+  {
+    "id": 53,
+    "type": "perspective",
+    "parent": 11,
+    "text": "The next model reader needs the discriminating condition; the author may need literal fidelity."
+  },
+  {
+    "id": 54,
+    "type": "dimension",
+    "parent": 11,
+    "text": "Search key can be verdict, obstacle, target or source."
+  },
+  {
+    "id": 55,
+    "type": "scale",
+    "parent": 11,
+    "text": "Chronology and a scoped index support different corpus sizes."
+  },
+  {
+    "id": 56,
+    "type": "state",
+    "parent": 11,
+    "text": "A concise index can coexist with complete underlying records."
+  },
+  {
+    "id": 57,
+    "type": "state",
+    "parent": 12,
+    "text": "The map can change an input, remain unused, or repeat what was already known."
+  },
+  {
+    "id": 58,
+    "type": "assumption",
+    "parent": 12,
+    "text": "A changed operation has an inspectable before/input and after/output."
+  },
+  {
+    "id": 59,
+    "type": "perspective",
+    "parent": 12,
+    "text": "The user\u2019s appraisal is a separate observation from the model\u2019s output difference."
+  },
+  {
+    "id": 60,
+    "type": "temporal",
+    "parent": 12,
+    "text": "Present use does not establish future transfer."
+  }
+]

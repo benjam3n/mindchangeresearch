@@ -1,0 +1,14 @@
+{
+  "closed": {
+    "route": "East",
+    "travel_minutes": 12
+  },
+  "open": {
+    "route": "North",
+    "travel_minutes": 8
+  },
+  "unavailable": {
+    "route": "East",
+    "travel_minutes": 12
+  }
+}

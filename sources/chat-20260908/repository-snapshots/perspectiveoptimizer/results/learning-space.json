@@ -1,0 +1,373 @@
+{
+  "space": "learning-difficulty-001",
+  "basis": "4255227c77488772b7c54085bd0c9e816613775e17318df1fee3c7a8da29ff42",
+  "assignment_count": 12,
+  "open_count": 5,
+  "candidates": [
+    {
+      "id": "9a2f5becd931bbff053de6b072e7c6ef0716548724c321fb5ba2fa96e78fd2da",
+      "assignment": {
+        "interpretation": "missing_content",
+        "representation": "current_prose",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_content",
+          "description": "A required relation is not understood.",
+          "contribution": "Identify the required relation and request an explanation of that relation with its context supplied; compare with what the next operation requires."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "open_candidate",
+      "exclusions": []
+    },
+    {
+      "id": "8191b5940a4c04261db57af39606a147d7fa7e55fa22728c807e8cf1b3cf2006",
+      "assignment": {
+        "interpretation": "missing_content",
+        "representation": "current_prose",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_content",
+          "description": "A required relation is not understood.",
+          "contribution": "Identify the required relation and request an explanation of that relation with its context supplied; compare with what the next operation requires."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    },
+    {
+      "id": "f645d9efb89a74f21af9129dd3eed669411125e7957f9ab653864bfa51146e6d",
+      "assignment": {
+        "interpretation": "missing_content",
+        "representation": "contrasting_cases",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_content",
+          "description": "A required relation is not understood.",
+          "contribution": "Identify the required relation and request an explanation of that relation with its context supplied; compare with what the next operation requires."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "open_candidate",
+      "exclusions": []
+    },
+    {
+      "id": "61a1a22c3cc8cb8f8fea9b1a3ac459e044841f1f4fd1866eba26b6bf310ec68a",
+      "assignment": {
+        "interpretation": "missing_content",
+        "representation": "contrasting_cases",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_content",
+          "description": "A required relation is not understood.",
+          "contribution": "Identify the required relation and request an explanation of that relation with its context supplied; compare with what the next operation requires."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    },
+    {
+      "id": "62b55640f576d46e8fb1f6b4ae3873096e7ece1f56b32e196bd6c0a759cd8654",
+      "assignment": {
+        "interpretation": "missing_retrieval",
+        "representation": "current_prose",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_retrieval",
+          "description": "An available approach is not brought into operation.",
+          "contribution": "Supply a minimal cue that does not provide the solution operation; compare independent and cued performance."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "open_candidate",
+      "exclusions": []
+    },
+    {
+      "id": "a6280a637b2093583ba4f8ca59d5d1d746b1f5856936617e9dbda3041ed00f40",
+      "assignment": {
+        "interpretation": "missing_retrieval",
+        "representation": "current_prose",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_retrieval",
+          "description": "An available approach is not brought into operation.",
+          "contribution": "Supply a minimal cue that does not provide the solution operation; compare independent and cued performance."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    },
+    {
+      "id": "d0021b53923779ccf3ea6522e38b445aebaef91b5c367f07a1a2a03cf4eadc4f",
+      "assignment": {
+        "interpretation": "missing_retrieval",
+        "representation": "contrasting_cases",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_retrieval",
+          "description": "An available approach is not brought into operation.",
+          "contribution": "Supply a minimal cue that does not provide the solution operation; compare independent and cued performance."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "open_candidate",
+      "exclusions": []
+    },
+    {
+      "id": "009c43c2ab0d4096c959b7f915ea569babdd936cc97dbad0a10738da8be01a0a",
+      "assignment": {
+        "interpretation": "missing_retrieval",
+        "representation": "contrasting_cases",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_retrieval",
+          "description": "An available approach is not brought into operation.",
+          "contribution": "Supply a minimal cue that does not provide the solution operation; compare independent and cued performance."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    },
+    {
+      "id": "82096e5f52df3458a44a4f8e571abe0fa18c99851094f479c87479de925f6e71",
+      "assignment": {
+        "interpretation": "missing_representation",
+        "representation": "current_prose",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_representation",
+          "description": "The current prose does not expose the relation needed for an operation.",
+          "contribution": "Construct contrasting cases that expose the relation and identify which next operation becomes available."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unchanged-prose-does-not-supply-this-change",
+          "reason": "This candidate specifically requires constructing contrasting cases; keeping only the unchanged prose does not supply its declared operation. This does not exclude all uses of prose."
+        }
+      ]
+    },
+    {
+      "id": "8a800bf0f2c4c340137b1b02d69c81d3a27b1c6d5d46b3f150eea57a156f30fa",
+      "assignment": {
+        "interpretation": "missing_representation",
+        "representation": "current_prose",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_representation",
+          "description": "The current prose does not expose the relation needed for an operation.",
+          "contribution": "Construct contrasting cases that expose the relation and identify which next operation becomes available."
+        },
+        "representation": {
+          "id": "current_prose",
+          "description": "The existing prose remains the available representation.",
+          "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unchanged-prose-does-not-supply-this-change",
+          "reason": "This candidate specifically requires constructing contrasting cases; keeping only the unchanged prose does not supply its declared operation. This does not exclude all uses of prose."
+        },
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    },
+    {
+      "id": "64ab9cc3527efcf5e70019c143e1456d56b2185a52dc1dc1a506dafbedb03835",
+      "assignment": {
+        "interpretation": "missing_representation",
+        "representation": "contrasting_cases",
+        "commitment": "trial"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_representation",
+          "description": "The current prose does not expose the relation needed for an operation.",
+          "contribution": "Construct contrasting cases that expose the relation and identify which next operation becomes available."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "trial",
+          "description": "The interpretation is used as a provisional inquiry basis.",
+          "contribution": "Use its conditional consequences to choose a discriminating observation."
+        }
+      },
+      "status": "open_candidate",
+      "exclusions": []
+    },
+    {
+      "id": "6c98e2606b4b71db5d1acf108f2fd230ad982ab859277c910689f568d86aac1a",
+      "assignment": {
+        "interpretation": "missing_representation",
+        "representation": "contrasting_cases",
+        "commitment": "settled"
+      },
+      "contributions": {
+        "interpretation": {
+          "id": "missing_representation",
+          "description": "The current prose does not expose the relation needed for an operation.",
+          "contribution": "Construct contrasting cases that expose the relation and identify which next operation becomes available."
+        },
+        "representation": {
+          "id": "contrasting_cases",
+          "description": "A relevant positive and negative case are represented together.",
+          "contribution": "Compare their application conditions while varying incidental wording."
+        },
+        "commitment": {
+          "id": "settled",
+          "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+          "contribution": "Direct a remedy on the assumption that this particular account is established."
+        }
+      },
+      "status": "excluded_under_declared_rule",
+      "exclusions": [
+        {
+          "id": "unobserved-cause-cannot-be-settled-here",
+          "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+        }
+      ]
+    }
+  ],
+  "coverage": "Every assignment in these declared finite dimensions; excluded assignments are retained with reasons.",
+  "semantic_standing": "Open candidates require semantic examination. No universal completeness or optimality follows."
+}

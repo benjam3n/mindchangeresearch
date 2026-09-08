@@ -1,0 +1,233 @@
+{
+  "computed_utc": "2026-09-08T04:32:49.371754+00:00",
+  "correct": 16,
+  "total": 16,
+  "feedback": [
+    {
+      "id": "P01",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "A",
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "P02",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P03",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "A",
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "P04",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "A",
+          0,
+          1
+        ],
+        [
+          "B",
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "P05",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          3
+        ],
+        [
+          "A",
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "P06",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P07",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          2
+        ],
+        [
+          "C",
+          2,
+          4
+        ],
+        [
+          "A",
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "P08",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P09",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P10",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P11",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          2
+        ],
+        [
+          "C",
+          2,
+          4
+        ],
+        [
+          "A",
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "P12",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "B",
+          1,
+          2
+        ],
+        [
+          "C",
+          2,
+          3
+        ],
+        [
+          "A",
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "P13",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "A",
+          0,
+          2
+        ],
+        [
+          "B",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "P14",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    },
+    {
+      "id": "P15",
+      "prediction": true,
+      "computed_feasible": true,
+      "correct": true,
+      "example_feasible_schedule": [
+        [
+          "A",
+          0,
+          2
+        ],
+        [
+          "B",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "P16",
+      "prediction": false,
+      "computed_feasible": false,
+      "correct": true,
+      "example_feasible_schedule": null
+    }
+  ]
+}

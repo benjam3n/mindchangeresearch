@@ -1,0 +1,88 @@
+{
+  "frozen_at_utc": "2026-09-08T04:44:18.951646+00:00",
+  "purpose": "Genuinely new inputs; prior incomplete prediction records remain retrospective and unchanged.",
+  "predictions": [
+    {
+      "input": {
+        "budget": 24
+      },
+      "prediction": {
+        "actions": [
+          "E"
+        ],
+        "cost": 20,
+        "value": 18
+      },
+      "confidence": 85,
+      "id": "NEW-1",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "budget": 44
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C"
+        ],
+        "cost": 35,
+        "value": 40
+      },
+      "confidence": 85,
+      "id": "NEW-2",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "budget": 54
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "G"
+        ],
+        "cost": 50,
+        "value": 48
+      },
+      "confidence": 80,
+      "id": "NEW-3",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "budget": 64
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "confidence": 85,
+      "id": "NEW-4",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "budget": 69
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "confidence": 85,
+      "id": "NEW-5",
+      "status": "PENDING"
+    }
+  ]
+}

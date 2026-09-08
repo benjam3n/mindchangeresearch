@@ -1,0 +1,324 @@
+{
+  "full_content_scanned": true,
+  "items": [
+    {
+      "file": "001-orgn-1.md",
+      "bytes": 7714,
+      "words": 1095,
+      "primary": "Domain boundaries",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-orgn.md",
+        "../sources/representation-orgn.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "002-sim-1.md",
+      "bytes": 6965,
+      "words": 1001,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-sim.md",
+        "../sources/representation-sim.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "003-ro-1.md",
+      "bytes": 7254,
+      "words": 1105,
+      "primary": "Execution arrangement",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-ro.md",
+        "../sources/representation-ro.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "004-orgn-2.md",
+      "bytes": 7316,
+      "words": 1010,
+      "primary": "Domain boundaries",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-orgn.md",
+        "../sources/representation-orgn.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "005-sim-2.md",
+      "bytes": 4551,
+      "words": 605,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-sim.md",
+        "../sources/representation-sim.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "006-sim-3.md",
+      "bytes": 5435,
+      "words": 766,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-sim.md",
+        "../sources/representation-sim.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "007-orgn-3.md",
+      "bytes": 5693,
+      "words": 764,
+      "primary": "Domain boundaries",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-orgn.md",
+        "../sources/representation-orgn.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "008-alt-1.md",
+      "bytes": 5116,
+      "words": 703,
+      "primary": "Access paths",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-alt.md",
+        "../sources/representation-alt.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "009-alt-2.md",
+      "bytes": 4608,
+      "words": 658,
+      "primary": "Access paths",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-alt.md",
+        "../sources/representation-alt.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "010-alt-3.md",
+      "bytes": 4519,
+      "words": 621,
+      "primary": "Access paths",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-alt.md",
+        "../sources/representation-alt.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "011-ctcov-1.md",
+      "bytes": 6636,
+      "words": 960,
+      "primary": "Execution arrangement",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-ctcov.md",
+        "../sources/representation-ctcov.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "012-difr-1.md",
+      "bytes": 4687,
+      "words": 648,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-difr.md",
+        "../sources/representation-difr.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "013-difr-2.md",
+      "bytes": 4276,
+      "words": 582,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-difr.md",
+        "../sources/representation-difr.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "014-difr-3.md",
+      "bytes": 4926,
+      "words": 698,
+      "primary": "Execution arrangement",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-difr.md",
+        "../sources/representation-difr.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "015-omtx-1.md",
+      "bytes": 5841,
+      "words": 776,
+      "primary": "Domain boundaries",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-omtx.md",
+        "../sources/representation-omtx.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "016-nusr-1.md",
+      "bytes": 5536,
+      "words": 765,
+      "primary": "Access paths",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-nusr.md",
+        "../sources/representation-nusr.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "017-anag-1.md",
+      "bytes": 4575,
+      "words": 640,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-anag.md",
+        "../sources/representation-anag.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "018-anag-2.md",
+      "bytes": 4774,
+      "words": 624,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-anag.md",
+        "../sources/representation-anag.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "019-met-1.md",
+      "bytes": 4975,
+      "words": 717,
+      "primary": "Meaning preservation",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-met.md",
+        "../sources/representation-met.requirements.txt",
+        "source-receipts.json"
+      ]
+    },
+    {
+      "file": "020-ma-1.md",
+      "bytes": 6302,
+      "words": 889,
+      "primary": "Meaning preservation",
+      "evidence_form": "Explicit countercase",
+      "references": [
+        "../sources/representation-ma.md",
+        "../sources/representation-ma.requirements.txt",
+        "source-receipts.json",
+        "ma-1-combinations.md",
+        "ma-1-combinations.json"
+      ]
+    },
+    {
+      "file": "021-ma-2.md",
+      "bytes": 6507,
+      "words": 929,
+      "primary": "Access paths",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-ma.md",
+        "../sources/representation-ma.requirements.txt",
+        "source-receipts.json",
+        "ma-2-combinations.md",
+        "ma-2-combinations.json"
+      ]
+    },
+    {
+      "file": "022-ma-3.md",
+      "bytes": 6213,
+      "words": 878,
+      "primary": "Domain boundaries",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-ma.md",
+        "../sources/representation-ma.requirements.txt",
+        "source-receipts.json",
+        "ma-3-combinations.md",
+        "ma-3-combinations.json"
+      ]
+    },
+    {
+      "file": "023-op-1.md",
+      "bytes": 5338,
+      "words": 688,
+      "primary": "Execution arrangement",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-op.md",
+        "../sources/representation-op.requirements.txt",
+        "source-receipts.json",
+        "order-case-results.json"
+      ]
+    },
+    {
+      "file": "024-op-2.md",
+      "bytes": 4729,
+      "words": 657,
+      "primary": "Execution arrangement",
+      "evidence_form": "Constructed path",
+      "references": [
+        "../sources/representation-op.md",
+        "../sources/representation-op.requirements.txt",
+        "source-receipts.json"
+      ]
+    }
+  ],
+  "counts": {
+    "Meaning preservation": 9,
+    "Domain boundaries": 5,
+    "Access paths": 5,
+    "Execution arrangement": 5
+  },
+  "cross_reference": {
+    "Meaning preservation": {
+      "Explicit countercase": 8,
+      "Constructed path": 1
+    },
+    "Domain boundaries": {
+      "Explicit countercase": 1,
+      "Constructed path": 4
+    },
+    "Access paths": {
+      "Explicit countercase": 1,
+      "Constructed path": 4
+    },
+    "Execution arrangement": {
+      "Explicit countercase": 2,
+      "Constructed path": 3
+    }
+  }
+}

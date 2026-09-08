@@ -1,0 +1,91 @@
+{
+  "name": "Curiosity trace record",
+  "description": "Capture a single authored exploration step with its question, input, output, status and relation to earlier work.",
+  "inputs": {
+    "question": "Concrete question being explored.",
+    "source_item": "Supplied text, object, construction or prior note actually used.",
+    "operation": "The operation actually performed, if any.",
+    "output": "Its actual text, comparison or constructed result.",
+    "prior_record": "Earlier record, if a continuation exists.",
+    "interest_reason": "The particular surprise or attraction; no usefulness requirement."
+  },
+  "outputs": {
+    "trace_record": "Question, source, operation, output, actual/constructed/planned status, prior link, interest reason and uncertainty.",
+    "open_thread": "The next unresolved question or a dead-end reason."
+  },
+  "success_criteria": [
+    "Authored results stay distinguishable from source observations.",
+    "A planned operation has no observed result attributed to it.",
+    "A dead end can retain interest without fabricated utility."
+  ],
+  "steps": [
+    "Record the selected question and its interest reason.",
+    "Record the exact supplied or constructed input.",
+    "State the performed operation and preserve the resulting output.",
+    "Label whether the input/result is actual, constructed or only planned.",
+    "Link any continuation to the prior record.",
+    "Record the open question or the reason this thread stopped."
+  ],
+  "verification": [
+    "Trace each claimed observation to the supplied input or actual output.",
+    "Check that the continuation refers to a record that exists.",
+    "Check that a planned test is not described as completed."
+  ],
+  "complexity": "simple record creation with moderate status interpretation.",
+  "dependencies": [
+    "An actual exploration product or explicitly planned step."
+  ],
+  "reuse_potential": "Creative comparisons, thought experiments, interpretation exercises and later source studies.",
+  "id": "local-curiosity-trace",
+  "version": "1.0.0",
+  "when_to_use": [
+    "A local exploration has a concrete input and output to preserve.",
+    "A proposed operation should remain visibly unperformed."
+  ],
+  "examples": [
+    {
+      "input": "Same question label placed at a platform and a drawing.",
+      "output": "Two constructed interpretations; no audience effect claimed."
+    },
+    {
+      "input": "A causal experiment is proposed but not performed.",
+      "output": "Planned status; predicted result is a prediction."
+    },
+    {
+      "input": "An explored metaphor produced no distinct comparison.",
+      "output": "Dead-end reason retained; interest can remain."
+    },
+    {
+      "input": "A second note revises an earlier question.",
+      "output": "New trace linked to the earlier note and its changed question."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Interesting idea labeled true",
+      "consequence": "Value substitutes for evidence.",
+      "prevention": "Keep interest reason separate from evidence status."
+    },
+    {
+      "failure": "Planned operation narrated in past tense",
+      "consequence": "An unperformed test becomes a result.",
+      "prevention": "Retain planned status."
+    },
+    {
+      "failure": "Missing earlier record",
+      "consequence": "A later question loses its derivation.",
+      "prevention": "Carry a resolvable prior link or mark it unavailable."
+    },
+    {
+      "failure": "No utility is coded as no value",
+      "consequence": "Pure-interest exploration disappears.",
+      "prevention": "Retain the stated interest reason without promised benefit."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Actual exploration operation or explicit plan.",
+    "before": "Continuation choice.",
+    "external_gate": "Human outcome claims need observations beyond a constructed trace.",
+    "artifact_scope": "Evidence-bearing local inquiry record."
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2ml73g",
+    "id": "2ml73g",
+    "slide": 1,
+    "layoutId": "ed7b2c75-e2d6-48dc-b500-f9f844d604fa",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAF9F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ed7b2c75-e2d6-48dc-b500-f9f844d604fa",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kbexoz2d",
+      "id": "1",
+      "name": "Intended mind change:",
+      "bbox": [
+        72,
+        64,
+        1136,
+        96
+      ],
+      "geometry": "rect",
+      "text": "Intended mind change:",
+      "textPreview": "Intended mind change:",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "fontSize": 64,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Intended mind change:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Intended mind change:",
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "color": "#1A1A1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Intended mind change:",
+              "fontSize": 64,
+              "color": "#1A1A1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/za5wfu1s",
+      "id": "2",
+      "name": "Keep claims inside their evidence.",
+      "bbox": [
+        72,
+        256,
+        1136,
+        120
+      ],
+      "geometry": "rect",
+      "text": "Keep claims inside their evidence.",
+      "textPreview": "Keep claims inside their evidence.",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "fontSize": 56,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Keep claims inside their evidence."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Keep claims inside their evidence.",
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "color": "#1A1A1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Keep claims inside their evidence.",
+              "fontSize": 56,
+              "color": "#1A1A1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y9wvmpk7",
+      "id": "3",
+      "name": "Exceptions · unknowns · changed criteria",
+      "bbox": [
+        72,
+        456,
+        1136,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Exceptions · unknowns · changed criteria",
+      "textPreview": "Exceptions · unknowns · changed criteria",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Exceptions · unknowns · changed criteria"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Exceptions · unknowns · changed criteria",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1A1A1A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Exceptions · unknowns · changed criteria",
+              "fontSize": 40,
+              "color": "#1A1A1A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

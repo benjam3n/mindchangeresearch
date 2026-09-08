@@ -1,0 +1,191 @@
+[
+  {
+    "id": "adep",
+    "bytes": 6071,
+    "sha256": "6275109031ca095cb778213f6a6cb29e86593db23751735c08109b314872371a",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "benf",
+    "bytes": 3386,
+    "sha256": "c4429258ef5d182cba6e53ccdae944979747316196357df8aa8104dd0a2a035a",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "boc",
+    "bytes": 7893,
+    "sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "cmplx",
+    "bytes": 5029,
+    "sha256": "a25f288836d145f9eb7cd258f14a27fd17c16295f891adb04f931edd19b591bd",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "crtv",
+    "bytes": 4890,
+    "sha256": "49f21926c4f2cf70c023c92b176151c4c1d9a878e13956e2a1b45161cc8a9706",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "extract",
+    "bytes": 6806,
+    "sha256": "ceebfc644e712ec985e6c09dbd3384eed07049f78d82ca59a7aca572639c0589",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "foht",
+    "bytes": 9416,
+    "sha256": "55ad28caf754e272795d983dc5b1e41f6153b8f418827d50336c2e983e1e1ea5",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "gg",
+    "bytes": 21473,
+    "sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "given",
+    "bytes": 7417,
+    "sha256": "d41817b70672ec4a2d2cad9e42d2951ab6c14064adf98fb1ad4bcf2fd1ac10c6",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "iterate",
+    "bytes": 14776,
+    "sha256": "4fbd3a8d677d2cf94b909bc6c0ab425063cca71d5ea27df6bc6eab7a32daaf7c",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "itp",
+    "bytes": 6479,
+    "sha256": "3572153877d93f9d4cf45d8fa6b13f51e67b656ba991b0b70b4595a90f51f76f",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "la",
+    "bytes": 4372,
+    "sha256": "33e909a5717c1e38255b030fe87cc0fe97b25f357f39fff0e51e19f01ebec0eb",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "md",
+    "bytes": 2028,
+    "sha256": "31fe8a01dd0b0eb4cf06518a0bca2054275f2c777ac52341f77b4a672629dd4d",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "mrc",
+    "bytes": 3529,
+    "sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "mtcg",
+    "bytes": 5261,
+    "sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "pbtc",
+    "bytes": 16768,
+    "sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "pcd",
+    "bytes": 4733,
+    "sha256": "929b5f4a3ae4f9ff0c5cf340cc216fb138a9c3d083f819b42a47e210d3dcf943",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "pci",
+    "bytes": 2521,
+    "sha256": "125a616aa2282251afb5e8bb9a8c144dc2222a614bc3a2677a1cb73329a1a8ee",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "pv",
+    "bytes": 9115,
+    "sha256": "2775d4c3d00eba35e587cf0e7ae3c4f11c1d6b35c2d7e65d75f73b6cb7380aab",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "satr",
+    "bytes": 2781,
+    "sha256": "4715511980deaaf999e241f986c782e720e2ece7f4efe2944444dacb54e164fb",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "sp",
+    "bytes": 8506,
+    "sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "svs",
+    "bytes": 3565,
+    "sha256": "eb82427aead79faffcee89235fb4f31465fd892dd560fc1e0466fcc9e2c25b47",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "uf",
+    "bytes": 6579,
+    "sha256": "bddade1a3612c0053979bed5e1845ef8b5293df488f43ec30d109b6a9609eea4",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "unx",
+    "bytes": 9130,
+    "sha256": "078b47e1917f52c96f47df01ffb4d6f27b0933f1536a8d59cd91b32a25cc339c",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "upth",
+    "bytes": 4093,
+    "sha256": "4640f6a050a4dd37444253af1e781e25ad263f1ee01279144056f551e489baf5",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "utp",
+    "bytes": 3099,
+    "sha256": "61c5e4653b3a86f75fa145732b23b4dcd770299e4a97b09cd332abbeb796e8b4",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  },
+  {
+    "id": "wsib",
+    "bytes": 7589,
+    "sha256": "913dcb46a5269e7b88f27be48fa7664364a05f7e4102f7da19f65c9205a46cfc",
+    "matches_receipt": true,
+    "requirements_body_identical_to_read_sp": true
+  }
+]

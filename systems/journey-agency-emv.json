@@ -1,0 +1,140 @@
+{
+  "tests": [
+    {
+      "active": false,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "describe",
+      "accepted": false
+    },
+    {
+      "active": false,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "inspect",
+      "accepted": false
+    },
+    {
+      "active": false,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "execute",
+      "accepted": false
+    },
+    {
+      "active": false,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "describe",
+      "accepted": false
+    },
+    {
+      "active": false,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "inspect",
+      "accepted": false
+    },
+    {
+      "active": false,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "execute",
+      "accepted": false
+    },
+    {
+      "active": true,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "describe",
+      "accepted": false
+    },
+    {
+      "active": true,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "inspect",
+      "accepted": false
+    },
+    {
+      "active": true,
+      "returned_revision": 1,
+      "current_revision": 2,
+      "action": "execute",
+      "accepted": false
+    },
+    {
+      "active": true,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "describe",
+      "accepted": true
+    },
+    {
+      "active": true,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "inspect",
+      "accepted": true
+    },
+    {
+      "active": true,
+      "returned_revision": 2,
+      "current_revision": 2,
+      "action": "execute",
+      "accepted": false
+    }
+  ],
+  "checks": {
+    "stopped_rejects": true,
+    "obsolete_rejects": true,
+    "unauthorized_rejects": true,
+    "two_authorized_active_cases": true,
+    "conjunction_equivalence": true
+  },
+  "edge_cases": [
+    "stopped current description",
+    "active obsolete description",
+    "active current execution",
+    "stopped obsolete execution",
+    "active current inspect",
+    "stopped current inspect"
+  ],
+  "calibrations": [
+    {
+      "id": "P1",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "stopped obsolete describe rejects",
+      "outcome": true
+    },
+    {
+      "id": "P2",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "active obsolete describe rejects",
+      "outcome": true
+    },
+    {
+      "id": "P3",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "active current describe accepts",
+      "outcome": true
+    },
+    {
+      "id": "P4",
+      "confidence": 80,
+      "status": "CONFIRMED",
+      "prediction": "active current inspect accepts",
+      "outcome": true
+    },
+    {
+      "id": "P5",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "active current execute rejects",
+      "outcome": true
+    }
+  ]
+}

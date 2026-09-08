@@ -1,0 +1,31 @@
+### Pass 1
+
+[OBSERVED: preserved bytes] Whole input: pbtc-02-input.txt; SHA-256 `361c0a2b1bf68f9a6450f062c0e8621c608bae1d0a7eab010e46197bed5b4741`. The full preceding output, not just its verdict, is the input.
+
+THESIS UNDER CHECK: Under the stipulated use distribution and expected-net-time criterion, creating the cue has a two-minute expected advantage; under exactly two uses the time-only choice reverses.
+
+[OBSERVED: input contents] The fixed creation cost is ten minutes, each use saves four, and use counts 0, 2 and 10 have probabilities 3/10, 1/2 and 1/5. The three net outcomes are −10, −2 and 30. BENF-01 states +2 expected net minutes and a 1/5 probability of positive net time. It withholds quantitative credit for unmeasured frustration, motivation and transfer.
+
+[OBSERVED: full input text] Evidence selection: cherry-picked evidence—absent; asymmetric rigor—absent; missing null—absent; survivorship framing—absent; date-selected evidence—absent. All three supplied outcomes, including the two nonpositive outcomes carrying 4/5 probability, are printed. The creation cost is included in each row. The same arithmetic standard is applied to the positive mean and the negative two-use case; no empirical time window is selected.
+
+[OBSERVED: full input text; DERIVED: commitments and countercases] Argumentative structure: conclusion appears early with confidence—absent as an asserted final verdict; no pivot point—absent; motte-and-bailey—absent; straw alternatives—absent; forced linearity—absent; rhetorical hedging as armor—absent. The opening says use, cost and human effects have not yet been combined. The two-use result actually reverses the recommendation. Expected gain is kept distinct from probability of gain and from an 80%-positive decision rule; no retreat from a real-world benefit claim occurs because no such claim is asserted.
+
+[OBSERVED: full input text] Emotional/social tells: identity fusion—no visible appeal; sunk-cost defense—absent from the argument; audience capture—no desired specific verdict supplied for this case; disproportionate certainty—absent; defensive reaction—no interaction supplied. The document accepts omission of the cue at two uses and refuses to invent motivation value to rescue creation. It contains no identity appeal, investment-based defense or defensive exchange. Actual author motivation is not observable from this text. These are observations of text, not verified absences of private motives.
+
+[OBSERVED: frozen input; DERIVED: documented scope] Process tells: conclusion predates research—unknown for the original private history; methodology fitted to outcome—no confirming record; missing written methodology—absent; post-hoc hypothesis advertised as prospective—absent; unfalsifiable framing—absent. The probability distribution is declared stipulated, not learned from user behavior. The author’s initial choice of example has no preserved earlier chronology. The written calculation is reproducible and contains its negative comparator. No prospective empirical hypothesis, causal human effect or universal creation recommendation is claimed.
+
+[DERIVED: stated premises and exact contrary case] Reversal test: The positive mean uses all three outcomes: −10×.3 −2×.5 +30×.2 = 2. Opposite recommendation evidence is actually present in the changed-input two-use calculation: 4×2−10 = −2, so retain the existing source for time alone. This is a sensitivity case, not evidence that a real user changed their preference.
+
+Counter-theses and their disposition:
+
+1. [DERIVED: exact input and countercase] Avoid creating a cue unless positive net time has high probability: engaged; the separate 80% rule rejects creation because only 20% of outcomes are positive.
+2. [DERIVED: exact input and countercase] Create for enjoyment even with negative instrumental time: engaged as an additional unmeasured goal; it is not assigned a fabricated rescue value.
+3. [DERIVED: exact input and countercase] No positive expected-time effect: engaged through the net rows and equality 4N−10=0; it does not hold under the stated distribution but holds at the break-even boundary.
+
+[OBSERVED: artifact order; DERIVED: limits of that observation] Timeline: The source is a completed retrospective document captured before this audit. Its current wording is observable; the author’s first private conclusion and its date are unavailable. The displayed argument order is not substituted for prospective chronology.
+
+[DERIVED: complete scan and reversals] Assessment: all 21 named signals scanned in four categories; zero confirmed critical signals. No significant pre-bake fingerprint is supported by this text. Absence of private chronology, a specific desired audience verdict and a defensive exchange is retained as unavailable evidence, not scored as proved absence of bias. Written counter-theses are engaged. Reversal result for the author’s actual historical responsiveness: UNCLEAR; changed-input sensitivity and conditional countercases do not establish that response under contrary evidence about the same fixed claim.
+
+PASS 1 VERDICT: CLEAN for the supplied documentary reasoning. This does not establish an unobserved psychological history.
+
+[DERIVED: assessment] Action: No restart of the supplied analysis is warranted by the scan. The optional CLEAN→ARAW strengthening route is not elected: this input requests a provenance audit, and no stronger substantive claim is sought.

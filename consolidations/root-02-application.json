@@ -1,0 +1,9 @@
+{
+  "input": "K1 has A=0, unknown inversion; newly available calibration costs 3; repeated A costs 1",
+  "findings_used": ["gosm/06-uncertainty-and-next-query.md", "gosm/08-capability-and-reachable-states.md"],
+  "cases": [
+    {"budget": 2, "calibration_available": true, "calibration_feasible": false, "repeated_A_informative": false, "result": "x unresolved"},
+    {"budget": 3, "calibration_available": true, "calibration_feasible": true, "repeated_A_informative": false, "result": "calibrate r; x resolved under exact query model"}
+  ],
+  "scope": "Declared information and resource model; no empirical human benefit or newly deployed tool"
+}

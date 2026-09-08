@@ -1,0 +1,380 @@
+{
+  "claim": "A self-chosen two-minute gateway can increase voluntary starts without reducing intrinsic interest.",
+  "nodes": [
+    {
+      "id": "R1",
+      "parent": null,
+      "text": "A self-chosen two-minute gateway can increase voluntary starts without reducing intrinsic interest.",
+      "strength": "Assumed analytical proposition",
+      "kind": "Root",
+      "bedrock": null
+    },
+    {
+      "id": "R2",
+      "parent": "R1",
+      "text": "If a self-chosen two-minute gateway can increase voluntary starts without lowering intrinsic interest, at least one eligible context must show both outcomes together.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R3",
+      "parent": "R2",
+      "text": "A study of that conjunction must distinguish initiated inquiry from time spent preparing and must record inherent interest separately.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R4",
+      "parent": "R3",
+      "text": "Given a comparison that holds the chosen question and freedom to decline fixed, the manipulated gateway can be separated from a change in task content.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R5",
+      "parent": "R4",
+      "text": "If groups are randomly assigned to the gateway and equally optional active-control conditions, measured baseline differences are not a required explanation of an average difference.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R6",
+      "parent": "R5",
+      "text": "If the planned comparison preserves optionality and measures both endpoints, a positive start effect still needs an interest-loss bound before satisfying the no-reduction part.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R7",
+      "parent": "R6",
+      "text": "A predefined start threshold and interest-loss margin make a future result classifiable as supporting, conflicting or unresolved for the operationalized hypothesis.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R8",
+      "parent": "R7",
+      "text": "Deferred test: compare a voluntary gateway and an equally voluntary active control using the predeclared substantive-start outcome and interest-loss margin. No participants or outcome data are available in this run.",
+      "strength": "Necessary within the stated case",
+      "kind": "Testable prediction",
+      "bedrock": "BEDROCK-TEST-DEFERRED: real participant/data unavailable"
+    },
+    {
+      "id": "R9",
+      "parent": "R7",
+      "text": "Changing the margin after seeing results would test a new hypothesis.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R10",
+      "parent": "R7",
+      "text": "Adequate sample assumptions and missing outcomes remain necessary for interpreting the planned interval.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R11",
+      "parent": "R6",
+      "text": "FORECLOSED: failure to find a significant interest decrease is not itself evidence of no meaningful decrease.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R12",
+      "parent": "R6",
+      "text": "A predeclared noninferiority margin operationalizes a bounded version; exact zero loss is harder and remains distinct.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R13",
+      "parent": "R5",
+      "text": "Randomization does not guarantee identical finite groups; baseline imbalance remains reportable.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R14",
+      "parent": "R5",
+      "text": "Allocation concealment prevents a recruiter from selecting a favored condition for particular people, if actually implemented.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R15",
+      "parent": "R4",
+      "text": "FORECLOSED: switching to a more attractive question at the same time prevents attributing a difference solely to gateway structure.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R16",
+      "parent": "R4",
+      "text": "Equal question content still leaves individual preferences and prior skill as possible moderators; human data are unavailable.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R17",
+      "parent": "R3",
+      "text": "A document-open event alone does not establish an initiated substantive inquiry if the defined behavior is a written example.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R18",
+      "parent": "R3",
+      "text": "A self-report of enjoyment alone cannot count the actual example; measurement channels differ.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R19",
+      "parent": "R2",
+      "text": "FORECLOSED: a start increase with an interest decrease does not demonstrate this conjunctive intuition.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R20",
+      "parent": "R2",
+      "text": "An interest gain with no increased starts is another possible benefit but not this exact effect.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R21",
+      "parent": "R1",
+      "text": "Because the intuition concerns self-chosen inquiry, a compulsory gateway is outside its specified scope even if it raises starts.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R22",
+      "parent": "R21",
+      "text": "If participants can decline each opportunity, the record distinguishes offered opportunities, accepted opportunities and completed examples.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R23",
+      "parent": "R22",
+      "text": "A valid denominator for voluntary initiation must be fixed to the declared opportunity definition before comparing conditions.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R24",
+      "parent": "R23",
+      "text": "A symmetrical opportunity rule permits interpreting a rate difference without silently treating one group\u2019s nonparticipation differently.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R25",
+      "parent": "R24",
+      "text": "Deferred test: audit offered, accessible, declined, started and completed events in both proposed conditions using the same rules. Actual human events are absent.",
+      "strength": "Necessary within the stated case",
+      "kind": "Testable prediction",
+      "bedrock": "BEDROCK-TEST-DEFERRED: real participant/data unavailable"
+    },
+    {
+      "id": "R26",
+      "parent": "R24",
+      "text": "The rule does not identify why a person declined; motive remains unobserved.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R27",
+      "parent": "R24",
+      "text": "The resulting study can have fewer usable opportunities and wider uncertainty than a convenient completed-only analysis.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R28",
+      "parent": "R23",
+      "text": "FORECLOSED: removing refusals from only one arm changes the comparison population.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R29",
+      "parent": "R23",
+      "text": "Accessibility failures can be recorded separately if the definition treats them as no valid opportunity; that rule must be symmetric.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R30",
+      "parent": "R22",
+      "text": "A missing opportunity is not a refusal; refusal is not a failed completion.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R31",
+      "parent": "R22",
+      "text": "This distinction can reduce the apparent completion rate compared with a simplistic denominator.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R32",
+      "parent": "R21",
+      "text": "FORECLOSED: a required daily streak cannot demonstrate an effect on self-chosen initiation merely by producing completions.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R33",
+      "parent": "R21",
+      "text": "A person can freely choose a routine initially and later withdraw; the original consent is not perpetual interest evidence.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R34",
+      "parent": "R1",
+      "text": "A two-minute gateway is an entry behavior, so its completion and the full inquiry\u2019s completion are separate possible outcomes.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R35",
+      "parent": "R34",
+      "text": "If the full goal remains independent inquiry, monitoring includes later substantive continuation rather than only the small start.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R36",
+      "parent": "R35",
+      "text": "A follow-up comparison distinguishes a gateway that opens meaningful inquiry from one that merely shifts effort into record keeping.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R37",
+      "parent": "R36",
+      "text": "A blind assessment of de-identified examples against a fixed criterion could test substantive inquiry while reducing knowledge of the assigned condition.",
+      "strength": "Possible under the explicit case premises",
+      "kind": "Implication",
+      "bedrock": null
+    },
+    {
+      "id": "R38",
+      "parent": "R37",
+      "text": "Deferred test: rate actual later examples/counterexamples under a fixed rubric and inspect agreement and condition visibility. No human submissions exist here.",
+      "strength": "Necessary within the stated case",
+      "kind": "Testable prediction",
+      "bedrock": "BEDROCK-TEST-DEFERRED: real participant/data unavailable"
+    },
+    {
+      "id": "R39",
+      "parent": "R37",
+      "text": "Blinding is proposed, not performed; recognizable prompt wording can still reveal condition.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R40",
+      "parent": "R37",
+      "text": "Disagreements between coders would need resolution without changing the criterion to favor the expected result.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R41",
+      "parent": "R36",
+      "text": "FORECLOSED: more tracking marks alone cannot demonstrate more independent investigation.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R42",
+      "parent": "R36",
+      "text": "Measuring substantive work costs coding effort; criterion reliability is not yet established.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R43",
+      "parent": "R35",
+      "text": "A rise in starts with no continuation can indicate a bottleneck moved downstream.",
+      "strength": "Necessary within stated premises",
+      "kind": "Commitment",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R44",
+      "parent": "R35",
+      "text": "A person can intentionally stop after a useful example; continuation is interpreted with the chosen goal, not as mandatory escalation.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R45",
+      "parent": "R34",
+      "text": "FORECLOSED: a checked gateway box does not establish a completed comparison when no countercase was written.",
+      "strength": "Necessary within stated premises",
+      "kind": "Foreclosure",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    },
+    {
+      "id": "R46",
+      "parent": "R34",
+      "text": "A gateway can be worthwhile as preparation even if the larger inquiry is postponed; that is a different benefit claim.",
+      "strength": "Possible with the condition stated",
+      "kind": "Cost or alternative implication",
+      "bedrock": "BEDROCK-LOGIC or explicitly deferred human test in statement"
+    }
+  ],
+  "total": 46,
+  "max_edges": 7,
+  "nonterminal_children": 3,
+  "tests": [
+    "Local measurement application: mock event sequence offered/access missing is marked no accessible opportunity; offered/declined is a decline; offered/accepted/example written is a substantive start. These are constructed classifications, not participant outcomes.",
+    "All causal human predictions are deferred because there are no participants, independent consented conditions, repeated opportunity records or interest outcomes. The separate EXD design specifies what would be measured."
+  ]
+}

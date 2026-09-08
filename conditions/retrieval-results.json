@@ -1,0 +1,26 @@
+[
+  {
+    "query": "continuous-window",
+    "hits": 1,
+    "source": "kta-01.md",
+    "exception_retrieved": "A checkpointable task can use multiple windows."
+  },
+  {
+    "query": "future-release",
+    "hits": 1,
+    "source": "qs-02.md",
+    "exception_retrieved": "Preemption or an uncertain release changes the comparison."
+  },
+  {
+    "query": "offline-material",
+    "hits": 1,
+    "source": "de-02.md",
+    "exception_retrieved": "Do not assume local export or an available compatible reader."
+  },
+  {
+    "query": "baseline-exposure",
+    "hits": 1,
+    "source": "to-01.md",
+    "exception_retrieved": "Pre-existing timestamped baseline data can be recorded later without new exposure contamination."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "input": {
+    "task": "lookup",
+    "options_given": true,
+    "criteria_given": true,
+    "coverage_A": 2,
+    "coverage_B": 4,
+    "budget": 60,
+    "candidate": [
+      "S",
+      "C",
+      "E"
+    ],
+    "cost": 55,
+    "active_revision": 2,
+    "returned_revision": 1
+  },
+  "output": {
+    "scope": true,
+    "method": "B",
+    "bundle_cost": 55,
+    "within_budget": true,
+    "accepted_return": false,
+    "why": "revision 1 is obsolete for active revision 2"
+  }
+}

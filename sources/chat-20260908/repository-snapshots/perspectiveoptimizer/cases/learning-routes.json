@@ -1,0 +1,66 @@
+{
+  "matter": "An explanation can be followed but is not independently applied to a changed case.",
+  "standing": "Authored conditional relevance, not an exclusive diagnosis.",
+  "routes": [
+    {
+      "id": "content",
+      "perspective": "A required relation is missing.",
+      "when": {
+        "relation_explained": false
+      },
+      "subjects": [
+        "understanding-content-specification",
+        "understanding-error-diagnosis"
+      ],
+      "contribution": "Identify the particular missing relation required by the task.",
+      "operation": "State the relation needed for the next operation, obtain its explanation under the supplied context, and locate the exact missing or mistaken dependency.",
+      "end_condition": "The missing relation is specified or this account remains unresolved."
+    },
+    {
+      "id": "retrieval",
+      "perspective": "An available method is not independently retrieved.",
+      "when": {
+        "independent_execution": false,
+        "cued_execution": true
+      },
+      "subjects": [
+        "memory-record-retrieval",
+        "memory-reuse-trigger"
+      ],
+      "contribution": "Determine the retrieval condition that makes a usable method available.",
+      "operation": "Compare uncued and minimally cued attempts; identify what the cue supplies; preserve the possibility that it supplied an application condition rather than only retrieval.",
+      "end_condition": "A candidate retrieval cue with its contribution and ambiguity stated."
+    },
+    {
+      "id": "representation",
+      "perspective": "The available representation hides a necessary relation.",
+      "when": {
+        "relation_explained": true,
+        "representation_exposes_required_relation": false
+      },
+      "subjects": [
+        "expression-representation-modification",
+        "perspective-representation-omission"
+      ],
+      "contribution": "Make the missing distinction available in a usable representation.",
+      "operation": "Represent a relevant positive and negative case together, identify the discriminating relation, and specify the operation newly made available.",
+      "end_condition": "A representation with a specified consequential change or a demonstrated remaining gap."
+    },
+    {
+      "id": "application-condition",
+      "perspective": "An executable method lacks recognizable application conditions.",
+      "when": {
+        "cued_execution": true,
+        "recognizes_changed_case": false
+      },
+      "subjects": [
+        "reasoning-approach-applicability",
+        "understanding-use-transfer",
+        "perspective-activation-trigger"
+      ],
+      "contribution": "Distinguish when the already executable method applies.",
+      "operation": "Construct cases where the governing relation holds or fails while varying wording separately; identify the application condition and the cue that reveals it.",
+      "end_condition": "A proposed application distinction and a later case that could examine its transfer."
+    }
+  ]
+}

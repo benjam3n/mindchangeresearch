@@ -1,0 +1,70 @@
+{
+  "start": "transfer-failure",
+  "states": [
+    "transfer-failure",
+    "cue-comparison",
+    "application-question",
+    "contrast-construction",
+    "application-condition",
+    "missing-operation",
+    "unavailable-destination"
+  ],
+  "observations": {
+    "cued_execution": true,
+    "contrasting_cases_available": "unknown",
+    "distinction_identified": "unknown"
+  },
+  "standing": "Constructed graph with fixed observation meanings; a conditional path does not establish execution.",
+  "transitions": [
+    {
+      "id": "compare-cue",
+      "from": "transfer-failure",
+      "to": "cue-comparison",
+      "when": {},
+      "operation": "Compare uncued performance with a minimal cue that does not supply the operation."
+    },
+    {
+      "id": "use-cue-success",
+      "from": "cue-comparison",
+      "to": "application-question",
+      "when": {
+        "cued_execution": true
+      },
+      "operation": "Use successful cued execution to make retrieval and application-condition recognition live questions."
+    },
+    {
+      "id": "reopen-operation",
+      "from": "cue-comparison",
+      "to": "missing-operation",
+      "when": {
+        "cued_execution": false
+      },
+      "operation": "Use failed cued execution to reopen the missing-content or missing-operation account."
+    },
+    {
+      "id": "construct-contrast",
+      "from": "application-question",
+      "to": "contrast-construction",
+      "when": {
+        "contrasting_cases_available": true
+      },
+      "operation": "Compare an applicable and an inapplicable case while varying incidental wording."
+    },
+    {
+      "id": "adopt-distinction",
+      "from": "contrast-construction",
+      "to": "application-condition",
+      "when": {
+        "distinction_identified": true
+      },
+      "operation": "Use the identified application condition as a provisional recognition cue."
+    },
+    {
+      "id": "revisit-question",
+      "from": "contrast-construction",
+      "to": "application-question",
+      "when": {},
+      "operation": "Retain an unresolved comparison as a reason to reopen the application question."
+    }
+  ]
+}

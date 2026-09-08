@@ -1,0 +1,197 @@
+{
+  "version": "2.0.0",
+  "unit": "One event, declared actor/task/criterion, and current eligibility assessment",
+  "facets": {
+    "eligible": [
+      "yes",
+      "no",
+      "unknown"
+    ],
+    "observation": [
+      "none",
+      "partial",
+      "decisive"
+    ],
+    "outcome": [
+      "improved",
+      "did_not_improve",
+      null
+    ]
+  },
+  "constraint": "Only decisive observations carry a binary outcome. Partial means some relevant result was captured but the criterion remains undecided.",
+  "fixtures": [
+    {
+      "id": "T01",
+      "case": "Two-label check proposed, not performed",
+      "eligible": "yes",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T02",
+      "case": "Second-case inspection planned, no result yet",
+      "eligible": "yes",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T03",
+      "case": "New actor mentioned; aggregate excludes human outcome",
+      "eligible": "no",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T04",
+      "case": "Proposed listener session has no observations",
+      "eligible": "no",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T05",
+      "case": "A changed task awaits a scope decision",
+      "eligible": "unknown",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T06",
+      "case": "Unclear whether the new task needs the third case",
+      "eligible": "unknown",
+      "observation": "none",
+      "outcome": null
+    },
+    {
+      "id": "T07",
+      "case": "Full extraction preserves three required clauses",
+      "eligible": "yes",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T08",
+      "case": "Both required slide labels extracted",
+      "eligible": "yes",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T09",
+      "case": "A diagram drops the zero label",
+      "eligible": "yes",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T10",
+      "case": "A serial export loses the empty-domain condition",
+      "eligible": "yes",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T11",
+      "case": "Partial text extraction captures one of two labels",
+      "eligible": "yes",
+      "observation": "partial",
+      "outcome": null
+    },
+    {
+      "id": "T12",
+      "case": "One required clause has been inspected; another has not",
+      "eligible": "yes",
+      "observation": "partial",
+      "outcome": null
+    },
+    {
+      "id": "T13",
+      "case": "Old pilot kept although its criterion differs",
+      "eligible": "no",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T14",
+      "case": "A prior render belongs to an earlier layout version",
+      "eligible": "no",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T15",
+      "case": "Out-of-scope historical trial lost a label",
+      "eligible": "no",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T16",
+      "case": "A previous artifact fails its own recorded criterion",
+      "eligible": "no",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T17",
+      "case": "Partial historical capture from excluded version",
+      "eligible": "no",
+      "observation": "partial",
+      "outcome": null
+    },
+    {
+      "id": "T18",
+      "case": "A past event is preserved but its second outcome is missing",
+      "eligible": "no",
+      "observation": "partial",
+      "outcome": null
+    },
+    {
+      "id": "T19",
+      "case": "Boundary unresolved despite complete positive result",
+      "eligible": "unknown",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T20",
+      "case": "A correct label mapping may fall outside the requested medium",
+      "eligible": "unknown",
+      "observation": "decisive",
+      "outcome": "improved"
+    },
+    {
+      "id": "T21",
+      "case": "Boundary unresolved despite complete negative result",
+      "eligible": "unknown",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T22",
+      "case": "A content-loss observation may concern a different task",
+      "eligible": "unknown",
+      "observation": "decisive",
+      "outcome": "did_not_improve"
+    },
+    {
+      "id": "T23",
+      "case": "Both applicability and one required result remain open",
+      "eligible": "unknown",
+      "observation": "partial",
+      "outcome": null
+    },
+    {
+      "id": "T24",
+      "case": "Partial extraction from a possibly relevant source",
+      "eligible": "unknown",
+      "observation": "partial",
+      "outcome": null
+    }
+  ],
+  "validation": {
+    "valid_fixtures": 24,
+    "invalid_partial_negative_rejected": true
+  },
+  "migration": "yes+binary maps decisive; no+null maps none; yes+null requires review of raw evidence, never automatic conversion to negative"
+}

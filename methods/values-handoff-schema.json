@@ -1,0 +1,40 @@
+{
+  "name": "Local procedure tiers from PCI field requirements",
+  "origin": "Authored schema for these four local specifications; not an archived GOSM schema.",
+  "additional_fields": "preserved",
+  "tiers": {
+    "Bronze": [
+      "id",
+      "name",
+      "version",
+      "description",
+      "steps"
+    ],
+    "Silver": [
+      "inputs",
+      "outputs",
+      "when_to_use",
+      "examples"
+    ],
+    "Gold": [
+      "failure_modes",
+      "gosm_integration",
+      "verification"
+    ]
+  },
+  "types": {
+    "id": "str",
+    "name": "str",
+    "version": "str",
+    "description": "str",
+    "steps": "list",
+    "inputs": "dict",
+    "outputs": "dict",
+    "when_to_use": "list",
+    "examples": "list",
+    "failure_modes": "list",
+    "gosm_integration": "dict",
+    "verification": "list"
+  },
+  "nonempty": true
+}

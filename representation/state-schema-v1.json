@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "fields": {
+    "eligible": [
+      "yes",
+      "no",
+      "unknown"
+    ],
+    "observed": [
+      "yes",
+      "no"
+    ],
+    "outcome": [
+      "improved",
+      "did_not_improve",
+      null
+    ]
+  },
+  "scope": "One declared task domain and benefit criterion; no causal attribution implied",
+  "rules": [
+    "An observed outcome can be retained even if later judged outside the domain.",
+    "Aggregation includes only currently eligible records; unknown eligibility leaves the denominator unresolved.",
+    "Unobserved is not did_not_improve."
+  ],
+  "examples": [
+    {
+      "id": "local_performed_improvement",
+      "eligible": "yes",
+      "observed": "yes",
+      "outcome": "improved"
+    },
+    {
+      "id": "prospective_human_activity_in_model_aggregate",
+      "eligible": "no",
+      "observed": "no",
+      "outcome": null
+    }
+  ],
+  "provenance": "015-omtx-1.md"
+}

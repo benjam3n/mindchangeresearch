@@ -1,0 +1,28 @@
+{
+  "parent_fixture": {
+    "critical": 11,
+    "qualifier": 10,
+    "targeted": [
+      11
+    ],
+    "overlap": [
+      10,
+      11
+    ]
+  },
+  "later_fixture": {
+    "critical": 11,
+    "qualifier": 2,
+    "adjacent_overlap": [
+      10,
+      11
+    ],
+    "explicit_dependencies": [
+      2,
+      11
+    ],
+    "adjacent_qualified": false,
+    "dependency_qualified": true
+  },
+  "scope": "deterministic displayed-index retrieval; not human comprehension"
+}

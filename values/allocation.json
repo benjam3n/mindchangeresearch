@@ -1,0 +1,267 @@
+[
+  {
+    "rank": 19,
+    "id": "vcl",
+    "title": "Value Clarification",
+    "description": "Discover what you actually value — not what you think you value — by examining behavior, trade-offs, and revealed preferences.",
+    "line": "values",
+    "applications": 3,
+    "category": "Ethics & Values",
+    "invokes": []
+  },
+  {
+    "rank": 20,
+    "id": "ve",
+    "title": "Value Elicitation",
+    "description": "Value elicitation discovers what someone ACTUALLY values - their intrinsic goals.",
+    "line": "values",
+    "applications": 3,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 21,
+    "id": "vcd",
+    "title": "Value Conflict Decomposition",
+    "description": "Goals often serve multiple intrinsic values that conflict with each other.",
+    "line": "values",
+    "applications": 3,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 22,
+    "id": "pre",
+    "title": "Preference Elicitation",
+    "description": "Elicit user preferences by presenting concrete trade-offs rather than asking open-ended questions. System does the work by generating options and letting user select.",
+    "line": "values",
+    "applications": 3,
+    "category": "Questions & Analysis",
+    "invokes": [
+      "boc"
+    ]
+  },
+  {
+    "rank": 23,
+    "id": "grfr",
+    "title": "Goal Reframing Procedure",
+    "description": "Transform impossible or problematic goals into achievable versions. No such thing as an impossible goal - only insufficient decomposition. Includes explicit substitution handling.",
+    "line": "values",
+    "applications": 3,
+    "category": "Goal Processing",
+    "invokes": [
+      "ve"
+    ]
+  },
+  {
+    "rank": 24,
+    "id": "funr",
+    "title": "Fun/Exploration Reasoning",
+    "description": "Reason about what's interesting, playful, or worth exploring for its own sake. Follow curiosity threads, note unexpected connections, and assess what exploration reveals.",
+    "line": "values",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 25,
+    "id": "mp",
+    "title": "Motivation Psychology Orderings",
+    "description": "Orderings that account for human psychological factors — energy, motivation, habits, and engagement for sustainable performance.",
+    "line": "values",
+    "applications": 3,
+    "category": "Orderings",
+    "invokes": []
+  },
+  {
+    "rank": 26,
+    "id": "trust",
+    "title": "Trust Analysis",
+    "description": "Assess trust dynamics — who trusts whom, on what dimensions (competence, integrity, benevolence), what would build or erode trust, and how trust asymmetries create organizational dysfunction.",
+    "line": "values",
+    "applications": 3,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 67,
+    "id": "gu",
+    "title": "Goal Understanding Pre-Processor",
+    "description": "MANDATORY first step before attempting any goal. Parses input as guesses, classifies OPEN vs CLOSED, fills goal journey structure. Includes clarification vs substitution check.",
+    "line": "values",
+    "applications": 2,
+    "category": null,
+    "invokes": [
+      "araw",
+      "ve",
+      "pbi",
+      "cmp",
+      "gjs"
+    ]
+  },
+  {
+    "rank": 68,
+    "id": "ig",
+    "title": "Intuition Goals",
+    "description": "Handle goals driven by intuition rather than explicit reasoning — validate the intuition, find the underlying pattern, convert to actionable goal.",
+    "line": "values",
+    "applications": 2,
+    "category": "Goal Type Handlers",
+    "invokes": [
+      "ar",
+      "exd"
+    ]
+  },
+  {
+    "rank": 69,
+    "id": "eg",
+    "title": "Exploratory Goals",
+    "description": "Handle goals where the objective is exploration and discovery rather than reaching a known destination.",
+    "line": "values",
+    "applications": 2,
+    "category": "Goal Type Handlers",
+    "invokes": []
+  },
+  {
+    "rank": 70,
+    "id": "hab",
+    "title": "Habit Design",
+    "description": "Designs a plan to build a new habit or break an old one using cue-routine-reward structure, environment design, and obstacle planning.",
+    "line": "values",
+    "applications": 2,
+    "category": "Personal Development",
+    "invokes": []
+  },
+  {
+    "rank": 71,
+    "id": "hf",
+    "title": "Habit Formation",
+    "description": "Build new habits and break unwanted ones using behavioral science principles",
+    "line": "values",
+    "applications": 2,
+    "category": "Personal Development",
+    "invokes": []
+  },
+  {
+    "rank": 72,
+    "id": "eqi",
+    "title": "Emotional Intelligence",
+    "description": "Systematically develop emotional awareness, regulation, and social skill — treating EQ as a learnable competency, not a personality trait.",
+    "line": "values",
+    "applications": 2,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 73,
+    "id": "socg",
+    "title": "Social Cognition",
+    "description": "Understanding and navigating social dynamics. Identifies social context, models perspectives, predicts reactions, and plans moves with awareness of stated and unstated norms.",
+    "line": "values",
+    "applications": 2,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 74,
+    "id": "al",
+    "title": "Active Listening",
+    "description": "Systematic procedure for listening deeply to understand others, build trust, and improve communication outcomes",
+    "line": "values",
+    "applications": 2,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 75,
+    "id": "empth",
+    "title": "Empathic Thinking",
+    "description": "Systematically see from another person's perspective — not just \"what would they feel\" but \"what do they see, believe, value, fear, and want given THEIR context and history?\" Empathy as an analytical skill, not just a feeling.",
+    "line": "values",
+    "applications": 2,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 117,
+    "id": "collab",
+    "title": "Collaborative Thinking",
+    "description": "Multi-stakeholder reasoning, perspective integration, finding solutions that work for multiple parties, identifying hidden agreements, and surfacing conflicting assumptions between people.",
+    "line": "values",
+    "applications": 1,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 118,
+    "id": "col",
+    "title": "Collaboration Design",
+    "description": "Designs how a group of people should work together — roles, communication, decisions, handoffs, and accountability.",
+    "line": "values",
+    "applications": 1,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 119,
+    "id": "gdm",
+    "title": "Group Decision Making",
+    "description": "Systematic procedure for making effective decisions in groups, avoiding common pitfalls, and leveraging collective intelligence",
+    "line": "values",
+    "applications": 1,
+    "category": "Decision Making",
+    "invokes": []
+  },
+  {
+    "rank": 120,
+    "id": "tfac",
+    "title": "Team Facilitation",
+    "description": "Design and run effective group sessions that produce clear outcomes, manage group dynamics, and keep participants engaged.",
+    "line": "values",
+    "applications": 1,
+    "category": "Communication & Collaboration",
+    "invokes": []
+  },
+  {
+    "rank": 121,
+    "id": "fd",
+    "title": "Feedback Delivery",
+    "description": "Systematic procedure for delivering feedback that is heard, received, and acted upon, and for receiving feedback gracefully",
+    "line": "values",
+    "applications": 1,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 122,
+    "id": "cfr",
+    "title": "Conflict Resolution",
+    "description": "Systematic procedure for de-escalating tensions, finding common ground, and navigating difficult conversations productively",
+    "line": "values",
+    "applications": 1,
+    "category": "Diagnosis & Recovery",
+    "invokes": []
+  },
+  {
+    "rank": 123,
+    "id": "rtas",
+    "title": "Rights Assessment",
+    "description": "Identify and evaluate rights in a situation by mapping all parties, determining applicable rights, assessing respect, and identifying remedies.",
+    "line": "values",
+    "applications": 1,
+    "category": "Domain-Specific Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 124,
+    "id": "rlg",
+    "title": "Relationship Goals",
+    "description": "Handle relationship-related goals — clarify desired state, assess current reality, identify gaps, plan actions within your control.",
+    "line": "values",
+    "applications": 1,
+    "category": "Goal Type Handlers",
+    "invokes": [
+      "ve"
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "intended_mind_change": "Select observation type by the live obstacle rather than by an undifferentiated confidence score.",
+  "actual_starting_judgment": "The staged SPD record listed access, meaning, and threshold distinctions, but the required dependency had not performed distinct later-use fixtures.",
+  "actor": "current inquiry model",
+  "scope": "local files, exact strings, and stipulated numerical decision rules only",
+  "tests": [
+    {
+      "id": "T1-access",
+      "input": {
+        "expected_runtime_content_path": "inquiry/guess-runtime/data/guess_libraries/domain_design_decisions.md",
+        "recovered_path": "../supplement/Recovered_Sources/inquiry-domain_design_decisions.original.md",
+        "expected_sha256": "fd18540a4d2c60c29a6cc0fc864ab679ae475db429a89d503d272b69d1a0d22b"
+      },
+      "observed": {
+        "expected_runtime_content_path_exists": false,
+        "recovered_path_exists": true,
+        "recovered_sha256_matches": true
+      },
+      "selected_operation_before": "locate a source copy",
+      "selected_operation_after": "read and audit the recovered source while preserving its recovery provenance",
+      "verdict": "PASS within current filesystem"
+    },
+    {
+      "id": "T2-semantics",
+      "input": {
+        "route_reason": "Being sure requires that the underlying claim is true",
+        "worlds": [
+          {"world": "Wtrue", "reported_confidence": "0.99", "proposition_true": true},
+          {"world": "Wfalse", "reported_confidence": "0.99", "proposition_true": false}
+        ]
+      },
+      "observed": {
+        "reported_confidence_sure": [true, true],
+        "factive_sure": [true, false],
+        "meanings_distinguished": true,
+        "authorial_intent_settled": false
+      },
+      "selected_operation_before": "raise or lower one confidence value",
+      "selected_operation_after": "retain two propositions and test each separately",
+      "verdict": "PASS for semantic separation; authorial intent UNRESOLVED"
+    },
+    {
+      "id": "T3-threshold-crossing",
+      "input": {"interval": [4, 9], "threshold": 6, "rule": "LOW iff x < 6; HIGH iff x >= 6"},
+      "observed": {"x4": "LOW", "x9": "HIGH", "different_actions": true},
+      "selected_operation_before": "preserve the interval without an action-specific query",
+      "selected_operation_after": "observe whether x is below 6 before selecting LOW or HIGH",
+      "verdict": "PASS under the stipulated rule"
+    },
+    {
+      "id": "T4-action-invariant-heldout",
+      "input": {"interval": [7, 9], "threshold": 6, "rule": "LOW iff x < 6; HIGH iff x >= 6"},
+      "observed": {"x7": "HIGH", "x9": "HIGH", "different_actions": false},
+      "selected_operation_before": "seek a more precise x because x is unresolved",
+      "selected_operation_after": "select HIGH while preserving x as unresolved",
+      "verdict": "PASS under the stipulated rule"
+    },
+    {
+      "id": "T5-evidence-dependence-heldout",
+      "input": {"receipt_a_sha256": "same", "receipt_b_sha256": "same", "origin_a": "reader stderr", "origin_b": "reader stderr"},
+      "observed": {"matching_receipts": 2, "independent_origins": 1},
+      "selected_operation_before": "treat two matches as two confirmations",
+      "selected_operation_after": "retain one origin and test a different derivation",
+      "verdict": "PASS for the stipulated lineage"
+    }
+  ],
+  "actual_change": "Five performed local or stipulated fixtures selected source audit, semantic splitting, threshold observation, immediate action with unresolved truth, and provenance checking as distinct operations.",
+  "benefit": "The selected operation changes with the obstacle, and the action-invariant case avoids an observation that cannot change the stipulated act.",
+  "verdict": "KEEP",
+  "organization": "Each fixture records input, observation, before/after operation, and scope-bound verdict.",
+  "limitations": [
+    "No human confidence, comprehension, emotion, learning, or behavior was observed.",
+    "The threshold cases are stipulated decision rules, not external outcomes.",
+    "The semantic test separates meanings but does not recover authorial intent."
+  ],
+  "next_attempts": [
+    "Obtain direct author evidence for the route reason.",
+    "Test a costly observation whose result can change action.",
+    "Test an expired-action case where truth resolution arrives too late."
+  ]
+}

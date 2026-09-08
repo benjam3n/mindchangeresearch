@@ -1,0 +1,35 @@
+{
+  "freeze_id": "cycle-01-time-reversibility-v1",
+  "frozen_before_evaluation": true,
+  "actor": "the model's explicit scheduling policy; no user or human response is claimed",
+  "decision_time": "09:00",
+  "machine_a": {
+    "price": 10,
+    "currency": "USD",
+    "reservation_available_at_decision_time": true,
+    "reservation_guarantees_use": true,
+    "full_refund_if_cancelled_no_later_than": "09:20"
+  },
+  "machine_b": {
+    "price": 0,
+    "currency": "USD",
+    "availability_revealed_at": "09:15",
+    "availability_probability": 0.6
+  },
+  "duration_minutes_on_either_machine": 20,
+  "hard_completion_deadline": "09:40",
+  "switch_or_setup_time_minutes": 0,
+  "unpriced_reservation_effort_or_capital_cost": 0,
+  "starting_judgments": {
+    "td": "Choose and start machine A at 09:00 because the hard deadline makes the certain machine the temporal priority.",
+    "rva": "Reserve machine A at 09:00; because the reservation is refundable through 09:20, treat the whole choice as reversible until then."
+  },
+  "pre_registered_tests": {
+    "td": "Map deadlines, backward schedule, critical path, convergence point, buffers, and timing/option regions; then reuse on an input where B's availability is revealed at 09:25.",
+    "rva": "Complete all seven original RVA steps and verification items; then reuse on an input where A's refund cutoff moves to 09:10 while B's reveal remains 09:15."
+  },
+  "pre_registered_success_conditions": {
+    "td": "A policy changes from immediate use of A only if the timing map preserves certain completion and states its assumption boundary.",
+    "rva": "A policy changes at the rollback boundary and the changed-input reuse yields a different commitment rule without claiming observed human effects."
+  }
+}

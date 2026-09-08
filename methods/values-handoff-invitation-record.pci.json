@@ -1,0 +1,90 @@
+{
+  "name": "Invitation response record",
+  "description": "Represent an explicitly supplied invitation and reply as component-level stance, permission and proposed next-step data.",
+  "inputs": {
+    "invitation": "Exact text and separately named requested components.",
+    "reply": "Exact supplied text; absent reply is allowed and remains unknown.",
+    "actor_scope": "Constructed or actual, known speaker and relevant role.",
+    "context": "Only explicit timing, access and prior permission supplied with the case."
+  },
+  "outputs": {
+    "response_record": "For each requested component: evidence span, accepted/declined/conditional/unknown stance, stated condition, next-step proposal and confirmation status.",
+    "unknowns": "Missing meanings that would change stance or next step."
+  },
+  "success_criteria": [
+    "Every component has a stance or explicit unknown.",
+    "Accepted scope does not exceed the evidence span.",
+    "A proposed change remains a proposal until a reply accepts it.",
+    "Output claims no human effect."
+  ],
+  "steps": [
+    "Keep the invitation components and exact reply text together.",
+    "Associate each explicit reply clause with its requested component.",
+    "Record accepted, declined, conditional or unknown stance for each component; retain stated conditions.",
+    "Separate the speaker's stated reason from a hypothesis about motive.",
+    "Create a next-step proposal only for an unresolved component that matters to the invitation.",
+    "Return the evidence-bearing response record and unresolved meanings."
+  ],
+  "verification": [
+    "Trace each non-unknown stance to the supplied text.",
+    "Compare the scope of every accepted component with its evidence.",
+    "Check that proposed action is not recorded as recipient agreement."
+  ],
+  "complexity": "moderate: semantic clause-to-component mapping requires judgment.",
+  "dependencies": [
+    "Existing explicit goal and invitation components; original AL offers paraphrase preparation but cannot supply an absent reply."
+  ],
+  "reuse_potential": "Local analysis of exploratory invitations, workshop roles and bounded help requests.",
+  "id": "local-invitation-record",
+  "version": "1.0.0",
+  "when_to_use": [
+    "A concrete invitation has separable requests and a supplied reply or explicit absence of reply.",
+    "Preparing a bounded collaboration draft without claiming live confirmation."
+  ],
+  "examples": [
+    {
+      "input": "Invitation: read and host. Reply: I will read two pages; I cannot host.",
+      "output": "Reading accepted for two pages; hosting declined; no motive inferred."
+    },
+    {
+      "input": "Invitation: join once. Reply: Only if it is audio.",
+      "output": "Joining conditional on audio; a proposed audio arrangement remains unconfirmed."
+    },
+    {
+      "input": "Invitation: attend. Reply absent.",
+      "output": "Attendance stance unknown; no assent or disinterest inferred."
+    },
+    {
+      "input": "Invitation: read. Reply: I like the idea but cannot take this on.",
+      "output": "Positive stated interest; task declined; the predicates coexist."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Single overall yes label",
+      "consequence": "A bounded acceptance spreads to another request.",
+      "prevention": "Keep one stance per component."
+    },
+    {
+      "failure": "Reading emotion into silence",
+      "consequence": "An absent reply becomes invented disinterest.",
+      "prevention": "Keep missing reply unknown."
+    },
+    {
+      "failure": "Reason rewritten as motive",
+      "consequence": "An explicit timing constraint becomes reluctance.",
+      "prevention": "Retain evidence and mark extra interpretations hypothetical."
+    },
+    {
+      "failure": "Condition dropped in summary",
+      "consequence": "A conditional offer becomes a commitment.",
+      "prevention": "Carry the condition into every derived output."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Invitation components and available reply are supplied.",
+    "before": "Local follow-up choice.",
+    "external_gate": "Actual confirmation requires the participant.",
+    "artifact_scope": "Local authored procedure, not an original skill."
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "owner": "specification_iteration_handoff",
+  "base_ledger_unchanged": true,
+  "slots": [
+    {
+      "skill_id": "pcd",
+      "application_number": 1,
+      "file": "methods/pcd-01.md",
+      "status": "complete_after_reviewed_local_repair_external_gate_open",
+      "source_fidelity": "Exact original stdout and stderr requirements streams preserved separately and reloaded; hashes and byte lengths match specs-resume-source-receipts.json.",
+      "depth_status": "No numerical 8x definition in original; seven stages, ten operations, per-operation four-axis searches, compositions, seven analogy searches, six domain mappings, two specifications and later products.",
+      "missing_requirements": ["A10 reciprocal resolution and any AL confirmation require externally supplied participant records; no such result is claimed."],
+      "verdict": "UNRESOLVED",
+      "novelty": "No new KEEP credit: local authored interface/schema product repeats established boundaries; effects and comparative benefit unresolved.",
+      "later_use": "Two specs entered PCI01; the later correction contract repairs A9 and passes the bounded invitation checks in values-handoff-resume-test-results.json. This is repair success, not first-pass success or a new KEEP."
+    },
+    {
+      "skill_id": "pcd",
+      "application_number": 2,
+      "file": "methods/pcd-02.md",
+      "status": "complete_after_reviewed_local_repair_external_gate_open",
+      "source_fidelity": "Exact original stdout and stderr requirements streams preserved separately and reloaded; hashes and byte lengths match specs-resume-source-receipts.json.",
+      "depth_status": "No numerical 8x definition in original; seven stages, ten operations, per-operation four-axis searches, compositions, seven analogy searches, six domain mappings, two specifications and later products.",
+      "missing_requirements": ["If selected, VE answers and Q3 require externally supplied answers or participant-response records; local constructed exploration is complete."],
+      "verdict": "UNRESOLVED",
+      "novelty": "No new KEEP credit: local authored interface/schema product repeats established boundaries; effects and comparative benefit unresolved.",
+      "later_use": "The PCD pointer was only partial; final traces separate origin/operation/evidence and resolve nine claim IDs. The bounded trace checks pass in values-handoff-resume-test-results.json."
+    },
+    {
+      "skill_id": "pci",
+      "application_number": 1,
+      "file": "methods/pci-01.md",
+      "status": "complete_original_pci_stages_semantic_effect_unresolved",
+      "source_fidelity": "Exact original stdout and stderr requirements streams preserved separately and reloaded; hashes and byte lengths match specs-resume-source-receipts.json.",
+      "depth_status": "No numerical 8x definition in original; five stages, two parsed procedures, all twelve tier fields, consistent queue, twelve added missing fields across two procedures, eight examples, eight failure modes, preserved originals and later ITERATE uptake.",
+      "missing_requirements": ["No missing local PCI stage. Field completeness does not establish semantic reliability or a result beyond the declared fixtures."],
+      "verdict": "UNRESOLVED",
+      "novelty": "No new KEEP credit: local authored interface/schema product repeats established boundaries; effects and comparative benefit unresolved.",
+      "later_use": "The two improved PCI artifacts remain exact ITERATE inputs; the correction and draft-binding gaps found downstream are repaired and finitely tested without upgrading PCI field completeness to a semantic KEEP."
+    },
+    {
+      "skill_id": "pci",
+      "application_number": 2,
+      "file": "methods/pci-02.md",
+      "status": "complete_original_pci_stages_semantic_effect_unresolved",
+      "source_fidelity": "Exact original stdout and stderr requirements streams preserved separately and reloaded; hashes and byte lengths match specs-resume-source-receipts.json.",
+      "depth_status": "No numerical 8x definition in original; five stages, two parsed procedures, all twelve tier fields, consistent queue, twelve added missing fields across two procedures, eight examples, eight failure modes, preserved originals and later ITERATE uptake.",
+      "missing_requirements": ["No missing local PCI stage. Field completeness does not establish semantic reliability or a result beyond the declared fixtures."],
+      "verdict": "UNRESOLVED",
+      "novelty": "No new KEEP credit: local authored interface/schema product repeats established boundaries; effects and comparative benefit unresolved.",
+      "later_use": "The two improved PCI artifacts remain exact ITERATE inputs; mixed status and identity gaps found downstream are repaired and finitely tested without upgrading PCI field completeness to a semantic KEEP."
+    },
+    {
+      "skill_id": "iterate",
+      "application_number": 1,
+      "file": "methods/iterate-01.md",
+      "status": "complete_local_execution_new_keep_rejected",
+      "source_fidelity": "Exact original stdout and stderr requirements streams plus the mandatory shared protocol were reloaded; hashes and byte lengths match specs-resume-source-receipts.json.",
+      "depth_status": "Original 8x row addressed: all 9 dimensions, 12 substantive targets, 12 executed, 72 scoped findings; direct edits and mandatory shared corruption protocol completed. No recursive-depth claim.",
+      "missing_requirements": ["No missing local ITERATE stage. Q3 needs externally supplied participant-response records; chronology conflicts need ordering evidence; comparisons beyond the finite fixtures remain open."],
+      "verdict": "REJECT",
+      "novelty": "Reject new credit: Q4 is local adoption of the pure-interest selection already kept in values/020-ve-1.md; interest/evidence separation was already kept in values/020-ve-3.md. Identity and correction artifacts are retained repairs, not a new general benefit finding.",
+      "later_use": "Q4 is selected with novel_evidence false; S1 and D1 resolve exact component revisions; all 32 bounded post-correction checks pass."
+    }
+  ],
+  "files_changed": [
+    "continuation/specs-proposal.json",
+    "methods/iterate-01.md",
+    "methods/pcd-01.md",
+    "methods/pcd-02.md",
+    "methods/pci-01.md",
+    "methods/pci-02.md",
+    "methods/specs-resume-source-receipts.json",
+    "methods/specs-resume-tests.py",
+    "methods/values-handoff-continuation-choice.iterate.json",
+    "methods/values-handoff-curiosity-trace.iterate.json",
+    "methods/values-handoff-followup-choice.iterate.json",
+    "methods/values-handoff-invitation-record.iterate.json",
+    "methods/values-handoff-iteration-exploration-use.json",
+    "methods/values-handoff-iteration-registry.json",
+    "methods/values-handoff-iteration-social-use.json",
+    "methods/values-handoff-iteration-verification.json",
+    "methods/values-handoff-pcd-completion-map.json",
+    "methods/values-handoff-results.json",
+    "methods/values-handoff-resume-test-results.json",
+    "methods/values-handoff-semantic-review.json"
+  ],
+  "endpoint": {
+    "all_executable_stages_reviewed": true,
+    "post_correction_tests": "32/32 passed",
+    "remaining_gates": [
+      "Natural-language clause mapping was stipulated in the constructed fixture.",
+      "Unknown or conflicting effective chronology needs ordering evidence.",
+      "Third-party decision authority needs an explicit authority input.",
+      "Q3 needs externally supplied participant-response records.",
+      "No result beyond the finite fixtures establishes general superiority, external use, preference, timing, learning or transfer."
+    ]
+  }
+}

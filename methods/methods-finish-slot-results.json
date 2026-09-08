@@ -1,0 +1,44 @@
+[
+  {
+    "skill_id": "pbtc",
+    "application_number": 1,
+    "file": "pbtc-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact original reader stdout and separate requirements read; emission hash verified; 21-signal scans preserve evidential scope",
+    "source_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "depth_status": "Eight original full passes on complete prior outputs; seven recursive edges; conditional CLEAN follow-up is optional and not elected",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "pbtc-01-later-use.json; source judgment and its boundary retained without new benefit credit",
+    "author": "methods_finish"
+  },
+  {
+    "skill_id": "pbtc",
+    "application_number": 2,
+    "file": "pbtc-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact original reader stdout and separate requirements read; emission hash verified; 21-signal scans preserve evidential scope",
+    "source_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "depth_status": "Eight original full passes on complete prior outputs; seven recursive edges; conditional CLEAN follow-up is optional and not elected",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "pbtc-02-later-use.json; source judgment and its boundary retained without new benefit credit",
+    "author": "methods_finish"
+  },
+  {
+    "skill_id": "pbtc",
+    "application_number": 3,
+    "file": "pbtc-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact original reader stdout and separate requirements read; emission hash verified; 21-signal scans preserve evidential scope",
+    "source_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "depth_status": "Eight original full passes on complete prior outputs; seven recursive edges; conditional CLEAN follow-up is optional and not elected",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "pbtc-03-later-use.json; source judgment and its boundary retained without new benefit credit",
+    "author": "methods_finish"
+  }
+]

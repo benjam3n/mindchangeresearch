@@ -1,0 +1,67 @@
+{
+  "archive": "Mind_Change_Research_Checkpoint.zip",
+  "sha256": "de280269cfb40b8eadcafa8b6a4b8c35d1d9ed5928e2ac7d662733f443110ff1",
+  "file_count": 1732,
+  "parts": [
+    {
+      "name": "part-000",
+      "bytes": 524288,
+      "sha256": "8ef82d8ffe7440f3e46a1045b1fba85473adec985d14d93eca395070cb7d886d"
+    },
+    {
+      "name": "part-001",
+      "bytes": 524288,
+      "sha256": "5cbe600e469e007c0a4d1ad46777e053cf11e45f778f32addcfe3feefea0ee05"
+    },
+    {
+      "name": "part-002",
+      "bytes": 524288,
+      "sha256": "12e2eb8eeeb8ddb4e89d4e77193b0234cf0f89d4baf1a5c327927a12676275fc"
+    },
+    {
+      "name": "part-003",
+      "bytes": 524288,
+      "sha256": "705b3fab1100fcccdff7aaf5fc60824aa4aee0c247ed84883715899f74abd4dd"
+    },
+    {
+      "name": "part-004",
+      "bytes": 524288,
+      "sha256": "34dc4438d665cc6c58ffc755727a852019d5f9b7a013ea5319e859860cd88cca"
+    },
+    {
+      "name": "part-005",
+      "bytes": 524288,
+      "sha256": "8c7f23eb5c021eb43ae06bdb4c535ad71ad8a40d47ff914d56a1cc5f58cddbf9"
+    },
+    {
+      "name": "part-006",
+      "bytes": 524288,
+      "sha256": "263e010697b24592a71554d9675702206a91a9133284c69c8a2e8867587245b6"
+    },
+    {
+      "name": "part-007",
+      "bytes": 524288,
+      "sha256": "4d92a9d1dbae876235029cfac0bd56194a4dafb8a3d5e44e1f9ea1a47ef09ef3"
+    },
+    {
+      "name": "part-008",
+      "bytes": 524288,
+      "sha256": "6c80ef559a0974c152a5c9049c9c80d1c75b51b25a4bf876ce9364512af2d68b"
+    },
+    {
+      "name": "part-009",
+      "bytes": 524288,
+      "sha256": "06e1ca87562dc877bef0af632e6bcf7f17c9750808970255d5aa34f5329024d2"
+    },
+    {
+      "name": "part-010",
+      "bytes": 524288,
+      "sha256": "f7533143f8f89c99c3b747b0adca54565b24d7a5ab20b7cf82f94ac6c70fea44"
+    },
+    {
+      "name": "part-011",
+      "bytes": 449369,
+      "sha256": "c2575dcc9828d10800811c4c540c7f3d6995a033895b62efc4840d33ad4bddea"
+    }
+  ]
+}

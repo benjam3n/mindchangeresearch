@@ -1,0 +1,24 @@
+{
+  "id": "interaction-disposition-001",
+  "matter": "A hypothetical specified interaction responds differently to admitted conditions.",
+  "scope": "A constructed nonconscious case demonstrating the description contract; no biological measurements are claimed.",
+  "bearer": {
+    "kind": "interaction",
+    "description": "A specified ligand-receptor interaction in a receiving context."
+  },
+  "dimensions": {
+    "receiving_context": [
+      {
+        "id": "available",
+        "description": "The required receiving configuration is supplied in the constructed account.",
+        "contribution": "Consider the declared interaction response."
+      },
+      {
+        "id": "absent",
+        "description": "The required receiving configuration is absent in the constructed account.",
+        "contribution": "Identify which proposed response depends on the missing configuration."
+      }
+    ]
+  },
+  "incompatibilities": []
+}

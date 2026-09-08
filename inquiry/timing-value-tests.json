@@ -1,0 +1,40 @@
+{
+  "payoffs": {
+    "success": 6,
+    "failure": -4,
+    "decline": 0
+  },
+  "information_cost": 1,
+  "observations": [
+    {
+      "p": 0.4,
+      "act": 0.0,
+      "wait": 1.4000000000000004,
+      "wait_minus_act": 1.4
+    },
+    {
+      "p": 0.75,
+      "act": 3.5,
+      "wait": 3.5,
+      "wait_minus_act": 0.0
+    },
+    {
+      "p": 0.8,
+      "act": 4.0,
+      "wait": 3.8000000000000007,
+      "wait_minus_act": -0.20000000000000018
+    },
+    {
+      "p": 0.9,
+      "act": 5.0,
+      "wait": 4.4,
+      "wait_minus_act": -0.6000000000000001
+    }
+  ],
+  "heldout_interval": [
+    0.8,
+    0.9
+  ],
+  "decision": "act",
+  "scope": "declared finite decision model"
+}

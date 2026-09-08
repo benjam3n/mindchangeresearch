@@ -1,0 +1,271 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the current objective of the signal choice?",
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "answer": "AR45 side branch declares worst expected regret over models A/B; original uniform optimum remains separately impossible.",
+      "depends_on": []
+    },
+    {
+      "id": 2,
+      "question": "What payoffs and price are fixed?",
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "answer": "+6/\u22124, decline0, price1 from exact timing model; stipulated, not measured human values.",
+      "depends_on": []
+    },
+    {
+      "id": 3,
+      "question": "Which conditional signal models are admitted?",
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "answer": "For AR45 regret branch exactly A/B; original .8-accuracy family is wider.",
+      "depends_on": []
+    },
+    {
+      "id": 4,
+      "question": "Which actions are allowed?",
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "answer": "Current regret model allows a mixture of buy and now; no physical random act is requested.",
+      "depends_on": []
+    },
+    {
+      "id": 5,
+      "question": "What current versus future initiating evidence exists?",
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "answer": "Active tools execute now; saved capsule has no scheduling acknowledgment.",
+      "depends_on": []
+    },
+    {
+      "id": 6,
+      "question": "What are buy and now values in A/B?",
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "answer": "A: .8/1; B:1.2/1, computed in signal-value-tests.",
+      "depends_on": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What regret does a buy-probability q incur?",
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "answer": "A:.2q; B:.2(1\u2212q), expected payoff subtraction.",
+      "depends_on": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which q minimizes the worst regret?",
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "answer": "q=.5, worst=.1 on the declared A/B set.",
+      "depends_on": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Does this identify which signal model is actual?",
+      "scores": [
+        3,
+        4,
+        5,
+        5
+      ],
+      "answer": "No: optimization uses both models; no new signal measurement occurred.",
+      "depends_on": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Does a different uncertainty set preserve that minimizer?",
+      "scores": [
+        5,
+        2,
+        5,
+        4
+      ],
+      "answer": "Not assumed; AV50 tests a broader regret function and model-set premise.",
+      "depends_on": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which source role does the capsule\u2019s mismatched hash identify?",
+      "scores": [
+        4,
+        3,
+        5,
+        5
+      ],
+      "answer": "Origin SPD09 status changed; capsule-current-check shows SP original hash still matches.",
+      "depends_on": [
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Does a changed origin hash prove the next skill changed?",
+      "scores": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "answer": "No: the performed two-role comparison has origin mismatch and next-source match.",
+      "depends_on": [
+        11
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Is the exact next input present after restoration?",
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "answer": "Methods v2 includes full frozen input and a specific SP02 operation; v1 was incomplete.",
+      "depends_on": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Does restored input mean a later session ran?",
+      "scores": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "answer": "No future event receipt exists; restored current bytes are observed.",
+      "depends_on": [
+        5,
+        13
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Can expiry invalidate the future recommendation while preserving the saved history?",
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "answer": "Yes under declared opportunity change; historical saved bytes remain an earlier observation.",
+      "depends_on": [
+        2,
+        5,
+        14
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Does the user endorse the hypothetical regret objective as a real personal preference?",
+      "scores": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "answer": "No such endorsement is supplied; no need to infer it for this formal inquiry.",
+      "depends_on": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What can be performed now without the unavailable future/human evidence?",
+      "scores": [
+        4,
+        3,
+        5,
+        5
+      ],
+      "answer": "AV50 can verify the finite model and sensitivity; it cannot observe a future person.",
+      "depends_on": [
+        8,
+        10,
+        12,
+        16
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which missing premise has the highest current selection value?",
+      "scores": [
+        5,
+        2,
+        5,
+        5
+      ],
+      "answer": "Exhaustiveness and objective sensitivity of the regret model are inspectable; future initiation is separately unavailable.",
+      "depends_on": [
+        10,
+        15,
+        17
+      ]
+    }
+  ],
+  "foundation": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "edges": 30
+}

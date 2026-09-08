@@ -1,0 +1,1202 @@
+{
+  "ar": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Derive commitments of the accepted program before choosing what to omit."
+  },
+  "aex": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "Hidden premises matter, but a full recursive expansion competes with actual trials."
+  },
+  "dd": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "New change dimensions prevent all 300 targets from becoming belief audits."
+  },
+  "se": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Enumeration needs the discovered dimensions to avoid abundant same-kind cases."
+  },
+  "spd": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Map actors and possible change locations before broad guesses."
+  },
+  "u": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Universalization expands scope but needs definite claims to remain tractable."
+  },
+  "ipss": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Mind change includes condition and capability changes; preserve these readings."
+  },
+  "mss": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Competing causal models become useful once concrete outcomes exist."
+  },
+  "frq": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "The task is clear; local unresolved questions can still change the next target."
+  },
+  "orgn": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Wrong time",
+    "reason": "Organizational incentives are useful for coordination, not for arranging Markdown findings."
+  },
+  "sim": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Compressing a barely populated corpus risks deleting scope before its uses appear."
+  },
+  "ro": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Reordering benefits concrete queues after dependencies and findings exist."
+  },
+  "wre": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "The shared document contract is present; remaining requirements must add distinctions."
+  },
+  "w": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Polishing prose before substantive outputs would consume the drafting budget."
+  },
+  "alt": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Changing abstraction can expose a different intervention rather than more wording."
+  },
+  "ma": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Crossing actor with locus creates substantively different application inputs."
+  },
+  "ctcov": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Coverage checks can detect missing perception or action despite many reasoning skills."
+  },
+  "difr": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Distinguishing effect from attribution changes what can be kept."
+  },
+  "vcl": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Criteria may change, but the user's stated aims already constrain first trials."
+  },
+  "ve": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "A new value interview now delays authorized work and invents uncertainty about the stated scope."
+  },
+  "vcd": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Efficiency and exhaustive exposure can conflict locally without invalidating the program."
+  },
+  "pre": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Asking the user to rank the already specified scope offloads our current task."
+  },
+  "grfr": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Reframing the 300-application goal as a smaller goal would violate the premise."
+  },
+  "funr": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Exploration for interest adds targets beyond error correction."
+  },
+  "mp": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Human motivational orderings need an actor; model output pace is observable here."
+  },
+  "trust": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Source and execution trust differ; interpersonal trust effects remain unobserved."
+  },
+  "td": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Sequence timing is actionable even without an external deadline."
+  },
+  "rso": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Separate fixed exposures from changing execution queues to use available work efficiently."
+  },
+  "ecal": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "Effort can vary above original floors, but calibration cannot cut mandatory depth."
+  },
+  "kta": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "A finding must change an actual subsequent operation before earning KEEP."
+  },
+  "de": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Original subordinate invocations and input gates are genuine prerequisites."
+  },
+  "to": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Dependencies determine the next executable slot rather than numerical rank alone."
+  },
+  "lt": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "A useful local change needs a distinct later use before transfer is claimed."
+  },
+  "memy": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Retention cues need findings; initial filing is not demonstrated future retrieval."
+  },
+  "sp": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "The global prompt has just been improved; another identical rewrite is redundant."
+  },
+  "given": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "The 150-row ranking separates coverage placement from current readiness at substantial cost."
+  },
+  "wsib": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "A concrete next-skill decision can now use the loaded sources and current blockage."
+  },
+  "mrc": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "A progress checkpoint can keep counts from replacing substantive exploration."
+  },
+  "mtcg": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "A current strategy switch can be inspected after the first products appear."
+  },
+  "pbtc": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Audit actual verdicts after they exist; assuming the program right is a premise, not a discovered effect."
+  },
+  "unx": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Structural alternatives are needed so the next targets are not all prompt or audit edits."
+  },
+  "foht": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Method tests can change an actual representation or available operation now."
+  },
+  "gjs": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "The GOSM runs need goal chains that preserve rather than substitute the request."
+  },
+  "fut": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Future use is important but speculative effects must not become current keeps."
+  },
+  "gd": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Decomposition turns the full exposure request into independently executable work."
+  },
+  "gsr": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Goal reconstruction can check apparent reversals once recommendations exist."
+  },
+  "grf": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Wrong time",
+    "reason": "Making the already quantified goal SMART adds little now."
+  },
+  "lpd": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Insertion points become concrete when observed bottlenecks exist."
+  },
+  "sysarch": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Architecture can preserve interfaces but an elaborate framework before outputs adds cost."
+  },
+  "ltai": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "Handoffs are real, while claims of autonomous future runs need actual continuation mechanisms."
+  },
+  "ifss": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Inference alternatives need a definite claim rather than the entire program."
+  },
+  "qaf": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Local question classification helps after a blockage is identified."
+  },
+  "qr": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Routes can expose adjacent questions without making all of them new goals."
+  },
+  "ael": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Removing a real optional assumption can unlock conditions; removing requirements cannot."
+  },
+  "fctl": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Factual claims must be tested when introduced; few external facts exist yet."
+  },
+  "cscl": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Causal attribution needs contrasts; a generated case alone supplies none."
+  },
+  "rci": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Recursive causal interrogation should follow actual failure evidence."
+  },
+  "rca": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "No root cause is yet established; generic failure diagnosis would repeat warnings."
+  },
+  "op": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Order individual operations once their prerequisites are explicit."
+  },
+  "cn": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Narrative order is premature for a developing evidence corpus."
+  },
+  "draft": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Separate initial products from repaired versions to preserve revision evidence."
+  },
+  "re": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Reading exact originals affects numerical floors and permissible invocations now."
+  },
+  "anag": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Analogy can generate operations but transfers need concrete mappings."
+  },
+  "cda": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Cross-domain mechanisms broaden targets but do not independently validate them."
+  },
+  "categorize": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Grouping will help actual keep retrieval once several findings exist."
+  },
+  "txm": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Taxonomy maintenance requires categories used beyond a single trial."
+  },
+  "gu": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Reopening the clear full goal now would replace execution with intake."
+  },
+  "ig": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Intuitive preferences can be explored as model working choices, not diagnosed human states."
+  },
+  "eg": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Some trials can discover a worthwhile destination instead of beginning with an error."
+  },
+  "hab": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Early",
+    "reason": "Human habit formation lacks repeated human behavior in this session."
+  },
+  "hf": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Early",
+    "reason": "Habit durability cannot be observed from a model-written schedule."
+  },
+  "eqi": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Emotional appraisal is a target design; current human effects remain unknown."
+  },
+  "socg": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Role interpretations matter but need signals beyond invented stakeholder motives."
+  },
+  "al": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Exact instruction uptake is observable; psychological listening benefit is not assumed."
+  },
+  "empth": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Perspective taking can alter response design without proving another's feelings."
+  },
+  "qs": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "A ready queue can start useful lower-ranked work while exposure counts remain fixed."
+  },
+  "enough": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "High",
+    "timing": "Early",
+    "reason": "Stopping required applications early is not sufficiency; settled subbranches may stop."
+  },
+  "tobd": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Flag absent ratings and unavailable dependencies without silently imputing them."
+  },
+  "nstep": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Select a concrete next operation after identifying a real blockage."
+  },
+  "pt": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Three counters prevent progress inflation and reveal unfinished gates."
+  },
+  "acr": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Recall checks become meaningful after findings exist to retrieve."
+  },
+  "spr": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Longer spaced retention awaits elapsed time and a real continuation."
+  },
+  "ska": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Capability acquisition needs tasks that distinguish trained from untrained behavior."
+  },
+  "dlp": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Deliberate practice needs a specific weak operation and feedback."
+  },
+  "svs": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Mechanical substitutions can change medium or operation in a bounded trial."
+  },
+  "crtv": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Novel designs broaden attention beyond procedure fidelity."
+  },
+  "gg": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "The original 200-plus search is expensive but supports requested breadth on two targets."
+  },
+  "md": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Derive a method from current available evidence instead of familiar router order."
+  },
+  "pcd": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Missing operation signatures can be identified before a long attempted execution."
+  },
+  "pci": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Schema improvement needs a declared schema and authored procedures; originals are immutable."
+  },
+  "pv": {
+    "roi": "HIGH",
+    "upside": "Critical",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Urgent",
+    "reason": "Actual source gates already distinguish ready work from unavailable human calibration."
+  },
+  "satr": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Item counts alone do not establish redundant results before use records exist."
+  },
+  "gaa": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Audit an actual GOSM run, not a title and planned phase list."
+  },
+  "sysdecomp": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "Decompose work while retaining shared source and integration dependencies."
+  },
+  "sysintegration": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Integration should follow developed line outputs and clear evidence scopes."
+  },
+  "sya": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "System analysis needs interfaces or failures to avoid generic architecture prose."
+  },
+  "systhink": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Feedback in selection is real; claims about psychological feedback remain hypotheses."
+  },
+  "requirements": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Source requirements can be traced to actual products without adding a new framework."
+  },
+  "tracematrix": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Exposure, procedure and benefit obligations need separate evidence links."
+  },
+  "exd": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Design comparison tasks before claiming causal benefit, but avoid unnecessary measurement burdens."
+  },
+  "ht": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Test definite live claims; the entire user program is the accepted premise."
+  },
+  "src": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Receipts, archive source and execution evidence support different trust judgments."
+  },
+  "av": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Verify concrete capability and source assumptions with available files."
+  },
+  "sdc": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Actual conclusions supply audit material; inventing bias does not."
+  },
+  "mtcl": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Claims about KEEP quality need distinction from underlying beneficial effect."
+  },
+  "rlcl": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "A prerequisite relation is not a causal treatment effect."
+  },
+  "icl": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "The user expressed intention is evidence; hidden motives stay uncertain."
+  },
+  "dvs": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Diversity belongs in input selection before 300 repetitions become repetitive."
+  },
+  "mv": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Mind-change dimensions overlap legitimately; forced exclusivity can erase interactions."
+  },
+  "ctgp": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Coverage gaps can direct next targets while keeping required exposures."
+  },
+  "nusr": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "A newcomer simulation can test retrieval after a populated index exists."
+  },
+  "vdp": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Visual decoration adds no present operation unless a comparison is hard to read."
+  },
+  "prd": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Building slides now displaces authorized substantive documents without a presentation need."
+  },
+  "sum": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "A final summary before records exist risks a preselected narrative."
+  },
+  "omtx": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Exact comparison tables preserve criteria across different method choices."
+  },
+  "met": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Metaphors can alter representation but require explicit limits."
+  },
+  "collab": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Right time",
+    "reason": "Separate lines and shared constraints create real coordination choices."
+  },
+  "col": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Owned files and integration interfaces prevent conflicting edits."
+  },
+  "gdm": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "There is no real stakeholder vote to report; group procedure remains a design trial."
+  },
+  "tfac": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Early",
+    "reason": "A session plan is not an attended group facilitation outcome."
+  },
+  "fd": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Feedback can change the next model application once an actual defect exists."
+  },
+  "cfr": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "No evidenced interpersonal conflict requires resolution now."
+  },
+  "rtas": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Early",
+    "reason": "A rights analysis needs a concrete rights-bearing context; no legal facts are inferred here."
+  },
+  "rlg": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "A relationship goal is not established merely because communication occurs."
+  },
+  "memk": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Preserve usable triggers and provenance as outputs accumulate."
+  },
+  "lrs": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Learning-system changes need observed application results rather than all-positive logs."
+  },
+  "ld": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Schedule discriminating tasks before cosmetic reporting."
+  },
+  "pwif": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Physical feasibility matters for target designs; model cannot enact human relocation."
+  },
+  "rwif": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Logistics distinguish actionable instructions from performed physical changes."
+  },
+  "hsi": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Accessibility is valuable but effects need actual users or scoped inspection."
+  },
+  "rva": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Reversible working-state trials can proceed without waiting for global certainty."
+  },
+  "fr": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "A recovery path becomes useful when a specific step is blocked."
+  },
+  "iterate": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Before a substantial target exists, iteration becomes meta-work; reserve the assigned run."
+  },
+  "uf": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Fit maps become sharper after several distinct uses expose switch conditions."
+  },
+  "adep": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Twenty actual user ratings are absent; pretending calibration and pruning exposures would mislead."
+  },
+  "upth": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Visible choice transitions can reveal operations; private cognition is not a data source."
+  },
+  "la": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Capability limits can redirect work to a feasible locus without abandoning scope."
+  },
+  "benf": {
+    "roi": "MEDIUM",
+    "upside": "Medium",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Benefit estimates need stated scenarios and cannot turn probabilities into observations."
+  },
+  "boc": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Twenty options help a live commitment; current program itself is accepted."
+  },
+  "utp": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "Medium",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "An ideal can reveal neglected capabilities while remaining a constructed scenario."
+  },
+  "cmplx": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Interactions among evidence, timing and reuse need tracking after first outputs."
+  },
+  "abts": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Controlled tests need interventions and outcome criteria before sample-size claims."
+  },
+  "emv": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "External validation cannot be replaced with the model affirming its own output."
+  },
+  "dom": {
+    "roi": "HIGH",
+    "upside": "High",
+    "cost": "Low",
+    "risk": "Low",
+    "timing": "Right time",
+    "reason": "Supported dominance can choose between concrete local options without arbitrary weights."
+  },
+  "mcd": {
+    "roi": "MEDIUM",
+    "upside": "High",
+    "cost": "High",
+    "risk": "Medium",
+    "timing": "Early",
+    "reason": "Multi-criteria choices help genuine tradeoffs; weights are not yet elicited."
+  },
+  "cba": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Dollar-valued NPV of unobserved cognitive benefits would invent commensurability."
+  },
+  "lcca": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "A life-cycle cost forecast before artifacts and usage exist adds unsupported precision."
+  },
+  "ram": {
+    "roi": "NEGATIVE",
+    "upside": "Low",
+    "cost": "High",
+    "risk": "High",
+    "timing": "Wrong time",
+    "reason": "Reliability rates require failure observations; a made-up MTBF would distort confidence."
+  },
+  "ret": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "A retrospective belongs after a meaningful batch has actually executed."
+  },
+  "ssr": {
+    "roi": "LOW",
+    "upside": "Low",
+    "cost": "Medium",
+    "risk": "Low",
+    "timing": "Early",
+    "reason": "Session review before substantive outcomes records intentions rather than learning."
+  }
+}

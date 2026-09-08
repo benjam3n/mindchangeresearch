@@ -1,0 +1,84 @@
+[
+  {
+    "case": "missing decisive",
+    "condition2": true,
+    "condition7": null,
+    "shown": [
+      2,
+      11
+    ],
+    "possible_applicability": [
+      false,
+      true
+    ],
+    "resolved": false
+  },
+  {
+    "case": "known true pair",
+    "condition2": true,
+    "condition7": true,
+    "shown": [
+      2,
+      7,
+      11
+    ],
+    "possible_applicability": [
+      true
+    ],
+    "resolved": true
+  },
+  {
+    "case": "known false pair",
+    "condition2": true,
+    "condition7": false,
+    "shown": [
+      2,
+      7,
+      11
+    ],
+    "possible_applicability": [
+      false
+    ],
+    "resolved": true
+  },
+  {
+    "case": "short circuit",
+    "condition2": false,
+    "condition7": null,
+    "shown": [
+      2,
+      11
+    ],
+    "possible_applicability": [
+      false
+    ],
+    "resolved": true
+  },
+  {
+    "case": "neither qualifier",
+    "condition2": null,
+    "condition7": null,
+    "shown": [
+      11
+    ],
+    "possible_applicability": [
+      false,
+      true
+    ],
+    "resolved": false
+  },
+  {
+    "case": "distant linked",
+    "condition2": true,
+    "condition7": true,
+    "shown": [
+      2,
+      7,
+      11
+    ],
+    "possible_applicability": [
+      true
+    ],
+    "resolved": true
+  }
+]

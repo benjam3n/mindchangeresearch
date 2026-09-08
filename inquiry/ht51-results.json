@@ -1,0 +1,1325 @@
+{
+  "preregistered_sha256": "0617e3de9120cc6246bdfa485e46bcb5dfc1f97abb920c1943350a9762f7c804",
+  "test_rows": [
+    {
+      "hypothesis": "H1",
+      "test": "p=1/4",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "formula": {
+          "p": "1/4",
+          "c": "1",
+          "B": "0",
+          "l": "-7/10",
+          "u": "-3/10",
+          "q": "0",
+          "weights": [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "0"
+        },
+        "half_regret": "7/20",
+        "full_policy_lp": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 0.0,
+            "decline_now": 1.0,
+            "buy_act_positive": 0.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "p=2/5",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "formula": {
+          "p": "2/5",
+          "c": "1",
+          "B": "0",
+          "l": "1/5",
+          "u": "3/5",
+          "q": "1",
+          "weights": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "0"
+        },
+        "half_regret": "3/10",
+        "full_policy_lp": {
+          "value": 0.0,
+          "weights": {
+            "act_now": -0.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 1.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "p=19/40",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "formula": {
+          "p": "19/40",
+          "c": "1",
+          "B": "3/4",
+          "l": "13/20",
+          "u": "21/20",
+          "q": "3/4",
+          "weights": [
+            "1/4",
+            "0",
+            "3/4",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "3/40"
+        },
+        "half_regret": "3/20",
+        "full_policy_lp": {
+          "value": 0.07499999999999998,
+          "weights": {
+            "act_now": 0.2499999999999999,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.7500000000000001,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "p=3/5",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "formula": {
+          "p": "3/5",
+          "c": "1",
+          "B": "2",
+          "l": "7/5",
+          "u": "9/5",
+          "q": "0",
+          "weights": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "0"
+        },
+        "half_regret": "3/10",
+        "full_policy_lp": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "p=1/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "inside": [
+          [
+            "0",
+            "1/5",
+            "0",
+            "4/5"
+          ],
+          [
+            "1/10",
+            "1/10",
+            "1/10",
+            "7/10"
+          ],
+          [
+            "1/5",
+            "0",
+            "1/5",
+            "3/5"
+          ]
+        ],
+        "outside": [
+          [
+            "-1/1000",
+            "201/1000",
+            "-1/1000",
+            "801/1000"
+          ],
+          [
+            "201/1000",
+            "-1/1000",
+            "201/1000",
+            "599/1000"
+          ]
+        ],
+        "segment": [
+          "0",
+          "1/5"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "p=7/20",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "inside": [
+          [
+            "3/20",
+            "1/5",
+            "0",
+            "13/20"
+          ],
+          [
+            "1/4",
+            "1/10",
+            "1/10",
+            "11/20"
+          ],
+          [
+            "7/20",
+            "0",
+            "1/5",
+            "9/20"
+          ]
+        ],
+        "outside": [
+          [
+            "149/1000",
+            "201/1000",
+            "-1/1000",
+            "651/1000"
+          ],
+          [
+            "351/1000",
+            "-1/1000",
+            "201/1000",
+            "449/1000"
+          ]
+        ],
+        "segment": [
+          "3/20",
+          "7/20"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "p=13/20",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "inside": [
+          [
+            "9/20",
+            "1/5",
+            "0",
+            "7/20"
+          ],
+          [
+            "11/20",
+            "1/10",
+            "1/10",
+            "1/4"
+          ],
+          [
+            "13/20",
+            "0",
+            "1/5",
+            "3/20"
+          ]
+        ],
+        "outside": [
+          [
+            "449/1000",
+            "201/1000",
+            "-1/1000",
+            "351/1000"
+          ],
+          [
+            "651/1000",
+            "-1/1000",
+            "201/1000",
+            "149/1000"
+          ]
+        ],
+        "segment": [
+          "9/20",
+          "13/20"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "p=4/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "inside": [
+          [
+            "3/5",
+            "1/5",
+            "0",
+            "1/5"
+          ],
+          [
+            "7/10",
+            "1/10",
+            "1/10",
+            "1/10"
+          ],
+          [
+            "4/5",
+            "0",
+            "1/5",
+            "0"
+          ]
+        ],
+        "outside": [
+          [
+            "599/1000",
+            "201/1000",
+            "-1/1000",
+            "201/1000"
+          ],
+          [
+            "801/1000",
+            "-1/1000",
+            "201/1000",
+            "-1/1000"
+          ]
+        ],
+        "segment": [
+          "3/5",
+          "4/5"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "p=1/5,lower endpoint",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "0",
+          "1/5",
+          "0",
+          "4/5"
+        ],
+        "gross_signal_response_values": {
+          "buy_act_positive": "0",
+          "buy_act_negative": "-2",
+          "buy_act_both": "-2",
+          "buy_decline_both": "0"
+        },
+        "best_maps": [
+          "buy_act_positive",
+          "buy_decline_both"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "p=1/4,lower endpoint",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "1/20",
+          "1/5",
+          "0",
+          "3/4"
+        ],
+        "gross_signal_response_values": {
+          "buy_act_positive": "3/10",
+          "buy_act_negative": "-9/5",
+          "buy_act_both": "-3/2",
+          "buy_decline_both": "0"
+        },
+        "best_maps": [
+          "buy_act_positive"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "p=3/4,lower endpoint",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "joint": [
+          "11/20",
+          "1/5",
+          "0",
+          "1/4"
+        ],
+        "gross_signal_response_values": {
+          "buy_act_positive": "33/10",
+          "buy_act_negative": "1/5",
+          "buy_act_both": "7/2",
+          "buy_decline_both": "0"
+        },
+        "best_maps": [
+          "buy_act_both"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "p=4/5,lower endpoint",
+      "supports_exact_claim_in_this_case": false,
+      "data": {
+        "joint": [
+          "3/5",
+          "1/5",
+          "0",
+          "1/5"
+        ],
+        "gross_signal_response_values": {
+          "buy_act_positive": "18/5",
+          "buy_act_negative": "2/5",
+          "buy_act_both": "4",
+          "buy_decline_both": "0"
+        },
+        "best_maps": [
+          "buy_act_both"
+        ]
+      }
+    },
+    {
+      "hypothesis": "H4",
+      "test": "p=3/10",
+      "supports_exact_claim_in_this_case": true,
+      "data": [
+        {
+          "weights": [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ],
+          "endpoint_max": "7/6",
+          "grid_max": "7/6",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "1/5",
+            "0",
+            "4/5",
+            "0",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "13/25",
+          "grid_max": "13/25",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "2/5",
+            "0",
+            "3/5",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "9/5",
+          "grid_max": "9/5",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ],
+          "endpoint_max": "5/4",
+          "grid_max": "5/4",
+          "grid_points": 101
+        }
+      ]
+    },
+    {
+      "hypothesis": "H4",
+      "test": "p=9/20",
+      "supports_exact_claim_in_this_case": true,
+      "data": [
+        {
+          "weights": [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ],
+          "endpoint_max": "79/60",
+          "grid_max": "79/60",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "1/5",
+            "0",
+            "4/5",
+            "0",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "2/25",
+          "grid_max": "2/25",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "2/5",
+            "0",
+            "3/5",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "117/50",
+          "grid_max": "117/50",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ],
+          "endpoint_max": "71/40",
+          "grid_max": "71/40",
+          "grid_points": 101
+        }
+      ]
+    },
+    {
+      "hypothesis": "H4",
+      "test": "p=11/20",
+      "supports_exact_claim_in_this_case": true,
+      "data": [
+        {
+          "weights": [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ],
+          "endpoint_max": "17/12",
+          "grid_max": "17/12",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "1/5",
+            "0",
+            "4/5",
+            "0",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "8/25",
+          "grid_max": "8/25",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "2/5",
+            "0",
+            "3/5",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "27/10",
+          "grid_max": "27/10",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ],
+          "endpoint_max": "17/8",
+          "grid_max": "17/8",
+          "grid_points": 101
+        }
+      ]
+    },
+    {
+      "hypothesis": "H4",
+      "test": "p=7/10",
+      "supports_exact_claim_in_this_case": true,
+      "data": [
+        {
+          "weights": [
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6",
+            "1/6"
+          ],
+          "endpoint_max": "13/6",
+          "grid_max": "13/6",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "1/5",
+            "0",
+            "4/5",
+            "0",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "4/5",
+          "grid_max": "4/5",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "2/5",
+            "0",
+            "3/5",
+            "0",
+            "0"
+          ],
+          "endpoint_max": "96/25",
+          "grid_max": "96/25",
+          "grid_points": 101
+        },
+        {
+          "weights": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ],
+          "endpoint_max": "13/4",
+          "grid_max": "13/4",
+          "grid_points": 101
+        }
+      ]
+    },
+    {
+      "hypothesis": "H5",
+      "test": "p=13/40",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "formula": {
+          "p": "13/40",
+          "c": "1",
+          "B": "0",
+          "l": "-1/4",
+          "u": "3/20",
+          "q": "3/8",
+          "weights": [
+            "0",
+            "5/8",
+            "3/8",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "3/32"
+        },
+        "full_policy_lp": {
+          "value": 0.09374999999999999,
+          "weights": {
+            "act_now": 0.0,
+            "decline_now": 0.625,
+            "buy_act_positive": 0.37499999999999994,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 2.7755575615628914e-17
+        }
+      }
+    },
+    {
+      "hypothesis": "H5",
+      "test": "p=19/40",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "formula": {
+          "p": "19/40",
+          "c": "1",
+          "B": "3/4",
+          "l": "13/20",
+          "u": "21/20",
+          "q": "3/4",
+          "weights": [
+            "1/4",
+            "0",
+            "3/4",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "3/40"
+        },
+        "full_policy_lp": {
+          "value": 0.07499999999999998,
+          "weights": {
+            "act_now": 0.2499999999999999,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.7500000000000001,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H5",
+      "test": "p=21/40",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "formula": {
+          "p": "21/40",
+          "c": "1",
+          "B": "5/4",
+          "l": "19/20",
+          "u": "27/20",
+          "q": "1/4",
+          "weights": [
+            "3/4",
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "3/40"
+        },
+        "full_policy_lp": {
+          "value": 0.07500000000000007,
+          "weights": {
+            "act_now": 0.7499999999999999,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.2500000000000001,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H5",
+      "test": "p=7/10",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "formula": {
+          "p": "7/10",
+          "c": "1",
+          "B": "3",
+          "l": "2",
+          "u": "12/5",
+          "q": "0",
+          "weights": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "worst_regret": "0"
+        },
+        "full_policy_lp": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        }
+      }
+    },
+    {
+      "hypothesis": "H6",
+      "test": "p=1/5,c=0",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "full": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 0.0,
+            "decline_now": -0.0,
+            "buy_act_positive": 1.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "reduced": {
+          "value": 0.0,
+          "weights": {
+            "decline_now": -0.0,
+            "buy_act_positive": 1.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "witnesses": [
+          {
+            "t": "0",
+            "payoffs": {
+              "act_now": "-2",
+              "decline_now": "0",
+              "buy_act_positive": "0",
+              "buy_act_negative": "-2",
+              "buy_act_both": "-2",
+              "buy_decline_both": "0"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "0"
+          },
+          {
+            "t": "1/10",
+            "payoffs": {
+              "act_now": "-2",
+              "decline_now": "0",
+              "buy_act_positive": "1/5",
+              "buy_act_negative": "-11/5",
+              "buy_act_both": "-2",
+              "buy_decline_both": "0"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "0"
+          },
+          {
+            "t": "1/5",
+            "payoffs": {
+              "act_now": "-2",
+              "decline_now": "0",
+              "buy_act_positive": "2/5",
+              "buy_act_negative": "-12/5",
+              "buy_act_both": "-2",
+              "buy_decline_both": "0"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "0"
+          }
+        ]
+      }
+    },
+    {
+      "hypothesis": "H6",
+      "test": "p=2/5,c=1/10",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "full": {
+          "value": 0.0,
+          "weights": {
+            "act_now": -0.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 1.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "reduced": {
+          "value": 0.0,
+          "weights": {
+            "act_now": -0.0,
+            "buy_act_positive": 1.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "witnesses": [
+          {
+            "t": "1/5",
+            "payoffs": {
+              "act_now": "0",
+              "decline_now": "0",
+              "buy_act_positive": "11/10",
+              "buy_act_negative": "-13/10",
+              "buy_act_both": "-1/10",
+              "buy_decline_both": "-1/10"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "-1/10"
+          },
+          {
+            "t": "3/10",
+            "payoffs": {
+              "act_now": "0",
+              "decline_now": "0",
+              "buy_act_positive": "13/10",
+              "buy_act_negative": "-3/2",
+              "buy_act_both": "-1/10",
+              "buy_decline_both": "-1/10"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "-1/10"
+          },
+          {
+            "t": "2/5",
+            "payoffs": {
+              "act_now": "0",
+              "decline_now": "0",
+              "buy_act_positive": "3/2",
+              "buy_act_negative": "-17/10",
+              "buy_act_both": "-1/10",
+              "buy_decline_both": "-1/10"
+            },
+            "immediate_best": "0",
+            "removed_map_max": "-1/10"
+          }
+        ]
+      }
+    },
+    {
+      "hypothesis": "H6",
+      "test": "p=3/5,c=1",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "full": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "reduced": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "buy_act_positive": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "witnesses": [
+          {
+            "t": "2/5",
+            "payoffs": {
+              "act_now": "2",
+              "decline_now": "0",
+              "buy_act_positive": "7/5",
+              "buy_act_negative": "-7/5",
+              "buy_act_both": "1",
+              "buy_decline_both": "-1"
+            },
+            "immediate_best": "2",
+            "removed_map_max": "1"
+          },
+          {
+            "t": "1/2",
+            "payoffs": {
+              "act_now": "2",
+              "decline_now": "0",
+              "buy_act_positive": "8/5",
+              "buy_act_negative": "-8/5",
+              "buy_act_both": "1",
+              "buy_decline_both": "-1"
+            },
+            "immediate_best": "2",
+            "removed_map_max": "1"
+          },
+          {
+            "t": "3/5",
+            "payoffs": {
+              "act_now": "2",
+              "decline_now": "0",
+              "buy_act_positive": "9/5",
+              "buy_act_negative": "-9/5",
+              "buy_act_both": "1",
+              "buy_decline_both": "-1"
+            },
+            "immediate_best": "2",
+            "removed_map_max": "1"
+          }
+        ]
+      }
+    },
+    {
+      "hypothesis": "H6",
+      "test": "p=4/5,c=2",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "full": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "decline_now": 0.0,
+            "buy_act_positive": 0.0,
+            "buy_act_negative": 0.0,
+            "buy_act_both": 0.0,
+            "buy_decline_both": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "reduced": {
+          "value": 0.0,
+          "weights": {
+            "act_now": 1.0,
+            "buy_act_positive": 0.0
+          },
+          "max_constraint_residual": 0.0
+        },
+        "witnesses": [
+          {
+            "t": "3/5",
+            "payoffs": {
+              "act_now": "4",
+              "decline_now": "0",
+              "buy_act_positive": "8/5",
+              "buy_act_negative": "-8/5",
+              "buy_act_both": "2",
+              "buy_decline_both": "-2"
+            },
+            "immediate_best": "4",
+            "removed_map_max": "2"
+          },
+          {
+            "t": "7/10",
+            "payoffs": {
+              "act_now": "4",
+              "decline_now": "0",
+              "buy_act_positive": "9/5",
+              "buy_act_negative": "-9/5",
+              "buy_act_both": "2",
+              "buy_decline_both": "-2"
+            },
+            "immediate_best": "4",
+            "removed_map_max": "2"
+          },
+          {
+            "t": "4/5",
+            "payoffs": {
+              "act_now": "4",
+              "decline_now": "0",
+              "buy_act_positive": "2",
+              "buy_act_negative": "-2",
+              "buy_act_both": "2",
+              "buy_decline_both": "-2"
+            },
+            "immediate_best": "4",
+            "removed_map_max": "2"
+          }
+        ]
+      }
+    },
+    {
+      "hypothesis": "H7",
+      "test": "p=2/5,t=1/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "1/5",
+          "1/5",
+          "0",
+          "3/5"
+        ],
+        "values": {
+          "act_now": "0",
+          "decline_now": "0",
+          "buy_act_positive": "1/5",
+          "buy_act_negative": "-11/5",
+          "buy_act_both": "-1",
+          "buy_decline_both": "-1"
+        },
+        "regret": "1/10",
+        "expected": "1/10"
+      }
+    },
+    {
+      "hypothesis": "H7",
+      "test": "p=2/5,t=2/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "2/5",
+          "0",
+          "1/5",
+          "2/5"
+        ],
+        "values": {
+          "act_now": "0",
+          "decline_now": "0",
+          "buy_act_positive": "3/5",
+          "buy_act_negative": "-13/5",
+          "buy_act_both": "-1",
+          "buy_decline_both": "-1"
+        },
+        "regret": "3/10",
+        "expected": "3/10"
+      }
+    },
+    {
+      "hypothesis": "H7",
+      "test": "p=3/5,t=2/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "2/5",
+          "1/5",
+          "0",
+          "2/5"
+        ],
+        "values": {
+          "act_now": "2",
+          "decline_now": "0",
+          "buy_act_positive": "7/5",
+          "buy_act_negative": "-7/5",
+          "buy_act_both": "1",
+          "buy_decline_both": "-1"
+        },
+        "regret": "3/10",
+        "expected": "3/10"
+      }
+    },
+    {
+      "hypothesis": "H7",
+      "test": "p=3/5,t=3/5",
+      "supports_exact_claim_in_this_case": true,
+      "data": {
+        "joint": [
+          "3/5",
+          "0",
+          "1/5",
+          "1/5"
+        ],
+        "values": {
+          "act_now": "2",
+          "decline_now": "0",
+          "buy_act_positive": "9/5",
+          "buy_act_negative": "-9/5",
+          "buy_act_both": "1",
+          "buy_decline_both": "-1"
+        },
+        "regret": "1/10",
+        "expected": "1/10"
+      }
+    }
+  ],
+  "tests_per_hypothesis": {
+    "H1": 4,
+    "H2": 4,
+    "H3": 4,
+    "H4": 4,
+    "H5": 4,
+    "H6": 4,
+    "H7": 4
+  },
+  "interval_full_policy_lp": {
+    "value": 0.29999999999999993,
+    "weights": {
+      "act_now": 0.4999999999999999,
+      "decline_now": 0.0,
+      "buy_act_positive": 0.5000000000000001,
+      "buy_act_negative": 0.0,
+      "buy_act_both": 0.0,
+      "buy_decline_both": 0.0
+    },
+    "max_constraint_residual": 4.440892098500626e-16
+  },
+  "conditional_probability_cross_checks": [
+    {
+      "p": "1/5",
+      "t": "0",
+      "zero_probability_branch": true,
+      "conditional_values": [
+        "-2",
+        "0",
+        "-1",
+        "-3",
+        "-3",
+        "-1"
+      ],
+      "joint_values": [
+        "-2",
+        "0",
+        "-1",
+        "-3",
+        "-3",
+        "-1"
+      ],
+      "matches": true
+    },
+    {
+      "p": "1/4",
+      "t": "1/20",
+      "zero_probability_branch": false,
+      "conditional_values": [
+        "-3/2",
+        "0",
+        "-7/10",
+        "-14/5",
+        "-5/2",
+        "-1"
+      ],
+      "joint_values": [
+        "-3/2",
+        "0",
+        "-7/10",
+        "-14/5",
+        "-5/2",
+        "-1"
+      ],
+      "matches": true
+    },
+    {
+      "p": "3/4",
+      "t": "11/20",
+      "zero_probability_branch": false,
+      "conditional_values": [
+        "7/2",
+        "0",
+        "23/10",
+        "-4/5",
+        "5/2",
+        "-1"
+      ],
+      "joint_values": [
+        "7/2",
+        "0",
+        "23/10",
+        "-4/5",
+        "5/2",
+        "-1"
+      ],
+      "matches": true
+    },
+    {
+      "p": "4/5",
+      "t": "3/5",
+      "zero_probability_branch": false,
+      "conditional_values": [
+        "4",
+        "0",
+        "13/5",
+        "-3/5",
+        "3",
+        "-1"
+      ],
+      "joint_values": [
+        "4",
+        "0",
+        "13/5",
+        "-3/5",
+        "3",
+        "-1"
+      ],
+      "matches": true
+    },
+    {
+      "p": "19/40",
+      "t": "3/10",
+      "zero_probability_branch": false,
+      "conditional_values": [
+        "3/4",
+        "0",
+        "7/10",
+        "-39/20",
+        "-1/4",
+        "-1"
+      ],
+      "joint_values": [
+        "3/4",
+        "0",
+        "7/10",
+        "-39/20",
+        "-1/4",
+        "-1"
+      ],
+      "matches": true
+    },
+    {
+      "p": "21/40",
+      "t": "1/2",
+      "zero_probability_branch": false,
+      "conditional_values": [
+        "5/4",
+        "0",
+        "13/10",
+        "-41/20",
+        "1/4",
+        "-1"
+      ],
+      "joint_values": [
+        "5/4",
+        "0",
+        "13/10",
+        "-41/20",
+        "1/4",
+        "-1"
+      ],
+      "matches": true
+    }
+  ],
+  "conditional_checks_all_match": true,
+  "total_primary_tests": 28,
+  "numeric_lp_tolerance": 1e-10,
+  "no_sampling_inference": true
+}

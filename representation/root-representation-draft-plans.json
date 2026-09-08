@@ -1,0 +1,186 @@
+{
+  "intended_mind_change": "Use actual drafting comparisons to revise one explanatory representation and one creative composition; keep demonstrated authored changes separate from human reception.",
+  "created_utc": "2026-09-08T05:32:40.334696+00:00",
+  "source_sha256": "5d2269d1fead6f0cf4710326e0ac9b95f5d54d53c324f725e8912315866c025a",
+  "source_interpretation": "1: writing from scratch, all three drafts",
+  "user_override": "Do not manufacture a bad first draft or pad prose merely to force the source cut ratio; do not claim unsupported universal facts about brains or prose.",
+  "plans": [
+    {
+      "id": "044-draft-1",
+      "intended_mind_change": "Replace my tentative aggregate-first explanatory plan if another structure makes the group-weight assumption explicit with fewer words.",
+      "starting_judgment": "I tentatively prefer opening with the aggregate reversal and explaining the two groups afterward; I have not compared complete skeletons. I already know rates can reverse under different mixtures, so discovering that theorem is not the claimed change.",
+      "input": "Fictional process A: easy 9/10, hard 10/100. Process B: easy 80/100, hard 0/10. Explain what these exact counts do and do not warrant. No causal assignment claim.",
+      "purpose": "Give a reader an exact, short explanation of an apparent rate contradiction and a usable comparison boundary.",
+      "audience": "A numerate general reader who can divide counts but has not seen this example.",
+      "format": "Explanatory note",
+      "final_target_words": 220,
+      "single_sentence": "The aggregate compares different mixtures; a common mixture supports one comparison while neither table alone establishes causal superiority.",
+      "skeleton_alternatives": [
+        {
+          "id": "S1 aggregate-first",
+          "sequence": [
+            "State aggregate ranking",
+            "Give per-group rates",
+            "Explain weights",
+            "Give matched-mixture calculation",
+            "Limit causal inference"
+          ],
+          "assessment": "Strong surprise, but delays the denominator definition and makes a reader revise the first ranking."
+        },
+        {
+          "id": "S2 counts-first",
+          "sequence": [
+            "Define both groups and counts",
+            "Calculate group rates",
+            "Calculate aggregates",
+            "Explain weights with common mixture",
+            "Limit causal inference"
+          ],
+          "assessment": "Transparent derivation; four numerical frames before the actionable condition may make the note longer."
+        },
+        {
+          "id": "S3 comparison-first",
+          "sequence": [
+            "State the missing comparison condition",
+            "Present the exact counts",
+            "Calculate the apparent reversal",
+            "Apply a common mixture",
+            "Separate arithmetic comparison from causal claim"
+          ],
+          "assessment": "Puts the decision boundary first while retaining an inspectable contradiction. Selected for actual drafting; efficiency remains to be measured."
+        }
+      ],
+      "selected_skeleton": [
+        {
+          "section": "Comparison condition",
+          "job": "Specify the question before the ranking",
+          "claim": "An aggregate rate compares both performance and case mixture.",
+          "support": "Each aggregate is a weighted mean of its group rates.",
+          "exit": "A reader asks which mixture the comparison should describe.",
+          "counterargument": "If the actual incoming mixtures are themselves the target, the aggregate remains a valid descriptive rate."
+        },
+        {
+          "section": "Exact data",
+          "job": "Make the denominators inspectable",
+          "claim": "A has higher observed success in each of two groups.",
+          "support": "A easy9/10 hard10/100; B easy80/100 hard0/10.",
+          "exit": "The reader can independently compute the two within-group comparisons.",
+          "counterargument": "Observed rates alone need not describe causal effects."
+        },
+        {
+          "section": "Reversal",
+          "job": "Calculate why the aggregate differs",
+          "claim": "B has the higher overall observed rate in these samples.",
+          "support": "A19/110 and B80/110; B has many more easy cases.",
+          "exit": "No logical contradiction remains between aggregate and within-group rankings."
+        },
+        {
+          "section": "Common mixture",
+          "job": "Show the explicit comparison operation",
+          "claim": "At equal group weights the observed-rate comparison favors A.",
+          "support": "A(0.9+0.1)/2=0.5; B(0.8+0)/2=0.4.",
+          "exit": "The reader can state the assumption behind this standardized comparison.",
+          "counterargument": "Equal weighting is a chosen scenario, not a discovered population distribution."
+        },
+        {
+          "section": "Boundary",
+          "job": "Limit the conclusion",
+          "claim": "Neither summary alone proves that switching the process causes improvement.",
+          "support": "The supplied fictional data specify no assignment mechanism or comparable counterfactual outcomes.",
+          "exit": "A descriptive comparison is separated from a causal recommendation."
+        }
+      ]
+    },
+    {
+      "id": "045-draft-2",
+      "intended_mind_change": "Test whether changing a story from chronology to a decision-centered structure changes its authored interpretation while preserving its events and uncertainty.",
+      "starting_judgment": "I currently prefer the chronological version because it gives the letter its history before the reply. I intend the story to permit two readings of the request; I will not invent a failure to preserve that ambiguity just to earn a KEEP.",
+      "input": "Fictional Sela is drawing a coastal map away from home. Her father writes only: Tell us where you are. She has an unused return ticket. She sends a copy of her current map with her location marked and keeps the ticket. No reply arrives within the story. Do not settle what her father meant or predict his reaction.",
+      "purpose": "Produce a restrained short story about choosing a response under ambiguous relational intent.",
+      "audience": "An imagined adult fiction reader, simulated only; no real reader observation.",
+      "format": "Microfiction",
+      "final_target_words": 240,
+      "single_sentence": "Sela answers the words she received while leaving the larger question of return unresolved.",
+      "skeleton_alternatives": [
+        {
+          "id": "T1 chronology",
+          "sequence": [
+            "Establish mapmaking and time away",
+            "Receive letter",
+            "Consider ticket",
+            "Prepare map reply",
+            "Leave outcome open"
+          ],
+          "assessment": "Preserves causal order and concrete objects; risks overexplaining background. Selected for draft1 to test the actual preferred baseline."
+        },
+        {
+          "id": "T2 decision-first",
+          "sequence": [
+            "Place map and ticket together",
+            "Reveal the exact letter",
+            "Show the marking and reply",
+            "End with retained ticket and absent reply"
+          ],
+          "assessment": "Focuses the live choice with fewer background facts; may reduce the sense of elapsed distance."
+        },
+        {
+          "id": "T3 reply-first",
+          "sequence": [
+            "Show sealed envelope",
+            "Flash back to the letter",
+            "Recover the unused ticket",
+            "End on unresolved future"
+          ],
+          "assessment": "Creates suspense but withholds the question after presenting the answer. Extra temporal reorder has no demonstrated benefit."
+        }
+      ],
+      "selected_skeleton": [
+        {
+          "section": "Setting",
+          "job": "Establish work and distance",
+          "claim": "Sela is mapping away from home.",
+          "support": "Invented setting and current map in the supplied fiction.",
+          "exit": "The reader locates the immediate scene."
+        },
+        {
+          "section": "Letter",
+          "job": "Present the exact relational uncertainty",
+          "claim": "The short request does not settle whether return is wanted.",
+          "support": "Exact five-word sentence and no later clarification.",
+          "exit": "Both location request and implied invitation remain possible.",
+          "counterargument": "A reader may prefer one pragmatic interpretation; the narrator must not certify it."
+        },
+        {
+          "section": "Ticket",
+          "job": "Make the alternative action concrete",
+          "claim": "A return option exists.",
+          "support": "Unused ticket in the given event constraints.",
+          "exit": "Remaining away is a choice with an available alternative."
+        },
+        {
+          "section": "Reply",
+          "job": "Show the selected response",
+          "claim": "She sends a marked copy of the map.",
+          "support": "Required authored event.",
+          "exit": "The reader sees what she does without a claim about its effect on her father."
+        },
+        {
+          "section": "Open end",
+          "job": "Preserve the undecided future",
+          "claim": "The ticket remains and no reply is observed.",
+          "support": "Required limits of the story.",
+          "exit": "The action closes; relational interpretation remains open."
+        }
+      ]
+    }
+  ],
+  "actual_mind_change": "At the planning stage I changed the quantitative note from aggregate-first to comparison-first after comparing three skeletons. The story retains the credible chronological starting preference for an actual drafting test.",
+  "benefit": "Candidate organization choices only; no completed prose or reader outcome yet.",
+  "verdict": "UNRESOLVED",
+  "organization": "Both plans preserve rejected alternatives and the same explicit field set; the two writing targets and change criteria differ.",
+  "next_attempts": [
+    "Draft both complete pieces, audit every paragraph, and compare resulting word counts.",
+    "Test the numerical explanation on a different common mixture.",
+    "Compare the story against its fixed events and an opposite plausible reading of the letter."
+  ]
+}

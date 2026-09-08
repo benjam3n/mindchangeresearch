@@ -1,0 +1,23 @@
+{
+  "actor": "current inquiry model",
+  "routes": [
+    {
+      "input": "missing QR data",
+      "type": "access/provenance",
+      "next_observation": "locate original archive",
+      "status": "unresolved"
+    },
+    {
+      "input": "continue next time",
+      "type": "interpretive multiplicity/control",
+      "next_observation": "compare session-resume and autonomous continuation against actual capability",
+      "status": "unresolved"
+    },
+    {
+      "input": "repeated requirement digests",
+      "type": "evidence dependence",
+      "next_observation": "identify common source before treating repetition as independent support",
+      "status": "unresolved"
+    }
+  ]
+}

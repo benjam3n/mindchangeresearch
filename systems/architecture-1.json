@@ -1,0 +1,749 @@
+{
+  "subsystems": [
+    {
+      "id": "A1-01",
+      "name": "Goal capture",
+      "owned_output": "requested action",
+      "functions": "produce requested action",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-02",
+      "name": "Interpretation set",
+      "owned_output": "candidate meanings",
+      "functions": "produce candidate meanings",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-03",
+      "name": "Source access",
+      "owned_output": "readable original",
+      "functions": "produce readable original",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-04",
+      "name": "Input normalization",
+      "owned_output": "typed values",
+      "functions": "produce typed values",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-05",
+      "name": "Option generation",
+      "owned_output": "candidate operations",
+      "functions": "produce candidate operations",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-06",
+      "name": "Evidence matching",
+      "owned_output": "scope matches",
+      "functions": "produce scope matches",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-07",
+      "name": "Prerequisite graph",
+      "owned_output": "required order",
+      "functions": "produce required order",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-08",
+      "name": "Budget model",
+      "owned_output": "feasible bundles",
+      "functions": "produce feasible bundles",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-09",
+      "name": "Criterion store",
+      "owned_output": "versioned standards",
+      "functions": "produce versioned standards",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-10",
+      "name": "Option comparison",
+      "owned_output": "conditional choice",
+      "functions": "produce conditional choice",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-11",
+      "name": "Authority check",
+      "owned_output": "authorized action",
+      "functions": "produce authorized action",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-12",
+      "name": "Dispatcher",
+      "owned_output": "task revision",
+      "functions": "produce task revision",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-13",
+      "name": "Result acceptance",
+      "owned_output": "current result",
+      "functions": "produce current result",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-14",
+      "name": "Consequence assessment",
+      "owned_output": "observed difference",
+      "functions": "produce observed difference",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-15",
+      "name": "Revision propagation",
+      "owned_output": "invalidated descendants",
+      "functions": "produce invalidated descendants",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A1-16",
+      "name": "Presentation",
+      "owned_output": "usable answer",
+      "functions": "produce usable answer",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "I1-01",
+      "from": "A1-01",
+      "to": "A1-02",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "requested action",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-02",
+      "from": "A1-02",
+      "to": "A1-03",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "candidate meanings",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-03",
+      "from": "A1-03",
+      "to": "A1-04",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "readable original",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-04",
+      "from": "A1-04",
+      "to": "A1-05",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "typed values",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-05",
+      "from": "A1-05",
+      "to": "A1-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "candidate operations",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-06",
+      "from": "A1-06",
+      "to": "A1-07",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "scope matches",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-07",
+      "from": "A1-07",
+      "to": "A1-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "required order",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-08",
+      "from": "A1-08",
+      "to": "A1-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "feasible bundles",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-09",
+      "from": "A1-09",
+      "to": "A1-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "versioned standards",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-10",
+      "from": "A1-10",
+      "to": "A1-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "conditional choice",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-11",
+      "from": "A1-11",
+      "to": "A1-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "authorized action",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-12",
+      "from": "A1-12",
+      "to": "A1-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "task revision",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-13",
+      "from": "A1-13",
+      "to": "A1-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "current result",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-14",
+      "from": "A1-14",
+      "to": "A1-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "observed difference",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-15",
+      "from": "A1-15",
+      "to": "A1-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "invalidated descendants",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-16",
+      "from": "A1-01",
+      "to": "A1-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "requested action",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-17",
+      "from": "A1-03",
+      "to": "A1-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "readable original",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-18",
+      "from": "A1-04",
+      "to": "A1-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "typed values",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-19",
+      "from": "A1-05",
+      "to": "A1-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "candidate operations",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-20",
+      "from": "A1-06",
+      "to": "A1-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "scope matches",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-21",
+      "from": "A1-07",
+      "to": "A1-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "required order",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-22",
+      "from": "A1-08",
+      "to": "A1-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "feasible bundles",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-23",
+      "from": "A1-09",
+      "to": "A1-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "versioned standards",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-24",
+      "from": "A1-13",
+      "to": "A1-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "current result",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I1-25",
+      "from": "A1-15",
+      "to": "A1-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "invalidated descendants",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    }
+  ],
+  "weights": {
+    "Fidelity": 5,
+    "Scope clarity": 5,
+    "Recoverability": 4,
+    "Modifiability": 3,
+    "Traceability": 4,
+    "Simplicity": 3,
+    "Prompt delivery": 2,
+    "Portability": 2,
+    "Resource control": 4,
+    "Agency": 5
+  },
+  "scores": [
+    [
+      3,
+      2,
+      2,
+      2,
+      2,
+      5,
+      5,
+      5,
+      2,
+      3
+    ],
+    [
+      5,
+      5,
+      4,
+      4,
+      5,
+      3,
+      3,
+      4,
+      5,
+      5
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      5,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      3,
+      3,
+      5,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  "totals": {
+    "single mutable document": 105,
+    "layered immutable packets": 166,
+    "event log plus views": 154,
+    "shared blackboard": 122,
+    "actor contracts": 141
+  },
+  "selected": "layered immutable packets",
+  "sensitivity": [
+    {
+      "attribute": "Fidelity",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        102,
+        161,
+        149,
+        119,
+        137
+      ]
+    },
+    {
+      "attribute": "Fidelity",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        108,
+        171,
+        159,
+        125,
+        145
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        103,
+        161,
+        150,
+        119,
+        137
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        107,
+        171,
+        158,
+        125,
+        145
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        103,
+        162,
+        149,
+        119,
+        137
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        107,
+        170,
+        159,
+        125,
+        145
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        103,
+        162,
+        149,
+        117,
+        137
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        107,
+        170,
+        159,
+        127,
+        145
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        103,
+        161,
+        149,
+        119,
+        137
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        107,
+        171,
+        159,
+        125,
+        145
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        100,
+        163,
+        152,
+        118,
+        139
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        110,
+        169,
+        156,
+        126,
+        143
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        100,
+        163,
+        152,
+        118,
+        139
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        110,
+        169,
+        156,
+        126,
+        143
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        100,
+        162,
+        150,
+        119,
+        138
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        110,
+        170,
+        158,
+        125,
+        144
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        103,
+        161,
+        150,
+        119,
+        137
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        107,
+        171,
+        158,
+        125,
+        145
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": -1,
+      "winner": "layered immutable packets",
+      "totals": [
+        102,
+        161,
+        150,
+        119,
+        136
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": 1,
+      "winner": "layered immutable packets",
+      "totals": [
+        108,
+        171,
+        158,
+        125,
+        146
+      ]
+    }
+  ]
+}

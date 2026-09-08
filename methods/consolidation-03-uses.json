@@ -1,0 +1,29 @@
+[
+  {
+    "query": "Is reordered B physically invalid?",
+    "keep": "MD-01",
+    "answer": "unspecified",
+    "boundary": "A prerequisite must be supplied before physical validity is settled."
+  },
+  {
+    "query": "What does unreadable then PASS do?",
+    "keep": "PV-02",
+    "answer": [
+      "paused",
+      "start"
+    ],
+    "boundary": "Missing observation differs from missing current state."
+  },
+  {
+    "query": "At p=.10, under expected duration, which policy?",
+    "keep": "MD-02",
+    "answer": "east",
+    "boundary": "Unknown p still does not yield a unique expected-time policy."
+  },
+  {
+    "query": "Can ABAB\u2192AB localize one missing pair?",
+    "keep": "FOHT-03",
+    "answer": 3,
+    "boundary": "ABAC\u2192ABC has exactly one witness, so ambiguity is not universal."
+  }
+]

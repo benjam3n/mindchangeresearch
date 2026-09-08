@@ -1,0 +1,105 @@
+{
+  "findings": [
+    {
+      "id": "K1",
+      "source": "03-dd-uncertainty.md",
+      "cue": "uncertainty kind",
+      "finding": "Missing access, ambiguous meaning, conflicting evidence, and a threshold-crossing interval require different resolving observations.",
+      "scope": "current model classifications on the declared cases",
+      "exception": "No further resolution is needed merely to choose an action already invariant across the live interval."
+    },
+    {
+      "id": "K2",
+      "source": "04-dd-attention-access.md",
+      "cue": "source segment",
+      "finding": "On-disk existence and inclusion in a combined read do not establish that the full source was emitted; instruction force differs from screen position.",
+      "scope": "observed truncation and separate source reads in this run",
+      "exception": "A complete short response needs no segmentation."
+    },
+    {
+      "id": "K3",
+      "source": "12-fctl-sure.md",
+      "cue": "confidence entailment",
+      "finding": "Factive certainty includes truth; a confidence-expressing output does not entail truth. The source reason remains conditional on its sense.",
+      "scope": "the sure\u2192true source reason and the stated false-string countercase",
+      "exception": "The countercase does not defeat factive certainty, and no private confidence state is inferred."
+    },
+    {
+      "id": "K4",
+      "source": "13-fctl-fault-gates.md",
+      "cue": "causal gate",
+      "finding": "Under the declared present-event Boolean semantics, breaking one conjunct stops an AND event; every active sufficient OR branch must be disabled.",
+      "scope": "declared two-input gates and the local-copy/connector access model",
+      "exception": "Comprehensive future hazard removal is a different objective and can require more fixes."
+    }
+  ],
+  "index": {
+    "source segment": [
+      "K2"
+    ],
+    "confidence entailment": [
+      "K3",
+      "K1"
+    ],
+    "causal gate": [
+      "K4",
+      "K1"
+    ]
+  },
+  "trials": [
+    {
+      "query": "Q1",
+      "question": "An original source segment was omitted by truncation. Which finding controls the next operation?",
+      "expected": [
+        "K2"
+      ],
+      "chronological_output": [
+        "K2"
+      ],
+      "decision_index_output": [
+        "K2"
+      ],
+      "same_scoped_findings": true,
+      "chronological_entries_considered": 4,
+      "indexed_entries_considered": 1
+    },
+    {
+      "query": "Q2",
+      "question": "A route is phrased confidently; the action interval still crosses its threshold. Which distinctions apply?",
+      "expected": [
+        "K1",
+        "K3"
+      ],
+      "chronological_output": [
+        "K1",
+        "K3"
+      ],
+      "decision_index_output": [
+        "K3",
+        "K1"
+      ],
+      "same_scoped_findings": true,
+      "chronological_entries_considered": 4,
+      "indexed_entries_considered": 2
+    },
+    {
+      "query": "Q3",
+      "question": "The original local path is absent, but connector retrieval succeeds. Must the original path also be rebuilt?",
+      "expected": [
+        "K1",
+        "K4"
+      ],
+      "chronological_output": [
+        "K1",
+        "K4"
+      ],
+      "decision_index_output": [
+        "K4",
+        "K1"
+      ],
+      "same_scoped_findings": true,
+      "chronological_entries_considered": 4,
+      "indexed_entries_considered": 2
+    }
+  ]
+}

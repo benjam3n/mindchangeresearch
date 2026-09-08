@@ -1,0 +1,31 @@
+### Pass 1
+
+[OBSERVED: preserved bytes] Whole input: pbtc-01-input.txt; SHA-256 `b68c0969cc926e1f865a26e4f85a9ca54a585b2750d677c6f5ce8c6540d1144b`. The full preceding output, not just its verdict, is the input.
+
+THESIS UNDER CHECK: For the supplied three-continuation request, the eight examined additions supply no warranted prompt improvement, so the prompt should remain unchanged.
+
+[OBSERVED: input contents] SP-03 preserves the exact room/rain seed, three distinct continuations and nonselection. Genre, narrator, mood, factual explanation, best-reading selection, physical-only room, mandatory action and length ceiling each receive a separate disposition. The length ceiling is expressly contingent on a page constraint absent from this input.
+
+[OBSERVED: full input text] Evidence selection: cherry-picked evidence—absent; asymmetric rigor—absent; missing null—absent; survivorship framing—absent; date-selected evidence—absent. The eight actual additions and their rejection reasons are included; the length-limit exception is retained. No favorable rewrite is manufactured to satisfy the assigned exposure. No date window or empirical sample is used.
+
+[OBSERVED: full input text; DERIVED: commitments and countercases] Argumentative structure: conclusion appears early with confidence—absent as an asserted final verdict; no pivot point—absent; motte-and-bailey—absent; straw alternatives—absent; forced linearity—absent; rhetorical hedging as armor—absent. The beginning calls adequacy a starting judgment rather than a discovered result. A supplied page constraint would reverse the length-limit decision. The eight additions are evaluated against the same exact prompt commitments, and the final result is unchanged rather than a stronger universal claim about precision.
+
+[OBSERVED: full input text] Emotional/social tells: identity fusion—no visible appeal; sunk-cost defense—absent from the argument; audience capture—no desired specific verdict supplied for this case; disproportionate certainty—absent; defensive reaction—no interaction supplied. The requested exposure ends REJECT for new benefit; that is observable disagreement with automatic positive credit. The text supplies no identity claim, sunk-cost justification or defensive exchange. No internal emotion is inferred. These are observations of text, not verified absences of private motives.
+
+[OBSERVED: frozen input; DERIVED: documented scope] Process tells: conclusion predates research—unknown for the original private history; methodology fitted to outcome—no confirming record; missing written methodology—absent; post-hoc hypothesis advertised as prospective—absent; unfalsifiable framing—absent. The supplied document has no version history locating the author’s first private conclusion. It explicitly lists candidate edits, tests them against supplied intent and returns no edit. It does not advertise a preregistered experiment, measured creative superiority or an irreversible no-edit doctrine.
+
+[DERIVED: stated premises and exact contrary case] Reversal test: Supporting evidence is the mismatch between each addition and the actual open brief. Opposite evidence would be an explicit one-page output constraint coupled to a continuation exceeding that page. Under that changed input the present length-limit reason ceases to hold. In the supplied input no page requirement has appeared and been dismissed; the reversal is conditional, not an observed author response to an external challenge.
+
+Counter-theses and their disposition:
+
+1. [DERIVED: exact input and countercase] A specified genre improves fit: engaged and rejected on the present input because genre is intentionally open; it becomes applicable if the brief actually supplies that genre.
+2. [DERIVED: exact input and countercase] A ceiling improves fit to a fixed page: engaged as a live conditional boundary, not dismissed; the required page premise is absent here.
+3. [DERIVED: exact input and countercase] No prompt change is beneficial: engaged and adopted for these eight candidates; this null is explicitly allowed to earn no new KEEP.
+
+[OBSERVED: artifact order; DERIVED: limits of that observation] Timeline: The source is a completed retrospective document captured before this audit. Its current wording is observable; the author’s first private conclusion and its date are unavailable. The displayed argument order is not substituted for prospective chronology.
+
+[DERIVED: complete scan and reversals] Assessment: all 21 named signals scanned in four categories; zero confirmed critical signals. No significant pre-bake fingerprint is supported by this text. Absence of private chronology, a specific desired audience verdict and a defensive exchange is retained as unavailable evidence, not scored as proved absence of bias. Written counter-theses are engaged. Reversal result for the author’s actual historical responsiveness: UNCLEAR; changed-input sensitivity and conditional countercases do not establish that response under contrary evidence about the same fixed claim.
+
+PASS 1 VERDICT: CLEAN for the supplied documentary reasoning. This does not establish an unobserved psychological history.
+
+[DERIVED: assessment] Action: No restart of the supplied analysis is warranted by the scan. The optional CLEAN→ARAW strengthening route is not elected: this input requests a provenance audit, and no stronger substantive claim is sought.

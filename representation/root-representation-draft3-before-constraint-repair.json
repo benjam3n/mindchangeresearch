@@ -1,0 +1,488 @@
+{
+  "intended_mind_change": "Complete exact sentence, tone, voice and simulated spoken passes, then test the revised numerical claim and preserve the story’s interpretive boundary.",
+  "created_utc": "2026-09-08T05:39:06.098345+00:00",
+  "draft2_sha256": "9b2c21104a5f779ee3602b1b38b970b69a8b39f956dafc115a45a30d57bd9176",
+  "cases": {
+    "044-draft-1": {
+      "draft3": [
+        "Compare processes on a stated mixture of cases. Each overall rate describes the cases that process received; different mixtures can reverse the ranking of their group rates.",
+        "In this fictional example, A succeeds on 9/10 easy cases and 10/100 hard cases. B succeeds on 80/100 easy cases and 0/10 hard cases. A leads in both groups: 90% versus 80%, and 10% versus 0%.",
+        "B nevertheless leads overall: 80/110, about 73%, against A's 19/110, about 17%. B received mainly easy cases; A received mainly hard ones. Their totals weight the groups differently.",
+        "Give both processes the same easy-case share q, between zero and one. Their weighted observed rates become 0.1+0.8q for A and 0.8q for B. A leads by ten percentage points under every common mixture. At a 50/50 split, the comparison is 50% versus 40%. These weights specify a comparison scenario; they do not identify a population's composition.",
+        "This arithmetic does not establish the effect of switching a case from B to A. The counts specify neither an assignment mechanism nor both outcomes for the same case. The descriptive comparison holds under stated weights; a causal claim needs more information."
+      ],
+      "sentence_pass": [
+        {
+          "id": "P1S1",
+          "text": "Compare processes on a stated mixture of cases.",
+          "words": 8,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P1S2",
+          "text": "Each overall rate describes the cases that process received; different mixtures can reverse the ranking of their group rates.",
+          "words": 19,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S1",
+          "text": "In this fictional example, A succeeds on 9/10 easy cases and 10/100 hard cases.",
+          "words": 16,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S2",
+          "text": "B succeeds on 80/100 easy cases and 0/10 hard cases.",
+          "words": 12,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S3",
+          "text": "A leads in both groups: 90% versus 80%, and 10% versus 0%.",
+          "words": 12,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S1",
+          "text": "B nevertheless leads overall: 80/110, about 73%, against A's 19/110, about 17%.",
+          "words": 14,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S2",
+          "text": "B received mainly easy cases; A received mainly hard ones.",
+          "words": 10,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S3",
+          "text": "Their totals weight the groups differently.",
+          "words": 6,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S1",
+          "text": "Give both processes the same easy-case share q, between zero and one.",
+          "words": 13,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S2",
+          "text": "Their weighted observed rates become 0.1+0.8q for A and 0.8q for B.",
+          "words": 16,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S3",
+          "text": "A leads by ten percentage points under every common mixture.",
+          "words": 10,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S4",
+          "text": "At a 50/50 split, the comparison is 50% versus 40%.",
+          "words": 11,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S5",
+          "text": "These weights specify a comparison scenario; they do not identify a population's composition.",
+          "words": 13,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P5S1",
+          "text": "This arithmetic does not establish the effect of switching a case from B to A.",
+          "words": 15,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P5S2",
+          "text": "The counts specify neither an assignment mechanism nor both outcomes for the same case.",
+          "words": 14,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P5S3",
+          "text": "The descriptive comparison holds under stated weights; a causal claim needs more information.",
+          "words": 13,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        }
+      ],
+      "tone_pass": [
+        {
+          "paragraph": 1,
+          "assessment": "Exact quantitative explanatory register; no unexplained shift."
+        },
+        {
+          "paragraph": 2,
+          "assessment": "Exact quantitative explanatory register; no unexplained shift."
+        },
+        {
+          "paragraph": 3,
+          "assessment": "Exact quantitative explanatory register; no unexplained shift."
+        },
+        {
+          "paragraph": 4,
+          "assessment": "Exact quantitative explanatory register; no unexplained shift."
+        },
+        {
+          "paragraph": 5,
+          "assessment": "Exact quantitative explanatory register; no unexplained shift."
+        }
+      ],
+      "voice_pass": "Numbers and explicit comparison conditions carry the note; no generic aspirational conclusion or filler transition. The prose is functional, not claimed uniquely human or unprecedented.",
+      "simulated_read_aloud": "All sentences reviewed silently for spoken segmentation; this was a simulation, not audio or human breath data. Spelling formulae aloud is cumbersome, but replacing them loses the directly reusable computation. Keep equations in this written note and separate each from its interpretation.",
+      "specific_prose_edits": "Shorten repeated question-setting; state q range; separate formula, invariant gap and50/50 example; remove redundant process naming.",
+      "draft3_words": 202,
+      "final_paragraph_audit": [
+        {
+          "paragraph": 1,
+          "job": "Set comparison",
+          "support": "Explicit scope statement grounded in missing assignment/counterfactual data",
+          "next_connection": "specific instance"
+        },
+        {
+          "paragraph": 2,
+          "job": "Supply exact group data",
+          "support": "Supplied counts and exact arithmetic",
+          "next_connection": "contrast"
+        },
+        {
+          "paragraph": 3,
+          "job": "Explain aggregate reversal",
+          "support": "Supplied counts and exact arithmetic",
+          "next_connection": "standardization"
+        },
+        {
+          "paragraph": 4,
+          "job": "Specify and compute common mixture",
+          "support": "Supplied counts and exact arithmetic",
+          "next_connection": "evidential limit"
+        },
+        {
+          "paragraph": 5,
+          "job": "Limit causal inference",
+          "support": "Explicit scope statement grounded in missing assignment/counterfactual data",
+          "next_connection": "end"
+        }
+      ]
+    },
+    "045-draft-2": {
+      "draft3": [
+        "Sela put the return ticket beside her father's letter. The ticket named a route home. The letter said: Tell us where you are. Below the five words, the page was blank. After three weeks away, she could read them as a request for a place or a request to come back.",
+        "Her coastal map lay across the drawing board. Each inlet had its name, but the rooming house where she worked was too small to appear. Through the window she could see the harbor at the center of the sheet. The view supplied no further sentence from her father.",
+        "Sela took a second copy and marked the rooming house with a dot. She wrote the street beside it. Her first fold ran through the dot; she tried another. Then she put the map into an envelope and addressed it to her father. She could send this answer without claiming to have answered both questions.",
+        "The ticket went back into the drawer. The envelope waited by the door for the morning post. Sela returned to the northern edge of the first map, where her pencil lines stopped. She sharpened the pencil but added no coast beyond them. The space remained empty. The envelope remained in the room."
+      ],
+      "sentence_pass": [
+        {
+          "id": "P1S1",
+          "text": "Sela put the return ticket beside her father's letter.",
+          "words": 9,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P1S2",
+          "text": "The ticket named a route home.",
+          "words": 6,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P1S3",
+          "text": "The letter said: Tell us where you are.",
+          "words": 8,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P1S4",
+          "text": "Below the five words, the page was blank.",
+          "words": 8,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P1S5",
+          "text": "After three weeks away, she could read them as a request for a place or a request to come back.",
+          "words": 20,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S1",
+          "text": "Her coastal map lay across the drawing board.",
+          "words": 8,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S2",
+          "text": "Each inlet had its name, but the rooming house where she worked was too small to appear.",
+          "words": 17,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S3",
+          "text": "Through the window she could see the harbor at the center of the sheet.",
+          "words": 14,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P2S4",
+          "text": "The view supplied no further sentence from her father.",
+          "words": 9,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S1",
+          "text": "Sela took a second copy and marked the rooming house with a dot.",
+          "words": 13,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S2",
+          "text": "She wrote the street beside it.",
+          "words": 6,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S3",
+          "text": "Her first fold ran through the dot; she tried another.",
+          "words": 10,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S4",
+          "text": "Then she put the map into an envelope and addressed it to her father.",
+          "words": 14,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P3S5",
+          "text": "She could send this answer without claiming to have answered both questions.",
+          "words": 12,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S1",
+          "text": "The ticket went back into the drawer.",
+          "words": 7,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S2",
+          "text": "The envelope waited by the door for the morning post.",
+          "words": 10,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S3",
+          "text": "Sela returned to the northern edge of the first map, where her pencil lines stopped.",
+          "words": 15,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S4",
+          "text": "She sharpened the pencil but added no coast beyond them.",
+          "words": 10,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S5",
+          "text": "The space remained empty.",
+          "words": 4,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        },
+        {
+          "id": "P4S6",
+          "text": "The envelope remained in the room.",
+          "words": 6,
+          "over_35": false,
+          "sentence_pass": "Checked verb, stacked hedges, redundancy, specificity and length; no remaining sentence-level repair identified for the chosen brief."
+        }
+      ],
+      "tone_pass": [
+        {
+          "paragraph": 1,
+          "assessment": "Restrained scene narration; no narrator claim about father’s motive or response."
+        },
+        {
+          "paragraph": 2,
+          "assessment": "Restrained scene narration; no narrator claim about father’s motive or response."
+        },
+        {
+          "paragraph": 3,
+          "assessment": "Restrained scene narration; no narrator claim about father’s motive or response."
+        },
+        {
+          "paragraph": 4,
+          "assessment": "Restrained scene narration; no narrator claim about father’s motive or response."
+        }
+      ],
+      "voice_pass": "Ticket, dot, fold, empty coast and unsent envelope provide a specific scene. The final two short parallel sentences are intentional closure. This is an editorial assessment, not a detector of AI authorship.",
+      "simulated_read_aloud": "All sentences reviewed silently for spoken flow. Removed the abstract draft2 phrase about pretending and split the final compound sentence into two object-centered beats. No live read-aloud or reader attention measurement occurred.",
+      "specific_prose_edits": "Remove clean-copy history and kettle wait; use a concrete fold through the dot; compress the statement about both readings; preserve the unused ticket and unsent envelope.",
+      "draft3_words": 206,
+      "final_paragraph_audit": [
+        {
+          "paragraph": 1,
+          "job": "Put the ambiguous choice on the page",
+          "support": "Authored fictional events; no assertion about real people",
+          "next_connection": "possible response"
+        },
+        {
+          "paragraph": 2,
+          "job": "Make the map a possible reply",
+          "support": "Authored fictional events; no assertion about real people",
+          "next_connection": "chosen action"
+        },
+        {
+          "paragraph": 3,
+          "job": "Show the chosen reply",
+          "support": "Authored fictional events; no assertion about real people",
+          "next_connection": "open future"
+        },
+        {
+          "paragraph": 4,
+          "job": "Leave return and response unresolved",
+          "support": "Authored fictional events; no assertion about real people",
+          "next_connection": "end"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "arithmetic_scope": "Exact rational calculations on stipulated data, not empirical process evaluation. Tests are after the writing audit, not precommitted predictions.",
+    "observed_aggregates": {
+      "A": "19/110",
+      "B": "80/110"
+    },
+    "same_mixture_rows": [
+      {
+        "q": "0",
+        "A": "1/10",
+        "B": "0",
+        "A_minus_B": "1/10"
+      },
+      {
+        "q": "1/4",
+        "A": "3/10",
+        "B": "1/5",
+        "A_minus_B": "1/10"
+      },
+      {
+        "q": "1/2",
+        "A": "1/2",
+        "B": "2/5",
+        "A_minus_B": "1/10"
+      },
+      {
+        "q": "3/4",
+        "A": "7/10",
+        "B": "3/5",
+        "A_minus_B": "1/10"
+      },
+      {
+        "q": "1",
+        "A": "9/10",
+        "B": "4/5",
+        "A_minus_B": "1/10"
+      }
+    ],
+    "symbolic_reason": "A(q)-B(q)=(1/10+4q/5)-4q/5=1/10 for0<=q<=1. The identity proves all common mixtures in this example; five numerical checks illustrate it.",
+    "different_weights_boundary": {
+      "q_A": "0",
+      "q_B": "1",
+      "A": "1/10",
+      "B": "4/5",
+      "result": "B higher; the phrase common mixture cannot be dropped."
+    },
+    "new_rates_boundary": {
+      "input": "Keep A easy.9 hard.1; change B hard from0 to.2, easy remains.8.",
+      "formula": "A-B=.2q-.1",
+      "q_quarter": {
+        "A": "3/10",
+        "B": "7/20"
+      },
+      "q_three_quarters": {
+        "A": "7/10",
+        "B": "13/20"
+      },
+      "result": "The constant ten-point rule is specific to the original equal group gaps; recompute on new rates."
+    },
+    "story_constraints": [
+      {
+        "constraint": "Sela maps the coast away from home",
+        "present": true,
+        "location": "P1/P2"
+      },
+      {
+        "constraint": "Exact letter Tell us where you are",
+        "present": true,
+        "location": "P1"
+      },
+      {
+        "constraint": "Unused return ticket kept",
+        "present": true,
+        "location": "P1/P4; no use narrated"
+      },
+      {
+        "constraint": "Copy with location marked prepared for posting",
+        "present": true,
+        "location": "P3/P4"
+      },
+      {
+        "constraint": "No reply from father observed",
+        "present": true,
+        "location": "P4 envelope still in room"
+      },
+      {
+        "constraint": "Neither literal request nor invitation ruled out",
+        "present": true,
+        "location": "P1 two readings; P3 neither fully settled"
+      }
+    ],
+    "story_counterreading": "Replace the imagined father’s unobserved intent with either location request or invitation home. All narrated events remain compatible. This is a consistency check, not evidence about what an actual reader feels."
+  },
+  "actual_mind_change": "The note now uses the equal gap identity to answer new mixture questions directly while blocking cross-mixture and new-rate overreach. The story changes organization and length but preserves its original substantive interpretation.",
+  "benefit": "The numerical representation has a demonstrated scoped reuse advantage. The story is shorter with its stated constraints preserved; no additional beneficial change in interpretation is established.",
+  "verdict": "044 KEEP scoped authored representation; 045 REJECT new substantive mind-change credit, retain the edited artifact.",
+  "organization": "Three exact drafts plus audits preserve the chain; final notes remain small enough to reuse without reading the full audit.",
+  "next_attempts": [
+    "Try unequal group gaps before reusing the invariant-gap shortcut.",
+    "Ask a real reader to distinguish descriptive and causal claims, if actual reader evidence later becomes available.",
+    "Try a story where a different temporal order changes an actual constraint, rather than only shortening the scene."
+  ]
+}

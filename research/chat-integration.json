@@ -1,0 +1,22 @@
+{
+  "id": "chat-20260908-mind-change-contributors",
+  "status": "integrated; verification recorded separately",
+  "record": "research/chat-integration.md",
+  "intent_audit": "research/intent-audit.md",
+  "verification": "research/chat-integration-checks.json",
+  "base_commit": "07e6af64c65fb682305659b2ec830e21743c0f15",
+  "source_manifest": "sources/chat-20260908/source-manifest.json",
+  "coverage": {
+    "inherited_targets": 590,
+    "functional_ai_targets": 26,
+    "families": 62,
+    "assistant_assessments": 14,
+    "required_system_routes": 8,
+    "canonical_subject_references": 31,
+    "new_local_system_specifications": 4,
+    "source_notes": 27
+  },
+  "initial_allocation_credit": 0,
+  "distinct_new_finding_credit": 0,
+  "standing": "Imported functional synthesis and historical scoped evidence; implemented repository corrections. No claim of individually validated contributor sets, complete recipes for all targets, human efficacy, or autonomous recursive improvement."
+}

@@ -1,0 +1,43 @@
+{
+  "reader": "/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354/scripts/read_original.py",
+  "streams_read_separately": true,
+  "requirements_role": "Current user requirements and rejected examples supplement but do not rewrite original sources.",
+  "sources": [
+    {
+      "skill_id": "pbtc",
+      "stdout_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+      "retained_original": "methods-finish-pbtc.original.md",
+      "stderr_sha256": "bf2c42272a6941c1fce856b6b7331528657c713af4fdac6114d43d0fb4326f0e",
+      "retained_requirements": "methods-finish-pbtc.requirements.txt",
+      "match": true,
+      "depth_floor": "Nx means N complete recursive passes, each pass consuming the full prior output; requested 8x is eight passes and seven recursive edges."
+    },
+    {
+      "skill_id": "mrc",
+      "stdout_sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+      "retained_original": "systems-handoff-mrc.original.md",
+      "stderr_sha256": "289fc84a3316a06147794e59b99544100dc0f3b4261fa363962b8f428d09951d",
+      "retained_requirements": "systems-handoff-mrc.requirements.txt",
+      "match": true,
+      "depth_floor": "No numerical 8x floor; all three ordered questions and their actual outputs are required."
+    },
+    {
+      "skill_id": "mtcg",
+      "stdout_sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+      "retained_original": "systems-handoff-mtcg.original.md",
+      "stderr_sha256": "abfb2bda678acc1529eeba85e62c49e9a44e106dc56d68731f9468fb32c86c15",
+      "retained_requirements": "systems-handoff-mtcg.requirements.txt",
+      "match": true,
+      "depth_floor": "No numerical 8x floor; all seven original stages are required."
+    },
+    {
+      "skill_id": "sp",
+      "stdout_sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+      "retained_original": "methods-finish-sp.original.md",
+      "stderr_sha256": "7570ca89f8bd3c22a38fa72223ce071710f660b1b8ae3c80170ab973bb94b06f",
+      "retained_requirements": "methods-finish-sp.requirements.txt",
+      "match": true,
+      "depth_floor": "No numerical 8x floor; six passes are conditional on the prompt, with explicit skip rules."
+    }
+  ]
+}

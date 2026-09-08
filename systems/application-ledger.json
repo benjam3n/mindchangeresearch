@@ -1,0 +1,658 @@
+[
+  {
+    "skill_id": "gjs",
+    "application_number": 1,
+    "file": "systems/043-gjs-1.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "GJS defines no numerical 8x table. Mandatory ARAW and EMV dependencies are executed at their numerical 8x floors; VE is invoked but partial because no genuine elicitation response is available.",
+    "missing_requirements": [
+      "Original VE was invoked but genuine intrinsic-value and additional-value answers are unavailable; the technical ARAW/EMV chain is executed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "gjs",
+    "application_number": 2,
+    "file": "systems/043-gjs-2.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "GJS defines no numerical 8x table. Mandatory ARAW and EMV dependencies are executed at their numerical 8x floors; VE is invoked but partial because no genuine elicitation response is available.",
+    "missing_requirements": [
+      "Original VE was invoked but genuine intrinsic-value and additional-value answers are unavailable; the technical ARAW/EMV chain is executed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "gjs",
+    "application_number": 3,
+    "file": "systems/043-gjs-3.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "GJS defines no numerical 8x table. Mandatory ARAW and EMV dependencies are executed at their numerical 8x floors; VE is invoked but partial because no genuine elicitation response is available.",
+    "missing_requirements": [
+      "Original VE was invoked but genuine intrinsic-value and additional-value answers are unavailable; the technical ARAW/EMV chain is executed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "fut",
+    "application_number": 1,
+    "file": "systems/044-fut-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-04.md"
+    ]
+  },
+  {
+    "skill_id": "fut",
+    "application_number": 2,
+    "file": "systems/044-fut-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "fut",
+    "application_number": 3,
+    "file": "systems/044-fut-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "gd",
+    "application_number": 1,
+    "file": "systems/045-gd-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "gd",
+    "application_number": 2,
+    "file": "systems/045-gd-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "gd",
+    "application_number": 3,
+    "file": "systems/045-gd-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "gsr",
+    "application_number": 1,
+    "file": "systems/046-gsr-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "gsr",
+    "application_number": 2,
+    "file": "systems/046-gsr-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "gsr",
+    "application_number": 3,
+    "file": "systems/046-gsr-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "grf",
+    "application_number": 1,
+    "file": "systems/047-grf-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "grf",
+    "application_number": 2,
+    "file": "systems/047-grf-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "grf",
+    "application_number": 3,
+    "file": "systems/047-grf-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "lpd",
+    "application_number": 1,
+    "file": "systems/048-lpd-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "lpd",
+    "application_number": 2,
+    "file": "systems/048-lpd-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "lpd",
+    "application_number": 3,
+    "file": "systems/048-lpd-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "sysarch",
+    "application_number": 1,
+    "file": "systems/049-sysarch-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors met by 16 named subsystems, 25 specified interfaces, 10 quality attributes, 5 candidate architectures and 5 views; twenty weight perturbations are computed.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-04.md"
+    ]
+  },
+  {
+    "skill_id": "sysarch",
+    "application_number": 2,
+    "file": "systems/049-sysarch-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors met by 16 named subsystems, 25 specified interfaces, 10 quality attributes, 5 candidate architectures and 5 views; twenty weight perturbations are computed.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "sysarch",
+    "application_number": 3,
+    "file": "systems/049-sysarch-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors met by 16 named subsystems, 25 specified interfaces, 10 quality attributes, 5 candidate architectures and 5 views; twenty weight perturbations are computed.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-04.md"
+    ]
+  },
+  {
+    "skill_id": "ltai",
+    "application_number": 1,
+    "file": "systems/050-ltai-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "ltai",
+    "application_number": 2,
+    "file": "systems/050-ltai-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-05.md"
+    ]
+  },
+  {
+    "skill_id": "ltai",
+    "application_number": 3,
+    "file": "systems/050-ltai-3.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "gaa",
+    "application_number": 1,
+    "file": "systems/093-gaa-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "GAA has no own numeric 8x table. Its mandatory ARAW dependency executes18 claims, more than55 independent proposition candidates, two seven-edge branches,8 cruxes and2 live tests; root semantic review remains important.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "gaa",
+    "application_number": 2,
+    "file": "systems/093-gaa-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "GAA has no own numeric 8x table. Its mandatory ARAW dependency executes18 claims, more than55 independent proposition candidates, two seven-edge branches,8 cruxes and2 live tests; root semantic review remains important.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "sysdecomp",
+    "application_number": 1,
+    "file": "systems/094-sysdecomp-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x exploration supplies 83 registered nodes, 50 operational leaf components, 5 levels, 50 defined interfaces, 82 mapped interactions and 9 criteria. The source depth assessment rejects deploying all fifty leaves.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "sysdecomp",
+    "application_number": 2,
+    "file": "systems/094-sysdecomp-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x exploration supplies 83 registered nodes, 50 operational leaf components, 5 levels, 50 defined interfaces, 82 mapped interactions and 9 criteria. The source depth assessment rejects deploying all fifty leaves.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "sysintegration",
+    "application_number": 1,
+    "file": "systems/095-sysintegration-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 21 components, 25 integration steps, 50 executed integration tests, 20 issue scenarios; rollback and dependency order are specified.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "sysintegration",
+    "application_number": 2,
+    "file": "systems/095-sysintegration-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 21 components, 25 integration steps, 50 executed integration tests, 20 issue scenarios; rollback and dependency order are specified.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "sya",
+    "application_number": 1,
+    "file": "systems/096-sya-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-05.md"
+    ]
+  },
+  {
+    "skill_id": "sya",
+    "application_number": 2,
+    "file": "systems/096-sya-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-05.md"
+    ]
+  },
+  {
+    "skill_id": "systhink",
+    "application_number": 1,
+    "file": "systems/097-systhink-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 10 explicit stocks, 8 feedback-loop checks, 5 delays, 8 leverage points, 8 archetype checks. Loop activity is distinguished from merely possible topology; forty cycles are executed for four policies.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-06.md"
+    ]
+  },
+  {
+    "skill_id": "systhink",
+    "application_number": 2,
+    "file": "systems/097-systhink-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 10 explicit stocks, 8 feedback-loop checks, 5 delays, 8 leverage points, 8 archetype checks. Loop activity is distinguished from merely possible topology; forty cycles are executed for four policies.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-06.md"
+    ]
+  },
+  {
+    "skill_id": "requirements",
+    "application_number": 1,
+    "file": "systems/098-requirements-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 80 requirements, 10 categories, 10 stakeholder roles, 8 conflict checks. The record supplies these; roles are design perspectives rather than fabricated consultations.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-04.md"
+    ]
+  },
+  {
+    "skill_id": "requirements",
+    "application_number": 2,
+    "file": "systems/098-requirements-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 80 requirements, 10 categories, 10 stakeholder roles, 8 conflict checks. The record supplies these; roles are design perspectives rather than fabricated consultations.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "tracematrix",
+    "application_number": 1,
+    "file": "systems/099-tracematrix-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 100 distinct typed items, 5 trace levels, 12 gap checks, 4 generated reports and 5 link types. Items are explicitly counted across levels, not represented as 100 requirements.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-06.md"
+    ]
+  },
+  {
+    "skill_id": "tracematrix",
+    "application_number": 2,
+    "file": "systems/099-tracematrix-2.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 100 distinct typed items, 5 trace levels, 12 gap checks, 4 generated reports and 5 link types. Items are explicitly counted across levels, not represented as 100 requirements.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "exd",
+    "application_number": 1,
+    "file": "systems/100-exd-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-07.md"
+    ]
+  },
+  {
+    "skill_id": "exd",
+    "application_number": 2,
+    "file": "systems/100-exd-2.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [
+      "A confirmatory sample size for criterion change is not determined because a justified effect/variance input is unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "abts",
+    "application_number": 1,
+    "file": "systems/142-abts-1.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [
+      "Eligible traffic and actual start/end dates are unknown; power and prospective decision rules are specified, but a complete executable trial schedule is unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "emv",
+    "application_number": 1,
+    "file": "systems/143-emv-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 12 validation tests executed, 5 distinct independent mathematical checks, 6 edge cases tested, 5 predeclared confidence calibrations compared with outcomes.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-07.md"
+    ]
+  },
+  {
+    "skill_id": "dom",
+    "application_number": 1,
+    "file": "systems/144-dom-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-05.md"
+    ]
+  },
+  {
+    "skill_id": "mcd",
+    "application_number": 1,
+    "file": "systems/145-mcd-1.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [
+      "Original stakeholder alignment on criterion weights was not obtained; scores and sensitivity are a transparent analyst case."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "cba",
+    "application_number": 1,
+    "file": "systems/146-cba-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-07.md"
+    ]
+  },
+  {
+    "skill_id": "lcca",
+    "application_number": 1,
+    "file": "systems/147-lcca-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 100 cost elements, 6 phases, 4 alternatives, 12 computed sensitivity factors and 12 risk items. All costs are explicitly synthetic operation counts, not fabricated real estimates.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "ram",
+    "application_number": 1,
+    "file": "systems/148-ram-1.md",
+    "status": "partial",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "Original 8x floors: 50 analyzed components, 60 failure modes, 30 maintenance tasks, 15 improvement actions. Real rates and RPN remain unmeasured; only the stipulated mathematical model is calculated.",
+    "missing_requirements": [
+      "Real component failure rates and occurrence evidence are unavailable; the RPN field remains uncomputed. A declared conditional model is executed."
+    ],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-07.md"
+    ]
+  },
+  {
+    "skill_id": "ret",
+    "application_number": 1,
+    "file": "systems/149-ret-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "ssr",
+    "application_number": 1,
+    "file": "systems/150-ssr-1.md",
+    "status": "complete",
+    "source_fidelity": "exact reader stdout hash verified against separate receipt",
+    "depth_status": "The original defines no numerical 8x floor. The expanded execution below covers the actual operations and multiple dependencies/countercases; no numerical 8x certification is asserted.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": []
+  }
+]

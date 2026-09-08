@@ -1,0 +1,42 @@
+{
+  "assumptions": {
+    "saving_per_use_minutes": 4,
+    "setup_minutes": 10,
+    "period": "one declared review period",
+    "probabilities_stipulated_not_estimated": true
+  },
+  "outcomes": [
+    {
+      "uses": 0,
+      "probability": "3/10",
+      "gross_minutes": 0,
+      "net_minutes": -10
+    },
+    {
+      "uses": 2,
+      "probability": "1/2",
+      "gross_minutes": 8,
+      "net_minutes": -2
+    },
+    {
+      "uses": 10,
+      "probability": "1/5",
+      "gross_minutes": 40,
+      "net_minutes": 30
+    }
+  ],
+  "expected_gross_minutes": "12",
+  "expected_net_minutes": "2",
+  "probability_positive_net": "1/5",
+  "exact_break_even_uses": "5/2",
+  "smallest_integer_positive_uses": 3,
+  "range_net_minutes": [
+    -10,
+    30
+  ],
+  "probability_in_range": 1,
+  "later_fixed_two_uses": {
+    "gross": 8,
+    "net": -2
+  }
+}

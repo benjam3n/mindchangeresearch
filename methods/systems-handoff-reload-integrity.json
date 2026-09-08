@@ -1,0 +1,22 @@
+[
+  {
+    "skill_id": "mrc",
+    "sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+    "receipt_sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+    "receipt_match": true,
+    "prior_stdout_equal": true,
+    "prior_stderr_equal": true,
+    "read_before_continuation": true,
+    "captured_at": "2026-09-08T05:30:59.418233+00:00"
+  },
+  {
+    "skill_id": "mtcg",
+    "sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+    "receipt_sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+    "receipt_match": true,
+    "prior_stdout_equal": true,
+    "prior_stderr_equal": true,
+    "read_before_continuation": true,
+    "captured_at": "2026-09-08T05:30:59.543949+00:00"
+  }
+]

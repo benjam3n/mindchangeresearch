@@ -1,0 +1,25 @@
+Intended mind change: Distinguish a counterexample, an unknown outcome, and a changed criterion when deciding what a result supports.
+
+A COUNTEREXAMPLE TO EVERY
+
+The declared domain has two operations. A value of 1 means the operation improved the result under the stated criterion. A value of 0 means it did not. For [1,0], “not every operation improved” is true, while “every operation did not improve” is false. One exception refutes the universal claim; it does not turn every other member into an exception. This example does not identify a cause of either outcome. Empty domains require an explicit logical convention; they are not represented by this two-member example.
+
+AN UNKNOWN OUTCOME
+
+In [1,?], the question mark means the second outcome was not observed. Both [1,1] and [1,0] remain compatible with the observations. “Every operation improved” therefore remains unresolved. “At least one operation improved” is already established by the first observed result. The two alternatives are possible completions, not two stages that must both occur, and no probabilities have been assigned to them.
+
+A CHANGED CRITERION
+
+Representation A includes two cases. Representation B includes all three cases required by the fuller task. For full three-case coverage, B is sufficient and A is not. For a task needing only the two shared cases, both are sufficient and A uses fewer cases. The observed counts remain two and three; the criterion changes which comparison matters. This constructed comparison is not a measurement of human comprehension.
+
+REUSE
+
+A new actor, task, input, or criterion can change whether the conclusion applies. Preserve the original observation and the condition under which its conclusion was drawn. Use the complete source record when an excerpt omits a boundary that the new task needs.
+
+Sources: local applications 012-difr-1.md, 013-difr-2.md, and 023-op-1.md. Display contrast was checked against W3C's WCAG 2.2 contrast explanation: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html. The display also carries text labels rather than relying on color alone: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html.
+
+Actual mind change: The current model constructed and checked three visual and verbal representations of these existing distinctions.
+Benefit: Exact local mappings and a standalone reference are available; human comprehension and transfer remain untested.
+Verdict: KEEP for local artifact construction and finite meaning preservation only.
+Organization: Three concept slides plus this standalone reference; the source records preserve derivations and exceptions.
+Next attempts: Actual reader use, a new predicate, and a changed-criterion case with different observed counts.

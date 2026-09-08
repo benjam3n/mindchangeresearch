@@ -1,0 +1,256 @@
+{
+  "scope": "isolated Python transcription of inspected tag-cross-product and duplicate/self filtering, not full historical TypeScript script execution",
+  "trials": [
+    {
+      "name": "baseline",
+      "edges": 15,
+      "sure_hope": true,
+      "self_edges": 0,
+      "added": [],
+      "removed": []
+    },
+    {
+      "name": "remove uncertainty tag from hope",
+      "edges": 12,
+      "sure_hope": false,
+      "self_edges": 0,
+      "added": [],
+      "removed": [
+        [
+          "certain",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ]
+      ]
+    },
+    {
+      "name": "change hope definition only",
+      "edges": 15,
+      "sure_hope": true,
+      "self_edges": 0,
+      "added": [],
+      "removed": []
+    },
+    {
+      "name": "remove certainty tag from sure",
+      "edges": 10,
+      "sure_hope": false,
+      "self_edges": 0,
+      "added": [],
+      "removed": [
+        [
+          "sure",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "maybe",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "perhaps",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "threatening",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "unknown",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ]
+      ]
+    },
+    {
+      "name": "add uncertainty tag to sure",
+      "edges": 17,
+      "sure_hope": true,
+      "self_edges": 0,
+      "added": [
+        [
+          "certain",
+          "sure",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "sure",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ]
+      ],
+      "removed": []
+    },
+    {
+      "name": "supply existing sure-hope same-type route",
+      "edges": 15,
+      "sure_hope": true,
+      "self_edges": 0,
+      "added": [
+        [
+          "sure",
+          "hope",
+          "contradiction",
+          "existing different reason",
+          "high"
+        ]
+      ],
+      "removed": [
+        [
+          "sure",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ]
+      ]
+    },
+    {
+      "name": "remove both causal tags",
+      "edges": 0,
+      "sure_hope": false,
+      "self_edges": 0,
+      "added": [],
+      "removed": [
+        [
+          "certain",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "certain",
+          "maybe",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "certain",
+          "perhaps",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "certain",
+          "threatening",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "certain",
+          "unknown",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "maybe",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "perhaps",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "threatening",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "guess",
+          "unknown",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "hope",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "maybe",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "perhaps",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "threatening",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ],
+        [
+          "sure",
+          "unknown",
+          "contradiction",
+          "certainty contradicts uncertainty",
+          "medium"
+        ]
+      ]
+    }
+  ]
+}

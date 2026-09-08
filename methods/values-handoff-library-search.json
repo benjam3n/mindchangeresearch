@@ -1,0 +1,804 @@
+{
+  "pcd-01": {
+    "name": {
+      "terms": [
+        "listen",
+        "relationship",
+        "feedback",
+        "perspective",
+        "conflict"
+      ],
+      "total_hits": 37,
+      "top_candidates": [
+        {
+          "id": "collab",
+          "title": "Collaborative Thinking",
+          "matched_terms": [
+            "perspective",
+            "conflict"
+          ],
+          "description": "Multi-stakeholder reasoning, perspective integration, finding solutions that work for multiple parties, identifying hidden agreements, and surfacing conflicting assumptions between people."
+        },
+        {
+          "id": "aa",
+          "title": "Assumption Audit",
+          "matched_terms": [
+            "perspective"
+          ],
+          "description": "Surface and rigorously test a field's hidden assumptions. Compound skill that chains extraction, inversion, research, ARAW testing, cross-domain perspective, and synthesis into a complete audit."
+        },
+        {
+          "id": "acplx",
+          "title": "Assume Complex",
+          "matched_terms": [
+            "feedback"
+          ],
+          "description": "Force the assumption that the situation is more complex than it appears. What are we missing? What hidden variables, feedback loops, or emergent dynamics are at play?"
+        },
+        {
+          "id": "ael",
+          "title": "Assumption Elimination",
+          "matched_terms": [
+            "listen"
+          ],
+          "description": "Before asserting anything, verify it can be confirmed by the listener."
+        },
+        {
+          "id": "al",
+          "title": "Active Listening",
+          "matched_terms": [
+            "listen"
+          ],
+          "description": "Systematic procedure for listening deeply to understand others, build trust, and improve communication outcomes"
+        },
+        {
+          "id": "arel",
+          "title": "Assume Relation",
+          "matched_terms": [
+            "relationship"
+          ],
+          "description": "Force the assumption that two things are related. Trace the implications: what kind of relationship? Causal, correlational, structural, temporal? What follows?"
+        },
+        {
+          "id": "bldk",
+          "title": "Build",
+          "matched_terms": [
+            "feedback"
+          ],
+          "description": "Procedure for building or creating anything. Defines requirements, designs before building, builds incrementally, tests continuously, and iterates based on feedback."
+        },
+        {
+          "id": "cfr",
+          "title": "Conflict Resolution",
+          "matched_terms": [
+            "conflict"
+          ],
+          "description": "Systematic procedure for de-escalating tensions, finding common ground, and navigating difficult conversations productively"
+        },
+        {
+          "id": "conflict",
+          "title": "Conflict Analysis",
+          "matched_terms": [
+            "conflict"
+          ],
+          "description": "Map the structure of interpersonal or organizational conflict \u2014 identify the real disagreement (often hidden behind the stated one), each party's actual interests vs positions, and paths to resolution that address interests rather than positions."
+        },
+        {
+          "id": "conr",
+          "title": "Conflict Resolution",
+          "matched_terms": [
+            "conflict"
+          ],
+          "description": "Resolves disagreements by surfacing positions, uncovering underlying interests, finding shared ground, and proposing solutions that serve both parties."
+        },
+        {
+          "id": "cvis",
+          "title": "Creator Vision Analysis",
+          "matched_terms": [
+            "perspective"
+          ],
+          "description": "Analyze a project from the creator's perspective. Articulates the vision, checks whether current work serves it, identifies vision drift, and recommends corrections."
+        },
+        {
+          "id": "dxpt",
+          "title": "Domain Expert Assessment",
+          "matched_terms": [
+            "perspective"
+          ],
+          "description": "Evaluate quality from a domain expert's perspective. Identifies the domain, checks for oversimplification, verifies terminology, assesses depth, identifies missing nuance, and flags misleading content."
+        }
+      ]
+    },
+    "signature": {
+      "terms": [
+        "text",
+        "conversation",
+        "goal",
+        "response"
+      ],
+      "total_hits": 104,
+      "top_candidates": [
+        {
+          "id": "comc",
+          "title": "Communicate",
+          "matched_terms": [
+            "text",
+            "goal"
+          ],
+          "description": "Designs a communication for any context. Identifies audience, determines goal, chooses medium, structures the message, and anticipates objections."
+        },
+        {
+          "id": "gosm",
+          "title": "Goal-Oriented State Machine",
+          "matched_terms": [
+            "text",
+            "goal"
+          ],
+          "description": "Goal-Oriented State Machine. Context-adaptive dispatcher that routes to the right analysis depth based on urgency, stakes, and expertise."
+        },
+        {
+          "id": "grade",
+          "title": "Grade LLM Output",
+          "matched_terms": [
+            "text",
+            "conversation"
+          ],
+          "description": "Grade any LLM output as an external grader who knows nothing about the project. Identifies systematic failures in reasoning, voice, and honesty that the LLM cannot see from inside its own generation."
+        },
+        {
+          "id": "indv",
+          "title": "Individual Analysis",
+          "matched_terms": [
+            "text",
+            "goal"
+          ],
+          "description": "Analyzes something from the perspective of a single person. Identifies goals, resources, constraints, skills, and context to optimize for individual agency and autonomy."
+        },
+        {
+          "id": "sum",
+          "title": "Summarize",
+          "matched_terms": [
+            "text",
+            "conversation"
+          ],
+          "description": "Summarize anything \u2014 text, conversations, situations, projects, decisions, or experiences \u2014 using the interpretation that best matches what the user actually needs."
+        },
+        {
+          "id": "aa",
+          "title": "Assumption Audit",
+          "matched_terms": [
+            "goal"
+          ],
+          "description": "Surface and rigorously test a field's hidden assumptions. Compound skill that chains extraction, inversion, research, ARAW testing, cross-domain perspective, and synthesis into a complete audit."
+        },
+        {
+          "id": "ac",
+          "title": "Adversarial Checklist",
+          "matched_terms": [
+            "goal"
+          ],
+          "description": "Create a checklist that catches what normal checklists miss. Each item includes adversarial branches -- what if this assumption is wrong? Chains assumption extraction, failure anticipation, assumption inversion, and steps generation."
+        },
+        {
+          "id": "adep",
+          "title": "Adaptive Extraction Pipeline",
+          "matched_terms": [
+            "goal"
+          ],
+          "description": "Breadth-first, learned extraction pipeline that clarifies goals first, samples broadly, learns user preferences, and extracts selectively from highest-value items."
+        },
+        {
+          "id": "auto",
+          "title": "Automatic Routing",
+          "matched_terms": [
+            "text"
+          ],
+          "description": "Take any free-text input, classify it, and route to the correct sub-orchestrator. The automatic front door to all 597 skills."
+        },
+        {
+          "id": "bo",
+          "title": "bo",
+          "matched_terms": [
+            "goal"
+          ],
+          "description": "Comprehensive procedure for business goals including starting, growing, and operating businesses."
+        },
+        {
+          "id": "cdr",
+          "title": "Cross-Domain Report",
+          "matched_terms": [
+            "goal"
+          ],
+          "description": "Discover what one field can learn from another by finding structural analogies, testing their transferability, and synthesizing actionable insights. Chains cross-domain analogy, assumption extraction, ARAW testing, and insight synthesis."
+        },
+        {
+          "id": "cfr",
+          "title": "Conflict Resolution",
+          "matched_terms": [
+            "conversation"
+          ],
+          "description": "Systematic procedure for de-escalating tensions, finding common ground, and navigating difficult conversations productively"
+        }
+      ]
+    },
+    "domain": {
+      "terms": [
+        "social",
+        "communication",
+        "relationship"
+      ],
+      "total_hits": 49,
+      "top_candidates": [
+        {
+          "id": "eqi",
+          "title": "Emotional Intelligence",
+          "matched_terms": [
+            "social",
+            "communication"
+          ],
+          "description": "Systematically develop emotional awareness, regulation, and social skill \u2014 treating EQ as a learnable competency, not a personality trait."
+        },
+        {
+          "id": "socg",
+          "title": "Social Cognition",
+          "matched_terms": [
+            "social",
+            "communication"
+          ],
+          "description": "Understanding and navigating social dynamics. Identifies social context, models perspectives, predicts reactions, and plans moves with awareness of stated and unstated norms."
+        },
+        {
+          "id": "agi",
+          "title": "ARAW to GOSM Integration",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Systematic procedure for translating ARAW exploration outputs"
+        },
+        {
+          "id": "al",
+          "title": "Active Listening",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Systematic procedure for listening deeply to understand others, build trust, and improve communication outcomes"
+        },
+        {
+          "id": "arel",
+          "title": "Assume Relation",
+          "matched_terms": [
+            "relationship"
+          ],
+          "description": "Force the assumption that two things are related. Trace the implications: what kind of relationship? Causal, correlational, structural, temporal? What follows?"
+        },
+        {
+          "id": "argd",
+          "title": "Argumentative Document",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Construct a rigorous argumentative document with thesis, evidence, counterarguments, and structured reasoning."
+        },
+        {
+          "id": "atgb",
+          "title": "ARAW to GOSM Bridge",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Bridges ARAW exploration outputs to GOSM planning inputs."
+        },
+        {
+          "id": "cn",
+          "title": "Communication Narrative Orderings",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Orderings for presentations, writing, and communication where sequence affects audience engagement and comprehension."
+        },
+        {
+          "id": "col",
+          "title": "Collaboration Design",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Designs how a group of people should work together \u2014 roles, communication, decisions, handoffs, and accountability."
+        },
+        {
+          "id": "collab",
+          "title": "Collaborative Thinking",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Multi-stakeholder reasoning, perspective integration, finding solutions that work for multiple parties, identifying hidden agreements, and surfacing conflicting assumptions between people."
+        },
+        {
+          "id": "comc",
+          "title": "Communicate",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Designs a communication for any context. Identifies audience, determines goal, chooses medium, structures the message, and anticipates objections."
+        },
+        {
+          "id": "csb",
+          "title": "Consensus Building",
+          "matched_terms": [
+            "communication"
+          ],
+          "description": "Move a group toward agreement by surfacing real disagreements, generating options, and using gradients of agreement rather than binary votes."
+        }
+      ]
+    },
+    "use_case": {
+      "terms": [
+        "understand",
+        "clarify",
+        "boundary",
+        "agreement"
+      ],
+      "total_hits": 27,
+      "top_candidates": [
+        {
+          "id": "ctan",
+          "title": "Contract Analysis",
+          "matched_terms": [
+            "understand",
+            "agreement"
+          ],
+          "description": "Review and understand a contract or agreement by mapping obligations, consideration, risk allocation, and concerning terms."
+        },
+        {
+          "id": "al",
+          "title": "Active Listening",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "Systematic procedure for listening deeply to understand others, build trust, and improve communication outcomes"
+        },
+        {
+          "id": "alt",
+          "title": "Abstraction Level",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "Choose the right level of abstraction for understanding, deciding, executing, communicating, or creating. Zoom in, zoom out, or reframe."
+        },
+        {
+          "id": "awtlytrn",
+          "title": "Also What's The Limit You Think Right Now",
+          "matched_terms": [
+            "boundary"
+          ],
+          "description": "Estimate current practical limits for scope, throughput, and quality across multiple dimensions, then recommend a safe operating boundary that accounts for planning fallacy."
+        },
+        {
+          "id": "cnfsd",
+          "title": "Confused",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "For mental fog where things don't make sense. Separates what you understand from what you don't, identifies the gap type, and provides the right tool to close it."
+        },
+        {
+          "id": "collab",
+          "title": "Collaborative Thinking",
+          "matched_terms": [
+            "agreement"
+          ],
+          "description": "Multi-stakeholder reasoning, perspective integration, finding solutions that work for multiple parties, identifying hidden agreements, and surfacing conflicting assumptions between people."
+        },
+        {
+          "id": "conflict",
+          "title": "Conflict Analysis",
+          "matched_terms": [
+            "agreement"
+          ],
+          "description": "Map the structure of interpersonal or organizational conflict \u2014 identify the real disagreement (often hidden behind the stated one), each party's actual interests vs positions, and paths to resolution that address interests rather than positions."
+        },
+        {
+          "id": "conr",
+          "title": "Conflict Resolution",
+          "matched_terms": [
+            "agreement"
+          ],
+          "description": "Resolves disagreements by surfacing positions, uncovering underlying interests, finding shared ground, and proposing solutions that serve both parties."
+        },
+        {
+          "id": "csb",
+          "title": "Consensus Building",
+          "matched_terms": [
+            "agreement"
+          ],
+          "description": "Move a group toward agreement by surfacing real disagreements, generating options, and using gradients of agreement rather than binary votes."
+        },
+        {
+          "id": "dop",
+          "title": "Documentation Procedures",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "Create comprehensive project documentation that allows others to understand, reproduce, and maintain the project."
+        },
+        {
+          "id": "fohw",
+          "title": "Figure Out How it Works",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "Systematically understand any complex system by matching investigation depth to your goal and access level, with safeguards against premature certainty."
+        },
+        {
+          "id": "gu",
+          "title": "Goal Understanding Pre-Processor",
+          "matched_terms": [
+            "understand"
+          ],
+          "description": "MANDATORY first step before attempting any goal. Parses input as guesses, classifies OPEN vs CLOSED, fills goal journey structure. Includes clarification vs substitution check."
+        }
+      ]
+    }
+  },
+  "pcd-02": {
+    "name": {
+      "terms": [
+        "exploration",
+        "experiment",
+        "measurement",
+        "comparison",
+        "reflection"
+      ],
+      "total_hits": 33,
+      "top_candidates": [
+        {
+          "id": "abts",
+          "title": "A/B Test Design",
+          "matched_terms": [
+            "experiment"
+          ],
+          "description": "Design a valid experiment with a clear hypothesis, proper controls, sufficient sample size, and pre-defined decision criteria."
+        },
+        {
+          "id": "agi",
+          "title": "ARAW to GOSM Integration",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Systematic procedure for translating ARAW exploration outputs"
+        },
+        {
+          "id": "analyze",
+          "title": "Analyze a Situation",
+          "matched_terms": [
+            "comparison"
+          ],
+          "description": "Sub-orchestrator for analytical requests. Routes to decomposition, systems analysis, comparison, risk assessment, or synthesis based on what kind of analysis is needed."
+        },
+        {
+          "id": "anst",
+          "title": "Analysis Stage",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Structured deep analysis after exploration. Selects what to analyze, applies frameworks, finds patterns, tests hypotheses, and synthesizes findings."
+        },
+        {
+          "id": "ascfa",
+          "title": "Assume Solution Can Be Found A Priori",
+          "matched_terms": [
+            "experiment"
+          ],
+          "description": "Force the assumption that the solution can be derived from first principles \u2014 no experiments, no search, just reasoning. What does that require? When is this warranted?"
+        },
+        {
+          "id": "atgb",
+          "title": "ARAW to GOSM Bridge",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Bridges ARAW exploration outputs to GOSM planning inputs."
+        },
+        {
+          "id": "be",
+          "title": "Bandit Exploration Orderings",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Orderings from multi-armed bandit algorithms for balancing exploration of unknown options with exploitation of known good ones."
+        },
+        {
+          "id": "cmp",
+          "title": "Comparison - Impression-Informed Option Evaluation",
+          "matched_terms": [
+            "comparison"
+          ],
+          "description": "Compare options using gestalt impression + structured evaluation. Impression first, then criteria, then check for divergence."
+        },
+        {
+          "id": "decide",
+          "title": "Make a Decision",
+          "matched_terms": [
+            "comparison"
+          ],
+          "description": "Sub-orchestrator for decisions. Routes to comparison, ARAW testing, dominance analysis, or goal clarification based on what the user knows and the stakes involved."
+        },
+        {
+          "id": "diagnose",
+          "title": "Find the Cause",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Sub-orchestrator for diagnostic questions. Routes to UAUA exploration, causal tracing, safety analysis, or direct debugging based on how much is known and the nature of the problem."
+        },
+        {
+          "id": "eg",
+          "title": "Exploratory Goals",
+          "matched_terms": [
+            "exploration"
+          ],
+          "description": "Handle goals where the objective is exploration and discovery rather than reaching a known destination."
+        },
+        {
+          "id": "exd",
+          "title": "Experimental Design",
+          "matched_terms": [
+            "experiment"
+          ],
+          "description": "Systematic procedure for designing rigorous experiments with proper controls, variables, and validity considerations"
+        }
+      ]
+    },
+    "signature": {
+      "terms": [
+        "observation",
+        "evidence",
+        "question",
+        "result"
+      ],
+      "total_hits": 82,
+      "top_candidates": [
+        {
+          "id": "ess",
+          "title": "External Source Search",
+          "matched_terms": [
+            "evidence",
+            "question"
+          ],
+          "description": "Systematic procedure for searching external sources to find evidence, data, and information relevant to a question."
+        },
+        {
+          "id": "aa",
+          "title": "Assumption Audit",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Surface and rigorously test a field's hidden assumptions. Compound skill that chains extraction, inversion, research, ARAW testing, cross-domain perspective, and synthesis into a complete audit."
+        },
+        {
+          "id": "agsk",
+          "title": "Argument Analysis",
+          "matched_terms": [
+            "evidence"
+          ],
+          "description": "Analyze and construct arguments by checking logical validity, premise truth, hidden assumptions, and evidence strength."
+        },
+        {
+          "id": "aop",
+          "title": "Assume Opposite",
+          "matched_terms": [
+            "evidence"
+          ],
+          "description": "Take whatever the input claims or assumes, and force the exact opposite. Trace what world that implies, what evidence would support it, and what you learn from the inversion."
+        },
+        {
+          "id": "aprob",
+          "title": "Assume Problem",
+          "matched_terms": [
+            "evidence"
+          ],
+          "description": "Force the assumption that something IS the problem. Trace what follows if this is truly the root cause. What would fixing it look like? What evidence would confirm it?"
+        },
+        {
+          "id": "aq",
+          "title": "Assume Question",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Force the assumption that a particular question is THE right question to ask. Trace what follows: does answering it actually help? What questions does it foreclose?"
+        },
+        {
+          "id": "ar",
+          "title": "Assume Right Search",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Assume Right - Deep recursive rightness search. For every claim, assume it's right \u2014 find what must follow, then assume THOSE implications are right too. Recurse until bedrock. Track every claim found."
+        },
+        {
+          "id": "araw",
+          "title": "Assume Right / Assume Wrong Search",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Assume Right / Assume Wrong search - For every claim, explore what follows if true (AR) and what breaks if false (AW). Number every finding. Recurse until bedrock. Compile a complete registry. Derive synthesis only from the registry."
+        },
+        {
+          "id": "argd",
+          "title": "Argumentative Document",
+          "matched_terms": [
+            "evidence"
+          ],
+          "description": "Construct a rigorous argumentative document with thesis, evidence, counterarguments, and structured reasoning."
+        },
+        {
+          "id": "aw",
+          "title": "Assume Wrong Search",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Assume Wrong - Deep recursive wrongness search. For every claim, assume it's wrong \u2014 find why, then assume THOSE reasons are wrong too. Recurse until bedrock. Track every claim found."
+        },
+        {
+          "id": "bes",
+          "title": "Binary Elimination Search",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Like playing 20 Questions - each yes/no question eliminates half the possibilities. For N options, at most log2(N) questions needed."
+        },
+        {
+          "id": "bi",
+          "title": "Bounded Inquiry",
+          "matched_terms": [
+            "question"
+          ],
+          "description": "Unbounded inquiry cannot terminate - every answer opens new questions."
+        }
+      ]
+    },
+    "domain": {
+      "terms": [
+        "learning",
+        "research",
+        "science",
+        "creativity"
+      ],
+      "total_hits": 44,
+      "top_candidates": [
+        {
+          "id": "ip",
+          "title": "Interview Preparation",
+          "matched_terms": [
+            "learning",
+            "research"
+          ],
+          "description": "Comprehensive preparation system for job interviews covering research, story"
+        },
+        {
+          "id": "pge",
+          "title": "Pedagogy/Educational Orderings",
+          "matched_terms": [
+            "learning",
+            "science"
+          ],
+          "description": "Orderings from learning science \u2014 interleaving, spacing, testing effect, desirable difficulties \u2014 for durable understanding."
+        },
+        {
+          "id": "aa",
+          "title": "Assumption Audit",
+          "matched_terms": [
+            "research"
+          ],
+          "description": "Surface and rigorously test a field's hidden assumptions. Compound skill that chains extraction, inversion, research, ARAW testing, cross-domain perspective, and synthesis into a complete audit."
+        },
+        {
+          "id": "aba",
+          "title": "AI Biomedical Agent",
+          "matched_terms": [
+            "research"
+          ],
+          "description": "Procedure for using AI to analyze biomedical research, evaluate studies, assess drug interactions, and interpret clinical data."
+        },
+        {
+          "id": "acr",
+          "title": "Active Recall",
+          "matched_terms": [
+            "learning"
+          ],
+          "description": "Use retrieval practice and self-testing to strengthen learning and identify gaps"
+        },
+        {
+          "id": "am",
+          "title": "Academic Mastery",
+          "matched_terms": [
+            "learning"
+          ],
+          "description": "Master academic subjects through structured learning, concept mapping, and competency verification"
+        },
+        {
+          "id": "cma",
+          "title": "Competitive Analysis",
+          "matched_terms": [
+            "research"
+          ],
+          "description": "Systematically analyze competitive landscape using Porter's Five Forces, competitor mapping, and differentiation strategies"
+        },
+        {
+          "id": "cpp",
+          "title": "Career Path Planning",
+          "matched_terms": [
+            "learning"
+          ],
+          "description": "Strategic framework for assessing career options, planning transitions,"
+        },
+        {
+          "id": "curd",
+          "title": "Curriculum Design",
+          "matched_terms": [
+            "learning"
+          ],
+          "description": "Design a structured learning path for any subject. Sequences topics by dependency, selects methods, sets milestones, and estimates time."
+        },
+        {
+          "id": "dc",
+          "title": "Data Collection",
+          "matched_terms": [
+            "research"
+          ],
+          "description": "Systematic procedure for gathering research data through surveys, interviews, observation, and secondary sources"
+        },
+        {
+          "id": "dlp",
+          "title": "Deliberate Practice",
+          "matched_terms": [
+            "learning"
+          ],
+          "description": "Design and execute targeted practice sessions that maximize skill improvement"
+        },
+        {
+          "id": "dmt",
+          "title": "Domain Template",
+          "matched_terms": [
+            "research"
+          ],
+          "description": "Create domain-specific skill configurations. Pre-configure skill chains, dimensions, and patterns for specific domains like research, consulting, or engineering."
+        }
+      ]
+    },
+    "use_case": {
+      "terms": [
+        "curiosity",
+        "record",
+        "unexpected",
+        "dead end"
+      ],
+      "total_hits": 3,
+      "top_candidates": [
+        {
+          "id": "funr",
+          "title": "Fun/Exploration Reasoning",
+          "matched_terms": [
+            "curiosity",
+            "unexpected"
+          ],
+          "description": "Reason about what's interesting, playful, or worth exploring for its own sake. Follow curiosity threads, note unexpected connections, and assess what exploration reveals."
+        },
+        {
+          "id": "pcl",
+          "title": "Predictive Claim Analysis",
+          "matched_terms": [
+            "record"
+          ],
+          "description": "Evaluate a prediction. Assess the model behind it, check track records, identify falsifiers, and estimate probability with calibration."
+        },
+        {
+          "id": "unx",
+          "title": "Unexpected - Non-Obvious Solution Discovery",
+          "matched_terms": [
+            "unexpected"
+          ],
+          "description": "Find non-obvious solutions. Three layers \u2014 obvious, unexpected, reframed \u2014 using disruption techniques that force the search off its default path."
+        }
+      ]
+    }
+  }
+}

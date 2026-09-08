@@ -1,0 +1,55 @@
+{
+  "query": {
+    "query": "Select a currently representable decision policy for known prior7/20, accuracy4/5, +6/-4, observation price11/10 and worst expected regret. Then compare the policy obtained by carrying q=1/2 from the old prior1/2,cost1 case.",
+    "source_of_candidate": "H2,H4,H5,H6 in ht51-results.json; changed price requires substitution in the proved payoff formula rather than unchanged numeric reuse.",
+    "forecast": "The changed price lowers the upper information advantage and changes the mixture away from the cost1,prior7/20 policy; q=1/2 is a live candidate until the calculation.",
+    "human_action_status": "No purchase or human action is executed. The later operation selects and stores a model policy with exact utility/regret values."
+  },
+  "selected": {
+    "p": "7/20",
+    "c": "11/10",
+    "B": "0",
+    "l": "-1/5",
+    "u": "1/5",
+    "q": "1/2",
+    "weights": [
+      "0",
+      "1/2",
+      "1/2",
+      "0",
+      "0",
+      "0"
+    ],
+    "worst_regret": "1/10"
+  },
+  "full_policy_lp": {
+    "value": 0.1,
+    "weights": {
+      "act_now": 0.0,
+      "decline_now": 0.5,
+      "buy_act_positive": 0.5,
+      "buy_act_negative": 0.0,
+      "buy_act_both": 0.0,
+      "buy_decline_both": 0.0
+    },
+    "max_constraint_residual": 0.0
+  },
+  "old_half_policy_worst_regret": "1/10",
+  "cost1_same_prior": {
+    "p": "7/20",
+    "c": "1",
+    "B": "0",
+    "l": "-1/10",
+    "u": "3/10",
+    "q": "3/4",
+    "weights": [
+      "0",
+      "1/4",
+      "3/4",
+      "0",
+      "0",
+      "0"
+    ],
+    "worst_regret": "3/40"
+  }
+}

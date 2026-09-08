@@ -1,0 +1,136 @@
+[CURRENT USER REQUIREMENTS — separate from the original source]
+requirements-sha256: c118d03cdd341a6476f292eb3d7f07c35992773f3447d284824ae755e7450bd8
+original-source: skills/draft/SKILL.md
+original-sha256: 5d2269d1fead6f0cf4710326e0ac9b95f5d54d53c324f725e8912315866c025a
+## Saved user requirements for skill execution
+
+Apply these user instructions, saved on 4 September 2026, to ARAW and every other Reasoningtool skill used or invoked. They supplement the loader; do not rewrite the archived original sources.
+
+The user's instruction is: **"Do not ever explain in ARAW or any of the other skills for that matter."**
+
+During skill execution, produce the concrete propositions, comparisons, implications, countercases, alternatives, and derivations themselves. Do not fill the output with explanations of a method, its purpose, its relevance, what the assistant is doing, or what the assistant should do. Do not replace the requested work with a diagnosis of the assistant's previous mistakes.
+
+Before exploring a claim, make its terms, scope, and asserted relationship definite. Preserve the input's meaning. Where the input permits materially different meanings, keep them as distinct candidate propositions instead of silently selecting a convenient interpretation. Do not generate a vague sentence and then build explanatory paragraphs around it.
+
+### 1. Actually assume the claim right
+
+Assume the exact proposition right and derive what follows, including commitments and foreclosures. Preserve its quantifiers and scope. Do not weaken "each operation reduces" into "a suitable operation can." Supporting remarks, descriptions of the source, and explanations of why a claim sounds reasonable do not substitute for deriving its consequences.
+
+### 2. Actually assume the claim wrong
+
+Explore ways the exact proposition is wrong, including alternative states, causes, and accounts. Develop concrete countercases and their consequences. A compatible caution about a different proposition does not challenge the original. Do not replace right/wrong with good/bad. Bare "may," "might," "could," or "does not guarantee" statements do not complete a branch; supply the specific case and derivation.
+
+### 3. Derive and explore alternatives
+
+Derive an alternative proposition or concrete option from a particular wrongness finding. Preserve that dependency. For a causal claim, produce an alternative causal account. "Examine," "check," "specify," and "ensure" instructions to the assistant are not substitute findings. Assume the derived alternative right, follow its consequences, and test the resulting subclaims. Continue the original skill's recursion instead of stopping at an AR/AW/alternative trio.
+
+### Verdicts must follow the exploration
+
+Complete exploration before assigning verdicts. Derive each verdict from the actual AR, AW, and alternative findings bearing on the exact claim. Finding numbers and labels do not establish that dependency. Do not independently select a preferred explanation, then attach references to it. Preserve an unresolved result when the findings do not settle it.
+
+Read `references/user-rejected-examples.md` before execution. Those are rejected outputs, not templates to imitate.
+
+### Execution check before delivery
+
+Load original skills through `scripts/read_original.py`. Read both streams: stdout contains the exact original source; stderr contains the current user requirements and rejected examples. Preserve their separate roles. Compare the receipt to the bytes actually emitted, not an unrelated file or method name.
+
+Freeze each claim before branching. For each AR, retain the exact assumed proposition and derive a further proposition. For each AW, exhibit a state in which that same proposition is false; label a boundary that only defeats a stronger claim as such. For each alternative, retain its wrongness parent and follow its consequences and countercases. A concrete counterexample to a universal claim rejects that universal claim; do not silently turn it into a weaker conditional claim.
+
+Before declaring completion, check the actual parent-to-child inferences, including any added premises. A valid ID, depth count, truth-table label, or signed-off checklist does not establish semantic validity. Remove compatible cautions posing as refutations, changed quantifiers, unsupported implications, and self-instructions posing as alternatives. Keep an attempted counterargument that failed as failed; do not use it to support the verdict.
+
+Derive each verdict in a compact certificate: exact claim; decisive premise or countercase; inference to the verdict; strongest contrary branch and its disposition; unresolved dependency. No new substantive finding enters during compilation or synthesis. If review finds a missing derivation, reopen exploration and regenerate the affected registry and verdicts. Report tests within their tested scope. Do not call a review success proof of first-pass success or general future reliability.
+
+For depth requests, use the original skill's floors and count recursive edges rather than indented headings. Do not count duplicated propositions or imported findings toward the independent-findings floor. Stop a branch at verified bedrock; do not pad a settled branch to equalize lengths.
+
+# User-rejected execution examples
+
+Saved at the user's request on 4 September 2026. These examples are rejected outputs. Do not reuse them as answers or positive demonstrations.
+
+## 1. Replacing the proposition during AR
+
+Claim:
+> Each operation reduces a place where the model would otherwise improvise without adequate grounds.
+
+Rejected AR:
+> A suitable operation, correctly executed on appropriate inputs, can replace one unconstrained choice with a comparison or inference that has a stated basis.
+
+Preserve the original quantifier and assertion. Derive consequences of that proposition.
+
+## 2. Giving a compatible statement as AW
+
+Claim:
+> Recognizable technique names do not establish faithful extraction.
+
+Rejected AW:
+> Faithful extraction is not identical to superior replacement.
+
+Both propositions can hold together. Address the original proposition's wrongness.
+
+Another rejected pair:
+- Claim: Factual correctness can be insufficient for answering the request.
+- AW: Factual correctness remains necessary.
+
+## 3. Giving the assistant instructions as an alternative
+
+Claim:
+> Each operation reduces a place where the model would otherwise improvise without adequate grounds.
+
+Rejected alternative:
+> Examine which difficult judgment an operation replaces, which judgments remain, and whether its actual output supplies a better basis for the next step.
+
+Produce and explore an alternative account of the operation's effect.
+
+## Additional example supplied by the user
+
+Rejected claim:
+> You can specify the intellectual work needed to determine an answer.
+
+User's response:
+> What the heck does this even mean?
+
+Rejected AR:
+> The original skills specify operations such as comparing examples, extracting premises, considering contrary cases, and deriving alternatives. These are more particular than merely requesting a good answer.
+
+User's response:
+> This is an explanation, completely useless. Also what does this even have to do with the original claim. That's right the original claim is nonsense.
+
+Rejected AW:
+> A complete successful procedure may not be known in advance. Each operation may still require interpretation, knowledge, or invention; specifying an operation is not specifying its successful result.
+
+User's response:
+> May not be, dumb. May dumb. And even more useless explanation.
+
+Rejected alternative:
+> Specify useful operations and constraints where they are known, while allowing discovery of missing methods and representations.
+
+User's response:
+> Completely useless instruction again.
+
+## Verdict failure identified by the user
+
+> You take a stupid explanation, completely ignore anything the ar or aw or aw alternative whatever that means, and then just simply pick whatever you wanted to be the explanation.
+
+Do not select a verdict independently of the explored branches. An undefined claim, an unrelated explanation, and a self-instruction do not form a completed argument.
+
+## Compatible boundary repeated in a deeper tree
+
+Claim:
+> A gate that withholds every recognized failure prevents recognized failures from being released.
+
+Rejected AW:
+> An unrecognized paraphrase can pass the gate.
+
+That case changes recognized to unrecognized. It does not falsify the claim. Do not strengthen the parent after generating an objection merely to make the objection fit.
+
+Claim:
+> The historical result for schema v1 remains established while its applicability to schema v2 is unresolved.
+
+Rejected AW:
+> A result claiming compatibility with every schema would be refuted by a v2 failure.
+
+That substitutes a universal claim for the scoped historical result. Keep the two propositions separate.
+
+## Test and revision scope
+
+A passing finite truth table verifies the declared formula, not an incorrect translation into that formula. A correct source receipt verifies supplied bytes, not skill execution. A repaired output is a repair success, not a first-pass success. An invalid edge contributes no recursive depth; its dependent continuation needs a valid new parent before it can count.
+[END CURRENT USER REQUIREMENTS]

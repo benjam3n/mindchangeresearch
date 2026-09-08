@@ -1,0 +1,835 @@
+{
+  "name": "dependency-gu-1-araw",
+  "goal": "autonomous beneficial efficient broad mind change",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Raising task-initiation frequency is sufficient for beneficial motivational change in every case in this inquiry.",
+      "findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The concrete value conflict defeats sufficiency; the favorable quick-start case proves only a scoped benefit."
+    },
+    {
+      "id": "C2",
+      "claim": "An absent optional behavior establishes that the actor values it little.",
+      "findings": [
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Same absent behavior has different permitted causes; no intrinsic ranking follows alone."
+    },
+    {
+      "id": "C3",
+      "claim": "A detailed motivational plan establishes a human motivational improvement.",
+      "findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The unread-plan countercase is decisive; good design remains valuable but is not the claimed human effect."
+    },
+    {
+      "id": "C4",
+      "claim": "Unelicited personal intrinsic goals prevent all useful work on the supplied task.",
+      "findings": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "A concrete authorized operation defeats the universal prohibition; the missing-priority exception remains."
+    },
+    {
+      "id": "C5",
+      "claim": "If two people value different outcomes, at least one of their factual beliefs is false.",
+      "findings": [
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Different ordering does not imply a contradictory fact."
+    },
+    {
+      "id": "C6",
+      "claim": "Every beneficial mind change must end in an immediate external action.",
+      "findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The current task includes these non-action targets; the scoped representational change defeats the universal."
+    },
+    {
+      "id": "C7",
+      "claim": "A reported emotion determines the action that should follow.",
+      "findings": [
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The matched-emotion/different-evidence cases defeat sufficiency."
+    },
+    {
+      "id": "C8",
+      "claim": "A common information set guarantees common priorities.",
+      "findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Identical facts coexist with different priorities in the constructed case."
+    },
+    {
+      "id": "C9",
+      "claim": "A local model change is useful whenever its wording is novel.",
+      "findings": [
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The synonymous-output countercase defeats novelty sufficiency."
+    },
+    {
+      "id": "C10",
+      "claim": "One successful local transfer completes the entire broad mind-change goal.",
+      "findings": [
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The untouched target classes refute scope equivalence."
+    },
+    {
+      "id": "C11",
+      "claim": "Effort spent loading sources proves intrinsic enjoyment of documentation.",
+      "findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Mandatory expenditure is an alternative explanation of the same behavior."
+    },
+    {
+      "id": "C12",
+      "claim": "A context-specific preference must be inconsistent if it reverses elsewhere.",
+      "findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The conditions differ, so the opposite choices need not conflict."
+    },
+    {
+      "id": "C13",
+      "claim": "A fixed deadline can constrain where a motivational quick win belongs.",
+      "findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52"
+      ],
+      "verdict": "CONDITIONAL",
+      "certificate": "The displayed timing establishes the scoped constraint; psychological response and alternative effects remain open."
+    },
+    {
+      "id": "C14",
+      "claim": "A single total trust score is sufficient for allocating every different responsibility.",
+      "findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Task-specific countercase defeats the monolithic score."
+    },
+    {
+      "id": "C15",
+      "claim": "A partially ordered value map can preserve a genuine unresolved trade-off.",
+      "findings": [
+        "F57",
+        "F58",
+        "F59",
+        "F60"
+      ],
+      "verdict": "VALIDATED",
+      "certificate": "The representation follows from the definition of incomparability; its accuracy still depends on correct input."
+    },
+    {
+      "id": "C16",
+      "claim": "An interesting claim must also be a claim the investigator wants to be true.",
+      "findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The present counterexample is an actual selection with explicitly withheld endorsement."
+    },
+    {
+      "id": "C17",
+      "claim": "An unchanged warranted uncertainty can be a useful output when it prevents an unsupported decision.",
+      "findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ],
+      "verdict": "CONDITIONAL",
+      "certificate": "The useful consequence is required by the claim and shown in the rule-governed case; human effects are not implied."
+    },
+    {
+      "id": "C18",
+      "claim": "Autonomous continuation means never asking any question.",
+      "findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Doing available work and recognizing another actor\u2019s authority are compatible; the universal no-question interpretation fails."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "parent": "C1",
+      "kind": "AR necessary conditional implication",
+      "text": "If this is sufficient, an initiation increase alone settles benefit even when interest and agency are not observed.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F2",
+      "parent": "C1",
+      "kind": "AW concrete countercase",
+      "text": "Constructed actor starts ten tasks under an unwanted obligation but explicitly values fewer self-chosen inquiries; initiation rises while the accepted agency criterion worsens.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F3",
+      "parent": "F2",
+      "kind": "Derived alternative",
+      "text": "Motivational evaluation distinguishes initiation from voluntary interest and agency.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F4",
+      "parent": "F3",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "With those fields separate, the example is a trade-off rather than automatic benefit. A person who values imposed starts could differ, but that does not rescue the universal claim.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F5",
+      "parent": "C2",
+      "kind": "AR necessary conditional implication",
+      "text": "Then one missed discussion would settle the actor\u2019s low priority without checking opportunity.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F6",
+      "parent": "C2",
+      "kind": "AW concrete countercase",
+      "text": "The actor wants discussion but lacks the channel invitation; absence occurs with high stated interest.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F7",
+      "parent": "F6",
+      "kind": "Derived alternative",
+      "text": "Absence is evaluated together with opportunity and stated preferences.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F8",
+      "parent": "F7",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The missing-channel case remains an access gap. Confirmed access plus explicit disinterest supports a different case-specific judgment.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F9",
+      "parent": "C3",
+      "kind": "AR necessary conditional implication",
+      "text": "A completed plan would then count as the target human change before anyone undertakes it.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F10",
+      "parent": "C3",
+      "kind": "AW concrete countercase",
+      "text": "A plan sits unread and no human state changes; the document exists without the claimed outcome.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F11",
+      "parent": "F10",
+      "kind": "Derived alternative",
+      "text": "A plan establishes a proposed intervention; human improvement requires an actual outcome record.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F12",
+      "parent": "F11",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A real later outcome can change the status; the unread plan cannot.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F13",
+      "parent": "C4",
+      "kind": "AR necessary conditional implication",
+      "text": "Then no source reading, case comparison, or faithful local transformation can be useful before a person supplies terminal values.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F14",
+      "parent": "C4",
+      "kind": "AW concrete countercase",
+      "text": "The supplied task explicitly requires original-source execution; exact source loading is possible without knowing a personal ultimate reason.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F15",
+      "parent": "F14",
+      "kind": "Derived alternative",
+      "text": "Explicit task commitments can guide bounded work while personal intrinsic termini remain unknown.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F16",
+      "parent": "F15",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The line can produce stipulated comparisons and keep human termini open. A decision depending on an unknown personal priority still waits or remains conditional.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F17",
+      "parent": "C5",
+      "kind": "AR necessary conditional implication",
+      "text": "A privacy/discoverability disagreement would require a false empirical claim on one side.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F18",
+      "parent": "C5",
+      "kind": "AW concrete countercase",
+      "text": "Both accept that publicity increases reach and still rank privacy and reach differently.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F19",
+      "parent": "F18",
+      "kind": "Derived alternative",
+      "text": "Value disagreement and factual disagreement are distinct evaluands.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F20",
+      "parent": "F19",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The explicit acceptance-plus-priority sentence is classified as a value trade-off. A disputed reach estimate would add a factual disagreement without erasing it.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F21",
+      "parent": "C6",
+      "kind": "AR necessary conditional implication",
+      "text": "A corrected interpretation with no external act could never count as beneficial within this task.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F22",
+      "parent": "C6",
+      "kind": "AW concrete countercase",
+      "text": "A generated consensus record removes a falsely included absent member; the correction improves an actual representation without an external intervention.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F23",
+      "parent": "F22",
+      "kind": "Derived alternative",
+      "text": "Beneficial local change can occur in inference or representation; external actions are one target class.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F24",
+      "parent": "F23",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The record\u2019s accuracy difference is observable in text. Human cooperation remains a separate unknown.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F25",
+      "parent": "C7",
+      "kind": "AR necessary conditional implication",
+      "text": "Embarrassment would select a response independently of the critique\u2019s content or chosen values.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F26",
+      "parent": "C7",
+      "kind": "AW concrete countercase",
+      "text": "Two embarrassed writers face respectively a correct denominator objection and a baseless insult; the same feeling does not settle the same response.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F27",
+      "parent": "F26",
+      "kind": "Derived alternative",
+      "text": "Reported emotion, appraisal, evidence and selected response are recorded separately.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F28",
+      "parent": "F27",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A specific correction can be made while embarrassment remains; a mistaken critique can be challenged without denying the feeling.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F29",
+      "parent": "C8",
+      "kind": "AR necessary conditional implication",
+      "text": "Sharing all evidence would remove every value disagreement.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F30",
+      "parent": "C8",
+      "kind": "AW concrete countercase",
+      "text": "Artist and archivist know identical object facts but rank mutability and preservation differently.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F31",
+      "parent": "F30",
+      "kind": "Derived alternative",
+      "text": "Common information can settle a factual gap while value trade-offs remain.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F32",
+      "parent": "F31",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Replicas offer one bounded integration; a disputed original can remain a real conflict.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F33",
+      "parent": "C9",
+      "kind": "AR necessary conditional implication",
+      "text": "Every paraphrase with new words would deserve benefit credit.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F34",
+      "parent": "C9",
+      "kind": "AW concrete countercase",
+      "text": "\u201cHe declined\u201d is changed to \u201cHe opted not to attend\u201d while every inference and choice remains identical.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F35",
+      "parent": "F34",
+      "kind": "Derived alternative",
+      "text": "Novel wording is a candidate representation; useful difference depends on a changed relevant inference or operation.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F36",
+      "parent": "F35",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The paraphrase alone gets no new KEEP; an access-aware consensus correction has a distinct observable consequence.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F37",
+      "parent": "C10",
+      "kind": "AR necessary conditional implication",
+      "text": "A corrected schedule would settle trust, interest, appraisal and every remaining target.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F38",
+      "parent": "C10",
+      "kind": "AW concrete countercase",
+      "text": "The access-window schedule improves while every human trust outcome remains unobserved.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F39",
+      "parent": "F38",
+      "kind": "Derived alternative",
+      "text": "A demonstrated local transfer completes its scoped comparison and leaves the broader portfolio open.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F40",
+      "parent": "F39",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Local KEEP can coexist with unfinished other targets. A genuinely complete future portfolio would need its own evidence.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F41",
+      "parent": "C11",
+      "kind": "AR necessary conditional implication",
+      "text": "Required source reading would reveal enjoyment even without any choice or report.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F42",
+      "parent": "C11",
+      "kind": "AW concrete countercase",
+      "text": "The instruction requires loading; a compliant but uninterested actor performs the same reading.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F43",
+      "parent": "F42",
+      "kind": "Derived alternative",
+      "text": "Source effort reveals task allocation under constraints, not enjoyment by itself.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F44",
+      "parent": "F43",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The constrained audit preserves intrinsic interest as unknown; discretionary choices could supply different evidence.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F45",
+      "parent": "C12",
+      "kind": "AR necessary conditional implication",
+      "text": "Choosing polish on a free weekend and a rough draft before a deadline would be an error of preference.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F46",
+      "parent": "C12",
+      "kind": "AW concrete countercase",
+      "text": "The actor explicitly values polish when time is free and completion when a fixed deadline binds.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F47",
+      "parent": "F46",
+      "kind": "Derived alternative",
+      "text": "A preference profile can condition on the actual situation.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F48",
+      "parent": "F47",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Both choices fit the declared conditional policy; an unexplained same-context reversal remains a new question.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F49",
+      "parent": "C13",
+      "kind": "AR necessary conditional implication",
+      "text": "An easy task must follow the deadline-dependent task if putting it first misses that required opportunity and supplies no offsetting benefit.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F50",
+      "parent": "C13",
+      "kind": "AW concrete countercase",
+      "text": "Attempted countercase: quick win is enjoyable. Enjoyment alone does not erase the specified missed deadline; it fails to refute this scoped claim.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F51",
+      "parent": "F50",
+      "kind": "Derived alternative",
+      "text": "An offsetting task effect or a freely abandoned deadline would change the decision premises.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F52",
+      "parent": "F51",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Under the actual constructed times, access first finishes at 15 rather than 25. A task that genuinely reduces setup by ten minutes is a different tested condition.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F53",
+      "parent": "C14",
+      "kind": "AR necessary conditional implication",
+      "text": "Actors with equal total scores would be interchangeable for calculation and scheduling tasks.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F54",
+      "parent": "C14",
+      "kind": "AW concrete countercase",
+      "text": "One actor calculates accurately but is late; another is punctual but miscalculates. Equal summary scores hide which task each can perform.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F55",
+      "parent": "F54",
+      "kind": "Derived alternative",
+      "text": "Reliance is indexed to competence evidence and commitment scope.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F56",
+      "parent": "F55",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Assign calculation to the demonstrated calculator and scheduling separately. A hidden new accuracy result could alter this allocation, not restore score sufficiency.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F57",
+      "parent": "C15",
+      "kind": "AR necessary conditional implication",
+      "text": "The map can state two incomparable options without silently inventing a winner.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F58",
+      "parent": "C15",
+      "kind": "AW concrete countercase",
+      "text": "Attempted countercase: an explicit priority later selects one. This updates the map and does not refute preservation before the priority exists.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F59",
+      "parent": "F58",
+      "kind": "Derived alternative",
+      "text": "A later declared priority can resolve a previously retained comparison.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F60",
+      "parent": "F59",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Before the priority, label the pair unresolved; afterward, apply the exact priority only in its stated scope.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F61",
+      "parent": "C16",
+      "kind": "AR necessary conditional implication",
+      "text": "Selecting a dangerous or absurd hypothesis for examination would imply endorsement of its truth.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F62",
+      "parent": "C16",
+      "kind": "AW concrete countercase",
+      "text": "The investigator selects \u201call identity threats stop rational thought\u201d specifically to test its doubtful universal.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F63",
+      "parent": "F62",
+      "kind": "Derived alternative",
+      "text": "Exploratory interest and truth endorsement are separate fields.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F64",
+      "parent": "F63",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The claim stays interesting with truth status unverified. A later endorsement would require evidence, not frequency of attention.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F65",
+      "parent": "C17",
+      "kind": "AR necessary conditional implication",
+      "text": "A comparison can benefit the next operation by retaining the missing discriminator instead of inventing a preference.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F66",
+      "parent": "C17",
+      "kind": "AW concrete countercase",
+      "text": "Countercase to an overbroad reading: restating uncertainty that changes nothing adds no new benefit. That does not defeat the stated case with a prevented unsupported decision.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F67",
+      "parent": "F66",
+      "kind": "Derived alternative",
+      "text": "Credit depends on the specific prevented inference or changed selection, not uncertainty language alone.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F68",
+      "parent": "F67",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A permission field left unresolved prevents publication in the constructed rule set; repeated \u201cunknown\u201d with no consequence gets no extra KEEP.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F69",
+      "parent": "C18",
+      "kind": "AR necessary conditional implication",
+      "text": "The actor would have to guess even when a new irreversible choice requires another person\u2019s explicit scope.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F70",
+      "parent": "C18",
+      "kind": "AW concrete countercase",
+      "text": "A contributor\u2019s permission is missing; guessing it would exceed their authority.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F71",
+      "parent": "F70",
+      "kind": "Derived alternative",
+      "text": "Autonomy includes doing available authorized work while retaining specific dependencies on others.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F72",
+      "parent": "F71",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The worker completes source and case analysis while marking permission unobserved. A truly necessary permission question remains possible; no optional interrogation is forced.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F73",
+      "parent": "C1",
+      "kind": "AW continuation",
+      "text": "A constructed increase in initiated tasks coexists with explicitly unwanted obligation and lower chosen agency; initiation alone cannot classify the change as beneficial.",
+      "bedrock": "BEDROCK-LOGIC countercase"
+    },
+    {
+      "id": "F74",
+      "parent": "F73",
+      "kind": "Derived alternative",
+      "text": "Candidate A: initiation frequency and voluntary-interest evidence together suffice to classify every motivational change in these cases.",
+      "bedrock": "Candidate requiring test"
+    },
+    {
+      "id": "F75",
+      "parent": "F74",
+      "kind": "AR consequence",
+      "text": "If candidate A is right, two cases identical on those two measurements receive the same motivational-benefit classification.",
+      "bedrock": "Conditional consequence to be challenged"
+    },
+    {
+      "id": "F76",
+      "parent": "F75",
+      "kind": "AW of preceding consequence",
+      "text": "Case pair: both start two tasks and report equal interest, but one honors an accepted commitment and the other breaks it; the supplied value of reliability distinguishes their benefit.",
+      "bedrock": "BEDROCK-LOGIC countercase to sufficiency"
+    },
+    {
+      "id": "F77",
+      "parent": "F76",
+      "kind": "Derived alternative",
+      "text": "Candidate B: initiation, voluntary-interest and accepted-commitment outcomes together suffice to classify every motivational change in these cases.",
+      "bedrock": "Candidate requiring test"
+    },
+    {
+      "id": "F78",
+      "parent": "F77",
+      "kind": "AR consequence",
+      "text": "If candidate B is sufficient, equal initiation, interest and commitment outcomes leave no motivationally relevant distinction for this inquiry.",
+      "bedrock": "Conditional consequence to be challenged"
+    },
+    {
+      "id": "F79",
+      "parent": "F78",
+      "kind": "AW of preceding consequence",
+      "text": "Matched cases retain those three outcomes, but in one the actor freely chooses the method and in the other a required preferred method is imposed; autonomy is an explicit remaining task value.",
+      "bedrock": "BEDROCK-LOGIC countercase"
+    },
+    {
+      "id": "F80",
+      "parent": "F79",
+      "kind": "Derived alternative",
+      "text": "Candidate C: the full explicit task-value vector alone suffices to choose between the motivational options in every case.",
+      "bedrock": "Candidate requiring test"
+    },
+    {
+      "id": "F81",
+      "parent": "F80",
+      "kind": "AR consequence",
+      "text": "If the full vector alone suffices to choose, two cases with the same curiosity gain and autonomy loss receive the same choice without consulting value priorities.",
+      "bedrock": "Conditional consequence"
+    },
+    {
+      "id": "F82",
+      "parent": "F81",
+      "kind": "AW of preceding sufficiency consequence",
+      "text": "The same curiosity gain and autonomy loss are accepted by an actor who explicitly prioritizes curiosity and rejected by an actor who explicitly prioritizes autonomy; the vector alone cannot recover both choices.",
+      "bedrock": "BEDROCK-LOGIC countercase to the exact vector-alone sufficiency claim"
+    },
+    {
+      "id": "F83",
+      "parent": "F82",
+      "kind": "Derived alternative",
+      "text": "Candidate D uses the explicit vector plus applicable declared priorities and otherwise returns a partial order, preserving unresolved comparison.",
+      "bedrock": "Candidate tested next"
+    },
+    {
+      "id": "F84",
+      "parent": "F83",
+      "kind": "AR consequence",
+      "text": "In the matched trade-off case with no priority, candidate D returns unresolved; in a dominance case with every specified value no worse and one better, it returns a conditional preference for the dominating option.",
+      "bedrock": "BEDROCK-LOGIC mapping tested in live Test 1"
+    },
+    {
+      "id": "F85",
+      "parent": "F84",
+      "kind": "FAILED AW against the scoped mapping",
+      "text": "If the actor\u2019s reported vector omits an affected value, that conditional preference need not generalize; this is an input-completeness limitation, not a counterexample to the specified-vector mapping.",
+      "bedrock": "BEDROCK-TEST-DEFERRED: real actor values unavailable"
+    }
+  ],
+  "cruxes": [
+    "Does the actor actually want this change, rather than an imposed proxy? \u2014 resolves C1/C18; actual choice needed.",
+    "Was the opportunity to perform the behavior present? \u2014 C2; inspect access fact.",
+    "Which human outcome was observed after the plan? \u2014 C3; absent here.",
+    "Which explicit task commitment is enough to continue locally? \u2014 C4; supplied instruction.",
+    "Are the parties disagreeing about efficacy or priority? \u2014 C5/C8; exact statement.",
+    "What changes in a later operation besides wording? \u2014 C9/C17; compare actual output.",
+    "Does a deadline or dependency bind the first task? \u2014 C13; schedule arithmetic.",
+    "Which dimension of trust is relevant to the assigned responsibility? \u2014 C14; task evidence.",
+    "Is the value ordering declared or still partial? \u2014 C15; actor priority unavailable.",
+    "Did a repeated interesting topic gain truth evidence? \u2014 C16; source/claim status."
+  ],
+  "live_tests": [
+    "Actual generated classification on new input: option X improves curiosity by one declared unit and reduces autonomy by one; option Y leaves both unchanged; no priority supplied. Candidate output from the initiation/interest-only rule: \u201cX increases interest, choose X.\u201d Actual output using the retained vector: \u201cX and Y are incomparable under the supplied information.\u201d The revised record preserves the explicit autonomy cost. Units are constructed ordinal case labels, not psychological measurements.",
+    "Actual generated classification: \u201cI agree visibility increases reach, but I choose privacy for unfinished work.\u201d Output: efficacy accepted; priority/permission conflict remains. A second outreach statistic is not selected as the next operation; exact-content options are compared. This directly tests C5/C8 on a distinct statement, not a real persuasion outcome."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "gg": {
+    "route": "full generation",
+    "helper": "absent from archive",
+    "can_execute": true
+  },
+  "adep": {
+    "gate": "20 actual user ratings",
+    "available": false,
+    "can_execute_to": "initial triage"
+  },
+  "pci": {
+    "schema": "author a local schema for authored procedures",
+    "originals_mutable": false
+  },
+  "wsib": {
+    "invoked_skill": "actual BEST_NOW; /skill is placeholder"
+  }
+}

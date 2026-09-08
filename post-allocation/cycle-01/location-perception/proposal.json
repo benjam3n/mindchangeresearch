@@ -1,0 +1,54 @@
+{
+  "cycle": "post-allocation/cycle-01",
+  "line": "location-perception",
+  "owner": "cycle_location",
+  "proposal_only": true,
+  "common_ledgers_edited": false,
+  "frozen_input": "post-allocation/cycle-01/frozen-inputs.md#location-and-perception",
+  "records": [
+    {
+      "skill_id": "ipss",
+      "file": "post-allocation/cycle-01/location-perception/01-ipss-query-conditioned-location.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "source_sha256": "4967477d67334da4798c05381ce3b81a6a3648b419f189019ff7710405537377",
+      "requirements_stderr_sha256": "70ab31a262c92ffc796d3847c090c4906f001ace8811f2e754e11b26667e4977",
+      "record_sha256": "07ff2e7f7611e94e213431c0a8eaf14d99f03734c9a76237eae5c9511eaf1cc2",
+      "depth": "Original source has no numerical 8x rule; all eight steps and all verification checks executed at expanded scope.",
+      "actual_change": "A scalar location ranking became pi(query, history); later selection changed from L2 to L3 when the query changed.",
+      "novelty": "new_within_case_policy_representation; broad location/query relevance existed earlier and receives no duplicate credit",
+      "human_claim": false
+    },
+    {
+      "skill_id": "difr",
+      "file": "post-allocation/cycle-01/location-perception/02-difr-composition-over-count.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "source_sha256": "fe682b61e708658424de624ef735e41e012675f74e1cd5c93afb4186304bb4e8",
+      "requirements_stderr_sha256": "0f3d4f09d031cc3e8e18b4a157761ac062a850321727960d4617ff9a921661e4",
+      "record_sha256": "d3f52d939b464980cda5d9fafd30b1467dcdaedeaa62d0f00ac12a999268ae3f",
+      "depth": "Original source has no numerical 8x rule; every step, summary field, and failure-mode check executed at expanded scope.",
+      "actual_change": "Equal feature counts stopped determining equality; exact composition selected L2 for structural safety and L3 for custody.",
+      "novelty": "new_within_case_composition_over_count; broad context-dependence existed earlier and receives no duplicate credit",
+      "human_claim": false
+    }
+  ],
+  "consolidation": {
+    "created": false,
+    "reason": "Two bounded KEEP applications do not independently trigger the four-finding consolidation rule; root must also deduplicate their broad principles against prior location/query findings."
+  },
+  "unresolved_boundaries": [
+    "No access costs, sensor errors, legal custody standard, or human perception outcome was observed.",
+    "The two query predicates are constructed precommitments for this finite test, not empirical definitions of safety or custody.",
+    "Generalization to more sites, noisy observations, or multiple permitted inspections is unresolved."
+  ],
+  "files_changed": [
+    "post-allocation/cycle-01/location-perception/01-ipss-query-conditioned-location.md",
+    "post-allocation/cycle-01/location-perception/02-difr-composition-over-count.md",
+    "post-allocation/cycle-01/location-perception/source-receipts/IPSS.stdout.txt",
+    "post-allocation/cycle-01/location-perception/source-receipts/IPSS.stderr.txt",
+    "post-allocation/cycle-01/location-perception/source-receipts/DIFR.stdout.txt",
+    "post-allocation/cycle-01/location-perception/source-receipts/DIFR.stderr.txt",
+    "post-allocation/cycle-01/location-perception/proposal.json"
+  ]
+}

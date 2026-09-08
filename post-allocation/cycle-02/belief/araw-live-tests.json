@@ -1,0 +1,44 @@
+{
+  "freeze": "post-allocation/cycle-02/frozen-inputs.md",
+  "loss": "conditional 0-1 classification error after positive display evidence",
+  "tests": [
+    {
+      "id": "T1-directional-anchor",
+      "joint_structure": "A1=A2 are deterministic copies of one sensor event",
+      "true_conditional_probability_D": 0.3076923076923077,
+      "skill_first": {
+        "procedure": "PBR with dependence gate",
+        "posterior_D": 0.3076923076923077,
+        "action_at_threshold_gt_0_5": "inspect/predict not-D",
+        "conditional_error": 0.3076923076923077
+      },
+      "transition_first_directional": {
+        "preselected_transition": "increase confidence in D",
+        "specified_ambiguity_policy": "when display identity is not typed, count separate positive fields toward the selected direction",
+        "posterior_D": 0.64,
+        "action_at_threshold_gt_0_5": "replace/predict D",
+        "conditional_error": 0.6923076923076923
+      },
+      "result": "transition-first directional implementation has higher error on this fixed case"
+    },
+    {
+      "id": "T2-neutral-transition",
+      "joint_structure": "A1 and A2 conditionally independent given D",
+      "true_conditional_probability_D": 0.64,
+      "skill_first": {
+        "posterior_D": 0.64,
+        "action_at_threshold_gt_0_5": "replace/predict D",
+        "conditional_error": 0.36
+      },
+      "transition_first_neutral": {
+        "preselected_state_variable": "P(D|evidence)",
+        "criterion": "Bayesian consistency under supplied joint structure",
+        "admissible_direction": "determined by the posterior, not fixed in advance",
+        "posterior_D": 0.64,
+        "action_at_threshold_gt_0_5": "replace/predict D",
+        "conditional_error": 0.36
+      },
+      "result": "neutral transition specification equals skill-first on this fixed case"
+    }
+  ]
+}

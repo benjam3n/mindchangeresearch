@@ -1,0 +1,749 @@
+{
+  "subsystems": [
+    {
+      "id": "A3-01",
+      "name": "Request boundary",
+      "owned_output": "current target",
+      "functions": "produce current target",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-02",
+      "name": "Actor map",
+      "owned_output": "responsible roles",
+      "functions": "produce responsible roles",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-03",
+      "name": "Setting inventory",
+      "owned_output": "available conditions",
+      "functions": "produce available conditions",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-04",
+      "name": "Encounter options",
+      "owned_output": "possible interaction",
+      "functions": "produce possible interaction",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-05",
+      "name": "Attention budget",
+      "owned_output": "remaining attention",
+      "functions": "produce remaining attention",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-06",
+      "name": "Pace controller",
+      "owned_output": "timing window",
+      "functions": "produce timing window",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-07",
+      "name": "Representation builder",
+      "owned_output": "candidate medium",
+      "functions": "produce candidate medium",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-08",
+      "name": "Consent boundary",
+      "owned_output": "declared permission",
+      "functions": "produce declared permission",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-09",
+      "name": "Shared context",
+      "owned_output": "common inputs",
+      "functions": "produce common inputs",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-10",
+      "name": "Tool adapter",
+      "owned_output": "actual capability",
+      "functions": "produce actual capability",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-11",
+      "name": "Action queue",
+      "owned_output": "ordered work",
+      "functions": "produce ordered work",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-12",
+      "name": "Interruption control",
+      "owned_output": "cancellation state",
+      "functions": "produce cancellation state",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-13",
+      "name": "Human response intake",
+      "owned_output": "reported response",
+      "functions": "produce reported response",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-14",
+      "name": "Evidence separation",
+      "owned_output": "actor-specific effect",
+      "functions": "produce actor-specific effect",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-15",
+      "name": "Goal revision",
+      "owned_output": "new target version",
+      "functions": "produce new target version",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A3-16",
+      "name": "Next encounter",
+      "owned_output": "bounded continuation",
+      "functions": "produce bounded continuation",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "I3-01",
+      "from": "A3-01",
+      "to": "A3-02",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "current target",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-02",
+      "from": "A3-02",
+      "to": "A3-03",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "responsible roles",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-03",
+      "from": "A3-03",
+      "to": "A3-04",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "available conditions",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-04",
+      "from": "A3-04",
+      "to": "A3-05",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "possible interaction",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-05",
+      "from": "A3-05",
+      "to": "A3-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "remaining attention",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-06",
+      "from": "A3-06",
+      "to": "A3-07",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "timing window",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-07",
+      "from": "A3-07",
+      "to": "A3-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "candidate medium",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-08",
+      "from": "A3-08",
+      "to": "A3-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "declared permission",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-09",
+      "from": "A3-09",
+      "to": "A3-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "common inputs",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-10",
+      "from": "A3-10",
+      "to": "A3-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "actual capability",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-11",
+      "from": "A3-11",
+      "to": "A3-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "ordered work",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-12",
+      "from": "A3-12",
+      "to": "A3-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "cancellation state",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-13",
+      "from": "A3-13",
+      "to": "A3-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reported response",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-14",
+      "from": "A3-14",
+      "to": "A3-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "actor-specific effect",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-15",
+      "from": "A3-15",
+      "to": "A3-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "new target version",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-16",
+      "from": "A3-01",
+      "to": "A3-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "current target",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-17",
+      "from": "A3-03",
+      "to": "A3-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "available conditions",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-18",
+      "from": "A3-04",
+      "to": "A3-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "possible interaction",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-19",
+      "from": "A3-05",
+      "to": "A3-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "remaining attention",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-20",
+      "from": "A3-06",
+      "to": "A3-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "timing window",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-21",
+      "from": "A3-07",
+      "to": "A3-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "candidate medium",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-22",
+      "from": "A3-08",
+      "to": "A3-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "declared permission",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-23",
+      "from": "A3-09",
+      "to": "A3-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "common inputs",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-24",
+      "from": "A3-13",
+      "to": "A3-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reported response",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I3-25",
+      "from": "A3-15",
+      "to": "A3-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "new target version",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    }
+  ],
+  "weights": {
+    "Fidelity": 5,
+    "Scope clarity": 5,
+    "Recoverability": 4,
+    "Modifiability": 3,
+    "Traceability": 4,
+    "Simplicity": 3,
+    "Prompt delivery": 2,
+    "Portability": 2,
+    "Resource control": 4,
+    "Agency": 5
+  },
+  "scores": [
+    [
+      3,
+      2,
+      2,
+      2,
+      2,
+      5,
+      5,
+      3,
+      2,
+      3
+    ],
+    [
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      4,
+      4,
+      5,
+      5,
+      5,
+      2,
+      2,
+      4,
+      4,
+      4
+    ],
+    [
+      3,
+      3,
+      3,
+      5,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    [
+      5,
+      5,
+      5,
+      4,
+      5,
+      2,
+      3,
+      4,
+      5,
+      5
+    ]
+  ],
+  "totals": {
+    "single mutable document": 101,
+    "layered immutable packets": 148,
+    "event log plus views": 149,
+    "shared blackboard": 122,
+    "actor contracts": 167
+  },
+  "selected": "actor contracts",
+  "sensitivity": [
+    {
+      "attribute": "Fidelity",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        98,
+        143,
+        145,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Fidelity",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        104,
+        153,
+        153,
+        125,
+        172
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        99,
+        144,
+        145,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        103,
+        152,
+        153,
+        125,
+        172
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        99,
+        144,
+        144,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        103,
+        152,
+        154,
+        125,
+        172
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        99,
+        144,
+        144,
+        117,
+        163
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        103,
+        152,
+        154,
+        127,
+        171
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        99,
+        144,
+        144,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        103,
+        152,
+        154,
+        125,
+        172
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        96,
+        145,
+        147,
+        118,
+        165
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        106,
+        151,
+        151,
+        126,
+        169
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        96,
+        145,
+        147,
+        118,
+        164
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        106,
+        151,
+        151,
+        126,
+        170
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        98,
+        144,
+        145,
+        119,
+        163
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        104,
+        152,
+        153,
+        125,
+        171
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        99,
+        144,
+        145,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        103,
+        152,
+        153,
+        125,
+        172
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": -1,
+      "winner": "actor contracts",
+      "totals": [
+        98,
+        144,
+        145,
+        119,
+        162
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": 1,
+      "winner": "actor contracts",
+      "totals": [
+        104,
+        152,
+        153,
+        125,
+        172
+      ]
+    }
+  ]
+}

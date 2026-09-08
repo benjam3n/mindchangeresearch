@@ -1,0 +1,11 @@
+Found matching library: domain_design_decisions
+
+Library: domain_design_decisions
+Type: DECISION
+Keywords: decision, choose, option, alternative, trade-off, criteria, evaluate, compare, select, architecture
+Guesses: 512
+Related Goals: make_decision, evaluate_options, reduce_risk, optimize_choice, justify_decision
+Uses: 2
+
+
+To get content: python guess_library.py get domain_design_decisions

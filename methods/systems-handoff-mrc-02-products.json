@@ -1,0 +1,82 @@
+{
+  "hypotheses": [
+    "red",
+    "square",
+    "red_and_square",
+    "red_xor_square"
+  ],
+  "truth_table": [
+    {
+      "red": false,
+      "square": false,
+      "red_and_square": false,
+      "red_xor_square": false
+    },
+    {
+      "red": false,
+      "square": true,
+      "red_and_square": false,
+      "red_xor_square": true
+    },
+    {
+      "red": true,
+      "square": false,
+      "red_and_square": false,
+      "red_xor_square": true
+    },
+    {
+      "red": true,
+      "square": true,
+      "red_and_square": true,
+      "red_xor_square": false
+    }
+  ],
+  "before_second_query": [
+    "square",
+    "red_and_square"
+  ],
+  "second_query": {
+    "red": false,
+    "square": true,
+    "output": true
+  },
+  "after_second_query": [
+    "square"
+  ],
+  "predictions": [
+    {
+      "red": false,
+      "square": false,
+      "output": false
+    },
+    {
+      "red": false,
+      "square": true,
+      "output": true
+    },
+    {
+      "red": true,
+      "square": false,
+      "output": false
+    },
+    {
+      "red": true,
+      "square": true,
+      "output": true
+    }
+  ],
+  "selected_organization": "observation path with surviving hypotheses",
+  "query_policy": {
+    "first": [
+      true,
+      false
+    ],
+    "if_first_false": [
+      false,
+      true
+    ]
+  },
+  "identification_scope": "stipulated finite hypotheses, noiseless observations; oracle known to author, not a blind experiment",
+  "executed_at": "2026-09-08T05:36:28.130468+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

@@ -1,0 +1,72 @@
+{
+  "proposal_schema": "post-allocation-cycle-proposal-v1",
+  "owner": "cycle_memory",
+  "cycle": "post-allocation/cycle-01",
+  "domain": "memory-capability",
+  "common_files_edited": [],
+  "records": [
+    {
+      "id": "PAC01-MEMK-01",
+      "skill": "memk",
+      "path": "post-allocation/cycle-01/memory-capability/01-memk-capture.md",
+      "execution_status": "complete_within_scope",
+      "verdict": "KEEP",
+      "scope": "eight-record artifact capture, exact loss testing, and one changed-actor exception lookup",
+      "new_finding": "Full-field preservation did not determine retrieval efficiency: the two unindexed lossless organizations preserved 48/48 fields but required inspection of up to eight records, while the complete register plus actor-trigger and trigger indexes preserved 48/48 and required one indexed access.",
+      "later_uptake": "The selected register and trigger-only access path became the frozen input for PAC01-ACR-01; C7 was also used to withhold an unconditional merge for a changed actor.",
+      "unsupported_claims_excluded": [
+        "human memory improvement",
+        "model-weight change",
+        "global optimality"
+      ]
+    },
+    {
+      "id": "PAC01-ACR-01",
+      "skill": "acr",
+      "path": "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md",
+      "execution_status": "partial",
+      "verdict": "KEEP",
+      "scope": "four prospectively frozen immediate retrieval questions, exact artifact feedback, and one changed-actor application",
+      "new_finding": "A 4/4 immediate indexed-retrieval result and a correct changed-actor action reordering do not establish active-recall learning when context isolation, spacing, delayed retest, and durable-state measurement are absent.",
+      "later_uptake": "The retrieved C1 exception was used to reorder Dana's constructed response from immediate rollback to rebuild-index-then-rollback after schema advancement was supplied.",
+      "unresolved_requirements": [
+        "controlled context closure",
+        "effort measurement",
+        "second attempt after 1-3 days",
+        "third attempt one week later",
+        "cross-attempt technique variation",
+        "human learning evidence"
+      ]
+    }
+  ],
+  "source_receipts": [
+    {
+      "skill": "memk",
+      "reader_argument": "memk",
+      "stdout_path": "post-allocation/cycle-01/memory-capability/sources/MEMK.stdout.txt",
+      "stdout_sha256": "05b1f28bc00cfcd64d3275afc2af7b126120318067f73da1ae4a57314d6b9d7d",
+      "stderr_path": "post-allocation/cycle-01/memory-capability/sources/MEMK.stderr.txt",
+      "stderr_sha256": "10f63980c5fd323abc09ada6d14c353000f4a9ea53a631921cda6a355eb978b2"
+    },
+    {
+      "skill": "acr",
+      "reader_argument": "acr",
+      "stdout_path": "post-allocation/cycle-01/memory-capability/sources/ACR.stdout.txt",
+      "stdout_sha256": "b3811e921be28db24464c6ee19a6a2617b43133847400e5379594fbd78c1f26c",
+      "stderr_path": "post-allocation/cycle-01/memory-capability/sources/ACR.stderr.txt",
+      "stderr_sha256": "3cd4a97b11eb0e9478c1b8ee7dd6acb90f9ff9f8698599119d0e64bea174fd58"
+    }
+  ],
+  "source_rule": "Neither original source states a numerical 8x rule; expanded test scope is reported without 8x certification.",
+  "recommended_merge": {
+    "accept_records": [
+      "PAC01-MEMK-01",
+      "PAC01-ACR-01"
+    ],
+    "count_as_full_original_allocation_slots": false,
+    "retain_partial_gate_for": [
+      "PAC01-ACR-01"
+    ],
+    "distinct_keep_findings": 2
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Exploration continuation choice",
+  "description": "Choose a next local exploration operation from recorded threads using their unresolved question, distinctness, interest and resource cost.",
+  "inputs": {
+    "trace_records": "Existing curiosity trace records whose unique trace, claim and typed-relation references have been validated.",
+    "available_interval": "The present local work interval and hard dependencies.",
+    "goal": "Autonomous beneficial efficient broad mind change; no forced immediate utility.",
+    "local_purpose": "The declared purpose of this next operation: investigate a distinct unresolved question, or revisit a known object for stated interest. Preserve the governing program goal separately.",
+    "available_operations": "Concrete available actions, supplied resource constraints, and explicitly unestimated costs.",
+    "thread_state": "settled, paused_for_resource, deferred_by_purpose, or revisit_for_interest, with the reopening condition where relevant."
+  },
+  "outputs": {
+    "selection": "One concrete next operation or stopping point with selection_id, declared mode, local purpose and referenced trace/claim IDs; after execution record the actual product separately.",
+    "retained_threads": "Other threads with their interest and reason for deferral.",
+    "expected_evidence": "What the next operation can resolve and what it cannot."
+  },
+  "success_criteria": [
+    "In investigate mode the selected operation addresses an unresolved question; in revisit-for-interest mode it binds to a known trace and records novel_evidence as false unless separate evidence supports otherwise.",
+    "Deferral does not erase a thread's interest.",
+    "A repeated result is not labeled a new benefit."
+  ],
+  "steps": [
+    "Read each existing open question and stopped-thread reason.",
+    "Compare each candidate with the declared local purpose. In investigate mode require an unresolved question; in revisit-for-interest mode a known result remains eligible without a novelty claim.",
+    "Compare local effort, hard dependencies and overlap with already recorded results.",
+    "Select a feasible operation meeting the declared purpose. Retain known repetition as repetition, preserve its interest reason, and leave unavailable human studies paused.",
+    "Retain the deferred threads and their reasons.",
+    "A paused thread reopens only when the named missing resource is supplied or the proposed action changes. A settled question is not reopened by a new label alone.",
+    "State the evidence the selected operation would provide without claiming it is already observed."
+  ],
+  "verification": [
+    "Resolve the selected trace and claim IDs in the validated trace set.",
+    "Compare the proposal with the prior output so repetition is visible.",
+    "Check that a finite constructed comparison is not represented as a human outcome.",
+    "The selected mode is stated before novelty is assessed.",
+    "No repeated product is counted as a new discovery.",
+    "Unknown effort is not converted to an invented numerical priority.",
+    "A human study requires actual participants and observations before its gate closes."
+  ],
+  "complexity": "moderate comparison of several live threads.",
+  "dependencies": [
+    "Curiosity trace record."
+  ],
+  "reuse_potential": "Repeated local inquiry selection.",
+  "id": "local-continuation-choice",
+  "version": "2.0.0",
+  "when_to_use": [
+    "Several threads compete for the next local operation.",
+    "A recorded result repeats an existing distinction."
+  ],
+  "examples": [
+    {
+      "input": "One repeated label comparison and one new object scene.",
+      "output": "Select the object scene for a different referent question; retain repeated thread if still interesting."
+    },
+    {
+      "input": "A test requires an unavailable participant.",
+      "output": "Keep the human question pending and choose an available local operation without calling it that test."
+    },
+    {
+      "input": "A pure-interest thread and a direct-use thread both fit the interval.",
+      "output": "Compare the current question and breadth needs; pure interest remains eligible."
+    },
+    {
+      "input": "No concrete unresolved question survives.",
+      "output": "Stop this thread and retain its result; do not invent another pull."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Newest label receives automatic priority",
+      "consequence": "Renaming repetition displaces a distinct question.",
+      "prevention": "Compare the proposed operation with recorded outputs."
+    },
+    {
+      "failure": "Unavailable human test is replaced by fictional responses",
+      "consequence": "The original causal question is falsely settled.",
+      "prevention": "Keep the original test pending and state the local operation's separate scope."
+    },
+    {
+      "failure": "Hard dependency ignored",
+      "consequence": "Selected operation cannot occur in the interval.",
+      "prevention": "Read available resources and dependencies."
+    },
+    {
+      "failure": "Deferred thread discarded",
+      "consequence": "Unfinished interest is lost.",
+      "prevention": "Retain its open question and reason for deferral."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Curiosity trace records exist.",
+    "before": "A new actual local operation, or a separately available empirical study.",
+    "external_gate": "Human participation, time and permission remain dependencies.",
+    "artifact_scope": "Local selection, not autonomous control of people."
+  },
+  "revision_origin": {
+    "source_snapshot": "values-handoff-continuation-choice.pci.json",
+    "local_authored_revision": true,
+    "reason": "ITERATE findings T01–T12; not a modification to an archived Reasoningtool original."
+  }
+}

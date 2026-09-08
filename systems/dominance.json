@@ -1,0 +1,45 @@
+{
+  "input_stipulated": {
+    "direct": {
+      "cost": 2,
+      "coverage": 2,
+      "recoverable": 1
+    },
+    "complete": {
+      "cost": 5,
+      "coverage": 4,
+      "recoverable": 1
+    },
+    "duplicate_complete": {
+      "cost": 7,
+      "coverage": 4,
+      "recoverable": 1
+    },
+    "ephemeral_complete": {
+      "cost": 5,
+      "coverage": 4,
+      "recoverable": 0
+    }
+  },
+  "dimensions": {
+    "cost": -1,
+    "coverage": 1,
+    "recoverable": 1
+  },
+  "relations": [
+    {
+      "dominates": "complete",
+      "dominated": "duplicate_complete",
+      "type": "weak"
+    },
+    {
+      "dominates": "complete",
+      "dominated": "ephemeral_complete",
+      "type": "weak"
+    }
+  ],
+  "frontier": [
+    "direct",
+    "complete"
+  ]
+}

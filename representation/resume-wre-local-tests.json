@@ -1,0 +1,28 @@
+{
+  "route_version_guard": {
+    "expected_version": "r1",
+    "actual_version": "r2",
+    "status": "abort",
+    "state_used": null,
+    "reason": "checkpoint_version_mismatch"
+  },
+  "edit_preflight": {
+    "version_mismatch": {
+      "status": "abort",
+      "reason": "version_mismatch",
+      "after": [{"id":"A"},{"id":"B"},{"id":"C"}]
+    },
+    "missing_B": {
+      "status": "abort",
+      "reason": "B_matches_0",
+      "after": [{"id":"A"},{"id":"C"}]
+    }
+  },
+  "clock_round_identity": {
+    "anchors": {"A":3,"B":4},
+    "deadlines": {"A":8,"B":9},
+    "A_duplicate_ignored": true,
+    "B_independent": true
+  },
+  "scope": "Stipulated finite state transitions executed locally; no human response or general system reliability claim."
+}

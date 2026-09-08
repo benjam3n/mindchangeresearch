@@ -1,0 +1,26 @@
+{
+  "actor": "conditions handoff finish agent",
+  "evidence_scope": "Declared finite scheduling cases; no human behavior or measured task durations",
+  "uf_starting_judgment": "Deadline, dependency and shared-resource guards are already established in the conditions line. I expect round robin to provide equal service to resumable consumers, but have no settled discipline for equal entitlement to completed requests when partial service is discarded. I will not count the existing guards as new findings.",
+  "uf_later_input": {"jobs": {"X": 5, "Y": 3}, "horizon": 8, "quantum": 1, "initial_order": ["X", "Y"], "variants": ["partial progress discarded on interruption", "partial progress retained"]},
+  "boc_starting_judgment": "Earliest deadline gives B1,R1,R2,B2, which is a feasible initial candidate in this all-release-zero case. Setup grouping could improve it, but I have not established the best ordering or how much the setup charge must change before a different order is preferable.",
+  "boc_input": {
+    "jobs": [
+      {"id":"R1","family":"R","duration":3,"deadline":8},
+      {"id":"R2","family":"R","duration":2,"deadline":14},
+      {"id":"B1","family":"B","duration":1,"deadline":6},
+      {"id":"B2","family":"B","duration":2,"deadline":18}
+    ],
+    "initial_family":"R",
+    "setup_per_family_change":2,
+    "release_times":0,
+    "processor_count":1,
+    "preemption":false,
+    "intentional_idle":false,
+    "current_choice":["B1","R1","R2","B2"],
+    "admissibility":"Every job completes by its declared deadline on the single declared processor.",
+    "preferences_in_order":["meet every deadline", "minimize makespan", "minimize mean completion time among makespan ties", "minimize setup occupancy", "no intentional idle or added capacity"],
+    "preference_provenance":"Agent's explicit objective for this constructed input, not a claim about the human user's unstated personal preferences"
+  },
+  "adep_starting_judgment": "The frozen portfolio is a coverage commitment, not a learned prediction of this user's extraction ratings. I can build an initial source triage, but its agreement with the user is unknown because no manual calibration ratings are available."
+}

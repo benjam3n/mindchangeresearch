@@ -1,0 +1,19 @@
+{
+  "reader": "scripts/read_original.py",
+  "separate_streams_observed": true,
+  "sources": [
+    {"id":"draft","sha256":"5d2269d1fead6f0cf4710326e0ac9b95f5d54d53c324f725e8912315866c025a","actual_8x_floor":"multiple skeleton alternatives; full paragraph audit; external reader simulation; three prose passes; read-aloud; length optimization; all findings and revision metrics"},
+    {"id":"wre","sha256":"f3b5104ed229787c7fec425cca9e2928b26767cf1e0b03cf0ef05aa2b838741e","actual_8x_floor":"all stages plus ARAW on thesis and AEX on assumptions; 25+ requirements; full traceability and sensitivity analysis; full gate plus adversarial review"},
+    {"id":"w","sha256":"996c29785f54fada9264fffca06a5855a0d2999ab4ceaf0fea289fb4179215da","actual_8x_floor":"no numerical depth table in original; upstream criteria must all pass before downstream criteria"},
+    {"id":"aex","sha256":"7942e0f726d98b54944c0aca211d7d8abb94bcb1defd2ce0823aeebcbdf56d4a","actual_8x_floor":"18 assumptions; five dependency layers; seven categories; six hidden assumptions"},
+    {"id":"araw","sha256":"8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752","actual_8x_floor":"18 claims; 55 findings; six to eight tree levels; eight cruxes; two live tests"}
+  ],
+  "requirements_streams": {
+    "draft":"751cb5550f85aac9fcabcda789591679f61804699774344168677731d416e06a",
+    "wre":"63bf8187e9dfaaaca300f8f25e82dc6db85ab1c9a8328ff45924ab01bf0a1df7",
+    "w":"9e5ed2526e8a10192da4884c5a2dcba869afaaa51359423d3d5c625c47fd9564",
+    "aex":"27c5bcf8f9ab9b9c1115d8de737c0bae2aee30355b97b8f48915726c55ed04ee",
+    "araw":"f370eae320448c7f2a06a35a62823c9beb86d18bfdc1de9bb6d19ba680e7e72c"
+  },
+  "scope_note":"Source identity and floor extraction only; neither proves execution."
+}

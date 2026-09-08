@@ -1,0 +1,38 @@
+[
+  {
+    "task": "lookup",
+    "options_given": true,
+    "criteria_given": true,
+    "eligible": true
+  },
+  {
+    "task": "lookup",
+    "options_given": false,
+    "criteria_given": true,
+    "eligible": false
+  },
+  {
+    "task": "lookup",
+    "options_given": true,
+    "criteria_given": false,
+    "eligible": false
+  },
+  {
+    "task": "discovery",
+    "options_given": true,
+    "criteria_given": true,
+    "eligible": false
+  },
+  {
+    "task": "discovery",
+    "options_given": false,
+    "criteria_given": false,
+    "eligible": false
+  },
+  {
+    "task": "lookup",
+    "options_given": false,
+    "criteria_given": false,
+    "eligible": false
+  }
+]

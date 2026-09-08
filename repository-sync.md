@@ -16,7 +16,7 @@ For every accepted run:
 6. Use one accepted checkpoint per repository commit when feasible; record the commit in the next run’s provenance.
 7. Never remove unresolved gates merely to make the repository appear complete.
 
-Bootstrap limitation: the initial repository commit includes the complete corpus as a verified checkpoint archive plus its main readable control files. The archive is authoritative for the 1,000+ preserved source, receipt, application, and support files. Later commits should add the new cycle’s readable files and replace the rolling complete archive and control files.
+Bootstrap limitation: the initial repository commit includes the complete corpus as a verified checkpoint archive plus its main readable control files. The archive is authoritative for the 1,000+ preserved source, receipt, application, and support files. Later commits add current readable subject and application files and replace the rolling complete archive and control files. Current subject views must publish every local link destination they require. checkpoint.py regenerates accounting separately from the substantive index and rebuilds verified parts without packaging those parts recursively.
 
 Actual mind change: Repository synchronization is now part of the acceptance sequence rather than an optional handoff.
 

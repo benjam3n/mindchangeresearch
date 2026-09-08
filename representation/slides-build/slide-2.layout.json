@@ -1,0 +1,289 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/3kp9hf",
+    "id": "3kp9hf",
+    "slide": 2,
+    "layoutId": "ed7b2c75-e2d6-48dc-b500-f9f844d604fa",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAF9F6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ed7b2c75-e2d6-48dc-b500-f9f844d604fa",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ff2e3fb4-94fd-458c-a45f-6349a1710683",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3mt0ry9s",
+      "id": "1",
+      "name": "Counterexamples refute universal claims.",
+      "bbox": [
+        72,
+        64,
+        1136,
+        96
+      ],
+      "geometry": "rect",
+      "text": "Counterexamples refute universal claims.",
+      "textPreview": "Counterexamples refute universal claims.",
+      "resolvedFontSize": 56,
+      "resolvedTextStyle": {
+        "fontSize": 56,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Counterexamples refute universal claims."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Counterexamples refute universal claims.",
+          "resolvedTextStyle": {
+            "fontSize": 56,
+            "color": "#1A1A1A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Counterexamples refute universal claims.",
+              "fontSize": 56,
+              "color": "#1A1A1A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4n21k3ad",
+      "id": "2",
+      "bbox": [
+        352,
+        280,
+        176,
+        176
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FAF9F6",
+      "lineColor": "#1A1A1A",
+      "lineWidth": 4
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5obit8ry",
+      "id": "3",
+      "name": "1",
+      "bbox": [
+        376,
+        324,
+        128,
+        88
+      ],
+      "geometry": "rect",
+      "text": "1",
+      "textPreview": "1",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "fontSize": 64,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "color": "#1A1A1A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1",
+              "fontSize": 64,
+              "color": "#1A1A1A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpkjmdsj",
+      "id": "4",
+      "bbox": [
+        752,
+        280,
+        176,
+        176
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#FAF9F6",
+      "lineColor": "#1A1A1A",
+      "lineWidth": 4
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ratkvy9o",
+      "id": "5",
+      "name": "0",
+      "bbox": [
+        776,
+        324,
+        128,
+        88
+      ],
+      "geometry": "rect",
+      "text": "0",
+      "textPreview": "0",
+      "resolvedFontSize": 64,
+      "resolvedTextStyle": {
+        "fontSize": 64,
+        "typeface": "+mn-lt",
+        "color": "#1A1A1A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0",
+          "resolvedTextStyle": {
+            "fontSize": 64,
+            "color": "#1A1A1A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0",
+              "fontSize": 64,
+              "color": "#1A1A1A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

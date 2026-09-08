@@ -10,7 +10,7 @@ Concrete input: eight frozen cases and boundaries; original RSI sources for PERS
 
 All eight originals were loaded through the RSI reader with separate stdout and stderr receipts; all eight preserved stream pairs matched fresh root-reader emissions byte for byte. PERSUA met its numerical 8x floors with 12 beliefs, seven resistance points, four paths, and 12 message elements. INSD met 12 inversions, four representations, four discovery cycles, five crystal tests, and a successful five-minute no-note re-derivation. SDC met three sections, ten tests per section, five lookbacks, and four verifier types. NCL, FSS, RWIF, EXD, and SPG contain expanded original products; their sources define no numerical 8x rule, so none is invented.
 
-Seven records are complete within their stated scope. RWIF is partial because no reservation, packing, travel, entry, or study-start event occurred and actual travel time is unavailable. EXD is a complete design but human efficacy remains unresolved. SPG completes specificity transformation but rejects the original near-guarantee and leaves the replacement’s success rate unresolved.
+Seven records are complete within their stated scope. RWIF is partial because no reservation, packing, travel, entry, or study-start event occurred and actual travel time is unavailable. EXD is a complete design but human efficacy remains unresolved. SPG completes specificity transformation but rejects the original near-guarantee. The 2026-09-08 intent audit also retracts its implementation-completeness PASS: diagnosis and mechanism construction remain unspecified; the proposed success rate is unresolved.
 
 ## Status and novelty
 
@@ -55,6 +55,6 @@ Verdict: KEEP for the cycle’s two distinct findings, six scoped applications, 
 
 Content assessment: Exact inputs, original products, changed boundaries, source receipts, completion scope, novelty, later uptake, harms, and missing physical/human stages are retained.
 
-Organization assessment: Use the compiler as the operational view, the cycle ledger as accounting, source order as audit, and individual records as derivation. All twelve post-allocation distinct findings are now included in three four-finding consolidations.
+Organization assessment: Use the compiler conditionally when its operations are available, the current contribution constructions for missing operations, the cycle ledger as accounting, source order as audit, and individual records as derivation. All twelve post-allocation distinct findings are now included in three four-finding consolidations.
 
 Next attempts: Run a compound three-edge transition; obtain human outcome data; time independent recipe versus source-order execution; test false intermediate evidence; test uncertain admissibility and harmful technically successful transitions.

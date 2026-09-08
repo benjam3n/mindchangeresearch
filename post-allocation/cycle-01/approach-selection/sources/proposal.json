@@ -1,0 +1,80 @@
+{
+  "schema_version": "post-allocation-proposal-v1",
+  "batch": "cycle-01-approach-selection",
+  "status": "ready_for_semantic_review",
+  "frozen_input": {
+    "path": "post-allocation/cycle-01/frozen-inputs.md",
+    "case": "Approach selection",
+    "criterion": "A new approach must change a concrete response-selection operation and outperform or complement the strong current alternative on a stated case. Renaming stages, adding output, or declaring a broad perspective without a changed operation is performative and earns REJECT."
+  },
+  "records": [
+    {
+      "record_id": "cycle-01-approach-unx-01",
+      "skill_id": "unx",
+      "document": "post-allocation/cycle-01/approach-selection/01-unx-transition-first.md",
+      "document_sha256": "fc5002c660660b37ff1c6d518bf61dd8098265e7f33712b8d44f46ba7bcbcfdb",
+      "original_stdout": "post-allocation/cycle-01/approach-selection/sources/unx.stdout.md",
+      "original_stdout_sha256": "078b47e1917f52c96f47df01ffb4d6f27b0933f1536a8d59cd91b32a25cc339c",
+      "requirements_stderr": "post-allocation/cycle-01/approach-selection/sources/unx.stderr.txt",
+      "requirements_stderr_sha256": "aad93c431ef53c7cfe0f1ec756808c61226a6480e2eaf4f99cc9a30567f71a05",
+      "source_receipt_matches_emitted_bytes": true,
+      "original_has_numeric_8x_rule": false,
+      "procedure_products_complete": true,
+      "verdict": "KEEP",
+      "scope": "Model response selection on the frozen coordination and contributor-message cases; human effects and measured time efficiency unresolved.",
+      "novelty_role": "one candidate new beneficial finding",
+      "finding": "Select the smallest supported and authorized state transition at its controlling locus before selecting a reasoning procedure; use original procedures inside unresolved causal nodes.",
+      "distinct_later_use": "The selector changed from a tool/coordination gate for X/Y/Z to a representation/action message for the contributor case.",
+      "strong_current_method_preserved": true,
+      "performative_output_rejected": [
+        "explaining merge discipline while leaving merge permissibility unchanged",
+        "claiming motivation or emotional change when only message content changed",
+        "promoting failure-triggered method activation without an error comparison"
+      ]
+    },
+    {
+      "record_id": "cycle-01-approach-upth-01",
+      "skill_id": "upth",
+      "document": "post-allocation/cycle-01/approach-selection/02-upth-transition-selector.md",
+      "document_sha256": "f1008d66c0e8aa5c8e25d35a97fd0e1d2861f99482545340c2e184402aea969e",
+      "original_stdout": "post-allocation/cycle-01/approach-selection/sources/upth.stdout.md",
+      "original_stdout_sha256": "4640f6a050a4dd37444253af1e781e25ad263f1ee01279144056f551e489baf5",
+      "requirements_stderr": "post-allocation/cycle-01/approach-selection/sources/upth.stderr.txt",
+      "requirements_stderr_sha256": "603693ae937e595d2749ee4a33de55544882cc8779d41178bca656a2b18964e4",
+      "source_receipt_matches_emitted_bytes": true,
+      "original_has_numeric_8x_rule": false,
+      "procedure_products_complete": true,
+      "verdict": "KEEP",
+      "scope": "Bounded model response selection across five frozen or established cases; no expert validation, human uptake, universal coverage, or measured efficiency claim.",
+      "novelty_role": "later uptake, operationalization, and boundary repair of the UNX finding; not a second distinct KEEP finding",
+      "finding": "The transition-first candidate becomes followable only as a gated partial-order comparison over candidates reaching the same terminal condition; legitimacy, authority, severe harm, causal support, and unobserved human links precede minimality.",
+      "distinct_later_use": "The operationalized selector chose L2 for structural safety and preserved an unresolved L1/L3 tie for chain of custody.",
+      "strong_current_method_preserved": true,
+      "performative_output_rejected": [
+        "using smallest as a synonym for shortest prose",
+        "forcing a scalar optimum across different terminal conditions",
+        "inventing expert agreement",
+        "counting a proposed or prepared mutation as executed",
+        "running a procedure without a live unresolved node"
+      ]
+    }
+  ],
+  "distinct_new_keep_findings": 1,
+  "distinct_keep_finding_ids": [
+    "transition-before-technique-selection"
+  ],
+  "later_uptake_count": 1,
+  "consolidation_triggered": false,
+  "claims_explicitly_not_made": [
+    "human belief change",
+    "human emotional change",
+    "human motivational change",
+    "human memory or learning change",
+    "model-weight change",
+    "global optimality",
+    "measured time or effort advantage",
+    "expert validation"
+  ],
+  "owned_common_files_edited": [],
+  "integration_request": "Review both records semantically; if accepted, count one distinct post-allocation KEEP finding and one later uptake/boundary refinement, not two independent discoveries."
+}

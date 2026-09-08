@@ -1,0 +1,377 @@
+{
+  "libraries": [
+    {
+      "id": "goal_make_money",
+      "file": "goal_make_money.md",
+      "input_type": "GOAL",
+      "keywords": [
+        "money",
+        "income",
+        "earn",
+        "wealth",
+        "rich",
+        "financial",
+        "salary",
+        "business",
+        "investment"
+      ],
+      "related_goals": [
+        "financial_freedom",
+        "quit_job",
+        "start_business",
+        "retire_early",
+        "pay_debt"
+      ],
+      "guess_count": 238,
+      "coverage": {
+        "morphological": 117,
+        "scamper": 32,
+        "stakeholders": 14,
+        "time_horizons": 15,
+        "claim_types": 23,
+        "analogies": 20,
+        "pre_mortem": 17
+      },
+      "created": "2025-01-26",
+      "last_used": "2026-01-26T13:19:08.091938",
+      "use_count": 1
+    },
+    {
+      "id": "domain_software",
+      "file": "domain_software.md",
+      "input_type": "DOMAIN",
+      "keywords": [
+        "software",
+        "code",
+        "app",
+        "application",
+        "develop",
+        "build",
+        "program",
+        "implement",
+        "fix",
+        "bug",
+        "refactor",
+        "deploy",
+        "API",
+        "database",
+        "frontend",
+        "backend",
+        "web",
+        "mobile"
+      ],
+      "related_goals": [
+        "build_app",
+        "fix_bug",
+        "learn_programming",
+        "ship_product",
+        "scale_system"
+      ],
+      "guess_count": 667,
+      "coverage": {
+        "morphological_agent": 25,
+        "morphological_action": 31,
+        "morphological_object": 41,
+        "morphological_reason": 31,
+        "morphological_method": 34,
+        "morphological_technology": 45,
+        "morphological_time": 18,
+        "morphological_degree": 25,
+        "morphological_certainty": 17,
+        "morphological_scope": 22,
+        "morphological_constraints": 25,
+        "scamper": 93,
+        "stakeholders": 40,
+        "time_horizons": 20,
+        "claim_types": 53,
+        "analogies": 72,
+        "pre_mortem": 75
+      },
+      "created": "2026-01-26",
+      "last_used": "2026-01-26T13:23:59.287206",
+      "use_count": 1
+    },
+    {
+      "id": "domain_research",
+      "file": "domain_research.md",
+      "input_type": "DOMAIN",
+      "keywords": [
+        "research",
+        "study",
+        "hypothesis",
+        "experiment",
+        "data",
+        "analysis",
+        "paper",
+        "publish",
+        "peer review",
+        "methodology",
+        "findings",
+        "academic",
+        "scientist",
+        "investigate",
+        "evidence"
+      ],
+      "related_goals": [
+        "publish_paper",
+        "get_funding",
+        "complete_thesis",
+        "advance_knowledge",
+        "prove_hypothesis"
+      ],
+      "guess_count": 523,
+      "coverage": {
+        "morphological_agent": 28,
+        "morphological_action": 35,
+        "morphological_object": 42,
+        "morphological_reason": 32,
+        "morphological_method": 45,
+        "morphological_technology": 38,
+        "morphological_time": 20,
+        "morphological_degree": 22,
+        "morphological_certainty": 15,
+        "morphological_scope": 10,
+        "scamper": 76,
+        "stakeholders": 35,
+        "time_horizons": 20,
+        "claim_types": 45,
+        "analogies": 35,
+        "pre_mortem": 25
+      },
+      "created": "2026-01-26",
+      "last_used": "2026-01-26T13:33:37.638020",
+      "use_count": 1
+    },
+    {
+      "id": "domain_engineering",
+      "file": "domain_engineering.md",
+      "input_type": "DOMAIN",
+      "keywords": [
+        "engineering",
+        "design",
+        "build",
+        "system",
+        "mechanical",
+        "electrical",
+        "hardware",
+        "prototype",
+        "test",
+        "manufacture",
+        "CAD",
+        "specification",
+        "requirements",
+        "validation",
+        "reliability"
+      ],
+      "related_goals": [
+        "design_system",
+        "build_prototype",
+        "pass_certification",
+        "improve_reliability",
+        "reduce_cost"
+      ],
+      "guess_count": 548,
+      "coverage": {
+        "morphological_agent": 30,
+        "morphological_action": 38,
+        "morphological_object": 45,
+        "morphological_reason": 35,
+        "morphological_method": 40,
+        "morphological_technology": 42,
+        "morphological_time": 18,
+        "morphological_degree": 25,
+        "morphological_certainty": 15,
+        "morphological_scope": 10,
+        "scamper": 84,
+        "stakeholders": 40,
+        "time_horizons": 24,
+        "claim_types": 48,
+        "analogies": 32,
+        "pre_mortem": 22
+      },
+      "created": "2026-01-26",
+      "last_used": null,
+      "use_count": 0
+    },
+    {
+      "id": "domain_design_decisions",
+      "file": "domain_design_decisions.md",
+      "input_type": "DECISION",
+      "keywords": [
+        "decision",
+        "choose",
+        "option",
+        "alternative",
+        "trade-off",
+        "criteria",
+        "evaluate",
+        "compare",
+        "select",
+        "architecture",
+        "approach",
+        "vs",
+        "or",
+        "which",
+        "should"
+      ],
+      "related_goals": [
+        "make_decision",
+        "evaluate_options",
+        "reduce_risk",
+        "optimize_choice",
+        "justify_decision"
+      ],
+      "guess_count": 512,
+      "coverage": {
+        "morphological_agent": 25,
+        "morphological_action": 32,
+        "morphological_object": 40,
+        "morphological_reason": 30,
+        "morphological_method": 38,
+        "morphological_time": 20,
+        "morphological_degree": 23,
+        "morphological_certainty": 18,
+        "morphological_scope": 22,
+        "scamper": 70,
+        "stakeholders": 38,
+        "time_horizons": 24,
+        "claim_types": 52,
+        "analogies": 36,
+        "pre_mortem": 24
+      },
+      "created": "2026-01-26",
+      "last_used": "2026-09-08T00:40:34.963219",
+      "use_count": 2
+    },
+    {
+      "id": "domain_society",
+      "file": "domain_society.md",
+      "input_type": "DOMAIN",
+      "keywords": [
+        "society",
+        "social",
+        "policy",
+        "government",
+        "politics",
+        "community",
+        "public",
+        "citizen",
+        "rights",
+        "equality",
+        "justice",
+        "welfare",
+        "democracy",
+        "institution",
+        "reform"
+      ],
+      "related_goals": [
+        "change_policy",
+        "improve_society",
+        "protect_rights",
+        "build_community",
+        "address_inequality"
+      ],
+      "guess_count": 538,
+      "coverage": {
+        "morphological_agent": 32,
+        "morphological_action": 35,
+        "morphological_object": 42,
+        "morphological_reason": 30,
+        "morphological_method": 38,
+        "morphological_time": 22,
+        "morphological_degree": 25,
+        "morphological_certainty": 18,
+        "morphological_scope": 20,
+        "scamper": 77,
+        "stakeholders": 45,
+        "time_horizons": 28,
+        "claim_types": 48,
+        "analogies": 36,
+        "pre_mortem": 22
+      },
+      "created": "2026-01-26",
+      "last_used": "2026-01-26T13:33:37.705440",
+      "use_count": 1
+    }
+  ],
+  "related_goal_chains": {
+    "financial_freedom": [
+      "make_money",
+      "reduce_expenses",
+      "invest",
+      "passive_income"
+    ],
+    "quit_job": [
+      "make_money",
+      "save_runway",
+      "find_alternative",
+      "reduce_expenses"
+    ],
+    "start_business": [
+      "make_money",
+      "find_idea",
+      "validate",
+      "build",
+      "sell"
+    ],
+    "build_app": [
+      "define_requirements",
+      "choose_stack",
+      "implement",
+      "test",
+      "deploy"
+    ],
+    "fix_bug": [
+      "reproduce",
+      "diagnose",
+      "fix",
+      "test",
+      "deploy"
+    ],
+    "scale_system": [
+      "measure",
+      "identify_bottleneck",
+      "optimize",
+      "test",
+      "monitor"
+    ],
+    "publish_paper": [
+      "research_topic",
+      "collect_data",
+      "analyze",
+      "write",
+      "submit",
+      "revise"
+    ],
+    "design_system": [
+      "gather_requirements",
+      "analyze_constraints",
+      "generate_concepts",
+      "evaluate_trade_offs",
+      "detail_design",
+      "validate"
+    ],
+    "make_decision": [
+      "clarify_problem",
+      "generate_options",
+      "define_criteria",
+      "evaluate",
+      "select",
+      "implement"
+    ],
+    "change_policy": [
+      "identify_problem",
+      "research_solutions",
+      "build_coalition",
+      "advocate",
+      "implement",
+      "evaluate"
+    ]
+  },
+  "domain_types": {
+    "GOAL": "What user wants to achieve",
+    "PROBLEM": "What user needs to solve",
+    "DOMAIN": "Field/area of work (software, research, etc.)",
+    "DECISION": "Choice between options"
+  }
+}

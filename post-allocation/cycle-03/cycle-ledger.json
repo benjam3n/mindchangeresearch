@@ -107,11 +107,14 @@
       "skill_id": "spg",
       "file": "post-allocation/cycle-03/capability/01-spg-near-guarantee.md",
       "status": "complete",
-      "verdict": "REJECT vague near-guarantee; KEEP specific prospective replacement; efficacy UNRESOLVED",
+      "verdict": "REJECT vague near-guarantee; KEEP specific prospective specification; mechanism implementation and efficacy UNRESOLVED",
       "depth_status": "Expanded original; no numerical 8x rule in source.",
       "distinct_new_finding": false,
       "novelty": "Specification and boundary application of the recipe compiler, not independent evidence of efficacy.",
-      "later_use": "A physical relocation requested from a text-only system became a typed handoff, not a success claim."
+      "later_use": "A physical relocation requested from a text-only system became a typed handoff, not a success claim.",
+      "completion_scope": "Completed specificity exercise and prospective schema; implementation completeness is not established.",
+      "implementation_status": "partial specification; locus diagnosis and mechanism construction remain unresolved",
+      "intent_audit": "research/intent-audit.md"
     }
   ],
   "distinct_findings": [
@@ -130,7 +133,8 @@
       "unchanged-output-does-not-identify-mind-change-locus",
       "transition-shape-determines-success-witness"
     ],
-    "remaining_unconsolidated_distinct_findings": []
+    "remaining_unconsolidated_distinct_findings": [],
+    "use_scope": "Conditional selection card on its preserved cases; not a complete general change-producing recipe or compulsory entry order."
   },
   "claims_not_made": [
     "human belief, value, perception, motivation, memory, learning, location, or behavior changed",

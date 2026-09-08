@@ -1,0 +1,51 @@
+[
+  {
+    "slide": "ppt/slides/slide1.xml",
+    "texts": [
+      "Intended mind change:",
+      "Keep claims inside their evidence.",
+      "Exceptions \u00b7 unknowns \u00b7 changed criteria"
+    ],
+    "word_count": 14
+  },
+  {
+    "slide": "ppt/slides/slide2.xml",
+    "texts": [
+      "Counterexamples refute universal claims.",
+      "1",
+      "0"
+    ],
+    "word_count": 6
+  },
+  {
+    "slide": "ppt/slides/slide3.xml",
+    "texts": [
+      "Unknown keeps alternatives.",
+      "[1,?]",
+      "[1,1]",
+      "[1,0]"
+    ],
+    "word_count": 6
+  },
+  {
+    "slide": "ppt/slides/slide4.xml",
+    "texts": [
+      "Same observations.",
+      "Coverage: B.",
+      "Brevity: A."
+    ],
+    "word_count": 6
+  },
+  {
+    "slide": "ppt/slides/slide5.xml",
+    "texts": [
+      "Actual mind change:",
+      "Three distinctions now have visual forms.",
+      "Benefit: Local mappings preserved; human learning untested.",
+      "Verdict: KEEP for local artifact construction.",
+      "Organization: Visuals plus a standalone reference.",
+      "Next attempts: Reader and transfer tests."
+    ],
+    "word_count": 34
+  }
+]

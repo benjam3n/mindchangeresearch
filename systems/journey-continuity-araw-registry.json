@@ -1,0 +1,1377 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "A saved result is sufficient for successful later reuse.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C2",
+      "claim": "Historical truth becomes false whenever present applicability changes.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C3",
+      "claim": "With A=(5,2), B=(3,5), fidelity weight w, A wins exactly when w>.6.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C4",
+      "claim": "A later B choice proves the earlier A choice was mistaken.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C5",
+      "claim": "Reader-compatible migration proves semantic compatibility.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C6",
+      "claim": "Retaining every entry has no continuing cost once saving is complete.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C7",
+      "claim": "Three scenarios sharing a property make it an unconditional prediction.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C8",
+      "claim": "A portable description is the same thing as an executable continuation.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C9",
+      "claim": "An invalid current recommendation must always be deleted with its evidence.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C10",
+      "claim": "Copying one observation into two files gives two independent replications.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C11",
+      "claim": "An exact trigger match proves the next use will help.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C12",
+      "claim": "A changed criterion version should be preserved with its comparison.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C13",
+      "claim": "A result can remain historical evidence while current fit is unknown.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C14",
+      "claim": "The setup crossover n>6 remains valid after per-use costs become equal.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C15",
+      "claim": "Waiting for actual recurrence always loses the setup opportunity.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C16",
+      "claim": "A future reader\u2019s value agreement is established by the current assistant\u2019s agreement.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C17",
+      "claim": "A superseded goal can be reopened without rewriting its old evidence.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C18",
+      "claim": "Every useful result must be retained forever.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Assume exactly C1 right: Every saved entry would be used appropriately at its next recurrence.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F2",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "A saved file can be inaccessible to the future reader, so reuse does not occur.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F3",
+      "parent": "F2",
+      "kind": "ALTERNATIVE",
+      "text": "Successful reuse requires access, retrieval and fit in addition to retention.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F4",
+      "parent": "F3",
+      "kind": "AR",
+      "text": "Successful reuse requires access, retrieval and fit in addition to retention. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F5",
+      "parent": "F3",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F6",
+      "parent": "C2",
+      "kind": "AR",
+      "text": "Assume exactly C2 right: A criterion revision would invalidate the arithmetic previously computed.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F7",
+      "parent": "C2",
+      "kind": "AW",
+      "text": "v1 A4.4>B3.4 remains true under .8 weight while v2 reverses the current choice.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F8",
+      "parent": "F7",
+      "kind": "ALTERNATIVE",
+      "text": "Historical result and present eligibility are separate state dimensions.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F9",
+      "parent": "F8",
+      "kind": "AR",
+      "text": "Historical result and present eligibility are separate state dimensions. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F10",
+      "parent": "F8",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F11",
+      "parent": "C3",
+      "kind": "AR",
+      "text": "Assume exactly C3 right: A\u2019s retained recommendation must be conditional on the recorded weight.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F12",
+      "parent": "C3",
+      "kind": "AW",
+      "text": "At w=.6 both totals3.8 tie; the boundary does not refute the strict inequality.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F13",
+      "parent": "F11",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F14",
+      "parent": "C4",
+      "kind": "AR",
+      "text": "Assume exactly C4 right: The revision would erase the old winner.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F15",
+      "parent": "C4",
+      "kind": "AW",
+      "text": "A is correct at w=.8 and B at w=.3; the changed criterion explains both.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F16",
+      "parent": "F15",
+      "kind": "ALTERNATIVE",
+      "text": "A revision can be warranted by a new objective rather than a past error.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F17",
+      "parent": "F16",
+      "kind": "AR",
+      "text": "A revision can be warranted by a new objective rather than a past error. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F18",
+      "parent": "F16",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F19",
+      "parent": "C5",
+      "kind": "AR",
+      "text": "Assume exactly C5 right: Converted entries would preserve all useful scope.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F20",
+      "parent": "C5",
+      "kind": "AW",
+      "text": "A parser can accept a migrated record that dropped its exception; syntax survives while meaning changes.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F21",
+      "parent": "F20",
+      "kind": "ALTERNATIVE",
+      "text": "Migration needs a scope-preservation comparison separate from parsing.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F22",
+      "parent": "F21",
+      "kind": "AR",
+      "text": "Migration needs a scope-preservation comparison separate from parsing. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F23",
+      "parent": "F21",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F24",
+      "parent": "C6",
+      "kind": "AR",
+      "text": "Assume exactly C6 right: The future work budget would exclude review and retrieval.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F25",
+      "parent": "C6",
+      "kind": "AW",
+      "text": "The declared stock model charges one maintenance unit per retained entry per year;20 entries cost20/year.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F26",
+      "parent": "F25",
+      "kind": "ALTERNATIVE",
+      "text": "Retention entails recurring exposure in a model that includes maintenance.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F27",
+      "parent": "F26",
+      "kind": "AR",
+      "text": "Retention entails recurring exposure in a model that includes maintenance. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F28",
+      "parent": "F26",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F29",
+      "parent": "C7",
+      "kind": "AR",
+      "text": "Assume exactly C7 right: Omitted futures would be excluded without evidence.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F30",
+      "parent": "C7",
+      "kind": "AW",
+      "text": "All three scenarios can assume a compatible reader while a fourth has none.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F31",
+      "parent": "F30",
+      "kind": "ALTERNATIVE",
+      "text": "A shared scenario property is conditional on scenario coverage.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F32",
+      "parent": "F31",
+      "kind": "AR",
+      "text": "A shared scenario property is conditional on scenario coverage. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F33",
+      "parent": "F31",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F34",
+      "parent": "C8",
+      "kind": "AR",
+      "text": "Assume exactly C8 right: A text contract would execute even without a dispatch host.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F35",
+      "parent": "C8",
+      "kind": "AW",
+      "text": "The disruption scenario leaves a readable description but no dispatch facility.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F36",
+      "parent": "F35",
+      "kind": "ALTERNATIVE",
+      "text": "Execution needs an available authorized mechanism in addition to description.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F37",
+      "parent": "F36",
+      "kind": "AR",
+      "text": "Execution needs an available authorized mechanism in addition to description. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F38",
+      "parent": "F36",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F39",
+      "parent": "C9",
+      "kind": "AR",
+      "text": "Assume exactly C9 right: Rejection would erase the information needed to understand its earlier fit.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F40",
+      "parent": "C9",
+      "kind": "AW",
+      "text": "The v1 result is useful historical evidence after v2 becomes current; deletion loses a valid comparison.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F41",
+      "parent": "F40",
+      "kind": "ALTERNATIVE",
+      "text": "Retirement can remove current eligibility while retaining provenance.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F42",
+      "parent": "F41",
+      "kind": "AR",
+      "text": "Retirement can remove current eligibility while retaining provenance. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F43",
+      "parent": "F41",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F44",
+      "parent": "C10",
+      "kind": "AR",
+      "text": "Assume exactly C10 right: Evidence confidence would increase merely by duplication.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F45",
+      "parent": "C10",
+      "kind": "AW",
+      "text": "Both files depend on the same original observation and share its error.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F46",
+      "parent": "F45",
+      "kind": "ALTERNATIVE",
+      "text": "Copies improve access redundancy, not evidential independence.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F47",
+      "parent": "F46",
+      "kind": "AR",
+      "text": "Copies improve access redundancy, not evidential independence. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F48",
+      "parent": "F46",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F49",
+      "parent": "C11",
+      "kind": "AR",
+      "text": "Assume exactly C11 right: No new performance check would be needed on a matching label.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F50",
+      "parent": "C11",
+      "kind": "AW",
+      "text": "A lookup with given criteria can still contain incorrect criteria; the trigger is eligibility evidence, not outcome proof.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F51",
+      "parent": "F50",
+      "kind": "ALTERNATIVE",
+      "text": "Trigger matching permits a bounded candidate, with actual consequence still evaluated.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F52",
+      "parent": "F51",
+      "kind": "AR",
+      "text": "Trigger matching permits a bounded candidate, with actual consequence still evaluated. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F53",
+      "parent": "F51",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F54",
+      "parent": "C12",
+      "kind": "AR",
+      "text": "Assume exactly C12 right: Both past and present scores remain reconstructable.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F55",
+      "parent": "C12",
+      "kind": "AW",
+      "text": "The attempted claim that versioning forces a preferred criterion confuses recording with endorsement.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F56",
+      "parent": "F54",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F57",
+      "parent": "C13",
+      "kind": "AR",
+      "text": "Assume exactly C13 right: The record can honestly hold established and unresolved statuses at different scopes.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F58",
+      "parent": "C13",
+      "kind": "AW",
+      "text": "An objection demanding one global true/false status ignores the two different propositions.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F59",
+      "parent": "F57",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F60",
+      "parent": "C14",
+      "kind": "AR",
+      "text": "Assume exactly C14 right: A prepared route with equal running cost would eventually repay positive setup.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F61",
+      "parent": "C14",
+      "kind": "AW",
+      "text": "A=n and B=6+n never cross.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F62",
+      "parent": "F61",
+      "kind": "ALTERNATIVE",
+      "text": "The general inequality is n(a\u2212b)>setup within validity.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F63",
+      "parent": "F62",
+      "kind": "AR",
+      "text": "The general inequality is n(a\u2212b)>setup within validity. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F64",
+      "parent": "F62",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F65",
+      "parent": "C15",
+      "kind": "AR",
+      "text": "Assume exactly C15 right: Preparation would have to be purchased before any evidence of use.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F66",
+      "parent": "C15",
+      "kind": "AW",
+      "text": "If setup can be performed just before recurrence at the same cost, waiting preserves the option without loss.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F67",
+      "parent": "F66",
+      "kind": "ALTERNATIVE",
+      "text": "Preparation timing depends on lead time and information, not recurrence fear alone.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F68",
+      "parent": "F67",
+      "kind": "AR",
+      "text": "Preparation timing depends on lead time and information, not recurrence fear alone. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F69",
+      "parent": "F67",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F70",
+      "parent": "C16",
+      "kind": "AR",
+      "text": "Assume exactly C16 right: Present model agreement would predict a person\u2019s future priorities.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F71",
+      "parent": "C16",
+      "kind": "AW",
+      "text": "No future reader response is present; agreement is unobserved.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F72",
+      "parent": "F71",
+      "kind": "ALTERNATIVE",
+      "text": "Future value alignment remains an empirical and agency-dependent question.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F73",
+      "parent": "F72",
+      "kind": "AR",
+      "text": "Future value alignment remains an empirical and agency-dependent question. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F74",
+      "parent": "F72",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F75",
+      "parent": "C17",
+      "kind": "AR",
+      "text": "Assume exactly C17 right: A new current decision can use the historical record as input.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F76",
+      "parent": "C17",
+      "kind": "AW",
+      "text": "An attempt to reuse the obsolete action automatically violates current eligibility, not historical retention itself.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F77",
+      "parent": "F75",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F78",
+      "parent": "C18",
+      "kind": "AR",
+      "text": "Assume exactly C18 right: Finite storage and review would never justify retirement.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F79",
+      "parent": "C18",
+      "kind": "AW",
+      "text": "In the declared maintenance model, an expired redundant entry adds cost and no eligible use.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F80",
+      "parent": "F79",
+      "kind": "ALTERNATIVE",
+      "text": "Retention is a conditional choice over future use, cost and provenance needs.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F81",
+      "parent": "F80",
+      "kind": "AR",
+      "text": "Retention is a conditional choice over future use, cost and provenance needs. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F82",
+      "parent": "F80",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F83",
+      "parent": "C3",
+      "kind": "FORECLOSURE",
+      "text": "At w=.3, treating A as the maximizing option is foreclosed by A2.9<B4.4.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F84",
+      "parent": "C13",
+      "kind": "FORECLOSURE",
+      "text": "Current-fit uncertainty cannot by itself justify declaring the established v1 arithmetic false; those are different propositions.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F85",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Given C1\u2019s sufficiency claim, retaining the v1 winner A would be sufficient for correct later reuse.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F86",
+      "parent": "F85",
+      "kind": "AR",
+      "text": "Given the retained v1 record and a later task explicitly using fidelity weight.3, its current recommendation must be evaluated under that weight.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F87",
+      "parent": "F86",
+      "kind": "AR",
+      "text": "Given A scores(5,2) and weight.3, its current weighted score is2.9.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F88",
+      "parent": "F87",
+      "kind": "AR",
+      "text": "Given A\u2019s current score2.9 and B scores(3,5) under the same weight, B scores4.4 and exceeds A by1.5.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F89",
+      "parent": "F88",
+      "kind": "AR",
+      "text": "Given B exceeds A in the later criterion, the saved A recommendation is not the maximizing current choice.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F90",
+      "parent": "F89",
+      "kind": "AR",
+      "text": "Given saved A is not the current maximizing choice, retention alone did not supply a correct reuse decision.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F91",
+      "parent": "F90",
+      "kind": "AR",
+      "text": "Given that same saved-result countercase, C1\u2019s unqualified sufficiency fails while the old v1 arithmetic remains intact.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F92",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "Given the wrongness case, a replacement retains the criterion version with the saved result.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F93",
+      "parent": "F92",
+      "kind": "AW",
+      "text": "Given the stored version differs from the current.3 criterion, retrieval returns historical A plus a current-fit reassessment obligation.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F94",
+      "parent": "F93",
+      "kind": "AW",
+      "text": "Given reassessment compares 2+3w with5\u22122w, the difference is5w\u22123.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F95",
+      "parent": "F94",
+      "kind": "AW",
+      "text": "Given difference5w\u22123, the sign changes at w=.6.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F96",
+      "parent": "F95",
+      "kind": "AW",
+      "text": "Given present w=.3<.6, B is the current selected option.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F97",
+      "parent": "F96",
+      "kind": "AW",
+      "text": "Given separate historical and current fields, selecting B does not overwrite A\u2019s v1 result.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F98",
+      "parent": "F97",
+      "kind": "AW",
+      "text": "Given both fields are retained, a later w=.8 recurrence can recover the original A comparison without falsely claiming v2 never occurred.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    }
+  ],
+  "categories": {
+    "AR": [
+      "F1",
+      "F4",
+      "F6",
+      "F9",
+      "F11",
+      "F14",
+      "F17",
+      "F19",
+      "F22",
+      "F24",
+      "F27",
+      "F29",
+      "F32",
+      "F34",
+      "F37",
+      "F39",
+      "F42",
+      "F44",
+      "F47",
+      "F49",
+      "F52",
+      "F54",
+      "F57",
+      "F60",
+      "F63",
+      "F65",
+      "F68",
+      "F70",
+      "F73",
+      "F75",
+      "F78",
+      "F81",
+      "F85",
+      "F86",
+      "F87",
+      "F88",
+      "F89",
+      "F90",
+      "F91"
+    ],
+    "AW": [
+      "F2",
+      "F5",
+      "F7",
+      "F10",
+      "F12",
+      "F13",
+      "F15",
+      "F18",
+      "F20",
+      "F23",
+      "F25",
+      "F28",
+      "F30",
+      "F33",
+      "F35",
+      "F38",
+      "F40",
+      "F43",
+      "F45",
+      "F48",
+      "F50",
+      "F53",
+      "F55",
+      "F56",
+      "F58",
+      "F59",
+      "F61",
+      "F64",
+      "F66",
+      "F69",
+      "F71",
+      "F74",
+      "F76",
+      "F77",
+      "F79",
+      "F82",
+      "F92",
+      "F93",
+      "F94",
+      "F95",
+      "F96",
+      "F97",
+      "F98"
+    ],
+    "ALTERNATIVE": [
+      "F3",
+      "F8",
+      "F16",
+      "F21",
+      "F26",
+      "F31",
+      "F36",
+      "F41",
+      "F46",
+      "F51",
+      "F62",
+      "F67",
+      "F72",
+      "F80"
+    ],
+    "FORECLOSURE": [
+      "F83",
+      "F84"
+    ]
+  },
+  "verdicts": [
+    {
+      "claim": "C1",
+      "verdict": "REJECTED",
+      "decisive": "F2",
+      "supporting_findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "strongest_contrary": "F1",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C2",
+      "verdict": "REJECTED",
+      "decisive": "F7",
+      "supporting_findings": [
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "strongest_contrary": "F6",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C3",
+      "verdict": "VALIDATED",
+      "decisive": "F11",
+      "supporting_findings": [
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "strongest_contrary": "F12",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C4",
+      "verdict": "REJECTED",
+      "decisive": "F15",
+      "supporting_findings": [
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18"
+      ],
+      "strongest_contrary": "F14",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C5",
+      "verdict": "REJECTED",
+      "decisive": "F20",
+      "supporting_findings": [
+        "F19",
+        "F20",
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "strongest_contrary": "F19",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C6",
+      "verdict": "REJECTED",
+      "decisive": "F25",
+      "supporting_findings": [
+        "F24",
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ],
+      "strongest_contrary": "F24",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C7",
+      "verdict": "REJECTED",
+      "decisive": "F30",
+      "supporting_findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32",
+        "F33"
+      ],
+      "strongest_contrary": "F29",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C8",
+      "verdict": "REJECTED",
+      "decisive": "F35",
+      "supporting_findings": [
+        "F34",
+        "F35",
+        "F36",
+        "F37",
+        "F38"
+      ],
+      "strongest_contrary": "F34",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C9",
+      "verdict": "REJECTED",
+      "decisive": "F40",
+      "supporting_findings": [
+        "F39",
+        "F40",
+        "F41",
+        "F42",
+        "F43"
+      ],
+      "strongest_contrary": "F39",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C10",
+      "verdict": "REJECTED",
+      "decisive": "F45",
+      "supporting_findings": [
+        "F44",
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ],
+      "strongest_contrary": "F44",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C11",
+      "verdict": "REJECTED",
+      "decisive": "F50",
+      "supporting_findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52",
+        "F53"
+      ],
+      "strongest_contrary": "F49",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C12",
+      "verdict": "VALIDATED",
+      "decisive": "F54",
+      "supporting_findings": [
+        "F54",
+        "F55",
+        "F56"
+      ],
+      "strongest_contrary": "F55",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C13",
+      "verdict": "VALIDATED",
+      "decisive": "F57",
+      "supporting_findings": [
+        "F57",
+        "F58",
+        "F59"
+      ],
+      "strongest_contrary": "F58",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C14",
+      "verdict": "REJECTED",
+      "decisive": "F61",
+      "supporting_findings": [
+        "F60",
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ],
+      "strongest_contrary": "F60",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C15",
+      "verdict": "REJECTED",
+      "decisive": "F66",
+      "supporting_findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68",
+        "F69"
+      ],
+      "strongest_contrary": "F65",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C16",
+      "verdict": "REJECTED",
+      "decisive": "F71",
+      "supporting_findings": [
+        "F70",
+        "F71",
+        "F72",
+        "F73",
+        "F74"
+      ],
+      "strongest_contrary": "F70",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C17",
+      "verdict": "VALIDATED",
+      "decisive": "F75",
+      "supporting_findings": [
+        "F75",
+        "F76",
+        "F77"
+      ],
+      "strongest_contrary": "F76",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C18",
+      "verdict": "REJECTED",
+      "decisive": "F79",
+      "supporting_findings": [
+        "F78",
+        "F79",
+        "F80",
+        "F81",
+        "F82"
+      ],
+      "strongest_contrary": "F78",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    }
+  ],
+  "cruxes": [
+    {
+      "id": "CRUX-1",
+      "claim": "C1",
+      "question": "Does the exact countercase retain the stated domain and premises? A saved result is sufficient for successful later reuse.",
+      "resolution": "F2"
+    },
+    {
+      "id": "CRUX-2",
+      "claim": "C2",
+      "question": "Does the exact countercase retain the stated domain and premises? Historical truth becomes false whenever present applicability changes.",
+      "resolution": "F7"
+    },
+    {
+      "id": "CRUX-3",
+      "claim": "C3",
+      "question": "Does the exact countercase retain the stated domain and premises? With A=(5,2), B=(3,5), fidelity weight w, A wins exactly when w>.6.",
+      "resolution": "F11"
+    },
+    {
+      "id": "CRUX-4",
+      "claim": "C4",
+      "question": "Does the exact countercase retain the stated domain and premises? A later B choice proves the earlier A choice was mistaken.",
+      "resolution": "F15"
+    },
+    {
+      "id": "CRUX-5",
+      "claim": "C5",
+      "question": "Does the exact countercase retain the stated domain and premises? Reader-compatible migration proves semantic compatibility.",
+      "resolution": "F20"
+    },
+    {
+      "id": "CRUX-6",
+      "claim": "C6",
+      "question": "Does the exact countercase retain the stated domain and premises? Retaining every entry has no continuing cost once saving is complete.",
+      "resolution": "F25"
+    },
+    {
+      "id": "CRUX-7",
+      "claim": "C7",
+      "question": "Does the exact countercase retain the stated domain and premises? Three scenarios sharing a property make it an unconditional prediction.",
+      "resolution": "F30"
+    },
+    {
+      "id": "CRUX-8",
+      "claim": "C8",
+      "question": "Does the exact countercase retain the stated domain and premises? A portable description is the same thing as an executable continuation.",
+      "resolution": "F35"
+    }
+  ],
+  "tests": {
+    "weight_grid_A_wins": [
+      0.61,
+      0.62,
+      0.63,
+      0.64,
+      0.65,
+      0.66,
+      0.67,
+      0.68,
+      0.69,
+      0.7,
+      0.71,
+      0.72,
+      0.73,
+      0.74,
+      0.75,
+      0.76,
+      0.77,
+      0.78,
+      0.79,
+      0.8,
+      0.81,
+      0.82,
+      0.83,
+      0.84,
+      0.85,
+      0.86,
+      0.87,
+      0.88,
+      0.89,
+      0.9,
+      0.91,
+      0.92,
+      0.93,
+      0.94,
+      0.95,
+      0.96,
+      0.97,
+      0.98,
+      0.99,
+      1.0
+    ],
+    "migration_scope_loss": {
+      "syntax_valid": true,
+      "exception_preserved": false
+    }
+  },
+  "totals": {
+    "claims": 18,
+    "findings": 98,
+    "independent_propositions_before_semantic_dedup_review": 66,
+    "max_recursive_edges": 7,
+    "cruxes": 8,
+    "tests_run": 2
+  },
+  "contamination": "Original procedure text and prior evidence were already available. Imported instructions do not count as findings; independent countercase derivations and fresh arithmetic are recorded. Self-evaluation is by the same assistant, not an independent assessor."
+}

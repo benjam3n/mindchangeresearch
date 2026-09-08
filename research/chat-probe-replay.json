@@ -1,0 +1,44 @@
+{
+  "scope": "Replay of preserved finite probes at pinned source commits. Historical source-path recovery is preserved separately and not rerun by this script.",
+  "results": {
+    "source_commits": {
+      "subjectsystems": "8605d44181fab127087ba27c60448f24cdc3b1c7",
+      "perspectiveoptimizer": "7277935d3e9267b6103f7188ed65a95a3f0dc6c2"
+    },
+    "nonconsequential_extension": {
+      "accepted": true,
+      "before": 12,
+      "after": 24,
+      "standing": "Authored expansion; the structural operation does not establish semantic novelty."
+    },
+    "unimplemented_declared_transition": {
+      "reachable": [
+        "improved",
+        "initial"
+      ],
+      "standing": "Reachability in the supplied graph with fixed observation meanings. Conditions do not change along an edge; real execution and unknown operations are outside this result."
+    },
+    "current_interface_comparison": {
+      "domain_size": 54,
+      "reference_statuses": {
+        "achieved": 6,
+        "not_achieved": 30,
+        "undetermined": 18
+      },
+      "direct_rejected": 54,
+      "truthiness_status_mismatch": 18,
+      "exact_status_match": 54,
+      "exact_full_match": 54
+    },
+    "registered_core_operations": [
+      "cartesian_rows",
+      "combine_groups",
+      "project_rows",
+      "rates",
+      "required_gate",
+      "select_rows",
+      "threshold_gate"
+    ],
+    "interpretation": "These probes establish finite behavior and its semantic boundaries; they do not measure LLM self-improvement."
+  }
+}

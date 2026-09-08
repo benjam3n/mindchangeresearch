@@ -1,0 +1,74 @@
+{
+  "memberships": [
+    {
+      "box": "A",
+      "low_weight": false,
+      "light_color": true
+    },
+    {
+      "box": "B",
+      "low_weight": true,
+      "light_color": false
+    },
+    {
+      "box": "C",
+      "low_weight": true,
+      "light_color": true
+    },
+    {
+      "box": "D",
+      "low_weight": false,
+      "light_color": false
+    }
+  ],
+  "unconditional_object_membership": [
+    "C"
+  ],
+  "conditional_plans": [
+    {
+      "meaning": "low_weight",
+      "move": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "meaning": "light_color",
+      "move": [
+        "A",
+        "C"
+      ]
+    }
+  ],
+  "undecided_membership": [
+    "A",
+    "B"
+  ],
+  "selected_organization": "box membership matrix plus meaning-specific plan",
+  "physical_execution": false,
+  "meaning_confirmed": false,
+  "later_input": [
+    {
+      "id": "E",
+      "weight": 3,
+      "color": "gray"
+    },
+    {
+      "id": "F",
+      "weight": 4,
+      "color": "white"
+    },
+    {
+      "id": "G",
+      "weight": 3,
+      "color": "white"
+    },
+    {
+      "id": "H",
+      "weight": 4,
+      "color": "dark"
+    }
+  ],
+  "executed_at": "2026-09-08T05:36:28.129895+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

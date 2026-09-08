@@ -1,0 +1,920 @@
+{
+  "dimensions": {
+    "Encoding": [
+      "plain clause",
+      "numeric vector",
+      "case list",
+      "predicate notation",
+      "truth table",
+      "set membership"
+    ],
+    "Entry": [
+      "exact proposition first",
+      "concrete case first",
+      "question first",
+      "counterexample first",
+      "scope boundary first",
+      "definition first"
+    ],
+    "Case family": [
+      "two mixed outcomes",
+      "three mixed outcomes",
+      "all improve",
+      "none improve",
+      "one unknown outcome",
+      "empty domain"
+    ],
+    "Support": [
+      "scope legend",
+      "full condition map",
+      "minimal counterexample",
+      "source pointer",
+      "paired completions",
+      "boundary note"
+    ],
+    "Layout": [
+      "one paragraph",
+      "serial cards",
+      "side-by-side columns",
+      "row table",
+      "question and answer",
+      "appendix expansion"
+    ],
+    "Use": [
+      "immediate classification",
+      "later retrieval",
+      "new vocabulary transfer",
+      "source audit",
+      "spoken reading design",
+      "scope exception audit"
+    ]
+  },
+  "total_combinations": 46656,
+  "sampling": "i,j,i+j,i+2j,2i+j,i+3j mod 6",
+  "evaluations": [
+    {
+      "id": 1,
+      "indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "exact proposition first",
+        "Case family": "two mixed outcomes",
+        "Support": "scope legend",
+        "Layout": "one paragraph",
+        "Use": "immediate classification"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 0,
+      "spec_words": 19
+    },
+    {
+      "id": 2,
+      "indices": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        3
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "concrete case first",
+        "Case family": "three mixed outcomes",
+        "Support": "minimal counterexample",
+        "Layout": "serial cards",
+        "Use": "source audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 3,
+      "indices": [
+        0,
+        2,
+        2,
+        4,
+        2,
+        0
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "question first",
+        "Case family": "all improve",
+        "Support": "paired completions",
+        "Layout": "side-by-side columns",
+        "Use": "immediate classification"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 17
+    },
+    {
+      "id": 4,
+      "indices": [
+        0,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "counterexample first",
+        "Case family": "none improve",
+        "Support": "scope legend",
+        "Layout": "row table",
+        "Use": "source audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 17
+    },
+    {
+      "id": 5,
+      "indices": [
+        0,
+        4,
+        4,
+        2,
+        4,
+        0
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "scope boundary first",
+        "Case family": "one unknown outcome",
+        "Support": "minimal counterexample",
+        "Layout": "question and answer",
+        "Use": "immediate classification"
+      },
+      "feasible": "no for target",
+      "value_basis": "Unknown outcome needs a legend/completion account for this target",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 20
+    },
+    {
+      "id": 6,
+      "indices": [
+        0,
+        5,
+        5,
+        4,
+        5,
+        3
+      ],
+      "values": {
+        "Encoding": "plain clause",
+        "Entry": "definition first",
+        "Case family": "empty domain",
+        "Support": "paired completions",
+        "Layout": "appendix expansion",
+        "Use": "source audit"
+      },
+      "feasible": "no for target",
+      "value_basis": "Empty domain needs explicit universal convention",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 17
+    },
+    {
+      "id": 7,
+      "indices": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "exact proposition first",
+        "Case family": "three mixed outcomes",
+        "Support": "full condition map",
+        "Layout": "side-by-side columns",
+        "Use": "later retrieval"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 8,
+      "indices": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        4
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "concrete case first",
+        "Case family": "all improve",
+        "Support": "source pointer",
+        "Layout": "row table",
+        "Use": "spoken reading design"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 9,
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "question first",
+        "Case family": "none improve",
+        "Support": "boundary note",
+        "Layout": "question and answer",
+        "Use": "later retrieval"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 10,
+      "indices": [
+        1,
+        3,
+        4,
+        1,
+        5,
+        4
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "counterexample first",
+        "Case family": "one unknown outcome",
+        "Support": "full condition map",
+        "Layout": "appendix expansion",
+        "Use": "spoken reading design"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 11,
+      "indices": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "scope boundary first",
+        "Case family": "empty domain",
+        "Support": "source pointer",
+        "Layout": "one paragraph",
+        "Use": "later retrieval"
+      },
+      "feasible": "no for target",
+      "value_basis": "Empty domain needs explicit universal convention",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 12,
+      "indices": [
+        1,
+        5,
+        0,
+        5,
+        1,
+        4
+      ],
+      "values": {
+        "Encoding": "numeric vector",
+        "Entry": "definition first",
+        "Case family": "two mixed outcomes",
+        "Support": "boundary note",
+        "Layout": "serial cards",
+        "Use": "spoken reading design"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 13,
+      "indices": [
+        2,
+        0,
+        2,
+        2,
+        4,
+        2
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "exact proposition first",
+        "Case family": "all improve",
+        "Support": "minimal counterexample",
+        "Layout": "question and answer",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 14,
+      "indices": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        5
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "concrete case first",
+        "Case family": "none improve",
+        "Support": "paired completions",
+        "Layout": "appendix expansion",
+        "Use": "scope exception audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 15,
+      "indices": [
+        2,
+        2,
+        4,
+        0,
+        0,
+        2
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "question first",
+        "Case family": "one unknown outcome",
+        "Support": "scope legend",
+        "Layout": "one paragraph",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 16,
+      "indices": [
+        2,
+        3,
+        5,
+        2,
+        1,
+        5
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "counterexample first",
+        "Case family": "empty domain",
+        "Support": "minimal counterexample",
+        "Layout": "serial cards",
+        "Use": "scope exception audit"
+      },
+      "feasible": "no for target",
+      "value_basis": "Empty domain needs explicit universal convention",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 17,
+      "indices": [
+        2,
+        4,
+        0,
+        4,
+        2,
+        2
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "scope boundary first",
+        "Case family": "two mixed outcomes",
+        "Support": "paired completions",
+        "Layout": "side-by-side columns",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 18,
+      "indices": [
+        2,
+        5,
+        1,
+        0,
+        3,
+        5
+      ],
+      "values": {
+        "Encoding": "case list",
+        "Entry": "definition first",
+        "Case family": "three mixed outcomes",
+        "Support": "scope legend",
+        "Layout": "row table",
+        "Use": "scope exception audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 19,
+      "indices": [
+        3,
+        0,
+        3,
+        3,
+        0,
+        3
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "exact proposition first",
+        "Case family": "none improve",
+        "Support": "source pointer",
+        "Layout": "one paragraph",
+        "Use": "source audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 18
+    },
+    {
+      "id": 20,
+      "indices": [
+        3,
+        1,
+        4,
+        5,
+        1,
+        0
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "concrete case first",
+        "Case family": "one unknown outcome",
+        "Support": "boundary note",
+        "Layout": "serial cards",
+        "Use": "immediate classification"
+      },
+      "feasible": "no for target",
+      "value_basis": "Unknown outcome needs a legend/completion account for this target",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 21,
+      "indices": [
+        3,
+        2,
+        5,
+        1,
+        2,
+        3
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "question first",
+        "Case family": "empty domain",
+        "Support": "full condition map",
+        "Layout": "side-by-side columns",
+        "Use": "source audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 22,
+      "indices": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        0
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "counterexample first",
+        "Case family": "two mixed outcomes",
+        "Support": "source pointer",
+        "Layout": "row table",
+        "Use": "immediate classification"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 18
+    },
+    {
+      "id": 23,
+      "indices": [
+        3,
+        4,
+        1,
+        5,
+        4,
+        3
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "scope boundary first",
+        "Case family": "three mixed outcomes",
+        "Support": "boundary note",
+        "Layout": "question and answer",
+        "Use": "source audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 24,
+      "indices": [
+        3,
+        5,
+        2,
+        1,
+        5,
+        0
+      ],
+      "values": {
+        "Encoding": "predicate notation",
+        "Entry": "definition first",
+        "Case family": "all improve",
+        "Support": "full condition map",
+        "Layout": "appendix expansion",
+        "Use": "immediate classification"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 25,
+      "indices": [
+        4,
+        0,
+        4,
+        4,
+        2,
+        4
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "exact proposition first",
+        "Case family": "one unknown outcome",
+        "Support": "paired completions",
+        "Layout": "side-by-side columns",
+        "Use": "spoken reading design"
+      },
+      "feasible": "no for target",
+      "value_basis": "Written side-by-side layout lacks a specified serial route",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 26,
+      "indices": [
+        4,
+        1,
+        5,
+        0,
+        3,
+        1
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "concrete case first",
+        "Case family": "empty domain",
+        "Support": "scope legend",
+        "Layout": "row table",
+        "Use": "later retrieval"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 27,
+      "indices": [
+        4,
+        2,
+        0,
+        2,
+        4,
+        4
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "question first",
+        "Case family": "two mixed outcomes",
+        "Support": "minimal counterexample",
+        "Layout": "question and answer",
+        "Use": "spoken reading design"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 28,
+      "indices": [
+        4,
+        3,
+        1,
+        4,
+        5,
+        1
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "counterexample first",
+        "Case family": "three mixed outcomes",
+        "Support": "paired completions",
+        "Layout": "appendix expansion",
+        "Use": "later retrieval"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 29,
+      "indices": [
+        4,
+        4,
+        2,
+        0,
+        0,
+        4
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "scope boundary first",
+        "Case family": "all improve",
+        "Support": "scope legend",
+        "Layout": "one paragraph",
+        "Use": "spoken reading design"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 30,
+      "indices": [
+        4,
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "values": {
+        "Encoding": "truth table",
+        "Entry": "definition first",
+        "Case family": "none improve",
+        "Support": "minimal counterexample",
+        "Layout": "serial cards",
+        "Use": "later retrieval"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 31,
+      "indices": [
+        5,
+        0,
+        5,
+        5,
+        4,
+        5
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "exact proposition first",
+        "Case family": "empty domain",
+        "Support": "boundary note",
+        "Layout": "question and answer",
+        "Use": "scope exception audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 3,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 32,
+      "indices": [
+        5,
+        1,
+        0,
+        1,
+        5,
+        2
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "concrete case first",
+        "Case family": "two mixed outcomes",
+        "Support": "full condition map",
+        "Layout": "appendix expansion",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 21
+    },
+    {
+      "id": 33,
+      "indices": [
+        5,
+        2,
+        1,
+        3,
+        0,
+        5
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "question first",
+        "Case family": "three mixed outcomes",
+        "Support": "source pointer",
+        "Layout": "one paragraph",
+        "Use": "scope exception audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 34,
+      "indices": [
+        5,
+        3,
+        2,
+        5,
+        1,
+        2
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "counterexample first",
+        "Case family": "all improve",
+        "Support": "boundary note",
+        "Layout": "serial cards",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 35,
+      "indices": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        5
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "scope boundary first",
+        "Case family": "none improve",
+        "Support": "full condition map",
+        "Layout": "side-by-side columns",
+        "Use": "scope exception audit"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 3,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 36,
+      "indices": [
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      "values": {
+        "Encoding": "set membership",
+        "Entry": "definition first",
+        "Case family": "one unknown outcome",
+        "Support": "source pointer",
+        "Layout": "row table",
+        "Use": "new vocabulary transfer"
+      },
+      "feasible": "no for target",
+      "value_basis": "Unknown outcome needs a legend/completion account for this target",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Inspect result written to file: /workspace/scratch/78b838bd97fc/mind-change-research/representation/representation-scope-specimen.pptx.inspect.ndjson
+Created 5 slides and rendered each.

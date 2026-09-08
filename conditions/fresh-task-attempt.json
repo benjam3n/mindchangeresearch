@@ -1,0 +1,15 @@
+{
+  "task": "three-job-impossible",
+  "actor": "conditions subagent",
+  "answer": "No feasible schedule exists.",
+  "certificate": [
+    "B must occupy 1\u20132 because release=1, duration=1, deadline=2.",
+    "A cannot finish before 1 because it needs three units and cannot be preempted.",
+    "After B, C must occupy 2\u20134 to meet release=2, duration=2, deadline=4.",
+    "A then cannot start before 4 and finishes no earlier than 7, exceeding deadline 6.",
+    "Starting A before B blocks B; starting C later misses C. These exhaust the possible placements around the forced intervals."
+  ],
+  "confidence": "high for the declared deterministic case",
+  "aids": "Original skills and preceding examples remain in model context; same agent authored this task, including its changed-case hint. This is not independent unaided recall.",
+  "created_utc": "2026-09-08T04:27:39.695026+00:00"
+}

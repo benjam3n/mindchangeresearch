@@ -1,0 +1,492 @@
+[
+  {
+    "id": "R1",
+    "parent": "",
+    "claim": "The requested sustained program\u2014actual original Reasoningtool executions at requested depth, repeated on substantively different possible changes, with demonstrated useful changes retained and consolidated after each four keeps\u2014is the right program to conduct here.",
+    "strength": "Necessary",
+    "kind": "assumed analytical claim",
+    "bedrock": "",
+    "premise": "",
+    "depth": 0
+  },
+  {
+    "id": "R2",
+    "parent": "R1",
+    "claim": "Success is a relation between a performed change, its consequence, and a supported concern; a completed document alone cannot settle success.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 1
+  },
+  {
+    "id": "R3",
+    "parent": "R1",
+    "claim": "The requested original procedures constrain which operations and dependencies belong to each application, while the requested outcomes constrain what those operations must address.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 1
+  },
+  {
+    "id": "R4",
+    "parent": "R1",
+    "claim": "Retention changes the resources available to later investigations, so organization is part of the program\u2019s causal proposal rather than only its presentation.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 1
+  },
+  {
+    "id": "R5",
+    "parent": "R2",
+    "claim": "A consequence admissible for one target is not automatically admissible for another target: model selection, reported human experience, and later human conduct assert different events.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R6",
+    "parent": "R2",
+    "claim": "FORECLOSED: Counting fifty-one documents as fifty-one useful changes when no later operation uses their outputs.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the program defines a keep by demonstrated useful change, not document count.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R7",
+    "parent": "R2",
+    "claim": "An informative failed intervention can satisfy exploration while receiving REJECT or UNRESOLVED for its intended change.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "TEST: a candidate with a failed later use must remain in the corpus without adding keep credit.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R8",
+    "parent": "R5",
+    "claim": "A record that moves from a model decision to a claim about human behavior adds an empirical dependency absent from the model decision.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R9",
+    "parent": "R5",
+    "claim": "The same observed model selection is compatible with distinct human-behavior outcomes when no human-behavior outcome is observed.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "LOGIC: the local observation supplies no premise selecting one of those human outcomes.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R10",
+    "parent": "R5",
+    "claim": "A proposed human relocation has no observed human relocation as its consequence in this record.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: no person has performed a relocation in the available task record.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R11",
+    "parent": "R8",
+    "claim": "Reuse must preserve which proposition the evidence supports; otherwise a later consumer cannot determine whether it inherited the extra human-behavior dependency.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R12",
+    "parent": "R8",
+    "claim": "FORECLOSED: Promoting a correct worked example into demonstrated transfer solely because the example was successful.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the successful example contains no observation of a distinct transfer task.",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R13",
+    "parent": "R8",
+    "claim": "A human-outcome claim remains unresolved even when the present model uses the candidate successfully.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "TEST: query this corpus for a performed human intervention; the current record supplies none.",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R14",
+    "parent": "R11",
+    "claim": "An organization used for selecting future attempts must expose evidence scope at the point where an entry becomes actionable.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 5
+  },
+  {
+    "id": "R15",
+    "parent": "R11",
+    "claim": "If a scoped finding is copied without its exception and the exception controls the next case, the copy no longer supplies the finding needed for that decision.",
+    "strength": "Possible",
+    "kind": "implication",
+    "bedrock": "TEST: contrast a same-context retrieval case with an unseen-context transfer case.",
+    "premise": "The removed exception is active in the next case.",
+    "depth": 5
+  },
+  {
+    "id": "R16",
+    "parent": "R11",
+    "claim": "If the compressed entry omits the disputed premise and the original is its only retained source, resolving that premise requires returning to the original.",
+    "strength": "Possible",
+    "kind": "cost",
+    "bedrock": "TEST: the concrete fixture below contrasts a missing exception with an entry that already preserves it.",
+    "premise": "The disputed premise is absent from the compact entry and has no other retained source.",
+    "depth": 5
+  },
+  {
+    "id": "R17",
+    "parent": "R14",
+    "claim": "A comparison that ignores evidence scope relevant to the next selection cannot establish that a consolidation preserves that scope.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 6
+  },
+  {
+    "id": "R18",
+    "parent": "R14",
+    "claim": "FORECLOSED: A one-word KEEP label that is consumed as a general recommendation without access to its actor and scope.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the label alone cannot distinguish model-local evidence from human evidence.",
+    "premise": "",
+    "depth": 6
+  },
+  {
+    "id": "R19",
+    "parent": "R14",
+    "claim": "Preserving every word is not required when the next choice depends only on a retained proposition, condition, exception, and provenance.",
+    "strength": "Possible",
+    "kind": "implication",
+    "bedrock": "TEST: execute the same later choice against full and compact records and compare outputs.",
+    "premise": "The omitted content has no bearing on the specified later choice.",
+    "depth": 6
+  },
+  {
+    "id": "R20",
+    "parent": "R17",
+    "claim": "A compact entry containing only \u201cmodel use succeeded\u201d leaves the answer to \u201cdid a human perform the intervention?\u201d unsettled; interpreting that entry as an affirmative human answer exceeds the preserved evidence.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "LOGIC: the quoted entry contains no premise asserting performed human intervention.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R21",
+    "parent": "R17",
+    "claim": "Reading cost is an outcome distinct from decision correctness; fewer inspected records with a wrong scope is a failed consolidation on that case.",
+    "strength": "Necessary",
+    "kind": "cost",
+    "bedrock": "LOGIC: reduced retrieval does not imply preserved conclusion; both values are separately observable in a retrieval trial.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R22",
+    "parent": "R17",
+    "claim": "A tie on observed cases leaves a trade-off unresolved instead of proving a unique best organization.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "LOGIC: equal finite observations cannot establish a strict winner.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R23",
+    "parent": "R3",
+    "claim": "Source fidelity, actual execution, depth sufficiency, and useful consequence are separate constraints; satisfying one does not discharge the others.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R24",
+    "parent": "R3",
+    "claim": "FORECLOSED: Replacing a named original operation with a generic eight-section essay while retaining the original label.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: eight sections do not perform an omitted required operation.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R25",
+    "parent": "R3",
+    "claim": "Requested repeated applications must address different substantive targets; changing only the title or wording cannot supply the requested diversity.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "TEST: compare each repeated application\u2019s concrete input and changed operation.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R26",
+    "parent": "R23",
+    "claim": "A source with required subordinate operations creates a dependency on those operations, even if the allocation manifest omits that dependency.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R27",
+    "parent": "R23",
+    "claim": "A correct source digest establishes which bytes were read and does not establish that the written inference follows.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "LOGIC: byte identity and semantic entailment are different propositions.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R28",
+    "parent": "R23",
+    "claim": "A numeric 8x floor from one source cannot certify another source that defines depth differently.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "TEST: inspect the original depth definition in each source receipt.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R29",
+    "parent": "R26",
+    "claim": "The executable queue is constrained by actual prerequisites and available inputs rather than rank alone.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R30",
+    "parent": "R26",
+    "claim": "Unavailable referenced databases remain an explicit limitation on any operation that requires their content.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "OBSERVE: the local RSI bundle lists source loader, archived skills and manifest, but not the referenced questionroute or depth-map databases.",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R31",
+    "parent": "R26",
+    "claim": "An imported completed prerequisite can be reused only when its input and result satisfy the new invocation\u2019s actual requirements.",
+    "strength": "Possible",
+    "kind": "implication",
+    "bedrock": "TEST: match new invocation inputs against the preserved prerequisite output; unmatched items require fresh execution.",
+    "premise": "The named source permits reuse and the input-sensitive requirements coincide.",
+    "depth": 4
+  },
+  {
+    "id": "R32",
+    "parent": "R29",
+    "claim": "Contextual priority can remain unchanged while chronological order changes to make a needed input available.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 5
+  },
+  {
+    "id": "R33",
+    "parent": "R29",
+    "claim": "FORECLOSED: Claiming a dependent procedure complete while its required subordinate product is only planned.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: a planned operation is not an executed operation.",
+    "premise": "",
+    "depth": 5
+  },
+  {
+    "id": "R34",
+    "parent": "R29",
+    "claim": "Reordering alone earns no keep unless it produces a useful change in an actual later operation.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "TEST: record the first dependent operation receiving a newly available input and the choice it changes.",
+    "premise": "",
+    "depth": 5
+  },
+  {
+    "id": "R35",
+    "parent": "R32",
+    "claim": "The next application should be selected from ready inputs while preserving every assigned repetition as an outstanding obligation.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 6
+  },
+  {
+    "id": "R36",
+    "parent": "R32",
+    "claim": "Prioritizing a useful prerequisite does not authorize deleting an expensive assigned application.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the user\u2019s application counts remain part of the assumed program.",
+    "premise": "",
+    "depth": 6
+  },
+  {
+    "id": "R37",
+    "parent": "R32",
+    "claim": "The program can acknowledge incomplete depth without converting a source or input blocker into fictional completion.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "TEST: progress entries expose completed operations and any unmet floor separately.",
+    "premise": "",
+    "depth": 6
+  },
+  {
+    "id": "R38",
+    "parent": "R35",
+    "claim": "When two assigned applications both have available prerequisites, readiness alone leaves their relative order undecided.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "LOGIC: both options satisfy the same readiness condition; that condition supplies no strict ranking.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R39",
+    "parent": "R35",
+    "claim": "The inquiry queue retains 51 application obligations after this first record; one completed obligation leaves 50, regardless of keep count.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "LOGIC: 51 minus 1 equals 50; consolidations do not discharge named-skill applications.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R40",
+    "parent": "R35",
+    "claim": "A later audit can distinguish changed ordering from missing work because every rank/application pair remains in the queue.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "TEST: reconcile queue identities with allocation.json.",
+    "premise": "",
+    "depth": 7
+  },
+  {
+    "id": "R41",
+    "parent": "R4",
+    "claim": "Every four distinct demonstrated keeps create an obligation to construct and actually use a new consolidation.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R42",
+    "parent": "R4",
+    "claim": "FORECLOSED: Recounting the same scoped change as several new keeps merely because different skills rediscover it.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the brief requires four demonstrated findings, not four endorsements of one finding.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R43",
+    "parent": "R4",
+    "claim": "A useful incompatibility must remain visible in consolidation because erasing it would change what the program has established.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "TEST: query a keep and its exception after compression; both must remain retrievable.",
+    "premise": "",
+    "depth": 2
+  },
+  {
+    "id": "R44",
+    "parent": "R41",
+    "claim": "The keep ledger therefore needs identity of the changed operation as well as application ID before a four-keep trigger can be evaluated.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R45",
+    "parent": "R41",
+    "claim": "A consolidation with no changed later use is unfinished even if its prose is concise.",
+    "strength": "Necessary",
+    "kind": "foreclosure",
+    "bedrock": "LOGIC: the program explicitly requires actual use of the arrangement.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R46",
+    "parent": "R41",
+    "claim": "Waiting for four keeps can delay consolidation indefinitely if outcomes remain unresolved; unresolved outcomes cannot be promoted to force the trigger.",
+    "strength": "Necessary",
+    "kind": "cost",
+    "bedrock": "TEST: a sequence of four UNRESOLVED applications leaves the keep trigger at zero.",
+    "premise": "",
+    "depth": 3
+  },
+  {
+    "id": "R47",
+    "parent": "R44",
+    "claim": "An entry without a distinct useful consequence cannot increment the four-keep counter merely by naming an intended next use.",
+    "strength": "Necessary",
+    "kind": "commitment",
+    "bedrock": "LOGIC: intended use is not the distinct demonstrated consequence required by the counter.",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R48",
+    "parent": "R44",
+    "claim": "If two applications change only the same classification rule on the same evidence, the second can validate reuse but adds no independent keep credit.",
+    "strength": "Necessary",
+    "kind": "implication",
+    "bedrock": "TEST: compare operation identity and evidence scope before incrementing the ledger.",
+    "premise": "",
+    "depth": 4
+  },
+  {
+    "id": "R49",
+    "parent": "R44",
+    "claim": "A later record that changes a different operation\u2014such as search coverage rather than evidence classification\u2014can earn independent credit when its useful consequence is demonstrated.",
+    "strength": "Possible",
+    "kind": "implication",
+    "bedrock": "TEST: require the later operation\u2019s before/after output and scope.",
+    "premise": "The later record supplies a distinct performed change and useful consequence.",
+    "depth": 4
+  }
+]

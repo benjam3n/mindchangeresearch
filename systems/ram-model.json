@@ -1,0 +1,1470 @@
+{
+  "components": [
+    {
+      "id": "D1-cat0-leaf0",
+      "component": "Preserve the exact requested action",
+      "quantity": 1,
+      "lambda": 0.002,
+      "mtbf": 500.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat0-leaf1",
+      "component": "Retain the named actor",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat0-leaf2",
+      "component": "Retain the requested object",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat0-leaf3",
+      "component": "Retain the declared time horizon",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat0-leaf4",
+      "component": "Retain hard constraints",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat1-leaf0",
+      "component": "Detect a missing source",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat1-leaf1",
+      "component": "Distinguish inaccessible from nonexistent input",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat1-leaf2",
+      "component": "Retain source version",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat1-leaf3",
+      "component": "Retain units on numeric inputs",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat1-leaf4",
+      "component": "Represent unknown inputs explicitly",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat2-leaf0",
+      "component": "Include the strongest ordinary continuation",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat2-leaf1",
+      "component": "Include a no-change candidate where feasible",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat2-leaf2",
+      "component": "Include a preparation candidate",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat2-leaf3",
+      "component": "Include a representation change candidate",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat2-leaf4",
+      "component": "Include a timing change candidate",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat3-leaf0",
+      "component": "State each option input conditions",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat3-leaf1",
+      "component": "State evidence population or constructed scope",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat3-leaf2",
+      "component": "Separate observation from prediction",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat3-leaf3",
+      "component": "Separate performance from explanation",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat3-leaf4",
+      "component": "Retain negative evidence",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat4-leaf0",
+      "component": "Represent an explicit budget",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat4-leaf1",
+      "component": "Include preparation cost in bundle cost",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat4-leaf2",
+      "component": "Represent resource exclusivity",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat4-leaf3",
+      "component": "Represent required authority",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat4-leaf4",
+      "component": "Represent task deadline",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat5-leaf0",
+      "component": "Retain criterion version",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat5-leaf1",
+      "component": "Retain criterion owner",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat5-leaf2",
+      "component": "Distinguish threshold from maximization",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat5-leaf3",
+      "component": "Keep unmeasured intangibles visible",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat5-leaf4",
+      "component": "Prevent double counting identical effects",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat6-leaf0",
+      "component": "Transmit task revision",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat6-leaf1",
+      "component": "Transmit exact operation input",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat6-leaf2",
+      "component": "Name output contract",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat6-leaf3",
+      "component": "Name endpoint owner",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat6-leaf4",
+      "component": "Return explicit error state",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat7-leaf0",
+      "component": "Compare expected with actual consequence",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat7-leaf1",
+      "component": "Keep the initial baseline visible",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat7-leaf2",
+      "component": "Separate repair success from first-pass success",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat7-leaf3",
+      "component": "Preserve an unchanged result",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat7-leaf4",
+      "component": "Classify a harmful result explicitly",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat8-leaf0",
+      "component": "Reopen a rejected inference",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat8-leaf1",
+      "component": "Invalidate descendants of a removed premise",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat8-leaf2",
+      "component": "Retain useful incompatible alternatives",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat8-leaf3",
+      "component": "Preserve original sources unchanged",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat8-leaf4",
+      "component": "Limit automatic retries",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat9-leaf0",
+      "component": "Give a direct answer at the relevant level",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat9-leaf1",
+      "component": "Keep useful scope next to recommendation",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat9-leaf2",
+      "component": "Provide a readable local artifact",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat9-leaf3",
+      "component": "Separate provenance from live decision view",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    },
+    {
+      "id": "D1-cat9-leaf4",
+      "component": "Retain an empty-state explanation",
+      "quantity": 1,
+      "lambda": 5e-05,
+      "mtbf": 20000.0,
+      "distribution": "exponential by model definition",
+      "source": "stipulated stochastic model, not field data",
+      "confidence": "mathematical conditional only"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM-01",
+      "component": "Preserve the exact requested action",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-02",
+      "component": "Retain the named actor",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-03",
+      "component": "Retain the requested object",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-04",
+      "component": "Retain the declared time horizon",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-05",
+      "component": "Retain hard constraints",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-06",
+      "component": "Detect a missing source",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-07",
+      "component": "Distinguish inaccessible from nonexistent input",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-08",
+      "component": "Retain source version",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-09",
+      "component": "Retain units on numeric inputs",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-10",
+      "component": "Represent unknown inputs explicitly",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-11",
+      "component": "Include the strongest ordinary continuation",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-12",
+      "component": "Include a no-change candidate where feasible",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-13",
+      "component": "Include a preparation candidate",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-14",
+      "component": "Include a representation change candidate",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-15",
+      "component": "Include a timing change candidate",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-16",
+      "component": "State each option input conditions",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-17",
+      "component": "State evidence population or constructed scope",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-18",
+      "component": "Separate observation from prediction",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-19",
+      "component": "Separate performance from explanation",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-20",
+      "component": "Retain negative evidence",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-21",
+      "component": "Represent an explicit budget",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-22",
+      "component": "Include preparation cost in bundle cost",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-23",
+      "component": "Represent resource exclusivity",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-24",
+      "component": "Represent required authority",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-25",
+      "component": "Represent task deadline",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-26",
+      "component": "Retain criterion version",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-27",
+      "component": "Retain criterion owner",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-28",
+      "component": "Distinguish threshold from maximization",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-29",
+      "component": "Keep unmeasured intangibles visible",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-30",
+      "component": "Prevent double counting identical effects",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-31",
+      "component": "Transmit task revision",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-32",
+      "component": "Transmit exact operation input",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-33",
+      "component": "Name output contract",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-34",
+      "component": "Name endpoint owner",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-35",
+      "component": "Return explicit error state",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-36",
+      "component": "Compare expected with actual consequence",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-37",
+      "component": "Keep the initial baseline visible",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-38",
+      "component": "Separate repair success from first-pass success",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-39",
+      "component": "Preserve an unchanged result",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-40",
+      "component": "Classify a harmful result explicitly",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-41",
+      "component": "Reopen a rejected inference",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-42",
+      "component": "Invalidate descendants of a removed premise",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-43",
+      "component": "Retain useful incompatible alternatives",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-44",
+      "component": "Preserve original sources unchanged",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-45",
+      "component": "Limit automatic retries",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-46",
+      "component": "Give a direct answer at the relevant level",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-47",
+      "component": "Keep useful scope next to recommendation",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-48",
+      "component": "Provide a readable local artifact",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-49",
+      "component": "Separate provenance from live decision view",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-50",
+      "component": "Retain an empty-state explanation",
+      "mode": "unavailable result",
+      "effect": "series mission stops",
+      "severity": 8,
+      "occurrence": "unknown in reality",
+      "detection": "missing output observed",
+      "RPN": "not computed without ordinal occurrence evidence",
+      "mitigation": "restore required output or remain blocked"
+    },
+    {
+      "id": "FM-51",
+      "component": "Preserve the exact requested action",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-52",
+      "component": "Retain the named actor",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-53",
+      "component": "Retain the requested object",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-54",
+      "component": "Retain the declared time horizon",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-55",
+      "component": "Retain hard constraints",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-56",
+      "component": "Detect a missing source",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-57",
+      "component": "Distinguish inaccessible from nonexistent input",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-58",
+      "component": "Retain source version",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-59",
+      "component": "Retain units on numeric inputs",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    },
+    {
+      "id": "FM-60",
+      "component": "Represent unknown inputs explicitly",
+      "mode": "plausible but incorrect output",
+      "effect": "downstream accepts wrong premise",
+      "severity": 9,
+      "occurrence": "unknown",
+      "detection": "semantic countercase or review",
+      "RPN": "not computed",
+      "mitigation": "independent premise check and descendant invalidation"
+    }
+  ],
+  "maintenance_tasks": [
+    {
+      "id": "MT-01",
+      "task": "restore Preserve the exact requested action",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-02",
+      "task": "restore Retain the named actor",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-03",
+      "task": "restore Retain the requested object",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-04",
+      "task": "restore Retain the declared time horizon",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-05",
+      "task": "restore Retain hard constraints",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-06",
+      "task": "restore Detect a missing source",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-07",
+      "task": "restore Distinguish inaccessible from nonexistent input",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-08",
+      "task": "restore Retain source version",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-09",
+      "task": "restore Retain units on numeric inputs",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-10",
+      "task": "restore Represent unknown inputs explicitly",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-11",
+      "task": "restore Include the strongest ordinary continuation",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-12",
+      "task": "restore Include a no-change candidate where feasible",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-13",
+      "task": "restore Include a preparation candidate",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-14",
+      "task": "restore Include a representation change candidate",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-15",
+      "task": "restore Include a timing change candidate",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-16",
+      "task": "restore State each option input conditions",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-17",
+      "task": "restore State evidence population or constructed scope",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-18",
+      "task": "restore Separate observation from prediction",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-19",
+      "task": "restore Separate performance from explanation",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-20",
+      "task": "restore Retain negative evidence",
+      "level": "local operator",
+      "frequency": "on detected failure",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-21",
+      "task": "review changed condition for Represent an explicit budget",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-22",
+      "task": "review changed condition for Include preparation cost in bundle cost",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-23",
+      "task": "review changed condition for Represent resource exclusivity",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-24",
+      "task": "review changed condition for Represent required authority",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-25",
+      "task": "review changed condition for Represent task deadline",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-26",
+      "task": "review changed condition for Retain criterion version",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-27",
+      "task": "review changed condition for Retain criterion owner",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-28",
+      "task": "review changed condition for Distinguish threshold from maximization",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-29",
+      "task": "review changed condition for Keep unmeasured intangibles visible",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    },
+    {
+      "id": "MT-30",
+      "task": "review changed condition for Prevent double counting identical effects",
+      "level": "evidence reviewer",
+      "frequency": "on condition change",
+      "duration": "aggregate model MTTR=2; per-task real duration unknown",
+      "tools": "source/evidence access",
+      "access": "available only if source exists"
+    }
+  ],
+  "improvements": [
+    "reduce waiting for source access",
+    "retain recoverable previous version",
+    "prevalidate schema",
+    "separate historical and current state",
+    "detect missing mandatory output",
+    "deduplicate retries",
+    "bound repair retries",
+    "compare independent evidence",
+    "identify common-cause source",
+    "avoid unnecessary serial gate",
+    "co-locate tightly coupled predicates",
+    "make current revision explicit",
+    "separate preventive from corrective work",
+    "retain failure and repair evidence",
+    "recheck authority after recovery"
+  ],
+  "lambda_system": 0.00445,
+  "mtbf": 224.71910112359552,
+  "mission": 10,
+  "R_series": 0.9564756000936208,
+  "R_first_redundant_independent": 0.9754150859251919,
+  "R_redundant_commoncause": 0.9659926913294167,
+  "Ai": 0.9911785112498762,
+  "Aa": 0.9814505839630976,
+  "Ao": 0.9443316492752254,
+  "availability_choices": {
+    "baseline": 0.9443316492752254,
+    "repair_half": 0.948316737790422,
+    "logistics_to2": 0.9687575684185031,
+    "lambda_minus10pct": 0.9487170973051691
+  }
+}

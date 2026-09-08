@@ -1,0 +1,82 @@
+[
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "context",
+      "decision"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.787868+00:00",
+    "exit_code": 0,
+    "stdout": "No relevant learnings found.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "capture",
+      "insight",
+      "A prospective forecast record needs its full proposition before the outcome.",
+      "first GJS EMV files versus fifteen new frozen inputs; domain=decision; confidence=high for local event-order proposition; transfer untested; evidence=journey-budget-emv-pre.json,journey-budget-emv-prospective-new.json,journey-budget-emv-prospective-results.json; grounding=OBSERVED,TESTED"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.834136+00:00",
+    "exit_code": 0,
+    "stdout": "Captured learning: Ld9a0f028\n\n[PRELIM] [Ld9a0f028] INSIGHT\n   Content: A prospective forecast record needs its full proposition before the outcome.\n   Context: first GJS EMV files versus fifteen new frozen inputs; domain=decision; confidence=high for local event-order proposition; transfer untested; evidence=journey-budget-emv-pre.json,journey-budget-emv-prospective-new.json,journey-budget-emv-prospective-results.json; grounding=OBSERVED,TESTED\n   Domain: general | Confidence: MED\n   Validated: 0x | Contradicted: 0x\n   Grounding: \n\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "capture",
+      "what_didnt",
+      "The first budget40 E+G choice was not optimal; later S+C repair does not make it first-pass correct.",
+      "four-action finite additive model; domain=decision; confidence=high for supplied instance; evidence=architecture-actual-cases.json,consolidation-04.md; grounding=TESTED,OBSERVED"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.878399+00:00",
+    "exit_code": 0,
+    "stdout": "Captured learning: L5e71552f\n\n[PRELIM] [L5e71552f] WHAT_DIDNT\n   Content: The first budget40 E+G choice was not optimal; later S+C repair does not make it first-pass correct.\n   Context: four-action finite additive model; domain=decision; confidence=high for supplied instance; evidence=architecture-actual-cases.json,consolidation-04.md; grounding=TESTED,OBSERVED\n   Domain: general | Confidence: MED\n   Validated: 0x | Contradicted: 0x\n   Grounding: \n\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "conflicts"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.921388+00:00",
+    "exit_code": 0,
+    "stdout": "No conflicts detected.\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "context",
+      "decision"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.958199+00:00",
+    "exit_code": 0,
+    "stdout": "## Relevant Learnings from Previous Sessions\n\n- **insight** [MEDIUM confidence]: A prospective forecast record needs its full proposition before the outcome.\n  - Applies when: first GJS EMV files versus fifteen new frozen inputs; domain=decision; confidence=high for local event-order proposition; transfer untested; evidence=journey-budget-emv-pre.json,journey-budget-emv-prospective-new.json,journey-budget-emv-prospective-results.json; grounding=OBSERVED,TESTED\n- **what_didnt** [MEDIUM confidence]: The first budget40 E+G choice was not optimal; later S+C repair does not make it first-pass correct.\n  - Applies when: four-action finite additive model; domain=decision; confidence=high for supplied instance; evidence=architecture-actual-cases.json,consolidation-04.md; grounding=TESTED,OBSERVED\n\n",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "python3",
+      "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered/scripts/session_learning.py",
+      "stats"
+    ],
+    "cwd": "/workspace/scratch/78b838bd97fc/mind-change-research/systems/ssr-recovered",
+    "at": "2026-09-08T05:00:01.996706+00:00",
+    "exit_code": 0,
+    "stdout": "Learning Statistics:\n  Total: 2\n  By Type: {'insight': 1, 'what_didnt': 1}\n  By Domain: {'general': 2}\n  By Status: {'preliminary': 2}\n  By Confidence: {'medium': 2}\n",
+    "stderr": ""
+  }
+]

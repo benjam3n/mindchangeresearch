@@ -1,0 +1,13 @@
+Intended mind change: Let a prospective reader distinguish a settled universal from an unresolved existential in [0,?].
+
+Common words in both proposed routes:
+The first result is zero. The second result is unknown. Is every result positive? Is some result positive? The possible completions are zero zero and zero one. Every is false in both. Some differs between them.
+
+Route A: a fixed five-second pause after each of the two questions; all words stay the same.
+Route B: the reader advances after each question; all words stay the same, and stopping is available.
+
+Actual mind change: The model constructed equivalent-content pace routes and their answer key; no human session occurred.
+Benefit: Experimental content is specified; effects on attention, learning and pressure are untested.
+Verdict: UNRESOLVED.
+Organization: Shared script, separate timing rule, optional answer and confidence record.
+Next attempts: Actual voluntary use, same-content comparison, and delayed transfer.

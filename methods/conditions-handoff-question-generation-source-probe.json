@@ -1,0 +1,5 @@
+{
+  "requested": "question_generation",
+  "returncode": 1,
+  "stderr": "read_original.py: \"filename 'skills/question_generation/SKILL.md' not found\"\n"
+}

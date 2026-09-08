@@ -1,0 +1,2296 @@
+{
+  "nodes": [
+    {
+      "id": "D1-0",
+      "parent": null,
+      "level": 0,
+      "name": "present selector",
+      "purpose": "produce a useful scoped contribution",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-domain0",
+      "parent": "D1-0",
+      "level": 1,
+      "name": "input and choice",
+      "purpose": "coordinate input and choice",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-domain1",
+      "parent": "D1-0",
+      "level": 1,
+      "name": "evidence and revision",
+      "purpose": "coordinate evidence and revision",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0",
+      "parent": "D1-domain0",
+      "level": 2,
+      "name": "Goal identity",
+      "purpose": "own goal identity",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-cap0",
+      "parent": "D1-cat0",
+      "level": 3,
+      "name": "Goal identity positive path",
+      "purpose": "construct goal identity",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-cap1",
+      "parent": "D1-cat0",
+      "level": 3,
+      "name": "Goal identity boundary path",
+      "purpose": "restrict goal identity",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-leaf0",
+      "parent": "D1-cat0-cap0",
+      "level": 4,
+      "name": "Preserve the exact requested action",
+      "purpose": "Preserve the exact requested action",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-leaf1",
+      "parent": "D1-cat0-cap0",
+      "level": 4,
+      "name": "Retain the named actor",
+      "purpose": "Retain the named actor",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-leaf2",
+      "parent": "D1-cat0-cap0",
+      "level": 4,
+      "name": "Retain the requested object",
+      "purpose": "Retain the requested object",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-leaf3",
+      "parent": "D1-cat0-cap1",
+      "level": 4,
+      "name": "Retain the declared time horizon",
+      "purpose": "Retain the declared time horizon",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat0-leaf4",
+      "parent": "D1-cat0-cap1",
+      "level": 4,
+      "name": "Retain hard constraints",
+      "purpose": "Retain hard constraints",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1",
+      "parent": "D1-domain0",
+      "level": 2,
+      "name": "Input availability",
+      "purpose": "own input availability",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-cap0",
+      "parent": "D1-cat1",
+      "level": 3,
+      "name": "Input availability positive path",
+      "purpose": "construct input availability",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-cap1",
+      "parent": "D1-cat1",
+      "level": 3,
+      "name": "Input availability boundary path",
+      "purpose": "restrict input availability",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-leaf0",
+      "parent": "D1-cat1-cap0",
+      "level": 4,
+      "name": "Detect a missing source",
+      "purpose": "Detect a missing source",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-leaf1",
+      "parent": "D1-cat1-cap0",
+      "level": 4,
+      "name": "Distinguish inaccessible from nonexistent input",
+      "purpose": "Distinguish inaccessible from nonexistent input",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-leaf2",
+      "parent": "D1-cat1-cap0",
+      "level": 4,
+      "name": "Retain source version",
+      "purpose": "Retain source version",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-leaf3",
+      "parent": "D1-cat1-cap1",
+      "level": 4,
+      "name": "Retain units on numeric inputs",
+      "purpose": "Retain units on numeric inputs",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat1-leaf4",
+      "parent": "D1-cat1-cap1",
+      "level": 4,
+      "name": "Represent unknown inputs explicitly",
+      "purpose": "Represent unknown inputs explicitly",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2",
+      "parent": "D1-domain0",
+      "level": 2,
+      "name": "Option creation",
+      "purpose": "own option creation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-cap0",
+      "parent": "D1-cat2",
+      "level": 3,
+      "name": "Option creation positive path",
+      "purpose": "construct option creation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-cap1",
+      "parent": "D1-cat2",
+      "level": 3,
+      "name": "Option creation boundary path",
+      "purpose": "restrict option creation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-leaf0",
+      "parent": "D1-cat2-cap0",
+      "level": 4,
+      "name": "Include the strongest ordinary continuation",
+      "purpose": "Include the strongest ordinary continuation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-leaf1",
+      "parent": "D1-cat2-cap0",
+      "level": 4,
+      "name": "Include a no-change candidate where feasible",
+      "purpose": "Include a no-change candidate where feasible",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-leaf2",
+      "parent": "D1-cat2-cap0",
+      "level": 4,
+      "name": "Include a preparation candidate",
+      "purpose": "Include a preparation candidate",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-leaf3",
+      "parent": "D1-cat2-cap1",
+      "level": 4,
+      "name": "Include a representation change candidate",
+      "purpose": "Include a representation change candidate",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat2-leaf4",
+      "parent": "D1-cat2-cap1",
+      "level": 4,
+      "name": "Include a timing change candidate",
+      "purpose": "Include a timing change candidate",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3",
+      "parent": "D1-domain0",
+      "level": 2,
+      "name": "Evidence fit",
+      "purpose": "own evidence fit",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-cap0",
+      "parent": "D1-cat3",
+      "level": 3,
+      "name": "Evidence fit positive path",
+      "purpose": "construct evidence fit",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-cap1",
+      "parent": "D1-cat3",
+      "level": 3,
+      "name": "Evidence fit boundary path",
+      "purpose": "restrict evidence fit",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-leaf0",
+      "parent": "D1-cat3-cap0",
+      "level": 4,
+      "name": "State each option input conditions",
+      "purpose": "State each option input conditions",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-leaf1",
+      "parent": "D1-cat3-cap0",
+      "level": 4,
+      "name": "State evidence population or constructed scope",
+      "purpose": "State evidence population or constructed scope",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-leaf2",
+      "parent": "D1-cat3-cap0",
+      "level": 4,
+      "name": "Separate observation from prediction",
+      "purpose": "Separate observation from prediction",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-leaf3",
+      "parent": "D1-cat3-cap1",
+      "level": 4,
+      "name": "Separate performance from explanation",
+      "purpose": "Separate performance from explanation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat3-leaf4",
+      "parent": "D1-cat3-cap1",
+      "level": 4,
+      "name": "Retain negative evidence",
+      "purpose": "Retain negative evidence",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4",
+      "parent": "D1-domain0",
+      "level": 2,
+      "name": "Action constraints",
+      "purpose": "own action constraints",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-cap0",
+      "parent": "D1-cat4",
+      "level": 3,
+      "name": "Action constraints positive path",
+      "purpose": "construct action constraints",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-cap1",
+      "parent": "D1-cat4",
+      "level": 3,
+      "name": "Action constraints boundary path",
+      "purpose": "restrict action constraints",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-leaf0",
+      "parent": "D1-cat4-cap0",
+      "level": 4,
+      "name": "Represent an explicit budget",
+      "purpose": "Represent an explicit budget",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-leaf1",
+      "parent": "D1-cat4-cap0",
+      "level": 4,
+      "name": "Include preparation cost in bundle cost",
+      "purpose": "Include preparation cost in bundle cost",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-leaf2",
+      "parent": "D1-cat4-cap0",
+      "level": 4,
+      "name": "Represent resource exclusivity",
+      "purpose": "Represent resource exclusivity",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-leaf3",
+      "parent": "D1-cat4-cap1",
+      "level": 4,
+      "name": "Represent required authority",
+      "purpose": "Represent required authority",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat4-leaf4",
+      "parent": "D1-cat4-cap1",
+      "level": 4,
+      "name": "Represent task deadline",
+      "purpose": "Represent task deadline",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5",
+      "parent": "D1-domain1",
+      "level": 2,
+      "name": "Choice criteria",
+      "purpose": "own choice criteria",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-cap0",
+      "parent": "D1-cat5",
+      "level": 3,
+      "name": "Choice criteria positive path",
+      "purpose": "construct choice criteria",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-cap1",
+      "parent": "D1-cat5",
+      "level": 3,
+      "name": "Choice criteria boundary path",
+      "purpose": "restrict choice criteria",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-leaf0",
+      "parent": "D1-cat5-cap0",
+      "level": 4,
+      "name": "Retain criterion version",
+      "purpose": "Retain criterion version",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-leaf1",
+      "parent": "D1-cat5-cap0",
+      "level": 4,
+      "name": "Retain criterion owner",
+      "purpose": "Retain criterion owner",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-leaf2",
+      "parent": "D1-cat5-cap0",
+      "level": 4,
+      "name": "Distinguish threshold from maximization",
+      "purpose": "Distinguish threshold from maximization",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-leaf3",
+      "parent": "D1-cat5-cap1",
+      "level": 4,
+      "name": "Keep unmeasured intangibles visible",
+      "purpose": "Keep unmeasured intangibles visible",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat5-leaf4",
+      "parent": "D1-cat5-cap1",
+      "level": 4,
+      "name": "Prevent double counting identical effects",
+      "purpose": "Prevent double counting identical effects",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6",
+      "parent": "D1-domain1",
+      "level": 2,
+      "name": "Execution interface",
+      "purpose": "own execution interface",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-cap0",
+      "parent": "D1-cat6",
+      "level": 3,
+      "name": "Execution interface positive path",
+      "purpose": "construct execution interface",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-cap1",
+      "parent": "D1-cat6",
+      "level": 3,
+      "name": "Execution interface boundary path",
+      "purpose": "restrict execution interface",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-leaf0",
+      "parent": "D1-cat6-cap0",
+      "level": 4,
+      "name": "Transmit task revision",
+      "purpose": "Transmit task revision",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-leaf1",
+      "parent": "D1-cat6-cap0",
+      "level": 4,
+      "name": "Transmit exact operation input",
+      "purpose": "Transmit exact operation input",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-leaf2",
+      "parent": "D1-cat6-cap0",
+      "level": 4,
+      "name": "Name output contract",
+      "purpose": "Name output contract",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-leaf3",
+      "parent": "D1-cat6-cap1",
+      "level": 4,
+      "name": "Name endpoint owner",
+      "purpose": "Name endpoint owner",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat6-leaf4",
+      "parent": "D1-cat6-cap1",
+      "level": 4,
+      "name": "Return explicit error state",
+      "purpose": "Return explicit error state",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7",
+      "parent": "D1-domain1",
+      "level": 2,
+      "name": "Consequence assessment",
+      "purpose": "own consequence assessment",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-cap0",
+      "parent": "D1-cat7",
+      "level": 3,
+      "name": "Consequence assessment positive path",
+      "purpose": "construct consequence assessment",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-cap1",
+      "parent": "D1-cat7",
+      "level": 3,
+      "name": "Consequence assessment boundary path",
+      "purpose": "restrict consequence assessment",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-leaf0",
+      "parent": "D1-cat7-cap0",
+      "level": 4,
+      "name": "Compare expected with actual consequence",
+      "purpose": "Compare expected with actual consequence",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-leaf1",
+      "parent": "D1-cat7-cap0",
+      "level": 4,
+      "name": "Keep the initial baseline visible",
+      "purpose": "Keep the initial baseline visible",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-leaf2",
+      "parent": "D1-cat7-cap0",
+      "level": 4,
+      "name": "Separate repair success from first-pass success",
+      "purpose": "Separate repair success from first-pass success",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-leaf3",
+      "parent": "D1-cat7-cap1",
+      "level": 4,
+      "name": "Preserve an unchanged result",
+      "purpose": "Preserve an unchanged result",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat7-leaf4",
+      "parent": "D1-cat7-cap1",
+      "level": 4,
+      "name": "Classify a harmful result explicitly",
+      "purpose": "Classify a harmful result explicitly",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8",
+      "parent": "D1-domain1",
+      "level": 2,
+      "name": "Revision control",
+      "purpose": "own revision control",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-cap0",
+      "parent": "D1-cat8",
+      "level": 3,
+      "name": "Revision control positive path",
+      "purpose": "construct revision control",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-cap1",
+      "parent": "D1-cat8",
+      "level": 3,
+      "name": "Revision control boundary path",
+      "purpose": "restrict revision control",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-leaf0",
+      "parent": "D1-cat8-cap0",
+      "level": 4,
+      "name": "Reopen a rejected inference",
+      "purpose": "Reopen a rejected inference",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-leaf1",
+      "parent": "D1-cat8-cap0",
+      "level": 4,
+      "name": "Invalidate descendants of a removed premise",
+      "purpose": "Invalidate descendants of a removed premise",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-leaf2",
+      "parent": "D1-cat8-cap0",
+      "level": 4,
+      "name": "Retain useful incompatible alternatives",
+      "purpose": "Retain useful incompatible alternatives",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-leaf3",
+      "parent": "D1-cat8-cap1",
+      "level": 4,
+      "name": "Preserve original sources unchanged",
+      "purpose": "Preserve original sources unchanged",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat8-leaf4",
+      "parent": "D1-cat8-cap1",
+      "level": 4,
+      "name": "Limit automatic retries",
+      "purpose": "Limit automatic retries",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9",
+      "parent": "D1-domain1",
+      "level": 2,
+      "name": "Usability and maintenance",
+      "purpose": "own usability and maintenance",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-cap0",
+      "parent": "D1-cat9",
+      "level": 3,
+      "name": "Usability and maintenance positive path",
+      "purpose": "construct usability and maintenance",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-cap1",
+      "parent": "D1-cat9",
+      "level": 3,
+      "name": "Usability and maintenance boundary path",
+      "purpose": "restrict usability and maintenance",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-leaf0",
+      "parent": "D1-cat9-cap0",
+      "level": 4,
+      "name": "Give a direct answer at the relevant level",
+      "purpose": "Give a direct answer at the relevant level",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-leaf1",
+      "parent": "D1-cat9-cap0",
+      "level": 4,
+      "name": "Keep useful scope next to recommendation",
+      "purpose": "Keep useful scope next to recommendation",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-leaf2",
+      "parent": "D1-cat9-cap0",
+      "level": 4,
+      "name": "Provide a readable local artifact",
+      "purpose": "Provide a readable local artifact",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-leaf3",
+      "parent": "D1-cat9-cap1",
+      "level": 4,
+      "name": "Separate provenance from live decision view",
+      "purpose": "Separate provenance from live decision view",
+      "owner": "assistant"
+    },
+    {
+      "id": "D1-cat9-leaf4",
+      "parent": "D1-cat9-cap1",
+      "level": 4,
+      "name": "Retain an empty-state explanation",
+      "purpose": "Retain an empty-state explanation",
+      "owner": "assistant"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "DI1-01",
+      "from": "D1-cat0-leaf0",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Preserve the exact requested action",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-02",
+      "from": "D1-cat0-leaf1",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain the named actor",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-03",
+      "from": "D1-cat0-leaf2",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain the requested object",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-04",
+      "from": "D1-cat0-leaf3",
+      "to": "D1-cat0-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain the declared time horizon",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-05",
+      "from": "D1-cat0-leaf4",
+      "to": "D1-cat0-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain hard constraints",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-06",
+      "from": "D1-cat1-leaf0",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Detect a missing source",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-07",
+      "from": "D1-cat1-leaf1",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Distinguish inaccessible from nonexistent input",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-08",
+      "from": "D1-cat1-leaf2",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain source version",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-09",
+      "from": "D1-cat1-leaf3",
+      "to": "D1-cat1-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain units on numeric inputs",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-10",
+      "from": "D1-cat1-leaf4",
+      "to": "D1-cat1-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent unknown inputs explicitly",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-11",
+      "from": "D1-cat2-leaf0",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include the strongest ordinary continuation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-12",
+      "from": "D1-cat2-leaf1",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include a no-change candidate where feasible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-13",
+      "from": "D1-cat2-leaf2",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include a preparation candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-14",
+      "from": "D1-cat2-leaf3",
+      "to": "D1-cat2-cap1",
+      "mechanism": "versioned result record",
+      "data": "Include a representation change candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-15",
+      "from": "D1-cat2-leaf4",
+      "to": "D1-cat2-cap1",
+      "mechanism": "versioned result record",
+      "data": "Include a timing change candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-16",
+      "from": "D1-cat3-leaf0",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "State each option input conditions",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-17",
+      "from": "D1-cat3-leaf1",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "State evidence population or constructed scope",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-18",
+      "from": "D1-cat3-leaf2",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "Separate observation from prediction",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-19",
+      "from": "D1-cat3-leaf3",
+      "to": "D1-cat3-cap1",
+      "mechanism": "versioned result record",
+      "data": "Separate performance from explanation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-20",
+      "from": "D1-cat3-leaf4",
+      "to": "D1-cat3-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain negative evidence",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-21",
+      "from": "D1-cat4-leaf0",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Represent an explicit budget",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-22",
+      "from": "D1-cat4-leaf1",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include preparation cost in bundle cost",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-23",
+      "from": "D1-cat4-leaf2",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Represent resource exclusivity",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-24",
+      "from": "D1-cat4-leaf3",
+      "to": "D1-cat4-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent required authority",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-25",
+      "from": "D1-cat4-leaf4",
+      "to": "D1-cat4-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent task deadline",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-26",
+      "from": "D1-cat5-leaf0",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain criterion version",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-27",
+      "from": "D1-cat5-leaf1",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain criterion owner",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-28",
+      "from": "D1-cat5-leaf2",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Distinguish threshold from maximization",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-29",
+      "from": "D1-cat5-leaf3",
+      "to": "D1-cat5-cap1",
+      "mechanism": "versioned result record",
+      "data": "Keep unmeasured intangibles visible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-30",
+      "from": "D1-cat5-leaf4",
+      "to": "D1-cat5-cap1",
+      "mechanism": "versioned result record",
+      "data": "Prevent double counting identical effects",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-31",
+      "from": "D1-cat6-leaf0",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Transmit task revision",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-32",
+      "from": "D1-cat6-leaf1",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Transmit exact operation input",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-33",
+      "from": "D1-cat6-leaf2",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Name output contract",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-34",
+      "from": "D1-cat6-leaf3",
+      "to": "D1-cat6-cap1",
+      "mechanism": "versioned result record",
+      "data": "Name endpoint owner",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-35",
+      "from": "D1-cat6-leaf4",
+      "to": "D1-cat6-cap1",
+      "mechanism": "versioned result record",
+      "data": "Return explicit error state",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-36",
+      "from": "D1-cat7-leaf0",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Compare expected with actual consequence",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-37",
+      "from": "D1-cat7-leaf1",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Keep the initial baseline visible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-38",
+      "from": "D1-cat7-leaf2",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Separate repair success from first-pass success",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-39",
+      "from": "D1-cat7-leaf3",
+      "to": "D1-cat7-cap1",
+      "mechanism": "versioned result record",
+      "data": "Preserve an unchanged result",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-40",
+      "from": "D1-cat7-leaf4",
+      "to": "D1-cat7-cap1",
+      "mechanism": "versioned result record",
+      "data": "Classify a harmful result explicitly",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-41",
+      "from": "D1-cat8-leaf0",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Reopen a rejected inference",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-42",
+      "from": "D1-cat8-leaf1",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Invalidate descendants of a removed premise",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-43",
+      "from": "D1-cat8-leaf2",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain useful incompatible alternatives",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-44",
+      "from": "D1-cat8-leaf3",
+      "to": "D1-cat8-cap1",
+      "mechanism": "versioned result record",
+      "data": "Preserve original sources unchanged",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-45",
+      "from": "D1-cat8-leaf4",
+      "to": "D1-cat8-cap1",
+      "mechanism": "versioned result record",
+      "data": "Limit automatic retries",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-46",
+      "from": "D1-cat9-leaf0",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Give a direct answer at the relevant level",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-47",
+      "from": "D1-cat9-leaf1",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Keep useful scope next to recommendation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-48",
+      "from": "D1-cat9-leaf2",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Provide a readable local artifact",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-49",
+      "from": "D1-cat9-leaf3",
+      "to": "D1-cat9-cap1",
+      "mechanism": "versioned result record",
+      "data": "Separate provenance from live decision view",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-50",
+      "from": "D1-cat9-leaf4",
+      "to": "D1-cat9-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain an empty-state explanation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "DI1-01",
+      "from": "D1-cat0-leaf0",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Preserve the exact requested action",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-02",
+      "from": "D1-cat0-leaf1",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain the named actor",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-03",
+      "from": "D1-cat0-leaf2",
+      "to": "D1-cat0-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain the requested object",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-04",
+      "from": "D1-cat0-leaf3",
+      "to": "D1-cat0-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain the declared time horizon",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-05",
+      "from": "D1-cat0-leaf4",
+      "to": "D1-cat0-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain hard constraints",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-06",
+      "from": "D1-cat1-leaf0",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Detect a missing source",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-07",
+      "from": "D1-cat1-leaf1",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Distinguish inaccessible from nonexistent input",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-08",
+      "from": "D1-cat1-leaf2",
+      "to": "D1-cat1-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain source version",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-09",
+      "from": "D1-cat1-leaf3",
+      "to": "D1-cat1-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain units on numeric inputs",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-10",
+      "from": "D1-cat1-leaf4",
+      "to": "D1-cat1-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent unknown inputs explicitly",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-11",
+      "from": "D1-cat2-leaf0",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include the strongest ordinary continuation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-12",
+      "from": "D1-cat2-leaf1",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include a no-change candidate where feasible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-13",
+      "from": "D1-cat2-leaf2",
+      "to": "D1-cat2-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include a preparation candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-14",
+      "from": "D1-cat2-leaf3",
+      "to": "D1-cat2-cap1",
+      "mechanism": "versioned result record",
+      "data": "Include a representation change candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-15",
+      "from": "D1-cat2-leaf4",
+      "to": "D1-cat2-cap1",
+      "mechanism": "versioned result record",
+      "data": "Include a timing change candidate",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-16",
+      "from": "D1-cat3-leaf0",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "State each option input conditions",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-17",
+      "from": "D1-cat3-leaf1",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "State evidence population or constructed scope",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-18",
+      "from": "D1-cat3-leaf2",
+      "to": "D1-cat3-cap0",
+      "mechanism": "versioned result record",
+      "data": "Separate observation from prediction",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-19",
+      "from": "D1-cat3-leaf3",
+      "to": "D1-cat3-cap1",
+      "mechanism": "versioned result record",
+      "data": "Separate performance from explanation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-20",
+      "from": "D1-cat3-leaf4",
+      "to": "D1-cat3-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain negative evidence",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-21",
+      "from": "D1-cat4-leaf0",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Represent an explicit budget",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-22",
+      "from": "D1-cat4-leaf1",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Include preparation cost in bundle cost",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-23",
+      "from": "D1-cat4-leaf2",
+      "to": "D1-cat4-cap0",
+      "mechanism": "versioned result record",
+      "data": "Represent resource exclusivity",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-24",
+      "from": "D1-cat4-leaf3",
+      "to": "D1-cat4-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent required authority",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-25",
+      "from": "D1-cat4-leaf4",
+      "to": "D1-cat4-cap1",
+      "mechanism": "versioned result record",
+      "data": "Represent task deadline",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-26",
+      "from": "D1-cat5-leaf0",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain criterion version",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-27",
+      "from": "D1-cat5-leaf1",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain criterion owner",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-28",
+      "from": "D1-cat5-leaf2",
+      "to": "D1-cat5-cap0",
+      "mechanism": "versioned result record",
+      "data": "Distinguish threshold from maximization",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-29",
+      "from": "D1-cat5-leaf3",
+      "to": "D1-cat5-cap1",
+      "mechanism": "versioned result record",
+      "data": "Keep unmeasured intangibles visible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-30",
+      "from": "D1-cat5-leaf4",
+      "to": "D1-cat5-cap1",
+      "mechanism": "versioned result record",
+      "data": "Prevent double counting identical effects",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-31",
+      "from": "D1-cat6-leaf0",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Transmit task revision",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-32",
+      "from": "D1-cat6-leaf1",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Transmit exact operation input",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-33",
+      "from": "D1-cat6-leaf2",
+      "to": "D1-cat6-cap0",
+      "mechanism": "versioned result record",
+      "data": "Name output contract",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-34",
+      "from": "D1-cat6-leaf3",
+      "to": "D1-cat6-cap1",
+      "mechanism": "versioned result record",
+      "data": "Name endpoint owner",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-35",
+      "from": "D1-cat6-leaf4",
+      "to": "D1-cat6-cap1",
+      "mechanism": "versioned result record",
+      "data": "Return explicit error state",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-36",
+      "from": "D1-cat7-leaf0",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Compare expected with actual consequence",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-37",
+      "from": "D1-cat7-leaf1",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Keep the initial baseline visible",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-38",
+      "from": "D1-cat7-leaf2",
+      "to": "D1-cat7-cap0",
+      "mechanism": "versioned result record",
+      "data": "Separate repair success from first-pass success",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-39",
+      "from": "D1-cat7-leaf3",
+      "to": "D1-cat7-cap1",
+      "mechanism": "versioned result record",
+      "data": "Preserve an unchanged result",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-40",
+      "from": "D1-cat7-leaf4",
+      "to": "D1-cat7-cap1",
+      "mechanism": "versioned result record",
+      "data": "Classify a harmful result explicitly",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-41",
+      "from": "D1-cat8-leaf0",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Reopen a rejected inference",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-42",
+      "from": "D1-cat8-leaf1",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Invalidate descendants of a removed premise",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-43",
+      "from": "D1-cat8-leaf2",
+      "to": "D1-cat8-cap0",
+      "mechanism": "versioned result record",
+      "data": "Retain useful incompatible alternatives",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-44",
+      "from": "D1-cat8-leaf3",
+      "to": "D1-cat8-cap1",
+      "mechanism": "versioned result record",
+      "data": "Preserve original sources unchanged",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-45",
+      "from": "D1-cat8-leaf4",
+      "to": "D1-cat8-cap1",
+      "mechanism": "versioned result record",
+      "data": "Limit automatic retries",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-46",
+      "from": "D1-cat9-leaf0",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Give a direct answer at the relevant level",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-47",
+      "from": "D1-cat9-leaf1",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Keep useful scope next to recommendation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-48",
+      "from": "D1-cat9-leaf2",
+      "to": "D1-cat9-cap0",
+      "mechanism": "versioned result record",
+      "data": "Provide a readable local artifact",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-49",
+      "from": "D1-cat9-leaf3",
+      "to": "D1-cat9-cap1",
+      "mechanism": "versioned result record",
+      "data": "Separate provenance from live decision view",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "id": "DI1-50",
+      "from": "D1-cat9-leaf4",
+      "to": "D1-cat9-cap1",
+      "mechanism": "versioned result record",
+      "data": "Retain an empty-state explanation",
+      "frequency": "when condition is exercised",
+      "protocol": "JSON",
+      "error": "parent retains unknown/failed state instead of inventing result",
+      "interaction": "data"
+    },
+    {
+      "from": "D1-domain0",
+      "to": "D1-0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-domain1",
+      "to": "D1-0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat0",
+      "to": "D1-domain0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat0-cap0",
+      "to": "D1-cat0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat0-cap1",
+      "to": "D1-cat0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat1",
+      "to": "D1-domain0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat1-cap0",
+      "to": "D1-cat1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat1-cap1",
+      "to": "D1-cat1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat2",
+      "to": "D1-domain0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat2-cap0",
+      "to": "D1-cat2",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat2-cap1",
+      "to": "D1-cat2",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat3",
+      "to": "D1-domain0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat3-cap0",
+      "to": "D1-cat3",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat3-cap1",
+      "to": "D1-cat3",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat4",
+      "to": "D1-domain0",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat4-cap0",
+      "to": "D1-cat4",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat4-cap1",
+      "to": "D1-cat4",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat5",
+      "to": "D1-domain1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat5-cap0",
+      "to": "D1-cat5",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat5-cap1",
+      "to": "D1-cat5",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat6",
+      "to": "D1-domain1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat6-cap0",
+      "to": "D1-cat6",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat6-cap1",
+      "to": "D1-cat6",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat7",
+      "to": "D1-domain1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat7-cap0",
+      "to": "D1-cat7",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat7-cap1",
+      "to": "D1-cat7",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat8",
+      "to": "D1-domain1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat8-cap0",
+      "to": "D1-cat8",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat8-cap1",
+      "to": "D1-cat8",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat9",
+      "to": "D1-domain1",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat9-cap0",
+      "to": "D1-cat9",
+      "interaction": "control aggregation"
+    },
+    {
+      "from": "D1-cat9-cap1",
+      "to": "D1-cat9",
+      "interaction": "control aggregation"
+    }
+  ],
+  "allocation": [
+    {
+      "requirement": "R1-01",
+      "primary": "D1-cat0-leaf0"
+    },
+    {
+      "requirement": "R1-02",
+      "primary": "D1-cat0-leaf1"
+    },
+    {
+      "requirement": "R1-03",
+      "primary": "D1-cat0-leaf2"
+    },
+    {
+      "requirement": "R1-04",
+      "primary": "D1-cat0-leaf3"
+    },
+    {
+      "requirement": "R1-05",
+      "primary": "D1-cat0-leaf4"
+    },
+    {
+      "requirement": "R1-06",
+      "primary": "D1-cat0-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-07",
+      "primary": "D1-cat0-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-08",
+      "primary": "D1-cat0-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-09",
+      "primary": "D1-cat1-leaf0"
+    },
+    {
+      "requirement": "R1-10",
+      "primary": "D1-cat1-leaf1"
+    },
+    {
+      "requirement": "R1-11",
+      "primary": "D1-cat1-leaf2"
+    },
+    {
+      "requirement": "R1-12",
+      "primary": "D1-cat1-leaf3"
+    },
+    {
+      "requirement": "R1-13",
+      "primary": "D1-cat1-leaf4"
+    },
+    {
+      "requirement": "R1-14",
+      "primary": "D1-cat1-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-15",
+      "primary": "D1-cat1-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-16",
+      "primary": "D1-cat1-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-17",
+      "primary": "D1-cat2-leaf0"
+    },
+    {
+      "requirement": "R1-18",
+      "primary": "D1-cat2-leaf1"
+    },
+    {
+      "requirement": "R1-19",
+      "primary": "D1-cat2-leaf2"
+    },
+    {
+      "requirement": "R1-20",
+      "primary": "D1-cat2-leaf3"
+    },
+    {
+      "requirement": "R1-21",
+      "primary": "D1-cat2-leaf4"
+    },
+    {
+      "requirement": "R1-22",
+      "primary": "D1-cat2-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-23",
+      "primary": "D1-cat2-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-24",
+      "primary": "D1-cat2-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-25",
+      "primary": "D1-cat3-leaf0"
+    },
+    {
+      "requirement": "R1-26",
+      "primary": "D1-cat3-leaf1"
+    },
+    {
+      "requirement": "R1-27",
+      "primary": "D1-cat3-leaf2"
+    },
+    {
+      "requirement": "R1-28",
+      "primary": "D1-cat3-leaf3"
+    },
+    {
+      "requirement": "R1-29",
+      "primary": "D1-cat3-leaf4"
+    },
+    {
+      "requirement": "R1-30",
+      "primary": "D1-cat3-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-31",
+      "primary": "D1-cat3-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-32",
+      "primary": "D1-cat3-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-33",
+      "primary": "D1-cat4-leaf0"
+    },
+    {
+      "requirement": "R1-34",
+      "primary": "D1-cat4-leaf1"
+    },
+    {
+      "requirement": "R1-35",
+      "primary": "D1-cat4-leaf2"
+    },
+    {
+      "requirement": "R1-36",
+      "primary": "D1-cat4-leaf3"
+    },
+    {
+      "requirement": "R1-37",
+      "primary": "D1-cat4-leaf4"
+    },
+    {
+      "requirement": "R1-38",
+      "primary": "D1-cat4-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-39",
+      "primary": "D1-cat4-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-40",
+      "primary": "D1-cat4-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-41",
+      "primary": "D1-cat5-leaf0"
+    },
+    {
+      "requirement": "R1-42",
+      "primary": "D1-cat5-leaf1"
+    },
+    {
+      "requirement": "R1-43",
+      "primary": "D1-cat5-leaf2"
+    },
+    {
+      "requirement": "R1-44",
+      "primary": "D1-cat5-leaf3"
+    },
+    {
+      "requirement": "R1-45",
+      "primary": "D1-cat5-leaf4"
+    },
+    {
+      "requirement": "R1-46",
+      "primary": "D1-cat5-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-47",
+      "primary": "D1-cat5-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-48",
+      "primary": "D1-cat5-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-49",
+      "primary": "D1-cat6-leaf0"
+    },
+    {
+      "requirement": "R1-50",
+      "primary": "D1-cat6-leaf1"
+    },
+    {
+      "requirement": "R1-51",
+      "primary": "D1-cat6-leaf2"
+    },
+    {
+      "requirement": "R1-52",
+      "primary": "D1-cat6-leaf3"
+    },
+    {
+      "requirement": "R1-53",
+      "primary": "D1-cat6-leaf4"
+    },
+    {
+      "requirement": "R1-54",
+      "primary": "D1-cat6-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-55",
+      "primary": "D1-cat6-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-56",
+      "primary": "D1-cat6-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-57",
+      "primary": "D1-cat7-leaf0"
+    },
+    {
+      "requirement": "R1-58",
+      "primary": "D1-cat7-leaf1"
+    },
+    {
+      "requirement": "R1-59",
+      "primary": "D1-cat7-leaf2"
+    },
+    {
+      "requirement": "R1-60",
+      "primary": "D1-cat7-leaf3"
+    },
+    {
+      "requirement": "R1-61",
+      "primary": "D1-cat7-leaf4"
+    },
+    {
+      "requirement": "R1-62",
+      "primary": "D1-cat7-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-63",
+      "primary": "D1-cat7-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-64",
+      "primary": "D1-cat7-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-65",
+      "primary": "D1-cat8-leaf0"
+    },
+    {
+      "requirement": "R1-66",
+      "primary": "D1-cat8-leaf1"
+    },
+    {
+      "requirement": "R1-67",
+      "primary": "D1-cat8-leaf2"
+    },
+    {
+      "requirement": "R1-68",
+      "primary": "D1-cat8-leaf3"
+    },
+    {
+      "requirement": "R1-69",
+      "primary": "D1-cat8-leaf4"
+    },
+    {
+      "requirement": "R1-70",
+      "primary": "D1-cat8-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-71",
+      "primary": "D1-cat8-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-72",
+      "primary": "D1-cat8-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-73",
+      "primary": "D1-cat9-leaf0"
+    },
+    {
+      "requirement": "R1-74",
+      "primary": "D1-cat9-leaf1"
+    },
+    {
+      "requirement": "R1-75",
+      "primary": "D1-cat9-leaf2"
+    },
+    {
+      "requirement": "R1-76",
+      "primary": "D1-cat9-leaf3"
+    },
+    {
+      "requirement": "R1-77",
+      "primary": "D1-cat9-leaf4"
+    },
+    {
+      "requirement": "R1-78",
+      "primary": "D1-cat9-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-79",
+      "primary": "D1-cat9-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    },
+    {
+      "requirement": "R1-80",
+      "primary": "D1-cat9-leaf4",
+      "coordination": "boundary leaf retains each distinct condition"
+    }
+  ],
+  "criteria": {
+    "requirements_allocated": true,
+    "single_primary_owner": true,
+    "five_levels": true,
+    "no_missing_parent": true,
+    "interface_endpoints_exist": true,
+    "no_cycles": true,
+    "logging_allocated": true,
+    "external_boundary_allocated": true,
+    "leaf_deployment_warranted": false
+  },
+  "final_operational_grouping": "retain ten category owners; leaf candidates are reasoning responsibilities, not separately deployed services"
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "argv": [
+      "python3",
+      "scripts/session_learning.py",
+      "capture",
+      "insight",
+      "Separate pre-run predictions from retrospective checks",
+      "systems session"
+    ],
+    "cwd": "/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "python3: can't open file '/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354/scripts/session_learning.py': [Errno 2] No such file or directory\n"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/session_learning.py",
+      "conflicts"
+    ],
+    "cwd": "/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "python3: can't open file '/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354/scripts/session_learning.py': [Errno 2] No such file or directory\n"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/session_learning.py",
+      "context",
+      "decision"
+    ],
+    "cwd": "/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354",
+    "returncode": 2,
+    "stdout": "",
+    "stderr": "python3: can't open file '/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354/scripts/session_learning.py': [Errno 2] No such file or directory\n"
+  }
+]

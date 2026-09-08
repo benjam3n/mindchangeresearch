@@ -1,0 +1,377 @@
+{
+  "patterns": [
+    {
+      "id": "pattern-01",
+      "name": "Problem existence",
+      "interpretation": "A suspected difficulty whose existence is unsettled",
+      "contribution": "Identify a concrete discrepancy and the condition that makes it a problem"
+    },
+    {
+      "id": "pattern-02",
+      "name": "Problem formulation",
+      "interpretation": "A difficulty that may have been described inadequately",
+      "contribution": "Construct alternative formulations and identify how their required work differs"
+    },
+    {
+      "id": "pattern-03",
+      "name": "Problem location",
+      "interpretation": "A failure that may arise at a different stage or boundary",
+      "contribution": "Locate the earliest consequential divergence from the intended result"
+    },
+    {
+      "id": "pattern-04",
+      "name": "Problem recurrence",
+      "interpretation": "One occurrence of a repeating pattern",
+      "contribution": "Compare occurrences to distinguish recurring conditions from incidental details"
+    },
+    {
+      "id": "pattern-05",
+      "name": "Problem priority",
+      "interpretation": "One demand among competing demands",
+      "contribution": "Determine which unresolved matter most affects the intended outcomes"
+    },
+    {
+      "id": "pattern-06",
+      "name": "Problem avoidability",
+      "interpretation": "A difficulty whose generating conditions may be changeable",
+      "contribution": "Find whether altering a prerequisite prevents the difficulty from arising"
+    },
+    {
+      "id": "pattern-07",
+      "name": "Goal meaning",
+      "interpretation": "A stated goal that may only partly express the underlying concern",
+      "contribution": "Identify what achieving it is expected to make possible"
+    },
+    {
+      "id": "pattern-08",
+      "name": "Goal necessity",
+      "interpretation": "A proposed goal whose necessity is unestablished",
+      "contribution": "Find whether the underlying concern can be met without that goal"
+    },
+    {
+      "id": "pattern-09",
+      "name": "Goal prerequisite",
+      "interpretation": "An outcome dependent on missing conditions",
+      "contribution": "Determine which conditions must hold before the outcome is attainable"
+    },
+    {
+      "id": "pattern-10",
+      "name": "Goal compatibility",
+      "interpretation": "Several desired outcomes that may interfere",
+      "contribution": "Specify where achieving one prevents, enables, or leaves another unaffected"
+    },
+    {
+      "id": "pattern-11",
+      "name": "Goal replacement",
+      "interpretation": "A current objective that may have lost its purpose",
+      "contribution": "Examine whether its original reason still holds and construct a replacement if needed"
+    },
+    {
+      "id": "pattern-12",
+      "name": "Goal maintenance",
+      "interpretation": "An already achieved condition that can deteriorate",
+      "contribution": "Identify sustaining conditions and appropriate responses to deviation"
+    },
+    {
+      "id": "pattern-13",
+      "name": "Claim specification",
+      "interpretation": "An assertion whose exact content is unclear",
+      "contribution": "Fix its reference, quantifiers, scope, and truth conditions"
+    },
+    {
+      "id": "pattern-14",
+      "name": "Claim implication",
+      "interpretation": "An assumption whose consequences are not yet understood",
+      "contribution": "Derive conditional consequences while retaining their premises"
+    },
+    {
+      "id": "pattern-15",
+      "name": "Claim failure",
+      "interpretation": "A proposition or inference that may fail in identifiable cases",
+      "contribution": "Construct a relevant countercase or specify the limits of the search"
+    },
+    {
+      "id": "pattern-16",
+      "name": "Claim support",
+      "interpretation": "A conclusion whose grounds need examination",
+      "contribution": "Identify evidence, dependence, defeaters, and what acceptance is justified"
+    },
+    {
+      "id": "pattern-17",
+      "name": "Explanation cause",
+      "interpretation": "An outcome produced through some process",
+      "contribution": "Construct and compare causal accounts that could produce the observed difference"
+    },
+    {
+      "id": "pattern-18",
+      "name": "Explanation contrast",
+      "interpretation": "A difference between what happened and a specified alternative",
+      "contribution": "Identify what explains that particular contrast"
+    },
+    {
+      "id": "pattern-19",
+      "name": "Explanation alternative",
+      "interpretation": "An observation compatible with multiple accounts",
+      "contribution": "Construct accounts that disagree about a further observation or intervention"
+    },
+    {
+      "id": "pattern-20",
+      "name": "Explanation discrimination",
+      "interpretation": "Competing accounts needing a separating result",
+      "contribution": "Find an accessible observation with different implications for the accounts"
+    },
+    {
+      "id": "pattern-21",
+      "name": "Uncertainty relevance",
+      "interpretation": "Missing knowledge whose importance is unsettled",
+      "contribution": "Determine whether plausible answers change the appropriate next action"
+    },
+    {
+      "id": "pattern-22",
+      "name": "Uncertainty reducibility",
+      "interpretation": "An unresolved distinction that may or may not be accessible",
+      "contribution": "Identify an attainable observation or specify the present limit"
+    },
+    {
+      "id": "pattern-23",
+      "name": "Prediction correspondence",
+      "interpretation": "An expectation whose relationship to outcomes needs learning",
+      "contribution": "Compare predictions with outcomes in their stated conditions and revise the expectation"
+    },
+    {
+      "id": "pattern-24",
+      "name": "Model limitation",
+      "interpretation": "A useful account operating near a boundary of applicability",
+      "contribution": "Identify cases in which an omitted feature changes its conclusions"
+    },
+    {
+      "id": "pattern-25",
+      "name": "Expression representation distinction",
+      "interpretation": "Material organized without a needed difference",
+      "contribution": "Construct a representation that exposes the difference needed for the next operation",
+      "previous_name": "Representation distinction"
+    },
+    {
+      "id": "pattern-26",
+      "name": "Expression representation omission",
+      "interpretation": "A representation that hides a consequential part of the matter",
+      "contribution": "Identify what is absent and how its absence changes available conclusions",
+      "previous_name": "Representation omission"
+    },
+    {
+      "id": "pattern-27",
+      "name": "Expression representation conversion",
+      "interpretation": "A task made difficult by the current form",
+      "contribution": "Convert the material into a form suited to the required operation while preserving relevant content",
+      "previous_name": "Representation conversion"
+    },
+    {
+      "id": "pattern-28",
+      "name": "Expression representation compression",
+      "interpretation": "Too much material for the available attention or memory",
+      "contribution": "Preserve the distinctions required for intended use while reducing the representation",
+      "previous_name": "Representation compression"
+    },
+    {
+      "id": "pattern-29",
+      "name": "Expression ambiguity",
+      "interpretation": "An expression supporting different consequential readings",
+      "contribution": "Locate the ambiguous term or structure and separate the interpretations",
+      "previous_name": "Description ambiguity"
+    },
+    {
+      "id": "pattern-30",
+      "name": "Subject boundary",
+      "interpretation": "A matter with uncertain inclusion conditions",
+      "contribution": "State which determinations belong to the subject and which do not"
+    },
+    {
+      "id": "pattern-31",
+      "name": "Subject relation",
+      "interpretation": "Subjects whose relationship may have been misclassified",
+      "contribution": "Distinguish type membership, part membership, dependence, use, and relevance"
+    },
+    {
+      "id": "pattern-32",
+      "name": "Question presupposition",
+      "interpretation": "A question that assumes something unsettled",
+      "contribution": "Examine its assumptions before treating its answer space as appropriate"
+    },
+    {
+      "id": "pattern-33",
+      "name": "Question answer space",
+      "interpretation": "A request whose possible satisfactory answers are unclear",
+      "contribution": "Specify what an answer must distinguish and which answers are admissible"
+    },
+    {
+      "id": "pattern-34",
+      "name": "Question order",
+      "interpretation": "Questions whose usefulness depends on earlier answers",
+      "contribution": "Arrange questions according to the information their successors require"
+    },
+    {
+      "id": "pattern-35",
+      "name": "Attention allocation",
+      "interpretation": "A matter in which the wrong features receive limited attention",
+      "contribution": "Identify what observation or distinction would most affect the next contribution"
+    },
+    {
+      "id": "pattern-36",
+      "name": "Perspective history",
+      "interpretation": "A current interpretation shaped by an unexamined origin",
+      "contribution": "Recover how it became available or adopted and whether its originating conditions still hold"
+    },
+    {
+      "id": "pattern-37",
+      "name": "Reasoning approach availability",
+      "interpretation": "A problem for which a needed method may already exist",
+      "contribution": "Retrieve an identifiable approach with relevant operations and conditions",
+      "previous_name": "Approach availability"
+    },
+    {
+      "id": "pattern-38",
+      "name": "Reasoning approach applicability",
+      "interpretation": "A known method whose conditions may not hold here",
+      "contribution": "Compare the current case with its input and application requirements",
+      "previous_name": "Approach applicability"
+    },
+    {
+      "id": "pattern-39",
+      "name": "Reasoning approach selection",
+      "interpretation": "A choice among available ways of proceeding",
+      "contribution": "Compare what each can contribute under the present goal and constraints",
+      "previous_name": "Approach selection"
+    },
+    {
+      "id": "pattern-40",
+      "name": "Reasoning approach construction",
+      "interpretation": "A required transformation absent from the available repertoire",
+      "contribution": "Construct intellectual operations that can supply the missing contribution",
+      "previous_name": "Approach construction"
+    },
+    {
+      "id": "pattern-41",
+      "name": "Reasoning approach modification",
+      "interpretation": "An approach that nearly fits but fails in a specified respect",
+      "contribution": "Change the responsible operation or condition and preserve its other needed contributions",
+      "previous_name": "Approach modification"
+    },
+    {
+      "id": "pattern-42",
+      "name": "Reasoning approach composition",
+      "interpretation": "A task requiring contributions from multiple approaches",
+      "contribution": "Specify dependencies, interfaces, order, and the use of each result",
+      "previous_name": "Approach composition"
+    },
+    {
+      "id": "pattern-43",
+      "name": "Reasoning approach substitution",
+      "interpretation": "A needed contribution currently supplied by an unsuitable method",
+      "contribution": "Identify another operation that preserves the required contribution",
+      "previous_name": "Approach substitution"
+    },
+    {
+      "id": "pattern-44",
+      "name": "Option construction",
+      "interpretation": "A choice restricted by the options currently represented",
+      "contribution": "Construct a new feasible alternative addressing the underlying concern"
+    },
+    {
+      "id": "pattern-45",
+      "name": "Constraint revision",
+      "interpretation": "A limit whose status as fixed is questionable",
+      "contribution": "Determine who or what establishes it and whether it can legitimately change"
+    },
+    {
+      "id": "pattern-46",
+      "name": "Resource bottleneck",
+      "interpretation": "A task limited by a particular unavailable or insufficient resource",
+      "contribution": "Locate the resource whose change would alter what can be accomplished"
+    },
+    {
+      "id": "pattern-47",
+      "name": "Resource substitution",
+      "interpretation": "A task whose usual resource is unavailable",
+      "contribution": "Construct a different resource arrangement that meets the actual requirement"
+    },
+    {
+      "id": "pattern-48",
+      "name": "Execution prerequisite",
+      "interpretation": "A selected course that cannot yet begin or continue",
+      "contribution": "Identify the concrete condition preventing its next operation"
+    },
+    {
+      "id": "pattern-49",
+      "name": "Anticipation outcome",
+      "interpretation": "An action with materially different possible continuations",
+      "contribution": "Identify possible outcomes, distinguishing observations, and corresponding responses",
+      "previous_name": "Outcome anticipation"
+    },
+    {
+      "id": "pattern-50",
+      "name": "Action reversibility",
+      "interpretation": "A choice that can preserve or remove later possibilities",
+      "contribution": "Determine what can be undone, at what cost, and which options disappear"
+    },
+    {
+      "id": "pattern-51",
+      "name": "Consequence distribution",
+      "interpretation": "A proposed outcome affecting different people or positions differently",
+      "contribution": "Identify whose consequences differ and how those differences bear on the intended result"
+    },
+    {
+      "id": "pattern-52",
+      "name": "Criterion justification",
+      "interpretation": "A verdict depending on an evaluative rule",
+      "contribution": "Determine why that rule is suitable for the concern and scope"
+    },
+    {
+      "id": "pattern-53",
+      "name": "Criterion conflict",
+      "interpretation": "Several legitimate comparisons favoring different results",
+      "contribution": "Specify the conflict and what a resolution would require"
+    },
+    {
+      "id": "pattern-54",
+      "name": "Comparison robustness",
+      "interpretation": "A preference that may depend on uncertain assumptions",
+      "contribution": "Determine which plausible changes reverse the ordering"
+    },
+    {
+      "id": "pattern-55",
+      "name": "Learning attribution",
+      "interpretation": "A performance change with an uncertain source",
+      "contribution": "Distinguish the contributions of new knowledge, method, cue, resource, and changed task"
+    },
+    {
+      "id": "pattern-56",
+      "name": "Learning retention",
+      "interpretation": "A useful change that may be unavailable later",
+      "contribution": "Preserve its content, retrieval conditions, and application limits"
+    },
+    {
+      "id": "pattern-57",
+      "name": "Learning transfer",
+      "interpretation": "A learned contribution encountering a new case",
+      "contribution": "Identify what structure must remain and what can vary"
+    },
+    {
+      "id": "pattern-58",
+      "name": "Perspective transition",
+      "interpretation": "A current interpretation limiting access to useful later interpretations",
+      "contribution": "Construct the observation, comparison, question, or operation that could make a better perspective available"
+    },
+    {
+      "id": "pattern-59",
+      "name": "Continuation value",
+      "interpretation": "Further work competing with acting, stopping, or other work",
+      "contribution": "Determine which live uncertainty or possible contribution still justifies continuation"
+    },
+    {
+      "id": "pattern-60",
+      "name": "Exploration opportunity",
+      "interpretation": "A situation containing possibilities not yet connected to a fixed goal",
+      "contribution": "Create encounters, questions, or variations that can reveal a worthwhile direction"
+    }
+  ]
+}

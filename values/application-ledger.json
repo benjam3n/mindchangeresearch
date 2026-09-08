@@ -1,0 +1,662 @@
+[
+  {
+    "skill_id": "vcl",
+    "application_number": 1,
+    "file": "values/019-vcl-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to eight trade-offs, five sacrifice ceilings, three audit types, and a constraint-confounding comparison.",
+    "missing_requirements": [
+      "Actual seven-day human audit, unrestricted trade-off choices and personal sacrifice ceilings are unavailable; case/working-role analysis only."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed learner: mandatory cataloguing takes 9 hours, optional sketching 1 hour, and sketching is chosen whenever the learner controls the interval. Expenditure-only provisional output: \u201ccataloguing is the top value.\u201d Revised output: \u201ccataloguing dominates required time; sketching wins the observed discretionary choices; total intrinsic hierarchy remains unresolved.\u201d This is an actual changed inference on a constructed case, not a discovered human value."
+  },
+  {
+    "skill_id": "vcl",
+    "application_number": 2,
+    "file": "values/019-vcl-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to eight choices, five sacrifices, a seven-day constructed audit, and a later schedule choice.",
+    "missing_requirements": [
+      "Actual seven-day human audit, unrestricted trade-off choices and personal sacrifice ceilings are unavailable; case/working-role analysis only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "vcl",
+    "application_number": 3,
+    "file": "values/019-vcl-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to eight role collisions and five sacrifice ceilings.",
+    "missing_requirements": [
+      "Actual seven-day human audit, unrestricted trade-off choices and personal sacrifice ceilings are unavailable; case/working-role analysis only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "ve",
+    "application_number": 1,
+    "file": "values/020-ve-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to eight action-to-value chains, all circularity checks, additional-goal status, four conflicts, and a later selection.",
+    "missing_requirements": [
+      "Live answers, confirmed circular intrinsic termini, and respondent confirmation that no additional goals remain are unavailable."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "For funr-1 preparation, two candidate threads were available: a direct evidence table and an odd \u201cmuseum of discarded questions.\u201d I retained the museum thread as exploration and assigned no KEEP or benefit in advance. Under the initial single immediate-use terminus it had no surviving reason. The new map changes the actual exploration queue while preserving the program\u2019s requested breadth."
+  },
+  {
+    "skill_id": "ve",
+    "application_number": 2,
+    "file": "values/020-ve-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight value chains and four conflicts; terminal and additional-answer steps remain explicitly unobserved.",
+    "missing_requirements": [
+      "Live answers, confirmed circular intrinsic termini, and respondent confirmation that no additional goals remain are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "ve",
+    "application_number": 3,
+    "file": "values/020-ve-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight chains, eight selection cases, four predicate conflicts, and a later source-use decision.",
+    "missing_requirements": [
+      "Live answers, confirmed circular intrinsic termini, and respondent confirmation that no additional goals remain are unavailable."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "For the trust-1 record, \u201ctrust erosion is usually bidirectional\u201d enters as a source claim requiring evidence, not as a case fact. I therefore retain a hypothetical case with a one-sided broken commitment without assigning invented wrongdoing to its recipient. The queue\u2019s interest field keeps that proposition worth examining while its truth field stays unverified."
+  },
+  {
+    "skill_id": "vcd",
+    "application_number": 1,
+    "file": "values/021-vcd-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to eight conflict components, historical limits, an explicit missing-source-list defect, three candidate organizations, and actual integration into the next consolidation.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "The consolidation written immediately after this record uses a decision-keyed table for vcl-1, ve-1, ve-3, and this finding. Its two retrieval exercises produce a constrained-choice interpretation and a pure-interest queue decision without a new value-elicitation pass."
+  },
+  {
+    "skill_id": "vcd",
+    "application_number": 2,
+    "file": "values/021-vcd-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight conflict components, six options, explicit pivot, and a concrete subsequent draft.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "vcd",
+    "application_number": 3,
+    "file": "values/021-vcd-3.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight collisions and eight downstream thread decisions.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "pre",
+    "application_number": 1,
+    "file": "values/022-pre-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to sixteen trade-off pairs with two concrete scenarios each, twenty-four matched options, complete boc choice-validation output, and one later comparison.",
+    "missing_requirements": [
+      "Real-user choices across the scenario pairs are not collected; supplied-task or explicitly stipulated profiles only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "pre",
+    "application_number": 2,
+    "file": "values/022-pre-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to sixteen trade-off pairs with two concrete scenarios each, twenty-four matched options, complete boc choice-validation output, and one later comparison.",
+    "missing_requirements": [
+      "Real-user choices across the scenario pairs are not collected; supplied-task or explicitly stipulated profiles only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "pre",
+    "application_number": 3,
+    "file": "values/022-pre-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Expanded to sixteen trade-off pairs with two concrete scenarios each, twenty-four matched options, complete boc choice-validation output, and one later comparison.",
+    "missing_requirements": [
+      "Real-user choices across the scenario pairs are not collected; supplied-task or explicitly stipulated profiles only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "grfr",
+    "application_number": 1,
+    "file": "values/023-grfr-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight reframe candidates, explicit original-choice state, and a subsequent eligibility judgment.",
+    "missing_requirements": [
+      "No real actor selects a new nontrivial reframe; substituted goals remain proposals and the authorized original is preserved."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "grfr",
+    "application_number": 2,
+    "file": "values/023-grfr-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight reframe types, four value chains, two interpretations of membership, and a generated invitation.",
+    "missing_requirements": [
+      "No real actor selects a new nontrivial reframe; substituted goals remain proposals and the authorized original is preserved."
+    ],
+    "verdict": "REJECT",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "grfr",
+    "application_number": 3,
+    "file": "values/023-grfr-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight reframe candidates and four value chains, with a later three-field outcome record.",
+    "missing_requirements": [
+      "No real actor selects a new nontrivial reframe; substituted goals remain proposals and the authorized original is preserved."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "funr",
+    "application_number": 1,
+    "file": "values/024-funr-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Five hooks, eight dependent pulls, three tangents, three counterfactual experiments, a dead end, and a distinct later prompt.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed scene: a colleague repeatedly closes a shared office door. Answer-request prompt: \u201cWhy do they dislike collaboration?\u201d Revised attention arrangement: \u201cFrom the corridor the closed door removes access; from the desk it removes noise. Which access expectation and work constraint are known in this case?\u201d The produced output now contains two information-dependent interpretations and requests the missing fact. The initial motive-loaded question would have selected dislike as its premise. This is a local representation improvement, not evidence about the colleague."
+  },
+  {
+    "skill_id": "funr",
+    "application_number": 2,
+    "file": "values/024-funr-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Four hooks, eight dependent pulls, three tangents, three reversals/hybrids, and a concrete dialogue.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "funr",
+    "application_number": 3,
+    "file": "values/024-funr-3.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Five hooks, eight dependent pulls, three tangents, three reversals, a rejected dead end, and a later representation.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "mp",
+    "application_number": 1,
+    "file": "values/025-mp-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight tasks, six original ordering rules, eight state/dependency cases, two complete schedules, and a distinct later window calculation.",
+    "missing_requirements": [
+      "Human energy/motivation and subsequent response to ordering are unobserved; actual scheduling comparisons are scoped to constructed inputs."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed session: a studio station becomes unavailable at minute 20; setup needs 15 minutes and an optional confidence exercise needs 8. The initial easy-first schedule finishes setup at minute 23 and loses the station. Applying the revised ordering puts setup first, finishing at 15; the confidence exercise follows. The actual generated plan removes three minutes of deadline lateness. This is scheduling arithmetic, not a demonstrated human motivation change."
+  },
+  {
+    "skill_id": "mp",
+    "application_number": 2,
+    "file": "values/025-mp-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight tasks, two full sequences, six ordering-rule decisions, and eight variations.",
+    "missing_requirements": [
+      "Human energy/motivation and subsequent response to ordering are unobserved; actual scheduling comparisons are scoped to constructed inputs."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "mp",
+    "application_number": 3,
+    "file": "values/025-mp-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight tasks, six ordering rules, eight end-state alternatives, a full sequence, and a later handoff.",
+    "missing_requirements": [
+      "Human energy/motivation and subsequent response to ordering are unobserved; actual scheduling comparisons are scoped to constructed inputs."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "trust",
+    "application_number": 1,
+    "file": "values/026-trust-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: 6+ party pairs, 3 dimensions plus structural and system analysis, 12 events, 10 interventions. Executed: six unordered pairs in both directions, twelve events, ten interventions, each with costs/prerequisites and a scoped signal assessment.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed delegation: analyst P has two correct calculations and one late report; analyst Q has on-time reports but an uncorrected denominator error. An overall \u201cboth medium\u201d summary leaves both interchangeable. Applying the dimensional map produces P for arithmetic review and Q for a deadline reminder only, with a separate verifier for Q\u2019s calculation. The generated allocation now matches the provided task evidence and avoids assigning arithmetic to the known incorrect calculator."
+  },
+  {
+    "skill_id": "trust",
+    "application_number": 2,
+    "file": "values/026-trust-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: 6+ party pairs, 3 dimensions plus structural and system analysis, 12 events, 10 interventions. Executed: six unordered pairs in both directions, twelve events, ten interventions, each with costs/prerequisites and a scoped signal assessment.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Later generated invitation: \u201cYou can check whether this correction accurately describes your permitted scope; you do not need to endorse the project or resume participation.\u201d This differs from an apology followed by a new endorsement request, but no real recipient receives it or responds."
+  },
+  {
+    "skill_id": "trust",
+    "application_number": 3,
+    "file": "values/026-trust-3.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: 6+ party pairs, 3 dimensions plus structural and system analysis, 12 events, 10 interventions. Executed: six unordered pairs in both directions, twelve events, ten interventions, each with costs/prerequisites and a scoped signal assessment.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "New generated acceptance record has three independent fields: provenance accepted for replica set v1; access instruction unresolved for audio draft v2; closing/reset plan accepted for the stated time. A single \u201cteam approves\u201d badge is not used. No actual team has adopted the record."
+  },
+  {
+    "skill_id": "gu",
+    "application_number": 1,
+    "file": "values/067-gu-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. All standard GU operations are supplied; required ARAW dependency meets its explicit 8x floors. VE remains partial for missing live answers; conditional routing is stated explicitly.",
+    "missing_requirements": [
+      "Required ARAW 8x is executed; live VE answers/circular termini remain absent. Full personally grounded journey is not ready; conditional GJS/EMV route is not executed or claimed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "gu",
+    "application_number": 2,
+    "file": "values/067-gu-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. All standard GU operations are supplied; required ARAW dependency meets its explicit 8x floors. VE remains partial for missing live answers; conditional routing is stated explicitly.",
+    "missing_requirements": [
+      "Required ARAW 8x is executed; live VE answers/circular termini remain absent. Full personally grounded journey is not ready; conditional GJS/EMV route is not executed or claimed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "ig",
+    "application_number": 1,
+    "file": "values/068-ig-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Five intuition steps, five bias checks, eight probes and required AR dependency at its explicit 8x floors.",
+    "missing_requirements": [
+      "Broader human causal effects are unobserved; required AR 8x is executed, and IG-2 EXD design is complete but its trial is unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "ig",
+    "application_number": 2,
+    "file": "values/068-ig-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Five intuition steps, eight discriminating dimensions, required AR at its explicit 8x floors and full EXD design; human causal trial is unperformed.",
+    "missing_requirements": [
+      "Broader human causal effects are unobserved; required AR 8x is executed, and IG-2 EXD design is complete but its trial is unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "eg",
+    "application_number": 1,
+    "file": "values/069-eg-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight exploration passes, explicit discovery criteria, three exploitation comparisons, synthesis and next-direction choice.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "eg",
+    "application_number": 2,
+    "file": "values/069-eg-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Eight passes, three applications, explicit criteria, synthesis, and a retained authority/risk crux.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "hab",
+    "application_number": 1,
+    "file": "values/070-hab-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven design steps, eight obstacle cases, separate behavior/interest metrics, and one actual generated question.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "hab",
+    "application_number": 2,
+    "file": "values/070-hab-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven original steps, eight obstacles, build/break-specific environment design, and two contrasting generated responses.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "hf",
+    "application_number": 1,
+    "file": "values/071-hf-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven steps, four-law design, eight obstacle/monitoring variations, a gateway execution and a separate fuller comparison.",
+    "missing_requirements": [
+      "Repeated human execution, daily tracking and weekly review are unobserved."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "hf",
+    "application_number": 2,
+    "file": "values/071-hf-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven formation/breaking steps, eight explicit cost countercases, a mock three-opportunity log and a later record.",
+    "missing_requirements": [
+      "Repeated human execution, daily tracking and weekly review are unobserved."
+    ],
+    "verdict": "REJECT",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "eqi",
+    "application_number": 1,
+    "file": "values/072-eqi-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven original steps, eight appraisal alternatives, three trigger candidates, a two-week unperformed plan, and a distinct subsequent reply.",
+    "missing_requirements": [
+      "Human regulation practice and two-week development outcomes are unobserved; reported emotions are constructed."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed input: \u201cThis draft assumes too much technical background\u201d; writer reports defensiveness and wants to list credentials. Applying the revised fields produces \u201cWhich section assumes knowledge our readers will not have? I can add the missing bridge or change the intended audience.\u201d That actual generated reply addresses background assumptions; the credentials defense would not answer the stated criticism. No reduction in defensiveness is claimed."
+  },
+  {
+    "skill_id": "eqi",
+    "application_number": 2,
+    "file": "values/072-eqi-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven original steps, eight appraisals, three trigger candidates, a bounded contribution, and an unperformed development plan.",
+    "missing_requirements": [
+      "Human regulation practice and two-week development outcomes are unobserved; reported emotions are constructed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "socg",
+    "application_number": 1,
+    "file": "values/073-socg-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Four perspectives, five silence hypotheses, two action/reaction sequences, eight leverage points, and a later transcript classification.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed transcript: chair says \u201cEveryone agreed yesterday\u201d; member replies \u201cI was not invited to that channel.\u201d Initial consensus summary would list that member as agreeing from absence of objection. Applying the perspective map produces \u201cparticipants in yesterday\u2019s channel agreed; this member\u2019s position is unresolved.\u201d The actual generated consensus record now fits the explicit participation fact and does not require a human motive guess."
+  },
+  {
+    "skill_id": "socg",
+    "application_number": 2,
+    "file": "values/073-socg-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Four perspectives, eight leverage points, a second-order reaction chain, two alternative moves, and a later invitation.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "al",
+    "application_number": 1,
+    "file": "values/074-al-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Nine original listening steps assessed for text medium, eight concrete distinctions, and one later output.",
+    "missing_requirements": [
+      "Live conversation, confirmation, nonverbal cues and recipient feeling-heard evidence are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "al",
+    "application_number": 2,
+    "file": "values/074-al-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Nine listening steps, eight distinct answer-dependent branches, three prepared questions, and a concrete closing note.",
+    "missing_requirements": [
+      "Live conversation, confirmation, nonverbal cues and recipient feeling-heard evidence are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "empth",
+    "application_number": 1,
+    "file": "values/075-empth-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: 10 divergence points, 6 context categories, 6-sentence internal narrative, 22 findings. Executed: those counts exactly, with independent F1\u2013F22 findings and model alternatives/disconfirmers.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "New constructed statement: \u201cI agree the recorded workshop reaches more people; I still want an unrecorded session for tentative ideas.\u201d The initial remedy \u201cshow reach statistics\u201d treats an already accepted fact as missing. Applying this model produces the actual issue classification \u201cvalues/permission conflict over recording, with reach benefit accepted,\u201d then a generated option comparison between recorded finalized talk and unrecorded exploratory session. The representation now preserves both explicit propositions; no human acceptance of either option is claimed."
+  },
+  {
+    "skill_id": "empth",
+    "application_number": 2,
+    "file": "values/075-empth-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: 10 divergence points, 6 context categories, 6-sentence internal narrative, 22 findings. Executed: those counts exactly, with independent F1\u2013F22 findings and model alternatives/disconfirmers.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Later generated decision summary: \u201cProceed with a labeled demo; production release remains pending an error-visibility decision. T\u2019s objection concerns diagnosis, and P\u2019s concern concerns a simple default view.\u201d The summary is concrete and retains both views; actual mutual understanding or support is unobserved."
+  },
+  {
+    "skill_id": "collab",
+    "application_number": 1,
+    "file": "values/117-collab-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "Original 8x floors: seven stakeholders, eight assumption gaps, seven integrative options, seven matrix layers. Executed all floors, plus seven-party stress test and three remaining outcome tests.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "col",
+    "application_number": 1,
+    "file": "values/118-col-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Six collaboration-design steps, eight handoff fields, actual status mismatch, and a concrete helper/progress repair.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "The final handoff now reports \u201c50 documents written; 20 complete analytical case scopes and 30 partial procedures with explicit gates.\u201d It no longer represents the 30 human-gated records as fully executed procedures. The actual helper, progress file and ledger preserve those distinct quantities."
+  },
+  {
+    "skill_id": "gdm",
+    "application_number": 1,
+    "file": "values/119-gdm-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven source steps, eight options, eight groupthink checks, dissent products, and a clearly partial decision record.",
+    "missing_requirements": [
+      "Independent participant submissions, discussion, actual group decision and support commitments are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "tfac",
+    "application_number": 1,
+    "file": "values/120-tfac-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Six source steps, eight facilitation methods compared, eight dynamics responses, a full timed agenda and instantiated output artifact.",
+    "missing_requirements": [
+      "No actual group session or participant engagement has occurred; agenda and output design only."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "fd",
+    "application_number": 1,
+    "file": "values/121-fd-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Six feedback stages adapted to actual receipt, eight operation distinctions, actual documented repair and a later uptake.",
+    "missing_requirements": [
+      "Live feedback delivery, recipient reply, joint agreement and follow-up are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": ""
+  },
+  {
+    "skill_id": "cfr",
+    "application_number": 1,
+    "file": "values/122-cfr-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Seven conflict stages, eight options, four response branches, a concrete draft and a proposed resolution record.",
+    "missing_requirements": [
+      "Actual dialogue, mutual resolution and subsequent repair are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "rtas",
+    "application_number": 1,
+    "file": "values/123-rtas-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Five parties including absent roles, eight rights/claims, all source categories considered, three conflicts and concrete remedies.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  },
+  {
+    "skill_id": "rlg",
+    "application_number": 1,
+    "file": "values/124-rlg-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate receipt preserved; case-specific products inspectable; missing live stages not reported as observed.",
+    "depth_status": "The original specifies no numerical 8x scaling. All presently executable stages are addressed; unavailable live stages are recorded separately. Expanded scope is stated rather than inventing an 8x certification. Six relationship steps plus four /ve chains, eight gaps, observable signals, boundaries and a concrete invitation.",
+    "missing_requirements": [
+      "Real reciprocal response and /ve elicitation termini are unavailable."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": ""
+  }
+]

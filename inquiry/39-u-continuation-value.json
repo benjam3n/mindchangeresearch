@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "A capsule preserves an exact current input."
+  },
+  {
+    "id": 2,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "A next operation can be specific independently of scheduling."
+  },
+  {
+    "id": 3,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "The original source for a next operation can remain unchanged while its parent record changes."
+  },
+  {
+    "id": 4,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "The next operation has prerequisites."
+  },
+  {
+    "id": 5,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "A future observation can arrive too late to alter a choice."
+  },
+  {
+    "id": 6,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "Information has a price and a contingent-use policy."
+  },
+  {
+    "id": 7,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "A price can make perfect information unattractive despite action sensitivity."
+  },
+  {
+    "id": 8,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "Noisy information needs an observation model to price its value."
+  },
+  {
+    "id": 9,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "The goal may change before the saved operation resumes."
+  },
+  {
+    "id": 10,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "A preserved queue can contain completed and pending entries."
+  },
+  {
+    "id": 11,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "The actual current model can perform a ready next operation now."
+  },
+  {
+    "id": 12,
+    "type": "unbundled-meta",
+    "parent": null,
+    "text": "A timing method\u2019s value must include what it causes to happen and what it costs."
+  },
+  {
+    "id": 13,
+    "type": "state",
+    "parent": 1,
+    "text": "Input can be exact, truncated, paraphrased or absent."
+  },
+  {
+    "id": 14,
+    "type": "category",
+    "parent": 1,
+    "text": "A capsule is a stored payload; siblings include a bookmark, a command specification and a full checkpoint."
+  },
+  {
+    "id": 15,
+    "type": "assumption",
+    "parent": 1,
+    "text": "The restoration operation uses the saved string rather than reconstructing it from memory."
+  },
+  {
+    "id": 16,
+    "type": "temporal",
+    "parent": 1,
+    "text": "Preparation time and restoration time are separate events."
+  },
+  {
+    "id": 17,
+    "type": "state",
+    "parent": 2,
+    "text": "Specific-unscheduled, vague-scheduled, specific-scheduled and neither are distinct states."
+  },
+  {
+    "id": 18,
+    "type": "dimension",
+    "parent": 2,
+    "text": "Payload specificity and initiation status are separate axes."
+  },
+  {
+    "id": 19,
+    "type": "perspective",
+    "parent": 2,
+    "text": "A current executor can use a ready payload; a future executor still needs initiation."
+  },
+  {
+    "id": 20,
+    "type": "assumption",
+    "parent": 2,
+    "text": "An observed scheduled state has an actual service acknowledgment."
+  },
+  {
+    "id": 21,
+    "type": "parameter",
+    "parent": 3,
+    "text": "A source hash can refer to the origin map, the next skill or an input dataset."
+  },
+  {
+    "id": 22,
+    "type": "state",
+    "parent": 3,
+    "text": "Origin changed/skill unchanged is observed in capsule-current-check.json."
+  },
+  {
+    "id": 23,
+    "type": "dimension",
+    "parent": 3,
+    "text": "Byte identity and role in the action\u2019s validity are different axes."
+  },
+  {
+    "id": 24,
+    "type": "temporal",
+    "parent": 3,
+    "text": "A completion-status edit can follow the original frozen-input capture."
+  },
+  {
+    "id": 25,
+    "type": "category",
+    "parent": 4,
+    "text": "Prerequisites include evidence, capability, permission and a still-valid goal."
+  },
+  {
+    "id": 26,
+    "type": "state",
+    "parent": 4,
+    "text": "One prerequisite may fail while other independent operations remain ready."
+  },
+  {
+    "id": 27,
+    "type": "assumption",
+    "parent": 4,
+    "text": "The chosen dependency graph reflects actual data/control requirements."
+  },
+  {
+    "id": 28,
+    "type": "scale",
+    "parent": 4,
+    "text": "A blocked local branch need not imply a blocked whole portfolio."
+  },
+  {
+    "id": 29,
+    "type": "parameter",
+    "parent": 5,
+    "text": "Arrival can precede, equal or follow an opportunity deadline."
+  },
+  {
+    "id": 30,
+    "type": "state",
+    "parent": 5,
+    "text": "The opportunity can persist, degrade or disappear."
+  },
+  {
+    "id": 31,
+    "type": "dimension",
+    "parent": 5,
+    "text": "Information accuracy and arrival time are separate dimensions."
+  },
+  {
+    "id": 32,
+    "type": "assumption",
+    "parent": 5,
+    "text": "The action remains feasible at the time the policy uses the observation."
+  },
+  {
+    "id": 33,
+    "type": "parameter",
+    "parent": 6,
+    "text": "In AEX34 c=1; c=0 and c=4 are alternative declared prices."
+  },
+  {
+    "id": 34,
+    "type": "state",
+    "parent": 6,
+    "text": "After observing failure the policy may decline or be forced to act."
+  },
+  {
+    "id": 35,
+    "type": "dimension",
+    "parent": 6,
+    "text": "Observation precision and ability to condition action are separate."
+  },
+  {
+    "id": 36,
+    "type": "category",
+    "parent": 6,
+    "text": "Information purchase is an option among immediate action, abstention and partial investigation."
+  },
+  {
+    "id": 37,
+    "type": "parameter",
+    "parent": 7,
+    "text": "For the declared payoff model, wait\u2212act=3\u22124p."
+  },
+  {
+    "id": 38,
+    "type": "state",
+    "parent": 7,
+    "text": "At p=.4 wait gains; at .75 ties; at .9 loses under expected payoff."
+  },
+  {
+    "id": 39,
+    "type": "assumption",
+    "parent": 7,
+    "text": "Payoffs, price, probability and available actions match the declared model."
+  },
+  {
+    "id": 40,
+    "type": "perspective",
+    "parent": 7,
+    "text": "An expected-payoff chooser and a worst-state chooser can use different criteria on the same input."
+  },
+  {
+    "id": 41,
+    "type": "state",
+    "parent": 8,
+    "text": "Noise can be symmetric, asymmetric, state-dependent or unspecified."
+  },
+  {
+    "id": 42,
+    "type": "parameter",
+    "parent": 8,
+    "text": "Sensitivity and specificity may vary independently."
+  },
+  {
+    "id": 43,
+    "type": "dimension",
+    "parent": 8,
+    "text": "An \u201c80% accurate\u201d label can conceal a base rate and asymmetric errors."
+  },
+  {
+    "id": 44,
+    "type": "assumption",
+    "parent": 8,
+    "text": "Conditional observation probabilities are available for the expected-value calculation."
+  },
+  {
+    "id": 45,
+    "type": "temporal",
+    "parent": 9,
+    "text": "A later user instruction can alter a previously appropriate next step."
+  },
+  {
+    "id": 46,
+    "type": "state",
+    "parent": 9,
+    "text": "The old result remains historical even if the current recommendation is invalidated."
+  },
+  {
+    "id": 47,
+    "type": "perspective",
+    "parent": 9,
+    "text": "The later user can value a different target from the present model\u2019s pending queue."
+  },
+  {
+    "id": 48,
+    "type": "assumption",
+    "parent": 9,
+    "text": "The resumed operation reads the current governing instruction."
+  },
+  {
+    "id": 49,
+    "type": "state",
+    "parent": 10,
+    "text": "An entry can be pending, performed, blocked or superseded."
+  },
+  {
+    "id": 50,
+    "type": "dimension",
+    "parent": 10,
+    "text": "History retention and next-choice eligibility are separate properties."
+  },
+  {
+    "id": 51,
+    "type": "category",
+    "parent": 10,
+    "text": "This is a state-transition system; siblings include build queues and study protocols."
+  },
+  {
+    "id": 52,
+    "type": "scale",
+    "parent": 10,
+    "text": "Selecting one ready item differs from asserting the whole program will complete autonomously."
+  },
+  {
+    "id": 53,
+    "type": "state",
+    "parent": 11,
+    "text": "Tool execution, written proposal and human assignment have different observed statuses."
+  },
+  {
+    "id": 54,
+    "type": "perspective",
+    "parent": 11,
+    "text": "A host returns an operation result; a human may inspect it later without being its executing actor."
+  },
+  {
+    "id": 55,
+    "type": "assumption",
+    "parent": 11,
+    "text": "The required tools and source are currently available for that operation."
+  },
+  {
+    "id": 56,
+    "type": "temporal",
+    "parent": 11,
+    "text": "Current tool completion is not a receipt for a future session."
+  },
+  {
+    "id": 57,
+    "type": "dimension",
+    "parent": 12,
+    "text": "Elapsed delay, paid resource and foregone opportunity are distinct cost candidates."
+  },
+  {
+    "id": 58,
+    "type": "state",
+    "parent": 12,
+    "text": "A representation can improve restoration while leaving execution unobserved."
+  },
+  {
+    "id": 59,
+    "type": "assumption",
+    "parent": 12,
+    "text": "An actual comparison does not credit a hypothetical future act as performed."
+  },
+  {
+    "id": 60,
+    "type": "category",
+    "parent": 12,
+    "text": "Timing evaluation is both a control question and a decision-value question."
+  }
+]

@@ -1,0 +1,264 @@
+{
+  "23": {
+    "nodes": [
+      "freeze claim",
+      "capture outcomes",
+      "define criterion",
+      "classify applicability",
+      "compare outcomes",
+      "write scoped result",
+      "make reusable excerpt"
+    ],
+    "hard": [
+      [
+        "freeze claim",
+        "capture outcomes"
+      ],
+      [
+        "freeze claim",
+        "define criterion"
+      ],
+      [
+        "freeze claim",
+        "classify applicability"
+      ],
+      [
+        "capture outcomes",
+        "compare outcomes"
+      ],
+      [
+        "define criterion",
+        "compare outcomes"
+      ],
+      [
+        "classify applicability",
+        "compare outcomes"
+      ],
+      [
+        "compare outcomes",
+        "write scoped result"
+      ],
+      [
+        "write scoped result",
+        "make reusable excerpt"
+      ]
+    ],
+    "soft": [
+      [
+        "define criterion",
+        "capture outcomes"
+      ]
+    ],
+    "order": [
+      "freeze claim",
+      "capture outcomes",
+      "define criterion",
+      "classify applicability",
+      "compare outcomes",
+      "write scoped result",
+      "make reusable excerpt"
+    ],
+    "cycle": false,
+    "depth": {
+      "freeze claim": 0,
+      "capture outcomes": 1,
+      "define criterion": 1,
+      "classify applicability": 1,
+      "compare outcomes": 2,
+      "write scoped result": 3,
+      "make reusable excerpt": 4
+    },
+    "groups": {
+      "0": [
+        "freeze claim"
+      ],
+      "1": [
+        "capture outcomes",
+        "define criterion",
+        "classify applicability"
+      ],
+      "2": [
+        "compare outcomes"
+      ],
+      "3": [
+        "write scoped result"
+      ],
+      "4": [
+        "make reusable excerpt"
+      ]
+    },
+    "longest_chain": [
+      "freeze claim",
+      "capture outcomes",
+      "compare outcomes",
+      "write scoped result",
+      "make reusable excerpt"
+    ],
+    "edge_checks": [
+      {
+        "before": "freeze claim",
+        "after": "capture outcomes",
+        "satisfied": true
+      },
+      {
+        "before": "freeze claim",
+        "after": "define criterion",
+        "satisfied": true
+      },
+      {
+        "before": "freeze claim",
+        "after": "classify applicability",
+        "satisfied": true
+      },
+      {
+        "before": "capture outcomes",
+        "after": "compare outcomes",
+        "satisfied": true
+      },
+      {
+        "before": "define criterion",
+        "after": "compare outcomes",
+        "satisfied": true
+      },
+      {
+        "before": "classify applicability",
+        "after": "compare outcomes",
+        "satisfied": true
+      },
+      {
+        "before": "compare outcomes",
+        "after": "write scoped result",
+        "satisfied": true
+      },
+      {
+        "before": "write scoped result",
+        "after": "make reusable excerpt",
+        "satisfied": true
+      }
+    ]
+  },
+  "24": {
+    "nodes": [
+      "read source A",
+      "read source B",
+      "draft one shared card",
+      "check logic",
+      "check serial reading",
+      "revise shared card",
+      "finalize card"
+    ],
+    "hard": [
+      [
+        "read source A",
+        "draft one shared card"
+      ],
+      [
+        "read source B",
+        "draft one shared card"
+      ],
+      [
+        "draft one shared card",
+        "check logic"
+      ],
+      [
+        "draft one shared card",
+        "check serial reading"
+      ],
+      [
+        "check logic",
+        "revise shared card"
+      ],
+      [
+        "check serial reading",
+        "revise shared card"
+      ],
+      [
+        "revise shared card",
+        "finalize card"
+      ]
+    ],
+    "soft": [],
+    "order": [
+      "read source A",
+      "read source B",
+      "draft one shared card",
+      "check logic",
+      "check serial reading",
+      "revise shared card",
+      "finalize card"
+    ],
+    "cycle": false,
+    "depth": {
+      "read source A": 0,
+      "read source B": 0,
+      "draft one shared card": 1,
+      "check logic": 2,
+      "check serial reading": 2,
+      "revise shared card": 3,
+      "finalize card": 4
+    },
+    "groups": {
+      "0": [
+        "read source A",
+        "read source B"
+      ],
+      "1": [
+        "draft one shared card"
+      ],
+      "2": [
+        "check logic",
+        "check serial reading"
+      ],
+      "3": [
+        "revise shared card"
+      ],
+      "4": [
+        "finalize card"
+      ]
+    },
+    "longest_chain": [
+      "read source A",
+      "draft one shared card",
+      "check logic",
+      "revise shared card",
+      "finalize card"
+    ],
+    "edge_checks": [
+      {
+        "before": "read source A",
+        "after": "draft one shared card",
+        "satisfied": true
+      },
+      {
+        "before": "read source B",
+        "after": "draft one shared card",
+        "satisfied": true
+      },
+      {
+        "before": "draft one shared card",
+        "after": "check logic",
+        "satisfied": true
+      },
+      {
+        "before": "draft one shared card",
+        "after": "check serial reading",
+        "satisfied": true
+      },
+      {
+        "before": "check logic",
+        "after": "revise shared card",
+        "satisfied": true
+      },
+      {
+        "before": "check serial reading",
+        "after": "revise shared card",
+        "satisfied": true
+      },
+      {
+        "before": "revise shared card",
+        "after": "finalize card",
+        "satisfied": true
+      }
+    ]
+  }
+}

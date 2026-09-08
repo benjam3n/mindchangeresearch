@@ -1,0 +1,27 @@
+{
+  "pcd-01": {
+    "stages_addressed": 7,
+    "initial_specification_gap": "A9 correction had no prior-record input or correction step. Original 9/10 claim was overstated.",
+    "final_local_specs": [
+      "values-handoff-invitation-record.iterate.json",
+      "values-handoff-followup-choice.iterate.json"
+    ],
+    "final_available_local_preparation_operations": 9,
+    "total_operations": 10,
+    "remaining_live_gate": "A10 reciprocal conflict resolution and any AL confirmation require externally supplied participant records.",
+    "credit": "Correction repair is a later local adoption; it creates no PCD01 KEEP."
+  },
+  "pcd-02": {
+    "stages_addressed": 7,
+    "later_record": "values-handoff-pcd-later-use.json",
+    "initial_limit": "The PCD later-use file supplies a resolvable pointer but still combines constructed origin and performed operation in one status and leaves produced trace/claim identity underspecified. The final ITERATE files repair both limits.",
+    "final_local_specs": [
+      "values-handoff-curiosity-trace.iterate.json",
+      "values-handoff-continuation-choice.iterate.json"
+    ],
+    "final_available_local_preparation_operations": 10,
+    "total_operations": 10,
+    "remaining_live_gate": "If selected, VE answers and Q3 require externally supplied answers or participant-response records.",
+    "credit": "Schema and revision repairs are subsequent uses, not new PCD KEEP credit."
+  }
+}

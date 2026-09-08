@@ -1,0 +1,6 @@
+{
+  "query":"Select a currently representable decision policy for known prior7/20, accuracy4/5, +6/-4, observation price11/10 and worst expected regret. Then compare the policy obtained by carrying q=1/2 from the old prior1/2,cost1 case.",
+  "source_of_candidate":"H2,H4,H5,H6 in ht51-results.json; changed price requires substitution in the proved payoff formula rather than unchanged numeric reuse.",
+  "forecast":"The changed price lowers the upper information advantage and changes the mixture away from the cost1,prior7/20 policy; q=1/2 is a live candidate until the calculation.",
+  "human_action_status":"No purchase or human action is executed. The later operation selects and stores a model policy with exact utility/regret values."
+}

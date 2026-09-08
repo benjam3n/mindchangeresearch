@@ -1,0 +1,920 @@
+{
+  "dimensions": {
+    "Trigger": [
+      "next similar task",
+      "chosen calendar time",
+      "visible desk object",
+      "conversation question",
+      "error recurrence",
+      "voluntary search"
+    ],
+    "Medium": [
+      "short text",
+      "spoken script",
+      "diagram",
+      "printed card",
+      "interactive prompt",
+      "paired example"
+    ],
+    "Content": [
+      "exact distinction",
+      "minimal counterexample",
+      "scope boundary",
+      "own prior report",
+      "new transfer case",
+      "open question"
+    ],
+    "Pace": [
+      "one encounter",
+      "self-paced review",
+      "optional pause",
+      "three spaced encounters",
+      "on-demand only",
+      "stop after recognition"
+    ],
+    "Choice": [
+      "default with decline",
+      "two meaningful options",
+      "free selection",
+      "private response",
+      "public discussion",
+      "no response requested"
+    ],
+    "Evaluation": [
+      "reported experience",
+      "classification task",
+      "later conduct",
+      "retrieval observation",
+      "no measurement",
+      "criterion revision"
+    ]
+  },
+  "total_combinations": 46656,
+  "sampling": "i,j,i+j,i+2j,2i+j,i+3j mod 6",
+  "evaluations": [
+    {
+      "id": 1,
+      "indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "short text",
+        "Content": "exact distinction",
+        "Pace": "one encounter",
+        "Choice": "default with decline",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 0,
+      "spec_words": 19
+    },
+    {
+      "id": 2,
+      "indices": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        3
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "spoken script",
+        "Content": "minimal counterexample",
+        "Pace": "optional pause",
+        "Choice": "two meaningful options",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 3,
+      "indices": [
+        0,
+        2,
+        2,
+        4,
+        2,
+        0
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "diagram",
+        "Content": "scope boundary",
+        "Pace": "on-demand only",
+        "Choice": "free selection",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 17
+    },
+    {
+      "id": 4,
+      "indices": [
+        0,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "printed card",
+        "Content": "own prior report",
+        "Pace": "one encounter",
+        "Choice": "private response",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 5,
+      "indices": [
+        0,
+        4,
+        4,
+        2,
+        4,
+        0
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "interactive prompt",
+        "Content": "new transfer case",
+        "Pace": "optional pause",
+        "Choice": "public discussion",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 6,
+      "indices": [
+        0,
+        5,
+        5,
+        4,
+        5,
+        3
+      ],
+      "values": {
+        "Trigger": "next similar task",
+        "Medium": "paired example",
+        "Content": "open question",
+        "Pace": "on-demand only",
+        "Choice": "no response requested",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 7,
+      "indices": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "short text",
+        "Content": "minimal counterexample",
+        "Pace": "self-paced review",
+        "Choice": "free selection",
+        "Evaluation": "classification task"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 8,
+      "indices": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        4
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "spoken script",
+        "Content": "scope boundary",
+        "Pace": "three spaced encounters",
+        "Choice": "private response",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 9,
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "diagram",
+        "Content": "own prior report",
+        "Pace": "stop after recognition",
+        "Choice": "public discussion",
+        "Evaluation": "classification task"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 10,
+      "indices": [
+        1,
+        3,
+        4,
+        1,
+        5,
+        4
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "printed card",
+        "Content": "new transfer case",
+        "Pace": "self-paced review",
+        "Choice": "no response requested",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 11,
+      "indices": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "interactive prompt",
+        "Content": "open question",
+        "Pace": "three spaced encounters",
+        "Choice": "default with decline",
+        "Evaluation": "classification task"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 12,
+      "indices": [
+        1,
+        5,
+        0,
+        5,
+        1,
+        4
+      ],
+      "values": {
+        "Trigger": "chosen calendar time",
+        "Medium": "paired example",
+        "Content": "exact distinction",
+        "Pace": "stop after recognition",
+        "Choice": "two meaningful options",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 13,
+      "indices": [
+        2,
+        0,
+        2,
+        2,
+        4,
+        2
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "short text",
+        "Content": "scope boundary",
+        "Pace": "optional pause",
+        "Choice": "public discussion",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 14,
+      "indices": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        5
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "spoken script",
+        "Content": "own prior report",
+        "Pace": "on-demand only",
+        "Choice": "no response requested",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 15,
+      "indices": [
+        2,
+        2,
+        4,
+        0,
+        0,
+        2
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "diagram",
+        "Content": "new transfer case",
+        "Pace": "one encounter",
+        "Choice": "default with decline",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 16,
+      "indices": [
+        2,
+        3,
+        5,
+        2,
+        1,
+        5
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "printed card",
+        "Content": "open question",
+        "Pace": "optional pause",
+        "Choice": "two meaningful options",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 17,
+      "indices": [
+        2,
+        4,
+        0,
+        4,
+        2,
+        2
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "interactive prompt",
+        "Content": "exact distinction",
+        "Pace": "on-demand only",
+        "Choice": "free selection",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 18,
+      "indices": [
+        2,
+        5,
+        1,
+        0,
+        3,
+        5
+      ],
+      "values": {
+        "Trigger": "visible desk object",
+        "Medium": "paired example",
+        "Content": "minimal counterexample",
+        "Pace": "one encounter",
+        "Choice": "private response",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 19,
+      "indices": [
+        3,
+        0,
+        3,
+        3,
+        0,
+        3
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "short text",
+        "Content": "own prior report",
+        "Pace": "three spaced encounters",
+        "Choice": "default with decline",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 20
+    },
+    {
+      "id": 20,
+      "indices": [
+        3,
+        1,
+        4,
+        5,
+        1,
+        0
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "spoken script",
+        "Content": "new transfer case",
+        "Pace": "stop after recognition",
+        "Choice": "two meaningful options",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 20
+    },
+    {
+      "id": 21,
+      "indices": [
+        3,
+        2,
+        5,
+        1,
+        2,
+        3
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "diagram",
+        "Content": "open question",
+        "Pace": "self-paced review",
+        "Choice": "free selection",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 16
+    },
+    {
+      "id": 22,
+      "indices": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        0
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "printed card",
+        "Content": "exact distinction",
+        "Pace": "three spaced encounters",
+        "Choice": "private response",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 18
+    },
+    {
+      "id": 23,
+      "indices": [
+        3,
+        4,
+        1,
+        5,
+        4,
+        3
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "interactive prompt",
+        "Content": "minimal counterexample",
+        "Pace": "stop after recognition",
+        "Choice": "public discussion",
+        "Evaluation": "retrieval observation"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 24,
+      "indices": [
+        3,
+        5,
+        2,
+        1,
+        5,
+        0
+      ],
+      "values": {
+        "Trigger": "conversation question",
+        "Medium": "paired example",
+        "Content": "scope boundary",
+        "Pace": "self-paced review",
+        "Choice": "no response requested",
+        "Evaluation": "reported experience"
+      },
+      "feasible": "no for target",
+      "value_basis": "This outcome collection requires a response; revise the evaluation or preserve no-response choice",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 25,
+      "indices": [
+        4,
+        0,
+        4,
+        4,
+        2,
+        4
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "short text",
+        "Content": "new transfer case",
+        "Pace": "on-demand only",
+        "Choice": "free selection",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 26,
+      "indices": [
+        4,
+        1,
+        5,
+        0,
+        3,
+        1
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "spoken script",
+        "Content": "open question",
+        "Pace": "one encounter",
+        "Choice": "private response",
+        "Evaluation": "classification task"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 17
+    },
+    {
+      "id": 27,
+      "indices": [
+        4,
+        2,
+        0,
+        2,
+        4,
+        4
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "diagram",
+        "Content": "exact distinction",
+        "Pace": "optional pause",
+        "Choice": "public discussion",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 16
+    },
+    {
+      "id": 28,
+      "indices": [
+        4,
+        3,
+        1,
+        4,
+        5,
+        1
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "printed card",
+        "Content": "minimal counterexample",
+        "Pace": "on-demand only",
+        "Choice": "no response requested",
+        "Evaluation": "classification task"
+      },
+      "feasible": "no for target",
+      "value_basis": "This outcome collection requires a response; revise the evaluation or preserve no-response choice",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 29,
+      "indices": [
+        4,
+        4,
+        2,
+        0,
+        0,
+        4
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "interactive prompt",
+        "Content": "scope boundary",
+        "Pace": "one encounter",
+        "Choice": "default with decline",
+        "Evaluation": "no measurement"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 18
+    },
+    {
+      "id": 30,
+      "indices": [
+        4,
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "values": {
+        "Trigger": "error recurrence",
+        "Medium": "paired example",
+        "Content": "own prior report",
+        "Pace": "optional pause",
+        "Choice": "two meaningful options",
+        "Evaluation": "classification task"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 31,
+      "indices": [
+        5,
+        0,
+        5,
+        5,
+        4,
+        5
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "short text",
+        "Content": "open question",
+        "Pace": "stop after recognition",
+        "Choice": "public discussion",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 32,
+      "indices": [
+        5,
+        1,
+        0,
+        1,
+        5,
+        2
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "spoken script",
+        "Content": "exact distinction",
+        "Pace": "self-paced review",
+        "Choice": "no response requested",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 33,
+      "indices": [
+        5,
+        2,
+        1,
+        3,
+        0,
+        5
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "diagram",
+        "Content": "minimal counterexample",
+        "Pace": "three spaced encounters",
+        "Choice": "default with decline",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 34,
+      "indices": [
+        5,
+        3,
+        2,
+        5,
+        1,
+        2
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "printed card",
+        "Content": "scope boundary",
+        "Pace": "stop after recognition",
+        "Choice": "two meaningful options",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    },
+    {
+      "id": 35,
+      "indices": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        5
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "interactive prompt",
+        "Content": "own prior report",
+        "Pace": "self-paced review",
+        "Choice": "free selection",
+        "Evaluation": "criterion revision"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 36,
+      "indices": [
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      "values": {
+        "Trigger": "voluntary search",
+        "Medium": "paired example",
+        "Content": "new transfer case",
+        "Pace": "three spaced encounters",
+        "Choice": "private response",
+        "Evaluation": "later conduct"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 19
+    }
+  ]
+}

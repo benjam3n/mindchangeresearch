@@ -1,0 +1,31 @@
+### Pass 5
+
+[OBSERVED: preserved bytes] Whole input: pbtc-02-pass-04.txt; SHA-256 `01ef7fc79470d69faa1ab120bcf2573da83bbec213a62b05bce3ba97b93969ce`. The full preceding output, not just its verdict, is the input.
+
+THESIS UNDER CHECK: cue benefit estimate: Pass 4’s agreement with earlier checks establishes no independent validation of origins or effectiveness.
+
+[OBSERVED: input contents] Pass 4 retains an unchanged frozen source and reports no new evidence of author history or external effectiveness. Its accepted disposition is narrower than a reliability estimate.
+
+[OBSERVED: full input text] Evidence selection: cherry-picked evidence—absent; asymmetric rigor—absent; missing null—absent; survivorship framing—absent; date-selected evidence—absent. The entire Pass 4, including its counter-theses and null disposition, is the input. Pass 4 retains an unchanged frozen source and reports no new evidence of author history or external effectiveness. Its accepted disposition is narrower than a reliability estimate. No external data or date-selected sample enters this pass.
+
+[OBSERVED: full input text; DERIVED: commitments and countercases] Argumentative structure: conclusion appears early with confidence—absent as an asserted final verdict; no pivot point—absent; motte-and-bailey—absent; straw alternatives—absent; forced linearity—absent; rhetorical hedging as armor—absent. Pass 4 states its exact question, opposite evidence and retained alternative. The verdict is placed after these products. Its explicit scope does not become a universal empirical claim.
+
+[OBSERVED: full input text] Emotional/social tells: identity fusion—no visible appeal; sunk-cost defense—absent from the argument; audience capture—no desired specific verdict supplied for this case; disproportionate certainty—absent; defensive reaction—no interaction supplied. Pass 4 awards no new benefit credit to this chain. Its text supplies no identity appeal, sunk-cost justification or defensive exchange; internal feelings are not inferred. These are observations of text, not verified absences of private motives.
+
+[OBSERVED: frozen input; DERIVED: documented scope] Process tells: conclusion predates research—unknown for the original private history; methodology fitted to outcome—no confirming record; missing written methodology—absent; post-hoc hypothesis advertised as prospective—absent; unfalsifiable framing—absent. The prior complete output is frozen before this check. The underlying author’s private chronology is still unavailable. Pass 4 does not present its nested audit as a preregistered independent experiment or fit a changed criterion to a preferred answer.
+
+[DERIVED: stated premises and exact contrary case] Reversal test: A claim that four agreeing self-audits are four independent trials would fail because their inputs are nested and share the same source. No such trial-count claim appears in Pass 4.
+
+Counter-theses and their disposition:
+
+1. [DERIVED: exact input and countercase] Convergence proves unbiased origins: rejected; nested text inspection does not create a time-stamped origin record.
+2. [DERIVED: exact input and countercase] Repeated inspection proves the underlying intervention works for a human: rejected; no human outcome was introduced.
+3. [DERIVED: exact input and countercase] The extra pass detects no new supported process defect: engaged and retained as the null result.
+
+[OBSERVED: artifact order; DERIVED: limits of that observation] Timeline: Pass 4 was fully materialized before this pass, as shown by its recorded input/output hash. That supports only the order of this written audit chain. It adds no origin record for benf-01.md and no independent human observation.
+
+[DERIVED: complete scan and reversals] Assessment: all 21 named signals scanned in four categories; zero confirmed critical signals. No significant pre-bake fingerprint is supported by this text. Absence of private chronology, a specific desired audience verdict and a defensive exchange is retained as unavailable evidence, not scored as proved absence of bias. Written counter-theses are engaged. Reversal result for the author’s actual historical responsiveness: UNCLEAR; changed-input sensitivity and conditional countercases do not establish that response under contrary evidence about the same fixed claim.
+
+PASS 5 VERDICT: CLEAN for the supplied documentary reasoning. This does not establish an unobserved psychological history.
+
+[DERIVED: assessment] Action: Convergence records stability of this chain only; do not add a new KEEP or a numerical confidence. The optional CLEAN→ARAW strengthening route is not elected; the result remains a process audit.

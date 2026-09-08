@@ -1,0 +1,110 @@
+{
+  "name": "Invitation response record",
+  "description": "Represent an explicitly supplied invitation and reply as component-level stance, permission and proposed next-step data.",
+  "inputs": {
+    "invitation": "Exact text and separately named requested components.",
+    "reply": "Exact supplied text; absent reply is allowed and remains unknown.",
+    "actor_scope": "Constructed or actual, known speaker and relevant role.",
+    "context": "Only explicit timing, access and prior permission supplied with the case.",
+    "identity": "record_set_id scopes one participant and invitation; event_id is unique within that set; participant_id, invitation_id and component_id identify whose answer to which request is represented. Replaying the same event_id is idempotent only when its canonical content is identical; conflicting reuse is unresolved.",
+    "order": "Supplied effective order and received order; uncertain effective order stays uncertain. Do not infer chronology from file position alone.",
+    "prior_response": "Exact base_state_id, correction_of event IDs and per-component revision IDs, or null for a first reply.",
+    "evidence_role": "Participant statement, organizer proposal, third-party report, supplied observation, or authored construction; quoted speaker is distinct from reporting speaker."
+  },
+  "outputs": {
+    "response_record": "A stable state_id and, for each requested component, stable attribute revision IDs, evidence span, accepted/declined/conditional/unknown stance, stated condition, next-step proposal and confirmation dimensions.",
+    "unknowns": "Missing meanings that would change stance or next step.",
+    "revision_record": "Append-only event with event_id, base_state_id, correction_of IDs and exact evidence; active component attributes retain their source event and revision ID; superseded values and no-op reaffirmations remain recoverable.",
+    "confirmation_dimensions": "interpretation_confirmed, option_agreed, performance_observed are separately evidenced, not inferred from one another.",
+    "change_set": "Affected component attributes, unchanged attributes, and unresolved ordering or referent conflicts."
+  },
+  "success_criteria": [
+    "Every component has a stance or explicit unknown.",
+    "Accepted scope does not exceed the evidence span.",
+    "A proposed change remains a proposal until a reply accepts it.",
+    "Human-action observations require supplied provenance; unsupported human effects, inferred feelings and causal changes are not claimed."
+  ],
+  "steps": [
+    "Validate record_set_id, event_id, participant_id and invitation_id before reduction. Reject a mixed participant/invitation bundle. Treat an exact duplicate event as a replay; return unresolved identity_conflict when the same event_id has different canonical content.",
+    "Bind the invitation, participant, component identifiers, exact reply, evidence role, supplied effective order, base state, correction targets and prior component revisions.",
+    "Associate each explicit reply clause with its requested component.",
+    "Apply a participant correction only to the explicitly affected attributes. Carry unchanged attributes from the exact base state and preserve superseded values. Record a repeated equal value as a reaffirmation rather than a new semantic change. An absent later mention is not a withdrawal.",
+    "Treat organizer proposals and third-party quotations as separate evidence. They do not establish a participant commitment in this local procedure. An earlier effective message received later does not replace a later effective correction.",
+    "Record accepted, declined, conditional or unknown stance for each component; retain stated conditions.",
+    "Separate the speaker's stated reason from a hypothesis about motive.",
+    "Create a next-step proposal only for an unresolved component that matters to the invitation.",
+    "Record confirmation of interpretation, agreement to a proposed option, and observed performance separately. A stated future commitment supplies no performance observation.",
+    "Assign the derived state_id and component revision IDs, then return the evidence-bearing response record and unresolved meanings."
+  ],
+  "verification": [
+    "Trace each non-unknown stance to the supplied text.",
+    "Compare the scope of every accepted component with its evidence.",
+    "Check that proposed action is not recorded as recipient agreement.",
+    "Resolve every inherited attribute and component revision ID to an existing earlier event in the same record set.",
+    "Check uniqueness of state, event and component revision IDs and reject conflicting event-ID reuse.",
+    "Check whether the correction changes a fact, the participant stance, or only an organizer proposal.",
+    "If chronology or authority is unresolved, return that unresolved state."
+  ],
+  "complexity": "moderate: semantic clause-to-component mapping requires judgment.",
+  "dependencies": [
+    "Existing explicit goal and invitation components; original AL offers paraphrase preparation but cannot supply an absent reply."
+  ],
+  "reuse_potential": "Local analysis of exploratory invitations, workshop roles and bounded help requests.",
+  "id": "local-invitation-record",
+  "version": "2.0.0",
+  "when_to_use": [
+    "A concrete invitation has separable requests and a supplied reply or explicit absence of reply.",
+    "Preparing a bounded collaboration draft without claiming live confirmation."
+  ],
+  "examples": [
+    {
+      "input": "Invitation: read and host. Reply: I will read two pages; I cannot host.",
+      "output": "Reading accepted for two pages; hosting declined; no motive inferred."
+    },
+    {
+      "input": "Invitation: join once. Reply: Only if it is audio.",
+      "output": "Joining conditional on audio; a proposed audio arrangement remains unconfirmed."
+    },
+    {
+      "input": "Invitation: attend. Reply absent.",
+      "output": "Attendance stance unknown; no assent or disinterest inferred."
+    },
+    {
+      "input": "Invitation: read. Reply: I like the idea but cannot take this on.",
+      "output": "Positive stated interest; task declined; the predicates coexist."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Single overall yes label",
+      "consequence": "A bounded acceptance spreads to another request.",
+      "prevention": "Keep one stance per component."
+    },
+    {
+      "failure": "Reading emotion into silence",
+      "consequence": "An absent reply becomes invented disinterest.",
+      "prevention": "Keep missing reply unknown."
+    },
+    {
+      "failure": "Reason rewritten as motive",
+      "consequence": "An explicit timing constraint becomes reluctance.",
+      "prevention": "Retain evidence and mark extra interpretations hypothetical."
+    },
+    {
+      "failure": "Condition dropped in summary",
+      "consequence": "A conditional offer becomes a commitment.",
+      "prevention": "Carry the condition into every derived output."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Invitation components and available reply are supplied.",
+    "before": "Local follow-up choice.",
+    "external_gate": "Actual confirmation requires the participant.",
+    "artifact_scope": "Local authored procedure, not an original skill."
+  },
+  "revision_origin": {
+    "source_snapshot": "values-handoff-invitation-record.pci.json",
+    "local_authored_revision": true,
+    "reason": "ITERATE findings T01–T12; not a modification to an archived Reasoningtool original."
+  }
+}

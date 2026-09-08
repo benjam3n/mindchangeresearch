@@ -1,0 +1,99 @@
+{
+  "line": "methods",
+  "assigned_applications": 49,
+  "status_counts": {
+    "complete": 47,
+    "partial": 2,
+    "blocked": 0,
+    "pending": 0
+  },
+  "addressed_applications": 49,
+  "applications_by_skill": {
+    "adep": 1,
+    "benf": 1,
+    "boc": 1,
+    "cmplx": 1,
+    "crtv": 2,
+    "foht": 3,
+    "gg": 2,
+    "given": 3,
+    "iterate": 1,
+    "la": 1,
+    "md": 2,
+    "mrc": 3,
+    "mtcg": 3,
+    "pbtc": 3,
+    "pcd": 2,
+    "pci": 2,
+    "pv": 2,
+    "satr": 2,
+    "sp": 3,
+    "svs": 2,
+    "uf": 1,
+    "unx": 3,
+    "upth": 1,
+    "utp": 1,
+    "wsib": 3
+  },
+  "verdicts": {
+    "KEEP": 22,
+    "REJECT": 21,
+    "UNRESOLVED": 6
+  },
+  "keeps": [
+    "methods/sp-01.md",
+    "methods/given-01.md",
+    "methods/mrc-03.md",
+    "methods/mtcg-02.md",
+    "methods/mtcg-03.md",
+    "methods/unx-01.md",
+    "methods/foht-03.md",
+    "methods/svs-01.md",
+    "methods/svs-02.md",
+    "methods/crtv-01.md",
+    "methods/gg-02.md",
+    "methods/md-01.md",
+    "methods/md-02.md",
+    "methods/pv-01.md",
+    "methods/pv-02.md",
+    "methods/satr-01.md",
+    "methods/uf-01.md",
+    "methods/upth-01.md",
+    "methods/la-01.md",
+    "methods/benf-01.md",
+    "methods/boc-01.md",
+    "methods/cmplx-01.md"
+  ],
+  "consolidations": [
+    {
+      "id": "consolidation-01",
+      "keeps": [
+        "sp-01",
+        "given-01",
+        "pv-01",
+        "unx-01"
+      ]
+    },
+    {
+      "id": "consolidation-02",
+      "keeps": [
+        "svs-01",
+        "gg-02",
+        "svs-02",
+        "crtv-01"
+      ]
+    },
+    {
+      "file": "consolidation-03.md",
+      "after_keeps": [
+        "md-01",
+        "pv-02",
+        "md-02",
+        "foht-03"
+      ],
+      "new_benefit_credit": false
+    }
+  ],
+  "status": "all_slots_addressed_with_open_partial_or_blocked_gates",
+  "scope_note": "Completion is procedural within the stated scope. Verdict and human/external effect status are independent; partial and blocked gates remain explicit."
+}

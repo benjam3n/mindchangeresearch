@@ -1,0 +1,917 @@
+{
+  "topic": "clock",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "A readiness-anchored invitation gives the prospective reader more useful thinking time than a display-anchored invitation.",
+      "type": "explicit candidate",
+      "voi": "high",
+      "verdict": "UNCERTAIN",
+      "evidence": "human useful-time comparison",
+      "findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "Wait five seconds specifies one deadline without naming a starting event.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "clock.anchor_difference",
+      "findings": [
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "Repeating READY has no effect under a policy that restarts on every READY.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "clock.duplicate_ready",
+      "findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "A canceled interval remains active until its original deadline under a cancel-clears-active policy.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "clock.cancel_and_restart",
+      "findings": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "A timer due at t=8 necessarily delivers output at t=8 when the next poll is t=10.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "clock.late_poll",
+      "findings": [
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "Two clocks with different offsets can be subtracted directly to recover elapsed time.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "stipulated clock offset arithmetic",
+      "findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "A negative remaining time must be displayed after a late poll.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "clock.late_poll plus max definition",
+      "findings": [
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ]
+    },
+    {
+      "id": "C8",
+      "claim": "Pausing and canceling have the same continuation rule in every timer.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two explicitly defined timer policies",
+      "findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "id": "C9",
+      "claim": "An invitation sent twice necessarily represents two intended rounds.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "one-round retry fixture",
+      "findings": [
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "Ignoring every READY after the first remains correct after explicit cancellation and a new-round request.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "clock.cancel_and_restart",
+      "findings": [
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "A displayed timestamp alone reveals whether it marks sending, receiving, or readiness.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "event-type ambiguity",
+      "findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "Equal duration values guarantee equal opportunities to respond.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "clock.anchor_difference",
+      "findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "A response received after the deadline proves the reader chose it after the deadline.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "stipulated transport delay",
+      "findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "The absence of READY is a negative answer to the lesson\u2019s content question.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "field-domain definitions",
+      "findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56"
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "A shared countdown numeral alone identifies which of two concurrent rounds is active.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two explicit round histories",
+      "findings": [
+        "F57",
+        "F58",
+        "F59",
+        "F60"
+      ]
+    },
+    {
+      "id": "C16",
+      "claim": "Replacing seconds with beats preserves every deadline without stating beat duration.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "unit conversion arithmetic",
+      "findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ]
+    },
+    {
+      "id": "C17",
+      "claim": "Canceling a timer also deletes every response already recorded in that round.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "separate state-variable definition",
+      "findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ]
+    },
+    {
+      "id": "C18",
+      "claim": "A named event is enough to compute a deadline when that event\u2019s time was never observed.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "clock.anchor_difference and held_out",
+      "findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "kind": "AR",
+      "parent": "C1",
+      "text": "With the same five-second duration, the reader\u2019s useful interval must increase after the wording change.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F2",
+      "kind": "AW",
+      "parent": "C1",
+      "text": "A reader ready immediately gets the same interval; another ignores the timer entirely. No usefulness response exists.",
+      "classification": "Deferred countermodel",
+      "bedrock": "BEDROCK-TEST-DEFERRED: actual reader unavailable"
+    },
+    {
+      "id": "F3",
+      "kind": "ALT",
+      "parent": "F2",
+      "text": "Keep the timing alternatives as candidates and ask for the reader\u2019s actual use and preference.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F4",
+      "kind": "AR",
+      "parent": "F3",
+      "text": "The defined deadline difference can be measured locally without inferring useful attention.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F5",
+      "kind": "AR",
+      "parent": "C2",
+      "text": "The display at t=0 and readiness at t=3 must imply the same deadline.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F6",
+      "kind": "AW",
+      "parent": "C2",
+      "text": "Display anchoring gives t=5; readiness anchoring gives t=8.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.anchor_difference"
+    },
+    {
+      "id": "F7",
+      "kind": "ALT",
+      "parent": "F6",
+      "text": "Name the event from which the five-second interval is measured.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F8",
+      "kind": "AR",
+      "parent": "F7",
+      "text": "The readiness-anchored version chooses t=8 in this event trace.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F9",
+      "kind": "AR",
+      "parent": "C3",
+      "text": "READY at t=3 and t=6 must leave the original t=8 deadline unchanged.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F10",
+      "kind": "AW",
+      "parent": "C3",
+      "text": "The restart policy sets the anchor to 6; at t=8 three seconds remain.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.duplicate_ready"
+    },
+    {
+      "id": "F11",
+      "kind": "ALT",
+      "parent": "F10",
+      "text": "Accept the first READY per active round if repeats must not restart it.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F12",
+      "kind": "AR",
+      "parent": "F11",
+      "text": "The first-event policy is due at t=8 on the same trace.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F13",
+      "kind": "AR",
+      "parent": "C4",
+      "text": "READY at 3 then CANCEL at 4 must still complete the same round at 8.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F14",
+      "kind": "AW",
+      "parent": "C4",
+      "text": "Clearing active removes the anchor; only a new READY at 10 creates a deadline of 15.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.cancel_and_restart"
+    },
+    {
+      "id": "F15",
+      "kind": "ALT",
+      "parent": "F14",
+      "text": "Make cancellation terminate the old interval and require a fresh event for restart.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F16",
+      "kind": "AR",
+      "parent": "F15",
+      "text": "The resumed round has its own start and deadline.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F17",
+      "kind": "AR",
+      "parent": "C5",
+      "text": "A sparse polling trace must contain a delivery event at 8.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F18",
+      "kind": "AW",
+      "parent": "C5",
+      "text": "The only recorded poll after readiness is 10; due is true there, but no output at 8 occurred.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.late_poll"
+    },
+    {
+      "id": "F19",
+      "kind": "ALT",
+      "parent": "F18",
+      "text": "Distinguish scheduled deadline from observed delivery time.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F20",
+      "kind": "AR",
+      "parent": "F19",
+      "text": "The record can preserve due=8 and delivered=10 without calling the duration seven seconds.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F21",
+      "kind": "AR",
+      "parent": "C6",
+      "text": "A start reading 100 and current reading 108 on a clock offset by +5 must mean eight elapsed seconds.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F22",
+      "kind": "AW",
+      "parent": "C6",
+      "text": "With the current clock five units ahead, the same underlying time interval is three seconds.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: stipulated clock offset arithmetic"
+    },
+    {
+      "id": "F23",
+      "kind": "ALT",
+      "parent": "F22",
+      "text": "Use one clock domain or a known offset conversion.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F24",
+      "kind": "AR",
+      "parent": "F23",
+      "text": "Elapsed time becomes a difference between commensurate readings.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F25",
+      "kind": "AR",
+      "parent": "C7",
+      "text": "At current 10 and deadline 8, the countdown must read -2.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F26",
+      "kind": "AW",
+      "parent": "C7",
+      "text": "The declared countdown is max(0,deadline-current), which returns 0.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.late_poll plus max definition"
+    },
+    {
+      "id": "F27",
+      "kind": "ALT",
+      "parent": "F26",
+      "text": "Separate nonnegative remaining duration from positive lateness.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F28",
+      "kind": "AR",
+      "parent": "F27",
+      "text": "The record can show remaining=0 and late_by=2 without conflating them.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F29",
+      "kind": "AR",
+      "parent": "C8",
+      "text": "After two elapsed seconds, either event must leave the same remaining time on restart.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F30",
+      "kind": "AW",
+      "parent": "C8",
+      "text": "A preserve-remainder pause leaves 3 seconds; a fresh-round cancel/restart assigns 5.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two explicitly defined timer policies"
+    },
+    {
+      "id": "F31",
+      "kind": "ALT",
+      "parent": "F30",
+      "text": "Name whether a stop preserves the remainder or discards the round.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F32",
+      "kind": "AR",
+      "parent": "F31",
+      "text": "The restart instruction can select 3 or 5 rather than hiding the difference in stop.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F33",
+      "kind": "AR",
+      "parent": "C9",
+      "text": "Two identical transmissions must create two timers.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F34",
+      "kind": "AW",
+      "parent": "C9",
+      "text": "The stipulated retry repeats one message with the same round ID.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: one-round retry fixture"
+    },
+    {
+      "id": "F35",
+      "kind": "ALT",
+      "parent": "F34",
+      "text": "Bind retries to a round identity and separate a new-round action.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F36",
+      "kind": "AR",
+      "parent": "F35",
+      "text": "A retry is idempotent within that identity while a new ID can start another round.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F37",
+      "kind": "AR",
+      "parent": "C10",
+      "text": "A new READY at 10 after cancellation must be ignored forever.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F38",
+      "kind": "AW",
+      "parent": "C10",
+      "text": "The new round has no active anchor; accepting READY creates the intended deadline 15.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.cancel_and_restart"
+    },
+    {
+      "id": "F39",
+      "kind": "ALT",
+      "parent": "F38",
+      "text": "Scope first-only behavior to an active round, not the whole session.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F40",
+      "kind": "AR",
+      "parent": "F39",
+      "text": "Deduplication preserves legitimate later starts.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F41",
+      "kind": "AR",
+      "parent": "C11",
+      "text": "The number 3 must identify one event type without a field label.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F42",
+      "kind": "AW",
+      "parent": "C11",
+      "text": "Each of the three event types can occur at 3 in distinct stipulated histories.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: event-type ambiguity"
+    },
+    {
+      "id": "F43",
+      "kind": "ALT",
+      "parent": "F42",
+      "text": "Keep the event name with its timestamp.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F44",
+      "kind": "AR",
+      "parent": "F43",
+      "text": "Ready_at=3 cannot be mistaken for sent_at=3 by the declared record decoder.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F45",
+      "kind": "AR",
+      "parent": "C12",
+      "text": "Both five-second policies must allow response at t=7 when readiness was t=3.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F46",
+      "kind": "AW",
+      "parent": "C12",
+      "text": "The display-anchored interval ended at 5; the readiness-anchored interval ends at 8.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.anchor_difference"
+    },
+    {
+      "id": "F47",
+      "kind": "ALT",
+      "parent": "F46",
+      "text": "Compare actual allowed intervals as well as duration values.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F48",
+      "kind": "AR",
+      "parent": "F47",
+      "text": "The overlap and extra interval become explicit rather than inferred from a shared numeral.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F49",
+      "kind": "AR",
+      "parent": "C13",
+      "text": "Receipt at 10 for a deadline of 8 must locate choice time after 8.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F50",
+      "kind": "AW",
+      "parent": "C13",
+      "text": "The stipulated response was chosen at 7 and transported for three seconds.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: stipulated transport delay"
+    },
+    {
+      "id": "F51",
+      "kind": "ALT",
+      "parent": "F50",
+      "text": "Separate choice time, send time, and receipt time when available.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F52",
+      "kind": "AR",
+      "parent": "F51",
+      "text": "A late receipt alone leaves the internal choice time unresolved.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F53",
+      "kind": "AR",
+      "parent": "C14",
+      "text": "No readiness event must encode the proposition answer false.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F54",
+      "kind": "AW",
+      "parent": "C14",
+      "text": "The declared readiness field has no truth-value answer mapping; no event is compatible with either later content answer.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: field-domain definitions"
+    },
+    {
+      "id": "F55",
+      "kind": "ALT",
+      "parent": "F54",
+      "text": "Keep readiness and content response as different fields.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F56",
+      "kind": "AR",
+      "parent": "F55",
+      "text": "The empty readiness record cannot supply an answer key entry.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F57",
+      "kind": "AR",
+      "parent": "C15",
+      "text": "Remaining=3 must select one round.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F58",
+      "kind": "AW",
+      "parent": "C15",
+      "text": "Round A started at 1 and round B at 2; at their respective polls 3 and 4 both show 3.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two explicit round histories"
+    },
+    {
+      "id": "F59",
+      "kind": "ALT",
+      "parent": "F58",
+      "text": "Include round identity when concurrent records are combined.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F60",
+      "kind": "AR",
+      "parent": "F59",
+      "text": "Equal remaining values cease to merge different event histories.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F61",
+      "kind": "AR",
+      "parent": "C16",
+      "text": "Five beats must equal five seconds for all beat rates.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F62",
+      "kind": "AW",
+      "parent": "C16",
+      "text": "At two beats per second five beats take 2.5 seconds; at one per second they take 5.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: unit conversion arithmetic"
+    },
+    {
+      "id": "F63",
+      "kind": "ALT",
+      "parent": "F62",
+      "text": "State the unit or rate conversion.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F64",
+      "kind": "AR",
+      "parent": "F63",
+      "text": "A numeric count becomes a duration only after its unit is fixed.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F65",
+      "kind": "AR",
+      "parent": "C17",
+      "text": "CANCEL after a recorded answer must erase that answer under a timer-only cancellation rule.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F66",
+      "kind": "AW",
+      "parent": "C17",
+      "text": "The specified cancellation changes only active; the separate response store is untouched.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: separate state-variable definition"
+    },
+    {
+      "id": "F67",
+      "kind": "ALT",
+      "parent": "F66",
+      "text": "State the scope of cancellation when stored responses exist.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F68",
+      "kind": "AR",
+      "parent": "F67",
+      "text": "Terminating future delivery does not silently rewrite historical input.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F69",
+      "kind": "AR",
+      "parent": "C18",
+      "text": "Ready_at=unknown must produce a unique numerical value for ready_at+5.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F70",
+      "kind": "AW",
+      "parent": "C18",
+      "text": "Readiness at 3 and readiness at 11 are both compatible, yielding deadlines 8 and 16.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.anchor_difference and held_out"
+    },
+    {
+      "id": "F71",
+      "kind": "ALT",
+      "parent": "F70",
+      "text": "Keep the deadline unresolved until the event time is supplied, or choose a new observable anchor.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F72",
+      "kind": "AR",
+      "parent": "F71",
+      "text": "The invitation can wait for an explicit restart event instead of inventing the earlier timestamp.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F73",
+      "kind": "AW",
+      "parent": "C2",
+      "text": "An unnamed start permits deadlines 5 and 8 from the same display/readiness trace.",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.anchor_difference",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F74",
+      "kind": "ALT",
+      "parent": "F73",
+      "text": "Name READY as the start and retain its timestamp.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F75",
+      "kind": "AR",
+      "parent": "F74",
+      "text": "The deadline becomes ready_at+5 within the selected clock domain.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F76",
+      "kind": "AR",
+      "parent": "F75",
+      "text": "A second READY timestamp supplies a different candidate deadline unless an acceptance rule selects one.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F77",
+      "kind": "AW",
+      "parent": "F76",
+      "text": "Accepting every READY restarts the first trace from 3 to 6 and leaves three seconds at time 8.",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.duplicate_ready",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F78",
+      "kind": "ALT",
+      "parent": "F77",
+      "text": "Accept only the first READY of an active round, while cancellation clears that active round.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F79",
+      "kind": "AR",
+      "parent": "F78",
+      "text": "A new READY after cancellation is now eligible and sets a fresh five-second deadline.",
+      "classification": "Necessary",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.cancel_and_restart",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F80",
+      "kind": "AR",
+      "parent": "F79",
+      "text": "The held-out READY=11/duplicate=13 trace is due at 16, with one second remaining at 15.",
+      "classification": "Necessary",
+      "bedrock": "BEDROCK-TEST/LOGIC: clock.held_out",
+      "count_toward_independent_floor": false
+    }
+  ],
+  "depth": {
+    "claims": 18,
+    "base_findings": 72,
+    "dependency_continuation_nodes": 8,
+    "longest_continuation_edges": 8,
+    "independent_count_policy": "Only the 72 base findings are candidates for independent credit; 8 repeated continuation nodes contribute no new finding credit. Semantic dependencies, not IDs, determine valid depth.",
+    "status": "partial_8x_semantic_depth_review_required"
+  },
+  "live_tests": "finish-fixture-results.json; at least two distinct executed fixtures for this topic",
+  "human_dependency": "A real reader has not compared these candidate texts."
+}

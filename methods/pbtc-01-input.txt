@@ -1,0 +1,29 @@
+Intended mind change: Find whether more precision helps an intentionally open creative prompt.
+
+Actual starting judgment: The prompt already seems usable; its ambiguity appears to be part of the requested exploration rather than a defect.
+
+Original: ../sources/methods-sp.original.md. Separate requirements receipt: ../sources/methods-sp.requirements.txt.
+
+Depth: No numerical 8x rule. The precision/no-edit decision is tested against eight concrete additions; source skip rules and intent-preservation requirement are used.
+
+INPUT: “Explore the sentence ‘The room remembered the rain’ in three different continuations. Preserve the sentence. Do not decide which continuation is correct.”
+
+TYPE: CREATIVE. Interpretation: a precise exploratory prompt with intentionally open meaning. Classification is obvious; no unrelated goal interview is added. Components: preserve exact seed, produce three distinct continuations, leave interpretation unsettled. Success is already concrete enough to inspect.
+
+Eight proposed additions were tested against that intent: specify a genre (removes a permitted direction); require a narrator identity (closes an open variable); impose a happy ending (changes emotional aim); ask for a factual explanation (changes fiction into analysis); demand a best continuation (violates nonselection); force a physical room (removes personification); require each sentence to cause action (excludes atmosphere); add a length ceiling (could be useful for a page constraint, but none exists here). Each is rejected because the supplied open choice is part of the creative input, not a missing requirement.
+
+Compound-pass output: the three requests do not conflict. Failure-check: three near-duplicate continuations would fail “different”; a verdict crowning one true interpretation would fail the explicit instruction. No extra rule is needed to identify either failure.
+
+Improved prompt returned unchanged: “Explore the sentence ‘The room remembered the rain’ in three different continuations. Preserve the sentence. Do not decide which continuation is correct.”
+
+Routing: CRTV for generation; no decomposition/router is required by SP’s optional follow-up. Actual later application: the unchanged prompt is the seed input for crtv-01. The available interpretive dimensions remain weather memory, a room as listener and an architectural trace; these are candidate directions, not an answer produced inside SP.
+
+Actual mind change: The prompt remains unchanged after eight attempted constraints were rejected for changing its intent.
+
+Benefit: No new beneficial change is demonstrated; adding criteria here would have narrowed legitimate exploration. Preserving the already adequate prompt earns no new KEEP.
+
+Verdict: REJECT
+
+Organization: The single prompt is the efficient output; the eight rejected constraints are retained only as provenance for the no-edit decision.
+
+Next attempts: Generate three genuinely distinct continuations; use a constrained technical prompt as a contrast; test a case where a length limit is actually supplied.

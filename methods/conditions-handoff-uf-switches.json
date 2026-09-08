@@ -1,0 +1,231 @@
+{
+  "target": "qs",
+  "alternatives": [
+    "td",
+    "rso",
+    "to",
+    "de",
+    "ecal",
+    "lt",
+    "enough",
+    "tobd"
+  ],
+  "pairs": [
+    {
+      "left": "qs",
+      "right": "td",
+      "left_when": "Ready eligible requests have no binding due interval: choose their service discipline.",
+      "right_when": "A known completion deadline or future release excludes an otherwise attractive queue order; temporal feasibility comes first."
+    },
+    {
+      "left": "qs",
+      "right": "rso",
+      "left_when": "Service units resume without occupied switch intervals and the target is wait or entitlement.",
+      "right_when": "Family changes consume two processor units, as in BOC01; compare setup occupancy before accepting a discipline."
+    },
+    {
+      "left": "qs",
+      "right": "to",
+      "left_when": "The eligible ready set is already valid; choose between its competing requests.",
+      "right_when": "Known A\u2192B excludes B from the ready set even when B has higher priority."
+    },
+    {
+      "left": "qs",
+      "right": "de",
+      "left_when": "Every selected task already has its required input.",
+      "right_when": "A converter, authorization or producer is missing from the task description; extract that dependency before ranking."
+    },
+    {
+      "left": "qs",
+      "right": "ecal",
+      "left_when": "The work is an ongoing queue with a supplied goal.",
+      "right_when": "The open decision is how much effort a one-off indifferent queue choice warrants."
+    },
+    {
+      "left": "qs",
+      "right": "lt",
+      "left_when": "The actual target has declared retained progress or reset behavior.",
+      "right_when": "Resumable CPU service is only a proposed analogy for a different activity with unknown restart behavior."
+    },
+    {
+      "left": "qs",
+      "right": "enough",
+      "left_when": "Several still-required products compete for service.",
+      "right_when": "The acceptance criterion is already met and the issue is whether another queued item is needed."
+    },
+    {
+      "left": "qs",
+      "right": "tobd",
+      "left_when": "Priorities, weights and resources are available inputs.",
+      "right_when": "The entitlement weight or resource access decision remains unmade; order the needed resolutions."
+    },
+    {
+      "left": "td",
+      "right": "rso",
+      "left_when": "Changing an order can violate a due time; retain deadline admissibility even if another order has fewer setups.",
+      "right_when": "Every relevant due time is slack and occupied setup or bottleneck capacity controls the comparison. With both present, feasibility precedes resource optimization."
+    },
+    {
+      "left": "td",
+      "right": "to",
+      "left_when": "A valid dependency order still needs actual start/finish positions relative to a deadline.",
+      "right_when": "Only predecessor-before-successor validity is required and there is no duration or deadline objective."
+    },
+    {
+      "left": "td",
+      "right": "de",
+      "left_when": "Durations, due times and required predecessors are known.",
+      "right_when": "A supposed starting task needs an unlisted input; the temporal plan cannot be formed until that input relation exists."
+    },
+    {
+      "left": "td",
+      "right": "ecal",
+      "left_when": "A schedule must place actual work before a known closing time.",
+      "right_when": "The question is whether to spend two minutes or a longer effort budget selecting a schedule; timing arithmetic alone does not choose that budget."
+    },
+    {
+      "left": "td",
+      "right": "lt",
+      "left_when": "The due time and nonpreemption relation are actual target inputs.",
+      "right_when": "A source due-time example is being carried into a domain where the meaning of completion differs."
+    },
+    {
+      "left": "td",
+      "right": "enough",
+      "left_when": "All listed deliverables remain mandatory and must fit before the closing time.",
+      "right_when": "The candidate way to fit is dropping or stopping a deliverable; sufficiency must establish whether that changes the required result."
+    },
+    {
+      "left": "td",
+      "right": "tobd",
+      "left_when": "The closing time is fixed and available.",
+      "right_when": "Access duration and the decision to change location await answers that determine which deadlines exist."
+    },
+    {
+      "left": "rso",
+      "right": "to",
+      "left_when": "Tasks without logical edges still share one mutable file or one occupied processor.",
+      "right_when": "Separate resources are genuinely available and only hard task predecessors prevent parallel work."
+    },
+    {
+      "left": "rso",
+      "right": "de",
+      "left_when": "Resource occupancy and all task inputs are known; calculate bottlenecks and setups.",
+      "right_when": "The apparent resource problem is actually an unlisted producer/consumer input relation."
+    },
+    {
+      "left": "rso",
+      "right": "ecal",
+      "left_when": "The object is the operating stream: service, switching and waits.",
+      "right_when": "The object is the effort invested in choosing an optimization; another pass has no decision-changing result."
+    },
+    {
+      "left": "rso",
+      "right": "lt",
+      "left_when": "The capacity, setup and reset semantics are specified for this target.",
+      "right_when": "An engineering bottleneck is being treated as a person\u2019s attention limit without a tested correspondence."
+    },
+    {
+      "left": "rso",
+      "right": "enough",
+      "left_when": "Required tasks are fixed, so waste is occupied overhead around those tasks.",
+      "right_when": "A proposed efficiency gain deletes a substantive required output; evaluate sufficiency before calling it waste."
+    },
+    {
+      "left": "rso",
+      "right": "tobd",
+      "left_when": "The processor and current family are known, enabling the BOC setup calculation.",
+      "right_when": "Availability of a second resource is unconfirmed and would remove the present bottleneck."
+    },
+    {
+      "left": "to",
+      "right": "de",
+      "left_when": "The supplied graph already states each input dependency; generate a valid sequence.",
+      "right_when": "The input contains only task names or ambiguous arrows; establish which output feeds which task first."
+    },
+    {
+      "left": "to",
+      "right": "ecal",
+      "left_when": "The required graph has a meaningful readiness problem.",
+      "right_when": "Two independent interchangeable tasks have no ordering consequence; the decision warrants only a minimal choice."
+    },
+    {
+      "left": "to",
+      "right": "lt",
+      "left_when": "The dependency relation is native to the workflow and already established.",
+      "right_when": "A chess or CPU ordering relation is being proposed for a different target; establish its mapping before sorting."
+    },
+    {
+      "left": "to",
+      "right": "enough",
+      "left_when": "Every graph node is still part of the necessary output.",
+      "right_when": "A whole subgraph is optional and the open question is whether the achieved result is sufficient without it."
+    },
+    {
+      "left": "to",
+      "right": "tobd",
+      "left_when": "Nodes are executable tasks with settled specifications.",
+      "right_when": "Nodes are unresolved decisions; one answer changes or eliminates the options of another."
+    },
+    {
+      "left": "de",
+      "right": "ecal",
+      "left_when": "A missing prerequisite blocks an actual output, so its input/output relation must be found.",
+      "right_when": "Nothing is blocked and the choice is an indifferent reversible tie; an exhaustive dependency inventory changes no action."
+    },
+    {
+      "left": "de",
+      "right": "lt",
+      "left_when": "The work is within one workflow: identify which artifact or state a task consumes.",
+      "right_when": "The work compares source and target relationships, including disanalogies between domains."
+    },
+    {
+      "left": "de",
+      "right": "enough",
+      "left_when": "The question is what an unfinished task requires to start.",
+      "right_when": "The question is whether the already-built result meets its purpose across breadth, depth, quality, validation and robustness."
+    },
+    {
+      "left": "de",
+      "right": "tobd",
+      "left_when": "Task prerequisites are missing from the representation.",
+      "right_when": "The unresolved decisions and their possible cascades are already the objects to be sequenced."
+    },
+    {
+      "left": "ecal",
+      "right": "lt",
+      "left_when": "The transfer question is already definite and the pending choice concerns the effort budget.",
+      "right_when": "The mapping itself is unsupported; a fast decision cannot supply missing correspondences or a target test."
+    },
+    {
+      "left": "ecal",
+      "right": "enough",
+      "left_when": "No substantial analysis exists yet; choose an effort level from stakes and reversibility.",
+      "right_when": "An existing analysis can be compared with its declared purpose and specific remaining gaps."
+    },
+    {
+      "left": "ecal",
+      "right": "tobd",
+      "left_when": "One definite decision needs a proportionate effort level.",
+      "right_when": "Several unresolved decisions constrain each other\u2019s possible answers and need an operational resolution order."
+    },
+    {
+      "left": "lt",
+      "right": "enough",
+      "left_when": "A source principle has not yet been validated in the new target; derive and test a transfer hypothesis.",
+      "right_when": "The target application exists and the issue is whether its evidence covers the intended scope."
+    },
+    {
+      "left": "lt",
+      "right": "tobd",
+      "left_when": "The correspondence between domains is the uncertain substantive relation.",
+      "right_when": "The missing item is a supplied user rating, access decision or assigned choice; mapping cannot invent that external input."
+    },
+    {
+      "left": "enough",
+      "right": "tobd",
+      "left_when": "A finished candidate is being compared with a fixed acceptance standard.",
+      "right_when": "Specific missing decisions already prevent completion and must be assigned in an order that respects cascades."
+    }
+  ]
+}

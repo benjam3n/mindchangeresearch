@@ -1,0 +1,18 @@
+{
+  "first_action": "read_bridge_sign",
+  "observation_cost_minutes": 1,
+  "branches": {
+    "open": {
+      "route": "North",
+      "travel_minutes": 8
+    },
+    "closed": {
+      "route": "East",
+      "travel_minutes": 12
+    }
+  },
+  "unavailable_or_untrusted_sign": {
+    "route": "East",
+    "travel_minutes": 12
+  }
+}

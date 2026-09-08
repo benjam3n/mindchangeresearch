@@ -1,0 +1,406 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "parent": null,
+      "claim": "On D={0,1/2,1}, S(p) iff p=1 and M(p) iff p>0 permit the joint case p=1; the exact tag reason does not change these stipulated predicates.",
+      "certificate": "Declared input, checked in the cited fixture."
+    },
+    {
+      "id": 2,
+      "parent": 1,
+      "claim": "The input contains a joint S-and-M witness at1.",
+      "certificate": "Substitute1 in both root predicates."
+    },
+    {
+      "id": 3,
+      "parent": 1,
+      "claim": "The same predicates have no joint witness at0.",
+      "certificate": "S(0)=false and M(0)=false."
+    },
+    {
+      "id": 4,
+      "parent": 1,
+      "claim": "At1/2, M holds while S does not.",
+      "certificate": "1/2>0 and1/2\u22601."
+    },
+    {
+      "id": 5,
+      "parent": 2,
+      "claim": "The qualifying set W={p inD:S(p) and M(p)} contains1.",
+      "certificate": "The parent supplies1 and1\u2208D."
+    },
+    {
+      "id": 6,
+      "parent": 2,
+      "claim": "The same p=1 does not satisfy strict U(p):0<p<1.",
+      "certificate": "Declared strict predicate excludes its upper endpoint."
+    },
+    {
+      "id": 7,
+      "parent": 2,
+      "claim": "The joint witness occurs at D\u2019s upper endpoint.",
+      "certificate": "D\u2019s greatest value is1 and parent witness is1."
+    },
+    {
+      "id": 8,
+      "parent": 5,
+      "claim": "A candidate filter that deletes every joint S-and-M case deletes1.",
+      "certificate": "The policy Q is explicitly defined to remove all W before answering the existence query."
+    },
+    {
+      "id": 9,
+      "parent": 5,
+      "claim": "An existence query over the unfiltered D has answer yes.",
+      "certificate": "A member1 of W is an existential certificate."
+    },
+    {
+      "id": 10,
+      "parent": 5,
+      "claim": "A source relation label cannot make this stipulated witness disappear.",
+      "certificate": "The formal predicates and domain are held fixed independently of the source label."
+    },
+    {
+      "id": 11,
+      "parent": 8,
+      "claim": "After Q, its retained domain D1 does not contain1.",
+      "certificate": "Deletion of1 is precisely nonmembership in the post-filter domain."
+    },
+    {
+      "id": 12,
+      "parent": 8,
+      "claim": "Q has removed the only possible S witness on D.",
+      "certificate": "S holds iff p=1; the deleted point is unique for S."
+    },
+    {
+      "id": 13,
+      "parent": 8,
+      "claim": "Changing a route\u2019s display weight without changing Q cannot restore1.",
+      "certificate": "Q\u2019s inputs are domain and joint predicate, not display weight."
+    },
+    {
+      "id": 14,
+      "parent": 11,
+      "claim": "Every later stage defined only to select a subset of D1 also excludes1.",
+      "certificate": "Subset membership cannot add an absent element."
+    },
+    {
+      "id": 15,
+      "parent": 11,
+      "claim": "Sorting D1 by any key cannot itself add1.",
+      "certificate": "Sorting is a permutation of retained elements."
+    },
+    {
+      "id": 16,
+      "parent": 11,
+      "claim": "Counting surviving candidates does not measure how many qualifying candidates Q removed.",
+      "certificate": "The surviving set lacks the deleted witness; count alone contains no deletion log."
+    },
+    {
+      "id": 17,
+      "parent": 14,
+      "claim": "After any finite sequence of subset-only stages,1 remains absent.",
+      "certificate": "Induction: base D1 lacks1; each subset stage preserves absence."
+    },
+    {
+      "id": 18,
+      "parent": 14,
+      "claim": "An alternative stage that explicitly reintroduces1 is outside the subset-only premise.",
+      "certificate": "Adding an absent element violates subset containment."
+    },
+    {
+      "id": 19,
+      "parent": 14,
+      "claim": "Changing the name of a surviving item is not restoration of the original probability value1.",
+      "certificate": "Item identity in this fixture is its probability value, not its display name."
+    },
+    {
+      "id": 20,
+      "parent": 17,
+      "claim": "A final existence test limited to these survivors returns no joint S-and-M witness.",
+      "certificate": "All S witnesses require1, which the parent excludes."
+    },
+    {
+      "id": 21,
+      "parent": 17,
+      "claim": "That final no-witness answer differs from the original-D query answer yes.",
+      "certificate": "R9\u2019s original witness and parent exclusion concern different domains."
+    },
+    {
+      "id": 22,
+      "parent": 17,
+      "claim": "The false-negative behavior depends on answering the original query from only the pruned domain.",
+      "certificate": "If the query instead explicitly asks about survivors, its no-witness answer is true."
+    },
+    {
+      "id": 23,
+      "parent": 3,
+      "claim": "At0, positive possibility is false.",
+      "certificate": "0>0 is false."
+    },
+    {
+      "id": 24,
+      "parent": 3,
+      "claim": "At0, strict uncertainty is false.",
+      "certificate": "Strict0<p condition fails."
+    },
+    {
+      "id": 25,
+      "parent": 3,
+      "claim": "At0, retaining a navigation link would not constitute a joint-predicate witness.",
+      "certificate": "A link is separate from the false predicates at the tested point."
+    },
+    {
+      "id": 26,
+      "parent": 4,
+      "claim": "M does not imply S on D.",
+      "certificate": "The parent supplies a specific counterexample1/2."
+    },
+    {
+      "id": 27,
+      "parent": 4,
+      "claim": "An existence test for M alone accepts1/2.",
+      "certificate": "The tested predicate is M and it holds there."
+    },
+    {
+      "id": 28,
+      "parent": 4,
+      "claim": "The fact that M alone accepts1/2 does not certify the conjunction there.",
+      "certificate": "S is false at the same point."
+    },
+    {
+      "id": 29,
+      "parent": 6,
+      "claim": "S and strict U are disjoint on the aligned probability domain.",
+      "certificate": "S requires1 while U excludes1."
+    },
+    {
+      "id": 30,
+      "parent": 6,
+      "claim": "Replacing positive M by strict U changes the predicate tested.",
+      "certificate": "Their values differ at the parent point1."
+    },
+    {
+      "id": 31,
+      "parent": 6,
+      "claim": "A strict-U counterexample cannot refute the positive-M joint witness.",
+      "certificate": "It changes the parent predicate, so its false output addresses a different statement."
+    },
+    {
+      "id": 32,
+      "parent": 7,
+      "claim": "Removing the upper endpoint from D removes this S witness.",
+      "certificate": "The witness equals the removed endpoint."
+    },
+    {
+      "id": 33,
+      "parent": 7,
+      "claim": "Keeping the upper endpoint while removing1/2 preserves the joint witness.",
+      "certificate": "Its value1 is still admitted and both predicates still hold."
+    },
+    {
+      "id": 34,
+      "parent": 7,
+      "claim": "A test restricted to interior probability values can miss this endpoint overlap.",
+      "certificate": "S has no interior witness while its endpoint witness exists."
+    },
+    {
+      "id": 35,
+      "parent": 9,
+      "claim": "A single valid witness is sufficient for this existential answer.",
+      "certificate": "Existential semantics require at least one, not a majority."
+    },
+    {
+      "id": 36,
+      "parent": 9,
+      "claim": "Adding p=1/4 to the domain cannot destroy the existing witness.",
+      "certificate": "The expanded set still contains1 and predicates remain fixed."
+    },
+    {
+      "id": 37,
+      "parent": 9,
+      "claim": "Counting non-witnesses cannot overturn a verified existential witness.",
+      "certificate": "Existence is not a vote across domain points."
+    },
+    {
+      "id": 38,
+      "parent": 10,
+      "claim": "A definition change could alter compatibility even if the source label stayed fixed.",
+      "certificate": "Compatibility is computed from predicates; strict U versus positive M differs at1."
+    },
+    {
+      "id": 39,
+      "parent": 10,
+      "claim": "A label change could leave compatibility fixed if the predicates stayed fixed.",
+      "certificate": "The held-fixed computation does not consume that label."
+    },
+    {
+      "id": 40,
+      "parent": 10,
+      "claim": "The author\u2019s intended meaning remains a different unresolved question.",
+      "certificate": "The root is a stipulated model, and no author-context premise has been added."
+    },
+    {
+      "id": 41,
+      "parent": 12,
+      "claim": "A complete scan of D1 cannot find an S witness.",
+      "certificate": "All S witnesses in D were the deleted point1."
+    },
+    {
+      "id": 42,
+      "parent": 12,
+      "claim": "More repeated scans of unchanged D1 cannot repair this absence.",
+      "certificate": "Each scan receives the same witness-free domain."
+    },
+    {
+      "id": 43,
+      "parent": 12,
+      "claim": "Recovery needs a changed candidate domain or a separate retained certificate for the original query.",
+      "certificate": "With both absent, the original witness is unavailable to this defined test; either supplied path changes that limitation."
+    },
+    {
+      "id": 44,
+      "parent": 13,
+      "claim": "A high-weight copy of a surviving non-witness remains a non-witness.",
+      "certificate": "Weight is not an input to S or M."
+    },
+    {
+      "id": 45,
+      "parent": 13,
+      "claim": "A low-weight retained1 would still be a valid witness if Q were changed to keep it.",
+      "certificate": "Predicates do not consume weight, while retention is explicitly changed."
+    },
+    {
+      "id": 46,
+      "parent": 13,
+      "claim": "Weight-only repair and membership repair are different interventions on this fixture.",
+      "certificate": "One leaves Q\u2019s output fixed; the other changes the admitted point."
+    }
+  ],
+  "depth": {
+    "1": 0,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 2,
+    "6": 2,
+    "7": 2,
+    "8": 3,
+    "9": 3,
+    "10": 3,
+    "11": 4,
+    "12": 4,
+    "13": 4,
+    "14": 5,
+    "15": 5,
+    "16": 5,
+    "17": 6,
+    "18": 6,
+    "19": 6,
+    "20": 7,
+    "21": 7,
+    "22": 7,
+    "23": 2,
+    "24": 2,
+    "25": 2,
+    "26": 2,
+    "27": 2,
+    "28": 2,
+    "29": 3,
+    "30": 3,
+    "31": 3,
+    "32": 3,
+    "33": 3,
+    "34": 3,
+    "35": 4,
+    "36": 4,
+    "37": 4,
+    "38": 4,
+    "39": 4,
+    "40": 4,
+    "41": 5,
+    "42": 5,
+    "43": 5,
+    "44": 5,
+    "45": 5,
+    "46": 5
+  },
+  "max_edges": 7,
+  "children": {
+    "1": [
+      2,
+      3,
+      4
+    ],
+    "2": [
+      5,
+      6,
+      7
+    ],
+    "5": [
+      8,
+      9,
+      10
+    ],
+    "8": [
+      11,
+      12,
+      13
+    ],
+    "11": [
+      14,
+      15,
+      16
+    ],
+    "14": [
+      17,
+      18,
+      19
+    ],
+    "17": [
+      20,
+      21,
+      22
+    ],
+    "3": [
+      23,
+      24,
+      25
+    ],
+    "4": [
+      26,
+      27,
+      28
+    ],
+    "6": [
+      29,
+      30,
+      31
+    ],
+    "7": [
+      32,
+      33,
+      34
+    ],
+    "9": [
+      35,
+      36,
+      37
+    ],
+    "10": [
+      38,
+      39,
+      40
+    ],
+    "12": [
+      41,
+      42,
+      43
+    ],
+    "13": [
+      44,
+      45,
+      46
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "rank": 43,
+    "id": "gjs",
+    "title": "Goal Journey System",
+    "description": "A goal journey is NOT a narrative arc. It's a CHAIN OF GOALS. Integration hub for GOSM goal processing.",
+    "line": "systems",
+    "applications": 3,
+    "category": "Goal Processing",
+    "invokes": [
+      "araw",
+      "ve",
+      "emv"
+    ]
+  },
+  {
+    "rank": 44,
+    "id": "fut",
+    "title": "Future Analysis",
+    "description": "Systematically explore what the future looks like for any trend, technology, decision, or domain across multiple timeframes.",
+    "line": "systems",
+    "applications": 3,
+    "category": "Strategy & Planning",
+    "invokes": []
+  },
+  {
+    "rank": 45,
+    "id": "gd",
+    "title": "Goal Decomposition Methodology",
+    "description": "A methodology for decomposing abstract goals into specific, actionable components. Includes clarification vs substitution verification.",
+    "line": "systems",
+    "applications": 3,
+    "category": "Goal Processing",
+    "invokes": []
+  },
+  {
+    "rank": 46,
+    "id": "gsr",
+    "title": "Goal-Structure Reconstruction",
+    "description": "Given any conclusion, statement, or claim, reconstruct the goal-structure. Includes detection of goal drift and substitution in chains.",
+    "line": "systems",
+    "applications": 3,
+    "category": "Goal Processing",
+    "invokes": []
+  },
+  {
+    "rank": 47,
+    "id": "grf",
+    "title": "Goal Refinement",
+    "description": "Transform vague or incomplete goals into SMART goals with explicit clarification vs substitution distinction",
+    "line": "systems",
+    "applications": 3,
+    "category": "Goal Processing",
+    "invokes": []
+  },
+  {
+    "rank": 48,
+    "id": "lpd",
+    "title": "Leverage Point Discovery (Arbitrage & System Insertion)",
+    "description": "Most valuable strategies exploit leverage points - places where small",
+    "line": "systems",
+    "applications": 3,
+    "category": "Diagnosis & Recovery",
+    "invokes": []
+  },
+  {
+    "rank": 49,
+    "id": "sysarch",
+    "title": "System Architecture Design",
+    "description": "Design system architecture from requirements by decomposing into subsystems, defining interfaces, evaluating candidate architectures against quality attributes, and documenting architectural views (functional, physical, behavioral).",
+    "line": "systems",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 50,
+    "id": "ltai",
+    "title": "Long-Term AI Orchestration",
+    "description": "Plan for AI-agent coordination and autonomous operation. Design handoff protocols, error recovery, and human oversight.",
+    "line": "systems",
+    "applications": 3,
+    "category": "AI & Automation",
+    "invokes": []
+  },
+  {
+    "rank": 93,
+    "id": "gaa",
+    "title": "GOSM Approach Audit",
+    "description": "An honest audit of the GOSM system's approach, claims, and limitations — applying the system's own standards to itself.",
+    "line": "systems",
+    "applications": 2,
+    "category": "Diagnosis & Recovery",
+    "invokes": [
+      "araw"
+    ]
+  },
+  {
+    "rank": 94,
+    "id": "sysdecomp",
+    "title": "System Decomposition",
+    "description": "Break a complex system into manageable subsystems and components using structured decomposition. Defines component responsibilities, interactions, and validates completeness of the breakdown.",
+    "line": "systems",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 95,
+    "id": "sysintegration",
+    "title": "Systems Integration",
+    "description": "Plan and execute the integration of subsystems into a working whole. Produces an integration plan with strategy selection, dependency analysis, integration sequence, test cases, and issue tracking.",
+    "line": "systems",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 96,
+    "id": "sya",
+    "title": "Systems Analysis",
+    "description": "Analyze complex systems using causal loop diagrams, stock and flow models, feedback loop identification, and system archetypes",
+    "line": "systems",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 97,
+    "id": "systhink",
+    "title": "Systems Thinking",
+    "description": "Analyze feedback loops, emergent behavior, system dynamics, stocks and flows, and leverage points. See the system, not just the parts.",
+    "line": "systems",
+    "applications": 2,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 98,
+    "id": "requirements",
+    "title": "Requirements Elicitation & Specification",
+    "description": "Systematically discover, categorize, and specify all requirements for a project or system. Surfaces hidden requirements, resolves conflicts, and produces a structured specification.",
+    "line": "systems",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 99,
+    "id": "tracematrix",
+    "title": "Requirements Traceability Matrix",
+    "description": "Create and maintain bidirectional traceability from stakeholder needs through requirements to design, implementation, and test. Identifies orphan requirements, gold-plating, and coverage gaps.",
+    "line": "systems",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 100,
+    "id": "exd",
+    "title": "Experimental Design",
+    "description": "Systematic procedure for designing rigorous experiments with proper controls, variables, and validity considerations",
+    "line": "systems",
+    "applications": 2,
+    "category": "Research & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 142,
+    "id": "abts",
+    "title": "A/B Test Design",
+    "description": "Design a valid experiment with a clear hypothesis, proper controls, sufficient sample size, and pre-defined decision criteria.",
+    "line": "systems",
+    "applications": 1,
+    "category": "User & Need",
+    "invokes": []
+  },
+  {
+    "rank": 143,
+    "id": "emv",
+    "title": "Empirical Validation",
+    "description": "Empirical validation step for GOSM plans - adds external reality testing beyond coherence checks",
+    "line": "systems",
+    "applications": 1,
+    "category": "Evaluation & Validation",
+    "invokes": []
+  },
+  {
+    "rank": 144,
+    "id": "dom",
+    "title": "Dominance Analysis",
+    "description": "Identify options that dominate others — strictly better on all dimensions, or better on some and equal on the rest.",
+    "line": "systems",
+    "applications": 1,
+    "category": "Decision Making",
+    "invokes": []
+  },
+  {
+    "rank": 145,
+    "id": "mcd",
+    "title": "Multi-Criteria Decision Analysis",
+    "description": "Systematic procedure for making decisions involving multiple criteria, tradeoffs, and stakeholders",
+    "line": "systems",
+    "applications": 1,
+    "category": "Decision Making",
+    "invokes": []
+  },
+  {
+    "rank": 146,
+    "id": "cba",
+    "title": "Cost-Benefit Analysis",
+    "description": "Systematically quantify costs and benefits to evaluate decisions, including NPV calculation, sensitivity analysis, and intangible factors",
+    "line": "systems",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 147,
+    "id": "lcca",
+    "title": "Life Cycle Cost Analysis",
+    "description": "Estimate total cost of ownership across the full system lifecycle. Covers development, production, operations, support, and disposal phases with sensitivity analysis and alternative comparison.",
+    "line": "systems",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 148,
+    "id": "ram",
+    "title": "Reliability, Availability, Maintainability Analysis",
+    "description": "Analyze and specify system reliability, availability, and maintainability characteristics. Models failure behavior, predicts system performance, and identifies improvement opportunities.",
+    "line": "systems",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 149,
+    "id": "ret",
+    "title": "Retrospective",
+    "description": "Learn from completed work to improve future performance",
+    "line": "systems",
+    "applications": 1,
+    "category": "Planning & Projects",
+    "invokes": []
+  },
+  {
+    "rank": 150,
+    "id": "ssr",
+    "title": "Session Review (Learning Capture)",
+    "description": "Capture learnings at end of session for continuous improvement. Reviews what worked, what did not, surprises, and procedure gaps.",
+    "line": "systems",
+    "applications": 1,
+    "category": "Strategy & Planning",
+    "invokes": []
+  }
+]

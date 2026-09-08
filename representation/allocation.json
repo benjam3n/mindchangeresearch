@@ -1,0 +1,254 @@
+[
+  {
+    "rank": 10,
+    "id": "orgn",
+    "title": "Organization Analysis",
+    "description": "Analyzes at the organizational level. Identifies structure, incentives, culture, resources, and processes to find where the org helps or hinders a goal.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 11,
+    "id": "sim",
+    "title": "Simplification",
+    "description": "Takes any complex thing (plan, explanation, process, argument) and strips it to its essential core without losing meaning.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 12,
+    "id": "ro",
+    "title": "Reorder a List Expertly",
+    "description": "Reorder an existing list using an explicit objective, multi-dimensional scoring, dependency awareness, and sanity checks — producing a defensible best-to-worst order with confidence flags.",
+    "line": "representation",
+    "applications": 3,
+    "category": "List & Pattern",
+    "invokes": []
+  },
+  {
+    "rank": 13,
+    "id": "wre",
+    "title": "Writing Requirements Engineering",
+    "description": "Derive writing requirements before drafting. Builds a multi-stage requirements object: artifact definition, thesis object, technical requirements, philosophical requirements, expansion requirements, outline requirements, exclusions, traceability, and draft gate.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 14,
+    "id": "w",
+    "title": "High Quality Writing",
+    "description": "Generative writing tool. Criteria-based specification for satisfying prose. Organized hierarchically — upstream criteria determine whether writing works; downstream criteria determine how well.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 15,
+    "id": "alt",
+    "title": "Abstraction Level",
+    "description": "Choose the right level of abstraction for understanding, deciding, executing, communicating, or creating. Zoom in, zoom out, or reframe.",
+    "line": "representation",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 16,
+    "id": "ma",
+    "title": "Morphological Analysis (Morphological Box)",
+    "description": "Invented by Fritz Zwicky. Break a problem into independent dimensions,",
+    "line": "representation",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 17,
+    "id": "ctcov",
+    "title": "Cognitive Coverage Analysis",
+    "description": "Assess whether a system covers all types of thinking. Identifies gaps across cognitive dimensions and recommends additions.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Skill Improvement",
+    "invokes": []
+  },
+  {
+    "rank": 18,
+    "id": "difr",
+    "title": "Differentiation Reasoning",
+    "description": "Reason about what makes things different by identifying similarities first, then classifying differences by significance and contextual relevance.",
+    "line": "representation",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 59,
+    "id": "op",
+    "title": "Order Procedure",
+    "description": "Determine the correct execution order for a set of steps based on dependencies and constraints",
+    "line": "representation",
+    "applications": 2,
+    "category": "Planning & Projects",
+    "invokes": []
+  },
+  {
+    "rank": 60,
+    "id": "cn",
+    "title": "Communication Narrative Orderings",
+    "description": "Orderings for presentations, writing, and communication where sequence affects audience engagement and comprehension.",
+    "line": "representation",
+    "applications": 2,
+    "category": "Orderings",
+    "invokes": []
+  },
+  {
+    "rank": 61,
+    "id": "draft",
+    "title": "Draft and Revise",
+    "description": "Structured drafting with revision cycles. First draft captures structure, second draft fixes logic, third draft polishes prose. Each revision has specific criteria. Prevents the common failure of trying to write perfectly on the first pass.",
+    "line": "representation",
+    "applications": 2,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 62,
+    "id": "re",
+    "title": "Reading Effectively",
+    "description": "Read strategically for comprehension, retention, and application using research-backed techniques",
+    "line": "representation",
+    "applications": 2,
+    "category": "Personal Development",
+    "invokes": []
+  },
+  {
+    "rank": 63,
+    "id": "anag",
+    "title": "Analogy Generation",
+    "description": "Explains concept X in terms of familiar concept Y by mapping structural correspondence, then testing where the analogy breaks.",
+    "line": "representation",
+    "applications": 2,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 64,
+    "id": "cda",
+    "title": "Cross-Domain Analogy",
+    "description": "Find analogies from other domains to generate novel insights. Transfer solutions and patterns across fields.",
+    "line": "representation",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 65,
+    "id": "categorize",
+    "title": "Categorize",
+    "description": "Organize items, files, folders, or output into discovered categories. Discovers dimensions from the data itself, not from theory. Handles large inputs by sampling.",
+    "line": "representation",
+    "applications": 2,
+    "category": null,
+    "invokes": [
+      "gg"
+    ]
+  },
+  {
+    "rank": 66,
+    "id": "txm",
+    "title": "Taxonomy Maintenance",
+    "description": "Systematic process for creating, updating, and maintaining taxonomies and classification systems.",
+    "line": "representation",
+    "applications": 2,
+    "category": "Procedures & Meta",
+    "invokes": []
+  },
+  {
+    "rank": 109,
+    "id": "mv",
+    "title": "MECE Validation",
+    "description": "Validate that a list is MECE (Mutually Exclusive, Collectively Exhaustive). Identifies overlaps and gaps.",
+    "line": "representation",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 110,
+    "id": "ctgp",
+    "title": "Category Gap Analysis",
+    "description": "Analyzes gaps within a category by comparing what should exist to what currently exists, then prioritizes missing items by importance.",
+    "line": "representation",
+    "applications": 1,
+    "category": "Skill Improvement",
+    "invokes": []
+  },
+  {
+    "rank": 111,
+    "id": "nusr",
+    "title": "New User Accessibility",
+    "description": "Analyze from the newcomer's perspective. Simulates first-use experience, identifies confusion points, assesses onboarding path, finds jargon and assumed knowledge, and recommends simplifications.",
+    "line": "representation",
+    "applications": 1,
+    "category": "Skill Improvement",
+    "invokes": []
+  },
+  {
+    "rank": 112,
+    "id": "vdp",
+    "title": "Visual Design Principles",
+    "description": "Eight principles of visual design derived from first principles (cognitive load, gestalt perception, reading research). Use as a gate before any visual design work -- every design decision should trace back to one of these principles. If a design element can't be justified by a principle, remove it.",
+    "line": "representation",
+    "applications": 1,
+    "category": "Marketing & Growth",
+    "invokes": []
+  },
+  {
+    "rank": 113,
+    "id": "prd",
+    "title": "Presentation Design",
+    "description": "Systematic procedure for designing visually effective presentations, slides, and handouts that enhance rather than compete with your message",
+    "line": "representation",
+    "applications": 1,
+    "category": "Writing & Communication",
+    "invokes": []
+  },
+  {
+    "rank": 114,
+    "id": "sum",
+    "title": "Summarize",
+    "description": "Summarize anything — text, conversations, situations, projects, decisions, or experiences — using the interpretation that best matches what the user actually needs.",
+    "line": "representation",
+    "applications": 1,
+    "category": "List & Pattern",
+    "invokes": []
+  },
+  {
+    "rank": 115,
+    "id": "omtx",
+    "title": "Matrix Generation",
+    "description": "Generates comparison and analysis matrices. Takes items and dimensions, fills cells with evidence-based assessments, and highlights patterns across the matrix.",
+    "line": "representation",
+    "applications": 1,
+    "category": "List & Pattern",
+    "invokes": []
+  },
+  {
+    "rank": 116,
+    "id": "met",
+    "title": "Metaphor Method",
+    "description": "A systematic method for using metaphors to:",
+    "line": "representation",
+    "applications": 1,
+    "category": "Core Exploration",
+    "invokes": []
+  }
+]

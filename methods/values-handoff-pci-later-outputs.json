@@ -1,0 +1,52 @@
+[
+  {
+    "case": "PCI1-later-A",
+    "input": "Invitation asks for a written comment and a recurring chair role. Supplied reply: A short written comment is fine, but I am not taking the chair role.",
+    "generated_output": {
+      "written_comment": {
+        "stance": "accepted",
+        "scope": "short"
+      },
+      "chair_role": {
+        "stance": "declined"
+      },
+      "draft": "Thanks; I have this as a short written comment and no chair role.",
+      "human_effect": "unobserved"
+    },
+    "field_used": "examples + failure_modes; the improvement fills schema sections but repeats the established scope rule."
+  },
+  {
+    "case": "PCI1-later-B",
+    "input": "Supplied reply: I am intrigued by the question but cannot join.",
+    "generated_output": {
+      "stated_interest": "intrigued",
+      "joining": "declined",
+      "draft": "Thanks for letting me know. I have your answer as not joining.",
+      "desired_goal": "Discussion with willing participants still desired and unmet for this participant."
+    },
+    "field_used": "when_to_use + goal-replacement failure mode; interest and participation are distinct."
+  },
+  {
+    "case": "PCI2-later-A",
+    "input": "A constructed label changes from “What is missing?” over a blank page to the same label over a crowded desk.",
+    "generated_output": {
+      "operation": "Compare absence of marks with an object potentially hidden by clutter.",
+      "status": "constructed comparison",
+      "open_question": "Does a third setting make “missing” mean a person rather than an object?",
+      "interest_reason": "The relation sought changes while the wording stays fixed."
+    },
+    "field_used": "examples retain imaginative comparison without claiming an audience response."
+  },
+  {
+    "case": "PCI2-later-B",
+    "input": "Proposed audience study of the blank-page and desk labels; no people observed.",
+    "generated_output": {
+      "status": "planned",
+      "prediction": "People may select different referents; this is an untested prediction.",
+      "actual_observations": [],
+      "next_available_operation": "Write candidate interpretations for a third fictional scene.",
+      "original_study": "pending"
+    },
+    "field_used": "unavailable-human-test failure mode; a local construction does not close the causal question."
+  }
+]

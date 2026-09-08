@@ -1,0 +1,749 @@
+{
+  "subsystems": [
+    {
+      "id": "A2-01",
+      "name": "Result intake",
+      "owned_output": "historical observation",
+      "functions": "produce historical observation",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-02",
+      "name": "Identity registry",
+      "owned_output": "stable identity",
+      "functions": "produce stable identity",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-03",
+      "name": "Source archive",
+      "owned_output": "original bytes",
+      "functions": "produce original bytes",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-04",
+      "name": "Condition index",
+      "owned_output": "reuse trigger",
+      "functions": "produce reuse trigger",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-05",
+      "name": "Criterion history",
+      "owned_output": "past standards",
+      "functions": "produce past standards",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-06",
+      "name": "Validity monitor",
+      "owned_output": "changed conditions",
+      "functions": "produce changed conditions",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-07",
+      "name": "Recurrence detector",
+      "owned_output": "actual matching event",
+      "functions": "produce actual matching event",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-08",
+      "name": "Retrieval",
+      "owned_output": "evidence packet",
+      "functions": "produce evidence packet",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-09",
+      "name": "Fit reassessment",
+      "owned_output": "present eligibility",
+      "functions": "produce present eligibility",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-10",
+      "name": "Migration mapper",
+      "owned_output": "format conversion",
+      "functions": "produce format conversion",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-11",
+      "name": "Host adapter",
+      "owned_output": "available command",
+      "functions": "produce available command",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-12",
+      "name": "Continuation controller",
+      "owned_output": "pending action",
+      "functions": "produce pending action",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-13",
+      "name": "Contradiction review",
+      "owned_output": "reopened claim",
+      "functions": "produce reopened claim",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-14",
+      "name": "Retirement registry",
+      "owned_output": "inactive recommendation",
+      "functions": "produce inactive recommendation",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-15",
+      "name": "Recovery",
+      "owned_output": "restored prior state",
+      "functions": "produce restored prior state",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    },
+    {
+      "id": "A2-16",
+      "name": "Future presentation",
+      "owned_output": "conditional contribution",
+      "functions": "produce conditional contribution",
+      "owner": "assistant design role",
+      "quality": "contract, scope and revision retained",
+      "deployment": "local design/prototype; no claimed production deployment"
+    }
+  ],
+  "interfaces": [
+    {
+      "id": "I2-01",
+      "from": "A2-01",
+      "to": "A2-02",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "historical observation",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-02",
+      "from": "A2-02",
+      "to": "A2-03",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "stable identity",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-03",
+      "from": "A2-03",
+      "to": "A2-04",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "original bytes",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-04",
+      "from": "A2-04",
+      "to": "A2-05",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reuse trigger",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-05",
+      "from": "A2-05",
+      "to": "A2-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "past standards",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-06",
+      "from": "A2-06",
+      "to": "A2-07",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "changed conditions",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-07",
+      "from": "A2-07",
+      "to": "A2-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "actual matching event",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-08",
+      "from": "A2-08",
+      "to": "A2-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "evidence packet",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-09",
+      "from": "A2-09",
+      "to": "A2-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "present eligibility",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-10",
+      "from": "A2-10",
+      "to": "A2-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "format conversion",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-11",
+      "from": "A2-11",
+      "to": "A2-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "available command",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-12",
+      "from": "A2-12",
+      "to": "A2-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "pending action",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-13",
+      "from": "A2-13",
+      "to": "A2-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reopened claim",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-14",
+      "from": "A2-14",
+      "to": "A2-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "inactive recommendation",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-15",
+      "from": "A2-15",
+      "to": "A2-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "restored prior state",
+      "frequency": "per relevant transition",
+      "criticality": "HIGH",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-16",
+      "from": "A2-01",
+      "to": "A2-09",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "historical observation",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-17",
+      "from": "A2-03",
+      "to": "A2-06",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "original bytes",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-18",
+      "from": "A2-04",
+      "to": "A2-08",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reuse trigger",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-19",
+      "from": "A2-05",
+      "to": "A2-10",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "past standards",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-20",
+      "from": "A2-06",
+      "to": "A2-13",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "changed conditions",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-21",
+      "from": "A2-07",
+      "to": "A2-11",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "actual matching event",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-22",
+      "from": "A2-08",
+      "to": "A2-12",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "evidence packet",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-23",
+      "from": "A2-09",
+      "to": "A2-14",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "present eligibility",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-24",
+      "from": "A2-13",
+      "to": "A2-15",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "reopened claim",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    },
+    {
+      "id": "I2-25",
+      "from": "A2-15",
+      "to": "A2-16",
+      "type": "versioned data packet",
+      "protocol": "JSON-file contract",
+      "data": "restored prior state",
+      "frequency": "per relevant transition",
+      "criticality": "MED",
+      "error": "hold dependent choice; retain last accepted historical result"
+    }
+  ],
+  "weights": {
+    "Fidelity": 5,
+    "Scope clarity": 5,
+    "Recoverability": 4,
+    "Modifiability": 3,
+    "Traceability": 4,
+    "Simplicity": 3,
+    "Prompt delivery": 2,
+    "Portability": 2,
+    "Resource control": 4,
+    "Agency": 5
+  },
+  "scores": [
+    [
+      3,
+      2,
+      1,
+      2,
+      2,
+      5,
+      5,
+      4,
+      3,
+      3
+    ],
+    [
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    [
+      5,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2,
+      5,
+      4,
+      5
+    ],
+    [
+      3,
+      3,
+      2,
+      4,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      5
+    ]
+  ],
+  "totals": {
+    "single mutable document": 103,
+    "layered immutable packets": 148,
+    "event log plus views": 166,
+    "shared blackboard": 115,
+    "actor contracts": 141
+  },
+  "selected": "event log plus views",
+  "sensitivity": [
+    {
+      "attribute": "Fidelity",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        100,
+        143,
+        161,
+        112,
+        137
+      ]
+    },
+    {
+      "attribute": "Fidelity",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        106,
+        153,
+        171,
+        118,
+        145
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        101,
+        144,
+        161,
+        112,
+        137
+      ]
+    },
+    {
+      "attribute": "Scope clarity",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        105,
+        152,
+        171,
+        118,
+        145
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        102,
+        144,
+        161,
+        113,
+        137
+      ]
+    },
+    {
+      "attribute": "Recoverability",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        104,
+        152,
+        171,
+        117,
+        145
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        101,
+        144,
+        161,
+        111,
+        137
+      ]
+    },
+    {
+      "attribute": "Modifiability",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        105,
+        152,
+        171,
+        119,
+        145
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        101,
+        144,
+        161,
+        112,
+        137
+      ]
+    },
+    {
+      "attribute": "Traceability",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        105,
+        152,
+        171,
+        118,
+        145
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        98,
+        145,
+        164,
+        111,
+        139
+      ]
+    },
+    {
+      "attribute": "Simplicity",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        108,
+        151,
+        168,
+        119,
+        143
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        98,
+        145,
+        164,
+        111,
+        139
+      ]
+    },
+    {
+      "attribute": "Prompt delivery",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        108,
+        151,
+        168,
+        119,
+        143
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        99,
+        144,
+        161,
+        112,
+        138
+      ]
+    },
+    {
+      "attribute": "Portability",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        107,
+        152,
+        171,
+        118,
+        144
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        100,
+        144,
+        162,
+        112,
+        137
+      ]
+    },
+    {
+      "attribute": "Resource control",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        106,
+        152,
+        170,
+        118,
+        145
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": -1,
+      "winner": "event log plus views",
+      "totals": [
+        100,
+        144,
+        161,
+        112,
+        136
+      ]
+    },
+    {
+      "attribute": "Agency",
+      "delta": 1,
+      "winner": "event log plus views",
+      "totals": [
+        106,
+        152,
+        171,
+        118,
+        146
+      ]
+    }
+  ]
+}

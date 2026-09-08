@@ -1,0 +1,188 @@
+{
+  "tests": [
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 0,
+      "expiry": null,
+      "A": 0,
+      "B": 6,
+      "B_valid": true,
+      "preferred": "A"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 1,
+      "expiry": null,
+      "A": 2,
+      "B": 7,
+      "B_valid": true,
+      "preferred": "A"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 5,
+      "expiry": null,
+      "A": 10,
+      "B": 11,
+      "B_valid": true,
+      "preferred": "A"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 6,
+      "expiry": null,
+      "A": 12,
+      "B": 12,
+      "B_valid": true,
+      "preferred": "tie"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 7,
+      "expiry": null,
+      "A": 14,
+      "B": 13,
+      "B_valid": true,
+      "preferred": "B"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 10,
+      "expiry": null,
+      "A": 20,
+      "B": 16,
+      "B_valid": true,
+      "preferred": "B"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 10,
+      "expiry": 5,
+      "A": 20,
+      "B": 16,
+      "B_valid": false,
+      "preferred": "A"
+    },
+    {
+      "setup": 0,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 1,
+      "expiry": null,
+      "A": 2,
+      "B": 1,
+      "B_valid": true,
+      "preferred": "B"
+    },
+    {
+      "setup": 6,
+      "a_per": 1,
+      "b_per": 1,
+      "n": 10,
+      "expiry": null,
+      "A": 10,
+      "B": 16,
+      "B_valid": true,
+      "preferred": "A"
+    },
+    {
+      "setup": 6,
+      "a_per": 1,
+      "b_per": 2,
+      "n": 10,
+      "expiry": null,
+      "A": 10,
+      "B": 26,
+      "B_valid": true,
+      "preferred": "A"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 6,
+      "expiry": 6,
+      "A": 12,
+      "B": 12,
+      "B_valid": true,
+      "preferred": "tie"
+    },
+    {
+      "setup": 6,
+      "a_per": 2,
+      "b_per": 1,
+      "n": 7,
+      "expiry": 6,
+      "A": 14,
+      "B": 13,
+      "B_valid": false,
+      "preferred": "A"
+    }
+  ],
+  "independent_checks": {
+    "direct_arithmetic": true,
+    "algebra_crossover": true,
+    "independent_sum_implementation": true,
+    "metamorphic_increment": true,
+    "expiry_separate_from_cost": true
+  },
+  "edge_cases": [
+    "zero recurrence",
+    "zero setup",
+    "equal per-use costs",
+    "prepared option more expensive per use",
+    "expiry before crossover",
+    "expiry at crossover"
+  ],
+  "calibrations": [
+    {
+      "id": "P1",
+      "confidence": 90,
+      "prediction": "A cheaper for n=1",
+      "outcome": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "P2",
+      "confidence": 90,
+      "prediction": "tie at n=6",
+      "outcome": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "P3",
+      "confidence": 90,
+      "prediction": "B cheaper for n=7",
+      "outcome": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "P4",
+      "confidence": 80,
+      "prediction": "expiry at5 prevents B crossover",
+      "outcome": true,
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "P5",
+      "confidence": 90,
+      "prediction": "setup0 makes B cheaper for positive n",
+      "outcome": true,
+      "status": "CONFIRMED"
+    }
+  ]
+}

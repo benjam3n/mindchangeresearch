@@ -1,0 +1,36 @@
+{
+  "learnings": [
+    {
+      "id": "Ld9a0f028",
+      "type": "insight",
+      "content": "A prospective forecast record needs its full proposition before the outcome.",
+      "context": "first GJS EMV files versus fifteen new frozen inputs; domain=decision; confidence=high for local event-order proposition; transfer untested; evidence=journey-budget-emv-pre.json,journey-budget-emv-prospective-new.json,journey-budget-emv-prospective-results.json; grounding=OBSERVED,TESTED",
+      "domain": "general",
+      "confidence": "medium",
+      "evidence": "",
+      "grounding": "",
+      "created": "2026-09-08T00:00:01.829194",
+      "validated_count": 0,
+      "contradicted_count": 0,
+      "status": "preliminary"
+    },
+    {
+      "id": "L5e71552f",
+      "type": "what_didnt",
+      "content": "The first budget40 E+G choice was not optimal; later S+C repair does not make it first-pass correct.",
+      "context": "four-action finite additive model; domain=decision; confidence=high for supplied instance; evidence=architecture-actual-cases.json,consolidation-04.md; grounding=TESTED,OBSERVED",
+      "domain": "general",
+      "confidence": "medium",
+      "evidence": "",
+      "grounding": "",
+      "created": "2026-09-08T00:00:01.873120",
+      "validated_count": 0,
+      "contradicted_count": 0,
+      "status": "preliminary"
+    }
+  ],
+  "metadata": {
+    "created": "2026-09-08T00:00:01.781262",
+    "version": "1.0.0"
+  }
+}

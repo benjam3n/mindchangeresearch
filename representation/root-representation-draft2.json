@@ -1,0 +1,205 @@
+{
+  "intended_mind_change": "Use complete paragraph audits to make only supported logic and structural revisions.",
+  "created_utc": "2026-09-08T05:35:51.024494+00:00",
+  "draft1_sha256": "44bd751ce12ed811c27b68c981f0481fc7e2a0f6ca75efd06ad43b2609f31a6f",
+  "cases": {
+    "044-draft-1": {
+      "audit": [
+        {
+          "paragraph": 1,
+          "job": "Define the comparison question",
+          "claim": "The mixture is part of the target comparison.",
+          "support": "Explained by later weighted calculations; valid introductory claim.",
+          "transition": "Specifically: instantiate two groups.",
+          "failure": "No logical failure; first two sentences overlap in their question-setting job."
+        },
+        {
+          "paragraph": 2,
+          "job": "Supply and compare all within-group counts",
+          "claim": "A exceeds B in each group.",
+          "support": "9/10>.8; .1>0. All four denominators supplied.",
+          "transition": "However: aggregate rankings differ.",
+          "failure": "No unsupported claim; eight spelled-out rates/counts make the data costly to scan."
+        },
+        {
+          "paragraph": 3,
+          "job": "Explain the overall reversal",
+          "claim": "19/110<80/110 despite the within-group order.",
+          "support": "Explicit sums and different sample compositions.",
+          "transition": "Therefore: compare under a common mixture.",
+          "failure": "First sentence announces an operation rather than the reversal; burying the result costs one sentence."
+        },
+        {
+          "paragraph": 4,
+          "job": "Demonstrate a common-mixture comparison",
+          "claim": "An equal mixture yields50% versus40%.",
+          "support": "(.9+.1)/2 and(.8+0)/2.",
+          "transition": "However: this is arithmetic, not causal identification.",
+          "failure": "Another common mixture is mentioned but its effect is not characterized; this is an opportunity to add the exact boundary, not a false claim."
+        },
+        {
+          "paragraph": 5,
+          "job": "Limit causal inference",
+          "claim": "These counts do not establish a switching effect.",
+          "support": "No assignment mechanism or counterfactual outcomes supplied.",
+          "transition": "Ends on the evidential boundary.",
+          "failure": "Last sentence repeats the paragraph opening and can be cut."
+        }
+      ],
+      "originality_check": "The general warning about averages is familiar; novelty of the theorem is not claimed and no search of 10,000 articles was performed. The exact evidence supports a sharper local conclusion: the two group-rate gaps are both0.1, so A exceeds B by0.1 for every common mixture, not merely50/50. This algebra is checked after revision.",
+      "reader_simulation": [
+        {
+          "role": "Numerate reader asking which process to switch to",
+          "question": "Does the standardized comparison prove that switching causes a gain?",
+          "text_answer": "No; paragraph5 expressly withholds that inference.",
+          "scope": "Model simulation, not observed human comprehension."
+        },
+        {
+          "role": "Reader whose target population is mostly hard cases",
+          "question": "Does the comparison require an even split?",
+          "text_answer": "Draft1 permits another mixture but omits the exact invariant gap; add the general formula.",
+          "scope": "A concrete missing use case, not an invented reader response."
+        },
+        {
+          "role": "Reader describing the actual sampled cases",
+          "question": "Must the observed aggregate be discarded?",
+          "text_answer": "No; paragraph1 defines description as a separate legitimate question. Preserve this boundary."
+        }
+      ],
+      "draft2": [
+        "Compare two processes on a stated mixture of cases. The overall rate for each process correctly describes the cases it received, but different mixtures can reverse the ranking of their group rates.",
+        "In a fictional example, A succeeds on 9/10 easy cases and 10/100 hard cases. B succeeds on 80/100 easy cases and 0/10 hard cases. A leads within both groups: 90% versus 80% for easy cases, 10% versus 0% for hard cases.",
+        "B nevertheless leads overall: 80/110, about 73%, against A's 19/110, about 17%. B received mainly easy cases; A received mainly hard ones. Their aggregates weight the two groups differently.",
+        "Give both processes the same easy-case share q, with the remainder hard. The weighted observed rates become 0.1+0.8q for A and 0.8q for B. A therefore leads by ten percentage points for every common mixture, including a 50/50 mixture, where the comparison is 50% versus 40%. The mixture is an explicit comparison assumption, not a discovered population distribution.",
+        "That arithmetic does not establish the effect of switching a case from B to A. The supplied counts specify neither an assignment mechanism nor outcomes for the same case under both processes. They support a descriptive comparison under stated weights; causal claims require more information."
+      ],
+      "flow_test_before": [
+        "Question includes case mixture.",
+        "Consider fictional processes.",
+        "Now add successes and cases.",
+        "Compare at one mixture.",
+        "These figures describe rates."
+      ],
+      "flow_test_after": [
+        "Compare on a stated mixture.",
+        "A leads within both groups.",
+        "B nevertheless leads overall.",
+        "A leads by10points under every common mixture.",
+        "Arithmetic does not establish a switching effect."
+      ],
+      "revision_delta": {
+        "paragraphs_cut": 0,
+        "paragraphs_added": 0,
+        "paragraphs_moved": 0,
+        "paragraphs_merged": 0,
+        "paragraphs_changed": 5,
+        "original_paragraphs": 5,
+        "percent_changed": 100,
+        "substantive_changes": "Replace example-only standardization with the supported all-mixtures formula; lead paragraph3 with the actual reversal; retain causal boundary."
+      }
+    },
+    "045-draft-2": {
+      "audit": [
+        {
+          "paragraph": 1,
+          "job": "Locate mapmaking away from home",
+          "claim": "Sela works on a coastal map.",
+          "support": "Fictional scene consistent with input.",
+          "transition": "Then: letter arrives.",
+          "failure": "No factual gap; crossed-out sheets add a second uncertainty motif before the actual decision. Cut this background rather than inventing a contradiction."
+        },
+        {
+          "paragraph": 2,
+          "job": "Preserve two plausible interpretations",
+          "claim": "She can read the five-word letter two ways.",
+          "support": "Quoted words, blank remainder, no reply or narrator verdict.",
+          "transition": "Specifically: ticket makes returning an available action.",
+          "failure": "None; explicit uncertainty is essential to preserve."
+        },
+        {
+          "paragraph": 3,
+          "job": "Make the return option tangible",
+          "claim": "An unused ticket is available.",
+          "support": "Required fictional event.",
+          "transition": "Then: she chooses the reply action.",
+          "failure": "Kettle duration is scene detail but does not change the choice or supply needed evidence."
+        },
+        {
+          "paragraph": 4,
+          "job": "Show the selected response",
+          "claim": "She marks a copied map and addresses an envelope.",
+          "support": "Required event.",
+          "transition": "Then: ticket remains while work continues.",
+          "failure": "Moving a misplaced dot creates a second miniature repair plot unrelated to the response choice; cut for this brief."
+        },
+        {
+          "paragraph": 5,
+          "job": "Leave future interpretation open",
+          "claim": "The ticket remains and no reply is observed.",
+          "support": "Both explicitly shown; envelope has not left.",
+          "transition": "Ends with unfinished map.",
+          "failure": "Saying no answer has arrived before posting is logically harmless but uninformative; the unsent envelope already establishes the boundary."
+        }
+      ],
+      "originality_check": "The story is not certified unprecedented. Its exact target is a chosen response without narrator resolution of the father’s meaning. The initial draft already met that target; shorter prose cannot be reported as discovering the distinction.",
+      "reader_simulation": [
+        {
+          "role": "Reader treating the letter literally",
+          "question": "Can this be a request for a location?",
+          "text_answer": "Yes; map and address answer the literal words.",
+          "scope": "Model interpretation, not human reading data."
+        },
+        {
+          "role": "Reader treating the letter as an invitation home",
+          "question": "Does the ending rule this reading out?",
+          "text_answer": "No; the ticket and absent clarification leave it possible.",
+          "scope": "Model interpretation, not measured emotion."
+        },
+        {
+          "role": "Reader checking whether the father approved",
+          "question": "Has any response from him occurred?",
+          "text_answer": "No. The story must end before such a response and not infer it from Sela’s action.",
+          "scope": "Text-constraint check."
+        }
+      ],
+      "draft2": [
+        "Sela put the return ticket beside her father's letter. The ticket named a route home. The letter said only: Tell us where you are. Below the five words, the page was blank. She had been away three weeks, drawing a map of the coast, and she could read the sentence as a request for a place or a request to come back.",
+        "The clean copy of her map lay across the drawing board. Each inlet had its name, but the rooming house where she worked was too small to appear. Through the window she could see the harbor that occupied the center of the sheet. She looked from the harbor to the letter. Neither the view nor the blank page supplied another sentence from her father.",
+        "Sela took a second copy of the map and marked the rooming house with a dot. She wrote the street beside it. Then she folded the sheet, trying once before finding a fold that left the dot on an unbroken part of the paper. She put the map into an envelope and addressed it to her father. It was an answer she could send without pretending she had answered both readings of his question.",
+        "The ticket went back into the drawer. The envelope waited by the door for the morning post. Sela returned to the northern edge of the first map, where her pencil lines stopped. She sharpened the pencil but added no coast beyond them. The space remained empty, and the envelope remained in the room."
+      ],
+      "flow_test_before": [
+        "Mapmaking background.",
+        "Father’s letter arrives.",
+        "An unused ticket is available.",
+        "She marks a copy.",
+        "The ticket returns to the drawer."
+      ],
+      "flow_test_after": [
+        "Ticket and letter place the choice together.",
+        "The map supplies a possible answer.",
+        "She prepares that answer.",
+        "The ticket remains and the future is open."
+      ],
+      "revision_delta": {
+        "paragraphs_cut": 1,
+        "paragraphs_added": 0,
+        "paragraphs_moved": 1,
+        "paragraphs_merged": 1,
+        "paragraphs_changed": 5,
+        "original_paragraphs": 5,
+        "percent_changed": 100,
+        "substantive_changes": "Background and letter/ticket setup become one decision paragraph; the map becomes the reply affordance; redundant no-answer-before-posting statement removed. Event order remains compatible."
+      }
+    }
+  },
+  "actual_mind_change": "The quantitative draft now states an all-common-mixtures comparison, derived from the exact equal group gaps. The story changed to decision-first organization while preserving the same ambiguity already present in draft1.",
+  "benefit": "Two actual revisions exist; arithmetic and final prose checks remain to be completed. No human benefit observed.",
+  "verdict": "UNRESOLVED",
+  "organization": "Audits attach to original paragraph numbers, with explicit revision deltas rather than overwritten baselines.",
+  "next_attempts": [
+    "Check the common-mixture algebra and new q values.",
+    "Perform sentence, tone, voice and simulated spoken passes.",
+    "Compare final story against all fixed events and both readings."
+  ]
+}

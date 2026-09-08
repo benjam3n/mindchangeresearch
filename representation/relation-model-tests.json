@@ -1,0 +1,136 @@
+[
+  {
+    "input": {
+      "id": "completion",
+      "relation": "one_of",
+      "members": [
+        "[1,0]",
+        "[1,1]"
+      ],
+      "order": null,
+      "meaning": "exactly one completion is actual, without choosing which"
+    },
+    "output": {
+      "required_all": false,
+      "execute_in_order": false,
+      "alternatives": [
+        "[1,0]",
+        "[1,1]"
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "recipe",
+      "relation": "all_of",
+      "members": [
+        "flour",
+        "water"
+      ],
+      "order": null,
+      "meaning": "both stipulated ingredients required"
+    },
+    "output": {
+      "required_all": true,
+      "execute_in_order": false,
+      "requirements": [
+        "flour",
+        "water"
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "journey",
+      "relation": "sequence",
+      "members": [
+        "station",
+        "interchange",
+        "destination"
+      ],
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "meaning": "declared itinerary order"
+    },
+    "output": {
+      "required_all": true,
+      "execute_in_order": true,
+      "steps": [
+        "station",
+        "interchange",
+        "destination"
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "music",
+      "relation": "all_of",
+      "members": [
+        "C",
+        "E",
+        "G"
+      ],
+      "order": null,
+      "meaning": "stipulated simultaneous chord members"
+    },
+    "output": {
+      "required_all": true,
+      "execute_in_order": false,
+      "requirements": [
+        "C",
+        "E",
+        "G"
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "cast",
+      "relation": "one_of",
+      "members": [
+        "performer A",
+        "performer B"
+      ],
+      "order": null,
+      "meaning": "one actor takes the stipulated single role"
+    },
+    "output": {
+      "required_all": false,
+      "execute_in_order": false,
+      "alternatives": [
+        "performer A",
+        "performer B"
+      ]
+    }
+  },
+  {
+    "input": {
+      "id": "game",
+      "relation": "sequence",
+      "members": [
+        "draw",
+        "choose",
+        "place"
+      ],
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "meaning": "stipulated turn procedure"
+    },
+    "output": {
+      "required_all": true,
+      "execute_in_order": true,
+      "steps": [
+        "draw",
+        "choose",
+        "place"
+      ]
+    }
+  }
+]

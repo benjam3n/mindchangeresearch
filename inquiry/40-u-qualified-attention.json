@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "A targeted view can expose a critical instruction."
+  },
+  {
+    "id": 2,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "Its limiting exception can be outside the same view."
+  },
+  {
+    "id": 3,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "An adjacent overlap can restore a nearby qualifier."
+  },
+  {
+    "id": 4,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "The source distinguishes instruction force."
+  },
+  {
+    "id": 5,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "Full bytes can still be stale or semantically wrong."
+  },
+  {
+    "id": 6,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "A compact representation changes what remains easy to retrieve."
+  },
+  {
+    "id": 7,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "The source\u2019s numeric depth floors do not define benefit."
+  },
+  {
+    "id": 8,
+    "type": "unbundled-presupposed",
+    "parent": null,
+    "text": "The model\u2019s visible input is not identical to a person\u2019s attention."
+  },
+  {
+    "id": 9,
+    "type": "unbundled-explicit",
+    "parent": null,
+    "text": "Repeated retrieval can have a cost."
+  },
+  {
+    "id": 10,
+    "type": "unbundled-bundled",
+    "parent": null,
+    "text": "An exception can change the domain of a claim rather than negate it."
+  },
+  {
+    "id": 11,
+    "type": "unbundled-implicit",
+    "parent": null,
+    "text": "A retrieval policy can follow explicit semantic dependencies."
+  },
+  {
+    "id": 12,
+    "type": "unbundled-meta",
+    "parent": null,
+    "text": "The better unit of access depends on the next question."
+  },
+  {
+    "id": 13,
+    "type": "state",
+    "parent": 1,
+    "text": "Critical clause may be shown, outside the window or absent from the source."
+  },
+  {
+    "id": 14,
+    "type": "parameter",
+    "parent": 1,
+    "text": "Window size in SE37 is one, three or six clauses."
+  },
+  {
+    "id": 15,
+    "type": "category",
+    "parent": 1,
+    "text": "Targeted reading is an access operation; siblings include full reading and indexed retrieval."
+  },
+  {
+    "id": 16,
+    "type": "assumption",
+    "parent": 1,
+    "text": "The selected clause really is the one relevant to the current question."
+  },
+  {
+    "id": 17,
+    "type": "state",
+    "parent": 2,
+    "text": "Critical clause visible/exception absent is SE37 row2."
+  },
+  {
+    "id": 18,
+    "type": "dimension",
+    "parent": 2,
+    "text": "Main instruction visibility and qualifier visibility are separate axes."
+  },
+  {
+    "id": 19,
+    "type": "parameter",
+    "parent": 2,
+    "text": "The exception can precede, follow or reside in another section."
+  },
+  {
+    "id": 20,
+    "type": "assumption",
+    "parent": 2,
+    "text": "The consumer knows which separate clause qualifies the selected instruction."
+  },
+  {
+    "id": 21,
+    "type": "parameter",
+    "parent": 3,
+    "text": "One-clause overlap changes shown indices from [11] to [10,11] in row3."
+  },
+  {
+    "id": 22,
+    "type": "state",
+    "parent": 3,
+    "text": "Overlap can restore the exception, add irrelevant text or still miss a distant exception."
+  },
+  {
+    "id": 23,
+    "type": "dimension",
+    "parent": 3,
+    "text": "Physical adjacency differs from semantic dependency."
+  },
+  {
+    "id": 24,
+    "type": "category",
+    "parent": 3,
+    "text": "Qualified-span retrieval is a dependency retrieval operation; siblings include citations and linked definitions."
+  },
+  {
+    "id": 25,
+    "type": "state",
+    "parent": 4,
+    "text": "A clause may be mandatory, optional, conditional or descriptive."
+  },
+  {
+    "id": 26,
+    "type": "dimension",
+    "parent": 4,
+    "text": "Visibility and normative force vary independently."
+  },
+  {
+    "id": 27,
+    "type": "perspective",
+    "parent": 4,
+    "text": "A source author\u2019s suggested next step and the user\u2019s direct instruction can carry different authority."
+  },
+  {
+    "id": 28,
+    "type": "assumption",
+    "parent": 4,
+    "text": "The reader resolves governing instruction priority using actual context."
+  },
+  {
+    "id": 29,
+    "type": "state",
+    "parent": 5,
+    "text": "Current accurate, current inaccurate, stale still-applicable and stale inapplicable are possible."
+  },
+  {
+    "id": 30,
+    "type": "dimension",
+    "parent": 5,
+    "text": "Byte identity, currency and semantic validity are distinct."
+  },
+  {
+    "id": 31,
+    "type": "category",
+    "parent": 5,
+    "text": "Source verification includes identity checking and claim testing as different operations."
+  },
+  {
+    "id": 32,
+    "type": "assumption",
+    "parent": 5,
+    "text": "A hash comparison answers identity, not the truth of a source claim."
+  },
+  {
+    "id": 33,
+    "type": "parameter",
+    "parent": 6,
+    "text": "A view may contain one clause, a qualified span, a neighborhood or a whole document."
+  },
+  {
+    "id": 34,
+    "type": "state",
+    "parent": 6,
+    "text": "Compression can omit duplicates, irrelevant context or decisive exceptions."
+  },
+  {
+    "id": 35,
+    "type": "perspective",
+    "parent": 6,
+    "text": "A literal lookup and a scope-sensitive inference need different portions."
+  },
+  {
+    "id": 36,
+    "type": "scale",
+    "parent": 6,
+    "text": "The whole corpus and a single relation have different indexing needs."
+  },
+  {
+    "id": 37,
+    "type": "state",
+    "parent": 7,
+    "text": "A record can meet a floor and be redundant, or have a useful partial result."
+  },
+  {
+    "id": 38,
+    "type": "dimension",
+    "parent": 7,
+    "text": "Procedural completion and demonstrated benefit are separate judgments."
+  },
+  {
+    "id": 39,
+    "type": "assumption",
+    "parent": 7,
+    "text": "The original floor is actually read rather than inferred from a title."
+  },
+  {
+    "id": 40,
+    "type": "temporal",
+    "parent": 7,
+    "text": "A dependency may complete after its parent map was first written."
+  },
+  {
+    "id": 41,
+    "type": "perspective",
+    "parent": 8,
+    "text": "A model fixture reports displayed indices; a person\u2019s notice or comprehension requires observation."
+  },
+  {
+    "id": 42,
+    "type": "state",
+    "parent": 8,
+    "text": "A human can notice, overlook, misread or correctly apply a visible qualifier."
+  },
+  {
+    "id": 43,
+    "type": "dimension",
+    "parent": 8,
+    "text": "Availability, attention, interpretation and action are separate variables."
+  },
+  {
+    "id": 44,
+    "type": "assumption",
+    "parent": 8,
+    "text": "A human-effect claim has a relevant measurement rather than a generated feeling."
+  },
+  {
+    "id": 45,
+    "type": "parameter",
+    "parent": 9,
+    "text": "Cost can count requests, tokens, elapsed time or human effort."
+  },
+  {
+    "id": 46,
+    "type": "state",
+    "parent": 9,
+    "text": "An exact small follow-up can repair a truncation; repeated irrelevant reads may add no information."
+  },
+  {
+    "id": 47,
+    "type": "scale",
+    "parent": 9,
+    "text": "A single missing clause and hundreds of dependencies create different strategies."
+  },
+  {
+    "id": 48,
+    "type": "assumption",
+    "parent": 9,
+    "text": "The measured cost corresponds to the real constrained resource."
+  },
+  {
+    "id": 49,
+    "type": "state",
+    "parent": 10,
+    "text": "The claim can hold within its condition and fail outside it."
+  },
+  {
+    "id": 50,
+    "type": "category",
+    "parent": 10,
+    "text": "This is restricted quantification; siblings include universal claims and existential witnesses."
+  },
+  {
+    "id": 51,
+    "type": "dimension",
+    "parent": 10,
+    "text": "Domain restriction and evidential confidence are distinct."
+  },
+  {
+    "id": 52,
+    "type": "assumption",
+    "parent": 10,
+    "text": "The qualifier is applied to the proposition it actually modifies."
+  },
+  {
+    "id": 53,
+    "type": "state",
+    "parent": 11,
+    "text": "A critical clause can link to an adjacent exception, a distant definition or an external premise."
+  },
+  {
+    "id": 54,
+    "type": "parameter",
+    "parent": 11,
+    "text": "Dependency depth can be zero, one or several links."
+  },
+  {
+    "id": 55,
+    "type": "dimension",
+    "parent": 11,
+    "text": "Link existence and target access are different properties."
+  },
+  {
+    "id": 56,
+    "type": "assumption",
+    "parent": 11,
+    "text": "A dependency cycle is detected rather than recursively fetched forever."
+  },
+  {
+    "id": 57,
+    "type": "state",
+    "parent": 12,
+    "text": "A title lookup may need one phrase; an applicability test may need its condition and exception."
+  },
+  {
+    "id": 58,
+    "type": "perspective",
+    "parent": 12,
+    "text": "A reviewer may prefer complete provenance while a current selector needs a small qualified unit."
+  },
+  {
+    "id": 59,
+    "type": "temporal",
+    "parent": 12,
+    "text": "A later query can require detail irrelevant to the current one."
+  },
+  {
+    "id": 60,
+    "type": "assumption",
+    "parent": 12,
+    "text": "The representation retains a path back to omitted source context."
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "version": "1.0.0",
+  "scope": "Atomic local representation interventions in this 24-case vocabulary",
+  "rows": [
+    {
+      "id": "O01",
+      "operation": "reword",
+      "case": "Replace not-every with an explicit exception claim",
+      "primary_intended_locus": "meaning",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O02",
+      "operation": "reword",
+      "case": "Expand an unexplained symbol in a spoken sentence",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O03",
+      "operation": "reword",
+      "case": "Put the changed actor into a retrieval cue",
+      "primary_intended_locus": "retrieval",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O04",
+      "operation": "reword",
+      "case": "State the criterion beside the retained verdict",
+      "primary_intended_locus": "evaluation",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O05",
+      "operation": "reorder",
+      "case": "Move a known answer before its derivation",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O06",
+      "operation": "reorder",
+      "case": "Place a prerequisite before the dependent step",
+      "primary_intended_locus": "coordination",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O07",
+      "operation": "reorder",
+      "case": "Put the current concern before method choices",
+      "primary_intended_locus": "selection",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O08",
+      "operation": "reorder",
+      "case": "Put a transfer boundary before a prior success",
+      "primary_intended_locus": "evaluation",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O09",
+      "operation": "change_content",
+      "case": "Add the inverse counterexample",
+      "primary_intended_locus": "meaning",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O10",
+      "operation": "change_content",
+      "case": "Remove a decorative duplicate sentence",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O11",
+      "operation": "change_content",
+      "case": "Add the unknown completion that flips every",
+      "primary_intended_locus": "evaluation",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O12",
+      "operation": "change_content",
+      "case": "Retain the failed attempt in a reusable note",
+      "primary_intended_locus": "retrieval",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O13",
+      "operation": "retime",
+      "case": "Insert a pause with all words unchanged",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O14",
+      "operation": "retime",
+      "case": "Delay a cue until a new actor is encountered",
+      "primary_intended_locus": "retrieval",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O15",
+      "operation": "retime",
+      "case": "Allow separate response time after each question",
+      "primary_intended_locus": "selection",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O16",
+      "operation": "retime",
+      "case": "Move review after all independent checks finish",
+      "primary_intended_locus": "coordination",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O17",
+      "operation": "switch_channel",
+      "case": "Speak the same three-clause rule",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O18",
+      "operation": "switch_channel",
+      "case": "Display the exact pair as two labeled circles",
+      "primary_intended_locus": "meaning",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O19",
+      "operation": "switch_channel",
+      "case": "Provide a serial equivalent of a branch",
+      "primary_intended_locus": "evaluation",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O20",
+      "operation": "switch_channel",
+      "case": "Make an offline copy of the complete cue rule",
+      "primary_intended_locus": "retrieval",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O21",
+      "operation": "change_choice",
+      "case": "Make the current-case answer available before the catalog",
+      "primary_intended_locus": "selection",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O22",
+      "operation": "change_choice",
+      "case": "Offer a stop route after a sufficient answer",
+      "primary_intended_locus": "selection",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O23",
+      "operation": "change_choice",
+      "case": "Allow a reader to choose case-first or rule-first",
+      "primary_intended_locus": "access",
+      "performance": "proposal unless linked to an actual application"
+    },
+    {
+      "id": "O24",
+      "operation": "change_choice",
+      "case": "Route a handoff to the actor authorized to save",
+      "primary_intended_locus": "coordination",
+      "performance": "proposal unless linked to an actual application"
+    }
+  ],
+  "compound_rule": "Split independently executable changes; retain a shared parent intervention ID",
+  "no_effect_inference": "Intended locus does not establish actual effect"
+}

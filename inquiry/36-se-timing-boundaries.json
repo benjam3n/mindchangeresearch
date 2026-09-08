@@ -1,0 +1,1007 @@
+{
+  "axes": {
+    "p": [
+      0.4,
+      0.75,
+      0.9
+    ],
+    "cost": [
+      0,
+      1,
+      4
+    ],
+    "arrival": [
+      "before",
+      "after"
+    ],
+    "choice": [
+      "contingent",
+      "forced-act"
+    ],
+    "criterion": [
+      "expected",
+      "worst-state"
+    ],
+    "channel": [
+      "present",
+      "absent"
+    ],
+    "quality": [
+      "perfect",
+      "unspecified-noisy"
+    ],
+    "budget": [
+      "sufficient",
+      "insufficient"
+    ],
+    "status": [
+      "current",
+      "future-unobserved"
+    ]
+  },
+  "coverage": {
+    "p": {
+      "0.4": 25,
+      "0.75": 18,
+      "0.9": 17
+    },
+    "cost": {
+      "0": 18,
+      "1": 27,
+      "4": 15
+    },
+    "arrival": {
+      "before": 35,
+      "after": 25
+    },
+    "choice": {
+      "contingent": 34,
+      "forced-act": 26
+    },
+    "criterion": {
+      "expected": 36,
+      "worst-state": 24
+    },
+    "channel": {
+      "present": 35,
+      "absent": 25
+    },
+    "quality": {
+      "perfect": 35,
+      "unspecified-noisy": 25
+    },
+    "budget": {
+      "sufficient": 35,
+      "insufficient": 25
+    },
+    "status": {
+      "current": 35,
+      "future-unobserved": 25
+    }
+  },
+  "nominal_product": 1152,
+  "rows": [
+    {
+      "id": 1,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=5; wait=4.4; now better",
+      "best_now": 5.0,
+      "wait": 4.4
+    },
+    {
+      "id": 2,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=3.5; wait=3.5; tie",
+      "best_now": 3.5,
+      "wait": 3.5
+    },
+    {
+      "id": 3,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=1.4; wait better",
+      "best_now": 0.0,
+      "wait": 1.4000000000000004
+    },
+    {
+      "id": 4,
+      "input": {
+        "p": 0.9,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=5; wait=5.4; wait better",
+      "best_now": 5.0,
+      "wait": 5.4
+    },
+    {
+      "id": 5,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=-1; now better",
+      "best_now": 0.0,
+      "wait": -1
+    },
+    {
+      "id": 6,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=5; wait=4; now better",
+      "best_now": 5.0,
+      "wait": 4.0
+    },
+    {
+      "id": 7,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=-1; now better",
+      "best_now": 0,
+      "wait": -1
+    },
+    {
+      "id": 8,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 9,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "need observation likelihood; price alone insufficient"
+    },
+    {
+      "id": 10,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 11,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 12,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=2.4; wait better",
+      "best_now": 0.0,
+      "wait": 2.4000000000000004
+    },
+    {
+      "id": 13,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 14,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 15,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 16,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "need observation likelihood; price alone insufficient"
+    },
+    {
+      "id": 17,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 18,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 19,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 20,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 21,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 22,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 23,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 24,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 25,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 26,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 27,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 28,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=-1; now better",
+      "best_now": 0,
+      "wait": -1
+    },
+    {
+      "id": 29,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 30,
+      "input": {
+        "p": 0.75,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 31,
+      "input": {
+        "p": 0.75,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 32,
+      "input": {
+        "p": 0.75,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "need observation likelihood; price alone insufficient"
+    },
+    {
+      "id": 33,
+      "input": {
+        "p": 0.9,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 34,
+      "input": {
+        "p": 0.9,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 35,
+      "input": {
+        "p": 0.9,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 36,
+      "input": {
+        "p": 0.9,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 37,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 38,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 39,
+      "input": {
+        "p": 0.9,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 40,
+      "input": {
+        "p": 0.9,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 41,
+      "input": {
+        "p": 0.9,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 42,
+      "input": {
+        "p": 0.9,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 43,
+      "input": {
+        "p": 0.9,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 44,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=0; tie",
+      "best_now": 0.0,
+      "wait": 0.0
+    },
+    {
+      "id": 45,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 46,
+      "input": {
+        "p": 0.4,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 47,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 48,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "need observation likelihood; price alone insufficient"
+    },
+    {
+      "id": 49,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 50,
+      "input": {
+        "p": 0.4,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 51,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 52,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 53,
+      "input": {
+        "p": 0.4,
+        "cost": 4,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 54,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 55,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 56,
+      "input": {
+        "p": 0.75,
+        "cost": 0,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "worst-state",
+        "channel": "absent",
+        "quality": "unspecified-noisy",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 57,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 58,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "before",
+        "choice": "forced-act",
+        "criterion": "expected",
+        "channel": "present",
+        "quality": "unspecified-noisy",
+        "budget": "insufficient",
+        "status": "current"
+      },
+      "result": "wait infeasible; compare feasible current choices"
+    },
+    {
+      "id": 59,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "contingent",
+        "criterion": "expected",
+        "channel": "absent",
+        "quality": "perfect",
+        "budget": "insufficient",
+        "status": "future-unobserved"
+      },
+      "result": "future execution unobserved; no performed-value claim"
+    },
+    {
+      "id": 60,
+      "input": {
+        "p": 0.75,
+        "cost": 1,
+        "arrival": "after",
+        "choice": "forced-act",
+        "criterion": "worst-state",
+        "channel": "present",
+        "quality": "perfect",
+        "budget": "sufficient",
+        "status": "current"
+      },
+      "result": "best-now=0; wait=-1; now better",
+      "best_now": 0,
+      "wait": -1
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intended_mind_change": "Put the selected skeletons into complete first drafts without manufacturing defects.",
+  "created_utc": "2026-09-08T05:33:36.976177+00:00",
+  "plan_sha256": "68d2db880fa2c67fc74dbd86c30ed4be8465cb02fdcff6e4fe3ae0a61475a9e3",
+  "drafts": {
+    "044-draft-1": [
+      "A success rate answers a comparison question, and that question includes which cases went into the rate. Before deciding which of two processes is better, specify whether you want to describe the cases each actually received or compare both on a common mixture. Those are different questions even when every count in the table is accurate.",
+      "Consider two fictional processes, A and B, and two groups of cases, easy and hard. Process A succeeds on 9 of 10 easy cases and 10 of 100 hard cases. Process B succeeds on 80 of 100 easy cases and none of 10 hard cases. A therefore has the higher observed success rate in both groups: 90 percent against 80 percent in easy cases, and 10 percent against zero in hard cases.",
+      "Now add the successes and cases for each process. A succeeds on 19 of 110 cases, about 17 percent; B succeeds on 80 of 110, about 73 percent. This overall ranking runs in the opposite direction from both group rankings. The totals are still correct. B received mostly easy cases, while A received mostly hard cases, so the two overall rates give very different weights to the easy and hard results.",
+      "To compare the observed group rates under one explicit mixture, give easy and hard cases equal weight for each process. The resulting weighted averages are 50 percent for A and 40 percent for B. Equal weighting is a chosen comparison scenario, not a claim that a real population contains equal numbers of easy and hard cases. Another common mixture can be calculated in the same way.",
+      "These figures describe observed rates. They do not, by themselves, show that switching a case from B to A would improve its outcome. The fictional data contain no assignment mechanism or outcomes for that same case under both processes. Keep the arithmetic comparison and the causal question separate: a correct ranking for a stated mixture still needs additional evidence before it becomes a claim about the effect of switching processes."
+    ],
+    "045-draft-2": [
+      "By the third week on the coast, Sela could draw the harbor from her desk without looking through the window. She was making a map of the inlets farther north, places she had once passed on a train without knowing their names. Each evening she copied the day's marks onto a cleaner sheet. The new sheet never looked quite as certain as the old one, which still carried the marks she had crossed out.",
+      "Her father's letter arrived folded around a page with one line on it: Tell us where you are. She laid it beside the clean map. There was room below the line for another sentence, but he had written nothing else. She read the words once as a question about the coast and once as a question about coming home. The empty part of the page gave her no way to choose between them.",
+      "An unused return ticket lay in the small drawer below her drawing board. Sela brought it out and put it next to the letter. The route on the ticket ended at a name she knew without needing a map. She could take that route. For the length of a kettle boiling in the next room, she left the two pieces of paper together and did no drawing.",
+      "Then she took a copy of the coastal map and made a small dot at the harbor. Beside it she wrote the name of the rooming house and the street. The dot covered a place where she had carefully shaded the water; she rubbed out that patch and moved the mark onto land. She folded the map to fit an envelope and addressed it to her father.",
+      "The ticket went back into the drawer. Sela put the envelope by the door for the morning post and returned to the northern edge of the map. She had not drawn that part yet. No answer to her letter had arrived; the map was still in the room with her. She sharpened a pencil and left the space beyond the last inlet empty."
+    ]
+  },
+  "actual_mind_change": "Both selected structures now have complete prose. No revision result has yet been assessed.",
+  "benefit": "The complete baselines permit actual audits and constraint comparisons.",
+  "verdict": "UNRESOLVED",
+  "organization": "Original paragraph order and exact text are preserved.",
+  "next_attempts": [
+    "Audit every paragraph for job, support and transition.",
+    "Simulate specific reader questions without presenting them as human observations.",
+    "Produce logic and prose revisions and calculate their actual lengths."
+  ]
+}

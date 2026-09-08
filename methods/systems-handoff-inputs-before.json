@@ -1,0 +1,160 @@
+[
+  {
+    "slot": "mrc-01",
+    "target": "interpretation of a spatial instruction",
+    "starting_judgment": "In a moving instruction, light as low weight is a plausible first reading, but the text alone has not settled it. I would tentatively prepare that plan while preserving the color reading.",
+    "input": {
+      "instruction": "Move the light boxes to the window.",
+      "candidate_meanings": {
+        "low_weight": "weight <= 3",
+        "light_color": "color is white"
+      },
+      "boxes": [
+        {
+          "id": "A",
+          "weight": 8,
+          "color": "white"
+        },
+        {
+          "id": "B",
+          "weight": 2,
+          "color": "dark"
+        },
+        {
+          "id": "C",
+          "weight": 1,
+          "color": "white"
+        },
+        {
+          "id": "D",
+          "weight": 9,
+          "color": "dark"
+        }
+      ]
+    },
+    "scope": "Two explicitly admitted meanings; no physical move, no claim to identify a human intention.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  },
+  {
+    "slot": "mrc-02",
+    "target": "allocation of attention between similar and contrasting cases",
+    "starting_judgment": "Inspecting the present red square in more detail is a plausible next step, but it does not yet discriminate the three surviving rules. I need a case choice with a stated effect on this finite uncertainty.",
+    "input": {
+      "features": [
+        "red",
+        "square"
+      ],
+      "hypotheses": [
+        "red",
+        "square",
+        "red_and_square",
+        "red_xor_square"
+      ],
+      "already_observed": {
+        "red": true,
+        "square": true,
+        "output": true
+      },
+      "oracle": "square",
+      "allowed_queries": [
+        [
+          false,
+          false
+        ],
+        [
+          false,
+          true
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          true
+        ]
+      ]
+    },
+    "scope": "Stipulated finite rule oracle; no measured human attentional effect.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  },
+  {
+    "slot": "mrc-03",
+    "target": "intrinsic mathematical exploration",
+    "starting_judgment": "A circular neighbor-XOR rule is a compact object I can inspect without guessing a reader's tastes. I have not computed its five-cell orbit; a finite cycle or extinction is expected, but its actual structure is unresolved.",
+    "input": {
+      "width": 5,
+      "seed": "10000",
+      "update": "next[i] = current[i] XOR current[(i+1) mod 5]",
+      "state_space": "all 32 binary strings"
+    },
+    "scope": "Actual finite exploration; human interest and enjoyment remain unknown.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  },
+  {
+    "slot": "mtcg-01",
+    "target": "timing of commitment with known releases and deadlines",
+    "starting_judgment": "Starting available work immediately is a plausible default. Before committing a non-preemptible job, the known one-unit-later release gives a concrete reason to compare waiting.",
+    "input": {
+      "preemption_allowed": false,
+      "parallelism": 1,
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        }
+      ],
+      "objective": "meet both hard deadlines"
+    },
+    "scope": "Deterministic scheduling model; no actual future task is scheduled.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  },
+  {
+    "slot": "mtcg-02",
+    "target": "feasibility under the actually available operations",
+    "starting_judgment": "Forward search is a sound initial method for the three-bit toggle problem. I do not yet have a certificate that the requested state can or cannot be reached using only the two supplied controls.",
+    "input": {
+      "start": "000",
+      "target": "111",
+      "controls": {
+        "A": "110",
+        "B": "011"
+      },
+      "operation": "bitwise XOR",
+      "available_controls": [
+        "A",
+        "B"
+      ]
+    },
+    "scope": "Exactly the supplied reversible controls; adding a third control is a separate counterfactual.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  },
+  {
+    "slot": "mtcg-03",
+    "target": "whether more metacognition improves an already clear confidence calculation",
+    "starting_judgment": "For the stipulated two-source red-token case, the natural-frequency calculation already gives 9/(9+18)=1/3. I expect a full metacognitive pass to be redundant unless it identifies a different sampling mechanism or arithmetic error.",
+    "input": {
+      "source_A": {
+        "tokens": 10,
+        "red": 9,
+        "blue": 1
+      },
+      "source_B": {
+        "tokens": 90,
+        "red": 18,
+        "blue": 72
+      },
+      "sampling": "uniform draw from the combined 100 tokens, conditioned on red"
+    },
+    "scope": "Exact conditional probability in supplied counts; no empirical reliability or psychological effect claim.",
+    "frozen_at": "2026-09-08T05:06:53.590214+00:00"
+  }
+]

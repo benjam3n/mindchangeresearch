@@ -1,0 +1,390 @@
+{
+  "mrc-01": {
+    "consumed_file": "systems-handoff-mrc-01-products.json",
+    "later_memberships": [
+      {
+        "box": "E",
+        "low_weight": true,
+        "light_color": false
+      },
+      {
+        "box": "F",
+        "low_weight": false,
+        "light_color": true
+      },
+      {
+        "box": "G",
+        "low_weight": true,
+        "light_color": true
+      },
+      {
+        "box": "H",
+        "low_weight": false,
+        "light_color": false
+      }
+    ],
+    "conditional_plans": {
+      "low_weight": [
+        "E",
+        "G"
+      ],
+      "light_color": [
+        "F",
+        "G"
+      ]
+    },
+    "shared_members": [
+      "G"
+    ],
+    "clarification_received": false,
+    "physical_execution": false,
+    "all_eight_membership_facts_preserved_by_selected_matrix": 8
+  },
+  "mrc-02": {
+    "consumed_file": "systems-handoff-mrc-02-products.json",
+    "terminology_history": {
+      "prior_field": "holdout",
+      "prior_assumption": "The final nonred-square observation was labeled as a holdout in every run.",
+      "correction": "It is a repeated probe in the square and red_and_square runs because that input is already the second identification query; it is a fresh probe only in the red_or_square run.",
+      "preservation": "The original holdout and after_holdout fields remain below as historical mislabeled records; corrected probe fields govern later claims."
+    },
+    "runs": [
+      {
+        "oracle": "square",
+        "observations": [
+          {
+            "red": true,
+            "square": true,
+            "output": true
+          },
+          {
+            "red": true,
+            "square": false,
+            "output": false
+          },
+          {
+            "red": false,
+            "square": true,
+            "output": true
+          }
+        ],
+        "identified_in_set": [
+          "square"
+        ],
+        "holdout": {
+          "red": false,
+          "square": true,
+          "output": true
+        },
+        "after_holdout": [
+          "square"
+        ],
+        "probe": {
+          "red": false,
+          "square": true,
+          "output": true
+        },
+        "probe_freshness": "repeated",
+        "after_probe": [
+          "square"
+        ]
+      },
+      {
+        "oracle": "red_and_square",
+        "observations": [
+          {
+            "red": true,
+            "square": true,
+            "output": true
+          },
+          {
+            "red": true,
+            "square": false,
+            "output": false
+          },
+          {
+            "red": false,
+            "square": true,
+            "output": false
+          }
+        ],
+        "identified_in_set": [
+          "red_and_square"
+        ],
+        "holdout": {
+          "red": false,
+          "square": true,
+          "output": false
+        },
+        "after_holdout": [
+          "red_and_square"
+        ],
+        "probe": {
+          "red": false,
+          "square": true,
+          "output": false
+        },
+        "probe_freshness": "repeated",
+        "after_probe": [
+          "red_and_square"
+        ]
+      },
+      {
+        "oracle": "red_or_square",
+        "observations": [
+          {
+            "red": true,
+            "square": true,
+            "output": true
+          },
+          {
+            "red": true,
+            "square": false,
+            "output": true
+          }
+        ],
+        "identified_in_set": [
+          "red"
+        ],
+        "holdout": {
+          "red": false,
+          "square": true,
+          "output": true
+        },
+        "after_holdout": [],
+        "probe": {
+          "red": false,
+          "square": true,
+          "output": true
+        },
+        "probe_freshness": "fresh",
+        "after_probe": []
+      }
+    ],
+    "human_observations": false
+  },
+  "mrc-03": {
+    "consumed_file": "systems-handoff-mrc-03-products.json",
+    "answers": [
+      {
+        "seed": "10000",
+        "time": 1000000,
+        "index_after_cycle_reduction": 10,
+        "answer": "00110",
+        "period": 15,
+        "transient": 1
+      },
+      {
+        "seed": "11111",
+        "time": 1000000,
+        "index_after_cycle_reduction": 1,
+        "answer": "00000",
+        "period": 1,
+        "transient": 1
+      },
+      {
+        "seed": "01100",
+        "time": 19,
+        "index_after_cycle_reduction": 4,
+        "answer": "01010",
+        "period": 15,
+        "transient": 0
+      }
+    ],
+    "width_4_countercase": {
+      "states": [
+        "1000",
+        "1001",
+        "1010",
+        "1111",
+        "0000"
+      ],
+      "transient": 4,
+      "period": 1,
+      "repeat": "0000"
+    },
+    "period_5_seed_exists_in_5_cells": false
+  },
+  "mtcg-01": {
+    "consumed_file": "systems-handoff-mtcg-01-products.json",
+    "changed_cases": [
+      {
+        "name": "A_deadline_5",
+        "all_orders": [
+          {
+            "order": [
+              "A",
+              "B"
+            ],
+            "trace": [
+              {
+                "job": "A",
+                "start": 0,
+                "finish": 4,
+                "deadline": 5,
+                "meets": true
+              },
+              {
+                "job": "B",
+                "start": 4,
+                "finish": 5,
+                "deadline": 2,
+                "meets": false
+              }
+            ],
+            "feasible": false
+          },
+          {
+            "order": [
+              "B",
+              "A"
+            ],
+            "trace": [
+              {
+                "job": "B",
+                "start": 1,
+                "finish": 2,
+                "deadline": 2,
+                "meets": true
+              },
+              {
+                "job": "A",
+                "start": 2,
+                "finish": 6,
+                "deadline": 5,
+                "meets": false
+              }
+            ],
+            "feasible": false
+          }
+        ]
+      },
+      {
+        "name": "A_duration_1",
+        "all_orders": [
+          {
+            "order": [
+              "A",
+              "B"
+            ],
+            "trace": [
+              {
+                "job": "A",
+                "start": 0,
+                "finish": 1,
+                "deadline": 6,
+                "meets": true
+              },
+              {
+                "job": "B",
+                "start": 1,
+                "finish": 2,
+                "deadline": 2,
+                "meets": true
+              }
+            ],
+            "feasible": true
+          },
+          {
+            "order": [
+              "B",
+              "A"
+            ],
+            "trace": [
+              {
+                "job": "B",
+                "start": 1,
+                "finish": 2,
+                "deadline": 2,
+                "meets": true
+              },
+              {
+                "job": "A",
+                "start": 2,
+                "finish": 3,
+                "deadline": 6,
+                "meets": true
+              }
+            ],
+            "feasible": true
+          }
+        ]
+      }
+    ],
+    "real_jobs_scheduled": false
+  },
+  "mtcg-02": {
+    "consumed_file": "systems-handoff-mtcg-02-products.json",
+    "queries": [
+      {
+        "start": "000",
+        "target": "101",
+        "delta": "101",
+        "feasible": true,
+        "word": "AB",
+        "executed_end": "101"
+      },
+      {
+        "start": "001",
+        "target": "111",
+        "delta": "110",
+        "feasible": true,
+        "word": "A",
+        "executed_end": "111"
+      },
+      {
+        "start": "110",
+        "target": "000",
+        "delta": "110",
+        "feasible": true,
+        "word": "A",
+        "executed_end": "000"
+      },
+      {
+        "start": "011",
+        "target": "111",
+        "delta": "100",
+        "feasible": false,
+        "word": null,
+        "executed_end": null
+      }
+    ],
+    "changed_controls": {
+      "start": "000",
+      "target": "011",
+      "available_controls": [
+        "A"
+      ],
+      "two_control_formula_applicable": false,
+      "sole_control_reachable": [
+        "000",
+        "110"
+      ],
+      "target_reachable": false
+    }
+  },
+  "mtcg-03": {
+    "consumed_file": "systems-handoff-mtcg-03-products.json",
+    "later_answers": [
+      {
+        "p": "1/10",
+        "sampling": "uniform combined tokens",
+        "answer": "1/3"
+      },
+      {
+        "p": "1/2",
+        "sampling": "equal probability of source then uniform token within source",
+        "answer": "9/11"
+      },
+      {
+        "p": null,
+        "sampling": "source selection unspecified",
+        "answer": "UNRESOLVED: source-selection prior missing"
+      }
+    ],
+    "original_answer_changed": false,
+    "empirical_calibration": false
+  },
+  "executed_at": "2026-09-08T05:36:33.935141+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

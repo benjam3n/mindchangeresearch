@@ -1,0 +1,38 @@
+{
+  "name": "Invitation response record",
+  "description": "Represent an explicitly supplied invitation and reply as component-level stance, permission and proposed next-step data.",
+  "inputs": {
+    "invitation": "Exact text and separately named requested components.",
+    "reply": "Exact supplied text; absent reply is allowed and remains unknown.",
+    "actor_scope": "Constructed or actual, known speaker and relevant role.",
+    "context": "Only explicit timing, access and prior permission supplied with the case."
+  },
+  "outputs": {
+    "response_record": "For each requested component: evidence span, accepted/declined/conditional/unknown stance, stated condition, next-step proposal and confirmation status.",
+    "unknowns": "Missing meanings that would change stance or next step."
+  },
+  "success_criteria": [
+    "Every component has a stance or explicit unknown.",
+    "Accepted scope does not exceed the evidence span.",
+    "A proposed change remains a proposal until a reply accepts it.",
+    "Output claims no human effect."
+  ],
+  "steps": [
+    "Keep the invitation components and exact reply text together.",
+    "Associate each explicit reply clause with its requested component.",
+    "Record accepted, declined, conditional or unknown stance for each component; retain stated conditions.",
+    "Separate the speaker's stated reason from a hypothesis about motive.",
+    "Create a next-step proposal only for an unresolved component that matters to the invitation.",
+    "Return the evidence-bearing response record and unresolved meanings."
+  ],
+  "verification": [
+    "Trace each non-unknown stance to the supplied text.",
+    "Compare the scope of every accepted component with its evidence.",
+    "Check that proposed action is not recorded as recipient agreement."
+  ],
+  "complexity": "moderate: semantic clause-to-component mapping requires judgment.",
+  "dependencies": [
+    "Existing explicit goal and invitation components; original AL offers paraphrase preparation but cannot supply an absent reply."
+  ],
+  "reuse_potential": "Local analysis of exploratory invitations, workshop roles and bounded help requests."
+}

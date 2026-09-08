@@ -1,0 +1,346 @@
+{
+  "defined_sequences": {
+    "A": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "B": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "traces": {
+    "count": [
+      {
+        "t": 0,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 1,
+          "B": 0
+        },
+        "successes": {
+          "A": 1,
+          "B": 0
+        }
+      },
+      {
+        "t": 1,
+        "selected": "B",
+        "outcome": 1,
+        "attempts": {
+          "A": 1,
+          "B": 1
+        },
+        "successes": {
+          "A": 1,
+          "B": 1
+        }
+      },
+      {
+        "t": 2,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 2,
+          "B": 1
+        },
+        "successes": {
+          "A": 2,
+          "B": 1
+        }
+      },
+      {
+        "t": 3,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 3,
+          "B": 1
+        },
+        "successes": {
+          "A": 3,
+          "B": 1
+        }
+      },
+      {
+        "t": 4,
+        "selected": "A",
+        "outcome": 0,
+        "attempts": {
+          "A": 4,
+          "B": 1
+        },
+        "successes": {
+          "A": 3,
+          "B": 1
+        }
+      },
+      {
+        "t": 5,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 5,
+          "B": 1
+        },
+        "successes": {
+          "A": 4,
+          "B": 1
+        }
+      },
+      {
+        "t": 6,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 6,
+          "B": 1
+        },
+        "successes": {
+          "A": 5,
+          "B": 1
+        }
+      },
+      {
+        "t": 7,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 7,
+          "B": 1
+        },
+        "successes": {
+          "A": 6,
+          "B": 1
+        }
+      },
+      {
+        "t": 8,
+        "selected": "A",
+        "outcome": 0,
+        "attempts": {
+          "A": 8,
+          "B": 1
+        },
+        "successes": {
+          "A": 6,
+          "B": 1
+        }
+      },
+      {
+        "t": 9,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 9,
+          "B": 1
+        },
+        "successes": {
+          "A": 7,
+          "B": 1
+        }
+      },
+      {
+        "t": 10,
+        "selected": "A",
+        "outcome": 0,
+        "attempts": {
+          "A": 10,
+          "B": 1
+        },
+        "successes": {
+          "A": 7,
+          "B": 1
+        }
+      },
+      {
+        "t": 11,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 11,
+          "B": 1
+        },
+        "successes": {
+          "A": 8,
+          "B": 1
+        }
+      }
+    ],
+    "probe": [
+      {
+        "t": 0,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 1,
+          "B": 0
+        },
+        "successes": {
+          "A": 1,
+          "B": 0
+        }
+      },
+      {
+        "t": 1,
+        "selected": "B",
+        "outcome": 1,
+        "attempts": {
+          "A": 1,
+          "B": 1
+        },
+        "successes": {
+          "A": 1,
+          "B": 1
+        }
+      },
+      {
+        "t": 2,
+        "selected": "B",
+        "outcome": 0,
+        "attempts": {
+          "A": 1,
+          "B": 2
+        },
+        "successes": {
+          "A": 1,
+          "B": 1
+        }
+      },
+      {
+        "t": 3,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 2,
+          "B": 2
+        },
+        "successes": {
+          "A": 2,
+          "B": 1
+        }
+      },
+      {
+        "t": 4,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 3,
+          "B": 2
+        },
+        "successes": {
+          "A": 3,
+          "B": 1
+        }
+      },
+      {
+        "t": 5,
+        "selected": "B",
+        "outcome": 1,
+        "attempts": {
+          "A": 3,
+          "B": 3
+        },
+        "successes": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      {
+        "t": 6,
+        "selected": "A",
+        "outcome": 0,
+        "attempts": {
+          "A": 4,
+          "B": 3
+        },
+        "successes": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      {
+        "t": 7,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 5,
+          "B": 3
+        },
+        "successes": {
+          "A": 4,
+          "B": 2
+        }
+      },
+      {
+        "t": 8,
+        "selected": "B",
+        "outcome": 1,
+        "attempts": {
+          "A": 5,
+          "B": 4
+        },
+        "successes": {
+          "A": 4,
+          "B": 3
+        }
+      },
+      {
+        "t": 9,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 6,
+          "B": 4
+        },
+        "successes": {
+          "A": 5,
+          "B": 3
+        }
+      },
+      {
+        "t": 10,
+        "selected": "A",
+        "outcome": 1,
+        "attempts": {
+          "A": 7,
+          "B": 4
+        },
+        "successes": {
+          "A": 6,
+          "B": 3
+        }
+      },
+      {
+        "t": 11,
+        "selected": "B",
+        "outcome": 1,
+        "attempts": {
+          "A": 7,
+          "B": 5
+        },
+        "successes": {
+          "A": 6,
+          "B": 4
+        }
+      }
+    ]
+  }
+}

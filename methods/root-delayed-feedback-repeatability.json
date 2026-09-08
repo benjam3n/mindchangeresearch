@@ -1,0 +1,139 @@
+{
+  "scope": "Repeatability was unspecified in the first two-policy comparison; both explicit extensions are evaluated, not silently chosen to force a verdict.",
+  "schedules": [
+    {
+      "schedule": [],
+      "duration": 0,
+      "repeatable_B_value": 0,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A"
+      ],
+      "duration": 1,
+      "repeatable_B_value": 2,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "A"
+      ],
+      "duration": 2,
+      "repeatable_B_value": 4,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "A",
+        "A"
+      ],
+      "duration": 3,
+      "repeatable_B_value": 6,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "duration": 4,
+      "repeatable_B_value": 8,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "A",
+        "B"
+      ],
+      "duration": 4,
+      "repeatable_B_value": 16,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "B"
+      ],
+      "duration": 3,
+      "repeatable_B_value": 14,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "A",
+        "B",
+        "A"
+      ],
+      "duration": 4,
+      "repeatable_B_value": 16,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "B"
+      ],
+      "duration": 2,
+      "repeatable_B_value": 12,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "B",
+        "A"
+      ],
+      "duration": 3,
+      "repeatable_B_value": 14,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "B",
+        "A",
+        "A"
+      ],
+      "duration": 4,
+      "repeatable_B_value": 16,
+      "oneoff_B_valid": true
+    },
+    {
+      "schedule": [
+        "B",
+        "B"
+      ],
+      "duration": 4,
+      "repeatable_B_value": 24,
+      "oneoff_B_valid": false
+    }
+  ],
+  "repeatable_B_max": 24,
+  "repeatable_B_winners": [
+    [
+      "B",
+      "B"
+    ]
+  ],
+  "oneoff_B_max": 16,
+  "oneoff_B_winners": [
+    [
+      "A",
+      "A",
+      "B"
+    ],
+    [
+      "A",
+      "B",
+      "A"
+    ],
+    [
+      "B",
+      "A",
+      "A"
+    ]
+  ]
+}

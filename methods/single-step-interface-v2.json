@@ -1,0 +1,50 @@
+{
+  "initial": "gather",
+  "instructions": {
+    "gather": "Gather materials.",
+    "connect": "Connect cable.",
+    "select": "Select input.",
+    "power": "Power on.",
+    "check": "Check indicator.",
+    "start": "Start.",
+    "paused": "Indicator unreadable. Wait for a readable observation."
+  },
+  "transitions": {
+    "gather": {
+      "next": "connect"
+    },
+    "connect": {
+      "next": "select"
+    },
+    "select": {
+      "next": "power"
+    },
+    "power": {
+      "next": "check"
+    },
+    "check": {
+      "pass": "start",
+      "fail": "connect",
+      "unreadable": "paused"
+    },
+    "start": {},
+    "paused": {
+      "pass": "start",
+      "fail": "connect",
+      "unreadable": "paused",
+      "setup_changed": "connect"
+    }
+  },
+  "view_rule": "render instructions[current_state] only; full table is an audit view",
+  "unknown_state": {
+    "state": "unknown",
+    "instruction": null,
+    "allowed_action": "recover a known saved state or restart gather; do not infer start"
+  },
+  "observation_contract": {
+    "pass": "successful check at the current setup",
+    "fail": "failed check at the current setup",
+    "unreadable": "no result; neither pass nor fail",
+    "setup_changed": "return to connect and obtain a new check; old observation invalid"
+  }
+}

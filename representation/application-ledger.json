@@ -1,0 +1,694 @@
+[
+  {
+    "skill_id": "orgn",
+    "application_number": 1,
+    "file": "representation/001-orgn-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "003-ro-1.md",
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "orgn",
+    "application_number": 2,
+    "file": "representation/004-orgn-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "orgn",
+    "application_number": 3,
+    "file": "representation/007-orgn-3.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "sim",
+    "application_number": 1,
+    "file": "representation/002-sim-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "sim",
+    "application_number": 2,
+    "file": "representation/005-sim-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "sim",
+    "application_number": 3,
+    "file": "representation/006-sim-3.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "007-orgn-3.md",
+      "009-alt-2.md",
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "ro",
+    "application_number": 1,
+    "file": "representation/003-ro-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "explicit_8x_floors_recorded",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "004-orgn-2.md",
+      "consolidation-01.md"
+    ]
+  },
+  {
+    "skill_id": "ro",
+    "application_number": 2,
+    "file": "representation/037-ro-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "auditable ranking added no independent benefit beyond the existing representation"
+  },
+  {
+    "skill_id": "ro",
+    "application_number": 3,
+    "file": "representation/038-ro-3.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "six encodings preserved the finite answers; no independent benefit established"
+  },
+  {
+    "skill_id": "wre",
+    "application_number": 1,
+    "file": "representation/046-wre-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all WRE stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; preserved ARAW linked without upgrading its declared partial result.",
+    "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW has 18 claims, 80 nodes and live tests but lacks semantically certified 6-8-level recursion",
+    "missing_requirements": [
+      "semantically valid original-ARAW 8x recursive-depth certification",
+      "genuine external reviewer endpoint comparison for the accuracy claim"
+    ],
+    "verdict": "KEEP",
+    "novelty": "local requirements adoption of saved route findings; no new independent discovery credit",
+    "later_use": [
+      "representation/049-w-1.md"
+    ]
+  },
+  {
+    "skill_id": "wre",
+    "application_number": 2,
+    "file": "representation/047-wre-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; ARAW partial preserved.",
+    "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW breadth/tests present but semantic recursive-depth floor not certified",
+    "missing_requirements": [
+      "semantically valid original-ARAW 8x recursive-depth certification",
+      "genuine external editor target-selection comparison"
+    ],
+    "verdict": "KEEP",
+    "novelty": "local requirements adoption of saved identity/position findings; no new independent discovery credit",
+    "later_use": [
+      "representation/050-w-2.md"
+    ]
+  },
+  {
+    "skill_id": "wre",
+    "application_number": 3,
+    "file": "representation/048-wre-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; ARAW partial preserved.",
+    "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW breadth/tests present but semantic recursive-depth floor not certified",
+    "missing_requirements": [
+      "semantically valid original-ARAW 8x recursive-depth certification",
+      "genuine participant comparison for useful-thinking-time claim"
+    ],
+    "verdict": "KEEP",
+    "novelty": "local requirements adoption of saved event-scope findings; no new independent discovery credit",
+    "later_use": [
+      "representation/051-w-3.md"
+    ]
+  },
+  {
+    "skill_id": "w",
+    "application_number": 1,
+    "file": "representation/049-w-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final card, route-coordinate checks and bounded downstream diagnostic completed; source has no numerical 8x table and upstream human-relative criteria were not claimed from simulation.",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+    "missing_requirements": [
+      "actual reviewer unresolvedness and caring",
+      "actual reviewer recognition, experienced momentum and conclusion pre-arrival"
+    ],
+    "verdict": "KEEP",
+    "novelty": "later uptake of 046/route ARAW; no new independent credit",
+    "later_use": [
+      "route.held_out_anchored in representation/finish-fixture-results.json",
+      "route.reverse_turn_order in representation/finish-fixture-results.json"
+    ]
+  },
+  {
+    "skill_id": "w",
+    "application_number": 2,
+    "file": "representation/050-w-2.md",
+    "status": "partial",
+    "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final instruction, edit-position/reorder/duplicate checks and downstream diagnostic completed; human-relative upstream criteria remain unperformed.",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+    "missing_requirements": [
+      "actual editor unresolvedness and caring",
+      "actual editor recognition, experienced momentum and conclusion pre-arrival"
+    ],
+    "verdict": "KEEP",
+    "novelty": "later uptake of 047/edit ARAW; no new independent credit",
+    "later_use": [
+      "edit.live_vs_initial_position in representation/finish-fixture-results.json",
+      "edit.reordered_held_out and edit.duplicate_identity in representation/finish-fixture-results.json"
+    ]
+  },
+  {
+    "skill_id": "w",
+    "application_number": 3,
+    "file": "representation/051-w-3.md",
+    "status": "partial",
+    "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final policy, duplicate/cancel/restart/held-out checks and downstream diagnostic completed; human-relative upstream criteria remain unperformed.",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+    "missing_requirements": [
+      "actual implementer/participant unresolvedness and caring",
+      "actual recognition, experienced momentum and conclusion pre-arrival"
+    ],
+    "verdict": "KEEP",
+    "novelty": "later uptake of 048/clock ARAW; no new independent credit",
+    "later_use": [
+      "clock.duplicate_ready, clock.cancel_and_restart and clock.held_out in representation/finish-fixture-results.json"
+    ]
+  },
+  {
+    "skill_id": "alt",
+    "application_number": 1,
+    "file": "representation/008-alt-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "alt",
+    "application_number": 2,
+    "file": "representation/009-alt-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": [
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "alt",
+    "application_number": 3,
+    "file": "representation/010-alt-3.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "ma",
+    "application_number": 1,
+    "file": "representation/020-ma-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "explicit_8x_floors_recorded",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "ma",
+    "application_number": 2,
+    "file": "representation/021-ma-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "explicit_8x_floors_recorded",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "ma",
+    "application_number": 3,
+    "file": "representation/022-ma-3.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "explicit_8x_floors_recorded",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "ctcov",
+    "application_number": 1,
+    "file": "representation/011-ctcov-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "012-difr-1.md",
+      "013-difr-2.md",
+      "consolidation-02.md"
+    ]
+  },
+  {
+    "skill_id": "ctcov",
+    "application_number": 2,
+    "file": "representation/041-ctcov-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "nested composition preserved grouping and order under loss tests"
+  },
+  {
+    "skill_id": "ctcov",
+    "application_number": 3,
+    "file": "representation/042-ctcov-3.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "pacing comparison is designed but no human after-state exists; the local original procedure is complete"
+  },
+  {
+    "skill_id": "difr",
+    "application_number": 1,
+    "file": "representation/012-difr-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "013-difr-2.md",
+      "020-ma-1.md",
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "difr",
+    "application_number": 2,
+    "file": "representation/013-difr-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "015-omtx-1.md",
+      "018-anag-2.md",
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "difr",
+    "application_number": 3,
+    "file": "representation/014-difr-3.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "op",
+    "application_number": 1,
+    "file": "representation/023-op-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "op",
+    "application_number": 2,
+    "file": "representation/024-op-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "cn",
+    "application_number": 1,
+    "file": "representation/027-cn-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "cn",
+    "application_number": 2,
+    "file": "representation/028-cn-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "draft",
+    "application_number": 1,
+    "file": "representation/044-draft-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact DRAFT source and separate current requirements loaded through read_original.py; interpretation 1; three pre-prose skeletons, full selected skeleton, complete drafts 1/2/3, every-paragraph audit, model-labeled external-reader simulation, sentence/tone/voice/spoken passes, final cut and metrics retained.",
+    "depth_status": "explicit_8x_floor_met",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case: exact all-common-mixtures formula and bounded prose revision; no theorem/global novelty claim",
+    "later_use": [
+      "q=3/4 common-mixture calculation in the same record",
+      "changed B hard-rate threshold countercase in the same record"
+    ]
+  },
+  {
+    "skill_id": "draft",
+    "application_number": 2,
+    "file": "representation/045-draft-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact DRAFT source and separate current requirements loaded through read_original.py; interpretation 1; three skeletons, complete drafts 1/2/3, every-paragraph audit, model-labeled external-reader simulation, sentence/tone/voice/spoken passes, failed send-event check retained and repaired, final metrics present.",
+    "depth_status": "explicit_8x_floor_met",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case: prepared-to-send versus sent constraint repair; existing ambiguity earns no new credit",
+    "later_use": [
+      "borrowed-book performed-handoff fixture in the same record"
+    ]
+  },
+  {
+    "skill_id": "re",
+    "application_number": 1,
+    "file": "representation/025-re-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "re",
+    "application_number": 2,
+    "file": "representation/026-re-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": []
+  },
+  {
+    "skill_id": "anag",
+    "application_number": 1,
+    "file": "representation/017-anag-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "repeated",
+    "later_use": []
+  },
+  {
+    "skill_id": "anag",
+    "application_number": 2,
+    "file": "representation/018-anag-2.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "cda",
+    "application_number": 1,
+    "file": "representation/039-cda-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "typed relation semantics constrained a downstream operation"
+  },
+  {
+    "skill_id": "cda",
+    "application_number": 2,
+    "file": "representation/040-cda-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "partial-cue guard reused an established distinction"
+  },
+  {
+    "skill_id": "categorize",
+    "application_number": 1,
+    "file": "representation/031-categorize-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "cross-classification selected the next representational test"
+  },
+  {
+    "skill_id": "categorize",
+    "application_number": 2,
+    "file": "representation/032-categorize-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "three retrieval uses favored the existing question routes"
+  },
+  {
+    "skill_id": "txm",
+    "application_number": 1,
+    "file": "representation/033-txm-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "partial observation changed the next action without erasing captured evidence"
+  },
+  {
+    "skill_id": "txm",
+    "application_number": 2,
+    "file": "representation/034-txm-2.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "compound intervention was decomposed before credit assignment"
+  },
+  {
+    "skill_id": "mv",
+    "application_number": 1,
+    "file": "representation/035-mv-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "multi-select loci retained; forced exclusive partition rejected"
+  },
+  {
+    "skill_id": "ctgp",
+    "application_number": 1,
+    "file": "representation/036-ctgp-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "negative-plus-unknown case changed which proposition was settled"
+  },
+  {
+    "skill_id": "nusr",
+    "application_number": 1,
+    "file": "representation/016-nusr-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": []
+  },
+  {
+    "skill_id": "vdp",
+    "application_number": 1,
+    "file": "representation/029-vdp-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [
+      "real stranger-glance/human hierarchy check",
+      "human attention and comprehension evidence"
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "inspected non-color mapping; human effect unresolved"
+  },
+  {
+    "skill_id": "prd",
+    "application_number": 1,
+    "file": "representation/030-prd-1.md",
+    "status": "partial",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [
+      "real-viewer check at actual distance",
+      "external target-system and accessibility review"
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "paired projection/reference package; human learning unresolved"
+  },
+  {
+    "skill_id": "sum",
+    "application_number": 1,
+    "file": "representation/043-sum-1.md",
+    "status": "complete",
+    "source_fidelity": "Exact original and separate requirements are linked in the application; source receipt retained.",
+    "depth_status": "Application records the original products and its actual numerical floor where one exists; unavailable human stages remain explicit.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "synthesis preserved dependence and rejected false independent-convergence credit"
+  },
+  {
+    "skill_id": "omtx",
+    "application_number": 1,
+    "file": "representation/015-omtx-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "016-nusr-1.md",
+      "consolidation-03.md"
+    ]
+  },
+  {
+    "skill_id": "met",
+    "application_number": 1,
+    "file": "representation/019-met-1.md",
+    "status": "complete",
+    "source_fidelity": "exact source and separate requirements loaded; original operations present",
+    "depth_status": "expanded_execution_original_has_no_numeric_8x_definition",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": [
+      "021-ma-2.md"
+    ]
+  }
+]

@@ -1,0 +1,2369 @@
+{
+  "components": [
+    "result_id",
+    "creation_context",
+    "actor_type",
+    "original_goal",
+    "source_edition",
+    "helped_condition",
+    "negative_case",
+    "evidence_kind",
+    "reuse_trigger",
+    "original_evidence",
+    "criterion_version",
+    "observed_date",
+    "validity_window",
+    "environment_version",
+    "retention_cost",
+    "recurrence_count",
+    "reader_version",
+    "pending_owner",
+    "retirement_state",
+    "historical_result",
+    "acceptance"
+  ],
+  "interfaces": "twenty fields to whole-packet acceptance",
+  "steps": [
+    {
+      "id": "S2-01",
+      "components": [
+        "result_id",
+        "acceptance"
+      ],
+      "predecessor": null,
+      "tests": [
+        "IT2-01",
+        "IT2-02"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-02",
+      "components": [
+        "creation_context",
+        "acceptance"
+      ],
+      "predecessor": "S2-01",
+      "tests": [
+        "IT2-03",
+        "IT2-04"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-03",
+      "components": [
+        "actor_type",
+        "acceptance"
+      ],
+      "predecessor": "S2-02",
+      "tests": [
+        "IT2-05",
+        "IT2-06"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-04",
+      "components": [
+        "original_goal",
+        "acceptance"
+      ],
+      "predecessor": "S2-03",
+      "tests": [
+        "IT2-07",
+        "IT2-08"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-05",
+      "components": [
+        "source_edition",
+        "acceptance"
+      ],
+      "predecessor": "S2-04",
+      "tests": [
+        "IT2-09",
+        "IT2-10"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-06",
+      "components": [
+        "helped_condition",
+        "acceptance"
+      ],
+      "predecessor": "S2-05",
+      "tests": [
+        "IT2-11",
+        "IT2-12"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-07",
+      "components": [
+        "negative_case",
+        "acceptance"
+      ],
+      "predecessor": "S2-06",
+      "tests": [
+        "IT2-13",
+        "IT2-14"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-08",
+      "components": [
+        "evidence_kind",
+        "acceptance"
+      ],
+      "predecessor": "S2-07",
+      "tests": [
+        "IT2-15",
+        "IT2-16"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-09",
+      "components": [
+        "reuse_trigger",
+        "acceptance"
+      ],
+      "predecessor": "S2-08",
+      "tests": [
+        "IT2-17",
+        "IT2-18"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-10",
+      "components": [
+        "original_evidence",
+        "acceptance"
+      ],
+      "predecessor": "S2-09",
+      "tests": [
+        "IT2-19",
+        "IT2-20"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-11",
+      "components": [
+        "criterion_version",
+        "acceptance"
+      ],
+      "predecessor": "S2-10",
+      "tests": [
+        "IT2-21",
+        "IT2-22"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-12",
+      "components": [
+        "observed_date",
+        "acceptance"
+      ],
+      "predecessor": "S2-11",
+      "tests": [
+        "IT2-23",
+        "IT2-24"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-13",
+      "components": [
+        "validity_window",
+        "acceptance"
+      ],
+      "predecessor": "S2-12",
+      "tests": [
+        "IT2-25",
+        "IT2-26"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-14",
+      "components": [
+        "environment_version",
+        "acceptance"
+      ],
+      "predecessor": "S2-13",
+      "tests": [
+        "IT2-27",
+        "IT2-28"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-15",
+      "components": [
+        "retention_cost",
+        "acceptance"
+      ],
+      "predecessor": "S2-14",
+      "tests": [
+        "IT2-29",
+        "IT2-30"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-16",
+      "components": [
+        "recurrence_count",
+        "acceptance"
+      ],
+      "predecessor": "S2-15",
+      "tests": [
+        "IT2-31",
+        "IT2-32"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-17",
+      "components": [
+        "reader_version",
+        "acceptance"
+      ],
+      "predecessor": "S2-16",
+      "tests": [
+        "IT2-33",
+        "IT2-34"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-18",
+      "components": [
+        "pending_owner",
+        "acceptance"
+      ],
+      "predecessor": "S2-17",
+      "tests": [
+        "IT2-35",
+        "IT2-36"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-19",
+      "components": [
+        "retirement_state",
+        "acceptance"
+      ],
+      "predecessor": "S2-18",
+      "tests": [
+        "IT2-37",
+        "IT2-38"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-20",
+      "components": [
+        "historical_result",
+        "acceptance"
+      ],
+      "predecessor": "S2-19",
+      "tests": [
+        "IT2-39",
+        "IT2-40"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-21",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S2-20",
+      "tests": [
+        "IT2-41",
+        "IT2-42"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-22",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S2-21",
+      "tests": [
+        "IT2-43",
+        "IT2-44"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-23",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S2-22",
+      "tests": [
+        "IT2-45",
+        "IT2-46"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-24",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S2-23",
+      "tests": [
+        "IT2-47",
+        "IT2-48"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S2-25",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S2-24",
+      "tests": [
+        "IT2-49",
+        "IT2-50"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    }
+  ],
+  "tests": [
+    {
+      "id": "IT2-01",
+      "step": "S2-01",
+      "interface": "packet.result_id\u2192acceptance",
+      "input_delta": "missing result_id",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:result_id"
+      },
+      "fixture": {
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-02",
+      "step": "S2-01",
+      "interface": "packet.result_id\u2192acceptance",
+      "input_delta": "null result_id",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:result_id"
+      },
+      "fixture": {
+        "result_id": null,
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-03",
+      "step": "S2-02",
+      "interface": "packet.creation_context\u2192acceptance",
+      "input_delta": "missing creation_context",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:creation_context"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-04",
+      "step": "S2-02",
+      "interface": "packet.creation_context\u2192acceptance",
+      "input_delta": "null creation_context",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:creation_context"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": null,
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-05",
+      "step": "S2-03",
+      "interface": "packet.actor_type\u2192acceptance",
+      "input_delta": "missing actor_type",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:actor_type"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-06",
+      "step": "S2-03",
+      "interface": "packet.actor_type\u2192acceptance",
+      "input_delta": "null actor_type",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:actor_type"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": null,
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-07",
+      "step": "S2-04",
+      "interface": "packet.original_goal\u2192acceptance",
+      "input_delta": "missing original_goal",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:original_goal"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-08",
+      "step": "S2-04",
+      "interface": "packet.original_goal\u2192acceptance",
+      "input_delta": "null original_goal",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:original_goal"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": null,
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-09",
+      "step": "S2-05",
+      "interface": "packet.source_edition\u2192acceptance",
+      "input_delta": "missing source_edition",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:source_edition"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-10",
+      "step": "S2-05",
+      "interface": "packet.source_edition\u2192acceptance",
+      "input_delta": "null source_edition",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:source_edition"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": null,
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-11",
+      "step": "S2-06",
+      "interface": "packet.helped_condition\u2192acceptance",
+      "input_delta": "missing helped_condition",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:helped_condition"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-12",
+      "step": "S2-06",
+      "interface": "packet.helped_condition\u2192acceptance",
+      "input_delta": "null helped_condition",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:helped_condition"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": null,
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-13",
+      "step": "S2-07",
+      "interface": "packet.negative_case\u2192acceptance",
+      "input_delta": "missing negative_case",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:negative_case"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-14",
+      "step": "S2-07",
+      "interface": "packet.negative_case\u2192acceptance",
+      "input_delta": "null negative_case",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:negative_case"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": null,
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-15",
+      "step": "S2-08",
+      "interface": "packet.evidence_kind\u2192acceptance",
+      "input_delta": "missing evidence_kind",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:evidence_kind"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-16",
+      "step": "S2-08",
+      "interface": "packet.evidence_kind\u2192acceptance",
+      "input_delta": "null evidence_kind",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:evidence_kind"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": null,
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-17",
+      "step": "S2-09",
+      "interface": "packet.reuse_trigger\u2192acceptance",
+      "input_delta": "missing reuse_trigger",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:reuse_trigger"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-18",
+      "step": "S2-09",
+      "interface": "packet.reuse_trigger\u2192acceptance",
+      "input_delta": "null reuse_trigger",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:reuse_trigger"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": null,
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-19",
+      "step": "S2-10",
+      "interface": "packet.original_evidence\u2192acceptance",
+      "input_delta": "missing original_evidence",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:original_evidence"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-20",
+      "step": "S2-10",
+      "interface": "packet.original_evidence\u2192acceptance",
+      "input_delta": "null original_evidence",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:original_evidence"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": null,
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-21",
+      "step": "S2-11",
+      "interface": "packet.criterion_version\u2192acceptance",
+      "input_delta": "missing criterion_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:criterion_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-22",
+      "step": "S2-11",
+      "interface": "packet.criterion_version\u2192acceptance",
+      "input_delta": "null criterion_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:criterion_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": null,
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-23",
+      "step": "S2-12",
+      "interface": "packet.observed_date\u2192acceptance",
+      "input_delta": "missing observed_date",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:observed_date"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-24",
+      "step": "S2-12",
+      "interface": "packet.observed_date\u2192acceptance",
+      "input_delta": "null observed_date",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:observed_date"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": null,
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-25",
+      "step": "S2-13",
+      "interface": "packet.validity_window\u2192acceptance",
+      "input_delta": "missing validity_window",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:validity_window"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-26",
+      "step": "S2-13",
+      "interface": "packet.validity_window\u2192acceptance",
+      "input_delta": "null validity_window",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:validity_window"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": null,
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-27",
+      "step": "S2-14",
+      "interface": "packet.environment_version\u2192acceptance",
+      "input_delta": "missing environment_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:environment_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-28",
+      "step": "S2-14",
+      "interface": "packet.environment_version\u2192acceptance",
+      "input_delta": "null environment_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:environment_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": null,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-29",
+      "step": "S2-15",
+      "interface": "packet.retention_cost\u2192acceptance",
+      "input_delta": "missing retention_cost",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:retention_cost"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-30",
+      "step": "S2-15",
+      "interface": "packet.retention_cost\u2192acceptance",
+      "input_delta": "null retention_cost",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:retention_cost"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": null,
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-31",
+      "step": "S2-16",
+      "interface": "packet.recurrence_count\u2192acceptance",
+      "input_delta": "missing recurrence_count",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:recurrence_count"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-32",
+      "step": "S2-16",
+      "interface": "packet.recurrence_count\u2192acceptance",
+      "input_delta": "null recurrence_count",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:recurrence_count"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": null,
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-33",
+      "step": "S2-17",
+      "interface": "packet.reader_version\u2192acceptance",
+      "input_delta": "missing reader_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:reader_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-34",
+      "step": "S2-17",
+      "interface": "packet.reader_version\u2192acceptance",
+      "input_delta": "null reader_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:reader_version"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": null,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-35",
+      "step": "S2-18",
+      "interface": "packet.pending_owner\u2192acceptance",
+      "input_delta": "missing pending_owner",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:pending_owner"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-36",
+      "step": "S2-18",
+      "interface": "packet.pending_owner\u2192acceptance",
+      "input_delta": "null pending_owner",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:pending_owner"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": null,
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-37",
+      "step": "S2-19",
+      "interface": "packet.retirement_state\u2192acceptance",
+      "input_delta": "missing retirement_state",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:retirement_state"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-38",
+      "step": "S2-19",
+      "interface": "packet.retirement_state\u2192acceptance",
+      "input_delta": "null retirement_state",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:retirement_state"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": null,
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-39",
+      "step": "S2-20",
+      "interface": "packet.historical_result\u2192acceptance",
+      "input_delta": "missing historical_result",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:historical_result"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-40",
+      "step": "S2-20",
+      "interface": "packet.historical_result\u2192acceptance",
+      "input_delta": "null historical_result",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:historical_result"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": null,
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-41",
+      "step": "S2-21",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "valid",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-42",
+      "step": "S2-21",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "wrong schema",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "schema"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 99,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-43",
+      "step": "S2-22",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "other schema",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "schema"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 1,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-44",
+      "step": "S2-22",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "old reader",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "reader incompatible; historical truth retained"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 0,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-45",
+      "step": "S2-23",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "new reader",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "reader incompatible; historical truth retained"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 2,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-46",
+      "step": "S2-23",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "retired",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "retired recommendation"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "retired",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-47",
+      "step": "S2-24",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "changed environment",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "current fit unresolved; historical truth retained"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 2,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-48",
+      "step": "S2-24",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "old environment",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "current fit unresolved; historical truth retained"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 0,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-49",
+      "step": "S2-25",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "no recurrence",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": "declared",
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": 0,
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    },
+    {
+      "id": "IT2-50",
+      "step": "S2-25",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "empty negative case retained",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "result_id": "declared",
+        "creation_context": "declared",
+        "actor_type": "declared",
+        "original_goal": "declared",
+        "source_edition": "declared",
+        "helped_condition": "declared",
+        "negative_case": [],
+        "evidence_kind": "declared",
+        "reuse_trigger": "declared",
+        "original_evidence": "declared",
+        "criterion_version": "declared",
+        "observed_date": "declared",
+        "validity_window": "declared",
+        "environment_version": 1,
+        "retention_cost": "declared",
+        "recurrence_count": "declared",
+        "reader_version": 1,
+        "pending_owner": "declared",
+        "retirement_state": "active",
+        "historical_result": "declared",
+        "schema_version": 2,
+        "current_reader": 1,
+        "current_environment": 1
+      },
+      "pass": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "II2-01",
+      "scenario": "missing or null result_id",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-02",
+      "scenario": "missing or null creation_context",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-03",
+      "scenario": "missing or null actor_type",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-04",
+      "scenario": "missing or null original_goal",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-05",
+      "scenario": "missing or null source_edition",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-06",
+      "scenario": "missing or null helped_condition",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-07",
+      "scenario": "missing or null negative_case",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-08",
+      "scenario": "missing or null evidence_kind",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-09",
+      "scenario": "missing or null reuse_trigger",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-10",
+      "scenario": "missing or null original_evidence",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-11",
+      "scenario": "missing or null criterion_version",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-12",
+      "scenario": "missing or null observed_date",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-13",
+      "scenario": "missing or null validity_window",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-14",
+      "scenario": "missing or null environment_version",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-15",
+      "scenario": "missing or null retention_cost",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-16",
+      "scenario": "missing or null recurrence_count",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-17",
+      "scenario": "missing or null reader_version",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-18",
+      "scenario": "missing or null pending_owner",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-19",
+      "scenario": "missing or null retirement_state",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II2-20",
+      "scenario": "missing or null historical_result",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    }
+  ],
+  "test_count": 50,
+  "passed": 50
+}

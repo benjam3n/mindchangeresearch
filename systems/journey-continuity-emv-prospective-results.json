@@ -1,0 +1,97 @@
+{
+  "run_at_utc": "2026-09-08T04:44:48.004457+00:00",
+  "prediction_sha256": "d9e2a1e8a15d57cd9ab51a6dd9efeb6d3febba922095c1d30e63e5ae08d85b95",
+  "predictions_frozen_at": "2026-09-08T04:44:18.952121+00:00",
+  "results": [
+    {
+      "id": "NEW-1",
+      "input": {
+        "w": "11/20"
+      },
+      "prediction": {
+        "A": "73/20",
+        "B": "39/10",
+        "choice": "B"
+      },
+      "confidence": 85,
+      "actual": {
+        "A": "73/20",
+        "B": "39/10",
+        "choice": "B"
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-2",
+      "input": {
+        "w": "13/20"
+      },
+      "prediction": {
+        "A": "79/20",
+        "B": "37/10",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "actual": {
+        "A": "79/20",
+        "B": "37/10",
+        "choice": "A"
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-3",
+      "input": {
+        "w": "7/12"
+      },
+      "prediction": {
+        "A": "15/4",
+        "B": "23/6",
+        "choice": "B"
+      },
+      "confidence": 80,
+      "actual": {
+        "A": "15/4",
+        "B": "23/6",
+        "choice": "B"
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-4",
+      "input": {
+        "w": "5/8"
+      },
+      "prediction": {
+        "A": "31/8",
+        "B": "15/4",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "actual": {
+        "A": "31/8",
+        "B": "15/4",
+        "choice": "A"
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-5",
+      "input": {
+        "w": "17/25"
+      },
+      "prediction": {
+        "A": "101/25",
+        "B": "91/25",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "actual": {
+        "A": "101/25",
+        "B": "91/25",
+        "choice": "A"
+      },
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+| Interpretation | Subject | Observation | Operation |
+|---|---|---|---|
+| The required idea is not understood | Understanding content specification; Understanding error diagnosis | The person cannot explain a required relation even with the relevant context supplied | Establish the missing content |
+| The known idea is not retrieved | Memory record retrieval; Memory reuse trigger | The person succeeds after a minimal cue that does not supply the solution operation | Identify and preserve a usable retrieval cue |
+| The application condition is unrecognized | Reasoning approach applicability; Understanding use transfer | The person can execute the method when told to use it but cannot distinguish cases where it applies | Discover the boundary using contrasting cases |
+| The available representation hides the relevant relation | Expression representation modification; Perspective representation omission | Reorganizing the same information exposes a previously unavailable operation | Construct and retain a representation suited to that relation |
+| The explanation contains no usable operation | Explanation account operational content; Reasoning approach creation | Its statements can be repeated, but no next transformation can be specified | Construct the missing operation |
+| The wrong approach was selected | Reasoning approach comparison; Reasoning approach selection | A different applicable approach supplies a contribution the current approach cannot | Select on the required contribution and application conditions |
+| An execution resource is missing | Resource use access condition; Resource configuration bottleneck | The operation succeeds when the missing tool, record, or capacity is supplied | Make the necessary resource available |
+| The standard for understanding was too weak | Goal achievement indicator adequacy; Criterion application result | Familiar-example recognition was treated as evidence of independent transfer | Use a completion condition that corresponds to the intended capability |

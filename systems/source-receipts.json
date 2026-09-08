@@ -1,0 +1,164 @@
+[
+  {
+    "id": "gjs",
+    "source_bytes": 7955,
+    "sha256": "ee227265cb163c9f624210ec4198e7e432c5608e22f57eeba7c91868639497f9",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "fut",
+    "source_bytes": 2950,
+    "sha256": "ba2043704b2da54c771f19c00ed58a7c0da5c0c043347f4cded617f2d72c4889",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "gd",
+    "source_bytes": 3173,
+    "sha256": "0f1038f0b90c2d7f33ed643fd1f644e1c1682a2777eb6314f515f2ad060284bb",
+    "requirements_bytes": 9340
+  },
+  {
+    "id": "gsr",
+    "source_bytes": 3543,
+    "sha256": "e808c58bd3068b9c7025b4fc9bb22c14646c0749c729437bfedb15cf4af63ad0",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "grf",
+    "source_bytes": 7017,
+    "sha256": "5fc6768f11fd92e1e2413cc1dfbcbfb2cf6d359970493f6b8f43c2480340685e",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "lpd",
+    "source_bytes": 4903,
+    "sha256": "308bd220f96cacb2f05a87766641dcea4eb2fa7f491929a25cb7c2d05dd6b2eb",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "sysarch",
+    "source_bytes": 11502,
+    "sha256": "08869404e6d3befd19ed3d24e8d99a08bee15241525cf0b3f09eaabe9dbd0a1f",
+    "requirements_bytes": 9345
+  },
+  {
+    "id": "ltai",
+    "source_bytes": 4966,
+    "sha256": "c1413674ed46c4fe0c256b525efb1aba9d3a15bb52b054ad2f052e4dbcbcb469",
+    "requirements_bytes": 9342
+  },
+  {
+    "id": "gaa",
+    "source_bytes": 2075,
+    "sha256": "90022795ffbdcea6bf95364e5f795abc90c7a81edef6f9c85c7275c05cb47631",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "sysdecomp",
+    "source_bytes": 12881,
+    "sha256": "6a23f3c14bcfd3dd7764ef1c8b91820cde2999098d99781db5bacc62dbb19535",
+    "requirements_bytes": 9347
+  },
+  {
+    "id": "sysintegration",
+    "source_bytes": 12160,
+    "sha256": "5fef7d47a8f71118a7e481929789ca89c95011e42a3cead2384094c4d97a4899",
+    "requirements_bytes": 9352
+  },
+  {
+    "id": "sya",
+    "source_bytes": 13679,
+    "sha256": "e57e669391ec2bb17a72c71743f04caaa76dc469e8601522d18e0388c732a08e",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "systhink",
+    "source_bytes": 12398,
+    "sha256": "c4db4101b6b5c3739e6e0af8b841cb3270fd34b2b97af25691465f08c132f450",
+    "requirements_bytes": 9346
+  },
+  {
+    "id": "requirements",
+    "source_bytes": 9011,
+    "sha256": "a5df8fd7720aa03a05e948e4da39ac8532582e6f44e85226d2bccaa7c7ae85b5",
+    "requirements_bytes": 9350
+  },
+  {
+    "id": "tracematrix",
+    "source_bytes": 11433,
+    "sha256": "6dbd2aae8e0c93f4c08d768877026982bdc5ace51cb0bfba4f4052950027f268",
+    "requirements_bytes": 9349
+  },
+  {
+    "id": "exd",
+    "source_bytes": 13872,
+    "sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "abts",
+    "source_bytes": 5184,
+    "sha256": "a7b443172b828ee91cebc70d353b0a65c5bf6761ed3f374ead59d5567912b57f",
+    "requirements_bytes": 9342
+  },
+  {
+    "id": "emv",
+    "source_bytes": 7520,
+    "sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "dom",
+    "source_bytes": 3105,
+    "sha256": "f340af10fcbce3697e4e4195cd9485686be1bf7fd0fdfb4d74275a60fe5439f6",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "mcd",
+    "source_bytes": 3478,
+    "sha256": "a54ce6e26ff17c23f70e043699bfef1f61bfd1de9b84471e52fc02fd79ad1017",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "cba",
+    "source_bytes": 11756,
+    "sha256": "b3fb102c85faf409e0843f3a9c2410aafb795c0c168003e3336bcdc456bea882",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "lcca",
+    "source_bytes": 13353,
+    "sha256": "a729686024289f1bb7f3f9e685b6fb3c4ff3729f0862dee96be746d2fcd45cac",
+    "requirements_bytes": 9342
+  },
+  {
+    "id": "ram",
+    "source_bytes": 13142,
+    "sha256": "efd0fbb4475e17f490cfc377d55c4c99297be8973835daa585909b84a47f8c2d",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "ret",
+    "source_bytes": 5211,
+    "sha256": "e0d07d27ad26f387d2e083ecb540f9a0587dfb3381b22a1a2538b48fee85fbce",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "ssr",
+    "source_bytes": 6957,
+    "sha256": "4c27465f078201054dfb3aeaa7ac95c998224aa7b5028b343fe0b0fac4e5dbba",
+    "requirements_bytes": 9341
+  },
+  {
+    "id": "araw",
+    "source_bytes": 24492,
+    "sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+    "requirements_bytes": 9342
+  },
+  {
+    "id": "ve",
+    "source_bytes": 2947,
+    "sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+    "requirements_bytes": 9340
+  }
+]

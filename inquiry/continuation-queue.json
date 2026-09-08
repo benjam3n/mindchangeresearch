@@ -1,0 +1,317 @@
+{
+  "next_input": "A source-faithful, depth-sufficient execution that changes the present model\u2019s next choice can qualify as a local keep even when human transfer remains unresolved.",
+  "fields": [
+    "source_and_depth",
+    "local_use_evidence",
+    "human_effect_evidence"
+  ],
+  "queue": [
+    {
+      "id": "aex",
+      "application": 1,
+      "rank": 2,
+      "status": "pending"
+    },
+    {
+      "id": "ar",
+      "application": 1,
+      "rank": 1,
+      "status": "completed",
+      "file": "01-ar-program.md"
+    },
+    {
+      "id": "ar",
+      "application": 2,
+      "rank": 1,
+      "status": "pending"
+    },
+    {
+      "id": "ar",
+      "application": 3,
+      "rank": 1,
+      "status": "pending"
+    },
+    {
+      "id": "aex",
+      "application": 2,
+      "rank": 2,
+      "status": "pending"
+    },
+    {
+      "id": "aex",
+      "application": 3,
+      "rank": 2,
+      "status": "pending"
+    },
+    {
+      "id": "dd",
+      "application": 1,
+      "rank": 3,
+      "status": "pending"
+    },
+    {
+      "id": "dd",
+      "application": 2,
+      "rank": 3,
+      "status": "pending"
+    },
+    {
+      "id": "dd",
+      "application": 3,
+      "rank": 3,
+      "status": "pending"
+    },
+    {
+      "id": "se",
+      "application": 1,
+      "rank": 4,
+      "status": "pending"
+    },
+    {
+      "id": "se",
+      "application": 2,
+      "rank": 4,
+      "status": "pending"
+    },
+    {
+      "id": "se",
+      "application": 3,
+      "rank": 4,
+      "status": "pending"
+    },
+    {
+      "id": "spd",
+      "application": 1,
+      "rank": 5,
+      "status": "pending"
+    },
+    {
+      "id": "spd",
+      "application": 2,
+      "rank": 5,
+      "status": "pending"
+    },
+    {
+      "id": "spd",
+      "application": 3,
+      "rank": 5,
+      "status": "pending"
+    },
+    {
+      "id": "u",
+      "application": 1,
+      "rank": 6,
+      "status": "pending"
+    },
+    {
+      "id": "u",
+      "application": 2,
+      "rank": 6,
+      "status": "pending"
+    },
+    {
+      "id": "u",
+      "application": 3,
+      "rank": 6,
+      "status": "pending"
+    },
+    {
+      "id": "ipss",
+      "application": 1,
+      "rank": 7,
+      "status": "pending"
+    },
+    {
+      "id": "ipss",
+      "application": 2,
+      "rank": 7,
+      "status": "pending"
+    },
+    {
+      "id": "ipss",
+      "application": 3,
+      "rank": 7,
+      "status": "pending"
+    },
+    {
+      "id": "mss",
+      "application": 1,
+      "rank": 8,
+      "status": "pending"
+    },
+    {
+      "id": "mss",
+      "application": 2,
+      "rank": 8,
+      "status": "pending"
+    },
+    {
+      "id": "mss",
+      "application": 3,
+      "rank": 8,
+      "status": "pending"
+    },
+    {
+      "id": "frq",
+      "application": 1,
+      "rank": 9,
+      "status": "pending"
+    },
+    {
+      "id": "frq",
+      "application": 2,
+      "rank": 9,
+      "status": "pending"
+    },
+    {
+      "id": "frq",
+      "application": 3,
+      "rank": 9,
+      "status": "pending"
+    },
+    {
+      "id": "ifss",
+      "application": 1,
+      "rank": 51,
+      "status": "pending"
+    },
+    {
+      "id": "ifss",
+      "application": 2,
+      "rank": 51,
+      "status": "pending"
+    },
+    {
+      "id": "qaf",
+      "application": 1,
+      "rank": 52,
+      "status": "pending"
+    },
+    {
+      "id": "qaf",
+      "application": 2,
+      "rank": 52,
+      "status": "pending"
+    },
+    {
+      "id": "qr",
+      "application": 1,
+      "rank": 53,
+      "status": "pending"
+    },
+    {
+      "id": "qr",
+      "application": 2,
+      "rank": 53,
+      "status": "pending"
+    },
+    {
+      "id": "ael",
+      "application": 1,
+      "rank": 54,
+      "status": "pending"
+    },
+    {
+      "id": "ael",
+      "application": 2,
+      "rank": 54,
+      "status": "pending"
+    },
+    {
+      "id": "fctl",
+      "application": 1,
+      "rank": 55,
+      "status": "pending"
+    },
+    {
+      "id": "fctl",
+      "application": 2,
+      "rank": 55,
+      "status": "pending"
+    },
+    {
+      "id": "cscl",
+      "application": 1,
+      "rank": 56,
+      "status": "pending"
+    },
+    {
+      "id": "cscl",
+      "application": 2,
+      "rank": 56,
+      "status": "pending"
+    },
+    {
+      "id": "rci",
+      "application": 1,
+      "rank": 57,
+      "status": "pending"
+    },
+    {
+      "id": "rci",
+      "application": 2,
+      "rank": 57,
+      "status": "pending"
+    },
+    {
+      "id": "rca",
+      "application": 1,
+      "rank": 58,
+      "status": "pending"
+    },
+    {
+      "id": "rca",
+      "application": 2,
+      "rank": 58,
+      "status": "pending"
+    },
+    {
+      "id": "ht",
+      "application": 1,
+      "rank": 101,
+      "status": "pending"
+    },
+    {
+      "id": "src",
+      "application": 1,
+      "rank": 102,
+      "status": "pending"
+    },
+    {
+      "id": "av",
+      "application": 1,
+      "rank": 103,
+      "status": "pending"
+    },
+    {
+      "id": "sdc",
+      "application": 1,
+      "rank": 104,
+      "status": "pending"
+    },
+    {
+      "id": "mtcl",
+      "application": 1,
+      "rank": 105,
+      "status": "pending"
+    },
+    {
+      "id": "rlcl",
+      "application": 1,
+      "rank": 106,
+      "status": "pending"
+    },
+    {
+      "id": "icl",
+      "application": 1,
+      "rank": 107,
+      "status": "pending"
+    },
+    {
+      "id": "dvs",
+      "application": 1,
+      "rank": 108,
+      "status": "pending"
+    }
+  ]
+}

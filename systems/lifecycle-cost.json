@@ -1,0 +1,2020 @@
+{
+  "phases": [
+    [
+      "concept",
+      0,
+      10
+    ],
+    [
+      "development",
+      0,
+      20
+    ],
+    [
+      "deployment",
+      1,
+      20
+    ],
+    [
+      "operations",
+      2,
+      20
+    ],
+    [
+      "support",
+      3,
+      20
+    ],
+    [
+      "retirement",
+      5,
+      10
+    ]
+  ],
+  "alternatives": {
+    "direct": [
+      1,
+      0,
+      1,
+      5,
+      2,
+      1
+    ],
+    "compiled": [
+      2,
+      4,
+      2,
+      1,
+      2,
+      2
+    ],
+    "hybrid": [
+      1,
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    "batch": [
+      1,
+      1,
+      1,
+      3,
+      3,
+      2
+    ]
+  },
+  "items": [
+    {
+      "id": "LC-001",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Preserve the exact requested action",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-002",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Retain the named actor",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-003",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Retain the requested object",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-004",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Retain the declared time horizon",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-005",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Retain hard constraints",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-006",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Label an inferred purpose",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-007",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Keep alternative interpretations separately",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-008",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Reject an unauthorized goal substitution",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-009",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Detect a missing source",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-010",
+      "phase": "concept",
+      "year": 0,
+      "element": "concept activity: Distinguish inaccessible from nonexistent input",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-011",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Retain source version",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-012",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Retain units on numeric inputs",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-013",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Represent unknown inputs explicitly",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-014",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Reject malformed dates before sequencing",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-015",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Preserve provided counterexamples",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-016",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Separate user statements from assistant assumptions",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-017",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include the strongest ordinary continuation",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-018",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a no-change candidate where feasible",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-019",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a preparation candidate",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-020",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a representation change candidate",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-021",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a timing change candidate",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-022",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a resource change candidate",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-023",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Include a coordination change candidate",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-024",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Preserve an unconventional derived alternative",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-025",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: State each option input conditions",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-026",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: State evidence population or constructed scope",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-027",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Separate observation from prediction",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-028",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Separate performance from explanation",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-029",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Retain negative evidence",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-030",
+      "phase": "development",
+      "year": 0,
+      "element": "development activity: Reject transfer beyond measured setting as unproven",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 0,
+        "compiled": 4,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-031",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Preserve unresolved causal attribution",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-032",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Link a consequence to its performed operation",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-033",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Represent an explicit budget",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-034",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Include preparation cost in bundle cost",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-035",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Represent resource exclusivity",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-036",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Represent required authority",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-037",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Represent task deadline",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-038",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Preserve prerequisites in order",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-039",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Detect a cycle in action dependencies",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-040",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Reject a missing prerequisite at commitment",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-041",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Retain criterion version",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-042",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Retain criterion owner",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-043",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Distinguish threshold from maximization",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-044",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Keep unmeasured intangibles visible",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-045",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Prevent double counting identical effects",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-046",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Retain the comparison under previous criteria",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-047",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Calculate dominance only on declared dimensions",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-048",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Expose the crossover of a weighted decision",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-049",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Transmit task revision",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-050",
+      "phase": "deployment",
+      "year": 1,
+      "element": "deployment activity: Transmit exact operation input",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 2,
+        "batch": 1
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-051",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Name output contract",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-052",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Name endpoint owner",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-053",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Return explicit error state",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-054",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Reject an obsolete returned revision",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-055",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Deduplicate repeated returned identity",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-056",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Retain an interrupted action state",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-057",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Compare expected with actual consequence",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-058",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Keep the initial baseline visible",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-059",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Separate repair success from first-pass success",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-060",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Preserve an unchanged result",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-061",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Classify a harmful result explicitly",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-062",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Do not infer human benefit from model agreement",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-063",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Do not infer weight updates from context change",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-064",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Retain limits on measurement",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-065",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Reopen a rejected inference",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-066",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Invalidate descendants of a removed premise",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-067",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Retain useful incompatible alternatives",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-068",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Preserve original sources unchanged",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-069",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Limit automatic retries",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-070",
+      "phase": "operations",
+      "year": 2,
+      "element": "operations activity: Allow the current requester to stop",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 5,
+        "compiled": 1,
+        "hybrid": 2,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-071",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Avoid committing an unreviewable irreversible action",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-072",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Record the reason a selected option changed",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-073",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Give a direct answer at the relevant level",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-074",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Keep useful scope next to recommendation",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-075",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Provide a readable local artifact",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-076",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Separate provenance from live decision view",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-077",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Retain an empty-state explanation",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-078",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Make missing evidence visible in handoff",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-079",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Provide a boundary case for reuse",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-080",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Do not turn method bookkeeping into the product flow",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-081",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Assign stable identity to a retained result",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-082",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Preserve result creation context",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-083",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Retain actor type with result",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-084",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Retain original goal wording",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-085",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Preserve source edition identity",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-086",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Preserve condition under which result helped",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-087",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Preserve observed negative case",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-088",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Distinguish a retained proposal from observed benefit",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-089",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Index by a concrete reuse trigger",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-090",
+      "phase": "support",
+      "year": 3,
+      "element": "support activity: Return original evidence with retrieved result",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 2,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 3
+      },
+      "recurring": true
+    },
+    {
+      "id": "LC-091",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Return scope before reapplication",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-092",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Return criterion version",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-093",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Allow a query to return no match",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-094",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Distinguish absent from deleted entries",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-095",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Detect a missing retained artifact",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-096",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Do not claim retrieval from saving alone",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-097",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Retain the observation date",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-098",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: State a validity window when known",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-099",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Represent unknown durability",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    },
+    {
+      "id": "LC-100",
+      "phase": "retirement",
+      "year": 5,
+      "element": "retirement activity: Flag a changed environment",
+      "base_operations": 1,
+      "method": "declared operation-count buildup",
+      "basis": "one activity in the finite synthetic lifecycle; repeated counts supplied per alternative",
+      "confidence": "exact within stipulated model; real cost unknown",
+      "costs": {
+        "direct": 1,
+        "compiled": 2,
+        "hybrid": 1,
+        "batch": 2
+      },
+      "recurring": false
+    }
+  ],
+  "nominal_phase_costs": {
+    "direct": {
+      "concept": 10,
+      "development": 0,
+      "deployment": 20,
+      "operations": 100,
+      "support": 40,
+      "retirement": 10
+    },
+    "compiled": {
+      "concept": 20,
+      "development": 80,
+      "deployment": 40,
+      "operations": 20,
+      "support": 40,
+      "retirement": 20
+    },
+    "hybrid": {
+      "concept": 10,
+      "development": 40,
+      "deployment": 40,
+      "operations": 40,
+      "support": 20,
+      "retirement": 10
+    },
+    "batch": {
+      "concept": 10,
+      "development": 20,
+      "deployment": 20,
+      "operations": 60,
+      "support": 60,
+      "retirement": 20
+    }
+  },
+  "discount": 0.1,
+  "npv_costs": {
+    "direct": 147.08825154764637,
+    "compiled": 195.36358048071727,
+    "hybrid": 140.65699685192888,
+    "batch": 155.26590955660006
+  },
+  "sensitivities": [
+    {
+      "factor": "development",
+      "low": {
+        "direct": 147.08825154764637,
+        "compiled": 179.36358048071727,
+        "hybrid": 132.65699685192888,
+        "batch": 151.26590955660006
+      },
+      "high": {
+        "direct": 147.08825154764637,
+        "compiled": 211.36358048071727,
+        "hybrid": 148.65699685192888,
+        "batch": 159.26590955660006
+      },
+      "hybrid_swing": 16.0
+    },
+    {
+      "factor": "deployment",
+      "low": {
+        "direct": 143.45188791128274,
+        "compiled": 188.09085320799,
+        "hybrid": 133.3842695792016,
+        "batch": 151.6295459202364
+      },
+      "high": {
+        "direct": 150.72461518401002,
+        "compiled": 202.63630775344456,
+        "hybrid": 147.92972412465616,
+        "batch": 158.9022731929637
+      },
+      "hybrid_swing": 14.545454545454561
+    },
+    {
+      "factor": "operations",
+      "low": {
+        "direct": 130.55932592781167,
+        "compiled": 192.05779535675032,
+        "hybrid": 134.045426603995,
+        "batch": 145.34855418469922
+      },
+      "high": {
+        "direct": 163.6171771674811,
+        "compiled": 198.6693656046842,
+        "hybrid": 147.26856709986276,
+        "batch": 165.18326492850088
+      },
+      "hybrid_swing": 13.223140495867767
+    },
+    {
+      "factor": "group0",
+      "low": {
+        "direct": 142.3316936870929,
+        "compiled": 188.81485243804755,
+        "hybrid": 135.91155845042874,
+        "batch": 150.20192982347206
+      },
+      "high": {
+        "direct": 151.84480940819986,
+        "compiled": 201.91230852338697,
+        "hybrid": 145.40243525342902,
+        "batch": 160.32988928972807
+      },
+      "hybrid_swing": 9.490876803000276
+    },
+    {
+      "factor": "group1",
+      "low": {
+        "direct": 142.3316936870929,
+        "compiled": 188.81485243804755,
+        "hybrid": 135.91155845042874,
+        "batch": 150.20192982347206
+      },
+      "high": {
+        "direct": 151.84480940819986,
+        "compiled": 201.91230852338697,
+        "hybrid": 145.40243525342902,
+        "batch": 160.32988928972807
+      },
+      "hybrid_swing": 9.490876803000276
+    },
+    {
+      "factor": "group2",
+      "low": {
+        "direct": 141.68706558791934,
+        "compiled": 189.01319954548558,
+        "hybrid": 135.94461630166842,
+        "batch": 149.8878802366952
+      },
+      "high": {
+        "direct": 152.48943750737342,
+        "compiled": 201.71396141594897,
+        "hybrid": 145.36937740218934,
+        "batch": 160.64393887650493
+      },
+      "hybrid_swing": 9.424761100520925
+    },
+    {
+      "factor": "group3",
+      "low": {
+        "direct": 141.68706558791934,
+        "compiled": 189.01319954548558,
+        "hybrid": 135.94461630166842,
+        "batch": 149.8878802366952
+      },
+      "high": {
+        "direct": 152.48943750737342,
+        "compiled": 201.71396141594897,
+        "hybrid": 145.36937740218934,
+        "batch": 160.64393887650493
+      },
+      "hybrid_swing": 9.424761100520925
+    },
+    {
+      "factor": "group4",
+      "low": {
+        "direct": 142.53717021316228,
+        "compiled": 188.72633141054695,
+        "hybrid": 136.0491161184966,
+        "batch": 150.18132765397294
+      },
+      "high": {
+        "direct": 151.63933288213047,
+        "compiled": 202.0008295508876,
+        "hybrid": 145.26487758536115,
+        "batch": 160.35049145922716
+      },
+      "hybrid_swing": 9.215761466864535
+    },
+    {
+      "factor": "group5",
+      "low": {
+        "direct": 142.53717021316228,
+        "compiled": 188.72633141054695,
+        "hybrid": 136.0491161184966,
+        "batch": 150.18132765397294
+      },
+      "high": {
+        "direct": 151.63933288213047,
+        "compiled": 202.0008295508876,
+        "hybrid": 145.26487758536115,
+        "batch": 160.35049145922716
+      },
+      "hybrid_swing": 9.215761466864535
+    },
+    {
+      "factor": "support",
+      "low": {
+        "direct": 141.07773314043376,
+        "compiled": 189.35306207350465,
+        "hybrid": 137.65173764832258,
+        "batch": 146.25013194578113
+      },
+      "high": {
+        "direct": 153.098769954859,
+        "compiled": 201.3740988879299,
+        "hybrid": 143.66225605553518,
+        "batch": 164.281687167419
+      },
+      "hybrid_swing": 6.010518407212601
+    },
+    {
+      "factor": "concept",
+      "low": {
+        "direct": 145.08825154764637,
+        "compiled": 191.36358048071727,
+        "hybrid": 138.65699685192888,
+        "batch": 153.26590955660006
+      },
+      "high": {
+        "direct": 149.08825154764637,
+        "compiled": 199.36358048071727,
+        "hybrid": 142.65699685192888,
+        "batch": 157.26590955660006
+      },
+      "hybrid_swing": 4.0
+    },
+    {
+      "factor": "retirement",
+      "low": {
+        "direct": 145.84640890152806,
+        "compiled": 192.87989518848065,
+        "hybrid": 139.41515420581058,
+        "batch": 152.78222426436344
+      },
+      "high": {
+        "direct": 148.3300941937647,
+        "compiled": 197.8472657729539,
+        "hybrid": 141.89883949804718,
+        "batch": 157.74959484883667
+      },
+      "hybrid_swing": 2.4836852922366006
+    }
+  ],
+  "risks": [
+    "source disappears",
+    "criterion changes",
+    "setup expires",
+    "recurrence absent",
+    "input format changes",
+    "authority changes",
+    "duplicate work",
+    "restoration needed",
+    "migration loses scope",
+    "host unavailable",
+    "maintenance ignored",
+    "retirement provenance lost"
+  ],
+  "recommended_in_model": "hybrid"
+}

@@ -1,0 +1,917 @@
+{
+  "topic": "route",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Adding body-turn words to the complete compass route improves the prospective reviewer\u2019s endpoint accuracy.",
+      "type": "explicit candidate",
+      "voi": "high",
+      "verdict": "UNCERTAIN",
+      "evidence": "human endpoint comparison",
+      "findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ]
+    },
+    {
+      "id": "C2",
+      "claim": "The relative command string FRFF reaches the same endpoint from every cardinal initial heading at the same start.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "route.same_words_different_heading",
+      "findings": [
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ]
+    },
+    {
+      "id": "C3",
+      "claim": "Map-right and body-right always denote the same compass direction.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "cardinal rotation definition",
+      "findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    },
+    {
+      "id": "C4",
+      "claim": "Coordinates can replace orientation in every checkpoint for a relative walk.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "route.same_position_different_heading",
+      "findings": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ]
+    },
+    {
+      "id": "C5",
+      "claim": "The number of forward moves and right turns determines a relative path endpoint, regardless of order.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "route.reverse_turn_order",
+      "findings": [
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ]
+    },
+    {
+      "id": "C6",
+      "claim": "Replacing R by L preserves the endpoint of every route with one quarter-turn.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "verdict": "REJECTED",
+      "evidence": "route.mirror",
+      "findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ]
+    },
+    {
+      "id": "C7",
+      "claim": "A qualitative distance word such as nearby fixes an exact endpoint on the declared integer grid.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "stipulated nearby domain {1,2}",
+      "findings": [
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ]
+    },
+    {
+      "id": "C8",
+      "claim": "A list of compass bearings determines an endpoint without leg lengths.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "integer-grid addition",
+      "findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32"
+      ]
+    },
+    {
+      "id": "C9",
+      "claim": "A printed legend makes the route decodable in a spoken excerpt that omits the legend.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two explicitly different codebooks",
+      "findings": [
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ]
+    },
+    {
+      "id": "C10",
+      "claim": "Every compass-only route needs the walker\u2019s initial body heading to determine its endpoint.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "absolute direction definition",
+      "findings": [
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ]
+    },
+    {
+      "id": "C11",
+      "claim": "Two conflicting direction descriptions still specify one executable move without a precedence rule.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "east != west",
+      "findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ]
+    },
+    {
+      "id": "C12",
+      "claim": "Interchanging the x and y axes leaves every coordinate route unchanged.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "ordered-pair equality",
+      "findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ]
+    },
+    {
+      "id": "C13",
+      "claim": "Repeating a route\u2019s forward commands from its endpoint necessarily returns to its start.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "vector addition",
+      "findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52"
+      ]
+    },
+    {
+      "id": "C14",
+      "claim": "An unlabeled arrow uniquely identifies entrance orientation in every diagram.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two stipulated arrow roles",
+      "findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56"
+      ]
+    },
+    {
+      "id": "C15",
+      "claim": "A path index alone determines the next relative move across all route instances.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "route instance definitions",
+      "findings": [
+        "F57",
+        "F58",
+        "F59",
+        "F60"
+      ]
+    },
+    {
+      "id": "C16",
+      "claim": "The shortest wording always leaves the fewest unresolved route values.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "declared phrase contents",
+      "findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ]
+    },
+    {
+      "id": "C17",
+      "claim": "A destination name alone determines coordinates even when its location map is absent.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two stipulated maps",
+      "findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ]
+    },
+    {
+      "id": "C18",
+      "claim": "A correct endpoint guarantees the route obeyed every intermediate restriction.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "verdict": "REJECTED",
+      "evidence": "two explicit paths",
+      "findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "kind": "AR",
+      "parent": "C1",
+      "text": "With the same map and endpoint question, the reviewer must answer more accurately with the added turn words.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F2",
+      "kind": "AW",
+      "parent": "C1",
+      "text": "A reviewer who already follows compass bearings gets the same answer from both; conflicting frame habits instead make the added words a distraction. No reviewer comparison exists.",
+      "classification": "Deferred countermodel",
+      "bedrock": "BEDROCK-TEST-DEFERRED: actual reader unavailable"
+    },
+    {
+      "id": "F3",
+      "kind": "ALT",
+      "parent": "F2",
+      "text": "Retain both texts as candidates with measured endpoint accuracy as the discriminator.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F4",
+      "kind": "AR",
+      "parent": "F3",
+      "text": "Equal correct answers would provide no accuracy advantage to the longer candidate.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F5",
+      "kind": "AR",
+      "parent": "C2",
+      "text": "North-facing and east-facing starts at (0,0) must end at the same coordinate.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F6",
+      "kind": "AW",
+      "parent": "C2",
+      "text": "Executed north start ends at (2,1); east start ends at (1,-2).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.same_words_different_heading"
+    },
+    {
+      "id": "F7",
+      "kind": "ALT",
+      "parent": "F6",
+      "text": "Attach the initial heading to a relative command string.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F8",
+      "kind": "AR",
+      "parent": "F7",
+      "text": "The anchored east instance now selects (1,-2), excluding (2,1).",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F9",
+      "kind": "AR",
+      "parent": "C3",
+      "text": "Facing east, a body-right turn must still point map-right, which is east on the declared north-up map.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F10",
+      "kind": "AW",
+      "parent": "C3",
+      "text": "Facing east, a quarter-turn right points south; map-right remains east.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: cardinal rotation definition"
+    },
+    {
+      "id": "F11",
+      "kind": "ALT",
+      "parent": "F10",
+      "text": "Name the frame of a direction word.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F12",
+      "kind": "AR",
+      "parent": "F11",
+      "text": "The labels map-right=east and body-right=south can coexist without contradiction.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F13",
+      "kind": "AR",
+      "parent": "C4",
+      "text": "Two returns to coordinate (0,0) must permit the same next F command.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F14",
+      "kind": "AW",
+      "parent": "C4",
+      "text": "The empty walk ends north-facing; FRFRFRF returns to (0,0) west-facing. The next F changes y in the first and x in the second.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.same_position_different_heading"
+    },
+    {
+      "id": "F15",
+      "kind": "ALT",
+      "parent": "F14",
+      "text": "Store both position and heading for a relative-command checkpoint.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F16",
+      "kind": "AR",
+      "parent": "F15",
+      "text": "The two records now dispatch different next moves despite equal coordinates.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F17",
+      "kind": "AR",
+      "parent": "C5",
+      "text": "FRF and RFF, with two F tokens and one R token each, must agree.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F18",
+      "kind": "AW",
+      "parent": "C5",
+      "text": "Executed FRF ends (1,1); RFF ends (2,0).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.reverse_turn_order"
+    },
+    {
+      "id": "F19",
+      "kind": "ALT",
+      "parent": "F18",
+      "text": "Retain command order rather than only counts.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F20",
+      "kind": "AR",
+      "parent": "F19",
+      "text": "The sequence distinguishes moving before the turn from moving entirely after it.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F21",
+      "kind": "AR",
+      "parent": "C6",
+      "text": "FRF and FLF from the same north-facing start must coincide.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F22",
+      "kind": "AW",
+      "parent": "C6",
+      "text": "Executed endpoints are (1,1) and (-1,1).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.mirror"
+    },
+    {
+      "id": "F23",
+      "kind": "ALT",
+      "parent": "F22",
+      "text": "Treat handedness as part of the route value.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F24",
+      "kind": "AR",
+      "parent": "F23",
+      "text": "A mirrored route requires an explicitly transformed target, not an unchanged target label.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F25",
+      "kind": "AR",
+      "parent": "C7",
+      "text": "The word nearby must select one displacement rather than a set.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F26",
+      "kind": "AW",
+      "parent": "C7",
+      "text": "One eastward step and two eastward steps are both allowed by the stipulated label nearby, but end at (1,0) and (2,0).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: stipulated nearby domain {1,2}"
+    },
+    {
+      "id": "F27",
+      "kind": "ALT",
+      "parent": "F26",
+      "text": "Use an integer leg length when exact coordinates are requested.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F28",
+      "kind": "AR",
+      "parent": "F27",
+      "text": "The value two excludes the one-step endpoint; nearby alone does not.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F29",
+      "kind": "AR",
+      "parent": "C8",
+      "text": "The one-entry list east must pick one point.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F30",
+      "kind": "AW",
+      "parent": "C8",
+      "text": "East for one step and east for two steps share the bearing list and differ in x.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: integer-grid addition"
+    },
+    {
+      "id": "F31",
+      "kind": "ALT",
+      "parent": "F30",
+      "text": "Represent each leg by bearing and length.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F32",
+      "kind": "AR",
+      "parent": "F31",
+      "text": "The pair (east,2) selects a displacement that the bearing token alone leaves open.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F33",
+      "kind": "AR",
+      "parent": "C9",
+      "text": "The excerpt must distinguish the meanings of F and R without any other code source.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F34",
+      "kind": "AW",
+      "parent": "C9",
+      "text": "The declared spoken excerpt contains only FRFF; codebook A makes R a right turn and codebook B makes R a reset. Both fit the received symbols.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two explicitly different codebooks"
+    },
+    {
+      "id": "F35",
+      "kind": "ALT",
+      "parent": "F34",
+      "text": "Carry the code definitions into the spoken route or use full words.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F36",
+      "kind": "AR",
+      "parent": "F35",
+      "text": "A full-word quarter-turn no longer depends on the absent R mapping.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F37",
+      "kind": "AR",
+      "parent": "C10",
+      "text": "The endpoint of one east step must differ when the initial body heading differs.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F38",
+      "kind": "AW",
+      "parent": "C10",
+      "text": "The compass displacement is (1,0) for all four headings by the absolute-step definition.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: absolute direction definition"
+    },
+    {
+      "id": "F39",
+      "kind": "ALT",
+      "parent": "F38",
+      "text": "Require heading only when the selected decoding rule uses relative commands.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F40",
+      "kind": "AR",
+      "parent": "F39",
+      "text": "The compass-only baseline remains an exact alternative with one less state variable.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F41",
+      "kind": "AR",
+      "parent": "C11",
+      "text": "Facing north, right and west in the same instruction must identify one move.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F42",
+      "kind": "AW",
+      "parent": "C11",
+      "text": "Right specifies east and west specifies west; no displacement satisfies both.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: east != west"
+    },
+    {
+      "id": "F43",
+      "kind": "ALT",
+      "parent": "F42",
+      "text": "Either make the two descriptions agree or reject the inconsistent instruction.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F44",
+      "kind": "AR",
+      "parent": "F43",
+      "text": "The contradiction is detected before selecting a destination; silently choosing one would add an unstated rule.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F45",
+      "kind": "AR",
+      "parent": "C12",
+      "text": "The displacement (1,2) must remain (1,2) after axis exchange.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F46",
+      "kind": "AW",
+      "parent": "C12",
+      "text": "Axis exchange yields (2,1), a different ordered pair.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: ordered-pair equality"
+    },
+    {
+      "id": "F47",
+      "kind": "ALT",
+      "parent": "F46",
+      "text": "Keep axis names attached to coordinate components.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F48",
+      "kind": "AR",
+      "parent": "F47",
+      "text": "A transformed diagram requires transformed coordinates if it is to designate the same point.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F49",
+      "kind": "AR",
+      "parent": "C13",
+      "text": "A one-step east route repeated from (1,0) must end at (0,0).",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F50",
+      "kind": "AW",
+      "parent": "C13",
+      "text": "The repeat ends at (2,0).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: vector addition"
+    },
+    {
+      "id": "F51",
+      "kind": "ALT",
+      "parent": "F50",
+      "text": "A return route reverses leg order and each absolute displacement.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F52",
+      "kind": "AR",
+      "parent": "F51",
+      "text": "Adding (1,0) and then (-1,0) returns to (0,0).",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F53",
+      "kind": "AR",
+      "parent": "C14",
+      "text": "An arrow pointing east must always assert that the entrant faces east.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F54",
+      "kind": "AW",
+      "parent": "C14",
+      "text": "In the stipulated second diagram the identical arrow identifies the destination east of the viewer, while entrance orientation is north.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two stipulated arrow roles"
+    },
+    {
+      "id": "F55",
+      "kind": "ALT",
+      "parent": "F54",
+      "text": "Label the arrow\u2019s role as entrance heading or destination direction.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F56",
+      "kind": "AR",
+      "parent": "F55",
+      "text": "The same shape can now carry two separately declared relations without the decoder conflating them.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F57",
+      "kind": "AR",
+      "parent": "C15",
+      "text": "Index one must supply both origin and orientation for the next token.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F58",
+      "kind": "AW",
+      "parent": "C15",
+      "text": "At index one, starts (0,0,north) and (2,3,east) have different states; their next F reaches different coordinates.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: route instance definitions"
+    },
+    {
+      "id": "F59",
+      "kind": "ALT",
+      "parent": "F58",
+      "text": "Bind a cursor to its route instance and state.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F60",
+      "kind": "AR",
+      "parent": "F59",
+      "text": "An index with instance identity can retrieve the correct anchored state; an isolated numeral cannot.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F61",
+      "kind": "AR",
+      "parent": "C16",
+      "text": "Go there must constrain at least as many route values as go east two steps.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F62",
+      "kind": "AW",
+      "parent": "C16",
+      "text": "Go there leaves the target and distance unset; east two steps supplies both direction and distance.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: declared phrase contents"
+    },
+    {
+      "id": "F63",
+      "kind": "ALT",
+      "parent": "F62",
+      "text": "Minimize words subject to the required route values being recoverable.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F64",
+      "kind": "AR",
+      "parent": "F63",
+      "text": "A shorter text is rejected when it merges two destinations relevant to the requested endpoint.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F65",
+      "kind": "AR",
+      "parent": "C17",
+      "text": "The label Archive must identify one coordinate in every received record.",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F66",
+      "kind": "AW",
+      "parent": "C17",
+      "text": "Map A assigns Archive=(1,0); map B assigns Archive=(0,1), and the detached label is identical.",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two stipulated maps"
+    },
+    {
+      "id": "F67",
+      "kind": "ALT",
+      "parent": "F66",
+      "text": "Carry a map/version reference or the destination coordinate.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F68",
+      "kind": "AR",
+      "parent": "F67",
+      "text": "The reference selects which location assignment the route must satisfy.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F69",
+      "kind": "AR",
+      "parent": "C18",
+      "text": "Any path ending at (1,1) must avoid the forbidden point (1,0).",
+      "classification": "Necessary conditional commitment",
+      "bedrock": ""
+    },
+    {
+      "id": "F70",
+      "kind": "AW",
+      "parent": "C18",
+      "text": "East then north visits (1,0); north then east avoids it; both end at (1,1).",
+      "classification": "Fatal countercase",
+      "bedrock": "BEDROCK-TEST/LOGIC: two explicit paths"
+    },
+    {
+      "id": "F71",
+      "kind": "ALT",
+      "parent": "F70",
+      "text": "Retain intermediate constraints when route compliance, rather than endpoint only, is the question.",
+      "classification": "Alternative derived from the specific wrongness/countermodel",
+      "bedrock": ""
+    },
+    {
+      "id": "F72",
+      "kind": "AR",
+      "parent": "F71",
+      "text": "An endpoint check remains sufficient for the narrower endpoint task and insufficient for the restricted-path task.",
+      "classification": "Necessary under stated replacement; no human advantage inferred",
+      "bedrock": "BEDROCK-LOGIC: declared replacement and fixture"
+    },
+    {
+      "id": "F73",
+      "kind": "AW",
+      "parent": "C4",
+      "text": "The same-position countercase leaves the next relative F displacement underdetermined by position alone.",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.same_position_different_heading",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F74",
+      "kind": "ALT",
+      "parent": "F73",
+      "text": "A sufficient relative-walk checkpoint includes orientation as well as position.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F75",
+      "kind": "AR",
+      "parent": "F74",
+      "text": "With that pair, each F token selects exactly one of four cardinal displacement vectors.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F76",
+      "kind": "AR",
+      "parent": "F75",
+      "text": "A turn token updates orientation modulo four before later displacement lookup.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F77",
+      "kind": "AR",
+      "parent": "F76",
+      "text": "Consequently the same multiset of tokens can select different displacement sequences when order changes.",
+      "classification": "Necessary",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F78",
+      "kind": "AW",
+      "parent": "F77",
+      "text": "The stronger candidate that endpoint depends only on token counts fails on FRF versus RFF.",
+      "classification": "Fatal",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.reverse_turn_order",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F79",
+      "kind": "ALT",
+      "parent": "F78",
+      "text": "A checkpoint plus an ordered suffix determines the remaining walk under the declared deterministic decoder.",
+      "classification": "Derived alternative",
+      "bedrock": "",
+      "count_toward_independent_floor": false
+    },
+    {
+      "id": "F80",
+      "kind": "AR",
+      "parent": "F79",
+      "text": "At held-out start (2,3), east-facing FRFF ends (3,1), while north-facing FRFF ends (4,4).",
+      "classification": "Necessary",
+      "bedrock": "BEDROCK-TEST/LOGIC: route.held_out_anchored",
+      "count_toward_independent_floor": false
+    }
+  ],
+  "depth": {
+    "claims": 18,
+    "base_findings": 72,
+    "dependency_continuation_nodes": 8,
+    "longest_continuation_edges": 8,
+    "independent_count_policy": "Only the 72 base findings are candidates for independent credit; 8 repeated continuation nodes contribute no new finding credit. Semantic dependencies, not IDs, determine valid depth.",
+    "status": "partial_8x_semantic_depth_review_required"
+  },
+  "live_tests": "finish-fixture-results.json; at least two distinct executed fixtures for this topic",
+  "human_dependency": "A real reader has not compared these candidate texts."
+}

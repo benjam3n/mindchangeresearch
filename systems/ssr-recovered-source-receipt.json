@@ -1,0 +1,12 @@
+{
+  "repository": "benjam3n/GOSM",
+  "commit": "b8fca7685ce19218ac2b305294a4dc36012e8675",
+  "source_path": "claude-code-plugin/scripts/session_learning.py",
+  "source_url": "https://github.com/benjam3n/GOSM/blob/b8fca7685ce19218ac2b305294a4dc36012e8675/claude-code-plugin/scripts/session_learning.py",
+  "git_blob_sha": "682ffc2fe779ec48c5747db9171547d0d465efa6",
+  "github_blob_matches": true,
+  "sha256": "de93e11d176f8fea9c8493b86b3f922ef44550ba565a892deac8f9f0adf8106a",
+  "bytes": 15207,
+  "review": "All source read. Writes only JSON below Path(__file__).parent.parent/data/learnings; no network or subprocess operations; capture, validate, conflicts and context commands exist. Original bytes unchanged.",
+  "data_scope": "isolated corpus ssr-recovered/data/learnings; no existing user learning state"
+}

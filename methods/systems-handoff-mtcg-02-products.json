@@ -1,0 +1,67 @@
+{
+  "closed_reachable_set": {
+    "000": "",
+    "011": "B",
+    "101": "AB",
+    "110": "A"
+  },
+  "controls": {
+    "A": "110",
+    "B": "011"
+  },
+  "formula": "delta=(a,a XOR b,b); reachable iff delta[1]=delta[0] XOR delta[2]; a=delta[0], b=delta[2]",
+  "coefficient_map": [
+    {
+      "a": 0,
+      "b": 0,
+      "delta": "000",
+      "word": ""
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "delta": "011",
+      "word": "B"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "delta": "110",
+      "word": "A"
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "delta": "101",
+      "word": "AB"
+    }
+  ],
+  "selected_organization": "control-guarded displacement formula plus four-word map",
+  "later_queries": [
+    {
+      "start": "000",
+      "target": "101"
+    },
+    {
+      "start": "001",
+      "target": "111"
+    },
+    {
+      "start": "110",
+      "target": "000"
+    },
+    {
+      "start": "011",
+      "target": "111"
+    }
+  ],
+  "changed_control_case": {
+    "start": "000",
+    "target": "011",
+    "available_controls": [
+      "A"
+    ]
+  },
+  "executed_at": "2026-09-08T05:36:28.133116+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

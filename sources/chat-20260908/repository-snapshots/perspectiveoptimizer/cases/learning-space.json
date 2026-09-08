@@ -1,0 +1,66 @@
+{
+  "id": "learning-difficulty-001",
+  "matter": "An explanation can be followed but is not independently applied to a changed case.",
+  "scope": "Constructed interpretations of this stated difficulty. No learner has been observed; final causal commitment is not supported.",
+  "standing": "Constructed case, not measured learner data.",
+  "dimensions": {
+    "interpretation": [
+      {
+        "id": "missing_content",
+        "description": "A required relation is not understood.",
+        "contribution": "Identify the required relation and request an explanation of that relation with its context supplied; compare with what the next operation requires."
+      },
+      {
+        "id": "missing_retrieval",
+        "description": "An available approach is not brought into operation.",
+        "contribution": "Supply a minimal cue that does not provide the solution operation; compare independent and cued performance."
+      },
+      {
+        "id": "missing_representation",
+        "description": "The current prose does not expose the relation needed for an operation.",
+        "contribution": "Construct contrasting cases that expose the relation and identify which next operation becomes available."
+      }
+    ],
+    "representation": [
+      {
+        "id": "current_prose",
+        "description": "The existing prose remains the available representation.",
+        "contribution": "Inspect the distinctions and operations actually supplied by the prose."
+      },
+      {
+        "id": "contrasting_cases",
+        "description": "A relevant positive and negative case are represented together.",
+        "contribution": "Compare their application conditions while varying incidental wording."
+      }
+    ],
+    "commitment": [
+      {
+        "id": "trial",
+        "description": "The interpretation is used as a provisional inquiry basis.",
+        "contribution": "Use its conditional consequences to choose a discriminating observation."
+      },
+      {
+        "id": "settled",
+        "description": "The interpretation is relied on as the completed explanation of the difficulty.",
+        "contribution": "Direct a remedy on the assumption that this particular account is established."
+      }
+    ]
+  },
+  "incompatibilities": [
+    {
+      "id": "unchanged-prose-does-not-supply-this-change",
+      "when": {
+        "interpretation": "missing_representation",
+        "representation": "current_prose"
+      },
+      "reason": "This candidate specifically requires constructing contrasting cases; keeping only the unchanged prose does not supply its declared operation. This does not exclude all uses of prose."
+    },
+    {
+      "id": "unobserved-cause-cannot-be-settled-here",
+      "when": {
+        "commitment": "settled"
+      },
+      "reason": "This constructed case supplies no learner observations establishing any candidate cause. Settled causal reliance is unavailable here; every excluded assignment is retained for examination."
+    }
+  ]
+}

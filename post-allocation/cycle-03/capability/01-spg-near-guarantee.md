@@ -55,10 +55,12 @@ VALIDATION: On a prospectively frozen held-out case set and frozen executor band
 
 | Check | Result |
 |---|---|
-| programmer can implement without clarifying recipe fields | PASS |
-| each step has input/output | PASS |
+| programmer can implement the complete recipe without supplying missing intellectual operations | UNRESOLVED: diagnosis and mechanism construction are not implemented by the field schema |
+| each step has sufficient operational content | PARTIAL: named inputs and outputs constrain the interface but do not determine the missing transformation |
 | output format specified | PASS |
 | validation measurable | PASS prospectively; efficacy UNRESOLVED |
+
+Implementation correction from the 2026-09-08 intent audit: this record completes a specificity exercise and supplies a prospective schema. It does not establish an executable general recipe. [Contribution construction](../../../mind-change/contribution-construction.md) supplies conditional operations; [the audit](../../../research/intent-audit.md) preserves the exact earlier PASS claims. The original procedure source and execution history remain unchanged.
 
 ## Boundary case
 
@@ -66,11 +68,11 @@ Request: “Move me from the living room to the quiet room” sent to a text-onl
 
 ## Outcome
 
-Actual mind change: I changed from a broad chef/recipe near-guarantee to an implementable prospective claim whose scope excludes or hands off unavailable execution edges.
+Actual mind change: I changed from a broad chef/recipe near-guarantee to a more specific prospective claim with an explicit implementation gap and unavailable execution edges.
 
 Benefit or harm: The replacement prevents plan quality from being counted as physical success and supplies a record structure for later testing. It proves no success rate.
 
-Verdict: REJECT the original as nonspecific; KEEP the testable replacement; UNRESOLVED whether any near-guarantee threshold is attainable.
+Verdict: REJECT the original as nonspecific; KEEP the testable specification; UNRESOLVED mechanism implementation and whether any near-guarantee threshold is attainable.
 
 Content assessment: Trigger, procedure, output, validation, threshold timing, executor definition, and nonapplication boundary are explicit.
 

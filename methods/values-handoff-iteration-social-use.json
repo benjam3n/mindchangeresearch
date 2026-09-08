@@ -1,0 +1,126 @@
+{
+  "record_set_id": "RS-puzzle-1-kai",
+  "identity_contract": {
+    "scope": {"participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1"},
+    "event_id_rule": "Unique within record_set_id; an identical replay is idempotent and a different payload under the same ID returns identity_conflict.",
+    "state_id_rule": "Each derived participant state has a stable state_id and cites the effective participant events used.",
+    "revision_id_rule": "Each active component attribute cites event_id:component_id:attribute; reaffirmations do not silently replace the operative revision."
+  },
+  "inputs": [
+    {
+      "record_set_id": "RS-puzzle-1-kai", "event_id": "R0", "base_state_id": null, "correction_of": [],
+      "participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1",
+      "effective_order": 0, "received_order": 0, "evidence_role": "participant_statement", "input_origin": "constructed",
+      "text": "I can read the first two pages on Saturday. I could join once if it is audio only. I cannot host monthly.",
+      "updates": {
+        "read": {"stance": "accepted", "amount": "first two pages", "when": "Saturday"},
+        "join": {"stance": "conditional", "frequency": "once", "medium": "audio only"},
+        "host": {"stance": "declined", "frequency": "monthly"}
+      }
+    },
+    {
+      "record_set_id": "RS-puzzle-1-kai", "event_id": "R1", "base_state_id": "S0", "correction_of": ["R0"],
+      "participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1",
+      "effective_order": 2, "received_order": 1, "evidence_role": "participant_statement", "input_origin": "constructed",
+      "text": "Saturday no longer works; I can read Sunday. I can join once in text chat, not audio. Hosting is still out.",
+      "updates": {
+        "read": {"when": "Sunday"},
+        "join": {"stance": "accepted", "medium": "text chat", "frequency": "once"},
+        "host": {"stance": "declined"}
+      }
+    },
+    {
+      "record_set_id": "RS-puzzle-1-kai", "event_id": "R2", "base_state_id": "S1", "correction_of": [],
+      "participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1",
+      "effective_order": 3, "received_order": 2, "evidence_role": "organizer_proposal", "input_origin": "constructed",
+      "text": "Let us use audio at 14:00.",
+      "updates": {"join": {"medium": "audio", "time": "14:00"}}
+    },
+    {
+      "record_set_id": "RS-puzzle-1-kai", "event_id": "R3", "base_state_id": "S0", "correction_of": [],
+      "participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1",
+      "effective_order": 1, "received_order": 3, "evidence_role": "participant_statement", "input_origin": "constructed",
+      "text": "Saturday is still fine for the two pages.",
+      "updates": {"read": {"when": "Saturday"}}
+    },
+    {
+      "record_set_id": "RS-puzzle-1-kai", "event_id": "R4", "base_state_id": "S1", "correction_of": [],
+      "participant_id": "participant-kai-constructed", "invitation_id": "invitation-puzzle-1",
+      "effective_order": 4, "received_order": 4, "evidence_role": "third_party_report", "input_origin": "constructed",
+      "text": "Mira reports: Kai said, ‘I can host.’",
+      "updates": {"host": {"stance": "accepted"}}
+    }
+  ],
+  "initial_typed_output": {
+    "state_id": "S0", "record_set_id": "RS-puzzle-1-kai", "effective_participant_events": ["R0"],
+    "current": {
+      "read": {
+        "stance": {"value": "accepted", "source_event_id": "R0", "revision_id": "R0:read:stance"},
+        "amount": {"value": "first two pages", "source_event_id": "R0", "revision_id": "R0:read:amount"},
+        "when": {"value": "Saturday", "source_event_id": "R0", "revision_id": "R0:read:when"}
+      },
+      "join": {
+        "stance": {"value": "conditional", "source_event_id": "R0", "revision_id": "R0:join:stance"},
+        "frequency": {"value": "once", "source_event_id": "R0", "revision_id": "R0:join:frequency"},
+        "medium": {"value": "audio only", "source_event_id": "R0", "revision_id": "R0:join:medium"}
+      },
+      "host": {
+        "stance": {"value": "declined", "source_event_id": "R0", "revision_id": "R0:host:stance"},
+        "frequency": {"value": "monthly", "source_event_id": "R0", "revision_id": "R0:host:frequency"}
+      }
+    },
+    "superseded": [], "reaffirmations": [], "excluded_as_commitment": []
+  },
+  "current_typed_output": {
+    "state_id": "S1", "record_set_id": "RS-puzzle-1-kai", "effective_participant_events": ["R0", "R3", "R1"],
+    "current": {
+      "read": {
+        "stance": {"value": "accepted", "source_event_id": "R0", "revision_id": "R0:read:stance"},
+        "amount": {"value": "first two pages", "source_event_id": "R0", "revision_id": "R0:read:amount"},
+        "when": {"value": "Sunday", "source_event_id": "R1", "revision_id": "R1:read:when"}
+      },
+      "join": {
+        "stance": {"value": "accepted", "source_event_id": "R1", "revision_id": "R1:join:stance"},
+        "frequency": {"value": "once", "source_event_id": "R0", "revision_id": "R0:join:frequency"},
+        "medium": {"value": "text chat", "source_event_id": "R1", "revision_id": "R1:join:medium"}
+      },
+      "host": {
+        "stance": {"value": "declined", "source_event_id": "R0", "revision_id": "R0:host:stance"},
+        "frequency": {"value": "monthly", "source_event_id": "R0", "revision_id": "R0:host:frequency"}
+      }
+    },
+    "superseded": [
+      {"component_id": "read", "attribute": "when", "old": {"value": "Saturday", "source_event_id": "R0", "revision_id": "R0:read:when"}, "new": {"value": "Sunday", "source_event_id": "R1", "revision_id": "R1:read:when"}},
+      {"component_id": "join", "attribute": "stance", "old": {"value": "conditional", "source_event_id": "R0", "revision_id": "R0:join:stance"}, "new": {"value": "accepted", "source_event_id": "R1", "revision_id": "R1:join:stance"}},
+      {"component_id": "join", "attribute": "medium", "old": {"value": "audio only", "source_event_id": "R0", "revision_id": "R0:join:medium"}, "new": {"value": "text chat", "source_event_id": "R1", "revision_id": "R1:join:medium"}}
+    ],
+    "reaffirmations": [
+      {"event_id": "R3", "component_id": "read", "attribute": "when", "value": "Saturday", "operative_revision_id": "R0:read:when", "disposition": "same value before R1; no new semantic revision"},
+      {"event_id": "R1", "component_id": "join", "attribute": "frequency", "value": "once", "operative_revision_id": "R0:join:frequency", "disposition": "same value retained"},
+      {"event_id": "R1", "component_id": "host", "attribute": "stance", "value": "declined", "operative_revision_id": "R0:host:stance", "disposition": "same refusal retained"}
+    ],
+    "excluded_as_commitment": [
+      {"event_id": "R2", "reason": "organizer_proposal"},
+      {"event_id": "R4", "reason": "third_party_report"}
+    ]
+  },
+  "old_draft": {
+    "draft_id": "D0", "record_set_id": "RS-puzzle-1-kai", "source_state_id": "S0",
+    "source_component_revision_ids": ["R0:read:stance", "R0:read:amount", "R0:read:when", "R0:join:stance", "R0:join:frequency", "R0:join:medium", "R0:host:stance", "R0:host:frequency"],
+    "text": "Thanks for offering the first two pages on Saturday. An audio-only one-off discussion remains the condition you named; no monthly hosting is assigned.",
+    "state": "superseded after R1", "sent": false
+  },
+  "current_draft": {
+    "draft_id": "D1", "record_set_id": "RS-puzzle-1-kai", "source_state_id": "S1",
+    "source_component_revision_ids": ["R0:read:stance", "R0:read:amount", "R1:read:when", "R1:join:stance", "R0:join:frequency", "R1:join:medium", "R0:host:stance", "R0:host:frequency"],
+    "text": "Thanks. I have the reading as the first two pages on Sunday, one text-chat discussion, and no monthly hosting. A particular discussion time remains open.",
+    "state": "current", "sent": false
+  },
+  "availability_case": {
+    "input": {"condition": "text chat", "supplied_options": [{"option_id": "O1", "medium": "audio", "time": "14:00"}]},
+    "matching_options": [],
+    "output": "No supplied option matches text chat; the 14:00 audio proposal is not an agreed arrangement."
+  },
+  "semantic_scope": "All participant statements and clause mappings are constructed inputs. Reduction checks those declared mappings, not natural-language reliability, consent, preference or any human outcome.",
+  "baseline_comparison": "A competent reading of the prior prose can infer the supplied first-reply and correction stances. The corrected artifacts add an explicit record/update and draft-binding contract; that is local adoption, not evidence of general superiority."
+}

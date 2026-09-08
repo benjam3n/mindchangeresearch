@@ -1,0 +1,108 @@
+{
+  "run_at_utc": "2026-09-08T04:44:48.007103+00:00",
+  "prediction_sha256": "e675f0ee41851db915dd97651d6ae3a0f85f0cc1834bba65ccaef5fc8b6ca624",
+  "predictions_frozen_at": "2026-09-08T04:44:18.952302+00:00",
+  "results": [
+    {
+      "id": "NEW-1",
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": true
+      },
+      "confidence": 85,
+      "actual": {
+        "accepted": true
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-2",
+      "input": {
+        "active": true,
+        "returned_revision": 2,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "actual": {
+        "accepted": false
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-3",
+      "input": {
+        "active": false,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "actual": {
+        "accepted": false
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-4",
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "inspect",
+        "permissions": [
+          "describe"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 80,
+      "actual": {
+        "accepted": false
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-5",
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "describe",
+        "permissions": []
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "actual": {
+        "accepted": false
+      },
+      "matched": true
+    }
+  ]
+}

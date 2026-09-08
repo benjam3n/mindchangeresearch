@@ -1,0 +1,1360 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Fifty passing field-contract cases establish that all returned propositions are true.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C2",
+      "claim": "A successful repair proves the original attempt was correct.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C3",
+      "claim": "A shared property of all three generated scenarios is thereby a high-confidence prediction.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C4",
+      "claim": "Every additional serial verification component improves mission reliability.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C5",
+      "claim": "Operational availability is determined only by active repair duration.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C6",
+      "claim": "Redundant copies eliminate a common-cause failure.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C7",
+      "claim": "A lower-discounted-cost option must have higher human value.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C8",
+      "claim": "An experiment designed after inspecting its outcomes can be called prospectively specified.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C9",
+      "claim": "A two-arm sample-size calculation establishes adequate power for a four-cell interaction.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C10",
+      "claim": "A nonsignificant experiment establishes no effect.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C11",
+      "claim": "A synthetic model\u2019s exact output remains exact under its stated recurrence and initial state.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C12",
+      "claim": "Every intervention that pushes against a balancing loop is absorbed by the system\u2019s compensation.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C13",
+      "claim": "Increasing pipeline arrivals always increases completed output at a fixed bottleneck.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C14",
+      "claim": "A smaller unfinished-work stock always means greater output.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C15",
+      "claim": "A conditional formal result can be useful without forecasting its parameters.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C16",
+      "claim": "An analysis with more than80% of claims validating the user\u2019s position is necessarily confirming rather than analyzing.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C17",
+      "claim": "Missing original execution tools can be replaced with a new script and still called original execution.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C18",
+      "claim": "A complete structural ledger can coexist with partially executed original procedures.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Assume exactly C1 right: Semantic review could be replaced by format tests.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F2",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "A complete packet containing a false universal still passes its required fields.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F3",
+      "parent": "F2",
+      "kind": "ALTERNATIVE",
+      "text": "Finite contract correctness and propositional truth need different tests.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F4",
+      "parent": "F3",
+      "kind": "AR",
+      "text": "Finite contract correctness and propositional truth need different tests. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F5",
+      "parent": "F3",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F6",
+      "parent": "C2",
+      "kind": "AR",
+      "text": "Assume exactly C2 right: The first budget suggestion would become historically correct after editing.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F7",
+      "parent": "C2",
+      "kind": "AW",
+      "text": "The original E+G suggestion lost to S+C at40; the repair changed that answer.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F8",
+      "parent": "F7",
+      "kind": "ALTERNATIVE",
+      "text": "Repair success is distinct from first-pass accuracy.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F9",
+      "parent": "F8",
+      "kind": "AR",
+      "text": "Repair success is distinct from first-pass accuracy. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F10",
+      "parent": "F8",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F11",
+      "parent": "C3",
+      "kind": "AR",
+      "text": "Assume exactly C3 right: Three selected worlds would be enough to assign high confidence to their common property.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F12",
+      "parent": "C3",
+      "kind": "AW",
+      "text": "In a defined ten-world equiprobable space, the three considered worlds have P and seven omitted worlds lack P; probability(P)=.3.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F13",
+      "parent": "F12",
+      "kind": "ALTERNATIVE",
+      "text": "Scenario agreement remains conditional on coverage and probability assumptions.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F14",
+      "parent": "F13",
+      "kind": "AR",
+      "text": "Scenario agreement remains conditional on coverage and probability assumptions. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F15",
+      "parent": "F13",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F16",
+      "parent": "C4",
+      "kind": "AR",
+      "text": "Assume exactly C4 right: Adding a required component could never lower successful completion probability.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F17",
+      "parent": "C4",
+      "kind": "AW",
+      "text": "Under independent series model Rtotal is multiplied by Ri<1, decreasing uptime reliability.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F18",
+      "parent": "F17",
+      "kind": "ALTERNATIVE",
+      "text": "Verification value trades against operational failure and overhead.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F19",
+      "parent": "F18",
+      "kind": "AR",
+      "text": "Verification value trades against operational failure and overhead. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F20",
+      "parent": "F18",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F21",
+      "parent": "C5",
+      "kind": "AR",
+      "text": "Assume exactly C5 right: Waiting and administrative delays could be dropped.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F22",
+      "parent": "C5",
+      "kind": "AW",
+      "text": "The declared downtime11 contains repair2, logistics8 and administration1; omitting9 overstates availability.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F23",
+      "parent": "F22",
+      "kind": "ALTERNATIVE",
+      "text": "Total downtime includes nonrepair delays.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F24",
+      "parent": "F23",
+      "kind": "AR",
+      "text": "Total downtime includes nonrepair delays. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F25",
+      "parent": "F23",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F26",
+      "parent": "C6",
+      "kind": "AR",
+      "text": "Assume exactly C6 right: A shared unavailable source could be overcome by two references to it.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F27",
+      "parent": "C6",
+      "kind": "AW",
+      "text": "Both copies fail when their common source fails.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F28",
+      "parent": "F27",
+      "kind": "ALTERNATIVE",
+      "text": "Redundancy benefit depends on failure independence and common-cause exposure.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F29",
+      "parent": "F28",
+      "kind": "AR",
+      "text": "Redundancy benefit depends on failure independence and common-cause exposure. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F30",
+      "parent": "F28",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F31",
+      "parent": "C7",
+      "kind": "AR",
+      "text": "Assume exactly C7 right: Cost accounting would settle unmeasured experience and goals.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F32",
+      "parent": "C7",
+      "kind": "AW",
+      "text": "The lifecycle model stipulates operations and has no measured human-valued outcome.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F33",
+      "parent": "F32",
+      "kind": "ALTERNATIVE",
+      "text": "Cost is one criterion under separately established adequacy and values.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F34",
+      "parent": "F33",
+      "kind": "AR",
+      "text": "Cost is one criterion under separately established adequacy and values. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F35",
+      "parent": "F33",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F36",
+      "parent": "C8",
+      "kind": "AR",
+      "text": "Assume exactly C8 right: Observed data could determine the supposedly prior hypothesis.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F37",
+      "parent": "C8",
+      "kind": "AW",
+      "text": "The time order contradicts the definition of prospective specification.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F38",
+      "parent": "F37",
+      "kind": "ALTERNATIVE",
+      "text": "Exploratory findings can motivate a new prospective test.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F39",
+      "parent": "F38",
+      "kind": "AR",
+      "text": "Exploratory findings can motivate a new prospective test. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F40",
+      "parent": "F38",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F41",
+      "parent": "C9",
+      "kind": "AR",
+      "text": "Assume exactly C9 right: The retrieval contrast N would support an interaction claim automatically.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F42",
+      "parent": "C9",
+      "kind": "AW",
+      "text": "An interaction is a different estimand with additional cell variation not in that power model.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F43",
+      "parent": "F42",
+      "kind": "ALTERNATIVE",
+      "text": "Each confirmatory estimand requires its own power assumptions.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F44",
+      "parent": "F43",
+      "kind": "AR",
+      "text": "Each confirmatory estimand requires its own power assumptions. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F45",
+      "parent": "F43",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F46",
+      "parent": "C10",
+      "kind": "AR",
+      "text": "Assume exactly C10 right: An imprecise estimate would rule out all meaningful effects.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F47",
+      "parent": "C10",
+      "kind": "AW",
+      "text": "A wide interval can include zero and a meaningful effect.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F48",
+      "parent": "F47",
+      "kind": "ALTERNATIVE",
+      "text": "Nonsignificance can leave the effect unresolved.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F49",
+      "parent": "F48",
+      "kind": "AR",
+      "text": "Nonsignificance can leave the effect unresolved. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F50",
+      "parent": "F48",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F51",
+      "parent": "C11",
+      "kind": "AR",
+      "text": "Assume exactly C11 right: Recomputing those definitions should reproduce its finite trace.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F52",
+      "parent": "C11",
+      "kind": "AW",
+      "text": "Changed rates alter the model, not the truth of the original computed trace.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F53",
+      "parent": "F51",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F54",
+      "parent": "C12",
+      "kind": "AR",
+      "text": "Assume exactly C12 right: A restoring controller would always offset the external push.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F55",
+      "parent": "C12",
+      "kind": "AW",
+      "text": "A controller removes at most.5 unit/cycle while an external input adds1; stock grows by at least.5 despite the balancing signal.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F56",
+      "parent": "F55",
+      "kind": "ALTERNATIVE",
+      "text": "Compensation is limited by actuator capacity and disturbance magnitude.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F57",
+      "parent": "F56",
+      "kind": "AR",
+      "text": "Compensation is limited by actuator capacity and disturbance magnitude. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F58",
+      "parent": "F56",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F59",
+      "parent": "C13",
+      "kind": "AR",
+      "text": "Assume exactly C13 right: The five-arrival policy would outproduce the three-arrival policy.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F60",
+      "parent": "C13",
+      "kind": "AW",
+      "text": "Both share the one-unit eligibility bottleneck; the executed completion count is unchanged while backlog increases.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F61",
+      "parent": "F60",
+      "kind": "ALTERNATIVE",
+      "text": "Input generation and bottleneck throughput are distinct.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F62",
+      "parent": "F61",
+      "kind": "AR",
+      "text": "Input generation and bottleneck throughput are distinct. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F63",
+      "parent": "F61",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F64",
+      "parent": "C14",
+      "kind": "AR",
+      "text": "Assume exactly C14 right: Admission control would necessarily increase completions.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F65",
+      "parent": "C14",
+      "kind": "AW",
+      "text": "Bounded admission lowers backlog with the same bottleneck throughput in the model.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F66",
+      "parent": "F65",
+      "kind": "ALTERNATIVE",
+      "text": "Accumulation and output are separate response variables.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F67",
+      "parent": "F66",
+      "kind": "AR",
+      "text": "Accumulation and output are separate response variables. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F68",
+      "parent": "F66",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F69",
+      "parent": "C15",
+      "kind": "AR",
+      "text": "Assume exactly C15 right: The crossover can guide what to observe next.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F70",
+      "parent": "C15",
+      "kind": "AW",
+      "text": "Unknown recurrence prevents a real-world forecast but does not erase the algebraic decision boundary.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F71",
+      "parent": "F69",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F72",
+      "parent": "C16",
+      "kind": "AR",
+      "text": "Assume exactly C16 right: Even independently derived correct claims would make the analysis invalid because too few were rejected.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F73",
+      "parent": "C16",
+      "kind": "AW",
+      "text": "A finite analytical set can contain nine true propositions and one false one; testing every proposition correctly yields90% validation without skipping a test.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F74",
+      "parent": "F73",
+      "kind": "ALTERNATIVE",
+      "text": "Verdict proportion is a warning signal; validity depends on actual tests and parent-child inferences.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F75",
+      "parent": "F74",
+      "kind": "AR",
+      "text": "Verdict proportion is a warning signal; validity depends on actual tests and parent-child inferences. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F76",
+      "parent": "F74",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F77",
+      "parent": "C17",
+      "kind": "AR",
+      "text": "Assume exactly C17 right: A fabricated session_learning implementation would satisfy the named archived dependency.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F78",
+      "parent": "C17",
+      "kind": "AW",
+      "text": "No archived script exists; a new implementation would be an adaptation.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F79",
+      "parent": "F78",
+      "kind": "ALTERNATIVE",
+      "text": "The original dependency remains blocked while available substantive operations proceed.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F80",
+      "parent": "F79",
+      "kind": "AR",
+      "text": "The original dependency remains blocked while available substantive operations proceed. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F81",
+      "parent": "F79",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F82",
+      "parent": "C18",
+      "kind": "AR",
+      "text": "Assume exactly C18 right: The ledger can identify every slot while exposing unmet requirements.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F83",
+      "parent": "C18",
+      "kind": "AW",
+      "text": "The objection that complete indexing means complete execution changes the predicate being evaluated.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F84",
+      "parent": "F82",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F85",
+      "parent": "C11",
+      "kind": "FORECLOSURE",
+      "text": "The same deterministic recurrence, exact initial state and inputs cannot produce a different mathematical trace without changing a premise or computation.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F86",
+      "parent": "C15",
+      "kind": "FORECLOSURE",
+      "text": "A conditional inequality alone cannot license the factual claim that its future-use antecedent will occur.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F87",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Given C1\u2019s field-pass sufficiency, a packet passing every required field would establish its returned proposition true.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F88",
+      "parent": "F87",
+      "kind": "AR",
+      "text": "Given a complete packet contains the literal claim2+2=5, all required field names can still be present.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F89",
+      "parent": "F88",
+      "kind": "AR",
+      "text": "Given the field consumer checks presence and version only, the complete false-claim packet is accepted by that contract.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F90",
+      "parent": "F89",
+      "kind": "AR",
+      "text": "Given C1, accepting the packet by those checks would imply its arithmetic proposition is true.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F91",
+      "parent": "F90",
+      "kind": "AR",
+      "text": "Given integer addition yields2+2=4, the returned proposition2+2=5 is false.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F92",
+      "parent": "F91",
+      "kind": "AR",
+      "text": "Given a field-accepted packet carries a false proposition, the C1 implication from field pass to truth fails in the exact case.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F93",
+      "parent": "F92",
+      "kind": "AR",
+      "text": "Given that failure, increasing the number of identical field checks does not establish semantic truth of that packet.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F94",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "Given the wrongness case, the result type is split into contract-valid and proposition-verified.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F95",
+      "parent": "F94",
+      "kind": "AW",
+      "text": "Given presence/version checks pass, only contract-valid becomes true.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F96",
+      "parent": "F95",
+      "kind": "AW",
+      "text": "Given a separate arithmetic evaluation returns4, the claim2+2=5 fails proposition verification.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F97",
+      "parent": "F96",
+      "kind": "AW",
+      "text": "Given proposition verification fails, the downstream truth claim is rejected while the successful contract result remains historical.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F98",
+      "parent": "F97",
+      "kind": "AW",
+      "text": "Given the truth claim is rejected, a later synthesis cannot cite the field tests as evidence that2+2=5.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F99",
+      "parent": "F98",
+      "kind": "AW",
+      "text": "Given source/evidence identity is retained, the mismatch can be traced to the semantic-verification gap rather than blaming an absent input field.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F100",
+      "parent": "F99",
+      "kind": "AW",
+      "text": "Given that exact gap is repaired with a relevant arithmetic check, the corrected packet can carry2+2=4 without rewriting the first false output as correct.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    }
+  ],
+  "categories": {
+    "AR": [
+      "F1",
+      "F4",
+      "F6",
+      "F9",
+      "F11",
+      "F14",
+      "F16",
+      "F19",
+      "F21",
+      "F24",
+      "F26",
+      "F29",
+      "F31",
+      "F34",
+      "F36",
+      "F39",
+      "F41",
+      "F44",
+      "F46",
+      "F49",
+      "F51",
+      "F54",
+      "F57",
+      "F59",
+      "F62",
+      "F64",
+      "F67",
+      "F69",
+      "F72",
+      "F75",
+      "F77",
+      "F80",
+      "F82",
+      "F87",
+      "F88",
+      "F89",
+      "F90",
+      "F91",
+      "F92",
+      "F93"
+    ],
+    "AW": [
+      "F2",
+      "F5",
+      "F7",
+      "F10",
+      "F12",
+      "F15",
+      "F17",
+      "F20",
+      "F22",
+      "F25",
+      "F27",
+      "F30",
+      "F32",
+      "F35",
+      "F37",
+      "F40",
+      "F42",
+      "F45",
+      "F47",
+      "F50",
+      "F52",
+      "F53",
+      "F55",
+      "F58",
+      "F60",
+      "F63",
+      "F65",
+      "F68",
+      "F70",
+      "F71",
+      "F73",
+      "F76",
+      "F78",
+      "F81",
+      "F83",
+      "F84",
+      "F94",
+      "F95",
+      "F96",
+      "F97",
+      "F98",
+      "F99",
+      "F100"
+    ],
+    "ALTERNATIVE": [
+      "F3",
+      "F8",
+      "F13",
+      "F18",
+      "F23",
+      "F28",
+      "F33",
+      "F38",
+      "F43",
+      "F48",
+      "F56",
+      "F61",
+      "F66",
+      "F74",
+      "F79"
+    ],
+    "FORECLOSURE": [
+      "F85",
+      "F86"
+    ]
+  },
+  "verdicts": [
+    {
+      "claim": "C1",
+      "verdict": "REJECTED",
+      "decisive": "F2",
+      "supporting_findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "strongest_contrary": "F1",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C2",
+      "verdict": "REJECTED",
+      "decisive": "F7",
+      "supporting_findings": [
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "F10"
+      ],
+      "strongest_contrary": "F6",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C3",
+      "verdict": "REJECTED",
+      "decisive": "F12",
+      "supporting_findings": [
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "strongest_contrary": "F11",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C4",
+      "verdict": "REJECTED",
+      "decisive": "F17",
+      "supporting_findings": [
+        "F16",
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ],
+      "strongest_contrary": "F16",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C5",
+      "verdict": "REJECTED",
+      "decisive": "F22",
+      "supporting_findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24",
+        "F25"
+      ],
+      "strongest_contrary": "F21",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C6",
+      "verdict": "REJECTED",
+      "decisive": "F27",
+      "supporting_findings": [
+        "F26",
+        "F27",
+        "F28",
+        "F29",
+        "F30"
+      ],
+      "strongest_contrary": "F26",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C7",
+      "verdict": "REJECTED",
+      "decisive": "F32",
+      "supporting_findings": [
+        "F31",
+        "F32",
+        "F33",
+        "F34",
+        "F35"
+      ],
+      "strongest_contrary": "F31",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C8",
+      "verdict": "REJECTED",
+      "decisive": "F37",
+      "supporting_findings": [
+        "F36",
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ],
+      "strongest_contrary": "F36",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C9",
+      "verdict": "REJECTED",
+      "decisive": "F42",
+      "supporting_findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44",
+        "F45"
+      ],
+      "strongest_contrary": "F41",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C10",
+      "verdict": "REJECTED",
+      "decisive": "F47",
+      "supporting_findings": [
+        "F46",
+        "F47",
+        "F48",
+        "F49",
+        "F50"
+      ],
+      "strongest_contrary": "F46",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C11",
+      "verdict": "VALIDATED",
+      "decisive": "F51",
+      "supporting_findings": [
+        "F51",
+        "F52",
+        "F53"
+      ],
+      "strongest_contrary": "F52",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C12",
+      "verdict": "REJECTED",
+      "decisive": "F55",
+      "supporting_findings": [
+        "F54",
+        "F55",
+        "F56",
+        "F57",
+        "F58"
+      ],
+      "strongest_contrary": "F54",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C13",
+      "verdict": "REJECTED",
+      "decisive": "F60",
+      "supporting_findings": [
+        "F59",
+        "F60",
+        "F61",
+        "F62",
+        "F63"
+      ],
+      "strongest_contrary": "F59",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C14",
+      "verdict": "REJECTED",
+      "decisive": "F65",
+      "supporting_findings": [
+        "F64",
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ],
+      "strongest_contrary": "F64",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C15",
+      "verdict": "VALIDATED",
+      "decisive": "F69",
+      "supporting_findings": [
+        "F69",
+        "F70",
+        "F71"
+      ],
+      "strongest_contrary": "F70",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C16",
+      "verdict": "REJECTED",
+      "decisive": "F73",
+      "supporting_findings": [
+        "F72",
+        "F73",
+        "F74",
+        "F75",
+        "F76"
+      ],
+      "strongest_contrary": "F72",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C17",
+      "verdict": "REJECTED",
+      "decisive": "F78",
+      "supporting_findings": [
+        "F77",
+        "F78",
+        "F79",
+        "F80",
+        "F81"
+      ],
+      "strongest_contrary": "F77",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C18",
+      "verdict": "VALIDATED",
+      "decisive": "F82",
+      "supporting_findings": [
+        "F82",
+        "F83",
+        "F84"
+      ],
+      "strongest_contrary": "F83",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    }
+  ],
+  "cruxes": [
+    {
+      "id": "CRUX-1",
+      "claim": "C1",
+      "question": "Does the exact countercase retain the stated domain and premises? Fifty passing field-contract cases establish that all returned propositions are true.",
+      "resolution": "F2"
+    },
+    {
+      "id": "CRUX-2",
+      "claim": "C2",
+      "question": "Does the exact countercase retain the stated domain and premises? A successful repair proves the original attempt was correct.",
+      "resolution": "F7"
+    },
+    {
+      "id": "CRUX-3",
+      "claim": "C3",
+      "question": "Does the exact countercase retain the stated domain and premises? A shared property of all three generated scenarios is thereby a high-confidence prediction.",
+      "resolution": "F12"
+    },
+    {
+      "id": "CRUX-4",
+      "claim": "C4",
+      "question": "Does the exact countercase retain the stated domain and premises? Every additional serial verification component improves mission reliability.",
+      "resolution": "F17"
+    },
+    {
+      "id": "CRUX-5",
+      "claim": "C5",
+      "question": "Does the exact countercase retain the stated domain and premises? Operational availability is determined only by active repair duration.",
+      "resolution": "F22"
+    },
+    {
+      "id": "CRUX-6",
+      "claim": "C6",
+      "question": "Does the exact countercase retain the stated domain and premises? Redundant copies eliminate a common-cause failure.",
+      "resolution": "F27"
+    },
+    {
+      "id": "CRUX-7",
+      "claim": "C7",
+      "question": "Does the exact countercase retain the stated domain and premises? A lower-discounted-cost option must have higher human value.",
+      "resolution": "F32"
+    },
+    {
+      "id": "CRUX-8",
+      "claim": "C8",
+      "question": "Does the exact countercase retain the stated domain and premises? An experiment designed after inspecting its outcomes can be called prospectively specified.",
+      "resolution": "F37"
+    }
+  ],
+  "tests": {
+    "contract_vs_truth": {
+      "required_fields_present": true,
+      "claim_true": false
+    },
+    "serial_reliability": {
+      "one": 0.99,
+      "two_independent_required": 0.9801,
+      "two_improve": false
+    }
+  },
+  "totals": {
+    "claims": 18,
+    "findings": 100,
+    "independent_propositions_before_semantic_dedup_review": 67,
+    "max_recursive_edges": 7,
+    "cruxes": 8,
+    "tests_run": 2
+  },
+  "contamination": "Original procedure text and prior evidence were already available. Imported instructions do not count as findings; independent countercase derivations and fresh arithmetic are recorded. Self-evaluation is by the same assistant, not an independent assessor."
+}

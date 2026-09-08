@@ -1,0 +1,636 @@
+[
+  {
+    "skill_id": "td",
+    "application_number": 1,
+    "file": "conditions/td-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "The event-gate table answers \u201cwhat must be true before this verdict?\u201d better than an EDF list with invented dates. Rank order remains a coverage cue where gates tie."
+  },
+  {
+    "skill_id": "td",
+    "application_number": 2,
+    "file": "conditions/td-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Compared with dates alone, event-and-interval fields preserve missed sessions and late returns. Consolidation-01\u2019s cue/exposure distinction was used to reject the original nominal-date interpretation."
+  },
+  {
+    "skill_id": "td",
+    "application_number": 3,
+    "file": "conditions/td-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A backward timeline exposes the one-minute deficit that an amenities list conceals. The case is stored under location/access, not under belief change or motivation."
+  },
+  {
+    "skill_id": "rso",
+    "application_number": 1,
+    "file": "conditions/rso-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "A single preserved source pair plus a receipt is better for provenance than repeated tool-output copies. A separate bounded reading queue is better for the immediate access task than one giant concatenation."
+  },
+  {
+    "skill_id": "rso",
+    "application_number": 2,
+    "file": "conditions/rso-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "No actual reader throughput or cycle-time measurement; eight structural lookup routes only."
+    ],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "The trigger index wins on these mixed-use queries; skill order is retained for method-fidelity audits. This preserves a useful incompatibility instead of declaring one universal order."
+  },
+  {
+    "skill_id": "rso",
+    "application_number": 3,
+    "file": "conditions/rso-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "Per-file substantive records plus one derived snapshot preserve independent content work and shared-resource sequencing. A global serialization of all source reads would unnecessarily block independent operations."
+  },
+  {
+    "skill_id": "ecal",
+    "application_number": 1,
+    "file": "conditions/ecal-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "The file name belongs in the executable path, not in the reusable-KEEP organization. This rejection remains visible in the quota record."
+  },
+  {
+    "skill_id": "ecal",
+    "application_number": 2,
+    "file": "conditions/ecal-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "The unused empirical claim is retained as a source caveat outside the action record\u2019s operative premises. The alternative of a source-by-source fact-check appendix would consume effort without resolving this action choice."
+  },
+  {
+    "skill_id": "ecal",
+    "application_number": 3,
+    "file": "conditions/ecal-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "This negative application remains linked to td-03 so future readers can see why no visualization was created. It does not add another KEEP row."
+  },
+  {
+    "skill_id": "kta",
+    "application_number": 1,
+    "file": "conditions/kta-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Human listening/exposure and sustainable trigger have not been performed."
+    ],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "An interval constraint beside the task is more useful here than a list of tiny actions. Consolidation-02\u2019s cause-of-infeasibility organization directed the choice of time availability as the locus."
+  },
+  {
+    "skill_id": "kta",
+    "application_number": 2,
+    "file": "conditions/kta-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Original physical approach-to-tools test requires a person and has no observed result."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "An observation-first branch table preserves competing physical and practical causes better than an assumed motivation ladder. The table should be replaced by the actual observed branch if one appears."
+  },
+  {
+    "skill_id": "kta",
+    "application_number": 3,
+    "file": "conditions/kta-03.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Required cooperation and human action have not occurred; individual-action override reached."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "The cooperation condition belongs on the action\u2019s input line, not buried in a list of possible personal barriers. No new global KEEP credit is claimed for the existing agency standard."
+  },
+  {
+    "skill_id": "de",
+    "application_number": 1,
+    "file": "conditions/de-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "A flat checklist made B and H look like parallel kinds of completion. The typed matrix and ready sets preserve the two terminal scopes and will be used in the spaced-repetition records."
+  },
+  {
+    "skill_id": "de",
+    "application_number": 2,
+    "file": "conditions/de-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "The typed graph links each material to the location that supplies it. A generic \u201cprepare/read\u201d phase list failed to preserve that relation."
+  },
+  {
+    "skill_id": "de",
+    "application_number": 3,
+    "file": "conditions/de-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "The dual preparation tracks preserve the difference between generating a test and responding to it. A simple train\u2192feedback\u2192invent-test chain would not preserve it."
+  },
+  {
+    "skill_id": "to",
+    "application_number": 1,
+    "file": "conditions/to-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Enumerated valid orders exposed a semantic omission that the stage list and acyclicity check missed. The new edge is retained with its baseline-meaning exception."
+  },
+  {
+    "skill_id": "to",
+    "application_number": 2,
+    "file": "conditions/to-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "The two different valid orders belong as alternatives beneath de-02, not as two reusable positive findings. The resource/location exception remains attached."
+  },
+  {
+    "skill_id": "to",
+    "application_number": 3,
+    "file": "conditions/to-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A purpose-sensitive dependency list plus an explicit target prompt is more useful than a fixed recipe for waiting. The soft\u2192hard promotion is retained as an added premise."
+  },
+  {
+    "skill_id": "lt",
+    "application_number": 1,
+    "file": "conditions/lt-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Target-domain human channel-sequencing pilot and comprehension comparison unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "An explicit relation/disanalogy table preserves the target\u2019s outcome criterion better than a pipeline metaphor. The source countercase remains linked instead of disappearing during transfer."
+  },
+  {
+    "skill_id": "lt",
+    "application_number": 2,
+    "file": "conditions/lt-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "The cue\u2019s exception field changed the selected operation. A cue containing only \u201clargest window, not total\u201d would have produced the wrong result for this target."
+  },
+  {
+    "skill_id": "lt",
+    "application_number": 3,
+    "file": "conditions/lt-03.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "Store this as a temporal example under the existing access relation, not as another independent positive finding. It gives a new parameterized boundary for reuse."
+  },
+  {
+    "skill_id": "memy",
+    "application_number": 1,
+    "file": "conditions/memy-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Scheduled delayed review and across-time retention stages unperformed; current artifact lookups only."
+    ],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Question\u2192answer\u2192exception\u2192source performed better than retaining a paragraph title alone for the four tested retrievals. The full cases remain available, and exact numbers are looked up rather than promoted into universal facts."
+  },
+  {
+    "skill_id": "memy",
+    "application_number": 2,
+    "file": "conditions/memy-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Human encoding, actual review schedule and later retrieval unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "A cue/reference distinction gives the later person less to memorize than a fact deck containing every example number. Whether the cues are usable must be tested with that person."
+  },
+  {
+    "skill_id": "memy",
+    "application_number": 3,
+    "file": "conditions/memy-03.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Delayed review unperformed; redundancy conclusion is current artifact inspection only."
+    ],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "The active entry plus linked error history is preferable to a second near-identical cue. The negative record remains outside the reusable positive index."
+  },
+  {
+    "skill_id": "qs",
+    "application_number": 1,
+    "file": "conditions/qs-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A table showing both average wait and the missed deadline exposes a trade-off that a \u201ctasks cleared\u201d list hides. The relevant organization is by scheduling objective and constraints."
+  },
+  {
+    "skill_id": "qs",
+    "application_number": 2,
+    "file": "conditions/qs-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "An event calendar plus ready queue preserves future release information that a present-ready list omits. Consolidation-02\u2019s cause-of-infeasibility view directed attention to the processor interval."
+  },
+  {
+    "skill_id": "enough",
+    "application_number": 1,
+    "file": "conditions/enough-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "8x explicit floors documented",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "A readiness-gap table and prioritized real checks are more useful for initiation than the amount of prose in the plans. The negative/repeated finding is not added as another KEEP."
+  },
+  {
+    "skill_id": "enough",
+    "application_number": 2,
+    "file": "conditions/enough-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "8x explicit floors documented",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "An exact-claim certificate with expiry conditions is sufficient for this query; a larger narrative or duplicate case list would obscure the finite bound."
+  },
+  {
+    "skill_id": "tobd",
+    "application_number": 1,
+    "file": "conditions/tobd-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "8x explicit floors documented",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "A dependency/cascade plan preserves more useful structure than a flat TBD list or urgency ranking. Every pair and second-order path is visible; concrete event deadlines remain proposals until an actual encounter exists."
+  },
+  {
+    "skill_id": "tobd",
+    "application_number": 2,
+    "file": "conditions/tobd-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "8x explicit floors documented",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "All-pair dependency analysis plus purpose-dependent branches is better than a fixed sequence of study dates. It preserves the adaptive-practice exception discovered in the ordering applications."
+  },
+  {
+    "skill_id": "nstep",
+    "application_number": 1,
+    "file": "conditions/nstep-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "Compared with allocation.json alone, the separate status file answers a different concrete query: \u201cwhat has actually been completed?\u201d It retains the quota in allocation.json rather than copying its entire catalog."
+  },
+  {
+    "skill_id": "nstep",
+    "application_number": 2,
+    "file": "conditions/nstep-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A stimulus-only file preserves the distinction between the task and its later answer. A combined explanatory paragraph would reveal the solution before the attempt."
+  },
+  {
+    "skill_id": "pt",
+    "application_number": 1,
+    "file": "conditions/pt-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "local_adoption",
+    "later_use": "Compare coverage-only, chronology-only and execution-gate dashboards. The execution-gate view answers which work can still be performed and is used in pt-02 and the handoff; chronology is preserved only where it supplies actual evidence."
+  },
+  {
+    "skill_id": "pt",
+    "application_number": 2,
+    "file": "conditions/pt-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "A dimension-by-evidence dashboard answers the learning question better than a raw success count or writing chronology. Consolidation-06 supplies the controlling scope; the same gate is used in the assigned ADEp calibration."
+  },
+  {
+    "skill_id": "acr",
+    "application_number": 1,
+    "file": "conditions/acr-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Unaided context closure cannot be demonstrated for the agent; delayed retrieval stages unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Separate attempt, feedback and scope fields prevent a correct final answer from being mistaken for an independent first-attempt or long-term learning result."
+  },
+  {
+    "skill_id": "acr",
+    "application_number": 2,
+    "file": "conditions/acr-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Human exposure, closed-material retrieval, feedback and delayed varied attempts unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "A paired source example with a separate prompt/feedback list preserves retrieval conditions. A visible answer card beside every prompt would test supported recognition instead."
+  },
+  {
+    "skill_id": "spr",
+    "application_number": 1,
+    "file": "conditions/spr-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Daily review habit, repeated due reviews, maintenance from actual failures, retention measurement unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "One deck with cross-cutting tags keeps comparison cases together; separate source-based decks would split the checkpoint and preemption exceptions from their parent cues."
+  },
+  {
+    "skill_id": "spr",
+    "application_number": 2,
+    "file": "conditions/spr-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Doing-skill route designed; human baseline, practice cycles, review habit and retention measurement unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "An exercise map with linked terminology cues preserves the difference between saying a rule and using it. A deck-only hierarchy would hide the performance requirement."
+  },
+  {
+    "skill_id": "ska",
+    "application_number": 1,
+    "file": "conditions/ska-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Original timed warmup/focused/integration/recovery cycle and later reassessment not fully performed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "A subskill map plus prediction/feedback files preserves actual performance better than a generic claim of improving skill. It also shows which original practice stages are still absent."
+  },
+  {
+    "skill_id": "ska",
+    "application_number": 2,
+    "file": "conditions/ska-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Human motor baseline, practice cycle, recovery and later reassessment unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "The prerequisite map routes interface failure to an interface change and a genuine skill gap to practice. A generic \u201cget comfortable with keyboard shortcuts\u201d goal would conceal that difference."
+  },
+  {
+    "skill_id": "dlp",
+    "application_number": 1,
+    "file": "conditions/dlp-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Original full timed session and between-session recovery/longitudinal assessment unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Attempt-level predictions and feedback reveal the 100% result and its implication; a summary saying \u201csixteen successful practice cases\u201d would hide the failed difficulty target."
+  },
+  {
+    "skill_id": "dlp",
+    "application_number": 2,
+    "file": "conditions/dlp-02.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "Human performance/10\u201320 actual attempts, calibrated difficulty and practice sessions unperformed."
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Weakness\u2192exercise\u2192observable feedback is more useful for this target than a fixed daily practice schedule. Actual performance should select one row, not impose all eight."
+  },
+  {
+    "skill_id": "memk",
+    "application_number": 1,
+    "file": "conditions/memk-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A short conditional decision entry is more useful for the next constraint question than either a bare \u201cinfeasible\u201d label or a replay of all six rows."
+  },
+  {
+    "skill_id": "lrs",
+    "application_number": 1,
+    "file": "conditions/lrs-01.md",
+    "status": "blocked",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [
+      "No outreach campaign dataset: contact, response, channel, tier, cost and meeting inputs absent."
+    ],
+    "verdict": "REJECT",
+    "novelty": "unresolved",
+    "later_use": "The record belongs in the negative/applicability register. It does not add a general \u201clearning system\u201d rule to the KEEP organization."
+  },
+  {
+    "skill_id": "ld",
+    "application_number": 1,
+    "file": "conditions/ld-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "A known/uncertain map plus disconfirming task selection produced more information than a list of additional favorable examples. The exact six-order result is retained as evidence."
+  },
+  {
+    "skill_id": "pwif",
+    "application_number": 1,
+    "file": "conditions/pwif-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Action\u2192needed resource\u2192location\u2192observed state preserves readiness better than a generic \u201cread and reflect\u201d instruction. The two excerpts remain directly available for the actual task."
+  },
+  {
+    "skill_id": "rwif",
+    "application_number": 1,
+    "file": "conditions/rwif-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Session checklists plus a material-state handoff are better than a two-phase intention list. Unknown access/travel stays outside the known active-time subtotal."
+  },
+  {
+    "skill_id": "hsi",
+    "application_number": 1,
+    "file": "conditions/hsi-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "8x explicit floors documented",
+    "missing_requirements": [],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "Population\u2192interaction\u2192candidate issue\u2192observable target is more useful for this assessment than one average-user profile. The representation retains overlapping populations and unknown measurements rather than inventing demographic ranges."
+  },
+  {
+    "skill_id": "rva",
+    "application_number": 1,
+    "file": "conditions/rva-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "Separate stimulus, attempt and comparator files preserve timing and source roles more faithfully than one edited \u201cfinal correct answer\u201d document."
+  },
+  {
+    "skill_id": "fr",
+    "application_number": 1,
+    "file": "conditions/fr-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements read; receipts retained",
+    "depth_status": "No numerical 8x scale in original; actual expansion and source-specific limits disclosed",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "One active edge list plus regenerated rounds is preferable to independently maintained linear and phase descriptions. The historical error stays linked in the recovery record."
+  }
+]

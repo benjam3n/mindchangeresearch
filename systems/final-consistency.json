@@ -1,0 +1,7 @@
+{
+  "quota_slots": 49,
+  "complete": 41,
+  "partial": 8,
+  "issues": [],
+  "scope": "Structural and exact-byte consistency plus prospective event-order checks; not semantic or human-effect certification."
+}

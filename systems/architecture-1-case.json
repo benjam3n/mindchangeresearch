@@ -1,0 +1,6 @@
+{
+  "before": "one mutable current plan",
+  "after": "an immutable plan packet bound to budget and criterion versions",
+  "performed_case": "a budget changes from 60 to 40 while a 55-unit bundle is pending. The old packet remains historical and is rejected for commitment under the new budget; recomputation selects S+C at cost 35 and value 40.",
+  "scope": "constructed transition evaluated in current work"
+}

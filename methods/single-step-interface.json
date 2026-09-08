@@ -1,0 +1,36 @@
+{
+  "initial": "gather",
+  "instructions": {
+    "gather": "Gather materials.",
+    "connect": "Connect cable.",
+    "select": "Select input.",
+    "power": "Power on.",
+    "check": "Check indicator.",
+    "start": "Start."
+  },
+  "transitions": {
+    "gather": {
+      "next": "connect"
+    },
+    "connect": {
+      "next": "select"
+    },
+    "select": {
+      "next": "power"
+    },
+    "power": {
+      "next": "check"
+    },
+    "check": {
+      "pass": "start",
+      "fail": "connect"
+    },
+    "start": {}
+  },
+  "view_rule": "render instructions[current_state] only; full table is an audit view",
+  "unknown_state": {
+    "state": "unknown",
+    "instruction": null,
+    "allowed_action": "recover a known saved state or restart gather; do not infer start"
+  }
+}

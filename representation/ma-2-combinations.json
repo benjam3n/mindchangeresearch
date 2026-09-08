@@ -1,0 +1,920 @@
+{
+  "dimensions": {
+    "Primary grouping": [
+      "change locus",
+      "reader task",
+      "time horizon",
+      "actor",
+      "evidence state",
+      "constraint type"
+    ],
+    "First field": [
+      "expected benefit",
+      "disqualifying condition",
+      "performed result",
+      "option name",
+      "required action",
+      "scope boundary"
+    ],
+    "Cue style": [
+      "plain text label",
+      "bold label",
+      "symbol plus exact words",
+      "question",
+      "conditional clause",
+      "numbered trigger"
+    ],
+    "Detail location": [
+      "same line",
+      "next sentence",
+      "linked expansion",
+      "table column",
+      "footnote",
+      "appendix"
+    ],
+    "Comparison order": [
+      "benefit descending",
+      "constraint first",
+      "prerequisite first",
+      "least burden first",
+      "reversibility first",
+      "user-request order"
+    ],
+    "Exit route": [
+      "default plus alternatives",
+      "single chosen option",
+      "unresolved trade-off",
+      "request one missing fact",
+      "bounded trial",
+      "retain current state"
+    ]
+  },
+  "total_combinations": 46656,
+  "sampling": "i,j,i+j,i+2j,2i+j,i+3j mod 6",
+  "evaluations": [
+    {
+      "id": 1,
+      "indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "expected benefit",
+        "Cue style": "plain text label",
+        "Detail location": "same line",
+        "Comparison order": "benefit descending",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 0,
+      "spec_words": 19
+    },
+    {
+      "id": 2,
+      "indices": [
+        0,
+        1,
+        1,
+        2,
+        1,
+        3
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "disqualifying condition",
+        "Cue style": "bold label",
+        "Detail location": "linked expansion",
+        "Comparison order": "constraint first",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 3,
+      "indices": [
+        0,
+        2,
+        2,
+        4,
+        2,
+        0
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "performed result",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "footnote",
+        "Comparison order": "prerequisite first",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 4,
+      "indices": [
+        0,
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "option name",
+        "Cue style": "question",
+        "Detail location": "same line",
+        "Comparison order": "least burden first",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 5,
+      "indices": [
+        0,
+        4,
+        4,
+        2,
+        4,
+        0
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "required action",
+        "Cue style": "conditional clause",
+        "Detail location": "linked expansion",
+        "Comparison order": "reversibility first",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 18
+    },
+    {
+      "id": 6,
+      "indices": [
+        0,
+        5,
+        5,
+        4,
+        5,
+        3
+      ],
+      "values": {
+        "Primary grouping": "change locus",
+        "First field": "scope boundary",
+        "Cue style": "numbered trigger",
+        "Detail location": "footnote",
+        "Comparison order": "user-request order",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 7,
+      "indices": [
+        1,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "expected benefit",
+        "Cue style": "bold label",
+        "Detail location": "next sentence",
+        "Comparison order": "prerequisite first",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 8,
+      "indices": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        4
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "disqualifying condition",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "table column",
+        "Comparison order": "least burden first",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "no for target",
+      "value_basis": "Exact words must remain in excerpt, not only another column",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 6,
+      "spec_words": 20
+    },
+    {
+      "id": 9,
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        1
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "performed result",
+        "Cue style": "question",
+        "Detail location": "appendix",
+        "Comparison order": "reversibility first",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 16
+    },
+    {
+      "id": 10,
+      "indices": [
+        1,
+        3,
+        4,
+        1,
+        5,
+        4
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "option name",
+        "Cue style": "conditional clause",
+        "Detail location": "next sentence",
+        "Comparison order": "user-request order",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 11,
+      "indices": [
+        1,
+        4,
+        5,
+        3,
+        0,
+        1
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "required action",
+        "Cue style": "numbered trigger",
+        "Detail location": "table column",
+        "Comparison order": "benefit descending",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 12,
+      "indices": [
+        1,
+        5,
+        0,
+        5,
+        1,
+        4
+      ],
+      "values": {
+        "Primary grouping": "reader task",
+        "First field": "scope boundary",
+        "Cue style": "plain text label",
+        "Detail location": "appendix",
+        "Comparison order": "constraint first",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 17
+    },
+    {
+      "id": 13,
+      "indices": [
+        2,
+        0,
+        2,
+        2,
+        4,
+        2
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "expected benefit",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "linked expansion",
+        "Comparison order": "reversibility first",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 14,
+      "indices": [
+        2,
+        1,
+        3,
+        4,
+        5,
+        5
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "disqualifying condition",
+        "Cue style": "question",
+        "Detail location": "footnote",
+        "Comparison order": "user-request order",
+        "Exit route": "retain current state"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 16
+    },
+    {
+      "id": 15,
+      "indices": [
+        2,
+        2,
+        4,
+        0,
+        0,
+        2
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "performed result",
+        "Cue style": "conditional clause",
+        "Detail location": "same line",
+        "Comparison order": "benefit descending",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 17
+    },
+    {
+      "id": 16,
+      "indices": [
+        2,
+        3,
+        5,
+        2,
+        1,
+        5
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "option name",
+        "Cue style": "numbered trigger",
+        "Detail location": "linked expansion",
+        "Comparison order": "constraint first",
+        "Exit route": "retain current state"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 17,
+      "indices": [
+        2,
+        4,
+        0,
+        4,
+        2,
+        2
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "required action",
+        "Cue style": "plain text label",
+        "Detail location": "footnote",
+        "Comparison order": "prerequisite first",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 17
+    },
+    {
+      "id": 18,
+      "indices": [
+        2,
+        5,
+        1,
+        0,
+        3,
+        5
+      ],
+      "values": {
+        "Primary grouping": "time horizon",
+        "First field": "scope boundary",
+        "Cue style": "bold label",
+        "Detail location": "same line",
+        "Comparison order": "least burden first",
+        "Exit route": "retain current state"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 19,
+      "indices": [
+        3,
+        0,
+        3,
+        3,
+        0,
+        3
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "expected benefit",
+        "Cue style": "question",
+        "Detail location": "table column",
+        "Comparison order": "benefit descending",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 17
+    },
+    {
+      "id": 20,
+      "indices": [
+        3,
+        1,
+        4,
+        5,
+        1,
+        0
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "disqualifying condition",
+        "Cue style": "conditional clause",
+        "Detail location": "appendix",
+        "Comparison order": "constraint first",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 5,
+      "spec_words": 16
+    },
+    {
+      "id": 21,
+      "indices": [
+        3,
+        2,
+        5,
+        1,
+        2,
+        3
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "performed result",
+        "Cue style": "numbered trigger",
+        "Detail location": "next sentence",
+        "Comparison order": "prerequisite first",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 22,
+      "indices": [
+        3,
+        3,
+        0,
+        3,
+        3,
+        0
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "option name",
+        "Cue style": "plain text label",
+        "Detail location": "table column",
+        "Comparison order": "least burden first",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 23,
+      "indices": [
+        3,
+        4,
+        1,
+        5,
+        4,
+        3
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "required action",
+        "Cue style": "bold label",
+        "Detail location": "appendix",
+        "Comparison order": "reversibility first",
+        "Exit route": "request one missing fact"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 24,
+      "indices": [
+        3,
+        5,
+        2,
+        1,
+        5,
+        0
+      ],
+      "values": {
+        "Primary grouping": "actor",
+        "First field": "scope boundary",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "next sentence",
+        "Comparison order": "user-request order",
+        "Exit route": "default plus alternatives"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 25,
+      "indices": [
+        4,
+        0,
+        4,
+        4,
+        2,
+        4
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "expected benefit",
+        "Cue style": "conditional clause",
+        "Detail location": "footnote",
+        "Comparison order": "prerequisite first",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 16
+    },
+    {
+      "id": 26,
+      "indices": [
+        4,
+        1,
+        5,
+        0,
+        3,
+        1
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "disqualifying condition",
+        "Cue style": "numbered trigger",
+        "Detail location": "same line",
+        "Comparison order": "least burden first",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 19
+    },
+    {
+      "id": 27,
+      "indices": [
+        4,
+        2,
+        0,
+        2,
+        4,
+        4
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "performed result",
+        "Cue style": "plain text label",
+        "Detail location": "linked expansion",
+        "Comparison order": "reversibility first",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 28,
+      "indices": [
+        4,
+        3,
+        1,
+        4,
+        5,
+        1
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "option name",
+        "Cue style": "bold label",
+        "Detail location": "footnote",
+        "Comparison order": "user-request order",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 29,
+      "indices": [
+        4,
+        4,
+        2,
+        0,
+        0,
+        4
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "required action",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "same line",
+        "Comparison order": "benefit descending",
+        "Exit route": "bounded trial"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 4,
+      "spec_words": 19
+    },
+    {
+      "id": 30,
+      "indices": [
+        4,
+        5,
+        3,
+        2,
+        1,
+        1
+      ],
+      "values": {
+        "Primary grouping": "evidence state",
+        "First field": "scope boundary",
+        "Cue style": "question",
+        "Detail location": "linked expansion",
+        "Comparison order": "constraint first",
+        "Exit route": "single chosen option"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 31,
+      "indices": [
+        5,
+        0,
+        5,
+        5,
+        4,
+        5
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "expected benefit",
+        "Cue style": "numbered trigger",
+        "Detail location": "appendix",
+        "Comparison order": "reversibility first",
+        "Exit route": "retain current state"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 17
+    },
+    {
+      "id": 32,
+      "indices": [
+        5,
+        1,
+        0,
+        1,
+        5,
+        2
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "disqualifying condition",
+        "Cue style": "plain text label",
+        "Detail location": "next sentence",
+        "Comparison order": "user-request order",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 33,
+      "indices": [
+        5,
+        2,
+        1,
+        3,
+        0,
+        5
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "performed result",
+        "Cue style": "bold label",
+        "Detail location": "table column",
+        "Comparison order": "benefit descending",
+        "Exit route": "retain current state"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 5,
+      "spec_words": 18
+    },
+    {
+      "id": 34,
+      "indices": [
+        5,
+        3,
+        2,
+        5,
+        1,
+        2
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "option name",
+        "Cue style": "symbol plus exact words",
+        "Detail location": "appendix",
+        "Comparison order": "constraint first",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "no for target",
+      "value_basis": "A one-line excerpt would omit the disqualifying condition",
+      "scope_fields": 1,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    },
+    {
+      "id": 35,
+      "indices": [
+        5,
+        4,
+        3,
+        1,
+        2,
+        5
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "required action",
+        "Cue style": "question",
+        "Detail location": "next sentence",
+        "Comparison order": "prerequisite first",
+        "Exit route": "retain current state"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 0,
+      "novelty_vs_first_values": 6,
+      "spec_words": 17
+    },
+    {
+      "id": 36,
+      "indices": [
+        5,
+        5,
+        4,
+        3,
+        3,
+        2
+      ],
+      "values": {
+        "Primary grouping": "constraint type",
+        "First field": "scope boundary",
+        "Cue style": "conditional clause",
+        "Detail location": "table column",
+        "Comparison order": "least burden first",
+        "Exit route": "unresolved trade-off"
+      },
+      "feasible": "design constructible",
+      "value_basis": "No declared incompatibility; comparative benefit requires prototype test",
+      "scope_fields": 2,
+      "novelty_vs_first_values": 6,
+      "spec_words": 18
+    }
+  ]
+}

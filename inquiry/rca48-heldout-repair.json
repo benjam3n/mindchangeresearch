@@ -1,0 +1,58 @@
+{
+  "input": [
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "existing reason",
+      "high"
+    ],
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "existing reason",
+      "high"
+    ],
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "different reason",
+      "medium"
+    ]
+  ],
+  "normalized": [
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "existing reason",
+      "high"
+    ],
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "different reason",
+      "medium"
+    ]
+  ],
+  "sure_hope_after_rule": [
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "existing reason",
+      "high"
+    ],
+    [
+      "sure",
+      "hope",
+      "contradiction",
+      "different reason",
+      "medium"
+    ]
+  ],
+  "distinct_reasons_retained": 2
+}

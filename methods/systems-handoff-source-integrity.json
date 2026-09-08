@@ -1,0 +1,24 @@
+[
+  {
+    "skill_id": "mrc",
+    "source_file": "systems-handoff-mrc.original.md",
+    "requirements_file": "systems-handoff-mrc.requirements.txt",
+    "bytes": 3529,
+    "sha256": "7b19b0e096931f3489e728c7c92a4d14d70ab1e6120877b706426942c4f7ae7e",
+    "receipt_match": true,
+    "both_streams_read": true,
+    "source_depth": "No numerical 8x table; all actual steps and applicable conditions required. mtcg requires at least three alternative strategies.",
+    "invocation_status": "Integration lists suggest related skills; neither source contains a mandatory subordinate INVOKE gate."
+  },
+  {
+    "skill_id": "mtcg",
+    "source_file": "systems-handoff-mtcg.original.md",
+    "requirements_file": "systems-handoff-mtcg.requirements.txt",
+    "bytes": 5261,
+    "sha256": "a7750fb45eaf598741d4a89c46e335eacb1f3382a7bb104a9f52ee5447605580",
+    "receipt_match": true,
+    "both_streams_read": true,
+    "source_depth": "No numerical 8x table; all actual steps and applicable conditions required. mtcg requires at least three alternative strategies.",
+    "invocation_status": "Integration lists suggest related skills; neither source contains a mandatory subordinate INVOKE gate."
+  }
+]

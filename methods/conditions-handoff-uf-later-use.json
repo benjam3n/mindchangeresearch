@@ -1,0 +1,175 @@
+{
+  "input": {
+    "jobs": {
+      "X": 5,
+      "Y": 3
+    },
+    "horizon": 8,
+    "quantum": 1,
+    "initial_order": [
+      "X",
+      "Y"
+    ],
+    "variants": [
+      "partial progress discarded on interruption",
+      "partial progress retained"
+    ]
+  },
+  "discard_on_switch": {
+    "trace": [
+      {
+        "job": "X",
+        "start": 0,
+        "finish": 1,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 1,
+        "finish": 2,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 2,
+        "finish": 3,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 3,
+        "finish": 4,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 4,
+        "finish": 5,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 5,
+        "finish": 6,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 6,
+        "finish": 7,
+        "progress_retained": false,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 7,
+        "finish": 8,
+        "progress_retained": false,
+        "completed": false
+      }
+    ],
+    "completions": {},
+    "allocated_service": {
+      "X": 4,
+      "Y": 4
+    },
+    "valid_completions": 0
+  },
+  "retain_on_switch": {
+    "trace": [
+      {
+        "job": "X",
+        "start": 0,
+        "finish": 1,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 1,
+        "finish": 2,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 2,
+        "finish": 3,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 3,
+        "finish": 4,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 4,
+        "finish": 5,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "Y",
+        "start": 5,
+        "finish": 6,
+        "progress_retained": true,
+        "completed": true
+      },
+      {
+        "job": "X",
+        "start": 6,
+        "finish": 7,
+        "progress_retained": true,
+        "completed": false
+      },
+      {
+        "job": "X",
+        "start": 7,
+        "finish": 8,
+        "progress_retained": true,
+        "completed": true
+      }
+    ],
+    "completions": {
+      "Y": 6,
+      "X": 8
+    },
+    "allocated_service": {
+      "X": 5,
+      "Y": 3
+    },
+    "valid_completions": 2
+  },
+  "whole_requests": {
+    "trace": [
+      {
+        "job": "X",
+        "start": 0,
+        "finish": 5,
+        "completed": true
+      },
+      {
+        "job": "Y",
+        "start": 5,
+        "finish": 8,
+        "completed": true
+      }
+    ],
+    "valid_completions": 2
+  },
+  "selected_routes": {
+    "discard_on_switch": "qs FIFO over whole requests; no time slicing",
+    "retain_on_switch_with_first_response_at_most_1": "qs round robin q=1",
+    "base_boc_input": "rso setup comparison inside td deadline admissibility; boc enumerates full finite space"
+  }
+}

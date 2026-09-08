@@ -1,0 +1,58 @@
+[
+  {
+    "id": "continuous-window",
+    "question": "Can fragmented time fit one uninterrupted encounter?",
+    "answer": "Compare required duration with the largest usable continuous window.",
+    "exception": "A checkpointable task can use multiple windows.",
+    "source": "kta-01.md"
+  },
+  {
+    "id": "future-release",
+    "question": "Should I wait when urgent work has a known future release?",
+    "answer": "A nonpreemptive task may need a reserved upcoming interval; validate the whole schedule.",
+    "exception": "Preemption or an uncertain release changes the comparison.",
+    "source": "qs-02.md"
+  },
+  {
+    "id": "deadline-before-mean",
+    "question": "Should the shortest tasks go first?",
+    "answer": "Preserve consequential deadlines before minimizing average wait within the feasible schedules.",
+    "exception": "With no such deadline, the lower-mean-wait route can remain preferable.",
+    "source": "qs-01.md"
+  },
+  {
+    "id": "location-window",
+    "question": "Does changing rooms fit before access closes?",
+    "answer": "Include travel, setup, task, cleanup and explicit buffer in the backward schedule.",
+    "exception": "Inputs are declared estimates until actual times are known.",
+    "source": "td-03.md"
+  },
+  {
+    "id": "offline-material",
+    "question": "What must be done before leaving network access?",
+    "answer": "Acquire and test a readable local copy before entering the no-network location.",
+    "exception": "Do not assume local export or an available compatible reader.",
+    "source": "de-02.md"
+  },
+  {
+    "id": "baseline-exposure",
+    "question": "When must the starting task response be recorded?",
+    "answer": "Before exposure if it is intended as a pre-exposure baseline.",
+    "exception": "Pre-existing timestamped baseline data can be recorded later without new exposure contamination.",
+    "source": "to-01.md"
+  },
+  {
+    "id": "criterion-first",
+    "question": "When should the changed-case test be fixed?",
+    "answer": "Before practice feedback when precommitment is part of the comparison purpose.",
+    "exception": "Exploratory adaptive practice can deliberately choose the next task after feedback.",
+    "source": "de-03.md"
+  },
+  {
+    "id": "shared-resource",
+    "question": "Can logically independent tasks run at the same time?",
+    "answer": "Check the resource they both require; independent file content can share one unsafe overwrite target.",
+    "exception": "Atomic operations or separate resources can change the result.",
+    "source": "rso-03.md"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "rank": 35,
+    "id": "sp",
+    "title": "Steelman Prompt",
+    "description": "Improves a prompt before it gets answered. Adds precision, scope, criteria, skill routing, and failure-proofing without answering the question.",
+    "line": "methods",
+    "applications": 3,
+    "category": null,
+    "invokes": [
+      "wsib",
+      "itp",
+      "extract"
+    ]
+  },
+  {
+    "rank": 36,
+    "id": "given",
+    "title": "Rank Skills by ROI for a Given Goal",
+    "description": "Given a goal, rank relevant skills from highest to lowest expected ROI, including negative-ROI skills with reasons.",
+    "line": "methods",
+    "applications": 3,
+    "category": "Skill Routing",
+    "invokes": []
+  },
+  {
+    "rank": 37,
+    "id": "wsib",
+    "title": "What Skill Is Best",
+    "description": "Choose the single best skill to run RIGHT NOW for a prompt, with confidence calibration, runner-up comparison, and fallback if first choice fails.",
+    "line": "methods",
+    "applications": 3,
+    "category": "Skill Routing",
+    "invokes": [
+      "skill"
+    ]
+  },
+  {
+    "rank": 38,
+    "id": "mrc",
+    "title": "Meta-Reasoning Core",
+    "description": "Three core metacognitive questions. What am I trying to achieve? Is this the best way? Am I making progress?",
+    "line": "methods",
+    "applications": 3,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 39,
+    "id": "mtcg",
+    "title": "Metacognition",
+    "description": "Thinking about your own thinking. Observes your current cognitive strategy, assesses whether it's working, checks for active biases, and decides whether to continue or switch approaches.",
+    "line": "methods",
+    "applications": 3,
+    "category": "Metacognition",
+    "invokes": []
+  },
+  {
+    "rank": 40,
+    "id": "pbtc",
+    "title": "Pre-Baked Thesis Check",
+    "description": "Detect when reasoning is working backwards from a predetermined conclusion. Surfaces the signs that the 'analysis' is actually a case built to support a thesis that was chosen before the evidence was examined.",
+    "line": "methods",
+    "applications": 3,
+    "category": null,
+    "invokes": [
+      "araw",
+      "aex",
+      "sdc",
+      "se",
+      "claim"
+    ]
+  },
+  {
+    "rank": 41,
+    "id": "unx",
+    "title": "Unexpected - Non-Obvious Solution Discovery",
+    "description": "Find non-obvious solutions. Three layers — obvious, unexpected, reframed — using disruption techniques that force the search off its default path.",
+    "line": "methods",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 42,
+    "id": "foht",
+    "title": "Figure Out How To",
+    "description": "Figure Out How To - Method discovery when you know WHAT but not HOW. Systematically map the method space, test candidates, and find approaches that survive scrutiny.",
+    "line": "methods",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 85,
+    "id": "svs",
+    "title": "Systematic Variation (SCAMPER)",
+    "description": "SCAMPER is an acronym for 7 transformation operations:",
+    "line": "methods",
+    "applications": 2,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 86,
+    "id": "crtv",
+    "title": "Creativity Procedure",
+    "description": "Systematic procedure for generating novel ideas. Moves through divergent generation, combinatorial play, and convergent evaluation against the original need.",
+    "line": "methods",
+    "applications": 2,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 87,
+    "id": "gg",
+    "title": "Guess Generation (Exhaustive Search with Coverage Tracking)",
+    "description": "Generate exhaustive guesses about user input using ALL search methods with coverage tracking. Guessing is SEARCH through possibility space. Tracks space created vs space covered to ensure comprehensive exploration.",
+    "line": "methods",
+    "applications": 2,
+    "category": "Core Exploration",
+    "invokes": [
+      "qag"
+    ]
+  },
+  {
+    "rank": 88,
+    "id": "md",
+    "title": "Method Derivation",
+    "description": "Derive the appropriate method from the situation rather than",
+    "line": "methods",
+    "applications": 2,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 89,
+    "id": "pcd",
+    "title": "Procedure Discovery",
+    "description": "Find or create the procedures needed to execute a plan",
+    "line": "methods",
+    "applications": 2,
+    "category": "Procedures & Meta",
+    "invokes": []
+  },
+  {
+    "rank": 90,
+    "id": "pci",
+    "title": "Procedure Improvement",
+    "description": "Systematically improve GOSM library procedures using schema-driven validation and tier-based progress tracking",
+    "line": "methods",
+    "applications": 2,
+    "category": "Procedures & Meta",
+    "invokes": []
+  },
+  {
+    "rank": 91,
+    "id": "pv",
+    "title": "Procedure Validation",
+    "description": "Validate that a procedure is complete, executable, and all dependencies are satisfiable. Catches issues before execution.",
+    "line": "methods",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 92,
+    "id": "satr",
+    "title": "Saturation Analysis",
+    "description": "Analyzes whether an area has too much coverage. Identifies redundancy, finds rarely-used items, and recommends consolidation or pruning.",
+    "line": "methods",
+    "applications": 2,
+    "category": "Skill Improvement",
+    "invokes": []
+  },
+  {
+    "rank": 133,
+    "id": "iterate",
+    "title": "Figure Out What to Iterate On",
+    "description": "Meta-iteration skill. Identifies what needs iteration, at what level, in what dimension, at what scale, and what should be deleted — then executes the highest-value iteration.",
+    "line": "methods",
+    "applications": 1,
+    "category": null,
+    "invokes": [
+      "evaluate",
+      "tbd",
+      "next",
+      "wsib",
+      "certainty",
+      "sycs"
+    ]
+  },
+  {
+    "rank": 134,
+    "id": "uf",
+    "title": "Useful For",
+    "description": "Given a skill or method, map its best-fit use cases, failure conditions, limits, and alternative skills with explicit switch conditions.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Skill Routing",
+    "invokes": []
+  },
+  {
+    "rank": 135,
+    "id": "adep",
+    "title": "Adaptive Extraction Pipeline",
+    "description": "Breadth-first, learned extraction pipeline that clarifies goals first, samples broadly, learns user preferences, and extracts selectively from highest-value items.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Procedures & Meta",
+    "invokes": []
+  },
+  {
+    "rank": 136,
+    "id": "upth",
+    "title": "Unproceduralized Thinking",
+    "description": "Identify cognitive operations that don't have explicit procedures yet. Observes thinking processes, surfaces implicit steps and tacit knowledge, formalizes them into explicit procedures, tests, and refines.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 137,
+    "id": "la",
+    "title": "Limitation Analysis",
+    "description": "Systematically identify limitations across multiple dimensions,",
+    "line": "methods",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 138,
+    "id": "benf",
+    "title": "Benefit Estimation",
+    "description": "Estimates the benefits of an action or investment. Lists direct, indirect, and downstream benefits, quantifies where possible, and calculates expected value.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Evaluation & Validation",
+    "invokes": []
+  },
+  {
+    "rank": 139,
+    "id": "boc",
+    "title": "Better Option Check",
+    "description": "Prevent user from settling on suboptimal option by systematically checking if better options exist that match their preferences. System surfaces what user may not have considered.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Decision Making",
+    "invokes": [
+      "cta",
+      "ve"
+    ]
+  },
+  {
+    "rank": 140,
+    "id": "utp",
+    "title": "Utopia Analysis",
+    "description": "Systematically construct and examine the best possible outcome — what would ideal actually look like, and what would it take to get there?",
+    "line": "methods",
+    "applications": 1,
+    "category": "Strategy & Planning",
+    "invokes": []
+  },
+  {
+    "rank": 141,
+    "id": "cmplx",
+    "title": "Complex Analysis",
+    "description": "Framework for genuinely complex problems that resist simple answers. Identify sources of complexity, choose appropriate tools, decompose without oversimplifying, and synthesize.",
+    "line": "methods",
+    "applications": 1,
+    "category": "Core Exploration",
+    "invokes": []
+  }
+]

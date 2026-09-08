@@ -1,0 +1,373 @@
+[
+  {
+    "outer": "all_of",
+    "inner": "all_of",
+    "tree": {
+      "relation": "all_of",
+      "members": [
+        {
+          "relation": "all_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": []
+      }
+    ]
+  },
+  {
+    "outer": "all_of",
+    "inner": "one_of",
+    "tree": {
+      "relation": "all_of",
+      "members": [
+        {
+          "relation": "one_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "C"
+        ],
+        "before": []
+      },
+      {
+        "members": [
+          "B",
+          "C"
+        ],
+        "before": []
+      }
+    ]
+  },
+  {
+    "outer": "all_of",
+    "inner": "sequence",
+    "tree": {
+      "relation": "all_of",
+      "members": [
+        {
+          "relation": "sequence",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": [
+          [
+            "A",
+            "B"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "outer": "one_of",
+    "inner": "all_of",
+    "tree": {
+      "relation": "one_of",
+      "members": [
+        {
+          "relation": "all_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B"
+        ],
+        "before": []
+      },
+      {
+        "members": [
+          "C"
+        ],
+        "before": []
+      }
+    ]
+  },
+  {
+    "outer": "one_of",
+    "inner": "one_of",
+    "tree": {
+      "relation": "one_of",
+      "members": [
+        {
+          "relation": "one_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A"
+        ],
+        "before": []
+      },
+      {
+        "members": [
+          "B"
+        ],
+        "before": []
+      },
+      {
+        "members": [
+          "C"
+        ],
+        "before": []
+      }
+    ]
+  },
+  {
+    "outer": "one_of",
+    "inner": "sequence",
+    "tree": {
+      "relation": "one_of",
+      "members": [
+        {
+          "relation": "sequence",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B"
+        ],
+        "before": [
+          [
+            "A",
+            "B"
+          ]
+        ]
+      },
+      {
+        "members": [
+          "C"
+        ],
+        "before": []
+      }
+    ]
+  },
+  {
+    "outer": "sequence",
+    "inner": "all_of",
+    "tree": {
+      "relation": "sequence",
+      "members": [
+        {
+          "relation": "all_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": [
+          [
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "C"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "outer": "sequence",
+    "inner": "one_of",
+    "tree": {
+      "relation": "sequence",
+      "members": [
+        {
+          "relation": "one_of",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "C"
+        ],
+        "before": [
+          [
+            "A",
+            "C"
+          ]
+        ]
+      },
+      {
+        "members": [
+          "B",
+          "C"
+        ],
+        "before": [
+          [
+            "B",
+            "C"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "outer": "sequence",
+    "inner": "sequence",
+    "tree": {
+      "relation": "sequence",
+      "members": [
+        {
+          "relation": "sequence",
+          "members": [
+            {
+              "leaf": "A"
+            },
+            {
+              "leaf": "B"
+            }
+          ]
+        },
+        {
+          "leaf": "C"
+        }
+      ]
+    },
+    "plans": [
+      {
+        "members": [
+          "A",
+          "B",
+          "C"
+        ],
+        "before": [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "A",
+            "C"
+          ],
+          [
+            "B",
+            "C"
+          ]
+        ]
+      }
+    ]
+  }
+]

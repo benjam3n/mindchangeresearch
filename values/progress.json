@@ -1,0 +1,59 @@
+{
+  "line": "values",
+  "assigned_applications": 50,
+  "status_counts": {
+    "complete": 20,
+    "partial": 30,
+    "blocked": 0,
+    "pending": 0
+  },
+  "addressed_applications": 50,
+  "applications_by_skill": {
+    "al": 2,
+    "cfr": 1,
+    "col": 1,
+    "collab": 1,
+    "eg": 2,
+    "empth": 2,
+    "eqi": 2,
+    "fd": 1,
+    "funr": 3,
+    "gdm": 1,
+    "grfr": 3,
+    "gu": 2,
+    "hab": 2,
+    "hf": 2,
+    "ig": 2,
+    "mp": 3,
+    "pre": 3,
+    "rlg": 1,
+    "rtas": 1,
+    "socg": 2,
+    "tfac": 1,
+    "trust": 3,
+    "vcd": 3,
+    "vcl": 3,
+    "ve": 3
+  },
+  "verdicts": {
+    "KEEP": 11,
+    "REJECT": 2,
+    "UNRESOLVED": 37
+  },
+  "keeps": [
+    "values/019-vcl-1.md",
+    "values/020-ve-1.md",
+    "values/020-ve-3.md",
+    "values/021-vcd-1.md",
+    "values/024-funr-1.md",
+    "values/025-mp-1.md",
+    "values/026-trust-1.md",
+    "values/072-eqi-1.md",
+    "values/073-socg-1.md",
+    "values/075-empth-1.md",
+    "values/118-col-1.md"
+  ],
+  "consolidations": [],
+  "status": "all_slots_addressed_with_open_partial_or_blocked_gates",
+  "scope_note": "Completion is procedural within the stated scope. Verdict and human/external effect status are independent; partial and blocked gates remain explicit."
+}

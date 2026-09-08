@@ -1,0 +1,6 @@
+- Which distinction absent from the inventory changes an actual inquiry?
+- What must be retained for a useful change to alter a later operation?
+- What does a perspective description add to a specified nonconscious mechanism account?
+- When does criterion revision repair the formulation, and when does it evade the original concern?
+- Which new value, dimension, relation, or transition can a model construct from an observed case?
+- What should a visitor become able to recognize or accomplish through the website?

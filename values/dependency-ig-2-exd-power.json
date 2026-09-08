@@ -1,0 +1,14 @@
+{
+  "method": "Normal approximation, equal independent groups, standardized variance assumed 1",
+  "z_alpha_975": 1.9599639845400536,
+  "z_power_90": 1.2815515655446008,
+  "start_SESOI_SD": 0.4,
+  "n_start_per_arm": 132,
+  "n_interest_per_arm": 337,
+  "complete_per_arm": 337,
+  "planned_per_arm_with_15_percent_attrition": 397,
+  "planned_total": 794,
+  "limitations": "Provisional assumptions, not an exact power calculation or an empirically estimated effect; two endpoints each targeted at .90 power gives at least .80 probability of both succeeding by the union bound under their stated alternatives. No participants recruited.",
+  "interest_positive_effect_for_planning_SD": 0.25,
+  "interest_support_condition": "Lower one-sided 97.5% confidence bound above zero; this stronger positive-interest result would support the no-reduction conjunction. A nonsignificant difference would remain unresolved."
+}

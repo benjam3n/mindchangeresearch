@@ -1,0 +1,16 @@
+{
+  "exact_input": "Find changes of timing, pace, control channel, and preserved state that can make the next mind-change attempt occur under the actual capabilities of this active model session and a later resumed session.",
+  "next_operation": "inspect the first incomplete dependency and execute a ready independent slot",
+  "source_path": "/workspace/scratch/78b838bd97fc/mind-change-research/inquiry/09-spd-timing.md",
+  "source_sha256": "5a617b8c6d20e32e3f3234e6f92e2c6703e5c4f43f65c2623044f4a8aa8f925d",
+  "status": "saved; not scheduled",
+  "required_depth": "original 8x floors",
+  "unresolved_dependency": "later session must be explicitly resumed through an available host channel",
+  "invalidated_by": [
+    "changed user goal",
+    "changed source bytes",
+    "missing required capability",
+    "expired opportunity"
+  ],
+  "observed_scope": "current active model session only"
+}

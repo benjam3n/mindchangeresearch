@@ -1,0 +1,11 @@
+{
+  "hypothetical_baseline": 0.6,
+  "hypothetical_treatment": 0.7,
+  "alpha": 0.05,
+  "power_target": 0.8,
+  "effectsize_arcsine": 0.21015892527715718,
+  "required_per_group": 356,
+  "achieved_power": 0.8006399253494809,
+  "previous_n_power": 0.799536965248234,
+  "method": "two-sided normal approximation on arcsine effect; no observed rate data"
+}

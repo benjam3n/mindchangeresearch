@@ -1,0 +1,42 @@
+{
+  "sampling": "uniform draw from the combined 100 tokens, conditioned on red",
+  "frequency_table": [
+    {
+      "source": "A",
+      "tokens": 10,
+      "red": 9,
+      "blue": 1
+    },
+    {
+      "source": "B",
+      "tokens": 90,
+      "red": 18,
+      "blue": 72
+    }
+  ],
+  "natural_frequency_answer": "1/3",
+  "bayes_answer": "1/3",
+  "enumeration_answer": "1/3",
+  "equal_source_probability_countercase": "9/11",
+  "selected_organization": "sampling mechanism then weighted red counts",
+  "posterior_by_source_A_prior": {
+    "numerator": "9*p",
+    "denominator": "2+7*p"
+  },
+  "later_queries": [
+    {
+      "p": "1/10",
+      "sampling": "uniform combined tokens"
+    },
+    {
+      "p": "1/2",
+      "sampling": "equal probability of source then uniform token within source"
+    },
+    {
+      "p": null,
+      "sampling": "source selection unspecified"
+    }
+  ],
+  "executed_at": "2026-09-08T05:36:28.133385+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

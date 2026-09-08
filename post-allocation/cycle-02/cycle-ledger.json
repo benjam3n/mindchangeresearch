@@ -1,0 +1,156 @@
+{
+  "cycle": "post-allocation/cycle-02",
+  "frozen_input": "post-allocation/cycle-02/frozen-inputs.md",
+  "initial_allocation_effect": "none; 233 complete, 66 partial, and 1 blocked original applications remain unchanged",
+  "source_fidelity": "Nine original skills were freshly loaded through the RSI reader with separate stdout/stderr receipts. Every preserved stream matched a fresh root reader emission byte for byte.",
+  "attempt_counts": {
+    "substantive_records": 9,
+    "complete_within_scope": 8,
+    "partial": 1,
+    "keep_verdicts": 9,
+    "distinct_new_keep_findings": 3,
+    "later_uptake_or_nonindependent_keeps": 6,
+    "rejected_or_unresolved_benefit_verdicts": 0
+  },
+  "records": [
+    {
+      "id": "PAC02-PBR-01",
+      "domain": "uncertainty and belief",
+      "skill_id": "pbr",
+      "file": "post-allocation/cycle-02/belief/01-pbr-correlated-evidence.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": true,
+      "finding_id": "evidence-dependence-before-aggregation",
+      "later_use": "Changing A2 from a copied field to an independent sensor changed posterior 4/13 to 16/25 and inspect to replace."
+    },
+    {
+      "id": "PAC02-VCD-01",
+      "domain": "values and representation",
+      "skill_id": "vcd",
+      "file": "post-allocation/cycle-02/values/01-vcd-privacy-auditability.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": true,
+      "finding_id": "noncompensatory-value-conflict-by-field-transformation",
+      "later_use": "The policy retained anonymous dissent content without inventing or requiring identity."
+    },
+    {
+      "id": "PAC02-DWT-01",
+      "domain": "time and action",
+      "skill_id": "dwt",
+      "file": "post-allocation/cycle-02/action/01-dwt-checksum-stop.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": false,
+      "novelty": "Prospective uptake of established timing/option feasibility; no duplicate discovery credit.",
+      "later_use": "Observed shared byte-source failure changed release to stop; a two-minute remote check changed stop-now to check-first."
+    },
+    {
+      "id": "PAC02-ALT-01",
+      "domain": "representation and action",
+      "skill_id": "alt",
+      "file": "post-allocation/cycle-02/representation/01-alt-query-specific-altitude.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": false,
+      "novelty": "Later support for query-conditioned location and retrieval cost, using a new 24-row fixture.",
+      "later_use": "A transition index narrowed a notice-cancellation query to four source rows."
+    },
+    {
+      "id": "PAC02-ECAL-01",
+      "domain": "effort and action",
+      "skill_id": "ecal",
+      "file": "post-allocation/cycle-02/effort/01-ecal-divergence-budget.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": false,
+      "novelty": "Property-conditioned allocation refines existing transition/time selection rather than adding an independent finding.",
+      "later_use": "Swapping item labels while preserving properties left the effort allocation unchanged."
+    },
+    {
+      "id": "PAC02-PRCP-01",
+      "domain": "perception and attribution",
+      "skill_id": "prcp",
+      "file": "post-allocation/cycle-02/perception/01-prcp-incident-log.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": false,
+      "novelty": "New application of the already established observation/inference separation.",
+      "later_use": "The incident description withdrew the unsupported operator-ignored-warning attribution."
+    },
+    {
+      "id": "PAC02-CAPG-01",
+      "domain": "capability, tools, and coordination",
+      "skill_id": "capg",
+      "file": "post-allocation/cycle-02/capability/01-capg-step-local.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "distinct_new_finding": false,
+      "novelty": "Step-local application of existing actor/tool/evidence/authority gates.",
+      "later_use": "A photograph changed pixel inspection to tool-capable while custody remained unresolved."
+    },
+    {
+      "id": "PAC02-SATRDA-01",
+      "domain": "belief and procedure stability",
+      "skill_id": "satrda",
+      "file": "post-allocation/cycle-02/belief/02-satrda-transition-selector.md",
+      "status": "partial",
+      "verdict": "KEEP",
+      "depth_status": "expanded original; no numerical 8x rule in source",
+      "missing_requirements": [
+        "Original Step-5 dependency library/procedures/core/goal_analysis/analysis_protocol_clarity_and_validity.yaml is unavailable in the RSI archive"
+      ],
+      "distinct_new_finding": false,
+      "novelty": "The observed two-run divergence and ARAW repair concern the same transition-interface defect; one finding credit is assigned to ARAW.",
+      "later_use": "A provisional typed interface preserved upstream epistemic and downstream action transitions separately."
+    },
+    {
+      "id": "PAC02-ARAW-01",
+      "domain": "belief and response selection",
+      "skill_id": "araw",
+      "file": "post-allocation/cycle-02/belief/03-araw-8x-transition-first.md",
+      "status": "complete",
+      "verdict": "KEEP for scoped repair; REJECT exact universal C1",
+      "depth_status": "Original 8x floors met: 18 claims, 65 findings/64 nonimported, 8-edge branch, eight cruxes, and two executed live tests.",
+      "distinct_new_finding": true,
+      "finding_id": "typed-two-stage-belief-transition",
+      "later_use": "The revised prompt bars pre-evidence belief direction and records epistemic transition separately from action."
+    }
+  ],
+  "distinct_findings": [
+    "evidence-dependence-before-aggregation",
+    "noncompensatory-value-conflict-by-field-transformation",
+    "typed-two-stage-belief-transition"
+  ],
+  "consolidation": {
+    "file": "post-allocation/cycle-02/consolidation-02-query-evidence-card.md",
+    "finding_ids": [
+      "query-history-location-policy",
+      "lossless-does-not-determine-retrieval-cost",
+      "proposal-log-versus-bidirectional-trace",
+      "evidence-dependence-before-aggregation"
+    ],
+    "new_cycle_02_findings_used": [
+      "evidence-dependence-before-aggregation"
+    ],
+    "remaining_unconsolidated_distinct_findings": [
+      "noncompensatory-value-conflict-by-field-transformation",
+      "typed-two-stage-belief-transition"
+    ]
+  },
+  "claims_not_made": [
+    "human belief, value, perception, motivation, memory, learning, or behavior changed",
+    "model weights changed",
+    "transition-first or the repaired interface universally reduces error",
+    "the selected organizations are globally optimal",
+    "structural access counts equal measured time or effort"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "success": [
+    "gather",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "start"
+  ],
+  "recovery": [
+    "gather",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "start"
+  ],
+  "repeated_failure": [
+    "gather",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "connect"
+  ],
+  "unknown_state": {
+    "state": "unknown",
+    "instruction": null,
+    "allowed_action": "recover a known saved state or restart gather; do not infer start"
+  }
+}

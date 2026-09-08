@@ -1,0 +1,36 @@
+{
+  "name": "Invitation follow-up choice",
+  "description": "Select a draft acknowledgement or clarification from a response record while retaining each participant's stated boundaries.",
+  "inputs": {
+    "response_record": "Component-level stances with evidence and conditions.",
+    "available_actions": "Concrete possible acknowledgements, clarifications or no further action.",
+    "goal": "The original invitation goal, retained even when not achievable yet."
+  },
+  "outputs": {
+    "draft": "A concrete unsent acknowledgement or question, or a no-action record.",
+    "reason": "The explicit stance or unresolved meaning that selects it.",
+    "goal_status": "Current achievable, conditional or unresolved parts."
+  },
+  "success_criteria": [
+    "An accepted bounded role is not broadened.",
+    "A stated refusal is not treated as a request for persuasion.",
+    "A condition is carried into the draft."
+  ],
+  "steps": [
+    "Read the response record and its conditions.",
+    "For accepted components, draft the bounded acknowledgement.",
+    "For conditional components, expose the stated condition and an available matching option if one exists.",
+    "For unknown components, draft one question about the missing meaning when needed.",
+    "For declined components, draft an acknowledgement that leaves that component declined.",
+    "Return the draft, selection reason and remaining goal status without sending anything."
+  ],
+  "verification": [
+    "Compare every proposed commitment in the draft with the supplied response record.",
+    "Confirm the original desired goal is still visible when currently unmet."
+  ],
+  "complexity": "simple for explicit stances; moderate for mixed records.",
+  "dependencies": [
+    "Invitation response record."
+  ],
+  "reuse_potential": "Repeated bounded collaboration invitations."
+}

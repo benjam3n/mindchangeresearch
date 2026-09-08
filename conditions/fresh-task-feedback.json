@@ -1,0 +1,170 @@
+{
+  "task": "three-job-impossible",
+  "all_permutations": [
+    {
+      "order": "ABC",
+      "rows": [
+        {
+          "id": "A",
+          "start": 0,
+          "finish": 3,
+          "deadline": 6,
+          "late": false
+        },
+        {
+          "id": "B",
+          "start": 3,
+          "finish": 4,
+          "deadline": 2,
+          "late": true
+        },
+        {
+          "id": "C",
+          "start": 4,
+          "finish": 6,
+          "deadline": 4,
+          "late": true
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": "ACB",
+      "rows": [
+        {
+          "id": "A",
+          "start": 0,
+          "finish": 3,
+          "deadline": 6,
+          "late": false
+        },
+        {
+          "id": "C",
+          "start": 3,
+          "finish": 5,
+          "deadline": 4,
+          "late": true
+        },
+        {
+          "id": "B",
+          "start": 5,
+          "finish": 6,
+          "deadline": 2,
+          "late": true
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": "BAC",
+      "rows": [
+        {
+          "id": "B",
+          "start": 1,
+          "finish": 2,
+          "deadline": 2,
+          "late": false
+        },
+        {
+          "id": "A",
+          "start": 2,
+          "finish": 5,
+          "deadline": 6,
+          "late": false
+        },
+        {
+          "id": "C",
+          "start": 5,
+          "finish": 7,
+          "deadline": 4,
+          "late": true
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": "BCA",
+      "rows": [
+        {
+          "id": "B",
+          "start": 1,
+          "finish": 2,
+          "deadline": 2,
+          "late": false
+        },
+        {
+          "id": "C",
+          "start": 2,
+          "finish": 4,
+          "deadline": 4,
+          "late": false
+        },
+        {
+          "id": "A",
+          "start": 4,
+          "finish": 7,
+          "deadline": 6,
+          "late": true
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": "CAB",
+      "rows": [
+        {
+          "id": "C",
+          "start": 2,
+          "finish": 4,
+          "deadline": 4,
+          "late": false
+        },
+        {
+          "id": "A",
+          "start": 4,
+          "finish": 7,
+          "deadline": 6,
+          "late": true
+        },
+        {
+          "id": "B",
+          "start": 7,
+          "finish": 8,
+          "deadline": 2,
+          "late": true
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": "CBA",
+      "rows": [
+        {
+          "id": "C",
+          "start": 2,
+          "finish": 4,
+          "deadline": 4,
+          "late": false
+        },
+        {
+          "id": "B",
+          "start": 4,
+          "finish": 5,
+          "deadline": 2,
+          "late": true
+        },
+        {
+          "id": "A",
+          "start": 5,
+          "finish": 8,
+          "deadline": 6,
+          "late": true
+        }
+      ],
+      "feasible": false
+    }
+  ],
+  "feasible_count": 0,
+  "computed_utc": "2026-09-08T04:28:56.602003+00:00",
+  "scope": "For each nonpreemptive fixed order, earliest-start scheduling minimizes every completion time in that order; delaying further cannot cure a missed upper deadline. All six orders examined."
+}

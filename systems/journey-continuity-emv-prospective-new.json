@@ -1,0 +1,71 @@
+{
+  "frozen_at_utc": "2026-09-08T04:44:18.952121+00:00",
+  "purpose": "Genuinely new inputs; prior incomplete prediction records remain retrospective and unchanged.",
+  "predictions": [
+    {
+      "input": {
+        "w": "11/20"
+      },
+      "prediction": {
+        "A": "73/20",
+        "B": "39/10",
+        "choice": "B"
+      },
+      "confidence": 85,
+      "id": "NEW-1",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "w": "13/20"
+      },
+      "prediction": {
+        "A": "79/20",
+        "B": "37/10",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "id": "NEW-2",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "w": "7/12"
+      },
+      "prediction": {
+        "A": "15/4",
+        "B": "23/6",
+        "choice": "B"
+      },
+      "confidence": 80,
+      "id": "NEW-3",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "w": "5/8"
+      },
+      "prediction": {
+        "A": "31/8",
+        "B": "15/4",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "id": "NEW-4",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "w": "17/25"
+      },
+      "prediction": {
+        "A": "101/25",
+        "B": "91/25",
+        "choice": "A"
+      },
+      "confidence": 85,
+      "id": "NEW-5",
+      "status": "PENDING"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "skill": "pbtc",
+    "stdout": "methods-finish-pbtc.original.md",
+    "stderr": "methods-finish-pbtc.requirements.txt",
+    "emitted_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "receipt_declared_sha256": "cadf31396a52a6207f4cd6f94fbde46a521986eff926e4577e33b5f03095b69f",
+    "bytes_match": true
+  },
+  {
+    "skill": "sp",
+    "stdout": "methods-finish-sp.original.md",
+    "stderr": "methods-finish-sp.requirements.txt",
+    "emitted_sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+    "receipt_declared_sha256": "68867b43985c6395afe34da00168ef410ed899f2e59675cab016ad83031dc051",
+    "bytes_match": true
+  }
+]

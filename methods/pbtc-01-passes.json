@@ -1,0 +1,98 @@
+[
+  {
+    "pass": 1,
+    "input_file": "pbtc-01-input.txt",
+    "input_sha256": "b68c0969cc926e1f865a26e4f85a9ca54a585b2750d677c6f5ce8c6540d1144b",
+    "output_file": "pbtc-01-pass-01.txt",
+    "output_sha256": "89405302b1e7bb5138794a2e2e433c1757e3dbdee07227bea62688abfa237c96",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 2,
+    "input_file": "pbtc-01-pass-01.txt",
+    "input_sha256": "89405302b1e7bb5138794a2e2e433c1757e3dbdee07227bea62688abfa237c96",
+    "output_file": "pbtc-01-pass-02.txt",
+    "output_sha256": "14619c334d867d2c0cbb094abff1416111ac300f735174ac8600e1ab811df896",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 3,
+    "input_file": "pbtc-01-pass-02.txt",
+    "input_sha256": "14619c334d867d2c0cbb094abff1416111ac300f735174ac8600e1ab811df896",
+    "output_file": "pbtc-01-pass-03.txt",
+    "output_sha256": "a43b21d7ee5d3136b4331bb7e0b3b85985c9ef261770f2cd952a26eaf111d4ba",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 4,
+    "input_file": "pbtc-01-pass-03.txt",
+    "input_sha256": "a43b21d7ee5d3136b4331bb7e0b3b85985c9ef261770f2cd952a26eaf111d4ba",
+    "output_file": "pbtc-01-pass-04.txt",
+    "output_sha256": "b95af5a320dced423e21d88f67c430455e7573662b8732b6bf2f466d1b20481e",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 5,
+    "input_file": "pbtc-01-pass-04.txt",
+    "input_sha256": "b95af5a320dced423e21d88f67c430455e7573662b8732b6bf2f466d1b20481e",
+    "output_file": "pbtc-01-pass-05.txt",
+    "output_sha256": "54090ba4cf5ccf2ae6eef7f3fd1f4782e4591528f260b03b4efb4ad2343a6764",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 6,
+    "input_file": "pbtc-01-pass-05.txt",
+    "input_sha256": "54090ba4cf5ccf2ae6eef7f3fd1f4782e4591528f260b03b4efb4ad2343a6764",
+    "output_file": "pbtc-01-pass-06.txt",
+    "output_sha256": "d815bff8a7069a7b48e7b0bf98ace67515d7d4eb1ff2f9ab56032f82e1878ee2",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 7,
+    "input_file": "pbtc-01-pass-06.txt",
+    "input_sha256": "d815bff8a7069a7b48e7b0bf98ace67515d7d4eb1ff2f9ab56032f82e1878ee2",
+    "output_file": "pbtc-01-pass-07.txt",
+    "output_sha256": "abef615f34fd62e63fde502ceea285923b99058254d4fa835b8b67a7ca03dd6d",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  },
+  {
+    "pass": 8,
+    "input_file": "pbtc-01-pass-07.txt",
+    "input_sha256": "abef615f34fd62e63fde502ceea285923b99058254d4fa835b8b67a7ca03dd6d",
+    "output_file": "pbtc-01-pass-08.txt",
+    "output_sha256": "855ede2e9fb0689a9f7e47bfdd43b98f554197ee9b62303ed42b0d0b5b0fb840",
+    "whole_previous_output": true,
+    "signals_checked": 21,
+    "verdict": "CLEAN",
+    "scope": "documentary reasoning; private history unobserved",
+    "new_keep_credit": false
+  }
+]

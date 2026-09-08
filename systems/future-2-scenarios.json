@@ -1,0 +1,37 @@
+{
+  "subject": "criterion-dependent recommendation",
+  "assumptions": "Continuation holds w=.8; acceleration gradually increases speed priority as explicitly tabulated; disruption changes w to .3 immediately. No population preference forecast is made.",
+  "rows": [
+    [
+      1,
+      0.8,
+      0.7,
+      0.3
+    ],
+    [
+      2,
+      0.8,
+      0.6,
+      0.3
+    ],
+    [
+      5,
+      0.8,
+      0.5,
+      0.3
+    ],
+    [
+      10,
+      0.8,
+      0.4,
+      0.3
+    ],
+    [
+      25,
+      0.8,
+      0.2,
+      0.3
+    ]
+  ],
+  "action": "Retain the decision function A wins if w>.6, tie at .6, B below .6. Recompute when the criterion version changes."
+}

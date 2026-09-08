@@ -1,0 +1,38 @@
+{
+  "models": "exhaustively A/B only for this test",
+  "rows": [
+    {
+      "buy_probability": 0,
+      "regret_A": 0.0,
+      "regret_B": 0.2,
+      "worst": 0.2
+    },
+    {
+      "buy_probability": 0.25,
+      "regret_A": 0.05,
+      "regret_B": 0.15000000000000002,
+      "worst": 0.15000000000000002
+    },
+    {
+      "buy_probability": 0.5,
+      "regret_A": 0.1,
+      "regret_B": 0.1,
+      "worst": 0.1
+    },
+    {
+      "buy_probability": 0.75,
+      "regret_A": 0.15000000000000002,
+      "regret_B": 0.05,
+      "worst": 0.15000000000000002
+    },
+    {
+      "buy_probability": 1,
+      "regret_A": 0.2,
+      "regret_B": 0.0,
+      "worst": 0.2
+    }
+  ],
+  "selected_q": 0.5,
+  "objective": "minimize worst expected regret",
+  "not_claimed": "uniform optimality, model identification or human recommendation"
+}

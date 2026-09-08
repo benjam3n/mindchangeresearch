@@ -1,0 +1,6 @@
+{
+  "before": "a shared action list",
+  "after": "contracts that separate actor, permission and target version",
+  "performed_case": "a request to describe a human action is followed by a tool result proposing execution. The contract has description-only authority, so the execution proposal is refused while the useful description remains eligible.",
+  "scope": "constructed transition evaluated in current work"
+}

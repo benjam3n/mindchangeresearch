@@ -1,0 +1,172 @@
+{
+  "weights": [
+    3,
+    2,
+    1,
+    2,
+    1,
+    3
+  ],
+  "alternative_weights": [
+    2,
+    2,
+    4,
+    1,
+    1,
+    4
+  ],
+  "items": {
+    "S": {
+      "name": "One complete sentence",
+      "s": [
+        4,
+        4,
+        5,
+        3,
+        4,
+        3
+      ],
+      "why": [
+        "states both criteria",
+        "common counts stated",
+        "serial prose",
+        "comparison clauses separated",
+        "small text block",
+        "criteria recoverable after full read"
+      ],
+      "reason": "Compact serial reading with a full-sentence commitment."
+    },
+    "B": {
+      "name": "Two parallel bullets plus shared input",
+      "s": [
+        5,
+        5,
+        4,
+        5,
+        4,
+        4
+      ],
+      "why": [
+        "both conditions explicit",
+        "shared input precedes bullets",
+        "three serial units",
+        "parallel comparison",
+        "short units",
+        "each condition beside verdict"
+      ],
+      "reason": "Easy aligned comparison when both conditions are in view."
+    },
+    "T": {
+      "name": "Two-row criterion table",
+      "s": [
+        5,
+        5,
+        3,
+        5,
+        5,
+        5
+      ],
+      "why": [
+        "conditions in row labels",
+        "shared counts in caption",
+        "header context required",
+        "parallel rows",
+        "six cells",
+        "one row gives criterion and verdict"
+      ],
+      "reason": "Strong direct lookup for a reader who knows the criterion."
+    },
+    "C": {
+      "name": "Paired self-contained cards",
+      "s": [
+        5,
+        5,
+        5,
+        4,
+        2,
+        5
+      ],
+      "why": [
+        "each condition explicit",
+        "counts repeated on each card",
+        "each card serial",
+        "cross-card comparison",
+        "repeats common counts",
+        "excerpt carries complete case"
+      ],
+      "reason": "Best independent extraction at the cost of repeated input."
+    },
+    "F": {
+      "name": "Formal predicate pair",
+      "s": [
+        5,
+        4,
+        2,
+        4,
+        5,
+        3
+      ],
+      "why": [
+        "criteria mathematically specified",
+        "legend contains counts",
+        "notation knowledge needed",
+        "two compact formulas",
+        "few tokens",
+        "excerpt needs legend"
+      ],
+      "reason": "Compact for a notation-fluent reader, legend-dependent otherwise."
+    },
+    "D": {
+      "name": "Two-branch decision rule",
+      "s": [
+        5,
+        4,
+        4,
+        3,
+        3,
+        5
+      ],
+      "why": [
+        "each branch states condition",
+        "counts in root clause",
+        "if/else serial",
+        "branch selection beats overview",
+        "more words than table",
+        "chosen branch includes condition"
+      ],
+      "reason": "Useful for taking one criterion-conditioned action."
+    }
+  },
+  "scores": {
+    "S": 44,
+    "B": 55,
+    "T": 58,
+    "C": 55,
+    "F": 47,
+    "D": 51
+  },
+  "order": [
+    "T",
+    "B",
+    "C",
+    "D",
+    "F",
+    "S"
+  ],
+  "alternative_scores": {
+    "S": 55,
+    "B": 61,
+    "T": 62,
+    "C": 66,
+    "F": 47,
+    "D": 60
+  },
+  "alternative_order": [
+    "C",
+    "T",
+    "B",
+    "D",
+    "S",
+    "F"
+  ]
+}

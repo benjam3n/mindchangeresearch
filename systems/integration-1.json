@@ -1,0 +1,2513 @@
+{
+  "components": [
+    "goal",
+    "actor",
+    "object",
+    "time_horizon",
+    "constraints",
+    "interpretation",
+    "source_version",
+    "units",
+    "options",
+    "evidence_scope",
+    "budget",
+    "prerequisites",
+    "criteria_version",
+    "authority",
+    "target_revision",
+    "output_contract",
+    "endpoint",
+    "status",
+    "consequence",
+    "baseline",
+    "acceptance"
+  ],
+  "interfaces": "twenty fields to whole-packet acceptance",
+  "steps": [
+    {
+      "id": "S1-01",
+      "components": [
+        "goal",
+        "acceptance"
+      ],
+      "predecessor": null,
+      "tests": [
+        "IT1-01",
+        "IT1-02"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-02",
+      "components": [
+        "actor",
+        "acceptance"
+      ],
+      "predecessor": "S1-01",
+      "tests": [
+        "IT1-03",
+        "IT1-04"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-03",
+      "components": [
+        "object",
+        "acceptance"
+      ],
+      "predecessor": "S1-02",
+      "tests": [
+        "IT1-05",
+        "IT1-06"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-04",
+      "components": [
+        "time_horizon",
+        "acceptance"
+      ],
+      "predecessor": "S1-03",
+      "tests": [
+        "IT1-07",
+        "IT1-08"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-05",
+      "components": [
+        "constraints",
+        "acceptance"
+      ],
+      "predecessor": "S1-04",
+      "tests": [
+        "IT1-09",
+        "IT1-10"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-06",
+      "components": [
+        "interpretation",
+        "acceptance"
+      ],
+      "predecessor": "S1-05",
+      "tests": [
+        "IT1-11",
+        "IT1-12"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-07",
+      "components": [
+        "source_version",
+        "acceptance"
+      ],
+      "predecessor": "S1-06",
+      "tests": [
+        "IT1-13",
+        "IT1-14"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-08",
+      "components": [
+        "units",
+        "acceptance"
+      ],
+      "predecessor": "S1-07",
+      "tests": [
+        "IT1-15",
+        "IT1-16"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-09",
+      "components": [
+        "options",
+        "acceptance"
+      ],
+      "predecessor": "S1-08",
+      "tests": [
+        "IT1-17",
+        "IT1-18"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-10",
+      "components": [
+        "evidence_scope",
+        "acceptance"
+      ],
+      "predecessor": "S1-09",
+      "tests": [
+        "IT1-19",
+        "IT1-20"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-11",
+      "components": [
+        "budget",
+        "acceptance"
+      ],
+      "predecessor": "S1-10",
+      "tests": [
+        "IT1-21",
+        "IT1-22"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-12",
+      "components": [
+        "prerequisites",
+        "acceptance"
+      ],
+      "predecessor": "S1-11",
+      "tests": [
+        "IT1-23",
+        "IT1-24"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-13",
+      "components": [
+        "criteria_version",
+        "acceptance"
+      ],
+      "predecessor": "S1-12",
+      "tests": [
+        "IT1-25",
+        "IT1-26"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-14",
+      "components": [
+        "authority",
+        "acceptance"
+      ],
+      "predecessor": "S1-13",
+      "tests": [
+        "IT1-27",
+        "IT1-28"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-15",
+      "components": [
+        "target_revision",
+        "acceptance"
+      ],
+      "predecessor": "S1-14",
+      "tests": [
+        "IT1-29",
+        "IT1-30"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-16",
+      "components": [
+        "output_contract",
+        "acceptance"
+      ],
+      "predecessor": "S1-15",
+      "tests": [
+        "IT1-31",
+        "IT1-32"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-17",
+      "components": [
+        "endpoint",
+        "acceptance"
+      ],
+      "predecessor": "S1-16",
+      "tests": [
+        "IT1-33",
+        "IT1-34"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-18",
+      "components": [
+        "status",
+        "acceptance"
+      ],
+      "predecessor": "S1-17",
+      "tests": [
+        "IT1-35",
+        "IT1-36"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-19",
+      "components": [
+        "consequence",
+        "acceptance"
+      ],
+      "predecessor": "S1-18",
+      "tests": [
+        "IT1-37",
+        "IT1-38"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-20",
+      "components": [
+        "baseline",
+        "acceptance"
+      ],
+      "predecessor": "S1-19",
+      "tests": [
+        "IT1-39",
+        "IT1-40"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-21",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S1-20",
+      "tests": [
+        "IT1-41",
+        "IT1-42"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-22",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S1-21",
+      "tests": [
+        "IT1-43",
+        "IT1-44"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-23",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S1-22",
+      "tests": [
+        "IT1-45",
+        "IT1-46"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-24",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S1-23",
+      "tests": [
+        "IT1-47",
+        "IT1-48"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    },
+    {
+      "id": "S1-25",
+      "components": [
+        "combined interface check",
+        "acceptance"
+      ],
+      "predecessor": "S1-24",
+      "tests": [
+        "IT1-49",
+        "IT1-50"
+      ],
+      "rollback": "restore preceding fixture and accepted state"
+    }
+  ],
+  "tests": [
+    {
+      "id": "IT1-01",
+      "step": "S1-01",
+      "interface": "packet.goal\u2192acceptance",
+      "input_delta": "missing goal",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:goal"
+      },
+      "fixture": {
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-02",
+      "step": "S1-01",
+      "interface": "packet.goal\u2192acceptance",
+      "input_delta": "null goal",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:goal"
+      },
+      "fixture": {
+        "goal": null,
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-03",
+      "step": "S1-02",
+      "interface": "packet.actor\u2192acceptance",
+      "input_delta": "missing actor",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:actor"
+      },
+      "fixture": {
+        "goal": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-04",
+      "step": "S1-02",
+      "interface": "packet.actor\u2192acceptance",
+      "input_delta": "null actor",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:actor"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": null,
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-05",
+      "step": "S1-03",
+      "interface": "packet.object\u2192acceptance",
+      "input_delta": "missing object",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:object"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-06",
+      "step": "S1-03",
+      "interface": "packet.object\u2192acceptance",
+      "input_delta": "null object",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:object"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": null,
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-07",
+      "step": "S1-04",
+      "interface": "packet.time_horizon\u2192acceptance",
+      "input_delta": "missing time_horizon",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:time_horizon"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-08",
+      "step": "S1-04",
+      "interface": "packet.time_horizon\u2192acceptance",
+      "input_delta": "null time_horizon",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:time_horizon"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": null,
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-09",
+      "step": "S1-05",
+      "interface": "packet.constraints\u2192acceptance",
+      "input_delta": "missing constraints",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:constraints"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-10",
+      "step": "S1-05",
+      "interface": "packet.constraints\u2192acceptance",
+      "input_delta": "null constraints",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:constraints"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": null,
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-11",
+      "step": "S1-06",
+      "interface": "packet.interpretation\u2192acceptance",
+      "input_delta": "missing interpretation",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:interpretation"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-12",
+      "step": "S1-06",
+      "interface": "packet.interpretation\u2192acceptance",
+      "input_delta": "null interpretation",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:interpretation"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": null,
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-13",
+      "step": "S1-07",
+      "interface": "packet.source_version\u2192acceptance",
+      "input_delta": "missing source_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:source_version"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-14",
+      "step": "S1-07",
+      "interface": "packet.source_version\u2192acceptance",
+      "input_delta": "null source_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:source_version"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": null,
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-15",
+      "step": "S1-08",
+      "interface": "packet.units\u2192acceptance",
+      "input_delta": "missing units",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:units"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-16",
+      "step": "S1-08",
+      "interface": "packet.units\u2192acceptance",
+      "input_delta": "null units",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:units"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": null,
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-17",
+      "step": "S1-09",
+      "interface": "packet.options\u2192acceptance",
+      "input_delta": "missing options",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:options"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-18",
+      "step": "S1-09",
+      "interface": "packet.options\u2192acceptance",
+      "input_delta": "null options",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:options"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": null,
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-19",
+      "step": "S1-10",
+      "interface": "packet.evidence_scope\u2192acceptance",
+      "input_delta": "missing evidence_scope",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:evidence_scope"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-20",
+      "step": "S1-10",
+      "interface": "packet.evidence_scope\u2192acceptance",
+      "input_delta": "null evidence_scope",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:evidence_scope"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": null,
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-21",
+      "step": "S1-11",
+      "interface": "packet.budget\u2192acceptance",
+      "input_delta": "missing budget",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:budget"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-22",
+      "step": "S1-11",
+      "interface": "packet.budget\u2192acceptance",
+      "input_delta": "null budget",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:budget"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": null,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-23",
+      "step": "S1-12",
+      "interface": "packet.prerequisites\u2192acceptance",
+      "input_delta": "missing prerequisites",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:prerequisites"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-24",
+      "step": "S1-12",
+      "interface": "packet.prerequisites\u2192acceptance",
+      "input_delta": "null prerequisites",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:prerequisites"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": null,
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-25",
+      "step": "S1-13",
+      "interface": "packet.criteria_version\u2192acceptance",
+      "input_delta": "missing criteria_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:criteria_version"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-26",
+      "step": "S1-13",
+      "interface": "packet.criteria_version\u2192acceptance",
+      "input_delta": "null criteria_version",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:criteria_version"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": null,
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-27",
+      "step": "S1-14",
+      "interface": "packet.authority\u2192acceptance",
+      "input_delta": "missing authority",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:authority"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-28",
+      "step": "S1-14",
+      "interface": "packet.authority\u2192acceptance",
+      "input_delta": "null authority",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:authority"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": null,
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-29",
+      "step": "S1-15",
+      "interface": "packet.target_revision\u2192acceptance",
+      "input_delta": "missing target_revision",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:target_revision"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-30",
+      "step": "S1-15",
+      "interface": "packet.target_revision\u2192acceptance",
+      "input_delta": "null target_revision",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:target_revision"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": null,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-31",
+      "step": "S1-16",
+      "interface": "packet.output_contract\u2192acceptance",
+      "input_delta": "missing output_contract",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:output_contract"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-32",
+      "step": "S1-16",
+      "interface": "packet.output_contract\u2192acceptance",
+      "input_delta": "null output_contract",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:output_contract"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": null,
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-33",
+      "step": "S1-17",
+      "interface": "packet.endpoint\u2192acceptance",
+      "input_delta": "missing endpoint",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:endpoint"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-34",
+      "step": "S1-17",
+      "interface": "packet.endpoint\u2192acceptance",
+      "input_delta": "null endpoint",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:endpoint"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": null,
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-35",
+      "step": "S1-18",
+      "interface": "packet.status\u2192acceptance",
+      "input_delta": "missing status",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:status"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-36",
+      "step": "S1-18",
+      "interface": "packet.status\u2192acceptance",
+      "input_delta": "null status",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:status"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": null,
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-37",
+      "step": "S1-19",
+      "interface": "packet.consequence\u2192acceptance",
+      "input_delta": "missing consequence",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:consequence"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-38",
+      "step": "S1-19",
+      "interface": "packet.consequence\u2192acceptance",
+      "input_delta": "null consequence",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:consequence"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": null,
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-39",
+      "step": "S1-20",
+      "interface": "packet.baseline\u2192acceptance",
+      "input_delta": "missing baseline",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:baseline"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-40",
+      "step": "S1-20",
+      "interface": "packet.baseline\u2192acceptance",
+      "input_delta": "null baseline",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "missing:baseline"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": null,
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-41",
+      "step": "S1-21",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "valid",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-42",
+      "step": "S1-21",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "wrong schema",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "schema"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 99,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-43",
+      "step": "S1-22",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "other schema",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "schema"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 2,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-44",
+      "step": "S1-22",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "stale",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "stale target"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 1,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-45",
+      "step": "S1-23",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "future unknown",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "stale target"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 3,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-46",
+      "step": "S1-23",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "execution not authorized",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "authority"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "execute",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-47",
+      "step": "S1-24",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "empty authority",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "authority"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 55
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-48",
+      "step": "S1-24",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "over budget",
+      "expected": false,
+      "actual": {
+        "accepted": false,
+        "reason": "budget"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 61
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-49",
+      "step": "S1-25",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "budget boundary",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 60
+      },
+      "pass": true
+    },
+    {
+      "id": "IT1-50",
+      "step": "S1-25",
+      "interface": "whole packet\u2192commitment",
+      "input_delta": "zero cost",
+      "expected": true,
+      "actual": {
+        "accepted": true,
+        "reason": "declared contract satisfied; semantic usefulness not proven"
+      },
+      "fixture": {
+        "goal": "declared",
+        "actor": "declared",
+        "object": "declared",
+        "time_horizon": "declared",
+        "constraints": "declared",
+        "interpretation": "declared",
+        "source_version": "declared",
+        "units": "declared",
+        "options": "declared",
+        "evidence_scope": "declared",
+        "budget": 60,
+        "prerequisites": "declared",
+        "criteria_version": "declared",
+        "authority": [
+          "describe"
+        ],
+        "target_revision": 2,
+        "output_contract": "declared",
+        "endpoint": "declared",
+        "status": "declared",
+        "consequence": "declared",
+        "baseline": "declared",
+        "schema_version": 1,
+        "current_revision": 2,
+        "proposed_action": "describe",
+        "total_cost": 0
+      },
+      "pass": true
+    }
+  ],
+  "issues": [
+    {
+      "id": "II1-01",
+      "scenario": "missing or null goal",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-02",
+      "scenario": "missing or null actor",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-03",
+      "scenario": "missing or null object",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-04",
+      "scenario": "missing or null time_horizon",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-05",
+      "scenario": "missing or null constraints",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-06",
+      "scenario": "missing or null interpretation",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-07",
+      "scenario": "missing or null source_version",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-08",
+      "scenario": "missing or null units",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-09",
+      "scenario": "missing or null options",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-10",
+      "scenario": "missing or null evidence_scope",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-11",
+      "scenario": "missing or null budget",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-12",
+      "scenario": "missing or null prerequisites",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-13",
+      "scenario": "missing or null criteria_version",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-14",
+      "scenario": "missing or null authority",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-15",
+      "scenario": "missing or null target_revision",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-16",
+      "scenario": "missing or null output_contract",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-17",
+      "scenario": "missing or null endpoint",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-18",
+      "scenario": "missing or null status",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-19",
+      "scenario": "missing or null consequence",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    },
+    {
+      "id": "II1-20",
+      "scenario": "missing or null baseline",
+      "severity": "BLOCKER",
+      "detection": "required input interface rejection",
+      "resolution": "supply real input or remain blocked",
+      "owner": "assistant producer",
+      "status": "injected; correctly rejected"
+    }
+  ],
+  "test_count": 50,
+  "passed": 50
+}

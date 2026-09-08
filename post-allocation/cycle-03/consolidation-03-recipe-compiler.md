@@ -65,9 +65,9 @@ Compound-transition exception: if a case requires belief update, permission gran
 
 ## Organization decision
 
-Use Organization B as the default operational recipe because it passed all four fixed cases, preserved both boundaries, and reduced required finding-selection lookups from four to one. Keep Organization A as the derivation/audit view because it exposes the independent source and exact scope of every rule.
+Use Organization B as a conditional selection card for cases where its required diagnosis and mechanism are available: it passed four fixed cases, preserved two boundaries, and reduced required finding-selection lookups in that comparison. It does not construct a mechanism for every target or establish a universal entry order. Keep Organization A as the derivation/audit view because it exposes the independent source and exact scope of every rule.
 
-The repository and working prompt should encode B as selection order and retain A through per-record provenance. Neither arrangement is a proven global optimum. For a source audit, A is more direct; for repeated mixed-case compilation, B is better on the frozen access criterion.
+The repository and working prompt should preserve B as an applicable retained result and A as its provenance view. [Contribution construction](../../mind-change/contribution-construction.md) supplies further operations when the live task requires them; the entry point follows the actual missing contribution. Neither arrangement is a proven global optimum. For a source audit, A is more direct; for repeated mixed-case compilation, B is better on the frozen access criterion.
 
 ## Outcome
 

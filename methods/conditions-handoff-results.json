@@ -1,0 +1,69 @@
+[
+  {
+    "skill_id": "satr",
+    "application_number": 1,
+    "file": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/satr-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements fully read; emission hashes retained",
+    "depth_status": "No numerical 8x floor in SATR. All five original stages cover all sixteen actual inputs, exact usage limits, five overlap clusters, six unique roles, expected-count sensitivity and a performed later-queue transformation.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "uf-01 and boc-01 use new service-continuity/setup cases rather than repeating the suppressed role-equivalent queue items."
+  },
+  {
+    "skill_id": "satr",
+    "application_number": 2,
+    "file": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/satr-02.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements fully read; emission hashes retained",
+    "depth_status": "No numerical 8x floor. All five stages cover all eight actual cues, three tested overlap clusters, the exact finite usage log and an explicit no-pruning decision.",
+    "missing_requirements": [],
+    "verdict": "REJECT",
+    "novelty": "repeated",
+    "later_use": "uf-01 preserves separate release, dependency, access and resource switch conditions rather than merging them into one scheduling label."
+  },
+  {
+    "skill_id": "uf",
+    "application_number": 1,
+    "file": "/workspace/scratch/78b838bd97fc/hourly-20260908-0709/work/methods/uf-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements fully read; emission hashes retained",
+    "depth_status": "Original UF 8x floors met: 12 typed use cases, 9 concrete failure cases, 8 exact-source alternatives, and both switch directions for all 36 pairs among target plus alternatives; limits, anti-patterns and three later uses supplied. Source floor concerns applicability coverage, not recursive heading count.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "conditions-handoff-uf-later-use.json records opposing selected disciplines for fresh reset/retain cases; BOC01 uses setup/deadline switch conditions."
+  },
+  {
+    "skill_id": "boc",
+    "application_number": 1,
+    "file": "/workspace/scratch/78b838bd97fc/hourly-20260908-0709/work/methods/boc-01.md",
+    "status": "complete",
+    "source_fidelity": "Exact stdout and separate requirements fully read; emission hashes retained",
+    "depth_status": "No numerical BOC 8x floor exists. Its 20+ option floor is met by the complete24-permutation base space; all scored. Original BOC\u2192CTA\u2192BOC conditional dependencies are executed distinctly on the actual better candidates; five later inputs each enumerate24 orders. CTA has no numerical8x floor and no unresolved preference guess requiring /pre.",
+    "missing_requirements": [],
+    "verdict": "KEEP",
+    "novelty": "new_within_case",
+    "later_use": "conditions-handoff-boc-results.json records five performed changed-input comparisons, including two infeasible outcomes and restoration of the original EDF choice."
+  },
+  {
+    "skill_id": "adep",
+    "application_number": 1,
+    "file": "/workspace/scratch/78b838bd97fc/hourly-20260908-0709/work/methods/adep-01.md",
+    "status": "partial",
+    "source_fidelity": "Exact stdout and separate requirements fully read; emission hashes retained",
+    "depth_status": "ADEP defines no numerical 8x floor. Phase 0 questions are frozen but unanswered; Phase 1 is partial with 50 locally available single-type items sampled against an approximately-100 diverse target; every later phase is gated explicitly.",
+    "missing_requirements": [
+      "question_generation original dependency unavailable and Phase 0 human answers absent",
+      "approximately 100-item source-diverse sample not available; 50 single-type local records sampled",
+      "initial triage scores and composite ranking unavailable because profile weights/domains and item judgments are absent",
+      "approximately 20 actual user extraction-value ratings unavailable",
+      "calibration correlation/divergence analysis unavailable",
+      "calibrated full-source triage, budgeted target queue, selective extraction, actual yield, and model evolution unavailable"
+    ],
+    "verdict": "UNRESOLVED",
+    "novelty": "unresolved",
+    "later_use": "No calibrated later use exists. Next executable gate is direct Phase 0 answers or the missing question_generation dependency plus a source-diverse sample expansion."
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "source_edge": "sure\u2192maybe",
+  "original_reason": "Certainty contradicts uncertainty",
+  "source_intent": "unresolved",
+  "instances": [
+    {
+      "id": "aligned-positive",
+      "left": {
+        "question": "sure",
+        "proposition": "P",
+        "time": "t",
+        "sense": "p=1"
+      },
+      "right": {
+        "question": "maybe",
+        "proposition": "P",
+        "time": "t",
+        "sense": "p>0"
+      },
+      "witness": 1,
+      "compatible": true
+    },
+    {
+      "id": "aligned-strict",
+      "left": {
+        "question": "sure",
+        "proposition": "P",
+        "time": "t",
+        "sense": "p=1"
+      },
+      "right": {
+        "question": "maybe",
+        "proposition": "P",
+        "time": "t",
+        "sense": "0<p<1"
+      },
+      "witness": null,
+      "compatible": false
+    },
+    {
+      "id": "unaligned",
+      "left": {
+        "question": "sure",
+        "proposition": "P",
+        "time": "t",
+        "sense": "p(P)=1"
+      },
+      "right": {
+        "question": "maybe",
+        "proposition": "Q",
+        "time": "u",
+        "sense": "0<p(Q)<1"
+      },
+      "witness": {
+        "p(P)": 1,
+        "p(Q)": 0.5
+      },
+      "compatible": true
+    }
+  ],
+  "se35_frozen_input": {
+    "probabilities": [
+      0,
+      0.5,
+      1
+    ],
+    "predicates": [
+      "p=1",
+      "p>0",
+      "0<p<1"
+    ],
+    "retain_overlap_at_one": true
+  }
+}

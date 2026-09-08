@@ -1,0 +1,39 @@
+{
+  "weight_plan": [
+    "B",
+    "C"
+  ],
+  "color_plan": [
+    "A",
+    "C"
+  ],
+  "common_plan": [
+    "C"
+  ],
+  "meaning_sensitive_boxes": [
+    "A",
+    "B"
+  ],
+  "excluded_by_both": [
+    "D"
+  ],
+  "conditional_routes": [
+    {
+      "meaning": "low_weight",
+      "move": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "meaning": "light_color",
+      "move": [
+        "A",
+        "C"
+      ]
+    }
+  ],
+  "physical_actions_executed": false,
+  "executed_at": "2026-09-08T05:07:49.076368+00:00",
+  "input_artifact_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

@@ -1,0 +1,54 @@
+{
+  "all_pairs_considered": 3160,
+  "material_checks": [
+    {
+      "a": "R1-01",
+      "b": "R1-07",
+      "tension": "identity versus ambiguous interpretation",
+      "resolution": "retain alternatives without replacing exact wording"
+    },
+    {
+      "a": "R1-09",
+      "b": "R1-10",
+      "tension": "missing versus inaccessible",
+      "resolution": "use separate unavailable states"
+    },
+    {
+      "a": "R1-17",
+      "b": "R1-24",
+      "tension": "ordinary continuation versus unusual option",
+      "resolution": "compare both on input fit"
+    },
+    {
+      "a": "R1-25",
+      "b": "R1-30",
+      "tension": "reusable fit versus transfer restriction",
+      "resolution": "carry conditions with reuse"
+    },
+    {
+      "a": "R1-33",
+      "b": "R1-35",
+      "tension": "budget versus exclusivity",
+      "resolution": "joint schedule includes both"
+    },
+    {
+      "a": "R1-41",
+      "b": "R1-46",
+      "tension": "new criteria versus historical comparison",
+      "resolution": "version the decision"
+    },
+    {
+      "a": "R1-49",
+      "b": "R1-54",
+      "tension": "dispatch versus obsolete return",
+      "resolution": "recheck revision on return"
+    },
+    {
+      "a": "R1-73",
+      "b": "R1-76",
+      "tension": "direct answer versus provenance",
+      "resolution": "direct decision view plus source links"
+    }
+  ],
+  "no_claim": "An enumerated pair count is not proof no semantic conflict exists."
+}

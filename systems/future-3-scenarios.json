@@ -1,0 +1,37 @@
+{
+  "subject": "continuation after host changes",
+  "assumptions": "Continuation preserves a compatible reader; acceleration introduces heterogeneous endpoints; disruption removes dispatch. These enumerate cases, not capability forecasts.",
+  "rows": [
+    [
+      1,
+      "same host",
+      "more endpoints",
+      "no dispatch"
+    ],
+    [
+      2,
+      "same host",
+      "more endpoints",
+      "no dispatch"
+    ],
+    [
+      5,
+      "compatible host",
+      "new protocols",
+      "read-only archive"
+    ],
+    [
+      10,
+      "compatible host",
+      "new protocols",
+      "manual retrieval"
+    ],
+    [
+      25,
+      "compatible reader",
+      "heterogeneous readers",
+      "unknown reader"
+    ]
+  ],
+  "action": "Build a plain artifact contract with explicit target, inputs, endpoint and completion evidence. Current dispatch remains tied to actually available tools; future execution stays unknown."
+}

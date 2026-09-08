@@ -1,0 +1,85 @@
+{
+  "line": "inquiry",
+  "proposal_only": true,
+  "common_ledgers_edited": false,
+  "affected_slots": [
+    {
+      "skill_id": "ht",
+      "application_number": 1,
+      "file": "51-ht-information-policy.md",
+      "status": "complete",
+      "source_fidelity": "Exact current originals for HT and required EMV were loaded through scripts/read_original.py; stdout and stderr match the existing separately preserved inquiry-*-resume verified copies byte for byte.",
+      "depth_status": "HT 8x met: 7 hypotheses, 4 preregistered tests each, 6 competing explanations, 7 falsification attempts. EMV 8x met: 28 validation rows, 5 independent check forms, 8 named edge cases, 7 confidence calibrations. Exact derivations supplement rather than replace the 28 tests and 6 saved conditional cross-checks.",
+      "missing_requirements": [],
+      "verdict": "KEEP",
+      "novelty": "new_within_case: extends AV50 from fixed p=1/2 to a proved known-prior policy rule and a separately certified interval-prior result; repeated direct/cross-check rows receive no independent finding credit",
+      "later_use": "inquiry-resume-ht51-later-use-tests.json performs three distinct changed-input uses: p=7/20,c=1 changes q=1/2 to 3/4 and regret 3/20 to 3/40; p=1/4,c=0 changes to pure buy and 7/20 to 0; p=3/5,c=4/5 changes to immediate act and 1/5 to 0. The saved p=7/20,c=11/10 case retains q=1/2 as an adverse boundary. All uses are model policies only."
+    },
+    {
+      "skill_id": "spd",
+      "application_number": 3,
+      "file": "10-spd-uncertainty.md",
+      "status": "complete",
+      "source_fidelity": "Exact current originals for SPD, required GG, QAG, and ARAW were loaded through scripts/read_original.py; stdout and stderr match the existing separately preserved inquiry-*-resume verified copies byte for byte. The recovered design-decisions source remains unmodified at SHA-256 fd18540a4d2c60c29a6cc0fc864ab679ae475db429a89d503d272b69d1a0d22b.",
+      "depth_status": "SPD expanded scope complete; required GG reviewed all 492 actual legacy entries, added 93 tagged source-specific candidates, and met every current method checklist category while leaving possibility-space coverage unknown. QAG gated 15 proposed questions and retained 8. ARAW 8x met with 18 claims, 100 findings, 7 claim-to-bedrock levels, 8 cruxes, and 5 live fixtures.",
+      "missing_requirements": [],
+      "verdict": "KEEP",
+      "novelty": "new_within_case only for refuting the recovered source's 512/268 declarations with observed 492/248 entries and forcing explicit gap filling before QAG. Typed uncertainty routing reuses DD03's established distinction and receives no duplicate novelty credit.",
+      "later_use": "inquiry-resume-spd3-observation-tests.json performs access, semantic, threshold-crossing, action-invariant held-out, and same-origin receipt fixtures. They select read-and-audit, paired-proposition testing, threshold observation, HIGH without resolving x, and independent-derivation search. No human effect or authorial intent is inferred."
+    }
+  ],
+  "unresolved_external_gates": [
+    "HT: changing signal accuracy, signal alphabet, nonlinear utility, observation expiry, or real human utility requires a fresh model and evidence; none is inferred here.",
+    "SPD: authorial intent for the route reason, human reception or confidence change, actual external observation cost/expiry, and exhaustive possibility-space coverage remain unresolved.",
+    "SDC application1 remains partial on its human subjective-output gates; no human response was invented.",
+    "RCA applications1-2 remain partial on their recorded original nine-level/dependency gates; no numbered nodes or files were used to clear them."
+  ],
+  "consolidation": {
+    "created": false,
+    "reason": "This handoff produced two proposed slot-level KEEP results, not four genuinely distinct new keeps. No consolidation was forced."
+  },
+  "exact_files_changed": [
+    {
+      "path": "inquiry/10-spd-uncertainty.md",
+      "change": "modified",
+      "sha256": "d27f44b244310d73b371444a6efff3783c8ef3eb640c0221b5ce154b6b61375e"
+    },
+    {
+      "path": "inquiry/51-ht-information-policy.md",
+      "change": "created",
+      "sha256": "0f7a08b5dc3356bb63aa430a28f00edcb0c68f158fdda931a8d68abfa749328e"
+    },
+    {
+      "path": "inquiry/inquiry-resume-build-spd3.py",
+      "change": "created",
+      "sha256": "f234bdeec97fced333fdc55d1dbea758a106c2b08d846d05144f4a41fcef2340"
+    },
+    {
+      "path": "inquiry/inquiry-resume-spd3-gg-catalog.json",
+      "change": "created",
+      "sha256": "2a1c29f6a57c89a5bd184059f322f52a779674036884b0d2e6ac145ce1931257"
+    },
+    {
+      "path": "inquiry/inquiry-resume-spd3-qag.md",
+      "change": "created",
+      "sha256": "8f45b7f838f99a3fe0310818de32301ec36a6901a418da40c2f9304d090a8f7a"
+    },
+    {
+      "path": "inquiry/inquiry-resume-spd3-observation-tests.json",
+      "change": "created",
+      "sha256": "fcda989744ce9535fd9d70c63eb5f4d36e5773e8d621db04817342b2cc995624"
+    },
+    {
+      "path": "inquiry/inquiry-resume-spd3-araw.md",
+      "change": "created",
+      "sha256": "48f46ea34ed9982130ab363b8471046c6ac44fa16c8ff6e51e6df1c6453eb122"
+    },
+    {
+      "path": "inquiry/inquiry-resume-ht51-later-use-tests.json",
+      "change": "created",
+      "sha256": "959d08b88b9e5929c68ade27db74d3832cc7ad41eeb803a98f58e83efd12c1d7"
+    }
+  ],
+  "proposal_file": "continuation/inquiry-proposal.json",
+  "proposal_self_hash_omitted": true
+}

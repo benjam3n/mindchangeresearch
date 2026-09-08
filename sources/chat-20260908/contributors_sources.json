@@ -1,0 +1,191 @@
+[
+  {
+    "id": "S01",
+    "title": "Van Dongen et al. (2003), The cumulative cost of additional wakefulness",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12683469/",
+    "evidence": "Sleep-restriction experiment; indexed abstract",
+    "note": "Restricted sleep produced accumulating performance impairment while subjective sleepiness showed much smaller subsequent changes. This supports separating felt state from relevant performance; it does not establish a universal recovery schedule or an alertness-restoration technique."
+  },
+  {
+    "id": "S02",
+    "title": "Wager et al. (2004), Placebo-induced changes in fMRI in the anticipation and experience of pain",
+    "url": "https://collaborate.princeton.edu/en/publications/placebo-induced-changes-in-fmri-in-the-anticipation-and-experienc",
+    "evidence": "Experimental pain; article abstract",
+    "note": "Placebo analgesia was accompanied by changes in pain-related and anticipatory brain activity. Expectations can contribute to experienced pain in the studied conditions. This does not show that reassurance removes tissue injury or treats every pain condition."
+  },
+  {
+    "id": "S03",
+    "title": "Karni and Sagi (1991), Where practice makes perfect in texture discrimination",
+    "url": "https://www.academia.edu/2879452/Where_practice_makes_perfect_in_texture_discrimination_evidence_for_primary_visual_cortex_plasticity",
+    "evidence": "Original experimental paper",
+    "note": "Practice improved a particular texture-discrimination task, with specificity to retinal location, orientation, and eye. The result supports a local learning relationship and limits an inference to unrestricted perceptual transfer."
+  },
+  {
+    "id": "S04",
+    "title": "MacDonald (2018), Hearing lips and seeing voices: origins of the McGurk effect",
+    "url": "https://www.researchgate.net/publication/315942336_Hearing_Lips_and_Seeing_Voices_the_Origins_and_Development_of_the_%27McGurk_Effect%27_and_Reflections_on_Audio-Visual_Speech_Perception_Over_the_Last_40_Years",
+    "evidence": "Original researcher's account of the 1976 experiments",
+    "note": "Incongruent visual speech altered auditory speech percepts. This supplies a concrete example of cross-sensory contribution, rather than a claim that adding another sensory channel always improves accuracy."
+  },
+  {
+    "id": "S05",
+    "title": "Vogel, McCollough, and Machizawa (2005), Neural measures reveal individual differences in controlling access to working memory",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16306992/",
+    "evidence": "Experimental task with individual-difference associations; abstract",
+    "note": "Working-memory performance was related to the efficiency of excluding irrelevant visual material. This does not by itself establish that training a filtering strategy increases general memory capacity."
+  },
+  {
+    "id": "S06",
+    "title": "Roediger and Karpicke (2006), Test-enhanced learning",
+    "url": "https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/",
+    "evidence": "Two experiments; article abstract",
+    "note": "With prose passages, repeated restudy favored immediate recall, whereas retrieval practice favored delayed retention. Restudy also increased confidence. The relevant outcome and delay therefore matter when choosing a learning contribution."
+  },
+  {
+    "id": "S07",
+    "title": "Loftus (1975), Leading questions and the eyewitness report",
+    "url": "https://app.nova.edu/toolbox/instructionalproducts/edd8124/articles/1975-Loftus.pdf",
+    "evidence": "Original experiments and the author's account of earlier work",
+    "note": "Misleading post-event questions affected later reports of witnessed material. The paper also discusses the earlier Loftus–Palmer wording experiments. These findings justify distinguishing a later report from independently corroborated event information; they do not establish that every changed report reflects permanent erasure of the original memory."
+  },
+  {
+    "id": "S08",
+    "title": "Lupyan, Rakison, and McClelland (2007), Language is not just for talking",
+    "url": "https://stanford.edu/~jlmcc/papers/LupyanEtAl07_PsychSci.pdf",
+    "evidence": "Original experiments",
+    "note": "Redundant verbal labels improved learning of novel categories in a supervised alien-classification task. The result supports a specific contribution of labels alongside examples and feedback; it does not make naming sufficient for arbitrary concept acquisition."
+  },
+  {
+    "id": "S09",
+    "title": "Gentner, Loewenstein, and Thompson (2003), Learning and transfer: a general role for analogical encoding",
+    "url": "https://groups.psych.northwestern.edu/gentner/papers/GentnerLoewensteinThompson03.pdf",
+    "evidence": "Original experiments",
+    "note": "Comparing negotiation cases aided schema abstraction and transfer relative to studying cases separately; comparison support mattered. The studied relational transfer is narrower than a claim of universal cross-domain transfer."
+  },
+  {
+    "id": "S10",
+    "title": "Zhang and Norman (1994), Representations in distributed cognitive tasks",
+    "url": "https://pages.ucsd.edu/~scoulson/203/zhang.pdf",
+    "evidence": "Original theoretical analysis and four task experiments",
+    "note": "The paper analyzes how internal and external representations jointly organize a task and tests representational changes in Tower of Hanoi variants. An external aid can change the task's available operations and demands; this is not proof of an increase in unaided general intelligence."
+  },
+  {
+    "id": "S11",
+    "title": "Tversky and Kahneman (1981), The framing of decisions and the psychology of choice",
+    "url": "https://sites.stat.columbia.edu/gelman/surveys.course/TverskyKahneman1981.pdf",
+    "evidence": "Original choice experiments",
+    "note": "Different presentations of equivalent outcomes produced different preferences in studied decision problems. A change in choice under a frame need not establish an improvement in the decision or a stable underlying value change."
+  },
+  {
+    "id": "S12",
+    "title": "Eyal, Steffel, and Epley (2018), Perspective mistaking",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29620401/",
+    "evidence": "Twenty-five experiments; article abstract",
+    "note": "Imagining another's perspective did not consistently improve interpersonal accuracy and sometimes increased confidence. In the final experiment, obtaining perspective through conversation improved accuracy. These human-task results support using actual recipient information; they do not prove that every question helps or that all perspective imagination is useless."
+  },
+  {
+    "id": "S13",
+    "title": "Oppezzo and Schwartz (2014), Give your ideas some legs",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+    "evidence": "Four experiments; article abstract",
+    "note": "Walking benefited divergent idea generation in the studied tasks, without equivalent gains on a convergent task. The finding distinguishes a contribution to one creative operation from a general enhancement of creativity or reasoning."
+  },
+  {
+    "id": "S14",
+    "title": "Rozenblit and Keil (2002), The misunderstood limits of folk science",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21442007/",
+    "evidence": "Original experiments; abstract and reported explanatory-demand results",
+    "note": "Participants' confidence in explaining mechanisms could exceed the detail they could actually provide. Demands for explanation exposed this mismatch. The relevant distinction is between felt understanding and available explanatory operations, not a claim that every confident understanding is illusory."
+  },
+  {
+    "id": "S15",
+    "title": "Gollwitzer (1999), Implementation intentions",
+    "url": "https://www.prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Implementation-intentions-1999.pdf",
+    "evidence": "Original theorist's formulation and research-program synthesis",
+    "note": "The proposed method links a recognizable anticipated situation to a selected response; the article reviews evidence about translating goals into action. It supports examining the cue-action relation. It does not make a plan sufficient when its cue is missed or its action cannot be performed."
+  },
+  {
+    "id": "S16",
+    "title": "Lally et al. (2010), How are habits formed?",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+    "evidence": "Prospective daily-life study; self-reported automaticity",
+    "note": "Participants repeated self-selected behaviors in recurring contexts, with substantial variation in the development of automaticity. This is not a universal fixed-time habit prescription, nor a randomized demonstration that every repeated behavior acquires the same habit strength."
+  },
+  {
+    "id": "S17",
+    "title": "Gross (1998), Antecedent- and response-focused emotion regulation",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9457784/",
+    "evidence": "Disgust-film experiment; article abstract",
+    "note": "Reappraisal and expressive suppression reduced visible expression but differed in felt disgust and sympathetic activation. Expression, experience, and physiology therefore need separate treatment. The result does not establish one strategy as best for every emotion or situation."
+  },
+  {
+    "id": "S18",
+    "title": "Clark and Brennan (1991), Grounding in communication",
+    "url": "https://collablab.northwestern.edu/CollabolabDistro/nucmc/ClarkAndBrennan-GroundingInCommunication-1991.pdf",
+    "evidence": "Original theoretical account",
+    "note": "Communication requires coordinating content and the process of establishing sufficient shared understanding for the joint activity. Purpose and medium affect that coordination. This is a theoretical account, not a trial demonstrating every proposed conversational repair."
+  },
+  {
+    "id": "S19",
+    "title": "Bandura, Adams, and Beyer (1977), Cognitive processes mediating behavioral change",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15093/",
+    "evidence": "Original experiment; article abstract",
+    "note": "In a particular fear-related task, mastery-based intervention produced stronger and more generalized efficacy expectations than vicarious experience alone. This supports separating demonstrated performance from verbal encouragement; transfer to other people, abilities, or settings is a further claim."
+  },
+  {
+    "id": "S20",
+    "title": "Aron et al. (1997), The experimental generation of interpersonal closeness",
+    "url": "https://journals.sagepub.com/doi/abs/10.1177/0146167297234003",
+    "evidence": "Original experiments; article abstract",
+    "note": "One comparison found greater immediate closeness after progressively personal reciprocal tasks than after small talk. Other hypothesized contributors did not show significant effects. Short-term reported closeness is distinct from durable attachment, trust, or a universally suitable disclosure procedure."
+  },
+  {
+    "id": "S21",
+    "title": "Bruneau and Saxe (2012), The power of being heard",
+    "url": "https://ombuds.columbia.edu/sites/default/files/content/pics/30%20Anniv/The%20power%20of%20being%20heard%20-%20Bruneau.pdf",
+    "evidence": "Original intergroup experiments",
+    "note": "Effects of giving versus receiving perspective differed across the groups studied. For one studied group, interaction in which an outgroup member heard its perspective mattered beyond writing alone. These are context-dependent attitude findings, not a universal rule about who needs to speak or listen."
+  },
+  {
+    "id": "S22",
+    "title": "Kross et al. (2014), Self-talk as a regulatory mechanism",
+    "url": "https://sites.lsa.umich.edu/emotion-selfcontrol-psych/wp-content/uploads/sites/1322/2024/07/KrossJ_Pers_Soc_Psychol2014Self-talk_as_a_regulatory_mechanism_How_you_do_it_matters.pdf",
+    "evidence": "Original experiments",
+    "note": "Using one's name or non-first-person self-reference affected self-distancing and responses to social stress in the studied tasks. Changes in verbal stance can contribute to regulation; a durable general transformation does not follow from changing a pronoun once."
+  },
+  {
+    "id": "S23",
+    "title": "Hershfield et al. (2011), Increasing saving behavior through age-progressed renderings of the future self",
+    "url": "https://vhil.stanford.edu/publications/increasing-saving-behavior-through-age-progressed-renderings-future-self",
+    "evidence": "Original studies; author-laboratory abstract",
+    "note": "Interacting with age-progressed self-representations shifted monetary allocation or delay choices toward the future. The result supports a specific representational contribution, not a demonstrated permanent identity change or guaranteed long-term financial outcome."
+  },
+  {
+    "id": "S24",
+    "title": "Schultz et al. (2007), The constructive, destructive, and reconstructive power of social norms",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17576283/",
+    "evidence": "Household field experiment; article abstract",
+    "note": "Descriptive neighborhood feedback changed energy use differently depending on the household's starting usage; an added approval/disapproval cue prevented the observed boomerang effect. This concerns behavior under particular messages, not proof of norm internalization or universal persuasive effectiveness."
+  },
+  {
+    "id": "S25",
+    "title": "Cepeda et al. (2008), Spacing effects in learning",
+    "url": "https://files.eric.ed.gov/fulltext/ED505660.pdf",
+    "evidence": "Original experiment; author manuscript",
+    "note": "In learning facts across extended intervals, the spacing associated with best later retention depended on the time to the final test. This supports attending to the retention interval, not a universal schedule for every motor, social, or intellectual skill."
+  },
+  {
+    "id": "S26",
+    "title": "Shadmehr and Mussa-Ivaldi (1994), Adaptive representation of dynamics during learning of a motor task",
+    "url": "https://www.researchgate.net/publication/15015730_Adaptive_representation_of_dynamics_during_learning_of_a_motor_task",
+    "evidence": "Original motor-learning experiments",
+    "note": "Participants adapted reaching movements to an imposed force field. Patterns of transfer bore on how the learned dynamics were represented. This supplies a specific adaptation example, not a demonstration of unrestricted flexible competence."
+  },
+  {
+    "id": "S27",
+    "title": "Wegner et al. (1987), Paradoxical effects of thought suppression",
+    "url": "https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Wegner%2CSchneider%2CCarter%2C%26White%201987.pdf",
+    "evidence": "Original experiments",
+    "note": "Participants instructed to suppress a white-bear thought later produced more of it in the comparison task; a specific alternative distractor changed the pattern. This is evidence for conditional rebound, not a universal claim that every attempt to suppress any thought necessarily backfires."
+  }
+]

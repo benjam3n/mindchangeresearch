@@ -1,0 +1,17 @@
+{
+  "actor": "conditions subagent",
+  "operation": "Serial ledger regeneration plus progress derivation and disk writes",
+  "sample_count": 1,
+  "input_slots_scanned": 50,
+  "recorded_applications_reflected": 49,
+  "cycle_time_seconds": 0.0632138929940993,
+  "slots_processed_per_second": 790.9653658677097,
+  "scope": "One local filesystem pass including a Python subprocess; not reader throughput, general performance, or comparison against another implementation.",
+  "measured_utc": "2026-09-08T04:55:07.860154+00:00",
+  "snapshot_execution_counts": {
+    "complete": 32,
+    "partial": 16,
+    "blocked": 1,
+    "pending": 1
+  }
+}

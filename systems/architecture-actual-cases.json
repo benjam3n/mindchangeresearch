@@ -1,0 +1,35 @@
+{
+  "revised_budget_optimum": {
+    "actions": [
+      "S",
+      "C"
+    ],
+    "cost": 35,
+    "value": 40,
+    "feasible": true
+  },
+  "authority_cases": [
+    {
+      "authority": [
+        "describe"
+      ],
+      "proposed": "execute",
+      "accept": false
+    },
+    {
+      "authority": [
+        "describe"
+      ],
+      "proposed": "describe",
+      "accept": true
+    },
+    {
+      "authority": [
+        "describe",
+        "execute"
+      ],
+      "proposed": "execute",
+      "accept": true
+    }
+  ]
+}

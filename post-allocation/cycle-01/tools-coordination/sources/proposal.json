@@ -1,0 +1,66 @@
+{
+  "owner": "cycle_coordination",
+  "cycle": "post-allocation/cycle-01",
+  "domain": "tools-coordination",
+  "frozen_input": "../frozen-inputs.md#tools-and-coordination",
+  "substantive_records": [
+    {
+      "path": "post-allocation/cycle-01/tools-coordination/01-col-semantic-merge-protocol.md",
+      "original_skill_id": "col",
+      "status": "complete_within_scope",
+      "verdict": "KEEP",
+      "prospective_uses": [
+        "six changed proposal orders",
+        "missing r2 provenance receipt"
+      ],
+      "new_finding": "Field-level merge safety requires semantic-basis compatibility, not only schema validity and base-version matching. An outcome produced under C0 cannot become the outcome of C1 merely because the two fields occupy one record.",
+      "limits": "Constructed agent artifacts only; no human-team effectiveness claim."
+    },
+    {
+      "path": "post-allocation/cycle-01/tools-coordination/02-tracematrix-proposal-ledger.md",
+      "original_skill_id": "tracematrix",
+      "requested_depth": "8x",
+      "status": "complete_within_scope",
+      "verdict": "KEEP_WITH_SCOPE",
+      "floors": {
+        "distinct_items_traced": 100,
+        "trace_levels": 5,
+        "gap_checks": 12,
+        "reports": 4,
+        "link_types": 7
+      },
+      "prospective_uses": [
+        "six changed proposal orders",
+        "missing r2 provenance receipt",
+        "later current/rejected/gated ledger queries"
+      ],
+      "new_finding": "The proposal log and trace matrix have different jobs: the log preserves consideration, while bidirectional trace supports later classification of a value as current, retained, rejected, or gated.",
+      "limits": "The 8x matrix is justified for audit-sensitive changes, not as a universal per-merge overhead."
+    }
+  ],
+  "source_receipts": [
+    {
+      "skill_id": "col",
+      "original_source": "skills/col/SKILL.md",
+      "original_sha256": "53e5bdbe771aaf02bd5eb2773c606badf440a356f8fb7d8964c47a3f83e9ec47",
+      "requirements_sha256": "c118d03cdd341a6476f292eb3d7f07c35992773f3447d284824ae755e7450bd8",
+      "stdout_path": "post-allocation/cycle-01/tools-coordination/sources/col.original.stdout",
+      "stderr_path": "post-allocation/cycle-01/tools-coordination/sources/col.loader.stderr"
+    },
+    {
+      "skill_id": "tracematrix",
+      "original_source": "skills/tracematrix/SKILL.md",
+      "original_sha256": "6dbd2aae8e0c93f4c08d768877026982bdc5ace51cb0bfba4f4052950027f268",
+      "requirements_sha256": "c118d03cdd341a6476f292eb3d7f07c35992773f3447d284824ae755e7450bd8",
+      "stdout_path": "post-allocation/cycle-01/tools-coordination/sources/tracematrix.original.stdout",
+      "stderr_path": "post-allocation/cycle-01/tools-coordination/sources/tracematrix.loader.stderr"
+    }
+  ],
+  "integration": {
+    "quota_effect": "none_post_allocation",
+    "beneficial_findings": 2,
+    "recommended_status": "accept_both_with_stated_scope",
+    "common_files_edited": false,
+    "human_or_model_weight_change_claimed": false
+  }
+}

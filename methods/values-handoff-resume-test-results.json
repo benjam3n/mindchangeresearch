@@ -1,0 +1,31 @@
+{
+  "command": "python3 methods/specs-resume-tests.py",
+  "executed_after_corrections": true,
+  "total": 32,
+  "passed": 32,
+  "failed": [],
+  "groups": {
+    "specification_contracts": ["S01-correction-input", "S02-correction-step", "S03-independent-trace-status", "S04-selection-mode"],
+    "invitation_later_use": ["L01-event-identity", "L02-corrected-day", "L03-inherited-amount", "L04-corrected-medium", "L05-refusal-retained", "L06-role-exclusions", "L07-superseded-set", "L08-reaffirmations", "L09-identical-replay", "L10-conflicting-id", "L11-mixed-scope", "L12-ambiguous-order", "L13-current-draft-bindings", "L14-stale-draft", "L15-no-matching-option"],
+    "trace_later_use": ["T01-unique-identities", "T02-typed-relations", "T03-lineages", "T04-missing-parent", "T05-cycle", "T06-missing-target", "T07-mixed-status-separated", "T08-unavailable-human-stage", "T09-revisit-no-novelty"],
+    "registry_and_documents": ["R01-registry-count-ids", "R02-registry-kinds", "R03-no-exact-semantic-duplicates", "D01-reflection-fields"]
+  },
+  "tested_results": {
+    "current_day": {"value": "Sunday", "revision_id": "R1:read:when"},
+    "inherited_amount": {"value": "first two pages", "revision_id": "R0:read:amount"},
+    "current_medium": {"value": "text chat", "revision_id": "R1:join:medium"},
+    "retained_refusal": {"value": "declined", "revision_id": "R0:host:stance"},
+    "exact_replay": "idempotent",
+    "conflicting_event_id": "identity_conflict",
+    "mixed_record_scope": "mixed_scope",
+    "same_order_conflict": "unresolved_chronology",
+    "trace_ids": 5,
+    "claim_ids": 9,
+    "typed_relations_resolve": true,
+    "missing_parent_detected": true,
+    "missing_target_detected": true,
+    "cycle_detected": true,
+    "revisit_novel_evidence": false
+  },
+  "scope": "Finite tests of declared mappings in constructed local fixtures. They do not test natural-language interpretation, external interaction, preference, timing, learning or transfer."
+}

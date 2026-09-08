@@ -1,0 +1,9 @@
+{
+  "repository": "benjam3n/subjectsystems",
+  "commit": "8605d44181fab127087ba27c60448f24cdc3b1c7",
+  "source_path": "subjects/catalog.json",
+  "source_sha256": "19421efe332db52d491afff2e72ce118c51074b55a587c4c1ce4c88a528a98f8",
+  "projection_path": "sources/subject-bindings.json",
+  "projection_sha256": "0a38a7ac7c2813740cd38c05eefdaa107fa90ecf38411e02d0f1a7683d4dc631",
+  "subject_count": 471
+}

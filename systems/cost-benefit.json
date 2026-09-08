@@ -1,0 +1,168 @@
+{
+  "assumed_work_units": true,
+  "plans": {
+    "status_quo": {
+      "upfront": 0,
+      "annual_saving": 0
+    },
+    "full_setup": {
+      "upfront": 6,
+      "annual_saving": 1
+    },
+    "partial_setup": {
+      "upfront": 2,
+      "annual_saving": 0.5
+    }
+  },
+  "base": {
+    "status_quo": {
+      "flows": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pv": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "npv": 0.0,
+      "simple_payback": null,
+      "roi": null,
+      "bcr": null
+    },
+    "full_setup": {
+      "flows": [
+        -6,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pv": [
+        -6.0,
+        0.9090909090909091,
+        0.8264462809917354,
+        0.7513148009015775,
+        0.6830134553650705,
+        0.6209213230591549
+      ],
+      "npv": -2.2092132305915526,
+      "simple_payback": 6.0,
+      "roi": -0.16666666666666666,
+      "bcr": 0.6317977949014079
+    },
+    "partial_setup": {
+      "flows": [
+        -2,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "pv": [
+        -2.0,
+        0.45454545454545453,
+        0.4132231404958677,
+        0.37565740045078877,
+        0.34150672768253526,
+        0.31046066152957746
+      ],
+      "npv": -0.10460661529577625,
+      "simple_payback": 4.0,
+      "roi": 0.25,
+      "bcr": 0.9476966923521118
+    }
+  },
+  "sensitivity": [
+    {
+      "horizon": 3,
+      "discount": 0,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -3.0,
+        "partial_setup": -0.5
+      }
+    },
+    {
+      "horizon": 3,
+      "discount": 0.1,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -3.513148009015778,
+        "partial_setup": -0.756574004507889
+      }
+    },
+    {
+      "horizon": 3,
+      "discount": 0.2,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -3.893518518518518,
+        "partial_setup": -0.9467592592592591
+      }
+    },
+    {
+      "horizon": 5,
+      "discount": 0,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -1.0,
+        "partial_setup": 0.5
+      }
+    },
+    {
+      "horizon": 5,
+      "discount": 0.1,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -2.2092132305915526,
+        "partial_setup": -0.1046066152957763
+      }
+    },
+    {
+      "horizon": 5,
+      "discount": 0.2,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -3.0093878600823043,
+        "partial_setup": -0.5046939300411522
+      }
+    },
+    {
+      "horizon": 10,
+      "discount": 0,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": 4.0,
+        "partial_setup": 3.0
+      }
+    },
+    {
+      "horizon": 10,
+      "discount": 0.1,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": 0.14456710570468,
+        "partial_setup": 1.07228355285234
+      }
+    },
+    {
+      "horizon": 10,
+      "discount": 0.2,
+      "npvs": {
+        "status_quo": 0.0,
+        "full_setup": -1.8075279144492278,
+        "partial_setup": 0.09623604277538611
+      }
+    }
+  ]
+}

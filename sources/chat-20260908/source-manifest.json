@@ -1,0 +1,685 @@
+{
+  "source_scope": "Exact local artifacts from the supplied conversation, pinned repository snapshots, and visible user messages. No complete missing assistant transcript is asserted.",
+  "source_commits": {
+    "subjectsystems": "8605d44181fab127087ba27c60448f24cdc3b1c7",
+    "perspectiveoptimizer": "7277935d3e9267b6103f7188ed65a95a3f0dc6c2"
+  },
+  "files": [
+    {
+      "path": "Mind_Change_Inventory.md",
+      "sha256": "e4148ff961856ee26b8cba86b3a9b9c7903f1841f96d19314d3a98eb9cd3636e"
+    },
+    {
+      "path": "Mind_Change_Inventory.original.md",
+      "sha256": "e9b2a78bdb7237dc85316b47fba2f919c85df2802cbbb9812a270aed95efade4"
+    },
+    {
+      "path": "Recursive_Self_Improvement_Assessment.md",
+      "sha256": "f518f41a5db9c38314dcc7dcd599f5460d5b05eaedf17b83a36b668ab13a262b"
+    },
+    {
+      "path": "audit_results.json",
+      "sha256": "5a4b715b5072ac240dc7f19533b5dd1de5e9a4085703d764444b943d633f866a"
+    },
+    {
+      "path": "audit_rsi.py",
+      "sha256": "3d308ce93a9c38fc2274392b61379e9d3ce039e51073d48f4635bd5243e8dcb9"
+    },
+    {
+      "path": "build_expanded_inventory.py",
+      "sha256": "072cda2ca7130a1f32f88830e5ab36bd11ae218c48eab9fca1f69bcc19a3b3a7"
+    },
+    {
+      "path": "contributors_001_136.txt",
+      "sha256": "4799345809d3ddc007394c1f3343b0dbc5ede8612675bb702995eabc71281072"
+    },
+    {
+      "path": "contributors_137_202.txt",
+      "sha256": "c13de4c7846dfefdfc1f89b0dae78150591038b7194286c62e1db82820442b0f"
+    },
+    {
+      "path": "contributors_203_258.txt",
+      "sha256": "202a493d632aa7b8d98e67c978294aa678041f6285f57964fdbc0553cdbd3f58"
+    },
+    {
+      "path": "contributors_259_319.txt",
+      "sha256": "e497b61baf9c2b8289234b170a5e877ae6dff9d6e63abddf676095659ecf74af"
+    },
+    {
+      "path": "contributors_320_377.txt",
+      "sha256": "c1036d29ccd7dd3040a30d7a4865fbce5d7813ae7b83477f3cc8a2ddf91e11a1"
+    },
+    {
+      "path": "contributors_378_435.txt",
+      "sha256": "ce2c80b2fda99ec6bfdbd21305b1023ac7635c4b3a718e5c3bcbf59b02b4968f"
+    },
+    {
+      "path": "contributors_436_496.txt",
+      "sha256": "f3685ce7c962b968528869239ccd723405295dc6428ea2d982a192e239e02169"
+    },
+    {
+      "path": "contributors_497_544.txt",
+      "sha256": "0fe66d6ceee9ff61e92efd8bb671d611cc1bf1384d6f311f8cb1113025151672"
+    },
+    {
+      "path": "contributors_545_590.txt",
+      "sha256": "f44477127639eb45034f437ae3c3728e935cb6fde745eef730637ad0d0819665"
+    },
+    {
+      "path": "contributors_ai.txt",
+      "sha256": "30c4e8c75552159667be477a95c049863e1b6ed1a2c43e963dd72925d6c0940a"
+    },
+    {
+      "path": "contributors_sources.json",
+      "sha256": "d9dcc570ca05f0e7aae939db7190ad93bf28d43b194b5101c8a67b9895513b33"
+    },
+    {
+      "path": "inventory_expansion_front.md",
+      "sha256": "f188846f721e6a6e235fd7fa446b457a394c3cda363e486fd4667eb2f3c317be"
+    },
+    {
+      "path": "inventory_expansion_verification.json",
+      "sha256": "84e63ed207462d685422dab3ab06b7adac270917e6931b01c0a756c4b3483bdf"
+    },
+    {
+      "path": "mind_change_base.json",
+      "sha256": "728c3c79544cc74bf277b46b895e82efda1cfa87d8880484dc87c18cafd5652b"
+    },
+    {
+      "path": "prior-reports/Contribution_Selection_Study_001.md",
+      "sha256": "726449888f577f79d707a2e13139e64767be4b8cd7bf4b695843ed4b6db9a86a"
+    },
+    {
+      "path": "prior-reports/Perspective_Structure_and_Process_001.md",
+      "sha256": "fdc2825121d9468d5c418719a46edd6d40e45eed78718ff12fb586f5e4f8ad04"
+    },
+    {
+      "path": "prior-reports/Repository_Construction_Design.md",
+      "sha256": "e26b284e8f0b6220b95c1272c1d7b7f33ef79ef0c657c896ba128c930638131d"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/AGENTS.md",
+      "sha256": "a0cbabbca33a00036097fd9a45dff135736b169e893909e6e778574fc725ff44"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/README.md",
+      "sha256": "a60a93e518dca2f2eda19a91e9256e6557f0ce091e10f86567e30f0f30e36c79"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/application-condition-extension.json",
+      "sha256": "a70dc6024e1b053a34e76193fc56decfb14dc270b2cdb05ca2e92436f6def24b"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/learning-observations.json",
+      "sha256": "14e24cb980ef0e44884f2dd5da4dcbf96d5091f20aac8740e44be4c9f08209a7"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/learning-route.md",
+      "sha256": "cce04e20758fa2b51be81f71eaaa0ec4babde6def09db1f2ce91b218157d1bb8"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/learning-routes.json",
+      "sha256": "f1ec1b4b16d064932fd5d451606c31d34357df7bdaf67948d1afa77e2124d9aa"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/learning-space.json",
+      "sha256": "83e89620f53136f472592988a25739916b46b97b67ac6f4906883f17f0b20430"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/learning-transfer.md",
+      "sha256": "3e757694902942d23a841a304c987b3eb25e9efe8b1075441f7ac65194da3a12"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/nonconscious-space.json",
+      "sha256": "07ce4e263de0364ff4113a848e27b3d64335274a6a784bcc028802877f01985a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/perspective-space.md",
+      "sha256": "243096478e075643c33156032636b81330be9d279309c3915400255def6ebdd0"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/cases/perspective-transitions.json",
+      "sha256": "5a19c3235e698e125de606b4c0a61921a5f75c90b678872597395af73409ea4c"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/README.md",
+      "sha256": "749cd00a2ddbc76f4eccd3d8bbb2dfba3a896e84f8176c8d01cf516198ae0396"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/anticipation-outcome-branching.md",
+      "sha256": "6aab8e1e7f183e9480e64772f35eb39ffe5779c4c9d4ca45915ff11825ad1f5d"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/claim-branch-exploration.md",
+      "sha256": "0f212df5bcfffa6dbda08c7f932511b6512ae655f854afcd537a8b821ff713c7"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/constraint-source-examination.md",
+      "sha256": "8cdf569d44629b0eb9eef7405bc37b9c69c7e30971803015007e5fb69fdc4171"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/continuation-exclusion.md",
+      "sha256": "f55c3747e512ffa85537ea42a1f9ed93d50a4259ac8c436c2958664b03e394b9"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/dependency-regress.md",
+      "sha256": "26c681ae6547848133dcef7af84ed35ead366281dd018ca03c98b2477f391ba0"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/expression-vocabulary-removal.md",
+      "sha256": "9657bd5a66900789511647870028180c445680003774982aee7abd50dcd1fd18"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/goal-means-regression.md",
+      "sha256": "64a24fcf993e6ff7f28f6694866c7bb96652ef3818011469f1a4c2df94fddf39"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/perspective-assumption-trial.md",
+      "sha256": "60237e88121388d7b911058cd1b4ec067a3716c47203b6576fbeb3c8c5571f1f"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/perspective-change-comparison.md",
+      "sha256": "4b3a0d5a157d7a52bd0696fbb1386e37743d867923daaadab00feec6e739a35c"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/perspective-composition.md",
+      "sha256": "a383b1205b56b6a9cd01ef4f687c68c6f8705db3c0a33d01b28713d6432af329"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/perspective-dimension-discovery.md",
+      "sha256": "6f084542dc6bf1e0e474caeee29d8ac223bc19c85fa49f9bc255a7ad3cc0c77a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/methods/reasoning-analogy-transfer.md",
+      "sha256": "03a41b35597ecaab90fbc610dead56fd13ab3ea1cd910d163c9ccdd794c68f29"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/adoption-correspondence.md",
+      "sha256": "eab609ea2732ca4acb9118cc659597ee880f531e37090619763ef27c7c9a4826"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/conditions.md",
+      "sha256": "71ae97717f049ca9cdee54d53200652e2cd6c7d864f479205cd2633340244f7a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/construction-questions.md",
+      "sha256": "993b7590407951c51411d207c21387afcd2fc92d1436af2efb6c0bcdffa0666b"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/construction.md",
+      "sha256": "8a048be72a12fc4614e42e5e40d06b8646451fdf260bd00d24df6dc4a47c3031"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/definition.md",
+      "sha256": "f5b38eb8611b4ea31fc05c5b93d14dc1968ab8e4df54b83b549438d2cc2bbe5a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/influence.md",
+      "sha256": "a6e0cf40b49f67060f385f0886628174c9d8aaed3b8103c9b64e5e7a9df4392b"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/operation.md",
+      "sha256": "a7d8f102f0aa52eba733032d8edb78769bb42e524f0b545c88098f38f094eef3"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/patterns.json",
+      "sha256": "4a37cc72d30f40a8bbe286c066188f915f4220da52f7f09dbb65594fc9cbb3df"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/process.md",
+      "sha256": "c66e270a1ceba0138fa3c1e0204e96a2c8ccc8bdf44218e2f034fe5e6dc45a9e"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/relation.md",
+      "sha256": "921dfe333c9cce2f7b6d6c137f96565f7fc2b52cb0ed6e3e0558a893441ae766"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/structure.md",
+      "sha256": "05d23aff4c7f9e9b35708607cf1cc9a70b4427dff50c4cc9e4e5d432db499a85"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/subject-relevance.md",
+      "sha256": "16245a91cbbbbd063d7e6b43a585456fc545afd1d9880df5057487bf4f0bb8c0"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/action.md",
+      "sha256": "06a54c4f391bd0b155c5ef6e956585e3e91204a0f38d3ccb2b2b82fe9835964b"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/anticipation.md",
+      "sha256": "8c3ffad8189b2ce74e0b29c936502807a06dca4481280e69895c7f6380307bd0"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/attention.md",
+      "sha256": "88af08ab6c6c36b4a870cc5fbcc4185bc3146a57153c631746c979110ccdde4c"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/claim.md",
+      "sha256": "3db7ea9f22748a4bc663d2a7346965124654f16ae07606dcdac175b509c0b54a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/comparison.md",
+      "sha256": "4d7681a3de872beaf4cd621a40e7464b17b5a2c6dae9bbd45bb2964294fcca55"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/consequence.md",
+      "sha256": "d4a435067080908607d986fb4ab3c9516367f0173147709d8ccbe9f1d7504dce"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/constraint.md",
+      "sha256": "c44d49c430c1c4a5c8e5a5e36a17787b111458c604fc7b2fe54599ae432f3ae7"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/continuation.md",
+      "sha256": "d3eac7e54f1c4a8de1ab9c9dc73f81d13335ba4f96acd7a83419addda8fc9b74"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/criterion.md",
+      "sha256": "45ebdb4c9ddcd22ee77cc0bf6a729ff23e3d27262e2e76d350893430d4ac6d26"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/execution.md",
+      "sha256": "0151fd7f8fde0fa6a6712de065ffcda06669ca0f27c89740c55c5a64217b64a3"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/explanation.md",
+      "sha256": "e1cdc8d48ae22c584e82bb845fa216b8279e27519dcf31e60eeb962152c23460"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/exploration.md",
+      "sha256": "58628d69ddaa2f938c6388bda8c41de2b8b66a66ac056208b1ca3a575776b3a3"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/expression.md",
+      "sha256": "7f81c3cdc62a0833c5fde3b99e198fe0eed4dfabea0180fd72020a88ccb153ea"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/goal.md",
+      "sha256": "8f6c49a71692f20e53e61fc6691ed8931aa01d45fa87d1a432134387d78ae5ab"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/learning.md",
+      "sha256": "21ba68afc9bc2844ab89eb29d6d6dabc014df729352308a15365d90d89cb4346"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/model.md",
+      "sha256": "fb51775430e61fe986a56559d9d8fa079cbee83b059dde25807139112f6cb180"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/option.md",
+      "sha256": "7b41750c1916a699507a98157759f1827198edd36b6c0954397fe007956d3fe7"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/perspective.md",
+      "sha256": "1a4d3fb9c9a6e1dc3cf8df6dae3b7b4c154f48423731f0e6f0b1253111d14ea0"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/prediction.md",
+      "sha256": "5e11e1b9bfe69e236704a768483b86c40259c81a7166f17625cc023e6055f895"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/problem.md",
+      "sha256": "f2cc9609fda620195172bbf778c644fd1280cfd4e3205926dd4b9374862c1402"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/question.md",
+      "sha256": "76605a79c73871d106b2c39b42f65e9e9ef02bd889bf7665ae6c57a3a92ed8e7"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/reasoning.md",
+      "sha256": "110b6068e4d741b6b7b769550f25994c3a217272f6ac1ff72c66ae9d7f9eb11a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/resource.md",
+      "sha256": "f8c87443700ca7e166f69445740c6681926a0e2ef22d802d4e4e1ee8299548e4"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/subject.md",
+      "sha256": "be2d7ca4a4be41e5f1d037bd27883aeaddaa985c80cf9306eecb2d27ef830212"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspective/types/uncertainty.md",
+      "sha256": "b7ce6f3c0f8781101930101cf4416fbc0d30362f63a09cbbee82d05cd1d2cdaf"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/__init__.py",
+      "sha256": "9ae33d0047bba54d6ccfe205e4052490304a6fdf6c43bca0fa446ce70ee4a7be"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/core.py",
+      "sha256": "cad0d2163c4820e54f209ba317975fc04e8eb4a492db7e90b0ee7f381a6bf332"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/perspectiveoptimizer/space.py",
+      "sha256": "d30f32c88d1c081f793cbb5d8a350dfe9a850b689fe20ee231f329c430b76403"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/pyproject.toml",
+      "sha256": "c5c9a7106a6ef89311ce3c802672183cbfb2cdab9772c0f4a7b33cd3e8fe2526"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/questions.md",
+      "sha256": "1b837256f8a53e908c2c310358ab7f7f37b64df0b258faf3e66f9a28b7e425be"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/results/learning-routes.json",
+      "sha256": "04b68562e8ffbcb94020934d8eeba610221439cbcb84f30de781b8e4f72f344b"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/results/learning-space-expanded.json",
+      "sha256": "18f71ae94e85ebe9937285f1124472fadc97a18a8abe3cd20de91873fefb7111"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/results/learning-space.json",
+      "sha256": "ec9934a5c970bf783cef2d967cda9fcdd8f999e65eb87a13f65646636a3193b9"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/results/perspective-transitions.json",
+      "sha256": "8907fd82cd93c1723690d4b8e590fbf9c0c9d127b03c55a00b84367ca01c865e"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/results/summary.json",
+      "sha256": "eb1bd98f7cdd975ad42b0ee5b15763e0b0b32689af35b1804166263ce5becf4f"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/README.md",
+      "sha256": "0a1ab9c2adecb01ad8e5ac8cabb2de711232c3c540cffadee0565335b37cadad"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/clarification-source.json",
+      "sha256": "5d8f0421b05ad956e4dc466b5438ce78245368fab126a56789b0c79b34bc8664"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/perspective-clarification-2026-09-07.txt",
+      "sha256": "3155b560beb5e4d3a80000198bc6d78ea0e2d98d5b58c297ff909f7398285b42"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/starter-questions.txt",
+      "sha256": "fa01accb08270c052ccc81ef1eb8a3edc43222de2f386fa9d0a0d1444d761474"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/subject-bindings.json",
+      "sha256": "0a38a7ac7c2813740cd38c05eefdaa107fa90ecf38411e02d0f1a7683d4dc631"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/sources/theory-manifest.json",
+      "sha256": "24f29a3521c11f94106439a856f2f925036a0676113bb7606365fce5b959e43a"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/tests/test_space.py",
+      "sha256": "99f3499cf36be447df2f8873168b370746dcbd38dddc53bb534e287affb32987"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/tools/check.py",
+      "sha256": "a02d6c9c295430a489d563667a0a3b3c28229da2ee3d877818ffd533437249cc"
+    },
+    {
+      "path": "repository-snapshots/perspectiveoptimizer/tools/run_examples.py",
+      "sha256": "a6f35590e5f844af382a507d49b5665c5f7757ea2400b4fe04441fa4c7d698a4"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/AGENTS.md",
+      "sha256": "592bdd16360a08b86c2c9bf2b673480233731e30de977b46bb30e7ba44ff6cc2"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/README.md",
+      "sha256": "eb25deb11fdaa6cae4d083f3c4a7eae306a2f9171b5fbf2e66d260af83dbe2b4"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/discovery/questions.md",
+      "sha256": "c42ea31604a65b59f703bba6b852d4b6f3f74fb3da85b54555f7b2e5f8f79071"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/improvement/questions.md",
+      "sha256": "462da16895c1b4ffce909ac2c4d299f7ccecb6a2f82a4c022a732e97216729cb"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/learning/questions.md",
+      "sha256": "6cdc8c0b34ad3f81dceb52a847e341fb451ffa80080df40a88662a92061088da"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/memory/functional-branch.md",
+      "sha256": "980bd423c620d989c93f23f1931233754e4a3b3fbccb5eecf52aa91202a197b1"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/memory/questions.md",
+      "sha256": "4ecff60d1c5f10e2d455ff5af1abe4ed84d3ed531c2ada847e7c39bec14bd396"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/bearer.md",
+      "sha256": "537335e84aaae0d3508edee300d1372ecd72808c9c4a10020348a500783da30d"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/biological-response.md",
+      "sha256": "32370e7353c886a572c13e30b10b1f306a63f6e83dee7d4e522ac4eceffb8e16"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/construction-question.md",
+      "sha256": "76cf50aa456cd8cdf4c3c4eb406926e01ff306efdfbe7a5d3bc909a0942e9115"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/construction.md",
+      "sha256": "3f9b110ee6f55b66961a5cfe6bb3b258e978a0cff459c3a20055867e503c7729"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/definition.md",
+      "sha256": "7932b8ebfb3d664418d55bd6cff6ce0f71ac0521dc3c4b086dcc9298891b7f36"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/development.json",
+      "sha256": "5bee0f05b514ee329812c108da646d4e8a47719ba8f6b1568924b279d8694bd9"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/hypothesis.md",
+      "sha256": "65eefa4354c94a9e3eaafa270391fbf107b9e91a87c6015cc368a3030e7dc2ad"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/operation.md",
+      "sha256": "573788a07fe2a50ec8deedccce25d04216a192e6bf89f11b877f584c625aa790"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/process.md",
+      "sha256": "105e2518fc224742d08aeb06395855c450fd4714e4fbc5a3863f4dc77999b872"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/questions.md",
+      "sha256": "085b0d11d36cfb6c466655f0ebc6b5dbc0076dd854ebf7e64a38819e7c0f26ca"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/response-change.md",
+      "sha256": "edd3f84179f05ecec21092c44f984dda50a16cb560ebf8caeca9c70cb3422a9d"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/subject-derivation.md",
+      "sha256": "385cc28d2febc96b4ac625b257ccceb4fb5bf4496d354193ee3608a9a389ab36"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/perspective/transformation.md",
+      "sha256": "f9417e55e955235a416b0976e3a67087f6ce92f90e561f1a7b0d46400994aaa2"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/reasoning/operation-relation.md",
+      "sha256": "3fe5d020b6a7c5161d2ba629551f335ad43376d530a589c6c5df309282e8dec5"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/reasoning/operation.md",
+      "sha256": "9a7060dbd59ae4ae493974bf90c60f31a3a67033386ec48803306a4cc13853c7"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/reasoning/questions.md",
+      "sha256": "6738ed7bff3f92e0f353bc848c80e13cc9db210edaad915077725d4b597a41df"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/subject/requirement.md",
+      "sha256": "c9d6662e7e2dd52d3df466f661be24e56a924d99dcd0341f555b3f0ef187a04d"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/subject/subject-integration.json",
+      "sha256": "f380a9eacf40e777489c14a6b136684c6db7a53658ba7b41f19b67455b2532f9"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/subject/translation.md",
+      "sha256": "f57ff099cd66946c13c69e9d14094bf4a1e8a25aef470c857624e47ceff563b9"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/subject/type-relation.md",
+      "sha256": "9ba154f2875006e592d6c31fd3763266acd04f2a09782e4ffde48546c30fd7e9"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/composition.md",
+      "sha256": "4278a87c89dc73bc5c7c9d96f2ab440e2db7c150402a81d66d0a1d130290f24b"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/customization.md",
+      "sha256": "e65f3c09ccb445f97306016eef850461b28e6ab87bb4d6ac2d3127ec7ee2e0ee"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/execution-results.json",
+      "sha256": "7f9124636d9516b20fd738b8c2f187321ce0ef7bc29974545bf4d4640fbf0ccb"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/execution.md",
+      "sha256": "76931efa95ef2a714502a9becc166b339a81ba6c3498083f7783feae77202202"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/optimality.md",
+      "sha256": "d5c2311cfbaa4608647dc0df8d213821552259112ab018dc2b011bb2c58938f7"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/purpose.md",
+      "sha256": "94940e6d48432c974c8e4f5ea9bd98b00bd5620f640876b941ab0717e9af3e35"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/result-reuse.md",
+      "sha256": "c550e75e0b82c91cb91dec0dfa9e8bad89c4abd859cc631f514a3190ce5efe3b"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/source-contribution.md",
+      "sha256": "64cbef6b4f8fb0a7ad642a7ccff7a15aacf8828281c75eab251c0d522613a7fc"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/study-systems.json",
+      "sha256": "2aa49c40a734acf60aed329c5d4b5824ff4b2090fa2c7f56ab3c5d96fb464243"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/study.md",
+      "sha256": "b7dcbef7e7cf0dba32c68ebe2e7b8c017f4ad4d8791587518e7192c6acae45d9"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/studies/system/technique.md",
+      "sha256": "de1219f6aa2623a5f8260bc541c51daeadd30220ee73b985a0ec6be0d98ee117"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/subjects/catalog.json",
+      "sha256": "19421efe332db52d491afff2e72ce118c51074b55a587c4c1ce4c88a528a98f8"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/README.md",
+      "sha256": "ca1d2e8db055b71a3a4f3c5e818e21946fc66160e857448e228ba1499b55cc8a"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/catalog.json",
+      "sha256": "d2b328387ec72fbfd126b8a26b8e4416a0dacd4b4fe6f3712deec7f04ffb50a8"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/claim-inference-counterexample-search.md",
+      "sha256": "53533ed93aacdf4828b8e0be9cfb36a050f9ed7596bb4176a47920cedcdeeacb"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/claim-inference-finite-validity.md",
+      "sha256": "ffff7d7aa5a81e18897fb3f73762756048ed2dac6515c899e701cd0540e319c7"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/criterion-discovery.md",
+      "sha256": "be4aed2235a9f793ac6cf8b8f1907faf15af4e5fa48ca40116362459ca104bde"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/design-alternative-construction.md",
+      "sha256": "f335b184ae0005c0d7e13de01a26ce1c5c105161ea77b4d67fd8409a22298591"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/design-candidate-exploration.md",
+      "sha256": "593f7485a308fbe5725de4b43eea07d3f95db2d0f7da2ac2f6983f7a0230bce8"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/discovery-contribution-assessment.md",
+      "sha256": "90a59a50610e90f6efc766f75c28557b63274bcc704e4ebadbc98a3e5009fb65"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/expression-contribution-construction.md",
+      "sha256": "ae9c5075b310b7cddb28f2a77d1a1d023a9e8c09d8d643a23d554340bba72a81"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/goal-achievement-assessment.md",
+      "sha256": "41382cd553a829a8d01f8acd88c93e39bfcf0c8294c318796ddc91243e502006"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/goal-discovery.md",
+      "sha256": "61723c64393e6116b50adf651f516fad23bd31ed0b0f88e52e95929164279c57"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/improvement-candidate-revision.md",
+      "sha256": "84af67778231fb43d01c6c1ac9bfdcd14687a0a8494957affee9ea4eb930bf4f"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/preference-discovery.md",
+      "sha256": "fb1a0636c84a4c6db3f34d5d71c22d35a91efc48bf24c5cb524d2fbdd30a0f2f"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/preference-question-route.md",
+      "sha256": "3434a10b965521a6f153e42d25045d210578b87710134b14bf5a11e7bced614a"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/reasoning-approach-selection.md",
+      "sha256": "5325535f83c3fadc8c91bf089203e5e596c1770893ff6a6089c7d40319293886"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/systems/reasoning-candidate-finite-generation.md",
+      "sha256": "d4b8434252bdab4cdbef37c5fa9404252dcb299aa129152003f27e92d8a25e51"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/build_perspective_investigation.py",
+      "sha256": "622439a83ad49370085716260df7b603837bb27f9a90a7a3aa55278745c18015"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/build_perspective_process.py",
+      "sha256": "7eb524d07b3eb54f6886aa356c552b147be54bb776a70f41b4512ecd3f5f8f29"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/build_study_systems.py",
+      "sha256": "4d28fb177e8edad978efa2a20854b586f09e1f5a46ad33a4f6d55477668211e2"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/build_subject_integration.py",
+      "sha256": "8dd47286388f69dae77a2f4d4aa94b1b07ca1ee820cc0f2d4a9b48fc1c5b7174"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/build_subject_names.py",
+      "sha256": "a35faccf8b96062817cae9657c72710f7f403bf4d59b6ade8edd8a56f30b1679"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/check.py",
+      "sha256": "1da41f8f7fde1c063bdd79a77d3b889fdfaf6cba083f5e4fee31dcda27744819"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/descriptions.py",
+      "sha256": "46a42780add763cc2ccc90e3838e4b231f0a6255b5e6b32baf9cda806ca2ceff"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/run_perspective_case.py",
+      "sha256": "e7352269bcf37fb6963efea33b875c759a6766833436a44583bf26c2d78ef319"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/run_study_cases.py",
+      "sha256": "60faa6a56c205385263218830c59d666538408d773c40f014b15dc1f87098637"
+    },
+    {
+      "path": "repository-snapshots/subjectsystems/tools/study_methods.py",
+      "sha256": "7bc6e4016e8fe4ba6542a750de0495bcc093ed343f61eced82b73c52b88c61d2"
+    },
+    {
+      "path": "user-messages.md",
+      "sha256": "eb42942db34cfd7b3d8f4ee8df6f68ab20f237fd4399766b238759676c36cc52"
+    }
+  ]
+}

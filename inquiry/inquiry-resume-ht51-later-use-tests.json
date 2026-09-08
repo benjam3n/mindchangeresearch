@@ -1,0 +1,53 @@
+{
+  "intended_mind_change": "Use the tested policy family on changed priors and prices instead of carrying the old q=1/2 mixture by default.",
+  "actual_starting_judgment": "The saved later-use case at p=7/20,c=11/10 happened to select q=1/2, so that case alone did not show whether the old half mixture would be abandoned on later inputs.",
+  "scope": "Stipulated binary state/signal family, accuracy 4/5, act payoff +6/-4, decline 0, linear expectation, fixed policy chosen before the hidden joint matrix, and minimax expected regret.",
+  "policy_order": ["act_now", "decline_now", "buy_act_positive", "buy_act_negative", "buy_act_both", "buy_decline_both"],
+  "tests": [
+    {
+      "id": "LU1-unequal-mixture",
+      "input": {"p": "7/20", "c": "1"},
+      "endpoint_bought_values": {"l": "-1/10", "u": "3/10"},
+      "baseline_value_B": "0",
+      "selected_q_buy_act_positive": "3/4",
+      "selected_weights": ["0", "1/4", "3/4", "0", "0", "0"],
+      "selected_worst_regret": "3/40",
+      "carried_half_worst_regret": "3/20",
+      "operation_change": "replace q=1/2 with q=3/4"
+    },
+    {
+      "id": "LU2-pure-buy",
+      "input": {"p": "1/4", "c": "0"},
+      "endpoint_bought_values": {"l": "3/10", "u": "7/10"},
+      "baseline_value_B": "0",
+      "selected_q_buy_act_positive": "1",
+      "selected_weights": ["0", "0", "1", "0", "0", "0"],
+      "selected_worst_regret": "0",
+      "carried_half_worst_regret": "7/20",
+      "operation_change": "replace q=1/2 with pure buy-act-positive"
+    },
+    {
+      "id": "LU3-pure-immediate",
+      "input": {"p": "3/5", "c": "4/5"},
+      "endpoint_bought_values": {"l": "8/5", "u": "2"},
+      "baseline_value_B": "2",
+      "selected_q_buy_act_positive": "0",
+      "selected_weights": ["1", "0", "0", "0", "0", "0"],
+      "selected_worst_regret": "0",
+      "carried_half_worst_regret": "1/5",
+      "operation_change": "replace q=1/2 with immediate act"
+    }
+  ],
+  "comparison_to_saved_case": {
+    "input": {"p": "7/20", "c": "11/10"},
+    "selected_q": "1/2",
+    "worst_regret": "1/10",
+    "role": "retained adverse boundary: a changed input can still select the old numeric q, so numeric difference is not guaranteed"
+  },
+  "actual_change": "Three distinct later inputs select an unequal mixture, pure information purchase, and pure immediate action. The old half mixture is not used as a default.",
+  "benefit": "Each selected policy has strictly smaller worst regret than carrying q=1/2 on that same input; the saved c=11/10 case preserves the boundary where q=1/2 remains optimal.",
+  "verdict": "KEEP within the stipulated mathematical family",
+  "organization": "Changed-input uses are separate from the original 28 tests and from the saved q=1/2 boundary case.",
+  "next_attempts": ["Change signal accuracy.", "Add observation expiry.", "Test nonlinear utility.", "Withhold randomization and compare the deterministic optimum."],
+  "human_effect": "No purchase, preference, market response, or human action is observed."
+}

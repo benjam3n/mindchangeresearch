@@ -1,0 +1,835 @@
+{
+  "name": "dependency-gu-2-araw",
+  "goal": "social and reciprocal change without forced agreement",
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "A detailed imagined internal narrative is sufficient to select the appropriate social response in every constructed case.",
+      "findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The explicit access countercase defeats narrative sufficiency."
+    },
+    {
+      "id": "C2",
+      "claim": "A person\u2019s silence after a proposal establishes assent.",
+      "findings": [
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Absence of objection without participation is not acceptance."
+    },
+    {
+      "id": "C3",
+      "claim": "Correcting a factual misunderstanding always removes a social disagreement.",
+      "findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The explicit value difference survives common facts."
+    },
+    {
+      "id": "C4",
+      "claim": "Inviting participation and obtaining participation are the same success state.",
+      "findings": [
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The optional-decline countercase is decisive."
+    },
+    {
+      "id": "C5",
+      "claim": "A one-sided violation must be explained by an equal violation from the other party.",
+      "findings": [
+        "F17",
+        "F18",
+        "F19",
+        "F20"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Bidirectional analysis does not logically entail equal fault."
+    },
+    {
+      "id": "C6",
+      "claim": "Repairing an artifact necessarily restores interpersonal trust.",
+      "findings": [
+        "F21",
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The correction-plus-declined-reliance state refutes necessity."
+    },
+    {
+      "id": "C7",
+      "claim": "Understanding an objection means agreeing with the objection.",
+      "findings": [
+        "F25",
+        "F26",
+        "F27",
+        "F28"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The coherent disagreement-after-understanding case defeats equivalence."
+    },
+    {
+      "id": "C8",
+      "claim": "A generated panel of seven roles constitutes independent group input.",
+      "findings": [
+        "F29",
+        "F30",
+        "F31",
+        "F32"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Different content labels do not change common origin."
+    },
+    {
+      "id": "C9",
+      "claim": "A majority vote can override every participant\u2019s contribution-permission boundary.",
+      "findings": [
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The rule-defined authority countercase defeats unlimited majority scope."
+    },
+    {
+      "id": "C10",
+      "claim": "A confident social prediction is stronger evidence than an acknowledged unknown.",
+      "findings": [
+        "F37",
+        "F38",
+        "F39",
+        "F40"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Confidence cannot repair contradiction with the supplied case fact."
+    },
+    {
+      "id": "C11",
+      "claim": "A reversible prototype permits any group to proceed despite all objections.",
+      "findings": [
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "One irreversible exposure defeats the universal proceed rule."
+    },
+    {
+      "id": "C12",
+      "claim": "A bounded disagreement can coexist with a useful shared action.",
+      "findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48"
+      ],
+      "verdict": "VALIDATED",
+      "certificate": "Existence of the constructed permitted trial supports the modal claim; no universal prescription follows."
+    },
+    {
+      "id": "C13",
+      "claim": "The role with the most authority always has the most relevant information.",
+      "findings": [
+        "F49",
+        "F50",
+        "F51",
+        "F52"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "Unique lower-authority information defeats the universal."
+    },
+    {
+      "id": "C14",
+      "claim": "A specific observation can change a social interpretation without identifying a hidden motive.",
+      "findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56"
+      ],
+      "verdict": "VALIDATED",
+      "certificate": "The case mapping demonstrates the limited claim; no hidden emotion is inferred."
+    },
+    {
+      "id": "C15",
+      "claim": "The proper facilitator must also decide the content to ensure progress.",
+      "findings": [
+        "F57",
+        "F58",
+        "F59",
+        "F60"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The coherent split-role process refutes necessity."
+    },
+    {
+      "id": "C16",
+      "claim": "A relationship goal is achieved when one party performs every controllable action.",
+      "findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The decline case defeats sufficiency without rejecting the coherent mutual aim."
+    },
+    {
+      "id": "C17",
+      "claim": "A real value conflict should be removed from the record after a compromise is selected.",
+      "findings": [
+        "F65",
+        "F66",
+        "F67",
+        "F68"
+      ],
+      "verdict": "REJECTED",
+      "certificate": "The new-object countercase shows why deleting the conflict loses relevant information."
+    },
+    {
+      "id": "C18",
+      "claim": "A truthful partial status can coexist with a demonstrated useful local model change.",
+      "findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72"
+      ],
+      "verdict": "CONDITIONAL",
+      "certificate": "Local benefit needs actual changed use; when present, missing human stages do not erase it or become complete."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "parent": "C1",
+      "kind": "AR necessary conditional implication",
+      "text": "Then narrative richness alone could settle response even when the person\u2019s actual information or values differ.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F2",
+      "parent": "C1",
+      "kind": "AW concrete countercase",
+      "text": "A fluent narrative attributes disinterest to a reviewer who explicitly lacked access to the proposal.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F3",
+      "parent": "F2",
+      "kind": "Derived alternative",
+      "text": "Social response uses known context and keeps imagined motives as hypotheses.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F4",
+      "parent": "F3",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The access statement changes the response to making the proposal inspectable. A detailed narrative that matches actual evidence can help, but detail is not sufficiency.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F5",
+      "parent": "C2",
+      "kind": "AR necessary conditional implication",
+      "text": "The decision record could include everyone silent as accepting the proposal.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F6",
+      "parent": "C2",
+      "kind": "AW concrete countercase",
+      "text": "A member was absent from the channel and could not receive the proposal.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F7",
+      "parent": "F6",
+      "kind": "Derived alternative",
+      "text": "Assent is tied to a specific communicated proposition and an actual acceptance signal or authorized rule.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F8",
+      "parent": "F7",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Absent member remains unresolved. An explicit delegation rule would supply a different authority premise.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F9",
+      "parent": "C3",
+      "kind": "AR necessary conditional implication",
+      "text": "Once both know the same facts, no objection remains.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F10",
+      "parent": "C3",
+      "kind": "AW concrete countercase",
+      "text": "Both accept outreach effectiveness but one rejects recording tentative work.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F11",
+      "parent": "F10",
+      "kind": "Derived alternative",
+      "text": "Factual and value/permission components are addressed separately.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F12",
+      "parent": "F11",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Share a missing fact only if it is missing; compare the accepted trade-off afterwards.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F13",
+      "parent": "C4",
+      "kind": "AR necessary conditional implication",
+      "text": "A sent invitation would establish reciprocal engagement.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F14",
+      "parent": "C4",
+      "kind": "AW concrete countercase",
+      "text": "Recipient declines an optional invitation; the invitation exists without engagement.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F15",
+      "parent": "F14",
+      "kind": "Derived alternative",
+      "text": "Record invitation, response and shared activity separately.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F16",
+      "parent": "F15",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A decline is a valid response but not the hoped-for activity. A later accepted exchange supplies new evidence.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F17",
+      "parent": "C5",
+      "kind": "AR necessary conditional implication",
+      "text": "A misattributed quote would require wrongdoing by its recipient before an accurate account could be complete.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F18",
+      "parent": "C5",
+      "kind": "AW concrete countercase",
+      "text": "Case explicitly contains discussion-only permission and unapproved forwarding, with no recipient counter-violation.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F19",
+      "parent": "F18",
+      "kind": "Derived alternative",
+      "text": "Map both directions without inventing symmetric blame.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F20",
+      "parent": "F19",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Recipient refusal can be recorded as a boundary. New evidence of reciprocal wrongdoing could add a claim but is not required by directionality.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F21",
+      "parent": "C6",
+      "kind": "AR necessary conditional implication",
+      "text": "Removing an unapproved quote would establish renewed willingness to rely on the publisher.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F22",
+      "parent": "C6",
+      "kind": "AW concrete countercase",
+      "text": "Quote is removed but contributor explicitly declines future publication reliance.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F23",
+      "parent": "F22",
+      "kind": "Derived alternative",
+      "text": "Artifact repair and later reliance are separately observed outcomes.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F24",
+      "parent": "F23",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The correction can be complete while future trust stays low or unknown.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F25",
+      "parent": "C7",
+      "kind": "AR necessary conditional implication",
+      "text": "A faithful summary would require accepting its proposed decision.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F26",
+      "parent": "C7",
+      "kind": "AW concrete countercase",
+      "text": "Organizer accurately states the contributor\u2019s privacy priority while retaining a preference for a different public-only project.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F27",
+      "parent": "F26",
+      "kind": "Derived alternative",
+      "text": "Understanding, agreement and permission are distinct statuses.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F28",
+      "parent": "F27",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A summary can be accurate and the project incompatible. Shared meaning does not compel endorsement.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F29",
+      "parent": "C8",
+      "kind": "AR necessary conditional implication",
+      "text": "Simulated role statements would satisfy the source\u2019s independent-submission requirement.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F30",
+      "parent": "C8",
+      "kind": "AW concrete countercase",
+      "text": "All seven were generated by one assistant from one prompt; no stakeholder submitted a view.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F31",
+      "parent": "F30",
+      "kind": "Derived alternative",
+      "text": "Generated perspectives inform design; independent group input remains a separate missing stage.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F32",
+      "parent": "F31",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The group-decision record stays partial. Distinct real submissions would change that status.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F33",
+      "parent": "C9",
+      "kind": "AR necessary conditional implication",
+      "text": "A vote would authorize publishing a discussion-only quote against its contributor\u2019s limit.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F34",
+      "parent": "C9",
+      "kind": "AW concrete countercase",
+      "text": "The stipulated participation rule gives the contributor control of that quote, and majority members lack that authority.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F35",
+      "parent": "F34",
+      "kind": "Derived alternative",
+      "text": "Decision rules are applied within their declared authority; permission holders keep their specified boundaries.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F36",
+      "parent": "F35",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A majority can choose among authorized designs but cannot create the missing permission under these rules.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F37",
+      "parent": "C10",
+      "kind": "AR necessary conditional implication",
+      "text": "An unsupported high-confidence motive claim would outrank a truthful absence of information.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F38",
+      "parent": "C10",
+      "kind": "AW concrete countercase",
+      "text": "The confident claim \u201cB dislikes the topic\u201d conflicts with B\u2019s explicit \u201cI could not open the file.\u201d",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F39",
+      "parent": "F38",
+      "kind": "Derived alternative",
+      "text": "Prediction confidence is separate from evidential support and calibrated by available information.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F40",
+      "parent": "F39",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The explicit access evidence changes the model; unsupported confidence gets no extra weight.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F41",
+      "parent": "C11",
+      "kind": "AR necessary conditional implication",
+      "text": "Every dissent would become irrelevant once the object can be restored.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F42",
+      "parent": "C11",
+      "kind": "AW concrete countercase",
+      "text": "The prototype displays an unapproved personal quote; restoring the object does not undo the exposure.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F43",
+      "parent": "F42",
+      "kind": "Derived alternative",
+      "text": "Reversibility is indexed to each affected exposure, not just object state.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F44",
+      "parent": "F43",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "A replica can protect originals while leaving consent or time costs unresolved.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F45",
+      "parent": "C12",
+      "kind": "AR necessary conditional implication",
+      "text": "Two parties can share a permitted trial while retaining distinct conclusions.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F46",
+      "parent": "C12",
+      "kind": "AW concrete countercase",
+      "text": "Attempted countercase: a party refuses all shared actions. That is a different case, not a refutation of the possibility asserted.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F47",
+      "parent": "F46",
+      "kind": "Derived alternative",
+      "text": "Shared action is classified by its actual permission and retained disagreement.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F48",
+      "parent": "F47",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The permitted replica trial demonstrates the logical possibility; acceptance in a real group remains unobserved.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F49",
+      "parent": "C13",
+      "kind": "AR necessary conditional implication",
+      "text": "A venue owner\u2019s view would dominate access, provenance and artistic evidence alike.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F50",
+      "parent": "C13",
+      "kind": "AW concrete countercase",
+      "text": "Access reviewer finds a visual-only instruction that the venue owner has not inspected.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F51",
+      "parent": "F50",
+      "kind": "Derived alternative",
+      "text": "Authority and information advantage are separate fields.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F52",
+      "parent": "F51",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The owner can decide within authority while the review finding remains relevant and visible.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F53",
+      "parent": "C14",
+      "kind": "AR necessary conditional implication",
+      "text": "An access fact could redirect a response while leaving interest unknown.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F54",
+      "parent": "C14",
+      "kind": "AW concrete countercase",
+      "text": "Attempted countercase: the new fact does not determine all motives. The claim does not require it to, so the objection fails.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F55",
+      "parent": "F54",
+      "kind": "Derived alternative",
+      "text": "Known situational evidence can support a narrower response with motives unresolved.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F56",
+      "parent": "F55",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Make the unreadable proposal available, then preserve the person\u2019s preference as unknown.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F57",
+      "parent": "C15",
+      "kind": "AR necessary conditional implication",
+      "text": "Separating process from decision authority would necessarily block a decision.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F58",
+      "parent": "C15",
+      "kind": "AW concrete countercase",
+      "text": "A facilitator records options and constraints while a named owner decides within those constraints.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F59",
+      "parent": "F58",
+      "kind": "Derived alternative",
+      "text": "Facilitation and content authority can be separated with an explicit handoff.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F60",
+      "parent": "F59",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The constructed agenda has a distinct decision owner; a real session is still pending.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F61",
+      "parent": "C16",
+      "kind": "AR necessary conditional implication",
+      "text": "A perfect invitation and reliable follow-through would establish mutual initiation even if the other person never reciprocates.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F62",
+      "parent": "C16",
+      "kind": "AW concrete countercase",
+      "text": "The second person politely declines further contact after the first does all their part.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F63",
+      "parent": "F62",
+      "kind": "Derived alternative",
+      "text": "Track own contribution and reciprocal outcome separately while preserving the full relationship aim.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F64",
+      "parent": "F63",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The full aim stays unachieved; the first person\u2019s completed actions remain accurately recorded.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F65",
+      "parent": "C17",
+      "kind": "AR necessary conditional implication",
+      "text": "Choosing a replica trial would make preservation/creative-freedom disagreement irrelevant in future original-object decisions.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F66",
+      "parent": "C17",
+      "kind": "AW concrete countercase",
+      "text": "Later proposal concerns an original, so the previous unresolved conflict becomes decisive again.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F67",
+      "parent": "F66",
+      "kind": "Derived alternative",
+      "text": "Retain the conflict\u2019s scope and the particular settlement beside it.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F68",
+      "parent": "F67",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "Replica permission does not become original permission. A future explicit agreement could broaden it.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F69",
+      "parent": "C18",
+      "kind": "AR necessary conditional implication",
+      "text": "A listening design can improve a generated question while the live conversation stage remains missing.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F70",
+      "parent": "C18",
+      "kind": "AW concrete countercase",
+      "text": "Attempted countercase: a design has no local effect. That defeats its KEEP claim, not the possible coexistence asserted.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F71",
+      "parent": "F70",
+      "kind": "Derived alternative",
+      "text": "Evaluate local consequence and original-stage completion as separate judgments.",
+      "bedrock": "Candidate tested by following finding"
+    },
+    {
+      "id": "F72",
+      "parent": "F71",
+      "kind": "AR of alternative and exact countercase disposition",
+      "text": "The question changes from motive accusation to access inquiry; human conversation stays partial.",
+      "bedrock": "BEDROCK-LOGIC within the constructed or definitional scope"
+    },
+    {
+      "id": "F73",
+      "parent": "C1",
+      "kind": "AW continuation",
+      "text": "A detailed narrative says a quiet reviewer is uninterested, while the case states the reviewer could not access the image; narrative coherence does not select the right next response.",
+      "bedrock": "BEDROCK-LOGIC countercase"
+    },
+    {
+      "id": "F74",
+      "parent": "F73",
+      "kind": "Derived alternative",
+      "text": "Candidate A: attendance and comment counts alone suffice to select the social response in these cases.",
+      "bedrock": "Candidate requiring test"
+    },
+    {
+      "id": "F75",
+      "parent": "F74",
+      "kind": "AR consequence",
+      "text": "If those counts suffice, two reviewers with zero attendance and zero comments in this meeting receive the same response despite differing access and standing-delegation states.",
+      "bedrock": "Conditional consequence"
+    },
+    {
+      "id": "F76",
+      "parent": "F75",
+      "kind": "AW of consequence",
+      "text": "One absent reviewer lacked an invitation; another had a standing delegation rule authorizing the chair to decide. Both have zero attendance/comments in the meeting, but only the second supplies authority for inclusion in the decision.",
+      "bedrock": "BEDROCK-LOGIC countercase"
+    },
+    {
+      "id": "F77",
+      "parent": "F76",
+      "kind": "Derived alternative",
+      "text": "Candidate B: adding the actor\u2019s own stated reason to the attendance/comment record suffices to determine the disputed condition.",
+      "bedrock": "Candidate requiring test"
+    },
+    {
+      "id": "F78",
+      "parent": "F77",
+      "kind": "AR consequence",
+      "text": "If the stated reason resolves the response, \u201cthis is too much\u201d should identify what needs to change.",
+      "bedrock": "Conditional consequence"
+    },
+    {
+      "id": "F79",
+      "parent": "F78",
+      "kind": "AW of consequence",
+      "text": "\u201cToo much\u201d is compatible with duration, technical density or an unwanted obligation, each producing a different remedy; the phrase alone does not discriminate.",
+      "bedrock": "BEDROCK-LOGIC ambiguity case"
+    },
+    {
+      "id": "F80",
+      "parent": "F79",
+      "kind": "Derived alternative",
+      "text": "Candidate C: replacing a vague reason with a concrete disputed-condition statement suffices to record the corresponding remedy as accepted.",
+      "bedrock": "Candidate tested next"
+    },
+    {
+      "id": "F81",
+      "parent": "F80",
+      "kind": "AR consequence",
+      "text": "If candidate C is right, the reply \u201cthe one-hour length is fine; I do not want required homework\u201d permits recording a no-homework role as accepted even before that role is offered.",
+      "bedrock": "Conditional implication tested by next countercase"
+    },
+    {
+      "id": "F82",
+      "parent": "F81",
+      "kind": "AW of preceding acceptance consequence",
+      "text": "Constructed actor makes that exact complaint, is offered a no-homework role, and declines because they no longer want to join. The complaint identified the disputed condition but did not constitute acceptance of the remedy.",
+      "bedrock": "BEDROCK-LOGIC exact countercase to remedy-acceptance sufficiency"
+    },
+    {
+      "id": "F83",
+      "parent": "F82",
+      "kind": "Derived alternative",
+      "text": "Candidate D separates identified meaning, proposed remedy and actual acceptance before recording an agreement.",
+      "bedrock": "Candidate tested next"
+    },
+    {
+      "id": "F84",
+      "parent": "F83",
+      "kind": "AR consequence",
+      "text": "The draft can offer a no-homework role while the agreement field remains pending; an explicit yes later changes only the specified role\u2019s acceptance.",
+      "bedrock": "BEDROCK-LOGIC mapping tested in Test 2"
+    },
+    {
+      "id": "F85",
+      "parent": "F84",
+      "kind": "FAILED AW against exact acceptance scope",
+      "text": "An explicit yes to attending one session cannot support a promise of weekly participation; extending the acceptance would exceed the proposition actually accepted.",
+      "bedrock": "BEDROCK-LOGIC scoped countercase"
+    }
+  ],
+  "cruxes": [
+    "Was the proposal accessible to each party? \u2014 C1/C2/C14; direct case fact.",
+    "Which exact proposition did a person accept? \u2014 C2/C7/C18; exact reply.",
+    "Is the issue factual, interpretive, value-based or permission-based? \u2014 C3; compare statements.",
+    "Was an invitation actually accepted? \u2014 C4/C16; response needed.",
+    "Which directional violation is evidenced? \u2014 C5; do not manufacture symmetry.",
+    "Did later reliance change after artifact correction? \u2014 C6; human response absent.",
+    "Are perspectives independently submitted or generated? \u2014 C8; inspect origin.",
+    "Who holds the relevant decision authority? \u2014 C9/C13/C15; participation rule.",
+    "Which exposure is reversible? \u2014 C11; inspect affected state.",
+    "Which unresolved conflict can recur under a new object or version? \u2014 C17; retain scope."
+  ],
+  "live_tests": [
+    "Actual generated interpretation on new statement: \u201cThe hour is fine; I do not want mandatory preparation.\u201d Output is \u201cduration accepted; obligation disputed.\u201d Proposed response offers an optional no-preparation role; it does not shorten the hour or infer laziness. This tests the deep branch\u2019s concrete meaning check.",
+    "Actual generated acceptance record for \u201cYes, I can attend this one session\u201d: one-session attendance accepted; recurring attendance unknown; homework acceptance unknown. This tests separation of remedy and exact acceptance; the record contains no invented weekly commitment."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "before": "one latest recommendation",
+  "after": "an event log preserving old truth and new applicability",
+  "performed_case": "criterion weight changes from .8 to .3. The log preserves A as v1 winner and derives B as v2 winner; the current view changes without altering the historical comparison.",
+  "scope": "constructed transition evaluated in current work"
+}

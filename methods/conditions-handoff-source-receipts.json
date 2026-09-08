@@ -1,0 +1,47 @@
+[
+  {
+    "id": "satr",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-satr.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-satr.requirements.txt",
+    "stdout_sha256": "4715511980deaaf999e241f986c782e720e2ece7f4efe2944444dacb54e164fb",
+    "stderr_sha256": "9c7b8a4e1a27dd66cc65378e6712756d08345f3f1a4c3bc84b70989517a57a06",
+    "stdout_bytes": 2781,
+    "stderr_bytes": 9342
+  },
+  {
+    "id": "uf",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-uf.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-uf.requirements.txt",
+    "stdout_sha256": "bddade1a3612c0053979bed5e1845ef8b5293df488f43ec30d109b6a9609eea4",
+    "stderr_sha256": "3b36aa3f7f2b7ff7dd6cc95bbce898ac585fb6ddfa4a82773d9aa4d0705e152c",
+    "stdout_bytes": 6579,
+    "stderr_bytes": 9340
+  },
+  {
+    "id": "boc",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-boc.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-boc.requirements.txt",
+    "stdout_sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+    "stderr_sha256": "b6508ccee815920ee96d261cde3af300f6557d63e78930806368ea79b590158b",
+    "stdout_bytes": 7893,
+    "stderr_bytes": 9341
+  },
+  {
+    "id": "adep",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-adep.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-adep.requirements.txt",
+    "stdout_sha256": "6275109031ca095cb778213f6a6cb29e86593db23751735c08109b314872371a",
+    "stderr_sha256": "1c84a3e8510403235b01bba770c99b358121fa9feb2da2c5bd21c6aaedbd802d",
+    "stdout_bytes": 6071,
+    "stderr_bytes": 9342
+  },
+  {
+    "id": "cta",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-cta.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/sources/conditions-handoff-cta.requirements.txt",
+    "stdout_sha256": "5a023d5153de1aa42976334e6976a2d684427181538553e20c0b2a95460a765b",
+    "stderr_sha256": "09eccbfd5ab2b34a467099ac503730681ea2c447594d12e4556be1a0b8b66b26",
+    "stdout_bytes": 7332,
+    "stderr_bytes": 9341
+  }
+]

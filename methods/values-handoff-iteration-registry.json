@@ -1,0 +1,434 @@
+[
+  {
+    "id": "I01",
+    "kind": "OBSERVED",
+    "basis": "invitation-record.pci inputs",
+    "finding": "The initial record has invitation, reply, actor_scope and context inputs; there is no prior response input for A9 to consume."
+  },
+  {
+    "id": "I02",
+    "kind": "OBSERVED",
+    "basis": "invitation-record.pci steps",
+    "finding": "All six initial steps process one reply; none specifies what survives when a later reply corrects only a date."
+  },
+  {
+    "id": "I03",
+    "kind": "OBSERVED",
+    "basis": "invitation-record.pci outputs",
+    "finding": "The response output contains stance and condition but no identity for a particular revision of a component."
+  },
+  {
+    "id": "I04",
+    "kind": "DERIVED",
+    "basis": "R0 and R1",
+    "finding": "R1 changes reading day to Sunday without changing the two-page amount, so a full replacement by R1 alone would lose an explicit amount still applicable from R0."
+  },
+  {
+    "id": "I05",
+    "kind": "DERIVED",
+    "basis": "R1 text",
+    "finding": "R1 expressly accepts one text-chat discussion; the old audio-only condition is superseded rather than joined to text chat as a second simultaneous requirement."
+  },
+  {
+    "id": "I06",
+    "kind": "DERIVED",
+    "basis": "R0 and R1 hosting",
+    "finding": "The initial monthly-hosting refusal and the later statement Hosting is still out agree; the correction does not require reviving a hosting invitation."
+  },
+  {
+    "id": "I07",
+    "kind": "OBSERVED",
+    "basis": "R3 effective and received order",
+    "finding": "R3 has effective order 1 and received order 3, whereas R1 has effective order 2 and received order 1; the two ordering relations disagree in this supplied case."
+  },
+  {
+    "id": "I08",
+    "kind": "TESTED",
+    "basis": "social-use current read.when",
+    "finding": "Reduction by the supplied effective order leaves Sunday current at revision R1:read:when even after the earlier Saturday message arrives."
+  },
+  {
+    "id": "I09",
+    "kind": "TESTED",
+    "basis": "social-use read.amount source",
+    "finding": "The resulting first-two-pages attribute retains source event R0 and revision R0:read:amount; inheriting an unchanged amount does not pretend it was newly stated in R1."
+  },
+  {
+    "id": "I10",
+    "kind": "OBSERVED",
+    "basis": "R2 role and text",
+    "finding": "The audio-at-14:00 text is explicitly an organizer proposal; it is not a supplied statement from Kai."
+  },
+  {
+    "id": "I11",
+    "kind": "TESTED",
+    "basis": "social-use excluded_as_commitment",
+    "finding": "R2 is excluded from participant updates, leaving the current medium text chat and leaving a specific session time unset."
+  },
+  {
+    "id": "I12",
+    "kind": "OBSERVED",
+    "basis": "R4 role and text",
+    "finding": "The hosting quotation is reported by Mira; the record gives no direct confirmation from Kai and no delegated authority for Mira."
+  },
+  {
+    "id": "I13",
+    "kind": "TESTED",
+    "basis": "social-use current host",
+    "finding": "R4 does not change the declined hosting component under the declared participant-statement update rule."
+  },
+  {
+    "id": "I14",
+    "kind": "DERIVED",
+    "basis": "authority boundary",
+    "finding": "A separately supplied delegation authorizing Mira to decide would require a different input contract; the present result does not refute the possibility of delegated decisions."
+  },
+  {
+    "id": "I15",
+    "kind": "TESTED",
+    "basis": "duplicate replay",
+    "finding": "Replaying byte-identical R1 leaves the declared current state equal, while reusing R1 with different canonical content returns identity_conflict; event identity therefore distinguishes replay from collision in this fixture."
+  },
+  {
+    "id": "I16",
+    "kind": "DERIVED",
+    "basis": "equal-order countercase",
+    "finding": "Two participant messages with the same unknown effective position, one saying Saturday and one Sunday, do not determine a unique current day; a filename tie-break would add an unsupported premise."
+  },
+  {
+    "id": "I17",
+    "kind": "OBSERVED",
+    "basis": "revision schema ordering",
+    "finding": "The revised order input expressly returns uncertainty when effective chronology is unavailable; the successful ordered test does not certify that unresolved countercase."
+  },
+  {
+    "id": "I18",
+    "kind": "OBSERVED",
+    "basis": "reducer input restriction",
+    "finding": "The finite reducer requires one record_set, participant and invitation per invocation. A mixed bundle returns mixed_scope rather than silently updating a different invitation."
+  },
+  {
+    "id": "I19",
+    "kind": "DERIVED",
+    "basis": "withdrawal countercase",
+    "finding": "A later clause I will no longer read changes the reading stance; a later clause Sunday changes the time. Treating every correction as withdrawal would misclassify R1."
+  },
+  {
+    "id": "I20",
+    "kind": "OBSERVED",
+    "basis": "confirmation field inspection",
+    "finding": "The initial output names one confirmation status while containing both a paraphrase and a proposed next step; the confirmed object is underspecified."
+  },
+  {
+    "id": "I21",
+    "kind": "DERIVED",
+    "basis": "confirmation countercase",
+    "finding": "Yes, that is what I meant by audio-only, but I have not agreed to Tuesday confirms an interpretation and explicitly denies agreement to a particular session; one boolean cannot preserve both without naming its object."
+  },
+  {
+    "id": "I22",
+    "kind": "DERIVED",
+    "basis": "performance scope of R1",
+    "finding": "The words I can read Sunday provide a future offer, and the supplied case includes no report of pages actually read; performance_observed remains unsupported."
+  },
+  {
+    "id": "I23",
+    "kind": "OBSERVED",
+    "basis": "initial success criterion",
+    "finding": "The initial success criterion forbids every human-effect claim, including a future supplied observation. That is broader than the evidence restriction required for this program."
+  },
+  {
+    "id": "I24",
+    "kind": "DERIVED",
+    "basis": "observation countercase",
+    "finding": "A later supplied observation of a person reading two pages would support that action report; it would still not establish that this procedure caused increased interest or learning."
+  },
+  {
+    "id": "I25",
+    "kind": "OBSERVED",
+    "basis": "followup-choice.pci inputs",
+    "finding": "The initial follow-up accepts a response_record but has no prior draft or source revision input; it cannot identify which particular draft used the now-superseded audio condition from the declared fields alone."
+  },
+  {
+    "id": "I26",
+    "kind": "OBSERVED",
+    "basis": "D0 and D1 products",
+    "finding": "D0 contains Saturday and audio-only; D1 contains Sunday and text chat. Both concrete texts remain saved, with neither represented as sent."
+  },
+  {
+    "id": "I27",
+    "kind": "DERIVED",
+    "basis": "draft dependency",
+    "finding": "The change to the join medium invalidates the audio proposal in D0 even though the refusal of hosting remains accurate; a correct unchanged clause does not rescue an incompatible proposal."
+  },
+  {
+    "id": "I28",
+    "kind": "DERIVED",
+    "basis": "unaffected-component boundary",
+    "finding": "A later correction to an unrelated contact label would not by itself invalidate the two-page amount or Sunday reading acknowledgement; draft invalidation needs the affected component relation."
+  },
+  {
+    "id": "I29",
+    "kind": "DERIVED",
+    "basis": "delivery boundary",
+    "finding": "If D0 had actually been sent, replacing the local draft would not retract the delivered text. The actual unsent case permits replacement without claiming an external correction occurred."
+  },
+  {
+    "id": "I30",
+    "kind": "OBSERVED",
+    "basis": "followup-choice initial conditional branch",
+    "finding": "The initial conditional branch allows a matching option if one exists but gives no concrete return object when every supplied option fails the condition."
+  },
+  {
+    "id": "I31",
+    "kind": "TESTED",
+    "basis": "availability case",
+    "finding": "The supplied option set contains only audio at 14:00; filtering for text chat returns zero matching options."
+  },
+  {
+    "id": "I32",
+    "kind": "DERIVED",
+    "basis": "availability result",
+    "finding": "Offering the 14:00 audio option as compatible would contradict the supplied not-audio condition. The resulting output states the gap and leaves a session time open."
+  },
+  {
+    "id": "I33",
+    "kind": "DERIVED",
+    "basis": "availability addition boundary",
+    "finding": "A newly supplied text option would change the available-option set; it would not retroactively make the existing audio option satisfy the medium condition."
+  },
+  {
+    "id": "I34",
+    "kind": "OBSERVED",
+    "basis": "curiosity-trace.pci status",
+    "finding": "Actual, constructed and planned are alternatives in the initial trace status, although they answer different questions about origin and performance."
+  },
+  {
+    "id": "I35",
+    "kind": "OBSERVED",
+    "basis": "Q1 product",
+    "finding": "Q1 is an actually written comparison of a fictional box; the generated three interpretations exist while the box and audience remain constructed."
+  },
+  {
+    "id": "I36",
+    "kind": "DERIVED",
+    "basis": "Q1 classification",
+    "finding": "A constructed-only label omits that the comparison was performed; an actual-only label leaves open the false reading that a real box or audience was observed. Independent fields preserve both facts."
+  },
+  {
+    "id": "I37",
+    "kind": "TESTED",
+    "basis": "Q2 local measurement",
+    "finding": "The stored label What are you waiting for? has 25 characters including spaces and punctuation."
+  },
+  {
+    "id": "I38",
+    "kind": "DERIVED",
+    "basis": "Q2 measurement implication",
+    "finding": "The character count verifies a property of the stored string; it selects none of Q1’s action, permission or internal-process interpretations."
+  },
+  {
+    "id": "I39",
+    "kind": "OBSERVED",
+    "basis": "Q2 mixed claims",
+    "finding": "Q2a is a direct local measurement and Q2b is an interpretation of its limited bearing. The two claims have different evidence kinds within the same trace."
+  },
+  {
+    "id": "I40",
+    "kind": "OBSERVED",
+    "basis": "Q3 operation and claims",
+    "finding": "Q3 contains a viewer-response question, an unavailable collection operation, and no observed viewer answers; its link to Q1 does not turn a prediction into a test result."
+  },
+  {
+    "id": "I41",
+    "kind": "DERIVED",
+    "basis": "Q3 human gate",
+    "finding": "No frequency of audience interpretations can be computed from the three possibilities in Q1 alone; a list of possibilities supplies neither people nor response counts."
+  },
+  {
+    "id": "I42",
+    "kind": "OBSERVED",
+    "basis": "curiosity-trace.pci prior link",
+    "finding": "The initial prior_record is a generic earlier record. It does not distinguish a new contrast from a correction of an earlier claim."
+  },
+  {
+    "id": "I43",
+    "kind": "DERIVED",
+    "basis": "Q0 to Q1",
+    "finding": "The box adds action, permission and process readings without falsifying Q0’s platform or drawing readings; Q1 therefore contrasts with Q0 rather than superseding it."
+  },
+  {
+    "id": "I44",
+    "kind": "DERIVED",
+    "basis": "changed-word countercase",
+    "finding": "Replacing waiting for with waiting on changes the stored wording. That comparison cannot establish a claim whose premise is identical wording across scenes."
+  },
+  {
+    "id": "I45",
+    "kind": "DERIVED",
+    "basis": "claim-local revision",
+    "finding": "A correction to a stored character count concerns that measurement claim; it does not by itself defeat a scene interpretation whose inference did not depend on the count."
+  },
+  {
+    "id": "I46",
+    "kind": "OBSERVED",
+    "basis": "trace identity inspection",
+    "finding": "The initial output lists a prior link but does not require an identity for the newly produced trace or its claims, making the next continuation’s target dependent on a convention supplied elsewhere."
+  },
+  {
+    "id": "I47",
+    "kind": "TESTED",
+    "basis": "trace identity and Q4 ancestry tests",
+    "finding": "The corrected fixture has five unique trace IDs and nine unique claim IDs; Q4 targets Q1a–Q1c, and its parent chain resolves Q4 → Q1 → Q0 at a known root."
+  },
+  {
+    "id": "I48",
+    "kind": "TESTED",
+    "basis": "missing-parent case",
+    "finding": "The separate Qx input points to absent, and the lookup returns missing_parent rather than a reconstructed ancestor."
+  },
+  {
+    "id": "I49",
+    "kind": "TESTED",
+    "basis": "cycle case",
+    "finding": "The separate Qa → Qb → Qa input returns cycle, distinguishing circular references from a finite history."
+  },
+  {
+    "id": "I50",
+    "kind": "DERIVED",
+    "basis": "typed-reference limit",
+    "finding": "The successful Q4 lookup establishes that its parent and target claims exist; it does not establish that continues is the correct semantic relation. The scene content supplies the separate relation judgment."
+  },
+  {
+    "id": "I51",
+    "kind": "OBSERVED",
+    "basis": "continuation-choice.pci selection",
+    "finding": "The original local selector requires a distinct question while its description and another clause retain pure-interest candidates; the settled-repeat input exposes a conflict between those two admission rules."
+  },
+  {
+    "id": "I52",
+    "kind": "OBSERVED",
+    "basis": "selection-before input",
+    "finding": "The fixed later purpose is to revisit the closed box as a short scene, not to resolve which interpretation real viewers choose."
+  },
+  {
+    "id": "I53",
+    "kind": "DERIVED",
+    "basis": "selection conflict",
+    "finding": "Under the distinct-question rule, the settled box repeat is ineligible; under the explicit pure-interest allowance it remains eligible. The inherited procedure leaves this specific selection underdetermined."
+  },
+  {
+    "id": "I54",
+    "kind": "OBSERVED",
+    "basis": "revised selection",
+    "finding": "Selection SEL-Q4-revisit-1 uses revisit-for-interest mode, selects Q4 and labels novel_evidence false. The operation satisfies the stated local purpose without claiming an additional discovery."
+  },
+  {
+    "id": "I55",
+    "kind": "OBSERVED",
+    "basis": "Q4 creative product",
+    "finding": "The written scene contains a brass key, a visitor who leaves it, and a sound stopping behind the lid; these concretely instantiate permission, choice and process possibilities from Q1."
+  },
+  {
+    "id": "I56",
+    "kind": "DERIVED",
+    "basis": "Q4 benefit boundary",
+    "finding": "The scene is an actual creative output serving the local revisit purpose. Its existence is not an observed report that a human enjoyed it, nor a demonstration of learning transfer."
+  },
+  {
+    "id": "I57",
+    "kind": "DERIVED",
+    "basis": "investigate-mode boundary",
+    "finding": "If the declared purpose were to learn which box interpretation viewers select, writing Q4 would not answer it. The revised selector retains investigate mode instead of treating every repeat as sufficient inquiry."
+  },
+  {
+    "id": "I58",
+    "kind": "OBSERVED",
+    "basis": "initial goal input",
+    "finding": "The original continuation goal is the full broad mind-change program, which does not identify whether this next step is an audience study, a new contrast, or a revisiting exercise."
+  },
+  {
+    "id": "I59",
+    "kind": "DERIVED",
+    "basis": "local-purpose selection",
+    "finding": "The two available local operations—write the scene or compare a new scene—both fit the broad program. The explicit present revisit purpose distinguishes which one serves this next step."
+  },
+  {
+    "id": "I60",
+    "kind": "OBSERVED",
+    "basis": "unmeasured effort",
+    "finding": "No elapsed human authoring times or reliable cost estimates for those two choices are supplied. The revised selection records availability and purpose without inventing a numerical efficiency ranking."
+  },
+  {
+    "id": "I61",
+    "kind": "OBSERVED",
+    "basis": "deferred candidate",
+    "finding": "The new-scene comparison remains available in the deferred list; choosing Q4 does not judge that other question worthless."
+  },
+  {
+    "id": "I62",
+    "kind": "OBSERVED",
+    "basis": "stopped-thread representation",
+    "finding": "The inherited stopped-thread reason is untyped, whereas Q0’s locally settled question and Q3’s missing participant dependency require different reopening conditions."
+  },
+  {
+    "id": "I63",
+    "kind": "DERIVED",
+    "basis": "Q3 reopening",
+    "finding": "Adding a fourth fictional scene supplies no actual participant response, so it leaves Q3 paused even if the new scene is interesting."
+  },
+  {
+    "id": "I64",
+    "kind": "DERIVED",
+    "basis": "Q0 reopening",
+    "finding": "Renaming the settled platform comparison supplies neither a new input relation nor a contradiction; it does not by itself reopen the already-produced comparison."
+  },
+  {
+    "id": "I65",
+    "kind": "OBSERVED",
+    "basis": "four revised tiers",
+    "finding": "All four revised local procedures retain Gold under the same field schema. The structural tier remains unchanged while the semantic transition contracts change."
+  },
+  {
+    "id": "I66",
+    "kind": "TESTED",
+    "basis": "baseline preservation",
+    "finding": "The four PCI input files still match the hashes captured before ITERATE; their actual prior behavior and field structure remain inspectable."
+  },
+  {
+    "id": "I67",
+    "kind": "OBSERVED",
+    "basis": "deletion execution",
+    "finding": "The executable revision no longer contains the unconditional select-a-distinct-question step. That exact historical step remains in the preserved PCI snapshot."
+  },
+  {
+    "id": "I68",
+    "kind": "DERIVED",
+    "basis": "deletion risk and disposition",
+    "finding": "Deleting the entire novelty comparison would also erase the distinction between a repeat and a new discovery. The executed deletion removes only the eligibility condition and retains novelty labeling."
+  },
+  {
+    "id": "I69",
+    "kind": "OBSERVED",
+    "basis": "organization alternative A",
+    "finding": "A single narrative can retain R0 and R1, but the narrative alone has no declared field query for current day or source of unchanged amount."
+  },
+  {
+    "id": "I70",
+    "kind": "TESTED",
+    "basis": "organization alternative B later use",
+    "finding": "The split event/state representation returns Sunday from R1:read:when and the unchanged amount from R0:read:amount; draft D1 resolves all eight cited component revisions to state S1."
+  },
+  {
+    "id": "I71",
+    "kind": "DERIVED",
+    "basis": "organization trade-off",
+    "finding": "Keeping events, current state and a derived draft adds references and navigation. This local retrieval benefit does not prove that the representation is faster for a person reading one short reply."
+  },
+  {
+    "id": "I72",
+    "kind": "DERIVED",
+    "basis": "stopping decision",
+    "finding": "Thirty-two finite later-use checks exercise the twelve targeted transitions, identity failures, typed references, registry structure and document fields within their declared fixtures; repeating schema additions would not supply Q3’s missing external observations or a comparison beyond these fixtures."
+  }
+]

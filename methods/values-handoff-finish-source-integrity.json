@@ -1,0 +1,137 @@
+[
+  {
+    "id": "pcd",
+    "source": "values-handoff-pcd.original.md",
+    "requirements": "values-handoff-pcd.requirements.txt",
+    "sha256": "929b5f4a3ae4f9ff0c5cf340cc216fb138a9c3d083f819b42a47e210d3dcf943",
+    "receipt_sha256": "929b5f4a3ae4f9ff0c5cf340cc216fb138a9c3d083f819b42a47e210d3dcf943",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "pci",
+    "source": "values-handoff-pci.original.md",
+    "requirements": "values-handoff-pci.requirements.txt",
+    "sha256": "125a616aa2282251afb5e8bb9a8c144dc2222a614bc3a2677a1cb73329a1a8ee",
+    "receipt_sha256": "125a616aa2282251afb5e8bb9a8c144dc2222a614bc3a2677a1cb73329a1a8ee",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "iterate",
+    "source": "values-handoff-iterate.original.md",
+    "requirements": "values-handoff-iterate.requirements.txt",
+    "sha256": "4fbd3a8d677d2cf94b909bc6c0ab425063cca71d5ea27df6bc6eab7a32daaf7c",
+    "receipt_sha256": "4fbd3a8d677d2cf94b909bc6c0ab425063cca71d5ea27df6bc6eab7a32daaf7c",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "al",
+    "source": "values-handoff-al.original.md",
+    "requirements": "values-handoff-al.requirements.txt",
+    "sha256": "d3f19e31956f00cdac228f049468e7954c695ebb576d11ca841a6e67f0bdec20",
+    "receipt_sha256": "d3f19e31956f00cdac228f049468e7954c695ebb576d11ca841a6e67f0bdec20",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "rlg",
+    "source": "values-handoff-rlg.original.md",
+    "requirements": "values-handoff-rlg.requirements.txt",
+    "sha256": "ce6f13389dc21e2dfedc07d7a6a3cd05d819f29b567cfd19338573ffb494a31d",
+    "receipt_sha256": "ce6f13389dc21e2dfedc07d7a6a3cd05d819f29b567cfd19338573ffb494a31d",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "empth",
+    "source": "values-handoff-empth.original.md",
+    "requirements": "values-handoff-empth.requirements.txt",
+    "sha256": "b51aa7afad8ad02d5d6e0e2c57b82d29c2a9e8fcb8a362cb3770b6664663ac45",
+    "receipt_sha256": "b51aa7afad8ad02d5d6e0e2c57b82d29c2a9e8fcb8a362cb3770b6664663ac45",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "socg",
+    "source": "values-handoff-socg.original.md",
+    "requirements": "values-handoff-socg.requirements.txt",
+    "sha256": "beabf547e62b55b2de08b63da949a79f55ddaeba65ccc37a281b87e456f99f00",
+    "receipt_sha256": "beabf547e62b55b2de08b63da949a79f55ddaeba65ccc37a281b87e456f99f00",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "cfr",
+    "source": "values-handoff-cfr.original.md",
+    "requirements": "values-handoff-cfr.requirements.txt",
+    "sha256": "de7e787e1722b25a50c08bb42822fd5099982241e70dea109fe073427a186991",
+    "receipt_sha256": "de7e787e1722b25a50c08bb42822fd5099982241e70dea109fe073427a186991",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "col",
+    "source": "values-handoff-col.original.md",
+    "requirements": "values-handoff-col.requirements.txt",
+    "sha256": "53e5bdbe771aaf02bd5eb2773c606badf440a356f8fb7d8964c47a3f83e9ec47",
+    "receipt_sha256": "53e5bdbe771aaf02bd5eb2773c606badf440a356f8fb7d8964c47a3f83e9ec47",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "funr",
+    "source": "values-handoff-funr.original.md",
+    "requirements": "values-handoff-funr.requirements.txt",
+    "sha256": "c115a4cf0f8ada363a40631f4db33badf871afb7007c6a2ab861b93c4d54e62c",
+    "receipt_sha256": "c115a4cf0f8ada363a40631f4db33badf871afb7007c6a2ab861b93c4d54e62c",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "cmp",
+    "source": "values-handoff-cmp.original.md",
+    "requirements": "values-handoff-cmp.requirements.txt",
+    "sha256": "2ac629f7654fe692dc3b9e40519e443cc99821384cd6af5d30c8effb768bd405",
+    "receipt_sha256": "2ac629f7654fe692dc3b9e40519e443cc99821384cd6af5d30c8effb768bd405",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "exd",
+    "source": "values-handoff-exd.original.md",
+    "requirements": "values-handoff-exd.requirements.txt",
+    "sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+    "receipt_sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "ve",
+    "source": "values-handoff-ve.original.md",
+    "requirements": "values-handoff-ve.requirements.txt",
+    "sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+    "receipt_sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "mp",
+    "source": "values-handoff-mp.original.md",
+    "requirements": "values-handoff-mp.requirements.txt",
+    "sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+    "receipt_sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  },
+  {
+    "id": "skills/_shared/corruption-pre-inoculation.md",
+    "source": "values-handoff-corruption-pre-inoculation.original.md",
+    "requirements": "values-handoff-corruption-pre-inoculation.requirements.txt",
+    "sha256": "000a94a0d52b2153db23efd58df04d0a63a119327219dad30b36696cf16aa295",
+    "receipt_sha256": "000a94a0d52b2153db23efd58df04d0a63a119327219dad30b36696cf16aa295",
+    "matches": true,
+    "loaded_by_reader_before_finish_execution": true
+  }
+]

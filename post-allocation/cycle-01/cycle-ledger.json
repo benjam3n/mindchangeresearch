@@ -1,0 +1,180 @@
+{
+  "cycle": "post-allocation/cycle-01",
+  "frozen_input": "post-allocation/cycle-01/frozen-inputs.md",
+  "initial_allocation_effect": "none; 233 complete, 66 partial, and 1 blocked original applications remain unchanged",
+  "source_fidelity": "Twelve originals were freshly loaded through the RSI reader. Every preserved stdout and stderr stream matched a fresh root verification byte for byte.",
+  "attempt_counts": {
+    "substantive_records": 12,
+    "complete_within_scope": 11,
+    "partial": 1,
+    "keep_verdicts": 12,
+    "distinct_new_keep_findings": 7,
+    "later_uptake_or_nonindependent_keeps": 5,
+    "rejected_or_unresolved_benefit_verdicts": 0
+  },
+  "records": [
+    {
+      "id": "PAC01-TD-01",
+      "domain": "time",
+      "skill_id": "td",
+      "file": "post-allocation/cycle-01/time-reversibility/TD-prospective.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": false,
+      "novelty": "Changed prospective case and later uptake of the established option-region finding; no duplicate discovery credit.",
+      "later_use": "Moving the information report from 09:15 to 09:25 changed wait-for-information to start A by 09:20."
+    },
+    {
+      "id": "PAC01-RVA-01",
+      "domain": "time and reversibility",
+      "skill_id": "rva",
+      "file": "post-allocation/cycle-01/time-reversibility/RVA-prospective.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "component-reversibility-before-information",
+      "later_use": "Moving only the refund boundary before the information event reduced the report's monetary decision value from $6 to $0."
+    },
+    {
+      "id": "PAC01-IPSS-01",
+      "domain": "location and representation",
+      "skill_id": "ipss",
+      "file": "post-allocation/cycle-01/location-perception/01-ipss-query-conditioned-location.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "query-history-location-policy",
+      "later_use": "The represented policy changed L2 to L3 when the frozen query changed."
+    },
+    {
+      "id": "PAC01-DIFR-01",
+      "domain": "location and perception",
+      "skill_id": "difr",
+      "file": "post-allocation/cycle-01/location-perception/02-difr-composition-over-count.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": false,
+      "novelty": "Independent procedure and exact composition test supporting the same query-conditioned location-policy finding; one finding credit only.",
+      "later_use": "Equal feature counts were rejected as a selection rule; predicate composition changed L2 to L3."
+    },
+    {
+      "id": "PAC01-MP-01",
+      "domain": "motivation and action",
+      "skill_id": "mp",
+      "file": "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "constraint-order-without-motivational-inference",
+      "later_use": "Authority, reversibility, and remaining time reversed the action order while motivational state remained unassigned."
+    },
+    {
+      "id": "PAC01-EQI-01",
+      "domain": "emotion and representation",
+      "skill_id": "eqi",
+      "file": "post-allocation/cycle-01/motivation-emotion/02-eqi-appraisal-message.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": false,
+      "novelty": "Coordination-domain uptake of an established appraisal/feeling/effect separation.",
+      "later_use": "A stated worry changed the reply to evidence-and-recommendation-first without inferring emotion."
+    },
+    {
+      "id": "PAC01-MEMK-01",
+      "domain": "memory artifact and capability",
+      "skill_id": "memk",
+      "file": "post-allocation/cycle-01/memory-capability/01-memk-capture.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "lossless-does-not-determine-retrieval-cost",
+      "later_use": "A trigger-only index retrieved the changed-actor exception in one access while retaining the 48-field canonical register."
+    },
+    {
+      "id": "PAC01-ACR-01",
+      "domain": "retrieval and learning boundary",
+      "skill_id": "acr",
+      "file": "post-allocation/cycle-01/memory-capability/02-acr-retrieval.md",
+      "status": "partial",
+      "verdict": "KEEP",
+      "distinct_new_finding": false,
+      "novelty": "Useful immediate retrieval and action uptake; delayed retention and learning remain unobserved, so no new learning-method credit.",
+      "missing_requirements": ["controlled context closure", "effort measurement", "1-3 day retest", "one-week retest", "cross-attempt variation", "human learning evidence"],
+      "later_use": "The retrieved exception reordered a changed actor's constructed response."
+    },
+    {
+      "id": "PAC01-COL-01",
+      "domain": "tools and coordination",
+      "skill_id": "col",
+      "file": "post-allocation/cycle-01/tools-coordination/01-col-semantic-merge-protocol.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "semantic-basis-merge-compatibility",
+      "later_use": "Six proposal orders returned the same merge; missing provenance rejected only the unsupported field."
+    },
+    {
+      "id": "PAC01-TRACEMATRIX-01",
+      "domain": "tools and coordination",
+      "skill_id": "tracematrix",
+      "file": "post-allocation/cycle-01/tools-coordination/02-tracematrix-proposal-ledger.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "proposal-log-versus-bidirectional-trace",
+      "depth_status": "Original 8x floors met: 100 distinct items, five levels, 12 gap checks, four reports, seven link types.",
+      "later_use": "Later queries distinguished current, retained, rejected, and gated values without inventing a provenance value."
+    },
+    {
+      "id": "PAC01-UNX-01",
+      "domain": "response and approach selection",
+      "skill_id": "unx",
+      "file": "post-allocation/cycle-01/approach-selection/01-unx-transition-first.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": true,
+      "finding_id": "transition-before-technique-selection",
+      "later_use": "The selector chose a merge gate for X/Y/Z and a localized choice-bearing representation for the contributor case."
+    },
+    {
+      "id": "PAC01-UPTH-01",
+      "domain": "response and approach selection",
+      "skill_id": "upth",
+      "file": "post-allocation/cycle-01/approach-selection/02-upth-transition-selector.md",
+      "status": "complete",
+      "verdict": "KEEP",
+      "distinct_new_finding": false,
+      "novelty": "Operationalization, failure repair, and later uptake of UNX; not a second discovery.",
+      "later_use": "The gated partial order selected L2 for structural safety and preserved the unresolved custody tie under its own predicate specification."
+    }
+  ],
+  "distinct_findings": [
+    "component-reversibility-before-information",
+    "query-history-location-policy",
+    "constraint-order-without-motivational-inference",
+    "lossless-does-not-determine-retrieval-cost",
+    "semantic-basis-merge-compatibility",
+    "proposal-log-versus-bidirectional-trace",
+    "transition-before-technique-selection"
+  ],
+  "consolidation": {
+    "file": "post-allocation/cycle-01/consolidation-01-transition-gates.md",
+    "finding_ids": [
+      "transition-before-technique-selection",
+      "component-reversibility-before-information",
+      "constraint-order-without-motivational-inference",
+      "semantic-basis-merge-compatibility"
+    ],
+    "remaining_unconsolidated_distinct_findings": [
+      "query-history-location-policy",
+      "lossless-does-not-determine-retrieval-cost",
+      "proposal-log-versus-bidirectional-trace"
+    ]
+  },
+  "claims_not_made": [
+    "human belief, emotion, motivation, perception, memory, learning, or behavior changed",
+    "model weights changed",
+    "any organization is globally optimal",
+    "structural efficiency equals measured time or effort efficiency"
+  ]
+}

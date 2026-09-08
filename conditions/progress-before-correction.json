@@ -1,0 +1,304 @@
+{
+  "line": "conditions",
+  "actor": "conditions subagent",
+  "allocated_applications": 50,
+  "completed_applications": [
+    "acr-01",
+    "acr-02",
+    "de-01",
+    "de-02",
+    "de-03",
+    "dlp-01",
+    "dlp-02",
+    "ecal-01",
+    "ecal-02",
+    "ecal-03",
+    "enough-01",
+    "enough-02",
+    "fr-01",
+    "hsi-01",
+    "kta-01",
+    "kta-02",
+    "kta-03",
+    "ld-01",
+    "lrs-01",
+    "lt-01",
+    "lt-02",
+    "lt-03",
+    "memk-01",
+    "memy-01",
+    "memy-02",
+    "memy-03",
+    "nstep-01",
+    "nstep-02",
+    "pwif-01",
+    "qs-01",
+    "qs-02",
+    "rso-01",
+    "rso-02",
+    "rso-03",
+    "rva-01",
+    "rwif-01",
+    "ska-01",
+    "ska-02",
+    "spr-01",
+    "spr-02",
+    "td-01",
+    "td-02",
+    "td-03",
+    "to-01",
+    "to-02",
+    "to-03",
+    "tobd-01",
+    "tobd-02"
+  ],
+  "keeps": [
+    "de-01",
+    "de-02",
+    "de-03",
+    "ecal-02",
+    "enough-02",
+    "fr-01",
+    "kta-01",
+    "ld-01",
+    "lt-02",
+    "memk-01",
+    "memy-01",
+    "nstep-01",
+    "nstep-02",
+    "qs-01",
+    "qs-02",
+    "rso-01",
+    "rso-02",
+    "rso-03",
+    "rva-01",
+    "td-01",
+    "td-03",
+    "to-01",
+    "to-03"
+  ],
+  "consolidations": [
+    "consolidation-01",
+    "consolidation-02",
+    "consolidation-03",
+    "consolidation-04",
+    "consolidation-05"
+  ],
+  "statuses": [
+    {
+      "id": "acr-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "acr-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "consolidation-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "consolidation-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "consolidation-03",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "consolidation-04",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "consolidation-05",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "de-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "de-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "de-03",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "dlp-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "dlp-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "ecal-01",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "ecal-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "ecal-03",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "enough-01",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "enough-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "fr-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "hsi-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "kta-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "kta-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "kta-03",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "ld-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "lrs-01",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "lt-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "lt-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "lt-03",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "memk-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "memy-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "memy-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "memy-03",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "nstep-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "nstep-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "pwif-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "qs-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "qs-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "rso-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "rso-02",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "rso-03",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "rva-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "rwif-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "ska-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "ska-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "spr-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "spr-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "td-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "td-02",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "td-03",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "to-01",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "to-02",
+      "verdict": "REJECT"
+    },
+    {
+      "id": "to-03",
+      "verdict": "KEEP"
+    },
+    {
+      "id": "tobd-01",
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "tobd-02",
+      "verdict": "UNRESOLVED"
+    }
+  ],
+  "status": "executing",
+  "updated_utc": "2026-09-08T04:49:55.161163+00:00",
+  "completion_meaning": "Source application record with performed design/in-session stages; delayed and physical stages explicitly remain unresolved where applicable. This count is not a count of proven human effects."
+}

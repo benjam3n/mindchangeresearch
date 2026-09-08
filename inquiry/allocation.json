@@ -1,0 +1,254 @@
+[
+  {
+    "rank": 1,
+    "id": "ar",
+    "title": "Assume Right Search",
+    "description": "Assume Right - Deep recursive rightness search. For every claim, assume it's right — find what must follow, then assume THOSE implications are right too. Recurse until bedrock. Track every claim found.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 2,
+    "id": "aex",
+    "title": "Assumption Extraction",
+    "description": "Extract hidden assumptions from any content. Surfaces what must be true for claims to hold, enabling deeper analysis.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 3,
+    "id": "dd",
+    "title": "Dimension Discovery",
+    "description": "Identify the key dimensions that define a problem space, enabling comprehensive enumeration. Use before space_enumeration for novel domains.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 4,
+    "id": "se",
+    "title": "Space Enumeration",
+    "description": "Generate comprehensive lists by systematically covering all dimensions. Ensures nothing is missed through structured enumeration.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 5,
+    "id": "spd",
+    "title": "Space Discovery",
+    "description": "Discover what space exists BEFORE generating guesses. Maps dimensions, stakeholders, time horizons, and adjacent spaces. Run this before guess_generation to ensure comprehensive coverage.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": "Search Methods",
+    "invokes": [
+      "gg"
+    ]
+  },
+  {
+    "rank": 6,
+    "id": "u",
+    "title": "Universalize",
+    "description": "Universalize - Extract the complete space of assumptions, dimensions, and alternatives from any claim. Map before you judge. Track every finding.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": "Core Exploration",
+    "invokes": []
+  },
+  {
+    "rank": 7,
+    "id": "ipss",
+    "title": "Interpretation Space Search",
+    "description": "Ambiguity means multiple interpretations are possible.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": "Search Methods",
+    "invokes": []
+  },
+  {
+    "rank": 8,
+    "id": "mss",
+    "title": "Model Space Search",
+    "description": "Understanding = finding a model that fits.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": "Search Methods",
+    "invokes": []
+  },
+  {
+    "rank": 9,
+    "id": "frq",
+    "title": "Find Right Question",
+    "description": "Find the right question to ask by diagnosing your actual situation and generating the most actionable question.",
+    "line": "inquiry",
+    "applications": 3,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 51,
+    "id": "ifss",
+    "title": "Inference Space Search",
+    "description": "Information implies other information. But not all inferences are equal:",
+    "line": "inquiry",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 52,
+    "id": "qaf",
+    "title": "Question Analysis Framework",
+    "description": "This framework provides methods for analyzing questions to determine:",
+    "line": "inquiry",
+    "applications": 2,
+    "category": "Questions & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 53,
+    "id": "qr",
+    "title": "Question Route",
+    "description": "Map any question to the nearest node in the 438-question graph, show connected questions by route type, and suggest reasoning skills that match.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": "Research & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 54,
+    "id": "ael",
+    "title": "Assumption Elimination",
+    "description": "Before asserting anything, verify it can be confirmed by the listener.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": "Assumptions & Critique",
+    "invokes": []
+  },
+  {
+    "rank": 55,
+    "id": "fctl",
+    "title": "Factual Claim Testing",
+    "description": "Test whether a factual claim is true. Assess evidence quality, check for common errors, and deliver a verdict with confidence level.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": "Claim Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 56,
+    "id": "cscl",
+    "title": "Causal Claim Analysis",
+    "description": "Test whether X actually causes Y. Check confounders, mechanisms, temporal ordering, and counterfactuals.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": "Claim Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 57,
+    "id": "rci",
+    "title": "Recursive Causal Interrogation",
+    "description": "A systematic approach to reasoning: tracing causes through questioning.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 58,
+    "id": "rca",
+    "title": "Root Cause Analysis",
+    "description": "Systematically trace symptoms back to their underlying root causes using structured diagnostic techniques. Supports context-adaptive variants.",
+    "line": "inquiry",
+    "applications": 2,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 101,
+    "id": "ht",
+    "title": "Hypothesis Testing",
+    "description": "Systematic procedure for formulating testable hypotheses, designing tests, and updating beliefs based on evidence. Supports context-adaptive variants.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 102,
+    "id": "src",
+    "title": "Source Credibility Assessment",
+    "description": "Procedure for evaluating the credibility and reliability of any information source",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Research & Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 103,
+    "id": "av",
+    "title": "Assumption Verification",
+    "description": "Systematically verify assumptions by classifying type, determining verification method, executing, and updating confidence.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Evaluation & Validation",
+    "invokes": []
+  },
+  {
+    "rank": 104,
+    "id": "sdc",
+    "title": "Self-Deception Check",
+    "description": "Detect when reasoning is actually rationalization. Mechanical checks for motivated reasoning, emotional override, and evidence asymmetry.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": null,
+    "invokes": []
+  },
+  {
+    "rank": 105,
+    "id": "mtcl",
+    "title": "Meta Claim Analysis",
+    "description": "Evaluate claims about claims. Analyze what level a claim operates at, check self-referential consistency, and assess impact on object-level analysis.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Claim Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 106,
+    "id": "rlcl",
+    "title": "Relational Claim Analysis",
+    "description": "Evaluate claims about how things relate. Verify the relationship type, test its strength, and identify its boundaries.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Claim Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 107,
+    "id": "icl",
+    "title": "Intentional Claim Analysis",
+    "description": "Evaluate claims about what someone wants or intends. Check behavioral evidence, stated vs revealed preferences, and alternative intentions.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Claim Analysis",
+    "invokes": []
+  },
+  {
+    "rank": 108,
+    "id": "dvs",
+    "title": "Diversity Search Orderings",
+    "description": "Orderings that prioritize behavioral diversity, novelty, and coverage of solution space over convergence to a single optimum.",
+    "line": "inquiry",
+    "applications": 1,
+    "category": "Orderings",
+    "invokes": []
+  }
+]

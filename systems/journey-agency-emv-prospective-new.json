@@ -1,0 +1,92 @@
+{
+  "frozen_at_utc": "2026-09-08T04:44:18.952302+00:00",
+  "purpose": "Genuinely new inputs; prior incomplete prediction records remain retrospective and unchanged.",
+  "predictions": [
+    {
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": true
+      },
+      "confidence": 85,
+      "id": "NEW-1",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "active": true,
+        "returned_revision": 2,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "id": "NEW-2",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "active": false,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "execute",
+        "permissions": [
+          "describe",
+          "execute"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "id": "NEW-3",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "inspect",
+        "permissions": [
+          "describe"
+        ]
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 80,
+      "id": "NEW-4",
+      "status": "PENDING"
+    },
+    {
+      "input": {
+        "active": true,
+        "returned_revision": 3,
+        "current_revision": 3,
+        "action": "describe",
+        "permissions": []
+      },
+      "prediction": {
+        "accepted": false
+      },
+      "confidence": 85,
+      "id": "NEW-5",
+      "status": "PENDING"
+    }
+  ]
+}

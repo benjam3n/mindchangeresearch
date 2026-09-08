@@ -1,0 +1,243 @@
+{
+  "traces": [
+    {
+      "id": "Q0",
+      "relation": null,
+      "question": "What waiting referents are available in the same wording across a platform and a drawing?",
+      "input": {
+        "origin": "constructed",
+        "text": "What are you waiting for?",
+        "scenes": [
+          "empty platform",
+          "half-finished drawing"
+        ]
+      },
+      "operation": {
+        "state": "performed",
+        "name": "Generate distinct interpretive alternatives"
+      },
+      "claims": [
+        {
+          "id": "Q0a",
+          "kind": "interpretation",
+          "text": "The platform supports waiting for transport, a person, or an event."
+        },
+        {
+          "id": "Q0b",
+          "kind": "interpretation",
+          "text": "The drawing supports waiting to resume making, obtain materials, or choose a next mark."
+        }
+      ],
+      "state": "settled",
+      "interest": "The same wording opens different relations in the two scenes."
+    },
+    {
+      "id": "Q1",
+      "relation": {
+        "type": "contrasts",
+        "parent_trace_id": "Q0",
+        "target_claim_ids": ["Q0a", "Q0b"]
+      },
+      "question": "Does a closed box permit waiting that is neither transport nor making?",
+      "input": {
+        "origin": "constructed",
+        "text": "What are you waiting for?",
+        "scene": "closed box"
+      },
+      "operation": {
+        "state": "performed",
+        "name": "Generate three candidate waiting relations"
+      },
+      "claims": [
+        {
+          "id": "Q1a",
+          "kind": "interpretation",
+          "text": "Waiting to open the box is an action delay."
+        },
+        {
+          "id": "Q1b",
+          "kind": "interpretation",
+          "text": "Waiting for permission depends on another actor."
+        },
+        {
+          "id": "Q1c",
+          "kind": "interpretation",
+          "text": "Waiting for contents to change depends on a process inside the box."
+        }
+      ],
+      "state": "settled",
+      "interest": "An identical box can be encountered as a delayed action, a social boundary, or a changing process."
+    },
+    {
+      "id": "Q2",
+      "relation": {
+        "type": "continues",
+        "parent_trace_id": "Q1",
+        "target_claim_ids": ["Q1a", "Q1b", "Q1c"]
+      },
+      "question": "Which parts of the same artifact are directly measurable, and which remain interpretations?",
+      "input": {
+        "origin": "observed local artifact",
+        "text": "What are you waiting for?"
+      },
+      "operation": {
+        "state": "performed",
+        "name": "Count the characters of the stored Python string"
+      },
+      "claims": [
+        {
+          "id": "Q2a",
+          "kind": "direct local measurement",
+          "text": "The stored label has 25 characters including spaces and punctuation."
+        },
+        {
+          "id": "Q2b",
+          "kind": "interpretation",
+          "text": "Character identity leaves the three Q1 waiting relations available; the count chooses none of them."
+        }
+      ],
+      "state": "settled",
+      "interest": "One object supports both an exact measurement and unresolved meaning without averaging their certainty."
+    },
+    {
+      "id": "Q3",
+      "relation": {
+        "type": "tests",
+        "parent_trace_id": "Q1",
+        "target_claim_ids": ["Q1a", "Q1b", "Q1c"]
+      },
+      "question": "Which of the three Q1 meanings would actual viewers report first?",
+      "input": {
+        "origin": "constructed",
+        "text": "What are you waiting for?",
+        "scene": "closed box"
+      },
+      "operation": {
+        "state": "unavailable",
+        "name": "Collect actual viewer responses"
+      },
+      "claims": [
+        {
+          "id": "Q3a",
+          "kind": "prediction",
+          "text": "A distribution of viewer choices would distinguish audience prevalence from the available interpretations; none has been observed here."
+        }
+      ],
+      "state": "paused_for_resource",
+      "reopening_condition": "Actual participants and recorded responses supplied.",
+      "interest": "A scene can afford interpretations without revealing how often each is selected."
+    },
+    {
+      "id": "Q4",
+      "relation": {
+        "type": "continues",
+        "parent_trace_id": "Q1",
+        "target_claim_ids": ["Q1a", "Q1b", "Q1c"]
+      },
+      "question": "Can I revisit the closed box as a short scene without calling the known three meanings new discoveries?",
+      "input": {
+        "origin": "constructed",
+        "text": "What are you waiting for?",
+        "scene": "closed box"
+      },
+      "operation": {
+        "state": "performed",
+        "name": "Write a short scene from the known permission and process alternatives"
+      },
+      "claims": [
+        {
+          "id": "Q4a",
+          "kind": "creative product",
+          "text": "The label asked, “What are you waiting for?” A brass key lay beside the box. The visitor left it there. Behind the lid, something had just gone quiet."
+        }
+      ],
+      "state": "revisit_for_interest",
+      "interest": "The gap between having a key, choosing to open, and hearing a change is worth returning to without a new truth claim."
+    }
+  ],
+  "before_selection": {
+    "local_purpose": "Revisit the closed box for the interest of a short scene.",
+    "procedure": "values-handoff-continuation-choice.pci.json",
+    "result": "The unconditional distinct-question selection step has no eligible settled repeat, while the same specification also retains pure-interest candidates. Selection is underdetermined for this supplied purpose; no human or model error is fabricated."
+  },
+  "after_selection": {
+    "selection_id": "SEL-Q4-revisit-1",
+    "local_purpose": "Revisit the closed box for the interest of a short scene.",
+    "mode": "revisit-for-interest",
+    "available_operations": [
+      "Write the short scene locally",
+      "Compare another new scene locally"
+    ],
+    "selected": "Q4",
+    "deferred": [
+      {
+        "thread": "Q3",
+        "reason": "Actual viewer responses unavailable."
+      },
+      {
+        "thread": "new-scene comparison",
+        "reason": "Available, but serves a different present purpose."
+      }
+    ],
+    "novel_evidence": false,
+    "actual_product": "The label asked, “What are you waiting for?” A brass key lay beside the box. The visitor left it there. Behind the lid, something had just gone quiet."
+  },
+  "lineages": {
+    "Q0": {
+      "status": "resolved",
+      "path": [
+        "Q0"
+      ]
+    },
+    "Q1": {
+      "status": "resolved",
+      "path": [
+        "Q1",
+        "Q0"
+      ]
+    },
+    "Q2": {
+      "status": "resolved",
+      "path": [
+        "Q2",
+        "Q1",
+        "Q0"
+      ]
+    },
+    "Q3": {
+      "status": "resolved",
+      "path": [
+        "Q3",
+        "Q1",
+        "Q0"
+      ]
+    },
+    "Q4": {
+      "status": "resolved",
+      "path": [
+        "Q4",
+        "Q1",
+        "Q0"
+      ]
+    }
+  },
+  "separate_invalid_inputs": {
+    "missing": {
+      "status": "missing_parent",
+      "path": [
+        "Qx"
+      ],
+      "at": "absent"
+    },
+    "cycle": {
+      "status": "cycle",
+      "path": [
+        "Qa",
+        "Qb"
+      ],
+      "at": "Qa"
+    }
+  },
+  "identity_scope": "Trace IDs Q0–Q4 and claim IDs Q0a–Q4a are unique in this file. Every non-root relation names an existing parent and claims owned by that parent; the separate invalid fixtures are outside the valid trace set.",
+  "scope": "All scenes and creative outputs are authored locally. The character count is a direct observation of that local string. No viewer response, preference, pleasure report, learning or human mind change is present."
+}

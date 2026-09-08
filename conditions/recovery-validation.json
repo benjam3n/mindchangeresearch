@@ -1,0 +1,41 @@
+{
+  "nodes": 8,
+  "edges": 11,
+  "rounds": [
+    [
+      "A"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "D"
+    ],
+    [
+      "E"
+    ],
+    [
+      "F"
+    ],
+    [
+      "G"
+    ],
+    [
+      "H"
+    ]
+  ],
+  "selected_order": [
+    "A",
+    "C",
+    "D",
+    "B",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "selected_order_valid": true,
+  "old_round_D_E_valid": false,
+  "reason": "D must precede E after the precommitment purpose makes D\u2192E hard."
+}

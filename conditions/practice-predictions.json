@@ -1,0 +1,369 @@
+{
+  "recorded_before_comparator": true,
+  "actor": "conditions subagent",
+  "created_utc": "2026-09-08T04:30:34.765378+00:00",
+  "cases": [
+    {
+      "id": "P01",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 7
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P02",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P03",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P04",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P05",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 7
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P06",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P07",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 7
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P08",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 5
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P09",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P10",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 1,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P11",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P12",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 1,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P13",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 3
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P14",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 3
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P15",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        },
+        {
+          "id": "B",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P16",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    }
+  ]
+}

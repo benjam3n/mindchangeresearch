@@ -1,0 +1,1111 @@
+{
+  "groups": [
+    [
+      "Wakefulness and awareness",
+      [
+        "Wakefulness: waking, becoming drowsy, or falling asleep",
+        "Conscious access: an otherwise unreported content entering awareness",
+        "Awareness breadth: more or less of an experience being noticed",
+        "Clarity: experience becoming clearer, hazier, or more confused",
+        "Absorption: becoming immersed in, or disengaging from, an activity",
+        "Dream awareness: recognizing a dream while dreaming",
+        "Self-awareness: noticing oneself as participating in an experience",
+        "Environmental awareness: becoming more or less aware of surroundings"
+      ]
+    ],
+    [
+      "Bodily experience",
+      [
+        "Fatigue: feeling more or less mentally or physically tired",
+        "Vitality: feeling more or less energetic or vigorous",
+        "Comfort: changes in felt ease, discomfort, or restlessness",
+        "Pain: changes in experienced intensity, location, unpleasantness, or meaning",
+        "Tension: changes in felt tightness, relaxation, or readiness",
+        "Hunger and satiety: changes in felt need for or satisfaction from food",
+        "Thirst: changes in felt need for fluid",
+        "Sexual arousal: changes in felt sexual responsiveness or interest",
+        "Bodily orientation: changes in felt balance, movement, position, or ownership",
+        "Interoceptive awareness: changes in noticing and distinguishing internal bodily signals"
+      ]
+    ],
+    [
+      "Arousal and readiness",
+      [
+        "Alertness: becoming more or less ready to detect events",
+        "Agitation: becoming more or less unsettled or activated",
+        "Composure: gaining or losing the ability to remain settled under pressure",
+        "Vigilance: changing readiness to detect possible threats or opportunities",
+        "Startle readiness: changing susceptibility to sudden interruption",
+        "Felt safety: a situation coming to feel safer or more threatening",
+        "Action readiness: becoming poised for approach, withdrawal, speech, or movement",
+        "Recovery: returning more quickly or slowly after activation"
+      ]
+    ],
+    [
+      "Sensory discrimination",
+      [
+        "Detection: becoming able or unable to notice a stimulus",
+        "Sensitivity: weaker or stronger stimulation becoming noticeable",
+        "Resolution: distinguishing finer or coarser sensory differences",
+        "Auditory discrimination: distinguishing sounds, voices, tones, or rhythms",
+        "Visual discrimination: distinguishing shapes, colors, movements, or configurations",
+        "Tactile discrimination: distinguishing textures, pressures, or locations",
+        "Smell and taste discrimination: distinguishing previously conflated sensations",
+        "Signal discrimination: separating a relevant signal from background variation"
+      ]
+    ],
+    [
+      "Perceptual organization",
+      [
+        "Figure and ground: changing which part stands out against a background",
+        "Grouping: experiencing separate elements as a unit or a unit as separate",
+        "Boundary perception: changing where one perceived thing ends and another begins",
+        "Ambiguity resolution: moving between interpretations of an ambiguous stimulus",
+        "Spatial organization: changing perceived depth, distance, orientation, or layout",
+        "Temporal organization: experiencing events as simultaneous, sequential, or rhythmic",
+        "Multisensory integration: changing how signals from different senses are combined",
+        "Perceptual constancy: changing what is treated as stable despite changing input"
+      ]
+    ],
+    [
+      "Recognition",
+      [
+        "Identity recognition: recognizing a person, object, place, or event",
+        "Pattern recognition: noticing a repeated or governing arrangement",
+        "Familiarity: something coming to feel familiar or unfamiliar",
+        "Application recognition: recognizing that a known method applies here",
+        "Opportunity recognition: noticing an available beneficial possibility",
+        "Hazard recognition: noticing a consequential threat or failure possibility",
+        "Incongruity recognition: noticing that elements do not fit together",
+        "Affordance recognition: noticing what an object or situation permits one to do"
+      ]
+    ],
+    [
+      "Attention",
+      [
+        "Orientation: directing attention toward something previously unattended",
+        "Selection: changing which competing content receives attention",
+        "Maintenance: sustaining attention for a longer or shorter interval",
+        "Disengagement: releasing attention from a currently dominant object",
+        "Switching: moving attention between objects or activities",
+        "Division: distributing attention across multiple demands",
+        "Breadth: narrowing focus or taking in a wider field",
+        "Interruption resistance: becoming more or less distractible",
+        "Timing: attending at the moment a relevant difference occurs",
+        "Control: changing the relation between chosen and involuntary attention"
+      ]
+    ],
+    [
+      "Salience and relevance",
+      [
+        "Noticeability: something becoming harder or easier to overlook",
+        "Importance: changing how much something seems to matter",
+        "Urgency: changing how soon something seems to require a response",
+        "Personal relevance: connecting or disconnecting a matter from oneself",
+        "Practical relevance: seeing or losing a connection to an actual activity",
+        "Emotional prominence: an item occupying more or less affective attention",
+        "Backgrounding: an acknowledged matter ceasing to dominate",
+        "Priority competition: changing which of several concerns comes to the foreground"
+      ]
+    ],
+    [
+      "Working memory",
+      [
+        "Entry: making a representation available for immediate mental use",
+        "Maintenance: keeping a representation available during another operation",
+        "Updating: replacing outdated active content with current content",
+        "Binding: keeping the correct features attached to the correct item",
+        "Ordering: changing the sequence in which active items are represented",
+        "Chunking: treating multiple elements as one usable unit",
+        "Interference: changing how much one active item disrupts another",
+        "Comparison access: making relevant items available together",
+        "Release: removing no-longer-needed content from active use"
+      ]
+    ],
+    [
+      "Memory accessibility",
+      [
+        "Recall: recovering previously unavailable information or experience",
+        "Recognition memory: identifying something as previously encountered",
+        "Cue dependence: changing which prompts make a memory accessible",
+        "Spontaneous retrieval: a memory becoming available without deliberate search",
+        "Prospective remembering: remembering an intended action when it becomes relevant",
+        "Source retrieval: recalling where a representation came from",
+        "Context retrieval: recovering the circumstances needed to interpret a memory",
+        "Relevance retrieval: recovering a memory in a situation where it matters",
+        "Retrieval competition: changing which memory comes to mind first"
+      ]
+    ],
+    [
+      "Memory formation and revision",
+      [
+        "Encoding: forming a new memory of an encounter",
+        "Retention: changing how long something remains available",
+        "Detail: retaining, recovering, or losing specific features",
+        "Gist: retaining or revising the broader meaning of an event",
+        "Association: linking or unlinking memories with other material",
+        "Updating: incorporating later information into a remembered account",
+        "Forgetting: losing access to or retention of prior material",
+        "Source confusion: changing whether an idea is remembered as observed, inferred, or imagined",
+        "Accuracy: correcting a memory or introducing a distortion",
+        "Emotional association: changing the feeling associated with remembered material"
+      ]
+    ],
+    [
+      "Concepts and categories",
+      [
+        "Concept acquisition: gaining a previously unavailable distinction",
+        "Category splitting: separating cases previously treated as equivalent",
+        "Category merging: recognizing cases as belonging to one class",
+        "Boundary revision: changing which cases count as members",
+        "Prototype revision: changing what counts as a typical example",
+        "Definition revision: changing what a term or concept commits one to",
+        "Hierarchy revision: changing relations among broader and narrower categories",
+        "Exception recognition: identifying limits to an apparent rule",
+        "Concept removal: ceasing to organize a matter through an unhelpful category",
+        "Concept transfer: making a distinction usable in a different domain"
+      ]
+    ],
+    [
+      "Representation",
+      [
+        "Verbal representation: expressing a matter in usable words",
+        "Visual representation: making an image or diagram available",
+        "Spatial representation: organizing material through positions or distances",
+        "Quantitative representation: expressing magnitudes and relationships numerically",
+        "Procedural representation: organizing material as something to do",
+        "Narrative representation: organizing events through a story",
+        "Structural representation: exposing parts, relations, and dependencies",
+        "Compression: reducing representational size while preserving needed distinctions",
+        "Expansion: making previously compressed distinctions explicit",
+        "Externalization: using an external representation to alter what is mentally available"
+      ]
+    ],
+    [
+      "Language and meaning",
+      [
+        "Vocabulary acquisition: gaining a word for an available or new distinction",
+        "Sense selection: changing which meaning of an expression is active",
+        "Disambiguation: separating interpretations that had been conflated",
+        "Reference resolution: identifying what a word or statement refers to",
+        "Implication recognition: noticing what an utterance suggests beyond its literal wording",
+        "Presupposition recognition: noticing what an utterance takes for granted",
+        "Pragmatic interpretation: changing the understood purpose of an utterance",
+        "Translation: making meaning available across languages or vocabularies",
+        "Literal and figurative interpretation: changing the role assigned to an expression",
+        "Expressive precision: becoming better able to say what one means"
+      ]
+    ],
+    [
+      "Relations and organization",
+      [
+        "Connection: relating pieces previously considered separately",
+        "Disconnection: rejecting a relationship previously assumed",
+        "Dependency: recognizing what requires what",
+        "Causality: changing what is understood to produce or influence what",
+        "Analogy: recognizing a transferable relationship across different cases",
+        "Composition: understanding what an arrangement enables together",
+        "Part and whole: changing the unit through which a matter is understood",
+        "Order dependence: recognizing that sequence changes what is possible",
+        "Level distinction: separating explanations or operations at different scales",
+        "Constraint relation: recognizing what limits, permits, or redirects an operation"
+      ]
+    ],
+    [
+      "Problem formulation",
+      [
+        "Problem recognition: something coming to count as requiring a response",
+        "Problem dissolution: an apparent problem ceasing to require the assumed response",
+        "Target revision: changing what is actually under examination",
+        "Scope revision: changing the boundary of the matter",
+        "Unit revision: changing whether an individual, interaction, or larger system is examined",
+        "Timescale revision: changing the interval over which adequacy is considered",
+        "Constraint revision: changing what is treated as fixed or alterable",
+        "Attribution revision: changing where the difficulty is located",
+        "Requirement revision: changing what would count as resolving the matter",
+        "Problem connection: recognizing that several apparent problems share a dependency"
+      ]
+    ],
+    [
+      "Questions and inquiry",
+      [
+        "Question formation: becoming able to ask a previously unavailable question",
+        "Gap recognition: identifying what remains undetermined",
+        "Question replacement: seeing that a different determination is needed",
+        "Question priority: changing which uncertainty is worth addressing first",
+        "Answerability: recognizing what could or could not settle a question",
+        "Evidence requirement: changing what information would bear on the inquiry",
+        "Investigation direction: changing where an inquiry should proceed",
+        "Completion judgment: changing whether the inquiry is sufficiently resolved"
+      ]
+    ],
+    [
+      "Belief and knowledge",
+      [
+        "Acquisition: coming to accept a previously unaccepted proposition",
+        "Rejection: ceasing to accept a proposition",
+        "Suspension: withholding judgment where a commitment was previously made",
+        "Correction: replacing a mistaken proposition with a better-supported one",
+        "Elaboration: adding qualified detail to an existing account",
+        "Scope restriction: narrowing where a belief is taken to hold",
+        "Scope extension: extending a claim where support warrants it",
+        "Inconsistency recognition: noticing incompatible commitments",
+        "Justification: gaining or losing grounds for a belief",
+        "Knowledge integration: making a known fact relevant to other commitments"
+      ]
+    ],
+    [
+      "Confidence and uncertainty",
+      [
+        "Confidence increase: becoming more certain of a proposition or judgment",
+        "Confidence decrease: becoming less certain of a proposition or judgment",
+        "Calibration: bringing expressed confidence into better correspondence with support or performance",
+        "Possibility recognition: treating an excluded alternative as possible",
+        "Impossibility recognition: excluding an alternative for an adequate reason",
+        "Probability revision: changing relative expectations among alternatives",
+        "Uncertainty localization: identifying exactly what is unknown",
+        "Uncertainty tolerance: becoming more or less able to proceed without closure",
+        "Confidence differentiation: assigning different certainty to parts of one account",
+        "Reliance threshold: changing how much support is required before acting"
+      ]
+    ],
+    [
+      "Explanation and attribution",
+      [
+        "Mechanism understanding: recognizing how a process produces its effects",
+        "Cause revision: changing the attributed cause of an event",
+        "Multiple causation: recognizing several contributing conditions",
+        "Person and situation: changing the relative role assigned to traits and circumstances",
+        "Intention attribution: changing what an action is understood to have aimed at",
+        "Controllability attribution: changing what could have been influenced",
+        "Responsibility attribution: changing who or what is held responsible",
+        "Chance attribution: changing what is treated as accident rather than regularity",
+        "Explanatory limitation: recognizing what an account leaves unexplained"
+      ]
+    ],
+    [
+      "Inference and reasoning",
+      [
+        "Inference permission: recognizing that a conclusion does or does not follow",
+        "Deductive competence: becoming able to derive a consequence from premises",
+        "Inductive judgment: changing how examples support a generalization",
+        "Abductive judgment: changing which explanation best accounts for observations",
+        "Probabilistic judgment: changing how uncertain evidence is combined",
+        "Causal reasoning: separating observation, intervention, and causal inference",
+        "Counterexample use: recognizing what a contrary case actually defeats",
+        "Assumption tracking: preserving the conditions on which a conclusion depends",
+        "Consistency maintenance: reconciling or separating conflicting commitments",
+        "Error correction: identifying and repairing a mistaken reasoning operation"
+      ]
+    ],
+    [
+      "Expectation and anticipation",
+      [
+        "Outcome expectation: changing what is expected to happen",
+        "Timing expectation: changing when something is expected",
+        "Action dependence: recognizing how alternatives lead to different possible consequences",
+        "Response anticipation: representing how another person or system may respond",
+        "Preparation recognition: seeing what must be available before a future condition",
+        "Contingency awareness: recognizing that different outcomes require different continuations",
+        "Surprise: encountering a mismatch between expectation and occurrence",
+        "Expectation separation: distinguishing hoped-for, feared, possible, and likely outcomes",
+        "Expectation influence: recognizing that expressing an expectation can affect what follows"
+      ]
+    ],
+    [
+      "Imagination and simulation",
+      [
+        "Image construction: forming a previously unavailable mental scene",
+        "Vividness: making an imagined scene more or less experientially detailed",
+        "Possibility construction: conceiving an alternative not previously represented",
+        "Counterfactual construction: representing how things could have been otherwise",
+        "Perspective taking: imagining a situation from another position",
+        "Future simulation: constructing a possible later situation",
+        "Recombination: bringing elements together in an unfamiliar arrangement",
+        "Constraint variation: imagining what changes when a supposed constraint changes",
+        "Provisional adoption: using an interpretation without committing to its truth",
+        "Simulation control: changing the ability to enter, alter, or leave an imagined scenario"
+      ]
+    ],
+    [
+      "Creativity and invention",
+      [
+        "Idea availability: gaining access to an idea not previously considered",
+        "Fluency: changing how readily candidate ideas can be produced",
+        "Diversity: producing candidates that differ in consequential ways",
+        "Originality: constructing an idea new relative to a specified prior repertoire",
+        "Constraint transformation: changing the structure within which an invention is sought",
+        "Remote connection: identifying a useful relation between distant matters",
+        "Elaboration: developing an initial idea into a more articulated possibility",
+        "Creative selection: recognizing which idea deserves further development",
+        "Creative confidence: changing willingness to construct or express unfamiliar ideas"
+      ]
+    ],
+    [
+      "Understanding and insight",
+      [
+        "Comprehension: making sense of previously opaque material",
+        "Integration: understanding how formerly separate pieces fit together",
+        "Consequence access: becoming able to derive what an account implies",
+        "Operational understanding: becoming able to use an account in an activity",
+        "Boundary understanding: recognizing when an account does not apply",
+        "Insight: reorganizing a matter so a previously inaccessible relationship becomes apparent",
+        "Illusion of understanding: becoming confident in understanding without the corresponding ability",
+        "Understanding correction: recognizing and repairing that mismatch",
+        "Explanatory independence: becoming able to reconstruct an understanding without repeating its wording"
+      ]
+    ],
+    [
+      "Values and concerns",
+      [
+        "Concern formation: something coming to matter",
+        "Concern reduction: something ceasing to matter as much",
+        "Value priority: changing which concern takes precedence",
+        "Intrinsic valuation: changing what is valued for its own sake",
+        "Instrumental valuation: changing what is valued for what it enables",
+        "Concern scope: extending or narrowing who or what counts",
+        "Value conflict recognition: noticing incompatible or competing concerns",
+        "Value reconciliation: finding a way to relate concerns without the former conflict",
+        "Value enactment: changing whether acknowledged values govern actual choices"
+      ]
+    ],
+    [
+      "Preferences and taste",
+      [
+        "Preference formation: developing a preference where none was settled",
+        "Preference reversal: changing the ranking of alternatives",
+        "Attraction: becoming more or less drawn to an object or activity",
+        "Aversion: becoming more or less repelled by it",
+        "Taste discrimination: noticing distinctions that change appreciation",
+        "Aesthetic appreciation: coming to perceive beauty, elegance, ugliness, or expressive force",
+        "Familiarity preference: changing attraction associated with familiarity",
+        "Novelty preference: changing attraction associated with unfamiliarity",
+        "Preference independence: becoming less dependent on another person's stated preference"
+      ]
+    ],
+    [
+      "Reward, cost, and trade-offs",
+      [
+        "Wanting: changing the pull of an anticipated object or outcome",
+        "Liking: changing enjoyment during an experience",
+        "Anticipated reward: changing the expected benefit of an activity",
+        "Satisfaction: changing how fulfilled or disappointed an outcome feels",
+        "Effort valuation: changing how burdensome effort seems relative to its benefit",
+        "Delay valuation: changing the relative weight of earlier and later consequences",
+        "Risk valuation: changing how uncertain gains and losses are weighed",
+        "Opportunity cost: recognizing what another commitment displaces",
+        "Trade-off recognition: seeing what must be given up to obtain something else",
+        "Sufficiency judgment: changing when something counts as enough"
+      ]
+    ],
+    [
+      "Motivation and willingness",
+      [
+        "Desire: developing, strengthening, weakening, or losing a want",
+        "Willingness: becoming more or less prepared to undertake an activity",
+        "Approach: becoming more inclined to move toward a possibility",
+        "Avoidance: becoming more inclined to move away from it",
+        "Effort mobilization: becoming ready to allocate more or less effort",
+        "Initiative: becoming more or less likely to originate an activity",
+        "Commitment to effort: changing willingness to work despite difficulty",
+        "Motivational conflict: changing the competition among incompatible inclinations",
+        "Interest maintenance: sustaining or losing engagement with an activity",
+        "Reason uptake: a recognized reason beginning or ceasing to affect motivation"
+      ]
+    ],
+    [
+      "Curiosity and exploration",
+      [
+        "Interest emergence: a matter becoming worth investigating",
+        "Question appetite: wanting to resolve a particular uncertainty",
+        "Exploration breadth: widening or narrowing what one is willing to examine",
+        "Novelty approach: becoming more willing to encounter unfamiliar material",
+        "Ambiguity engagement: becoming willing to remain with an unresolved matter",
+        "Playfulness: entering an activity with freedom to vary its possibilities",
+        "Incidental pursuit: following an unexpected connection",
+        "Exploration cessation: deciding that further exploration is no longer worthwhile"
+      ]
+    ],
+    [
+      "Emotion",
+      [
+        "Joy: changes in experienced delight or happiness",
+        "Sadness and grief: changes in felt loss or sorrow",
+        "Fear: changes in experienced threat or apprehension",
+        "Anger: changes in felt grievance and readiness to oppose",
+        "Disgust: changes in felt revulsion",
+        "Shame: changes in feeling exposed or diminished before oneself or others",
+        "Guilt: changes in distress about one's attributed wrongdoing",
+        "Pride: changes in satisfaction or esteem concerning oneself or an affiliation",
+        "Envy and jealousy: changes in feelings concerning another's advantage or a threatened relationship",
+        "Gratitude: changes in felt appreciation for a received benefit",
+        "Compassion: changes in concern for another's suffering",
+        "Amusement: changes in experiencing something as funny or playful",
+        "Awe: changes in response to something experienced as vast or beyond the familiar",
+        "Relief: changes in feeling that an anticipated burden or threat has eased",
+        "Hope and despair: changes in emotional orientation toward future possibility",
+        "Frustration: changes in felt obstruction of an attempted activity",
+        "Regret: changes in feelings concerning an unrealized alternative",
+        "Mixed emotion: changes in the coexistence and balance of multiple emotions",
+        "Love: changes in felt attachment, care, or devotion",
+        "Admiration: changes in regard for another's qualities or actions",
+        "Embarrassment: changes in discomfort concerning a socially exposed mishap",
+        "Contempt: changes in regarding someone or something as beneath consideration",
+        "Boredom: changes in feeling insufficiently engaged by available activity",
+        "Longing: changes in felt desire for an absent person, condition, or possibility"
+      ]
+    ],
+    [
+      "Mood and emotional dynamics",
+      [
+        "Background mood: changes in the prevailing affective tone",
+        "Valence: becoming generally more pleasant, unpleasant, or neutral in feeling",
+        "Irritability: changing readiness to react with annoyance",
+        "Emotional intensity: feelings becoming stronger or weaker",
+        "Emotional duration: feelings lasting longer or shorter",
+        "Emotional variability: feelings changing more or less readily over time",
+        "Recovery from emotion: returning toward a prior state after an event",
+        "Emotional differentiation: experiencing feelings as more distinct or undifferentiated",
+        "Emotional numbness: becoming more or less responsive in felt experience"
+      ]
+    ],
+    [
+      "Emotion regulation",
+      [
+        "Emotion recognition: noticing what one is feeling",
+        "Emotion labeling: becoming able to name or distinguish a feeling",
+        "Acceptance: changing willingness to experience a feeling without immediately escaping it",
+        "Reappraisal: changing an interpretation in a way that alters emotional response",
+        "Expression control: changing whether and how an emotion is displayed",
+        "Attention regulation: changing which emotional material receives continued attention",
+        "Situation selection: changing encounters to alter likely emotional experience",
+        "Response interruption: interrupting an established emotional reaction",
+        "Co-regulation: an interaction changing the course of another's emotional state",
+        "Regulation flexibility: becoming able to use a different response when the familiar one is unhelpful"
+      ]
+    ],
+    [
+      "Agency and efficacy",
+      [
+        "Agency experience: changing the sense of originating or directing an action",
+        "Perceived control: changing what one experiences as influenceable",
+        "Self-efficacy: changing confidence in performing a particular activity",
+        "Helplessness: changing the expectation or experience that one's action makes no difference",
+        "Authorship: changing ownership of a choice or contribution",
+        "Initiation authority: becoming more or less willing to act without external prompting",
+        "Responsibility acceptance: taking up or relinquishing responsibility appropriately or inappropriately",
+        "Choice recognition: becoming aware of alternatives where none seemed available",
+        "Dependency recognition: identifying which assistance is necessary and which has become habitual"
+      ]
+    ],
+    [
+      "Permission and inhibition",
+      [
+        "Permission to consider: allowing an idea to enter examination",
+        "Permission to disagree: becoming able to oppose a claim or authority",
+        "Permission to attempt: becoming willing to try without assured success",
+        "Permission to stop: becoming able to end an activity or commitment",
+        "Permission to revise: allowing an earlier position to be replaced",
+        "Expression inhibition: becoming more or less able to speak or show a response",
+        "Impulse inhibition: changing the ability to withhold an immediately available action",
+        "Internal prohibition: acquiring, relaxing, or rejecting a self-imposed restriction",
+        "Social inhibition: changing restraint associated with anticipated evaluation",
+        "Deliberate restraint: choosing to withhold an action while preserving the ability to perform it"
+      ]
+    ],
+    [
+      "Goals and intentions",
+      [
+        "Goal formation: adopting an outcome to pursue",
+        "Goal abandonment: ceasing to pursue a prior outcome",
+        "Goal priority: changing the order among competing goals",
+        "Goal specification: making a vague target more determinate",
+        "Goal broadening: recognizing a more encompassing concern",
+        "Goal substitution: adopting a different way of expressing the concern",
+        "Means-end distinction: recognizing that an apparent goal serves another purpose",
+        "Intention formation: resolving to perform an action",
+        "Conditional intention: relating an intended action to a relevant condition",
+        "Commitment strength: changing how strongly a goal governs subsequent activity"
+      ]
+    ],
+    [
+      "Decision making",
+      [
+        "Option recognition: becoming aware of an existing alternative",
+        "Option construction: creating an alternative that was previously unavailable",
+        "Criterion selection: changing what is used to compare options",
+        "Criterion weighting: changing how competing considerations affect a choice",
+        "Dominance recognition: recognizing that one option is no worse on relevant dimensions and better on at least one",
+        "Decision threshold: changing what is sufficient to choose",
+        "Choice: resolving among currently considered alternatives",
+        "Deferral: deciding to preserve an unresolved choice",
+        "Reversal: replacing a prior choice",
+        "Contingent choice: making the selected action depend on a later condition"
+      ]
+    ],
+    [
+      "Planning and preparation",
+      [
+        "Route construction: becoming able to represent a path toward a target",
+        "Dependency ordering: placing prerequisite activities before their consumers",
+        "Decomposition: dividing an activity into workable contributions",
+        "Coordination: arranging activities so they support rather than obstruct one another",
+        "Contingency construction: preparing different continuations for different conditions",
+        "Resource preparation: recognizing and arranging what must be available",
+        "Pacing: changing when and how quickly activity proceeds",
+        "Monitoring plan: deciding what observations should change the plan",
+        "Resumption preparation: making an interrupted activity easier to resume"
+      ]
+    ],
+    [
+      "Action control",
+      [
+        "Initiation: beginning an intended or triggered activity",
+        "Cessation: ending an ongoing activity",
+        "Switching: changing from one activity to another",
+        "Sequencing: executing components in a different order",
+        "Speed control: accelerating or slowing an operation",
+        "Precision control: changing the care or accuracy applied",
+        "Online correction: adjusting an action while it is underway",
+        "Resumption: returning to an interrupted activity",
+        "Completion: bringing an activity to its appropriate ending",
+        "Interruptibility: remaining able to stop or redirect an otherwise ongoing process"
+      ]
+    ],
+    [
+      "Persistence and effort regulation",
+      [
+        "Persistence: continuing despite an obstacle or delay",
+        "Disengagement: withdrawing effort from an activity",
+        "Frustration tolerance: remaining able to proceed while frustrated",
+        "Effort allocation: changing how much effort an activity receives",
+        "Effort distribution: changing how effort is divided across activities",
+        "Recovery pacing: changing the relation between exertion and restoration",
+        "Delay endurance: remaining engaged without immediate reward",
+        "Adaptive stopping: ceasing when further effort no longer serves the concern",
+        "Re-engagement: recovering willingness to return after a setback"
+      ]
+    ],
+    [
+      "Habit and automaticity",
+      [
+        "Habit acquisition: a response becoming more reliably triggered by a recurring condition",
+        "Habit weakening: a previously recurrent response becoming less automatic",
+        "Cue reassignment: changing which condition activates a response",
+        "Routine replacement: one familiar response giving way to another",
+        "Automatic initiation: beginning without a fresh explicit decision",
+        "Automatic sequencing: a learned sequence proceeding with less stepwise direction",
+        "De-automation: bringing a familiar routine back under deliberate examination",
+        "Context discrimination: a routine becoming restricted to appropriate conditions",
+        "Automatic interruption: a learned stopping condition interrupting a routine"
+      ]
+    ],
+    [
+      "Skill and practical capacity",
+      [
+        "Skill acquisition: becoming able to perform a previously unavailable operation",
+        "Fluency: performing with less hesitation",
+        "Accuracy: making fewer or more consequential errors",
+        "Speed: performing an operation more quickly or slowly",
+        "Coordination: combining components into an effective activity",
+        "Discrimination skill: recognizing distinctions needed for competent performance",
+        "Adaptation: modifying a skill for altered conditions",
+        "Transfer: using a capability in a different setting",
+        "Retention: preserving a capability over time",
+        "Skill loss and recovery: losing or recovering a previously available capability"
+      ]
+    ],
+    [
+      "Learning",
+      [
+        "Example learning: retaining something from a particular case",
+        "Rule learning: acquiring a relation that applies across cases",
+        "Association learning: changing the relation between a cue and another event",
+        "Outcome learning: changing future conduct in light of consequences",
+        "Discrimination learning: learning when superficially similar cases require different responses",
+        "Generalization: extending a learned relation to further cases",
+        "Generalization restriction: preventing transfer where the relation does not hold",
+        "Interference change: one learning experience helping or obstructing another",
+        "Relearning: reacquiring something previously learned",
+        "Learning-strategy change: altering how one acquires or retains a capability"
+      ]
+    ],
+    [
+      "Metacognition",
+      [
+        "Knowledge monitoring: recognizing what one knows and does not know",
+        "Comprehension monitoring: distinguishing understanding from familiarity with wording",
+        "Error detection: noticing a mistake in one's own activity",
+        "Assumption detection: recognizing an unexamined starting commitment",
+        "Conflict detection: recognizing incompatible demands or interpretations",
+        "Method applicability: recognizing whether a procedure fits the present matter",
+        "Mental-state recognition: noticing that fatigue, emotion, or attention is affecting activity",
+        "Confidence monitoring: noticing mismatch between certainty and support",
+        "Limitation localization: identifying the particular operation that is unavailable",
+        "Self-correction: changing one's activity in response to a recognized inadequacy"
+      ]
+    ],
+    [
+      "Thinking strategy and intellectual stance",
+      [
+        "Approach selection: adopting a different way of proceeding",
+        "Approach construction: creating a method absent from the repertoire",
+        "Question order: changing which determination is made first",
+        "Depth: pursuing a relationship further before proceeding",
+        "Breadth: considering a wider range of matters or alternatives",
+        "Explicitness: bringing an implicit operation into inspectable form",
+        "Provisionality: separating temporary use from settled reliance",
+        "Burden of justification: changing what must be established before accepting or excluding something",
+        "Stopping rule: changing what warrants ending inquiry",
+        "Perspective replacement: changing the interpretation governing the activity"
+      ]
+    ],
+    [
+      "Identity and self-understanding",
+      [
+        "Self-description: changing the traits or capacities attributed to oneself",
+        "Role identity: taking up, revising, or leaving an understood role",
+        "Group identification: changing which groups are included in one's self-understanding",
+        "Self-worth: changing one's evaluation of oneself",
+        "Possible self: becoming able to imagine oneself living or acting differently",
+        "Self-continuity: changing the perceived connection among past, present, and future self",
+        "Self-boundary: changing what is experienced as belonging to oneself",
+        "Authenticity: changing the relation between experienced and presented identity",
+        "Identity flexibility: becoming more or less able to revise a self-description",
+        "Label attachment: changing how strongly a label constrains self-interpretation"
+      ]
+    ],
+    [
+      "Autobiographical meaning",
+      [
+        "Event interpretation: changing what a past event is understood to mean",
+        "Life narrative: reorganizing how events belong to a personal history",
+        "Past responsibility: revising one's understanding of agency or responsibility in a remembered event",
+        "Past relevance: changing which earlier events are used to understand the present",
+        "Continuity recognition: finding or losing a connection across life periods",
+        "Reconciliation: becoming able to hold previously conflicting parts of one's history together",
+        "Future implication: changing what the past is taken to imply about what can happen next"
+      ]
+    ],
+    [
+      "Meaning and purpose",
+      [
+        "Significance: something coming to seem meaningful or meaningless",
+        "Purpose formation: adopting a reason that organizes continuing activity",
+        "Coherence: experiencing matters as fitting together or fragmenting",
+        "Direction: gaining or losing a sense of where activity is leading",
+        "Contribution meaning: recognizing how one's activity matters beyond its immediate performance",
+        "Existential orientation: changing one's relation to uncertainty, finitude, or life's possibilities",
+        "Purpose revision: replacing an organizing commitment that no longer fits"
+      ]
+    ],
+    [
+      "Time perspective",
+      [
+        "Present orientation: changing how much current experience dominates",
+        "Future horizon: considering a longer or shorter interval ahead",
+        "Past orientation: changing how strongly earlier events organize present attention",
+        "Future-self connection: changing the felt or understood relevance of later consequences to oneself",
+        "Subjective duration: time seeming to pass more quickly or slowly",
+        "Patience: changing willingness to wait",
+        "Urgency calibration: changing when haste is experienced as warranted",
+        "Temporal possibility: seeing that a different sequence or timing changes what can happen"
+      ]
+    ],
+    [
+      "Understanding other minds",
+      [
+        "Perspective differentiation: distinguishing another's viewpoint from one's own",
+        "Intention interpretation: changing what another is understood to be trying to do",
+        "Knowledge attribution: revising what another is assumed to know",
+        "Emotion recognition: changing one's interpretation of another's feelings",
+        "Empathic understanding: becoming more or less able to understand another's experience",
+        "Dispositional attribution: changing what traits are attributed to another",
+        "Situational understanding: recognizing how another's circumstances shape their response",
+        "Stereotype revision: changing a generalization applied to a group member",
+        "Misunderstanding recognition: noticing that one's account of another was inadequate"
+      ]
+    ],
+    [
+      "Trust and credibility",
+      [
+        "Source trust: changing reliance on a source of information",
+        "Competence trust: changing confidence in another's ability in a specified domain",
+        "Benevolence trust: changing expectation that another takes one's interests into account",
+        "Integrity trust: changing expectation that another acts consistently with stated commitments",
+        "Self-trust: changing willingness to rely on one's own judgment",
+        "Trust scope: narrowing or extending where reliance is appropriate",
+        "Trust repair: restoring some reliance after a breach",
+        "Skepticism: becoming more or less inclined to demand supporting grounds",
+        "Deference: changing whose judgment governs when judgments conflict",
+        "Independence: becoming able to evaluate a claim without relying on a favored source"
+      ]
+    ],
+    [
+      "Relationships and social feeling",
+      [
+        "Belonging: feeling more or less included in a group or relationship",
+        "Connection: experiencing greater or lesser interpersonal closeness",
+        "Alienation: feeling more or less estranged",
+        "Respect: changing one's regard for another's standing or contribution",
+        "Affection: changing warmth or fondness",
+        "Hostility: changing antagonism or readiness to oppose",
+        "Forgiveness: changing one's relation to a perceived wrong",
+        "Resentment: changing the persistence or intensity of a grievance",
+        "Vulnerability readiness: becoming more or less willing to be exposed to another",
+        "Boundary clarity: changing what forms of access or treatment one accepts"
+      ]
+    ],
+    [
+      "Norms and moral judgment",
+      [
+        "Permission judgment: changing what is considered permissible",
+        "Obligation judgment: changing what is considered required",
+        "Prohibition judgment: changing what is considered unacceptable",
+        "Fairness judgment: revising what counts as fair treatment or distribution",
+        "Legitimacy judgment: changing whether an authority or rule is accepted as justified",
+        "Blame and praise: changing how responsibility is evaluated",
+        "Concern inclusion: extending or restricting who or what receives moral consideration",
+        "Norm internalization: a rule becoming part of one's own regulation",
+        "Norm rejection: ceasing to accept a previously governing rule",
+        "Moral conflict handling: changing how competing obligations are understood and addressed"
+      ]
+    ],
+    [
+      "Communication and social participation",
+      [
+        "Listening readiness: becoming more or less willing to receive another's contribution",
+        "Speaking readiness: becoming more or less willing to contribute",
+        "Questioning: becoming able or willing to ask what was previously unasked",
+        "Disagreement: becoming able to express a conflicting judgment",
+        "Disclosure: deciding to reveal previously withheld material",
+        "Clarification: recognizing and repairing an ambiguity",
+        "Apology: accepting and expressing responsibility for a wrong",
+        "Negotiation: becoming willing or able to construct a mutually acceptable arrangement",
+        "Help seeking: becoming able or willing to request assistance",
+        "Conversational repair: changing how an interaction proceeds after misunderstanding or conflict"
+      ]
+    ],
+    [
+      "Expression and delivery",
+      [
+        "Expression access: becoming able to express an otherwise inarticulate experience",
+        "Fluency: speaking or writing with less disruption",
+        "Concision: expressing a contribution with less unnecessary material",
+        "Specificity: expressing the distinction that was previously left vague",
+        "Tone control: changing the emotional or interpersonal character of delivery",
+        "Prosody: changing rhythm, emphasis, pacing, or intonation",
+        "Expressive inhibition: changing restraint in displaying a response",
+        "Congruence: changing correspondence between the expressed and operative stance",
+        "Medium selection: expressing through speech, writing, image, movement, or another form"
+      ]
+    ],
+    [
+      "Shared understanding and coordination",
+      [
+        "Mutual understanding: participants becoming more accurately aware of each other's interpretations",
+        "Common knowledge: a matter becoming understood as mutually known",
+        "Shared attention: participants attending to the same consequential matter",
+        "Convention formation: establishing a common way of interpreting or responding",
+        "Role understanding: changing who is understood to contribute what",
+        "Coordination expectation: changing what participants expect one another to do",
+        "Collective memory access: changing who knows where needed knowledge can be obtained",
+        "Shared-plan formation: making interdependent intentions mutually available",
+        "Collective disagreement: making incompatible interpretations visible instead of silently conflating them",
+        "Repair capacity: becoming able to recover coordinated activity after divergence"
+      ]
+    ],
+    [
+      "Coordination within a mind",
+      [
+        "Knowledge-action coupling: known considerations beginning or ceasing to govern action",
+        "Value-action coupling: valued concerns beginning or ceasing to govern allocation",
+        "Emotion-attention coupling: changing how feelings direct attention",
+        "Memory-decision coupling: relevant experience becoming available at a choice",
+        "Intention-initiation coupling: an intention beginning to trigger its activity",
+        "Goal-habit coupling: automatic conduct becoming better or worse aligned with an intended concern",
+        "Understanding-expression coupling: expressed words becoming better or worse aligned with understanding",
+        "Monitoring-correction coupling: a detected problem beginning to change conduct",
+        "Competition resolution: formerly conflicting processes becoming coordinated or newly conflicting"
+      ]
+    ],
+    [
+      "Available cognitive capacity",
+      [
+        "Usable capacity: changing how much a person can actually manage under current conditions",
+        "Processing speed: changing how quickly mental operations can be performed",
+        "Flexibility: changing the ability to shift among representations or methods",
+        "Interference susceptibility: changing vulnerability to competing demands",
+        "Fatigability: changing how quickly performance degrades with continued activity",
+        "Recovery capacity: changing how readily functioning returns after exertion or disruption",
+        "Supported capability: gaining an ability through the coordinated use of an external aid",
+        "Capability access: making an existing ability available under previously obstructive conditions",
+        "Functional loss: a previously available mental operation becoming unavailable"
+      ]
+    ],
+    [
+      "Enduring dispositions",
+      [
+        "Persistent curiosity: longer-term change in readiness to investigate",
+        "Persistent sociability: longer-term change in readiness for social engagement",
+        "Emotional reactivity: longer-term change in typical responses to events",
+        "Conscientious conduct: longer-term change in patterns of follow-through and organization",
+        "Openness to experience: longer-term change in receptivity to unfamiliar encounters",
+        "Characteristic trust: longer-term change in default expectations of others",
+        "Characteristic agency: longer-term change in readiness to originate action",
+        "Characteristic regulation: longer-term change in how impulses and competing concerns are managed",
+        "Identity stability: longer-term change in how stable or revisable self-understanding remains"
+      ]
+    ],
+    [
+      "Receptivity to change",
+      [
+        "Receptivity: becoming more or less willing to entertain a contribution",
+        "Defensiveness: changing readiness to protect an existing position or identity",
+        "Reactance: changing resistance associated with perceived restriction of freedom",
+        "Trial permission: becoming willing to enter an interpretation without permanent commitment",
+        "Revision tolerance: becoming able to revise without treating revision as personal defeat",
+        "Credulity: becoming more or less willing to accept without sufficient grounds",
+        "Change discrimination: becoming better or worse at separating helpful from harmful revisions",
+        "Change fatigue: becoming more or less exhausted by demands to reconsider",
+        "Change confidence: changing confidence in one's ability to develop"
+      ]
+    ],
+    [
+      "Learning how to change",
+      [
+        "Change-target selection: improving or worsening the choice of what needs to change",
+        "Intervention selection: changing how an appropriate means of change is chosen",
+        "Intervention construction: becoming able to create a previously unavailable means",
+        "Effect recognition: becoming able to distinguish intended, actual, and merely described changes",
+        "Attribution: changing how the cause of a mental change is identified",
+        "Retention design: changing how a useful transformation is made available later",
+        "Transfer design: changing how a transformation is reconstructed in other circumstances",
+        "Backfire recognition: becoming able to detect unintended harmful changes",
+        "Self-application: applying a developed method to the activity that develops methods",
+        "Criterion revision: improving or worsening what counts as beneficial change"
+      ]
+    ],
+    [
+      "Relationship to one's own thoughts",
+      [
+        "Thought identification: changing how completely a thought governs one's sense of what is real or required",
+        "Mental distance: becoming able to examine a thought without immediately acting from it",
+        "Repetition: a thought recurring more or less persistently",
+        "Intrusiveness: a thought becoming more or less disruptive or unwanted",
+        "Suppression effort: changing effort directed toward preventing a thought from occurring",
+        "Self-talk: changing the language and stance used in addressing oneself",
+        "Thought flexibility: becoming able to leave, return to, or alter a train of thought",
+        "Observational stance: noticing a mental event as an event that can be examined",
+        "Thought-action distinction: recognizing that having a thought does not itself commit one to performing an action"
+      ]
+    ]
+  ],
+  "extras": {
+    "ai": [
+      "Revise the working interpretation of a user's request.",
+      "Revise which intended contribution is being pursued.",
+      "Change which evidence or constraints receive attention.",
+      "Retrieve previously unavailable material.",
+      "Represent a matter in a different form.",
+      "Construct a new distinction or connection.",
+      "Separate an assumption from an established claim.",
+      "Revise an explicitly represented confidence judgment.",
+      "Generate an alternative explanation, plan, or response.",
+      "Replace a selected approach with another approach.",
+      "Construct an operation absent from the current plan.",
+      "Change operation order or dependencies.",
+      "Select a different tool or external representation.",
+      "Use computation or observation to make a consequence available.",
+      "Change the scope, depth, or direction of an inquiry.",
+      "Correct an identified factual or inferential error.",
+      "Change what is treated as sufficient for a conclusion.",
+      "Change what would count as completing the task.",
+      "Change the content selected for a recipient.",
+      "Change wording, examples, medium, emphasis, or level of detail.",
+      "Abandon an unhelpful continuation while preserving the live matter.",
+      "Retain a correction in an available record when persistence is supported and authorized.",
+      "Apply a retained correction in an appropriately related situation.",
+      "Revise an editable prompt, procedure, or program when the task authorizes it.",
+      "Examine whether declared changes have affected subsequent conduct.",
+      "Change how the next contribution or self-correction is selected."
+    ],
+    "assessment": [
+      [
+        "Clarification",
+        "I can make an explicit ambiguity or distinction inspectable in text.",
+        "This does not establish that it was the distinction the recipient needed."
+      ],
+      [
+        "Representation",
+        "I can reorganize material as examples, comparisons, diagrams, procedures, or code.",
+        "A clearer representation can still preserve the wrong target."
+      ],
+      [
+        "Consequence construction",
+        "I can derive implications, dependencies, and counterexamples from supplied material.",
+        "The argument can fail if its premises, interpretation, or derivation are wrong."
+      ],
+      [
+        "Expression",
+        "I can supply words and structures for an incompletely articulated thought.",
+        "Polish can make an unchanged idea seem like a new contribution."
+      ],
+      [
+        "Possibility construction",
+        "I can construct alternatives and prospective situations.",
+        "Constructibility is not evidence of feasibility, likelihood, or benefit."
+      ],
+      [
+        "Working self-revision",
+        "I can revise interpretations, plans, selected material, and explicit conclusions within the interaction.",
+        "In this conversation I repeatedly described revision without adequately changing the effect of my response."
+      ],
+      [
+        "Target selection",
+        "My recent answers repeatedly targeted conceptual clarification after the user had already grasped the concept.",
+        "The user explicitly reported that these responses did not produce the desired beneficial change."
+      ],
+      [
+        "Recipient-state estimation",
+        "I can infer some current knowledge and constraints from the conversation.",
+        "I underestimated what was already understood and cannot directly observe the full recipient state."
+      ],
+      [
+        "Rhetorical selection",
+        "I can construct different arguments, examples, tones, and forms.",
+        "I repeatedly chose restatement and abstract explanation where they did not advance this recipient."
+      ],
+      [
+        "Emotion, motivation, and agency",
+        "Language and interaction can be intended to affect these targets.",
+        "I cannot claim reliable control over those effects, or infer them merely from the intended wording."
+      ],
+      [
+        "Action and skill transfer",
+        "I can provide executable material, worked demonstrations, and opportunities to practice.",
+        "Explaining a method does not establish that the recipient can initiate, execute, retain, or transfer it."
+      ],
+      [
+        "Persistence",
+        "A retained instruction or artifact can support later use.",
+        "A local conversational correction is not evidence of durable model change or reliable transfer."
+      ],
+      [
+        "Bodily and experiential effects",
+        "I can help reason about relevant distinctions and available evidence.",
+        "I do not directly control a person's physiology and should not equate human felt experience with AI functional revision."
+      ],
+      [
+        "Effect assessment",
+        "I can use recipient feedback and relevant observable consequences.",
+        "Recipient agreement, fluent output, and self-description each leave important effects unmeasured."
+      ]
+    ],
+    "dimensions": [
+      "Target: the content, experience, capacity, process, or relationship that changes.",
+      "Bearer: one person, one AI system, an interaction, or a coordinated group.",
+      "Starting condition: what was present, absent, active, accessible, or obstructed.",
+      "Direction: which specific feature increases, decreases, appears, disappears, or reorganizes.",
+      "Cause: what actually contributes to the change; a temporal sequence alone does not establish causation.",
+      "Onset: immediate, delayed, anticipatory, or contingent.",
+      "Duration: momentary, sustained, recurring, or enduring.",
+      "Depth: a current state, its activation conditions, a learned disposition, or a capacity.",
+      "Scope: a single content, a task, a class of situations, or a broader pattern.",
+      "Awareness: noticed, partly noticed, or unrecognized by the bearer.",
+      "Voluntariness: intended, accepted, resisted, spontaneous, or involuntary.",
+      "Reversibility: readily reversible, conditionally reversible, or persistent within the relevant conditions.",
+      "Transfer: confined to the original encounter or available elsewhere.",
+      "Dependency: requires a cue, another person, a tool, a bodily condition, or no longer requires a former support.",
+      "Coupling: helps, obstructs, or leaves unchanged another mental process.",
+      "Value: beneficial, harmful, mixed, or unresolved relative to specified concerns and affected people.",
+      "Cost: attention, time, effort, resources, and displaced opportunities.",
+      "Evidence: self-report, observable capability, behavior, task performance, or other relevant observations; none is automatically interchangeable with the others."
+    ],
+    "failureModes": [
+      "Acquiring a fact while losing the confidence needed to use an existing skill.",
+      "Feeling reassured while missing a condition that still requires attention.",
+      "Becoming more certain without acquiring better grounds.",
+      "Recognizing an option while becoming less willing to choose.",
+      "Learning a vocabulary while retaining the same inadequate distinctions.",
+      "Understanding a method without recognizing when it applies.",
+      "Recognizing applicability without being able to initiate the operation.",
+      "Forming an intention without changing what happens at the relevant moment.",
+      "Feeling motivated while adopting an infeasible plan.",
+      "Feeling understood while a consequential misunderstanding remains.",
+      "Seeing more possibilities while becoming less able to select among them.",
+      "Correcting one conclusion while preserving the process that generated the error.",
+      "Becoming more skeptical in a way that indiscriminately rejects well-supported claims.",
+      "Trusting a source more broadly than its demonstrated competence warrants.",
+      "Becoming less dependent on one source while becoming uncritically dependent on another.",
+      "Remembering the wording while forgetting its application conditions.",
+      "Generalizing a useful correction beyond the circumstances that justify it.",
+      "Suppressing outward expression while the unwanted felt state persists.",
+      "Becoming more self-monitoring while disrupting a fluent skill.",
+      "Becoming more excited while losing attention to constraints.",
+      "Obtaining short-lived clarity that cannot be reconstructed later.",
+      "Receiving more correct material while becoming fatigued, distracted, or unwilling to continue.",
+      "Changing what is reported without changing the relevant experience or capability.",
+      "Improving one person's state while impairing coordination with others.",
+      "Optimizing an immediate response in a way that makes later beneficial change harder."
+    ],
+    "operations": [
+      "Introduce a previously absent content, capacity, response, or relationship.",
+      "Remove or make unavailable a previously present content, capacity, response, or relationship.",
+      "Strengthen or weaken a response, commitment, association, or disposition.",
+      "Accelerate or delay onset, access, processing, or action.",
+      "Extend or shorten duration.",
+      "Increase or decrease recurrence.",
+      "Broaden or narrow scope, attention, concern, or applicability.",
+      "Differentiate previously conflated matters, or integrate previously separated matters.",
+      "Connect or disconnect contents, processes, or actions.",
+      "Reorder operations or change their dependencies.",
+      "Change which condition activates or inhibits a response.",
+      "Change a response threshold or decision boundary.",
+      "Make a process more automatic or more deliberately controllable.",
+      "Stabilize a useful configuration or make a rigid one revisable.",
+      "Generalize a learned relation or restrict it to appropriate circumstances.",
+      "Transfer a capacity or prevent an inappropriate transfer.",
+      "Change the relationship among concurrent processes.",
+      "Change the representation through which something is understood.",
+      "Change which operations are available from a given starting condition.",
+      "Change how further changes are constructed, recognized, evaluated, or retained."
+    ],
+    "routes": [
+      "Explanation and argument: make relations, reasons, or implications available.",
+      "Evidence encounter: provide observations that bear on a live matter.",
+      "Demonstration: make an operation or relationship directly inspectable.",
+      "Contrast: make a consequential difference available through juxtaposition.",
+      "Counterexample: expose a limit in a claim or operation.",
+      "Analogy: use a preserved relationship to make another matter accessible.",
+      "Narrative: organize events so their relationships can be encountered and remembered.",
+      "Framing: change the interpretation through which a matter is approached.",
+      "Questioning: direct or open a determination that the recipient can undertake.",
+      "Dialogue: let contributions change in response to another's actual uptake.",
+      "Naming: make a distinction easier to recognize, communicate, or retrieve.",
+      "Metaphor and imagery: make a relationship accessible through another representation.",
+      "Humor: invite a shift in interpretation and affect through an experienced incongruity.",
+      "Rhythm, emphasis, and timing: alter what becomes prominent and when it is encountered.",
+      "Credibility and relationship: alter whether and how a contribution is received.",
+      "Modeling: make another's way of perceiving, responding, or acting available.",
+      "Imitation: acquire or vary a response through reproducing an observed one.",
+      "Practice: change capability through performing an operation.",
+      "Feedback: make consequences available to alter subsequent activity.",
+      "Retrieval and rehearsal: bring prior material into active use.",
+      "Reward and cost encounters: alter experienced consequences of an activity.",
+      "Exposure and repeated encounter: change familiarity, responsiveness, or opportunity to learn; the direction is case-dependent.",
+      "Simulation and role taking: construct a temporary encounter with possible situations or positions.",
+      "Play and exploration: vary possible responses without requiring immediate settled commitment.",
+      "Environmental rearrangement: change what can be noticed, accessed, or done.",
+      "Tool use and external representation: change the demands and possibilities of an activity.",
+      "Social interaction: change participation, expectations, belonging, trust, or shared understanding.",
+      "Bodily and physiological change: alter conditions under which mental activity occurs.",
+      "Sleep, rest, and wake transitions: change current awareness and available functioning.",
+      "Development and aging: change dispositions and capacities over longer periods.",
+      "Injury, illness, deprivation, or recovery: alter functioning through conditions that are not simply communicative choices.",
+      "Spontaneous association and recollection: change what becomes available without an explicit external instruction.",
+      "Self-directed inquiry: apply a constructed operation to one's own interpretation or conduct.",
+      "Persistent records and recurrent cues: alter what remains available for future activity."
+    ]
+  }
+}

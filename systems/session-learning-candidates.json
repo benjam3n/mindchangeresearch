@@ -1,0 +1,43 @@
+[
+  {
+    "candidate_id": "SYS-L1",
+    "type": "insight",
+    "content": "A prospective forecast record needs its full proposition before the outcome.",
+    "context": "first GJS EMV files versus fifteen new frozen inputs",
+    "domain": "decision",
+    "confidence": "high for local event-order proposition; transfer untested",
+    "evidence": [
+      "journey-budget-emv-pre.json",
+      "journey-budget-emv-prospective-new.json",
+      "journey-budget-emv-prospective-results.json"
+    ],
+    "grounding": [
+      "OBSERVED",
+      "TESTED"
+    ],
+    "original_capture_status": "executed with exact recovered original CLI",
+    "prior_original_capture_status": "blocked: missing original script",
+    "original_id": "Ld9a0f028",
+    "stored_metadata_limitation": "CLI uses general/medium defaults; full metadata preserved in context"
+  },
+  {
+    "candidate_id": "SYS-L2",
+    "type": "what_didnt",
+    "content": "The first budget40 E+G choice was not optimal; later S+C repair does not make it first-pass correct.",
+    "context": "four-action finite additive model",
+    "domain": "decision",
+    "confidence": "high for supplied instance",
+    "evidence": [
+      "architecture-actual-cases.json",
+      "consolidation-04.md"
+    ],
+    "grounding": [
+      "TESTED",
+      "OBSERVED"
+    ],
+    "original_capture_status": "executed with exact recovered original CLI",
+    "prior_original_capture_status": "blocked: missing original script",
+    "original_id": "L5e71552f",
+    "stored_metadata_limitation": "CLI uses general/medium defaults; full metadata preserved in context"
+  }
+]

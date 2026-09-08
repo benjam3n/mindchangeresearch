@@ -1,0 +1,61 @@
+{
+  "cycle": "post-allocation-01",
+  "domain": "motivation-emotion",
+  "records": [
+    {
+      "path": "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md",
+      "skill_id": "mp",
+      "source_sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+      "status": "complete_within_model_and_constructed_planning_scope",
+      "verdict": "KEEP",
+      "distinct_new_beneficial_finding": true,
+      "finding": "When MP state inputs are absent, state-matched heuristics remain unresolved while known priorities, permission, reversibility, and deadlines can still determine and later reverse an action order.",
+      "human_effect": "UNRESOLVED",
+      "later_use_executed": true,
+      "later_use_change": "At 13:57 with a verified snapshot, reversible one-minute rollback, fifteen-minute repair, and prior rollback authority, rollback moves before inspection without assigning a motivational state."
+    },
+    {
+      "path": "post-allocation/cycle-01/motivation-emotion/02-eqi-appraisal-message.md",
+      "skill_id": "eqi",
+      "source_sha256": "b04eb99e568c722af4566fd4537efca24e92317a91b23cb39d649524fa8ac872",
+      "status": "complete_within_model_generated_appraisal_and_message_scope",
+      "verdict": "KEEP",
+      "distinct_new_beneficial_finding": false,
+      "finding": "Existing emotion-appraisal-action separation transferred to a checksum coordination message; multiple appraisals and human effects remain unresolved.",
+      "human_effect": "UNRESOLVED",
+      "later_use_executed": true,
+      "later_use_change": "A later stated worry about erasing reviewed changes changes the response from choice-first to evidence-and-recommendation-first."
+    }
+  ],
+  "source_receipts": [
+    {
+      "skill_id": "mp",
+      "stdout_path": "post-allocation/cycle-01/motivation-emotion/source-receipts/MP.stdout.txt",
+      "stdout_sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+      "stderr_path": "post-allocation/cycle-01/motivation-emotion/source-receipts/MP.stderr.txt",
+      "stderr_sha256": "f239ca98b414c978dffb68d98b3cab3d8bf776dc20a75ba4c7e94bc4159b014d"
+    },
+    {
+      "skill_id": "eqi",
+      "stdout_path": "post-allocation/cycle-01/motivation-emotion/source-receipts/EQI.stdout.txt",
+      "stdout_sha256": "b04eb99e568c722af4566fd4537efca24e92317a91b23cb39d649524fa8ac872",
+      "stderr_path": "post-allocation/cycle-01/motivation-emotion/source-receipts/EQI.stderr.txt",
+      "stderr_sha256": "375ffb3302f34112a329dedab51b40fdf996be6919edd0155368de0e4be6f83d"
+    }
+  ],
+  "numerical_8x_claimed": false,
+  "required_dependencies_missing": [],
+  "optional_integration_gates": {
+    "eqi": {
+      "efa": "not_triggered_no_reported_distress",
+      "vcl": "not_triggered_priorities_already_stated",
+      "hab": "not_triggered_no_repeated_habit_request",
+      "sdc": "not_triggered_no_self_report_narrative",
+      "mdr": "not_triggered_no_moral_conflict"
+    }
+  },
+  "consolidation_eligible_new_keeps": [
+    "post-allocation/cycle-01/motivation-emotion/01-mp-action-order.md"
+  ],
+  "integration_note": "Two substantive records only. Both preserve unobserved human states. EQI is later uptake of an existing finding and must not increment the distinct KEEP consolidation count."
+}

@@ -1,0 +1,1081 @@
+{
+  "axes": {
+    "p_left": [
+      0,
+      0.5,
+      1
+    ],
+    "p_right": [
+      0,
+      0.5,
+      1
+    ],
+    "proposition": [
+      "same",
+      "different"
+    ],
+    "time": [
+      "same",
+      "different"
+    ],
+    "actor": [
+      "same",
+      "different"
+    ],
+    "maybe_sense": [
+      "positive",
+      "strict"
+    ],
+    "sure_sense": [
+      "probability",
+      "expression"
+    ],
+    "scope": [
+      "specified",
+      "unknown"
+    ],
+    "use": [
+      "filter",
+      "navigation"
+    ]
+  },
+  "coverage": {
+    "p_left": {
+      "0": 21,
+      "0.5": 20,
+      "1": 19
+    },
+    "p_right": {
+      "0": 17,
+      "0.5": 23,
+      "1": 20
+    },
+    "proposition": {
+      "same": 35,
+      "different": 25
+    },
+    "time": {
+      "same": 33,
+      "different": 27
+    },
+    "actor": {
+      "same": 34,
+      "different": 26
+    },
+    "maybe_sense": {
+      "positive": 28,
+      "strict": 32
+    },
+    "sure_sense": {
+      "probability": 34,
+      "expression": 26
+    },
+    "scope": {
+      "specified": 34,
+      "unknown": 26
+    },
+    "use": {
+      "filter": 34,
+      "navigation": 26
+    }
+  },
+  "nominal_product": 1152,
+  "rows": [
+    {
+      "id": 1,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 2,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 3,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 4,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 5,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 6,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 7,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 8,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "N/A: one aligned probability assigned two values"
+    },
+    {
+      "id": 9,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 10,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 11,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 12,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 13,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 14,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 15,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": false,
+      "right": true,
+      "joint": false
+    },
+    {
+      "id": 16,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 17,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "N/A: one aligned probability assigned two values"
+    },
+    {
+      "id": 18,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 19,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 20,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 21,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 22,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 23,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": false,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 24,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 25,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 26,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": true,
+      "joint": false
+    },
+    {
+      "id": 27,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "joint witness; keep as route candidate",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 28,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 29,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 30,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 31,
+      "input": {
+        "p_left": 1,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "N/A: one aligned probability assigned two values"
+    },
+    {
+      "id": 32,
+      "input": {
+        "p_left": 1,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 33,
+      "input": {
+        "p_left": 1,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 34,
+      "input": {
+        "p_left": 1,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 35,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "joint witness; keep as route candidate",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 36,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 37,
+      "input": {
+        "p_left": 1,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 38,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 39,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "joint witness; keep as route candidate",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 40,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 41,
+      "input": {
+        "p_left": 1,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 42,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 43,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 44,
+      "input": {
+        "p_left": 0,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 45,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "N/A: one aligned probability assigned two values"
+    },
+    {
+      "id": 46,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "joint witness; this instance only",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 47,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": false,
+      "right": true,
+      "joint": false
+    },
+    {
+      "id": 48,
+      "input": {
+        "p_left": 0,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 49,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 50,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 51,
+      "input": {
+        "p_left": 0,
+        "p_right": 1,
+        "proposition": "different",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 52,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 53,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 54,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0,
+        "proposition": "different",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": true,
+      "right": false,
+      "joint": false
+    },
+    {
+      "id": 55,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "not a joint witness; keep as route candidate",
+      "left": false,
+      "right": true,
+      "joint": false
+    },
+    {
+      "id": 56,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "same",
+        "time": "different",
+        "actor": "same",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 57,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "same",
+        "actor": "same",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "navigation"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    },
+    {
+      "id": 58,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 0.5,
+        "proposition": "different",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "probability",
+        "scope": "specified",
+        "use": "filter"
+      },
+      "result": "not a joint witness; this instance only",
+      "left": false,
+      "right": true,
+      "joint": false
+    },
+    {
+      "id": 59,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "same",
+        "actor": "different",
+        "maybe_sense": "positive",
+        "sure_sense": "expression",
+        "scope": "specified",
+        "use": "navigation"
+      },
+      "result": "joint witness; keep as route candidate",
+      "left": true,
+      "right": true,
+      "joint": true
+    },
+    {
+      "id": 60,
+      "input": {
+        "p_left": 0.5,
+        "p_right": 1,
+        "proposition": "same",
+        "time": "different",
+        "actor": "different",
+        "maybe_sense": "strict",
+        "sure_sense": "probability",
+        "scope": "unknown",
+        "use": "filter"
+      },
+      "result": "source-scope verdict unresolved; fixture values retained"
+    }
+  ]
+}

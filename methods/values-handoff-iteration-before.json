@@ -1,0 +1,376 @@
+[
+  {
+    "file": "values-handoff-invitation-record.pci.json",
+    "sha256": "01b4ddf0a54c5e3cfae9cf82923c6fa0be442b9d613c65947786bae1bfac1fb2",
+    "content": {
+      "name": "Invitation response record",
+      "description": "Represent an explicitly supplied invitation and reply as component-level stance, permission and proposed next-step data.",
+      "inputs": {
+        "invitation": "Exact text and separately named requested components.",
+        "reply": "Exact supplied text; absent reply is allowed and remains unknown.",
+        "actor_scope": "Constructed or actual, known speaker and relevant role.",
+        "context": "Only explicit timing, access and prior permission supplied with the case."
+      },
+      "outputs": {
+        "response_record": "For each requested component: evidence span, accepted/declined/conditional/unknown stance, stated condition, next-step proposal and confirmation status.",
+        "unknowns": "Missing meanings that would change stance or next step."
+      },
+      "success_criteria": [
+        "Every component has a stance or explicit unknown.",
+        "Accepted scope does not exceed the evidence span.",
+        "A proposed change remains a proposal until a reply accepts it.",
+        "Output claims no human effect."
+      ],
+      "steps": [
+        "Keep the invitation components and exact reply text together.",
+        "Associate each explicit reply clause with its requested component.",
+        "Record accepted, declined, conditional or unknown stance for each component; retain stated conditions.",
+        "Separate the speaker's stated reason from a hypothesis about motive.",
+        "Create a next-step proposal only for an unresolved component that matters to the invitation.",
+        "Return the evidence-bearing response record and unresolved meanings."
+      ],
+      "verification": [
+        "Trace each non-unknown stance to the supplied text.",
+        "Compare the scope of every accepted component with its evidence.",
+        "Check that proposed action is not recorded as recipient agreement."
+      ],
+      "complexity": "moderate: semantic clause-to-component mapping requires judgment.",
+      "dependencies": [
+        "Existing explicit goal and invitation components; original AL offers paraphrase preparation but cannot supply an absent reply."
+      ],
+      "reuse_potential": "Local analysis of exploratory invitations, workshop roles and bounded help requests.",
+      "id": "local-invitation-record",
+      "version": "1.0.0",
+      "when_to_use": [
+        "A concrete invitation has separable requests and a supplied reply or explicit absence of reply.",
+        "Preparing a bounded collaboration draft without claiming live confirmation."
+      ],
+      "examples": [
+        {
+          "input": "Invitation: read and host. Reply: I will read two pages; I cannot host.",
+          "output": "Reading accepted for two pages; hosting declined; no motive inferred."
+        },
+        {
+          "input": "Invitation: join once. Reply: Only if it is audio.",
+          "output": "Joining conditional on audio; a proposed audio arrangement remains unconfirmed."
+        },
+        {
+          "input": "Invitation: attend. Reply absent.",
+          "output": "Attendance stance unknown; no assent or disinterest inferred."
+        },
+        {
+          "input": "Invitation: read. Reply: I like the idea but cannot take this on.",
+          "output": "Positive stated interest; task declined; the predicates coexist."
+        }
+      ],
+      "failure_modes": [
+        {
+          "failure": "Single overall yes label",
+          "consequence": "A bounded acceptance spreads to another request.",
+          "prevention": "Keep one stance per component."
+        },
+        {
+          "failure": "Reading emotion into silence",
+          "consequence": "An absent reply becomes invented disinterest.",
+          "prevention": "Keep missing reply unknown."
+        },
+        {
+          "failure": "Reason rewritten as motive",
+          "consequence": "An explicit timing constraint becomes reluctance.",
+          "prevention": "Retain evidence and mark extra interpretations hypothetical."
+        },
+        {
+          "failure": "Condition dropped in summary",
+          "consequence": "A conditional offer becomes a commitment.",
+          "prevention": "Carry the condition into every derived output."
+        }
+      ],
+      "gosm_integration": {
+        "after": "Invitation components and available reply are supplied.",
+        "before": "Local follow-up choice.",
+        "external_gate": "Actual confirmation requires the participant.",
+        "artifact_scope": "Local authored procedure, not an original skill."
+      }
+    }
+  },
+  {
+    "file": "values-handoff-followup-choice.pci.json",
+    "sha256": "7d49e345dd6e15bdd77fd1c045d255b3106aa73844906c14c7efb8886636fede",
+    "content": {
+      "name": "Invitation follow-up choice",
+      "description": "Select a draft acknowledgement or clarification from a response record while retaining each participant's stated boundaries.",
+      "inputs": {
+        "response_record": "Component-level stances with evidence and conditions.",
+        "available_actions": "Concrete possible acknowledgements, clarifications or no further action.",
+        "goal": "The original invitation goal, retained even when not achievable yet."
+      },
+      "outputs": {
+        "draft": "A concrete unsent acknowledgement or question, or a no-action record.",
+        "reason": "The explicit stance or unresolved meaning that selects it.",
+        "goal_status": "Current achievable, conditional or unresolved parts."
+      },
+      "success_criteria": [
+        "An accepted bounded role is not broadened.",
+        "A stated refusal is not treated as a request for persuasion.",
+        "A condition is carried into the draft."
+      ],
+      "steps": [
+        "Read the response record and its conditions.",
+        "For accepted components, draft the bounded acknowledgement.",
+        "For conditional components, expose the stated condition and an available matching option if one exists.",
+        "For unknown components, draft one question about the missing meaning when needed.",
+        "For declined components, draft an acknowledgement that leaves that component declined.",
+        "Return the draft, selection reason and remaining goal status without sending anything."
+      ],
+      "verification": [
+        "Compare every proposed commitment in the draft with the supplied response record.",
+        "Confirm the original desired goal is still visible when currently unmet."
+      ],
+      "complexity": "simple for explicit stances; moderate for mixed records.",
+      "dependencies": [
+        "Invitation response record."
+      ],
+      "reuse_potential": "Repeated bounded collaboration invitations.",
+      "id": "local-followup-choice",
+      "version": "1.0.0",
+      "when_to_use": [
+        "A scoped response record is available and a draft next step is useful.",
+        "Several different stances occur in one reply."
+      ],
+      "examples": [
+        {
+          "input": "Reading accepted for two pages; hosting declined.",
+          "output": "Thank them for two-page reading; acknowledge no hosting; assign neither extra reading nor hosting."
+        },
+        {
+          "input": "Joining conditional on audio; audio option available.",
+          "output": "Draft the audio option as a proposal with confirmation pending."
+        },
+        {
+          "input": "Unknown whether “too much” concerns length or recurrence.",
+          "output": "Draft one question distinguishing those two meanings."
+        },
+        {
+          "input": "All requested components explicitly declined.",
+          "output": "Acknowledge decline; do not generate persuasion as an accepted next step."
+        }
+      ],
+      "failure_modes": [
+        {
+          "failure": "Goal silently replaced after refusal",
+          "consequence": "The original desired relationship disappears.",
+          "prevention": "Retain the desired goal and its current unmet components."
+        },
+        {
+          "failure": "Draft is treated as delivery",
+          "consequence": "The record invents an interaction.",
+          "prevention": "Label draft and keep delivery unperformed."
+        },
+        {
+          "failure": "Repeated invitation after a clear no",
+          "consequence": "Selection ignores the stated boundary.",
+          "prevention": "Choose bounded acknowledgement or no further action."
+        },
+        {
+          "failure": "A promise attached to a conditional option",
+          "consequence": "Recipient appears committed before an answer.",
+          "prevention": "Preserve proposed and confirmed states."
+        }
+      ],
+      "gosm_integration": {
+        "after": "Invitation response record.",
+        "before": "Any separately authorized human interaction.",
+        "external_gate": "No external message is authorized by this artifact.",
+        "artifact_scope": "Local draft selection."
+      }
+    }
+  },
+  {
+    "file": "values-handoff-curiosity-trace.pci.json",
+    "sha256": "c2c36be7e460ef78c72601a4486eb38296634a8d6d61c896eac0d58836a50a91",
+    "content": {
+      "name": "Curiosity trace record",
+      "description": "Capture a single authored exploration step with its question, input, output, status and relation to earlier work.",
+      "inputs": {
+        "question": "Concrete question being explored.",
+        "source_item": "Supplied text, object, construction or prior note actually used.",
+        "operation": "The operation actually performed, if any.",
+        "output": "Its actual text, comparison or constructed result.",
+        "prior_record": "Earlier record, if a continuation exists.",
+        "interest_reason": "The particular surprise or attraction; no usefulness requirement."
+      },
+      "outputs": {
+        "trace_record": "Question, source, operation, output, actual/constructed/planned status, prior link, interest reason and uncertainty.",
+        "open_thread": "The next unresolved question or a dead-end reason."
+      },
+      "success_criteria": [
+        "Authored results stay distinguishable from source observations.",
+        "A planned operation has no observed result attributed to it.",
+        "A dead end can retain interest without fabricated utility."
+      ],
+      "steps": [
+        "Record the selected question and its interest reason.",
+        "Record the exact supplied or constructed input.",
+        "State the performed operation and preserve the resulting output.",
+        "Label whether the input/result is actual, constructed or only planned.",
+        "Link any continuation to the prior record.",
+        "Record the open question or the reason this thread stopped."
+      ],
+      "verification": [
+        "Trace each claimed observation to the supplied input or actual output.",
+        "Check that the continuation refers to a record that exists.",
+        "Check that a planned test is not described as completed."
+      ],
+      "complexity": "simple record creation with moderate status interpretation.",
+      "dependencies": [
+        "An actual exploration product or explicitly planned step."
+      ],
+      "reuse_potential": "Creative comparisons, thought experiments, interpretation exercises and later source studies.",
+      "id": "local-curiosity-trace",
+      "version": "1.0.0",
+      "when_to_use": [
+        "A local exploration has a concrete input and output to preserve.",
+        "A proposed operation should remain visibly unperformed."
+      ],
+      "examples": [
+        {
+          "input": "Same question label placed at a platform and a drawing.",
+          "output": "Two constructed interpretations; no audience effect claimed."
+        },
+        {
+          "input": "A causal experiment is proposed but not performed.",
+          "output": "Planned status; predicted result is a prediction."
+        },
+        {
+          "input": "An explored metaphor produced no distinct comparison.",
+          "output": "Dead-end reason retained; interest can remain."
+        },
+        {
+          "input": "A second note revises an earlier question.",
+          "output": "New trace linked to the earlier note and its changed question."
+        }
+      ],
+      "failure_modes": [
+        {
+          "failure": "Interesting idea labeled true",
+          "consequence": "Value substitutes for evidence.",
+          "prevention": "Keep interest reason separate from evidence status."
+        },
+        {
+          "failure": "Planned operation narrated in past tense",
+          "consequence": "An unperformed test becomes a result.",
+          "prevention": "Retain planned status."
+        },
+        {
+          "failure": "Missing earlier record",
+          "consequence": "A later question loses its derivation.",
+          "prevention": "Carry a resolvable prior link or mark it unavailable."
+        },
+        {
+          "failure": "No utility is coded as no value",
+          "consequence": "Pure-interest exploration disappears.",
+          "prevention": "Retain the stated interest reason without promised benefit."
+        }
+      ],
+      "gosm_integration": {
+        "after": "Actual exploration operation or explicit plan.",
+        "before": "Continuation choice.",
+        "external_gate": "Human outcome claims need observations beyond a constructed trace.",
+        "artifact_scope": "Evidence-bearing local inquiry record."
+      }
+    }
+  },
+  {
+    "file": "values-handoff-continuation-choice.pci.json",
+    "sha256": "3851f4060dfb9f85eb29220d5935ea994e51c4aaf9cc3a36b6b2a47861cae1f0",
+    "content": {
+      "name": "Exploration continuation choice",
+      "description": "Choose a next local exploration operation from recorded threads using their unresolved question, distinctness, interest and resource cost.",
+      "inputs": {
+        "trace_records": "Existing curiosity trace records.",
+        "available_interval": "The present local work interval and hard dependencies.",
+        "goal": "Autonomous beneficial efficient broad mind change; no forced immediate utility."
+      },
+      "outputs": {
+        "selection": "One concrete next operation or a justified stopping point.",
+        "retained_threads": "Other threads with their interest and reason for deferral.",
+        "expected_evidence": "What the next operation can resolve and what it cannot."
+      },
+      "success_criteria": [
+        "Selected operation addresses an identified question.",
+        "Deferral does not erase a thread's interest.",
+        "A repeated result is not labeled a new benefit."
+      ],
+      "steps": [
+        "Read each existing open question and stopped-thread reason.",
+        "Compare whether a proposed next operation can change a currently unresolved interpretation.",
+        "Compare local effort, hard dependencies and overlap with already recorded results.",
+        "Select a feasible operation with a distinct question; preserve pure-interest candidates even without immediate utility.",
+        "Retain the deferred threads and their reasons.",
+        "State the evidence the selected operation would provide without claiming it is already observed."
+      ],
+      "verification": [
+        "Find the selected question in an existing record.",
+        "Compare the proposal with the prior output so repetition is visible.",
+        "Check that a finite constructed comparison is not represented as a human outcome."
+      ],
+      "complexity": "moderate comparison of several live threads.",
+      "dependencies": [
+        "Curiosity trace record."
+      ],
+      "reuse_potential": "Repeated local inquiry selection.",
+      "id": "local-continuation-choice",
+      "version": "1.0.0",
+      "when_to_use": [
+        "Several threads compete for the next local operation.",
+        "A recorded result repeats an existing distinction."
+      ],
+      "examples": [
+        {
+          "input": "One repeated label comparison and one new object scene.",
+          "output": "Select the object scene for a different referent question; retain repeated thread if still interesting."
+        },
+        {
+          "input": "A test requires an unavailable participant.",
+          "output": "Keep the human question pending and choose an available local operation without calling it that test."
+        },
+        {
+          "input": "A pure-interest thread and a direct-use thread both fit the interval.",
+          "output": "Compare the current question and breadth needs; pure interest remains eligible."
+        },
+        {
+          "input": "No concrete unresolved question survives.",
+          "output": "Stop this thread and retain its result; do not invent another pull."
+        }
+      ],
+      "failure_modes": [
+        {
+          "failure": "Newest label receives automatic priority",
+          "consequence": "Renaming repetition displaces a distinct question.",
+          "prevention": "Compare the proposed operation with recorded outputs."
+        },
+        {
+          "failure": "Unavailable human test is replaced by fictional responses",
+          "consequence": "The original causal question is falsely settled.",
+          "prevention": "Keep the original test pending and state the local operation's separate scope."
+        },
+        {
+          "failure": "Hard dependency ignored",
+          "consequence": "Selected operation cannot occur in the interval.",
+          "prevention": "Read available resources and dependencies."
+        },
+        {
+          "failure": "Deferred thread discarded",
+          "consequence": "Unfinished interest is lost.",
+          "prevention": "Retain its open question and reason for deferral."
+        }
+      ],
+      "gosm_integration": {
+        "after": "Curiosity trace records exist.",
+        "before": "A new actual local operation, or a separately available empirical study.",
+        "external_gate": "Human participation, time and permission remain dependencies.",
+        "artifact_scope": "Local selection, not autonomous control of people."
+      }
+    }
+  }
+]

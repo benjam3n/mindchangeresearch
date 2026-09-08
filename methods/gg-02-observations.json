@@ -1,0 +1,17 @@
+{
+  "v1_syntax_roundtrip": true,
+  "v1_exact_input_matches_frozen_gg_input": false,
+  "v1_next_operation_specific": false,
+  "missing_next_operation_fixture_parses": true,
+  "missing_next_operation_fixture_rejected": true,
+  "v2_exact_roundtrip": true,
+  "v2_exact_input_matches_frozen_gg_input": true,
+  "v2_next_operation_skill": "sp",
+  "v2_next_operation_source_readable": true,
+  "source_unchanged": true,
+  "changed_hash_fixture_triggers_reread": true,
+  "active_queue_filters_completed": true,
+  "historical_files_retained": true,
+  "schedule_acknowledgment": null,
+  "current_restore_not_later_session": true
+}

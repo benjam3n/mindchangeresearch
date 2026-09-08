@@ -1,0 +1,18 @@
+{
+  "input_scope": {
+    "source": "048-lpd-2.md",
+    "rule": "lookup requires given options and criteria"
+  },
+  "evidence_fit": {
+    "source": "046-gsr-2.md",
+    "rule": "subjective familiarity cannot replace four required distinctions"
+  },
+  "resource_bundle": {
+    "source": "045-gd-2.md",
+    "rule": "comparison includes required source cost"
+  },
+  "current_target": {
+    "source": "050-ltai-1.md",
+    "rule": "returned revision equals active revision"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "all_orders": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "trace": [
+        {
+          "job": "A",
+          "start": 0,
+          "finish": 4,
+          "deadline": 6,
+          "meets": true
+        },
+        {
+          "job": "B",
+          "start": 4,
+          "finish": 5,
+          "deadline": 2,
+          "meets": false
+        }
+      ],
+      "feasible": false
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "trace": [
+        {
+          "job": "B",
+          "start": 1,
+          "finish": 2,
+          "deadline": 2,
+          "meets": true
+        },
+        {
+          "job": "A",
+          "start": 2,
+          "finish": 6,
+          "deadline": 6,
+          "meets": true
+        }
+      ],
+      "feasible": true
+    }
+  ],
+  "selected_order": {
+    "order": [
+      "B",
+      "A"
+    ],
+    "trace": [
+      {
+        "job": "B",
+        "start": 1,
+        "finish": 2,
+        "deadline": 2,
+        "meets": true
+      },
+      {
+        "job": "A",
+        "start": 2,
+        "finish": 6,
+        "deadline": 6,
+        "meets": true
+      }
+    ],
+    "feasible": true
+  },
+  "forced_interval": {
+    "job": "B",
+    "start": 1,
+    "finish": 2
+  },
+  "preemptive_countercase": [
+    {
+      "job": "A",
+      "start": 0,
+      "finish": 1
+    },
+    {
+      "job": "B",
+      "start": 1,
+      "finish": 2
+    },
+    {
+      "job": "A",
+      "start": 2,
+      "finish": 5
+    }
+  ],
+  "selected_organization": "forced interval and feasibility conditions plus full timeline",
+  "later_cases": [
+    {
+      "name": "A_deadline_5",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 5
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        }
+      ]
+    },
+    {
+      "name": "A_duration_1",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 1,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        }
+      ]
+    }
+  ],
+  "executed_at": "2026-09-08T05:36:28.132656+00:00",
+  "input_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

@@ -1,0 +1,31 @@
+{
+  "source_receipts": {
+    "local": true,
+    "durable": "pending_root",
+    "used_in": [
+      "001-orgn-1.md",
+      "002-sim-1.md",
+      "003-ro-1.md",
+      "004-orgn-2.md"
+    ]
+  },
+  "routing-v1.md": {
+    "local": true,
+    "durable": "pending_root",
+    "used_in": [
+      "003-ro-1.md"
+    ]
+  },
+  "selector-view-v1.md": {
+    "local": true,
+    "durable": "pending_root",
+    "used_in": [
+      "002-sim-1.md"
+    ]
+  },
+  "applications_001_to_004": {
+    "local": true,
+    "durable": "pending_root",
+    "used_later": "not_implied_by_existence"
+  }
+}

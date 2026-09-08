@@ -1,0 +1,27 @@
+[
+  {
+    "id": "P1",
+    "confidence": 90,
+    "prediction": "A cheaper for n=1"
+  },
+  {
+    "id": "P2",
+    "confidence": 90,
+    "prediction": "tie at n=6"
+  },
+  {
+    "id": "P3",
+    "confidence": 90,
+    "prediction": "B cheaper for n=7"
+  },
+  {
+    "id": "P4",
+    "confidence": 80,
+    "prediction": "expiry at5 prevents B crossover"
+  },
+  {
+    "id": "P5",
+    "confidence": 90,
+    "prediction": "setup0 makes B cheaper for positive n"
+  }
+]

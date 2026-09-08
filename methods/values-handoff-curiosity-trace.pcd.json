@@ -1,0 +1,39 @@
+{
+  "name": "Curiosity trace record",
+  "description": "Capture a single authored exploration step with its question, input, output, status and relation to earlier work.",
+  "inputs": {
+    "question": "Concrete question being explored.",
+    "source_item": "Supplied text, object, construction or prior note actually used.",
+    "operation": "The operation actually performed, if any.",
+    "output": "Its actual text, comparison or constructed result.",
+    "prior_record": "Earlier record, if a continuation exists.",
+    "interest_reason": "The particular surprise or attraction; no usefulness requirement."
+  },
+  "outputs": {
+    "trace_record": "Question, source, operation, output, actual/constructed/planned status, prior link, interest reason and uncertainty.",
+    "open_thread": "The next unresolved question or a dead-end reason."
+  },
+  "success_criteria": [
+    "Authored results stay distinguishable from source observations.",
+    "A planned operation has no observed result attributed to it.",
+    "A dead end can retain interest without fabricated utility."
+  ],
+  "steps": [
+    "Record the selected question and its interest reason.",
+    "Record the exact supplied or constructed input.",
+    "State the performed operation and preserve the resulting output.",
+    "Label whether the input/result is actual, constructed or only planned.",
+    "Link any continuation to the prior record.",
+    "Record the open question or the reason this thread stopped."
+  ],
+  "verification": [
+    "Trace each claimed observation to the supplied input or actual output.",
+    "Check that the continuation refers to a record that exists.",
+    "Check that a planned test is not described as completed."
+  ],
+  "complexity": "simple record creation with moderate status interpretation.",
+  "dependencies": [
+    "An actual exploration product or explicitly planned step."
+  ],
+  "reuse_potential": "Creative comparisons, thought experiments, interpretation exercises and later source studies."
+}

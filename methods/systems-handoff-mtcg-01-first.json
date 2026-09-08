@@ -1,0 +1,22 @@
+{
+  "policy": "start A immediately, then run B",
+  "timeline": [
+    {
+      "job": "A",
+      "start": 0,
+      "finish": 4,
+      "deadline": 6,
+      "meets": true
+    },
+    {
+      "job": "B",
+      "start": 4,
+      "finish": 5,
+      "deadline": 2,
+      "meets": false
+    }
+  ],
+  "all_deadlines_met": false,
+  "executed_at": "2026-09-08T05:07:49.076984+00:00",
+  "input_artifact_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "return": {
+      "task": "T",
+      "revision": 1,
+      "output": "old"
+    },
+    "baseline_label_accept": true,
+    "revised_accept": false
+  },
+  {
+    "return": {
+      "task": "T",
+      "revision": 2,
+      "output": "current"
+    },
+    "baseline_label_accept": true,
+    "revised_accept": true
+  },
+  {
+    "return": {
+      "task": "T",
+      "output": "unknown"
+    },
+    "baseline_label_accept": true,
+    "revised_accept": false
+  },
+  {
+    "return": {
+      "task": "T",
+      "revision": 2,
+      "output": "current"
+    },
+    "baseline_label_accept": true,
+    "revised_accept": false
+  }
+]

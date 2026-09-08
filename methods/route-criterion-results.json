@@ -1,0 +1,44 @@
+{
+  "sign_by_state": {
+    "open": 9,
+    "closed": 13
+  },
+  "east_by_state": {
+    "open": 12,
+    "closed": 12
+  },
+  "probability_cases": [
+    {
+      "p": 0,
+      "sign_expected": 13,
+      "east_expected": 12,
+      "expected_choice": "east"
+    },
+    {
+      "p": 0.1,
+      "sign_expected": 12.6,
+      "east_expected": 12,
+      "expected_choice": "east"
+    },
+    {
+      "p": 0.25,
+      "sign_expected": 12.0,
+      "east_expected": 12,
+      "expected_choice": "tie"
+    },
+    {
+      "p": 0.5,
+      "sign_expected": 11.0,
+      "east_expected": 12,
+      "expected_choice": "sign"
+    },
+    {
+      "p": 1,
+      "sign_expected": 9,
+      "east_expected": 12,
+      "expected_choice": "sign"
+    }
+  ],
+  "worst_case_choice": "east",
+  "unknown_p_expected_choice": "unresolved"
+}

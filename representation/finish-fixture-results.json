@@ -1,0 +1,258 @@
+{
+  "route": {
+    "same_words_different_heading": {
+      "north": {
+        "position": [
+          2,
+          1
+        ],
+        "heading": 1
+      },
+      "east": {
+        "position": [
+          1,
+          -2
+        ],
+        "heading": 2
+      }
+    },
+    "same_position_different_heading": {
+      "start": {
+        "position": [
+          0,
+          0
+        ],
+        "heading": 0
+      },
+      "open_square": {
+        "position": [
+          0,
+          0
+        ],
+        "heading": 3
+      }
+    },
+    "held_out_anchored": {
+      "east_FRFF": {
+        "position": [
+          3,
+          1
+        ],
+        "heading": 2
+      },
+      "north_FRFF": {
+        "position": [
+          4,
+          4
+        ],
+        "heading": 1
+      }
+    },
+    "mirror": {
+      "right": {
+        "position": [
+          1,
+          1
+        ],
+        "heading": 1
+      },
+      "left": {
+        "position": [
+          -1,
+          1
+        ],
+        "heading": 3
+      }
+    },
+    "reverse_turn_order": {
+      "FRF": {
+        "position": [
+          1,
+          1
+        ],
+        "heading": 1
+      },
+      "RFF": {
+        "position": [
+          2,
+          0
+        ],
+        "heading": 1
+      }
+    }
+  },
+  "edit": {
+    "live_vs_initial_position": {
+      "live": [
+        {
+          "id": "B",
+          "text": "beta"
+        },
+        {
+          "id": "C",
+          "text": "gamma",
+          "tag": true
+        }
+      ],
+      "initial_identity": [
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": true
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ]
+    },
+    "reordered_held_out": [
+      {
+        "id": "C",
+        "text": "gamma"
+      },
+      {
+        "id": "B",
+        "text": "beta",
+        "tag": true
+      }
+    ],
+    "duplicate_identity": {
+      "error": "identity is not unique",
+      "matches": 2
+    },
+    "delete_noncommuting": {
+      "delete_then_tag": [
+        {
+          "id": "B",
+          "text": "beta"
+        },
+        {
+          "id": "C",
+          "text": "gamma",
+          "tag": true
+        }
+      ],
+      "tag_then_delete": [
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": true
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ]
+    },
+    "stable_id_commuting": {
+      "delete_then_tag": [
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": true
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ],
+      "tag_then_delete": [
+        {
+          "id": "B",
+          "text": "beta",
+          "tag": true
+        },
+        {
+          "id": "C",
+          "text": "gamma"
+        }
+      ]
+    }
+  },
+  "clock": {
+    "anchor_difference": {
+      "display_anchor_due": 5,
+      "ready_anchor_due": 8
+    },
+    "duplicate_ready": {
+      "restart": {
+        "starts": [
+          3,
+          6
+        ],
+        "active": 6,
+        "outputs": [
+          {
+            "at": 8,
+            "remaining": 3,
+            "due": false
+          }
+        ]
+      },
+      "first": {
+        "starts": [
+          3
+        ],
+        "active": 3,
+        "outputs": [
+          {
+            "at": 8,
+            "remaining": 0,
+            "due": true
+          }
+        ]
+      }
+    },
+    "cancel_and_restart": {
+      "starts": [
+        3,
+        10
+      ],
+      "active": 10,
+      "outputs": [
+        {
+          "at": 14,
+          "remaining": 1,
+          "due": false
+        },
+        {
+          "at": 15,
+          "remaining": 0,
+          "due": true
+        }
+      ]
+    },
+    "late_poll": {
+      "starts": [
+        3
+      ],
+      "active": 3,
+      "outputs": [
+        {
+          "at": 10,
+          "remaining": 0,
+          "due": true
+        }
+      ]
+    },
+    "held_out": {
+      "starts": [
+        11
+      ],
+      "active": 11,
+      "outputs": [
+        {
+          "at": 15,
+          "remaining": 1,
+          "due": false
+        },
+        {
+          "at": 16,
+          "remaining": 0,
+          "due": true
+        }
+      ]
+    }
+  }
+}

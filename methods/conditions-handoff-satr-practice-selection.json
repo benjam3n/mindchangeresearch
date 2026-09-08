@@ -1,0 +1,361 @@
+{
+  "purpose": "Optional later re-exposure selection only; frozen fifty conditions applications and all historical responses retained",
+  "actor": "conditions subagent",
+  "original_count": 16,
+  "selected_count": 11,
+  "reduction_percent": 31.25,
+  "comparison_unit": "Declared diagnostic role, not interchangeable human learning effect",
+  "coverage_preserved": [
+    "common-release-feasible",
+    "common-release-overload",
+    "earlier-release-no-repair",
+    "fit-A-before-release",
+    "relax-A-deadline",
+    "relax-C-deadline-no-repair",
+    "restrict-A-deadline",
+    "shorten-A",
+    "shorten-C",
+    "three-job-forced-infeasibility",
+    "wait-for-tight-future-job"
+  ],
+  "selected_cases": [
+    {
+      "id": "P01",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 7
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P02",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 4,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P04",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 2,
+          "deadline": 3
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P06",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P07",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 7
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P08",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 5
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P09",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P11",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P12",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 6
+        },
+        {
+          "id": "B",
+          "release": 1,
+          "duration": 1,
+          "deadline": 2
+        },
+        {
+          "id": "C",
+          "release": 2,
+          "duration": 1,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P13",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 2,
+          "deadline": 3
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": true,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    },
+    {
+      "id": "P14",
+      "jobs": [
+        {
+          "id": "A",
+          "release": 0,
+          "duration": 3,
+          "deadline": 3
+        },
+        {
+          "id": "B",
+          "release": 0,
+          "duration": 2,
+          "deadline": 4
+        }
+      ],
+      "agent_prediction_feasible": false,
+      "confidence": "high within the declared small deterministic cases",
+      "assumptions": "one nonpreemptive processor; zero switching cost; no overlapping jobs"
+    }
+  ],
+  "mapped_cases": [
+    {
+      "id": "P01",
+      "role": "wait-for-tight-future-job",
+      "representative": "P01"
+    },
+    {
+      "id": "P02",
+      "role": "restrict-A-deadline",
+      "representative": "P02"
+    },
+    {
+      "id": "P03",
+      "role": "shorten-A",
+      "representative": "P11"
+    },
+    {
+      "id": "P04",
+      "role": "fit-A-before-release",
+      "representative": "P04"
+    },
+    {
+      "id": "P05",
+      "role": "wait-for-tight-future-job",
+      "representative": "P01"
+    },
+    {
+      "id": "P06",
+      "role": "three-job-forced-infeasibility",
+      "representative": "P06"
+    },
+    {
+      "id": "P07",
+      "role": "relax-A-deadline",
+      "representative": "P07"
+    },
+    {
+      "id": "P08",
+      "role": "relax-C-deadline-no-repair",
+      "representative": "P08"
+    },
+    {
+      "id": "P09",
+      "role": "earlier-release-no-repair",
+      "representative": "P09"
+    },
+    {
+      "id": "P10",
+      "role": "earlier-release-no-repair",
+      "representative": "P09"
+    },
+    {
+      "id": "P11",
+      "role": "shorten-A",
+      "representative": "P11"
+    },
+    {
+      "id": "P12",
+      "role": "shorten-C",
+      "representative": "P12"
+    },
+    {
+      "id": "P13",
+      "role": "common-release-feasible",
+      "representative": "P13"
+    },
+    {
+      "id": "P14",
+      "role": "common-release-overload",
+      "representative": "P14"
+    },
+    {
+      "id": "P15",
+      "role": "fit-A-before-release",
+      "representative": "P04"
+    },
+    {
+      "id": "P16",
+      "role": "restrict-A-deadline",
+      "representative": "P02"
+    }
+  ]
+}

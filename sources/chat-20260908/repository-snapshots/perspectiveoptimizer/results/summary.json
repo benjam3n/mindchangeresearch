@@ -1,0 +1,22 @@
+{
+  "assignments_before": 12,
+  "open_before": 5,
+  "assignments_after": 16,
+  "open_after": 7,
+  "route_statuses": {
+    "content": "unresolved_condition",
+    "retrieval": "conditions_met",
+    "representation": "unresolved_condition",
+    "application-condition": "conditions_met"
+  },
+  "reachable": [
+    "application-question",
+    "cue-comparison",
+    "transfer-failure"
+  ],
+  "conditional_only": [
+    "application-condition",
+    "contrast-construction"
+  ],
+  "standing": "Executed constructed examples. Counts and routes are relative to supplied definitions and observations; no empirical capability improvement is established."
+}

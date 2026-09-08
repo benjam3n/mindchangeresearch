@@ -1,0 +1,25 @@
+{
+  "layers": [
+    [
+      "000"
+    ],
+    [
+      "110",
+      "011"
+    ],
+    [
+      "101"
+    ]
+  ],
+  "reachable": {
+    "000": "",
+    "011": "B",
+    "101": "AB",
+    "110": "A"
+  },
+  "target": "111",
+  "target_reached": false,
+  "closure_checked": true,
+  "executed_at": "2026-09-08T05:07:49.077290+00:00",
+  "input_artifact_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

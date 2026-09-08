@@ -1,0 +1,268 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Is the query literal source attribution or semantic applicability?",
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "answer": "Input specifies applicability of the sure/maybe relation plus the declared clause11 fixture; direct task observation.",
+      "depends_on": []
+    },
+    {
+      "id": 2,
+      "question": "Which exact source bytes are available?",
+      "scores": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "answer": "438 receipts and hashes are available; parent integrity check verifies bytes, not meanings.",
+      "depends_on": []
+    },
+    {
+      "id": 3,
+      "question": "What are the two endpoint scopes?",
+      "scores": [
+        5,
+        4,
+        4,
+        4
+      ],
+      "answer": "Paired fixture supplies P,t; original generic edge scope remains unspecified.",
+      "depends_on": []
+    },
+    {
+      "id": 4,
+      "question": "Which predicate meanings are admitted?",
+      "scores": [
+        5,
+        4,
+        5,
+        5
+      ],
+      "answer": "S=p=1, M=p>0 or strict0<p<1; meanings are stipulated separately.",
+      "depends_on": []
+    },
+    {
+      "id": 5,
+      "question": "Which conditions qualify clause11?",
+      "scores": [
+        5,
+        2,
+        5,
+        5
+      ],
+      "answer": "FRQ43 fixture declares conjunction of clauses2 and7; completeness is a fixture premise.",
+      "depends_on": []
+    },
+    {
+      "id": 6,
+      "question": "What exactly does the export assert?",
+      "scores": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "answer": "sure\u2192maybe uses the certainty/uncertainty reason; direct receipt, no endorsement.",
+      "depends_on": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Are the instantiated relation operands aligned?",
+      "scores": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "answer": "The specified P,t pair is aligned; original generic use remains unknown.",
+      "depends_on": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Is the aligned S\u2227M set nonempty?",
+      "scores": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "answer": "Positive M: witness1; strict reading: empty by p=1 andp<1; deductive.",
+      "depends_on": [
+        4,
+        7
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Does the source label alone resolve its semantic verdict?",
+      "scores": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "answer": "No: Q8 gives different results under the two meanings; intended sense unresolved.",
+      "depends_on": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Does an edge\u2019s high weight overturn that distinction?",
+      "scores": [
+        2,
+        5,
+        5,
+        5
+      ],
+      "answer": "No in the declared predicate model: weight is not an operand; source ranking remains separately available.",
+      "depends_on": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which declared qualifier values are currently available?",
+      "scores": [
+        4,
+        2,
+        5,
+        5
+      ],
+      "answer": "Clause2=true; clause7 unavailable in this supplied fixture.",
+      "depends_on": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Is clause11 applicable with those values?",
+      "scores": [
+        5,
+        3,
+        5,
+        5
+      ],
+      "answer": "Unresolved: 1\u22271=1 and1\u22270=0; the unavailable value changes output.",
+      "depends_on": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which retrieval could resolve applicability?",
+      "scores": [
+        4,
+        3,
+        5,
+        5
+      ],
+      "answer": "Condition7, because its two completions differ while2 is fixed true.",
+      "depends_on": [
+        1,
+        12
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Would7 still be necessary if2 were false?",
+      "scores": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "answer": "No for this conjunction: 0\u2227x=0. This changed-input test settles inapplicability.",
+      "depends_on": [
+        5,
+        12
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Has a person understood or benefited from this view?",
+      "scores": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "answer": "No relevant human observation supplied; unanswered empirical question.",
+      "depends_on": [
+        1,
+        10
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Has the historical author\u2019s intended maybe sense been observed?",
+      "scores": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "answer": "No author-context receipt supplies that missing choice; exact current definition is a proxy only.",
+      "depends_on": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Can the index retain both semantic outcomes and the unresolved scope?",
+      "scores": [
+        2,
+        4,
+        5,
+        5
+      ],
+      "answer": "Yes: paired-semantic-instances plus condition index preserve both explicit cases and null source intent.",
+      "depends_on": [
+        9,
+        12
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What is the next ready question, given these answers?",
+      "scores": [
+        4,
+        2,
+        5,
+        5
+      ],
+      "answer": "For the current fixture, missing7 is the discriminator; for source intent no available local observation resolves it.",
+      "depends_on": [
+        13,
+        14,
+        17
+      ]
+    }
+  ],
+  "foundation": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "edges": 27
+}

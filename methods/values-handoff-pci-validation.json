@@ -1,0 +1,234 @@
+[
+  {
+    "application": 1,
+    "schema_path": "values-handoff-schema.json",
+    "target_count": 2,
+    "procedures_analyzed": 2,
+    "queue": [
+      {
+        "name": "followup-choice",
+        "usage_class": "domain-specific",
+        "usage_weight": 1,
+        "severity": "failing_schema",
+        "severity_weight": 3,
+        "effort_class": "section_add",
+        "effort_estimate": 2,
+        "priority": 1.5,
+        "before": {
+          "tier": "none",
+          "missing": {
+            "Bronze": [
+              "id",
+              "version"
+            ],
+            "Silver": [
+              "when_to_use",
+              "examples"
+            ],
+            "Gold": [
+              "failure_modes",
+              "gosm_integration"
+            ]
+          }
+        },
+        "preserved_all_original_fields": true,
+        "after": {
+          "tier": "Gold",
+          "missing": {
+            "Bronze": [],
+            "Silver": [],
+            "Gold": []
+          }
+        },
+        "fields_added": [
+          "id",
+          "version",
+          "when_to_use",
+          "examples",
+          "failure_modes",
+          "gosm_integration"
+        ],
+        "before_file": "values-handoff-followup-choice.pcd.json",
+        "after_file": "values-handoff-followup-choice.pci.json",
+        "before_sha256": "5172ac1b6ed654c0975b5ba751267930cb9a22eb9959b77170c3b27f258de4d7"
+      },
+      {
+        "name": "invitation-record",
+        "usage_class": "domain-specific",
+        "usage_weight": 1,
+        "severity": "failing_schema",
+        "severity_weight": 3,
+        "effort_class": "section_add",
+        "effort_estimate": 2,
+        "priority": 1.5,
+        "before": {
+          "tier": "none",
+          "missing": {
+            "Bronze": [
+              "id",
+              "version"
+            ],
+            "Silver": [
+              "when_to_use",
+              "examples"
+            ],
+            "Gold": [
+              "failure_modes",
+              "gosm_integration"
+            ]
+          }
+        },
+        "preserved_all_original_fields": true,
+        "after": {
+          "tier": "Gold",
+          "missing": {
+            "Bronze": [],
+            "Silver": [],
+            "Gold": []
+          }
+        },
+        "fields_added": [
+          "id",
+          "version",
+          "when_to_use",
+          "examples",
+          "failure_modes",
+          "gosm_integration"
+        ],
+        "before_file": "values-handoff-invitation-record.pcd.json",
+        "after_file": "values-handoff-invitation-record.pci.json",
+        "before_sha256": "af5f7d08ace7f4aa4a94d3058fd9632190c3e7452014267abe304c69f93b43f8"
+      }
+    ],
+    "tier_distribution_before": {
+      "none": 2,
+      "Bronze": 0,
+      "Silver": 0,
+      "Gold": 0
+    },
+    "tier_distribution_after": {
+      "none": 0,
+      "Bronze": 0,
+      "Silver": 0,
+      "Gold": 2
+    },
+    "remaining_schema_gaps": [],
+    "semantic_limit": "Gold certifies these local structural field requirements; it is not proof of semantic completeness or human effectiveness."
+  },
+  {
+    "application": 2,
+    "schema_path": "values-handoff-schema.json",
+    "target_count": 2,
+    "procedures_analyzed": 2,
+    "queue": [
+      {
+        "name": "continuation-choice",
+        "usage_class": "meta",
+        "usage_weight": 3,
+        "severity": "failing_schema",
+        "severity_weight": 3,
+        "effort_class": "section_add",
+        "effort_estimate": 2,
+        "priority": 4.5,
+        "before": {
+          "tier": "none",
+          "missing": {
+            "Bronze": [
+              "id",
+              "version"
+            ],
+            "Silver": [
+              "when_to_use",
+              "examples"
+            ],
+            "Gold": [
+              "failure_modes",
+              "gosm_integration"
+            ]
+          }
+        },
+        "preserved_all_original_fields": true,
+        "after": {
+          "tier": "Gold",
+          "missing": {
+            "Bronze": [],
+            "Silver": [],
+            "Gold": []
+          }
+        },
+        "fields_added": [
+          "id",
+          "version",
+          "when_to_use",
+          "examples",
+          "failure_modes",
+          "gosm_integration"
+        ],
+        "before_file": "values-handoff-continuation-choice.pcd.json",
+        "after_file": "values-handoff-continuation-choice.pci.json",
+        "before_sha256": "56ee1102f62f18f3a3cef8861e1b0ddea716c5cf7a07aa5b39bd33642bd79431"
+      },
+      {
+        "name": "curiosity-trace",
+        "usage_class": "meta",
+        "usage_weight": 3,
+        "severity": "failing_schema",
+        "severity_weight": 3,
+        "effort_class": "section_add",
+        "effort_estimate": 2,
+        "priority": 4.5,
+        "before": {
+          "tier": "none",
+          "missing": {
+            "Bronze": [
+              "id",
+              "version"
+            ],
+            "Silver": [
+              "when_to_use",
+              "examples"
+            ],
+            "Gold": [
+              "failure_modes",
+              "gosm_integration"
+            ]
+          }
+        },
+        "preserved_all_original_fields": true,
+        "after": {
+          "tier": "Gold",
+          "missing": {
+            "Bronze": [],
+            "Silver": [],
+            "Gold": []
+          }
+        },
+        "fields_added": [
+          "id",
+          "version",
+          "when_to_use",
+          "examples",
+          "failure_modes",
+          "gosm_integration"
+        ],
+        "before_file": "values-handoff-curiosity-trace.pcd.json",
+        "after_file": "values-handoff-curiosity-trace.pci.json",
+        "before_sha256": "ad11fe856b7d52c80995986ac172d9adfb9adc837a64e2d4e6a05c33a6c2b1f0"
+      }
+    ],
+    "tier_distribution_before": {
+      "none": 2,
+      "Bronze": 0,
+      "Silver": 0,
+      "Gold": 0
+    },
+    "tier_distribution_after": {
+      "none": 0,
+      "Bronze": 0,
+      "Silver": 0,
+      "Gold": 2
+    },
+    "remaining_schema_gaps": [],
+    "semantic_limit": "Gold certifies these local structural field requirements; it is not proof of semantic completeness or human effectiveness."
+  }
+]

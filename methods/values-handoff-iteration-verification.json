@@ -1,0 +1,87 @@
+{
+  "targets": 12,
+  "high_priority": 10,
+  "executed": 12,
+  "tier_before": {
+    "invitation-record": "Gold",
+    "followup-choice": "Gold",
+    "curiosity-trace": "Gold",
+    "continuation-choice": "Gold"
+  },
+  "tier_after": {
+    "invitation-record": "Gold",
+    "followup-choice": "Gold",
+    "curiosity-trace": "Gold",
+    "continuation-choice": "Gold"
+  },
+  "baseline_files_unchanged": true,
+  "later_use_test_command": "python3 methods/specs-resume-tests.py",
+  "later_use_tests": {
+    "total": 32,
+    "passed": 32,
+    "failed": [],
+    "scope": "Declared constructed mappings, corrected identity contracts, cross-references, registry structure and reflection fields only."
+  },
+  "social_cases": {
+    "ordered_revision": "Sunday",
+    "unmentioned_attribute": "first two pages from R0",
+    "proposal_not_commitment": true,
+    "third_party_report_not_commitment": true,
+    "duplicate_replay_same": true,
+    "conflicting_event_id_detected": true,
+    "mixed_scope_detected": true,
+    "same_order_conflict_unresolved": true,
+    "draft_component_revisions_resolve": true,
+    "no_matching_option": true
+  },
+  "trace_cases": {
+    "lineages": {
+      "Q0": {
+        "status": "resolved",
+        "path": [
+          "Q0"
+        ]
+      },
+      "Q1": {
+        "status": "resolved",
+        "path": [
+          "Q1",
+          "Q0"
+        ]
+      },
+      "Q2": {
+        "status": "resolved",
+        "path": [
+          "Q2",
+          "Q1",
+          "Q0"
+        ]
+      },
+      "Q3": {
+        "status": "resolved",
+        "path": [
+          "Q3",
+          "Q1",
+          "Q0"
+        ]
+      },
+      "Q4": {
+        "status": "resolved",
+        "path": [
+          "Q4",
+          "Q1",
+          "Q0"
+        ]
+      }
+    },
+    "unique_trace_ids": 5,
+    "unique_claim_ids": 9,
+    "all_target_claims_resolve": true,
+    "character_count": 25,
+    "missing_parent_detected": true,
+    "missing_target_detected": true,
+    "cycle_detected": true,
+    "revisit_product_present": true
+  },
+  "scope": "Checks validate declared typed records, structural fields and these local products. They do not establish general semantic reliability, a human effect, or first-pass success."
+}

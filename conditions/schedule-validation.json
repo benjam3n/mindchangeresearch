@@ -1,0 +1,12 @@
+{
+  "release_work_conserving": {
+    "valid": false,
+    "errors": [
+      "B: deadline missed"
+    ]
+  },
+  "release_wait": {
+    "valid": true,
+    "errors": []
+  }
+}

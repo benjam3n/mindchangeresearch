@@ -1,0 +1,30 @@
+{
+  "next_execution": {
+    "records": [
+      "045-gd-1.md"
+    ],
+    "result": "Use dependency order while retaining all rank quotas.",
+    "exception": "Rank remains the coverage index; preparation cannot delete later slots."
+  },
+  "consolidation_eligibility": {
+    "records": [
+      "046-gsr-1.md"
+    ],
+    "result": "Count unique reusable consequences, separately from executed applications.",
+    "exception": "Repeating a kept distinction does not create new keep credit."
+  },
+  "completion": {
+    "records": [
+      "047-grf-1.md"
+    ],
+    "result": "Demand actual operations and required dependencies as well as all slots.",
+    "exception": "Exact source receipts establish loaded bytes only."
+  },
+  "handoff": {
+    "records": [
+      "048-lpd-1.md"
+    ],
+    "result": "Transmit file, skill, verdict, changed judgment and benefit in a structured row.",
+    "exception": "The full record remains the scope/evidence authority."
+  }
+}

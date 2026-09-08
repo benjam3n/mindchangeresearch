@@ -1,0 +1,21 @@
+{
+  "D": [
+    0,
+    0.5,
+    1
+  ],
+  "witnesses": [
+    1
+  ],
+  "pruned": [
+    0,
+    0.5
+  ],
+  "later_sorted_subset": [
+    0.5,
+    0
+  ],
+  "original_exists": true,
+  "survivor_exists": false,
+  "scope": "candidate filter, not a claim the current assistant already used it"
+}

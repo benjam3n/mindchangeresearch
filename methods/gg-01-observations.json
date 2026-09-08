@@ -1,0 +1,38 @@
+{
+  "first_hop_edges": 8,
+  "contradiction_edges": 5,
+  "unique_contradiction_reasons": 1,
+  "source_reason_preserved": true,
+  "weights": [
+    "high",
+    "medium"
+  ],
+  "unfilled_scope_fields": 32,
+  "scope_fixtures": [
+    {
+      "case": "same P same time",
+      "label_only": "contradiction",
+      "scoped": "incompatible under declared probability definitions"
+    },
+    {
+      "case": "P versus Q",
+      "label_only": "contradiction",
+      "scoped": "no contradiction established by these scoped labels"
+    },
+    {
+      "case": "same P different time",
+      "label_only": "contradiction",
+      "scoped": "no contradiction established by these scoped labels"
+    },
+    {
+      "case": "different actor",
+      "label_only": "contradiction",
+      "scoped": "no contradiction established by these scoped labels"
+    },
+    {
+      "case": "subjective sure",
+      "label_only": "contradiction",
+      "scoped": "unresolved without a relation between report and credence"
+    }
+  ]
+}

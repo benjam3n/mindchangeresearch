@@ -1,0 +1,66 @@
+{
+  "unreadable_pass": [
+    {
+      "state": "check",
+      "event": "unreadable",
+      "next": "paused",
+      "instruction": "Indicator unreadable. Wait for a readable observation."
+    },
+    {
+      "state": "paused",
+      "event": "pass",
+      "next": "start",
+      "instruction": "Start."
+    }
+  ],
+  "unreadable_fail": [
+    {
+      "state": "check",
+      "event": "unreadable",
+      "next": "paused",
+      "instruction": "Indicator unreadable. Wait for a readable observation."
+    },
+    {
+      "state": "paused",
+      "event": "fail",
+      "next": "connect",
+      "instruction": "Connect cable."
+    }
+  ],
+  "twice_unreadable": [
+    {
+      "state": "check",
+      "event": "unreadable",
+      "next": "paused",
+      "instruction": "Indicator unreadable. Wait for a readable observation."
+    },
+    {
+      "state": "paused",
+      "event": "unreadable",
+      "next": "paused",
+      "instruction": "Indicator unreadable. Wait for a readable observation."
+    }
+  ],
+  "setup_changes": [
+    {
+      "state": "check",
+      "event": "unreadable",
+      "next": "paused",
+      "instruction": "Indicator unreadable. Wait for a readable observation."
+    },
+    {
+      "state": "paused",
+      "event": "setup_changed",
+      "next": "connect",
+      "instruction": "Connect cable."
+    }
+  ],
+  "invalid_input": [
+    {
+      "state": "check",
+      "event": "maybe",
+      "next": null,
+      "instruction": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "tests": [
+    {
+      "w": "0",
+      "A": "2",
+      "B": "5",
+      "choice": "B"
+    },
+    {
+      "w": "1/10",
+      "A": "23/10",
+      "B": "24/5",
+      "choice": "B"
+    },
+    {
+      "w": "3/10",
+      "A": "29/10",
+      "B": "22/5",
+      "choice": "B"
+    },
+    {
+      "w": "1/2",
+      "A": "7/2",
+      "B": "4",
+      "choice": "B"
+    },
+    {
+      "w": "59/100",
+      "A": "377/100",
+      "B": "191/50",
+      "choice": "B"
+    },
+    {
+      "w": "3/5",
+      "A": "19/5",
+      "B": "19/5",
+      "choice": "tie"
+    },
+    {
+      "w": "61/100",
+      "A": "383/100",
+      "B": "189/50",
+      "choice": "A"
+    },
+    {
+      "w": "7/10",
+      "A": "41/10",
+      "B": "18/5",
+      "choice": "A"
+    },
+    {
+      "w": "4/5",
+      "A": "22/5",
+      "B": "17/5",
+      "choice": "A"
+    },
+    {
+      "w": "9/10",
+      "A": "47/10",
+      "B": "16/5",
+      "choice": "A"
+    },
+    {
+      "w": "1",
+      "A": "5",
+      "B": "3",
+      "choice": "A"
+    },
+    {
+      "w": null,
+      "choice": "UNRESOLVED"
+    }
+  ],
+  "checks": {
+    "direct_weighted_form": true,
+    "difference_formula": true,
+    "boundary_tie": true,
+    "unknown_not_imputed": true,
+    "historical_v1_retained": true
+  },
+  "edge_cases": [
+    "all speed",
+    "all fidelity",
+    "exact tie",
+    "just below tie",
+    "just above tie",
+    "missing weight"
+  ],
+  "calibrations": [
+    {
+      "id": "P1",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "w0 favors B",
+      "outcome": true
+    },
+    {
+      "id": "P2",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "w.6 ties",
+      "outcome": true
+    },
+    {
+      "id": "P3",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "w.61 favors A",
+      "outcome": true
+    },
+    {
+      "id": "P4",
+      "confidence": 80,
+      "status": "CONFIRMED",
+      "prediction": "unknown weight unresolved",
+      "outcome": true
+    },
+    {
+      "id": "P5",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "w.8 favors A",
+      "outcome": true
+    }
+  ]
+}

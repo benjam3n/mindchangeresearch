@@ -1,0 +1,106 @@
+{
+  "proposal_type": "post_allocation_cycle",
+  "cycle": 1,
+  "owner_scope": "time-reversibility",
+  "common_ledger_edited": false,
+  "input_freeze": {
+    "program_freeze": "post-allocation/cycle-01/frozen-inputs.md",
+    "program_freeze_time_utc": "2026-09-08T08:12:00Z",
+    "local_machine_readable_freeze": "post-allocation/cycle-01/time-reversibility/source-receipts/prospective-input.freeze.json",
+    "local_freeze_sha256": "15a8f05cbec87702182fec349d483066b2b79959e7173591db28261b4b23bbd4",
+    "evaluation_occurred_after_freeze": true,
+    "actor": "model working policy",
+    "excluded_claims": [
+      "human belief change",
+      "human behavior change",
+      "human emotion change",
+      "human learning",
+      "model-weight change"
+    ]
+  },
+  "source_fidelity": [
+    {
+      "skill_id": "td",
+      "original_source_path": "skills/td/SKILL.md",
+      "stdout_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/TD.stdout.txt",
+      "stdout_sha256": "d1f6e2501d163ed9bea1a66fd61f44dfa04cf83768d023b0a85168c6fc1fcb60",
+      "stderr_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/TD.stderr.txt",
+      "stderr_sha256": "dabdc9ea60fd865eaf7ccd54fc6a2aff239f1ea7c9d61d4a2a0ca9a2e24c9f42",
+      "numerical_8x_floor": null,
+      "depth_claim": "expanded scope; no 8x certification"
+    },
+    {
+      "skill_id": "rva",
+      "original_source_path": "skills/rva/SKILL.md",
+      "stdout_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/RVA.stdout.txt",
+      "stdout_sha256": "158060b84a2b3e8638edb5cfe28199c32a6ce939f447d9aa1634064c52327a11",
+      "stderr_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/RVA.stderr.txt",
+      "stderr_sha256": "4c661267120e6bf985a0a239f8535a6dcb85ab29de8588f30e23e004bfc4d4fc",
+      "numerical_8x_floor": null,
+      "depth_claim": "expanded scope; no 8x certification"
+    }
+  ],
+  "source_recovery_history": {
+    "initial_uppercase_td_lookup": "failed without emitting source bytes",
+    "failed_stdout_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/TD-uppercase-failed.stdout.txt",
+    "failed_stderr_receipt": "post-allocation/cycle-01/time-reversibility/source-receipts/TD-uppercase-failed.stderr.txt",
+    "resolution": "Loaded exact lowercase skill IDs td and rva; failed lookup is not counted as source fidelity or execution."
+  },
+  "records": [
+    {
+      "record_id": "post-01-td-time-option-regions",
+      "skill_id": "td",
+      "path": "post-allocation/cycle-01/time-reversibility/TD-prospective.md",
+      "sha256": "4f76bdba5e85d476d5bc714606b6788ccb4743234e4b3467d91185880e8e9382",
+      "status": "complete_within_scope",
+      "verdict": "KEEP",
+      "actual_change": "Immediate A use changed to refundable A reservation followed by a 09:15 observation-conditioned start; moving the report to 09:25 changed the policy to committing A no later than 09:20.",
+      "benefit": "Certain completion retained while expected monetary cost fell from $10 to $4 under the frozen assumptions.",
+      "later_use": "B availability reveal moved from 09:15 to 09:25.",
+      "novelty_scope": "Five-boundary configuration and policy flip; not a new universal scheduling law."
+    },
+    {
+      "record_id": "post-01-rva-information-rollback-order",
+      "skill_id": "rva",
+      "path": "post-allocation/cycle-01/time-reversibility/RVA-prospective.md",
+      "sha256": "26d2c29f738cce62541c5d3817f67d785d40b7d2d982ba8f11029f1853155f79",
+      "status": "complete_within_scope",
+      "verdict": "KEEP",
+      "actual_change": "The reservation was decomposed into reversible payment, irreversible elapsed time, and expiring feasibility; moving refund expiry before information changed conditional commitment into commitment before information.",
+      "benefit": "Prevented a refundable payment from being mistaken for reversible time and reduced the report's calculated monetary decision value from $6 to $0 on the pre-registered cutoff change.",
+      "later_use": "A refund cutoff moved from 09:20 to 09:10 while B's report remained at 09:15.",
+      "novelty_scope": "Information-before-rollback versus rollback-before-information policy comparison; scoped to the constructed case."
+    }
+  ],
+  "proposed_counts": {
+    "substantive_records": 2,
+    "complete_within_scope": 2,
+    "partial": 0,
+    "blocked": 0,
+    "keep": 2,
+    "reject": 0,
+    "unresolved": 0
+  },
+  "beneficial_findings": [
+    {
+      "finding": "Information should govern an action only inside the region where an action using it remains feasible; moving the report past the 09:20 latest-start boundary removed waiting from the selected policy.",
+      "evidence": "TD backward schedule and pre-registered 09:25 reuse",
+      "independence_note": "Timing-region finding; it does not depend on calling the reservation reversible."
+    },
+    {
+      "finding": "Financial rollback, elapsed time, and deadline feasibility are distinct; moving financial rollback before the report reduced the report's monetary decision value from $6 to $0.",
+      "evidence": "RVA reversal scenarios, option-value arithmetic, and pre-registered 09:10-cutoff reuse",
+      "independence_note": "Commitment-object finding; it uses the same case but a different changed variable and procedure."
+    }
+  ],
+  "integration_notes": {
+    "quota_effect": "none; initial 300-slot allocation was already fully addressed",
+    "consolidation": "Two scoped KEEP candidates are proposed. The central integrator must test duplication against other cycle findings and apply the four-distinct-KEEP consolidation rule.",
+    "unresolved_dependencies": [
+      "Positive setup or switching time was not stipulated.",
+      "Reservation default risk was not stipulated.",
+      "Value of completing before 09:40 was not stipulated.",
+      "Post-start machine failure was not stipulated."
+    ]
+  }
+}

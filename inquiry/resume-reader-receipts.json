@@ -1,0 +1,90 @@
+[
+  {
+    "skill_id": "ht",
+    "returncode": 0,
+    "stdout_file": "inquiry-ht-resume.original.md",
+    "stdout_sha256": "0269802291dbe0bfa90e3ac0d0ad9972e6440bf2d14354728ca10235e52a4fea",
+    "stdout_bytes": 16767,
+    "stderr_file": "inquiry-ht-resume.requirements.txt",
+    "stderr_sha256": "6e46ca724fd3f3e7f83eb9fdda6520b0f100e3cbe8a3f6cb4f8e05b6d437bc93",
+    "stderr_bytes": 9340,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "spd",
+    "returncode": 0,
+    "stdout_file": "inquiry-spd-resume.original.md",
+    "stdout_sha256": "f2667cdcdd88b51f2c5baf6473f6fcd58222a018004eb24229b44287401fe371",
+    "stdout_bytes": 6951,
+    "stderr_file": "inquiry-spd-resume.requirements.txt",
+    "stderr_sha256": "b92faf587df654e37c9edd69a64322681cca4e8d968678ffc369f65f56658ab5",
+    "stderr_bytes": 9341,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "gg",
+    "returncode": 0,
+    "stdout_file": "inquiry-gg-resume.original.md",
+    "stdout_sha256": "cfd167ceea645e731e0eddbbdaa0a2bf2db8e7599079d4161df5159fa59879b2",
+    "stdout_bytes": 21473,
+    "stderr_file": "inquiry-gg-resume.requirements.txt",
+    "stderr_sha256": "3cc5b616f972482fed4b261d01a62de711b3c5ee23ee7c5f985a738ed09a5657",
+    "stderr_bytes": 9340,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "qag",
+    "returncode": 0,
+    "stdout_file": "inquiry-qag-resume.original.md",
+    "stdout_sha256": "9f071c2ead9c7194c6a146eae268b791c29c7976adb3ddecda07697b8cff477d",
+    "stdout_bytes": 6499,
+    "stderr_file": "inquiry-qag-resume.requirements.txt",
+    "stderr_sha256": "405ebfdc28217531cd4d6e0699130985fea7381eaced4a630cc441b9f0ff28b6",
+    "stderr_bytes": 9341,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "rca",
+    "returncode": 0,
+    "stdout_file": "inquiry-rca-resume.original.md",
+    "stdout_sha256": "03bdadaf1c384895210ca427640a2f97518f4bff8d05beb1b721ba21c8a2237e",
+    "stdout_bytes": 12611,
+    "stderr_file": "inquiry-rca-resume.requirements.txt",
+    "stderr_sha256": "329ea30a4d07c1e7da2085395ca64cf1691a12287b29359509034956b303906e",
+    "stderr_bytes": 9341,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "sdc",
+    "returncode": 0,
+    "stdout_file": "inquiry-sdc-resume.original.md",
+    "stdout_sha256": "d46ecd8285fe7a6cebff3559f3c9a5937fed4d5d148d3b10457b3893e5ce1d0f",
+    "stdout_bytes": 30685,
+    "stderr_file": "inquiry-sdc-resume.requirements.txt",
+    "stderr_sha256": "b638c2e34037f3f0a7023010bbcd479f04435b3ff0661746a76a9acdd1dc0618",
+    "stderr_bytes": 9341,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "emv",
+    "returncode": 0,
+    "stdout_file": "inquiry-emv-resume.original.md",
+    "stdout_sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+    "stdout_bytes": 7520,
+    "stderr_file": "inquiry-emv-resume.requirements.txt",
+    "stderr_sha256": "547bd587c2bd5fceaec9629e38cc1938bc6675ef987f32c7040a1d60858d34d6",
+    "stderr_bytes": 9341,
+    "matches_preexisting_original": true
+  },
+  {
+    "skill_id": "araw",
+    "returncode": 0,
+    "stdout_file": "inquiry-araw-resume.original.md",
+    "stdout_sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+    "stdout_bytes": 24492,
+    "stderr_file": "inquiry-araw-resume.requirements.txt",
+    "stderr_sha256": "f370eae320448c7f2a06a35a62823c9beb86d18bfdc1de9bb6d19ba680e7e72c",
+    "stderr_bytes": 9342,
+    "matches_preexisting_original": true
+  }
+]

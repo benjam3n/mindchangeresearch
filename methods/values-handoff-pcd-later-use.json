@@ -1,0 +1,40 @@
+{
+  "museum_parent": "../values/024-funr-1.md",
+  "records": [
+    {
+      "id": "pcd-scenes",
+      "question": "Which waiting relations change with the scene?",
+      "input": "The identical label What are you waiting for? beside an empty platform and a half-finished drawing.",
+      "operation": "Construct contrasting interpretations",
+      "output": {
+        "platform": [
+          "vehicle",
+          "person",
+          "event"
+        ],
+        "drawing": [
+          "resume making",
+          "materials",
+          "decision"
+        ]
+      },
+      "status": "constructed comparison performed locally",
+      "prior_record": "../values/024-funr-1.md",
+      "interest_reason": "Words stay fixed while available referents differ."
+    },
+    {
+      "id": "pcd-box",
+      "question": "Does a third scene supply a relation outside transport and making?",
+      "input": "The same label beside a closed box.",
+      "operation": "Construct three waiting interpretations",
+      "output": [
+        "waiting to open",
+        "waiting for permission",
+        "waiting for the contents to change"
+      ],
+      "status": "constructed comparison performed locally",
+      "prior_record": "values-handoff-pcd-later-use.json#/records/0",
+      "interest_reason": "The same closed object supports action, permission and process readings."
+    }
+  ]
+}

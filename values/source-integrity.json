@@ -1,0 +1,206 @@
+[
+  {
+    "id": "al",
+    "sha256": "d3f19e31956f00cdac228f049468e7954c695ebb576d11ca841a6e67f0bdec20",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "ar",
+    "sha256": "2731e8b327c4a149a2d66db7555f38627c4a11a648272b6364096e1e6f327a05",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "araw",
+    "sha256": "8205416e381ed3b61284b1eac9a3019e872fcd7e828939b6105d2547ba2d6752",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "boc",
+    "sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "cfr",
+    "sha256": "de7e787e1722b25a50c08bb42822fd5099982241e70dea109fe073427a186991",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "cmp",
+    "sha256": "2ac629f7654fe692dc3b9e40519e443cc99821384cd6af5d30c8effb768bd405",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "col",
+    "sha256": "53e5bdbe771aaf02bd5eb2773c606badf440a356f8fb7d8964c47a3f83e9ec47",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "collab",
+    "sha256": "3ccdae3f193bc690ff54521bddefb9ed274b643a5591e73cfb5fa399c721f7ca",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "corruption",
+    "sha256": "000a94a0d52b2153db23efd58df04d0a63a119327219dad30b36696cf16aa295",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "eg",
+    "sha256": "672082e9a51cd16d5692e8aa6c844415d1944b07023df224fc29be6fe4314122",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "empth",
+    "sha256": "b51aa7afad8ad02d5d6e0e2c57b82d29c2a9e8fcb8a362cb3770b6664663ac45",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "emv",
+    "sha256": "5a92696262b1c05de7becf31a7c2746ac2c07b35ac34ece6021c47ef43bb1593",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "eqi",
+    "sha256": "b04eb99e568c722af4566fd4537efca24e92317a91b23cb39d649524fa8ac872",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "exd",
+    "sha256": "49cff0295c59cbd7e052f1ae4b678ee628d81c0ff7434c350aa81ff1c721765b",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "fd",
+    "sha256": "4e4d4971d3becf54656c6d8e89289d11453571cf225cc6317ca521188e394c17",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "funr",
+    "sha256": "c115a4cf0f8ada363a40631f4db33badf871afb7007c6a2ab861b93c4d54e62c",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "gdm",
+    "sha256": "a9bbd47361481e96b2c14b46988e0fe5d5286e89897fb38e4a4b323f0cd5daa0",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "gjs",
+    "sha256": "ee227265cb163c9f624210ec4198e7e432c5608e22f57eeba7c91868639497f9",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "grfr",
+    "sha256": "b3873fd30364f53fce5218097c7c79aeb512e4cc0cc61a1b83b5e25acd2d4a98",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "gu",
+    "sha256": "177c0f93074d2eee57395d981c880f54cfe337a9386b13795663e99543fde469",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "hab",
+    "sha256": "a3880bcfe1df1bb19ea8f841b0b268c74b12103c77f6c9aca7502e0f9fe769e6",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "hf",
+    "sha256": "dfc15bd40562bb228848a1109f54f7adf1769d11aa7ce9e4e5ef9d8f388e088b",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "ig",
+    "sha256": "d23487b93d9044dff452692a41dd0a2a2ad77558f34c50b0924aa0f6565184d4",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "mp",
+    "sha256": "36d66d67098045aed897f5d0b81175995cc96c40f19376710eed2713caa2fbe0",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "pbi",
+    "sha256": "852eac2cb902806aaaebcf561457280aa8191070fd67795131aa6bd99c348c9f",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "pre",
+    "sha256": "18b144496e87ffa8812c9f4fda1378e2be4ccc459f4c502588c7b14201b9a65f",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "rlg",
+    "sha256": "ce6f13389dc21e2dfedc07d7a6a3cd05d819f29b567cfd19338573ffb494a31d",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "rtas",
+    "sha256": "006142aae3eaffc75074ffd7cb1b41eba4091e4e876cfd3978ef41c7fade3f35",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "socg",
+    "sha256": "beabf547e62b55b2de08b63da949a79f55ddaeba65ccc37a281b87e456f99f00",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "tfac",
+    "sha256": "65356dc151f976d3f0117b10a8f2bd4d6ee6aaa0c136a7103c315182a6925a65",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "trust",
+    "sha256": "987f4d64a9df18d78bab4a8c4edf538b8bd70278e38d2b84c741c36debad8d0c",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "vcd",
+    "sha256": "f3e351791fd9a271fbca8b2e4c876ac8c522ee12baadec40c2f2635656a65241",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "vcl",
+    "sha256": "effe88c92633bd84325671723b3dd080b5cc3e77f6d29f5dab7517ed073216c8",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  },
+  {
+    "id": "ve",
+    "sha256": "b32f0159ea57bcc49a2397de3b7d6ec788567afa0c153551aa19a069d0b5fe58",
+    "receipt_matches": true,
+    "requirement_body_identical_to_read_receipt": true
+  }
+]

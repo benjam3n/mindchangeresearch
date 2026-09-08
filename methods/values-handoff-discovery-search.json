@@ -1,0 +1,5342 @@
+{
+  "index": "/root/.codex/skills/remote-skills/skill-6a5126373f008191988cb5bc43fd4354/sources/reasoningtool/skills.json",
+  "index_sha256": "b8759ebeefaf9492df1700a271078b2538d408221d5106fb7965075e2b1b6550",
+  "indexed_skills": 656,
+  "operation_queries": [
+    {
+      "operation": "A1",
+      "axes": {
+        "name": {
+          "query": "relationship goal",
+          "hit_count": 62,
+          "top": [
+            {
+              "id": "rlg",
+              "terms": [
+                "relationship",
+                "goal"
+              ],
+              "count": 2
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "arel",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bo",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "clg",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dcm",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "decide",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "eg",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exrp",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "goal request",
+          "hit_count": 109,
+          "top": [
+            {
+              "id": "aa",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ac",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "action",
+              "terms": [
+                "request"
+              ],
+              "count": 1
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "analyze",
+              "terms": [
+                "request"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "asu",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ata",
+              "terms": [
+                "request"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bes",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bo",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "goal community",
+          "hit_count": 48,
+          "top": [
+            {
+              "id": "adep",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bm",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "clg",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "clr",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dcm",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "eg",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exv",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "relationship desired",
+          "hit_count": 9,
+          "top": [
+            {
+              "id": "rlg",
+              "terms": [
+                "relationship",
+                "desired"
+              ],
+              "count": 2
+            },
+            {
+              "id": "arel",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "eqi",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gw",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "net",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "per",
+              "terms": [
+                "desired"
+              ],
+              "count": 1
+            },
+            {
+              "id": "rlcl",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "rlsk",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            },
+            {
+              "id": "route",
+              "terms": [
+                "relationship"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "rlg",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A2",
+      "axes": {
+        "name": {
+          "query": "active listening",
+          "hit_count": 5,
+          "top": [
+            {
+              "id": "al",
+              "terms": [
+                "active",
+                "listening"
+              ],
+              "count": 2
+            },
+            {
+              "id": "acr",
+              "terms": [
+                "active"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mtcg",
+              "terms": [
+                "active"
+              ],
+              "count": 1
+            },
+            {
+              "id": "p5qm",
+              "terms": [
+                "active"
+              ],
+              "count": 1
+            },
+            {
+              "id": "wr",
+              "terms": [
+                "active"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "reply understanding",
+          "hit_count": 8,
+          "top": [
+            {
+              "id": "alt",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ins",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ld",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mss",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pce",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "persua",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pge",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "socg",
+              "terms": [
+                "understanding"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "communication listening",
+          "hit_count": 40,
+          "top": [
+            {
+              "id": "al",
+              "terms": [
+                "communication",
+                "listening"
+              ],
+              "count": 2
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "csb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cts",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "paraphrase confirm",
+          "hit_count": 4,
+          "top": [
+            {
+              "id": "ael",
+              "terms": [
+                "confirm"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aprob",
+              "terms": [
+                "confirm"
+              ],
+              "count": 1
+            },
+            {
+              "id": "route",
+              "terms": [
+                "confirm"
+              ],
+              "count": 1
+            },
+            {
+              "id": "strt",
+              "terms": [
+                "confirm"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "al",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A3",
+      "axes": {
+        "name": {
+          "query": "response record",
+          "hit_count": 7,
+          "top": [
+            {
+              "id": "efa",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mcp",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ns",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "orm",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pcl",
+              "terms": [
+                "record"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ria",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "route",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "component stance",
+          "hit_count": 15,
+          "top": [
+            {
+              "id": "cms",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ecomp",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "funcanalysis",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gd",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "iface",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "itp",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mets",
+              "terms": [
+                "stance"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mocl",
+              "terms": [
+                "stance"
+              ],
+              "count": 1
+            },
+            {
+              "id": "persua",
+              "terms": [
+                "stance"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pp",
+              "terms": [
+                "component"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "communication representation",
+          "hit_count": 40,
+          "top": [
+            {
+              "id": "agi",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "csb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cts",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "partial acceptance",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "stcc",
+              "terms": [
+                "partial"
+              ],
+              "count": 1
+            },
+            {
+              "id": "vv",
+              "terms": [
+                "acceptance"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "al",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A4",
+      "axes": {
+        "name": {
+          "query": "conditional followup",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "p",
+              "terms": [
+                "conditional"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sads",
+              "terms": [
+                "conditional"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "condition option",
+          "hit_count": 45,
+          "top": [
+            {
+              "id": "odec",
+              "terms": [
+                "condition",
+                "option"
+              ],
+              "count": 2
+            },
+            {
+              "id": "acons",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aso",
+              "terms": [
+                "condition"
+              ],
+              "count": 1
+            },
+            {
+              "id": "be",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bes",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "boc",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmp",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmpr",
+              "terms": [
+                "condition"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cms",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            },
+            {
+              "id": "conr",
+              "terms": [
+                "option"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "communication decision",
+          "hit_count": 76,
+          "top": [
+            {
+              "id": "agi",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "boc",
+              "terms": [
+                "decision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cand",
+              "terms": [
+                "decision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cba",
+              "terms": [
+                "decision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmp",
+              "terms": [
+                "decision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cms",
+              "terms": [
+                "decision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "conditional invitation",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "p",
+              "terms": [
+                "conditional"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sads",
+              "terms": [
+                "conditional"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "rlg",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A5",
+      "axes": {
+        "name": {
+          "query": "refusal acknowledgement",
+          "hit_count": 0,
+          "top": []
+        },
+        "signature": {
+          "query": "decline reply",
+          "hit_count": 0,
+          "top": []
+        },
+        "domain": {
+          "query": "communication boundaries",
+          "hit_count": 40,
+          "top": [
+            {
+              "id": "agi",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "csb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cts",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "refuse invitation",
+          "hit_count": 0,
+          "top": []
+        }
+      },
+      "inspected_source_candidate": "al",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A6",
+      "axes": {
+        "name": {
+          "query": "empathic thinking",
+          "hit_count": 19,
+          "top": [
+            {
+              "id": "empth",
+              "terms": [
+                "empathic",
+                "thinking"
+              ],
+              "count": 2
+            },
+            {
+              "id": "afail",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctcov",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dtl",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dwt",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ecal",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "leg",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mem",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mtcg",
+              "terms": [
+                "thinking"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "reason value",
+          "hit_count": 48,
+          "top": [
+            {
+              "id": "prob",
+              "terms": [
+                "reason",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "wsn",
+              "terms": [
+                "reason",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "apm",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ascfa",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "benf",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bm",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "br",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "perspective empathy",
+          "hit_count": 0,
+          "top": []
+        },
+        "use_case": {
+          "query": "stated reason",
+          "hit_count": 32,
+          "top": [
+            {
+              "id": "usrn",
+              "terms": [
+                "stated",
+                "reason"
+              ],
+              "count": 2
+            },
+            {
+              "id": "apm",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ascfa",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "br",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmpr",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "conflict",
+              "terms": [
+                "stated"
+              ],
+              "count": 1
+            },
+            {
+              "id": "difr",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "empth",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A7",
+      "axes": {
+        "name": {
+          "query": "social cognition",
+          "hit_count": 4,
+          "top": [
+            {
+              "id": "socg",
+              "terms": [
+                "social",
+                "cognition"
+              ],
+              "count": 2
+            },
+            {
+              "id": "eqi",
+              "terms": [
+                "social"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mtcg",
+              "terms": [
+                "cognition"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sms",
+              "terms": [
+                "social"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "perspective ambiguity",
+          "hit_count": 16,
+          "top": [
+            {
+              "id": "aa",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cvis",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dxpt",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "empth",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fia",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gg",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "indv",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ipss",
+              "terms": [
+                "ambiguity"
+              ],
+              "count": 1
+            },
+            {
+              "id": "nusr",
+              "terms": [
+                "perspective"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "social roles",
+          "hit_count": 1,
+          "top": [
+            {
+              "id": "sms",
+              "terms": [
+                "social"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "asymmetric information",
+          "hit_count": 10,
+          "top": [
+            {
+              "id": "cga",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dbg",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dshb",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ess",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fowtd",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ifss",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ign",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sor",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "src",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            },
+            {
+              "id": "unstk",
+              "terms": [
+                "information"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "socg",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A8",
+      "axes": {
+        "name": {
+          "query": "collaboration handoff",
+          "hit_count": 6,
+          "top": [
+            {
+              "id": "col",
+              "terms": [
+                "collaboration",
+                "handoff"
+              ],
+              "count": 2
+            },
+            {
+              "id": "chns",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fonss",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ltai",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pjc",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "tmsk",
+              "terms": [
+                "collaboration"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "record summary",
+          "hit_count": 28,
+          "top": [
+            {
+              "id": "boc",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "categorize",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cta",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctcov",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "difr",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "edit",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exps",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gflr",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "immg",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            },
+            {
+              "id": "impss",
+              "terms": [
+                "summary"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "collaboration communication",
+          "hit_count": 40,
+          "top": [
+            {
+              "id": "col",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "csb",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "empth",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "eqi",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "persua",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "socg",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "tfac",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            },
+            {
+              "id": "tmsk",
+              "terms": [
+                "collaboration",
+                "communication"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        "use_case": {
+          "query": "handoff acceptance",
+          "hit_count": 6,
+          "top": [
+            {
+              "id": "chns",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fonss",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ltai",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pjc",
+              "terms": [
+                "handoff"
+              ],
+              "count": 1
+            },
+            {
+              "id": "vv",
+              "terms": [
+                "acceptance"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "col",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A9",
+      "axes": {
+        "name": {
+          "query": "correction revision",
+          "hit_count": 3,
+          "top": [
+            {
+              "id": "cvis",
+              "terms": [
+                "correction"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "odec",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "prior response",
+          "hit_count": 36,
+          "top": [
+            {
+              "id": "cscl",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctcov",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctgp",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dvs",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "efa",
+              "terms": [
+                "response"
+              ],
+              "count": 1
+            },
+            {
+              "id": "extract",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "faa",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gapf",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gflr",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gjs",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "communication history",
+          "hit_count": 40,
+          "top": [
+            {
+              "id": "agi",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "comc",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "csb",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cts",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "communication"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "superseding interpretation",
+          "hit_count": 169,
+          "top": [
+            {
+              "id": "action",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aex",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ai",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "al",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "alt",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "analyze",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ap",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "araw",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "av",
+              "terms": [
+                "interpretation"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "al",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "A10",
+      "axes": {
+        "name": {
+          "query": "conflict resolution",
+          "hit_count": 14,
+          "top": [
+            {
+              "id": "cfr",
+              "terms": [
+                "conflict",
+                "resolution"
+              ],
+              "count": 2
+            },
+            {
+              "id": "conflict",
+              "terms": [
+                "conflict",
+                "resolution"
+              ],
+              "count": 2
+            },
+            {
+              "id": "conr",
+              "terms": [
+                "conflict",
+                "resolution"
+              ],
+              "count": 2
+            },
+            {
+              "id": "mdr",
+              "terms": [
+                "conflict",
+                "resolution"
+              ],
+              "count": 2
+            },
+            {
+              "id": "but",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "certainty",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            },
+            {
+              "id": "kta",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            },
+            {
+              "id": "platitudes",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            },
+            {
+              "id": "requirements",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "incompatible conditions",
+          "hit_count": 13,
+          "top": [
+            {
+              "id": "cmpr",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctan",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fctl",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "flhwijd",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fonss",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "hvh",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mocl",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "odec",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "platitude",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            },
+            {
+              "id": "platitudes",
+              "terms": [
+                "conditions"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "conflict relationship",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "cfr",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            },
+            {
+              "id": "vcd",
+              "terms": [
+                "conflict"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "reach resolution",
+          "hit_count": 14,
+          "top": [
+            {
+              "id": "but",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "certainty",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cfr",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "conflict",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "conr",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ecoc",
+              "terms": [
+                "resolution"
+              ],
+              "count": 1
+            },
+            {
+              "id": "eg",
+              "terms": [
+                "reach"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ff",
+              "terms": [
+                "reach"
+              ],
+              "count": 1
+            },
+            {
+              "id": "neg",
+              "terms": [
+                "reach"
+              ],
+              "count": 1
+            },
+            {
+              "id": "orc",
+              "terms": [
+                "reach"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "cfr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B1",
+      "axes": {
+        "name": {
+          "query": "fun exploration",
+          "hit_count": 29,
+          "top": [
+            {
+              "id": "funr",
+              "terms": [
+                "fun",
+                "exploration"
+              ],
+              "count": 2
+            },
+            {
+              "id": "ycshikfmif",
+              "terms": [
+                "fun",
+                "exploration"
+              ],
+              "count": 2
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anst",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ati",
+              "terms": [
+                "fun"
+              ],
+              "count": 1
+            },
+            {
+              "id": "be",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "diagnose",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dtse",
+              "terms": [
+                "fun"
+              ],
+              "count": 1
+            },
+            {
+              "id": "eg",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "topic surprise",
+          "hit_count": 7,
+          "top": [
+            {
+              "id": "curd",
+              "terms": [
+                "topic"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exps",
+              "terms": [
+                "surprise"
+              ],
+              "count": 1
+            },
+            {
+              "id": "lr",
+              "terms": [
+                "topic"
+              ],
+              "count": 1
+            },
+            {
+              "id": "olst",
+              "terms": [
+                "topic"
+              ],
+              "count": 1
+            },
+            {
+              "id": "onar",
+              "terms": [
+                "topic"
+              ],
+              "count": 1
+            },
+            {
+              "id": "p5deep",
+              "terms": [
+                "topic"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ssr",
+              "terms": [
+                "surprise"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "creativity curiosity",
+          "hit_count": 0,
+          "top": []
+        },
+        "use_case": {
+          "query": "curiosity hook",
+          "hit_count": 1,
+          "top": [
+            {
+              "id": "funr",
+              "terms": [
+                "curiosity"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B2",
+      "axes": {
+        "name": {
+          "query": "thread continuation",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "etc",
+              "terms": [
+                "continuation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "funr",
+              "terms": [
+                "thread"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "finding question",
+          "hit_count": 80,
+          "top": [
+            {
+              "id": "araw",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "cdr",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "dqnt",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "foht",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "u",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "uaua",
+              "terms": [
+                "finding",
+                "question"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aa",
+              "terms": [
+                "question"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anst",
+              "terms": [
+                "finding"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aq",
+              "terms": [
+                "question"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "question"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "exploration reasoning",
+          "hit_count": 82,
+          "top": [
+            {
+              "id": "ar",
+              "terms": [
+                "exploration",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "gen",
+              "terms": [
+                "exploration",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "u",
+              "terms": [
+                "exploration",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "unx",
+              "terms": [
+                "exploration",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aa",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "alebc",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anag",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "follow thread",
+          "hit_count": 20,
+          "top": [
+            {
+              "id": "funr",
+              "terms": [
+                "follow",
+                "thread"
+              ],
+              "count": 2
+            },
+            {
+              "id": "airr",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aknown",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aprob",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aq",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "araw",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "arel",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "arev",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ascf",
+              "terms": [
+                "follow"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B3",
+      "axes": {
+        "name": {
+          "query": "trace record",
+          "hit_count": 34,
+          "top": [
+            {
+              "id": "aasm",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "acaus",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "acons",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "acrit",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "afail",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "airr",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aitp",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aknown",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aop",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aprob",
+              "terms": [
+                "trace"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "input operation output",
+          "hit_count": 181,
+          "top": [
+            {
+              "id": "mtskd",
+              "terms": [
+                "input",
+                "operation",
+                "output"
+              ],
+              "count": 3
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "categorize",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "chns",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "conops",
+              "terms": [
+                "operation",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "gg",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "gu",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "lcca",
+              "terms": [
+                "operation",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "oprc",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            },
+            {
+              "id": "p7cat",
+              "terms": [
+                "input",
+                "output"
+              ],
+              "count": 2
+            }
+          ]
+        },
+        "domain": {
+          "query": "research evidence",
+          "hit_count": 20,
+          "top": [
+            {
+              "id": "aba",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cma",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dc",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "er",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ess",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exd",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fia",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "lr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ops",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "record result",
+          "hit_count": 11,
+          "top": [
+            {
+              "id": "dtsk",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "emv",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "imps",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "jdgm",
+              "terms": [
+                "record"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pcl",
+              "terms": [
+                "record"
+              ],
+              "count": 1
+            },
+            {
+              "id": "qag",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sads",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "spg",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sta",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ugav4",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B4",
+      "axes": {
+        "name": {
+          "query": "revision lineage",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "draft",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "odec",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "prior record",
+          "hit_count": 30,
+          "top": [
+            {
+              "id": "ctcov",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctgp",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dvs",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "extract",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "faa",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gapf",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gflr",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gjs",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "immg",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            },
+            {
+              "id": "improve",
+              "terms": [
+                "prior"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "research provenance",
+          "hit_count": 18,
+          "top": [
+            {
+              "id": "aba",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cma",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dc",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "er",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ess",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exd",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fia",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "lr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ops",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "link revision",
+          "hit_count": 7,
+          "top": [
+            {
+              "id": "draft",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ecomp",
+              "terms": [
+                "link"
+              ],
+              "count": 1
+            },
+            {
+              "id": "odec",
+              "terms": [
+                "revision"
+              ],
+              "count": 1
+            },
+            {
+              "id": "p3chain",
+              "terms": [
+                "link"
+              ],
+              "count": 1
+            },
+            {
+              "id": "rskl",
+              "terms": [
+                "link"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sacri",
+              "terms": [
+                "link"
+              ],
+              "count": 1
+            },
+            {
+              "id": "seb",
+              "terms": [
+                "link"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B5",
+      "axes": {
+        "name": {
+          "query": "continuation choice",
+          "hit_count": 3,
+          "top": [
+            {
+              "id": "etc",
+              "terms": [
+                "continuation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "saropc",
+              "terms": [
+                "choice"
+              ],
+              "count": 1
+            },
+            {
+              "id": "wsib",
+              "terms": [
+                "choice"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "threads interval",
+          "hit_count": 2,
+          "top": [
+            {
+              "id": "funr",
+              "terms": [
+                "threads"
+              ],
+              "count": 1
+            },
+            {
+              "id": "statous",
+              "terms": [
+                "threads"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "motivation exploration",
+          "hit_count": 42,
+          "top": [
+            {
+              "id": "alebc",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anag",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "but",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cdb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cga",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmplx",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cnw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "select exploration",
+          "hit_count": 68,
+          "top": [
+            {
+              "id": "anst",
+              "terms": [
+                "select",
+                "exploration"
+              ],
+              "count": 2
+            },
+            {
+              "id": "araw",
+              "terms": [
+                "select",
+                "exploration"
+              ],
+              "count": 2
+            },
+            {
+              "id": "gg",
+              "terms": [
+                "select",
+                "exploration"
+              ],
+              "count": 2
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "select"
+              ],
+              "count": 1
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "be",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cms",
+              "terms": [
+                "select"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "mp",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B6",
+      "axes": {
+        "name": {
+          "query": "comparison contrast",
+          "hit_count": 9,
+          "top": [
+            {
+              "id": "analyze",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "but",
+              "terms": [
+                "contrast"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmp",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "decide",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "lcca",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "omtx",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "pwc",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "tradestudy",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            },
+            {
+              "id": "wsib",
+              "terms": [
+                "comparison"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "representations criteria",
+          "hit_count": 32,
+          "top": [
+            {
+              "id": "abts",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "certainty",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmp",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cor",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cv",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dbg",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dcst",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "draft",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dsd",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dwt",
+              "terms": [
+                "criteria"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "comparison reasoning",
+          "hit_count": 46,
+          "top": [
+            {
+              "id": "cmp",
+              "terms": [
+                "comparison",
+                "reasoning"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aa",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "agi",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "araw",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "br",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cba",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cdr",
+              "terms": [
+                "reasoning"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "conceptual contrast",
+          "hit_count": 0,
+          "top": []
+        }
+      },
+      "inspected_source_candidate": "cmp",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B7",
+      "axes": {
+        "name": {
+          "query": "experimental design",
+          "hit_count": 54,
+          "top": [
+            {
+              "id": "exd",
+              "terms": [
+                "experimental",
+                "design"
+              ],
+              "count": 2
+            },
+            {
+              "id": "abts",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aiag",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ao",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "apid",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "arcd",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bldk",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "changemgmt",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "chns",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "hypothesis test",
+          "hit_count": 74,
+          "top": [
+            {
+              "id": "ge",
+              "terms": [
+                "hypothesis",
+                "test"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aa",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "abts",
+              "terms": [
+                "hypothesis"
+              ],
+              "count": 1
+            },
+            {
+              "id": "acaus",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "acr",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anag",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anst",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "apm",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bldk",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cdr",
+              "terms": [
+                "test"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "science research",
+          "hit_count": 18,
+          "top": [
+            {
+              "id": "aba",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cma",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "dc",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "er",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ess",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exd",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fia",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "lr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mr",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ops",
+              "terms": [
+                "research"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "design experiment",
+          "hit_count": 61,
+          "top": [
+            {
+              "id": "abts",
+              "terms": [
+                "design",
+                "experiment"
+              ],
+              "count": 2
+            },
+            {
+              "id": "exd",
+              "terms": [
+                "design",
+                "experiment"
+              ],
+              "count": 2
+            },
+            {
+              "id": "ops",
+              "terms": [
+                "design",
+                "experiment"
+              ],
+              "count": 2
+            },
+            {
+              "id": "spp",
+              "terms": [
+                "design",
+                "experiment"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aiag",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ao",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "apid",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ascfa",
+              "terms": [
+                "experiment"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bldk",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            },
+            {
+              "id": "changemgmt",
+              "terms": [
+                "design"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "exd",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B8",
+      "axes": {
+        "name": {
+          "query": "value elicitation",
+          "hit_count": 26,
+          "top": [
+            {
+              "id": "ve",
+              "terms": [
+                "value",
+                "elicitation"
+              ],
+              "count": 2
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "benf",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bm",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "clr",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "empth",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "exv",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "fwai",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "iterate",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mdr",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "goal value",
+          "hit_count": 116,
+          "top": [
+            {
+              "id": "adep",
+              "terms": [
+                "goal",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "nss",
+              "terms": [
+                "goal",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "vcd",
+              "terms": [
+                "goal",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "ve",
+              "terms": [
+                "goal",
+                "value"
+              ],
+              "count": 2
+            },
+            {
+              "id": "aa",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ac",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "asu",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "benf",
+              "terms": [
+                "value"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bes",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "values goals",
+          "hit_count": 4,
+          "top": [
+            {
+              "id": "ecoc",
+              "terms": [
+                "values"
+              ],
+              "count": 1
+            },
+            {
+              "id": "mdr",
+              "terms": [
+                "values"
+              ],
+              "count": 1
+            },
+            {
+              "id": "unvs",
+              "terms": [
+                "values"
+              ],
+              "count": 1
+            },
+            {
+              "id": "vcl",
+              "terms": [
+                "values"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "intrinsic goal",
+          "hit_count": 80,
+          "top": [
+            {
+              "id": "vcd",
+              "terms": [
+                "intrinsic",
+                "goal"
+              ],
+              "count": 2
+            },
+            {
+              "id": "ve",
+              "terms": [
+                "intrinsic",
+                "goal"
+              ],
+              "count": 2
+            },
+            {
+              "id": "adep",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "asu",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bes",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "bo",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "clg",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cls",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            },
+            {
+              "id": "col",
+              "terms": [
+                "goal"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "ve",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B9",
+      "axes": {
+        "name": {
+          "query": "dead end",
+          "hit_count": 58,
+          "top": [
+            {
+              "id": "aasm",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "afail",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aso",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "asucc",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ata",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "awtlytrn",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctcov",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "curd",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cv",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cvis",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "thread reason",
+          "hit_count": 27,
+          "top": [
+            {
+              "id": "funr",
+              "terms": [
+                "thread",
+                "reason"
+              ],
+              "count": 2
+            },
+            {
+              "id": "apm",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "argd",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ascfa",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "br",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmpr",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "collab",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "difr",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            },
+            {
+              "id": "gflr",
+              "terms": [
+                "reason"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "exploration curiosity",
+          "hit_count": 42,
+          "top": [
+            {
+              "id": "alebc",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anag",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "but",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cdb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cga",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmplx",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cnw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "dead end",
+          "hit_count": 81,
+          "top": [
+            {
+              "id": "aasm",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "afail",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aso",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "asucc",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ata",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "awtlytrn",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cand",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "certainty",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ctcov",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            },
+            {
+              "id": "curd",
+              "terms": [
+                "end"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    },
+    {
+      "operation": "B10",
+      "axes": {
+        "name": {
+          "query": "novelty continuation",
+          "hit_count": 4,
+          "top": [
+            {
+              "id": "dvs",
+              "terms": [
+                "novelty"
+              ],
+              "count": 1
+            },
+            {
+              "id": "etc",
+              "terms": [
+                "continuation"
+              ],
+              "count": 1
+            },
+            {
+              "id": "idsk",
+              "terms": [
+                "novelty"
+              ],
+              "count": 1
+            },
+            {
+              "id": "nss",
+              "terms": [
+                "novelty"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "signature": {
+          "query": "repeated result",
+          "hit_count": 9,
+          "top": [
+            {
+              "id": "dtsk",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "emv",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "imps",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "qag",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sads",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "spg",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "sta",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ugav4",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            },
+            {
+              "id": "wrps",
+              "terms": [
+                "result"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "domain": {
+          "query": "exploration selection",
+          "hit_count": 45,
+          "top": [
+            {
+              "id": "alebc",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anag",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ans",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "but",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cdb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cga",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cmplx",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "cms",
+              "terms": [
+                "selection"
+              ],
+              "count": 1
+            }
+          ]
+        },
+        "use_case": {
+          "query": "continue exploration",
+          "hit_count": 25,
+          "top": [
+            {
+              "id": "agi",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "anst",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "ar",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "araw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aso",
+              "terms": [
+                "continue"
+              ],
+              "count": 1
+            },
+            {
+              "id": "atgb",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "aw",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "be",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            },
+            {
+              "id": "certainty",
+              "terms": [
+                "continue"
+              ],
+              "count": 1
+            },
+            {
+              "id": "diagnose",
+              "terms": [
+                "exploration"
+              ],
+              "count": 1
+            }
+          ]
+        }
+      },
+      "inspected_source_candidate": "funr",
+      "candidate_is_full_match": false
+    }
+  ],
+  "analogy_queries": {
+    "state transition event condition": {
+      "query": "state transition event condition",
+      "hit_count": 79,
+      "top": [
+        {
+          "id": "eda",
+          "terms": [
+            "state",
+            "event"
+          ],
+          "count": 2
+        },
+        {
+          "id": "fctl",
+          "terms": [
+            "state",
+            "condition"
+          ],
+          "count": 2
+        },
+        {
+          "id": "fonss",
+          "terms": [
+            "state",
+            "condition"
+          ],
+          "count": 2
+        },
+        {
+          "id": "mocl",
+          "terms": [
+            "state",
+            "condition"
+          ],
+          "count": 2
+        },
+        {
+          "id": "odec",
+          "terms": [
+            "state",
+            "condition"
+          ],
+          "count": 2
+        },
+        {
+          "id": "unvs",
+          "terms": [
+            "state",
+            "condition"
+          ],
+          "count": 2
+        },
+        {
+          "id": "abts",
+          "terms": [
+            "state"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ac",
+          "terms": [
+            "event"
+          ],
+          "count": 1
+        },
+        {
+          "id": "aitp",
+          "terms": [
+            "event"
+          ],
+          "count": 1
+        },
+        {
+          "id": "aso",
+          "terms": [
+            "condition"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "dependency task blocked": {
+      "query": "dependency task blocked",
+      "hit_count": 30,
+      "top": [
+        {
+          "id": "ata",
+          "terms": [
+            "dependency",
+            "task"
+          ],
+          "count": 2
+        },
+        {
+          "id": "de",
+          "terms": [
+            "dependency",
+            "task"
+          ],
+          "count": 2
+        },
+        {
+          "id": "action",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "aiag",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "capg",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "curd",
+          "terms": [
+            "dependency"
+          ],
+          "count": 1
+        },
+        {
+          "id": "efrt",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "exst",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "extract",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "fmtsb",
+          "terms": [
+            "dependency"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "record provenance derivation": {
+      "query": "record provenance derivation",
+      "hit_count": 6,
+      "top": [
+        {
+          "id": "dse",
+          "terms": [
+            "derivation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "gg",
+          "terms": [
+            "derivation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "jdgm",
+          "terms": [
+            "record"
+          ],
+          "count": 1
+        },
+        {
+          "id": "md",
+          "terms": [
+            "derivation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "p",
+          "terms": [
+            "derivation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "pcl",
+          "terms": [
+            "record"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "manufacturing component inspection": {
+      "query": "manufacturing component inspection",
+      "hit_count": 11,
+      "top": [
+        {
+          "id": "cms",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ecomp",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "funcanalysis",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "gd",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "iface",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "itp",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "pp",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "sim",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "sysdecomp",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        },
+        {
+          "id": "sysk",
+          "terms": [
+            "component"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "science observation interpretation": {
+      "query": "science observation interpretation",
+      "hit_count": 173,
+      "top": [
+        {
+          "id": "dc",
+          "terms": [
+            "observation",
+            "interpretation"
+          ],
+          "count": 2
+        },
+        {
+          "id": "fow",
+          "terms": [
+            "observation",
+            "interpretation"
+          ],
+          "count": 2
+        },
+        {
+          "id": "action",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "aex",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ai",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "al",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "alt",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "analyze",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ap",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ar",
+          "terms": [
+            "interpretation"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "military authority task": {
+      "query": "military authority task",
+      "hit_count": 20,
+      "top": [
+        {
+          "id": "action",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "aiag",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "ata",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "capg",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "de",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "efrt",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "exst",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "extract",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "fwai",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        },
+        {
+          "id": "gts",
+          "terms": [
+            "task"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    "biology lineage receptor": {
+      "query": "biology lineage receptor",
+      "hit_count": 0,
+      "top": []
+    }
+  },
+  "scope": "Metadata candidates; source-level match judgments are in PCD. No absence from these finite searches is a claim of universal absence."
+}

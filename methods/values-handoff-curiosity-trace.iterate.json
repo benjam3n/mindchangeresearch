@@ -1,0 +1,102 @@
+{
+  "name": "Curiosity trace record",
+  "description": "Capture a single authored exploration step with its question, input, output, status and relation to earlier work.",
+  "inputs": {
+    "question": "Concrete question being explored.",
+    "source_item": "Supplied text, object, construction or prior note actually used.",
+    "operation": "The operation actually performed, if any.",
+    "output": "Its actual text, comparison or constructed result.",
+    "prior_record": "Earlier record, if a continuation exists.",
+    "interest_reason": "The particular surprise or attraction; no usefulness requirement.",
+    "identity": "A trace_id unique within the supplied trace set and claim_ids unique across that set; conflicting reuse of an ID is unresolved rather than overwritten.",
+    "evidence_dimensions": "Input origin (constructed, supplied source, observed local artifact), operation state (planned, performed, unavailable), per-claim evidence kind (interpretation, direct local measurement, prediction, supplied observation).",
+    "relation": "A typed object: type is continues, revises, tests, or contrasts; parent_trace_id and target_claim_ids name the exact prior propositions; null marks a root."
+  },
+  "outputs": {
+    "trace_record": "Stable trace and claim identities; exact question, input, performed operation and output; independent evidence dimensions; typed relation; interest reason and uncertainty.",
+    "open_thread": "The next unresolved question or a dead-end reason."
+  },
+  "success_criteria": [
+    "Authored results stay distinguishable from source observations.",
+    "A planned operation has no observed result attributed to it.",
+    "A dead end can retain interest without fabricated utility."
+  ],
+  "steps": [
+    "Record the selected question and its interest reason.",
+    "Record the exact supplied or constructed input.",
+    "State the performed operation and preserve the resulting output.",
+    "Record input origin, whether the operation was performed, and the evidence kind of each output claim separately. A performed fictional comparison is constructed input plus performed operation plus interpretive output.",
+    "Resolve the parent trace and every target claim. Record continues, revises, tests, or contrasts as appropriate. A missing parent, missing target, cycle or conflicting ID remains a provenance gap; a contrast alone does not revoke its parent.",
+    "Record the open question or the reason this thread stopped."
+  ],
+  "verification": [
+    "Trace each claimed observation to the supplied input or actual output.",
+    "Check that trace and claim IDs are unique and that every non-root relation refers to an existing parent and claim owned by that parent.",
+    "Check that a planned test is not described as completed.",
+    "A revision names the proposition it corrects, not the entire prior thread by default.",
+    "A returned parent chain terminates at a known root without cycling; a missing target claim is distinct from a missing parent trace.",
+    "A direct character count and an interpretive meaning claim have different evidence kinds even in one trace."
+  ],
+  "complexity": "simple record creation with moderate status interpretation.",
+  "dependencies": [
+    "An actual exploration product or explicitly planned step."
+  ],
+  "reuse_potential": "Creative comparisons, thought experiments, interpretation exercises and later source studies.",
+  "id": "local-curiosity-trace",
+  "version": "2.0.0",
+  "when_to_use": [
+    "A local exploration has a concrete input and output to preserve.",
+    "A proposed operation should remain visibly unperformed."
+  ],
+  "examples": [
+    {
+      "input": "Same question label placed at a platform and a drawing.",
+      "output": "Two constructed interpretations; no audience effect claimed."
+    },
+    {
+      "input": "A causal experiment is proposed but not performed.",
+      "output": "Planned status; predicted result is a prediction."
+    },
+    {
+      "input": "An explored metaphor produced no distinct comparison.",
+      "output": "Dead-end reason retained; interest can remain."
+    },
+    {
+      "input": "A second note revises an earlier question.",
+      "output": "New trace linked to the earlier note and its changed question."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Interesting idea labeled true",
+      "consequence": "Value substitutes for evidence.",
+      "prevention": "Keep interest reason separate from evidence status."
+    },
+    {
+      "failure": "Planned operation narrated in past tense",
+      "consequence": "An unperformed test becomes a result.",
+      "prevention": "Retain planned status."
+    },
+    {
+      "failure": "Missing earlier record",
+      "consequence": "A later question loses its derivation.",
+      "prevention": "Carry a resolvable prior link or mark it unavailable."
+    },
+    {
+      "failure": "No utility is coded as no value",
+      "consequence": "Pure-interest exploration disappears.",
+      "prevention": "Retain the stated interest reason without promised benefit."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Actual exploration operation or explicit plan.",
+    "before": "Continuation choice.",
+    "external_gate": "Human outcome claims need observations beyond a constructed trace.",
+    "artifact_scope": "Evidence-bearing local inquiry record."
+  },
+  "revision_origin": {
+    "source_snapshot": "values-handoff-curiosity-trace.pci.json",
+    "local_authored_revision": true,
+    "reason": "ITERATE findings T01–T12; not a modification to an archived Reasoningtool original."
+  }
+}

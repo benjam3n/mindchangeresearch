@@ -1,0 +1,14 @@
+[
+  {
+    "path": "docs/gates/no_guessing_gate.yaml",
+    "exit": 1,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "41c879eb8167c15f1b194a2ca7d5899981373414268723f3ef6b02cc586044ec"
+  },
+  {
+    "path": "docs/gates/assumption_gate.yaml",
+    "exit": 1,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "fc30e0f35d0eb39eff0c4c558078da776f1ff669ffbf4043139a26778ffefeca"
+  }
+]

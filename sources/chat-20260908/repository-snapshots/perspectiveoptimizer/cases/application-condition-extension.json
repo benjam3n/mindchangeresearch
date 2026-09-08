@@ -1,0 +1,14 @@
+{
+  "kind": "add_value",
+  "dimension": "interpretation",
+  "value": {
+    "id": "missing_application_condition",
+    "description": "The approach can be executed when cued, but its application conditions are not independently recognized.",
+    "contribution": "Construct matched applicable and inapplicable cases; identify the relation that separates them; examine recognition after incidental wording changes."
+  },
+  "contrast": {
+    "old_case": "Independent application fails and the approach is not retrieved.",
+    "new_case": "Cued execution succeeds but recognition fails again when the relevant case is reworded.",
+    "consequential_difference": "Application-condition comparison becomes relevant even when repeated explanation or provision of the operation is unnecessary in the constructed case."
+  }
+}

@@ -1,0 +1,2197 @@
+{
+  "repository": "benjam3n/questionroute",
+  "tree": "17dbbe3fea812c0cf3ed065be413ec18e6ea7ffd",
+  "sourceRepresentation": "repository-owned public/compare-data exports; original data/questions and data/routes directories absent on main",
+  "files": [
+    {
+      "path": "public/compare-data/able.json",
+      "sha": "74b21ee8bda87225c328f29e42b11ea8927cc3d8",
+      "size": 721
+    },
+    {
+      "path": "public/compare-data/about.json",
+      "sha": "7b74c906f0c4554223316849882a56aaf9350356",
+      "size": 881
+    },
+    {
+      "path": "public/compare-data/absence.json",
+      "sha": "335d04a234ff718a7ee06f0da60b5b5627ed378c",
+      "size": 3205
+    },
+    {
+      "path": "public/compare-data/abstraction.json",
+      "sha": "61b79bb1bf26f8e09cde25f370282d766c2d231d",
+      "size": 875
+    },
+    {
+      "path": "public/compare-data/acceptance.json",
+      "sha": "9716ffe2b8e7e3ce1ba00a91419797cb40002f22",
+      "size": 1224
+    },
+    {
+      "path": "public/compare-data/accumulate.json",
+      "sha": "0d1a5df367d7096c1ac0b502192459dfd47f8c4e",
+      "size": 673
+    },
+    {
+      "path": "public/compare-data/accumulated.json",
+      "sha": "0f29e68f1b91eb746a0167c36042bc04239ec68c",
+      "size": 516
+    },
+    {
+      "path": "public/compare-data/action.json",
+      "sha": "dd63ac2421c2a593f4a8d7e06fb79c17002967e4",
+      "size": 2017
+    },
+    {
+      "path": "public/compare-data/activation.json",
+      "sha": "a5f40d9b8d6db3f7fd9adaa8598014c5818a490d",
+      "size": 745
+    },
+    {
+      "path": "public/compare-data/active.json",
+      "sha": "9d7fdb90db827f494dbecc9477fcf6b936791d38",
+      "size": 3042
+    },
+    {
+      "path": "public/compare-data/actual.json",
+      "sha": "427cb97ddce2cddf012481c53c03863aae86db8a",
+      "size": 3354
+    },
+    {
+      "path": "public/compare-data/afraid.json",
+      "sha": "690f3dc91f348257b0a80ff02f73176458a450d2",
+      "size": 1807
+    },
+    {
+      "path": "public/compare-data/after.json",
+      "sha": "e3dd26c12ec399a78657c601555f94c5891fc5cd",
+      "size": 1606
+    },
+    {
+      "path": "public/compare-data/again.json",
+      "sha": "941098d31e17ce0dce369e1b50ffcf69066b20e7",
+      "size": 920
+    },
+    {
+      "path": "public/compare-data/against.json",
+      "sha": "a07180755688ca58b721b3c920aac25b49658316",
+      "size": 796
+    },
+    {
+      "path": "public/compare-data/agency.json",
+      "sha": "c1b6c5de2e7f96a384c079230374ed46b5a7bbd7",
+      "size": 2081
+    },
+    {
+      "path": "public/compare-data/agent.json",
+      "sha": "e8b8c815481997f0e000138192f58a628a041fe5",
+      "size": 2933
+    },
+    {
+      "path": "public/compare-data/all.json",
+      "sha": "e210f127c010b66b0d4a635c7c30c5cda5719c5d",
+      "size": 1585
+    },
+    {
+      "path": "public/compare-data/alone.json",
+      "sha": "5b88ef62df23749bab0a29f91dec401036bac4fb",
+      "size": 1274
+    },
+    {
+      "path": "public/compare-data/already.json",
+      "sha": "54fede5d3300c88781a218bdc126289e0ae23202",
+      "size": 1021
+    },
+    {
+      "path": "public/compare-data/also.json",
+      "sha": "4e5e25e83bcd53148fea42bbecb38922c2037854",
+      "size": 642
+    },
+    {
+      "path": "public/compare-data/always.json",
+      "sha": "c07693f441390ad39203e22bf5a3a1001202ec67",
+      "size": 1278
+    },
+    {
+      "path": "public/compare-data/amplifying.json",
+      "sha": "bfbc3885c9a27b957f635575c1b4a91432d963b9",
+      "size": 1737
+    },
+    {
+      "path": "public/compare-data/another.json",
+      "sha": "9732ebb5278d7d3c719aa4ce0f98c8994b0f6f94",
+      "size": 608
+    },
+    {
+      "path": "public/compare-data/answerable.json",
+      "sha": "91f59901551a0e0a1b2e6369be7806ab5091b653",
+      "size": 1732
+    },
+    {
+      "path": "public/compare-data/any.json",
+      "sha": "19d803091c69bbd7dd547ae39df374126c6da9fe",
+      "size": 1095
+    },
+    {
+      "path": "public/compare-data/appearance.json",
+      "sha": "d1d0f826f0e32f77177bd87dd3a428bb1d870fb1",
+      "size": 2931
+    },
+    {
+      "path": "public/compare-data/applying.json",
+      "sha": "5c09ae36857fa1250286ca13c39b5a25b2eaf854",
+      "size": 521
+    },
+    {
+      "path": "public/compare-data/arbitrary.json",
+      "sha": "38b9ee66c7848c1c0ceb573f8f5f27fd02e91915",
+      "size": 897
+    },
+    {
+      "path": "public/compare-data/arriving.json",
+      "sha": "079d953ba574a9122b584164779ef30c8bc9e1fd",
+      "size": 2160
+    },
+    {
+      "path": "public/compare-data/attention.json",
+      "sha": "cf63a60e2960efd761b41fc81fa27cd396a40353",
+      "size": 2591
+    },
+    {
+      "path": "public/compare-data/authenticity.json",
+      "sha": "e376581ae35e328531b85cd40a34403d7e5bde3f",
+      "size": 2843
+    },
+    {
+      "path": "public/compare-data/avoidance.json",
+      "sha": "4056518c09368fae081f7d33f60941ac906ef660",
+      "size": 1175
+    },
+    {
+      "path": "public/compare-data/away.json",
+      "sha": "a2a7ab94aef50978c3d47e37520f13f57096128a",
+      "size": 756
+    },
+    {
+      "path": "public/compare-data/background.json",
+      "sha": "d5c77d106df537ddabd3975e8addca5e6a1c74fa",
+      "size": 3274
+    },
+    {
+      "path": "public/compare-data/backward.json",
+      "sha": "c1c1c64b8ef7425924ba2a1e1ae2448e7535325d",
+      "size": 999
+    },
+    {
+      "path": "public/compare-data/bad.json",
+      "sha": "2d5f9bfa109544a2c3e3dbfb45bb9ec91a488862",
+      "size": 1067
+    },
+    {
+      "path": "public/compare-data/bar.json",
+      "sha": "264a09d3d259806177fc9142d217319bdb0b5728",
+      "size": 1259
+    },
+    {
+      "path": "public/compare-data/because.json",
+      "sha": "82df76a829349afec401d1a381794c8a4a79ae1a",
+      "size": 1145
+    },
+    {
+      "path": "public/compare-data/bedrock.json",
+      "sha": "41dee2b48946ecfd19e29ec37f690be7ca36a0f0",
+      "size": 784
+    },
+    {
+      "path": "public/compare-data/before.json",
+      "sha": "edee85a13ae28e37fe0b6257d69d5ebe2ae2bc97",
+      "size": 915
+    },
+    {
+      "path": "public/compare-data/beginning.json",
+      "sha": "adf581957cd894ce9ee7489b9e89ac9286a2b3b6",
+      "size": 3295
+    },
+    {
+      "path": "public/compare-data/being-knowing.json",
+      "sha": "f91c5f694d224dfe7a99c93f675f9811fbe16c62",
+      "size": 1054
+    },
+    {
+      "path": "public/compare-data/being.json",
+      "sha": "1338e1ed54d21384d22f3b21297f3b72f44e6abc",
+      "size": 3405
+    },
+    {
+      "path": "public/compare-data/best.json",
+      "sha": "ce5bf05ef1b94b88926f95a2c4b1f13ade348bca",
+      "size": 842
+    },
+    {
+      "path": "public/compare-data/better.json",
+      "sha": "6ecb3f60f356371a94381a264992fc91f7e3782c",
+      "size": 1234
+    },
+    {
+      "path": "public/compare-data/between.json",
+      "sha": "03fb76b5155d0ad179a3a3a0502f374c8fb63fcb",
+      "size": 1118
+    },
+    {
+      "path": "public/compare-data/beyond.json",
+      "sha": "210da5ad0d0665d5b10d02e5ea7c8139e6715849",
+      "size": 814
+    },
+    {
+      "path": "public/compare-data/bidirectional.json",
+      "sha": "1ab9db7f2ac8b3f81ee17c59c14a2774fe2189cf",
+      "size": 964
+    },
+    {
+      "path": "public/compare-data/block.json",
+      "sha": "ab922b0a8164bf7932f7508788b9c7c6c056e237",
+      "size": 1079
+    },
+    {
+      "path": "public/compare-data/blocker.json",
+      "sha": "103d8fc0b949416e80103be51def3749483e801a",
+      "size": 848
+    },
+    {
+      "path": "public/compare-data/body.json",
+      "sha": "7cd3275d96325afc4f6dbf169f2e9e14ff05e50f",
+      "size": 1132
+    },
+    {
+      "path": "public/compare-data/both.json",
+      "sha": "8511e22332a8091df11140ca321610928604615c",
+      "size": 996
+    },
+    {
+      "path": "public/compare-data/boundary.json",
+      "sha": "0ab6af1bb969f9259a3bf64c50b85c4b27331a1d",
+      "size": 1846
+    },
+    {
+      "path": "public/compare-data/bounded.json",
+      "sha": "8396c43ca68e6030e23423a039c1aeb22717dea1",
+      "size": 367
+    },
+    {
+      "path": "public/compare-data/broad.json",
+      "sha": "71274bc3e2c75431dce8f59c8338383f43145b97",
+      "size": 924
+    },
+    {
+      "path": "public/compare-data/burden.json",
+      "sha": "583fd8a411e45dd8aa1b97eb65c1e0b6a94ce934",
+      "size": 665
+    },
+    {
+      "path": "public/compare-data/but.json",
+      "sha": "6805832f1ac71b3129ba2ebca14147df1cace2ed",
+      "size": 726
+    },
+    {
+      "path": "public/compare-data/byproduct.json",
+      "sha": "0b2f79d9f7d2022b7162cf06fb8860a4a394e6df",
+      "size": 540
+    },
+    {
+      "path": "public/compare-data/can.json",
+      "sha": "9af6dc47458cf146e455861d4751e6f7f6816181",
+      "size": 2196
+    },
+    {
+      "path": "public/compare-data/capture.json",
+      "sha": "7faa6995303fe5491c619302d8bdad03f61bd942",
+      "size": 1381
+    },
+    {
+      "path": "public/compare-data/captured.json",
+      "sha": "f4f411972edd1bd8e970e3edd989c93736012311",
+      "size": 1745
+    },
+    {
+      "path": "public/compare-data/caring.json",
+      "sha": "abbd71b30d802a664d9f2885164528122ff55692",
+      "size": 832
+    },
+    {
+      "path": "public/compare-data/catches.json",
+      "sha": "5652aa3e49e2a0100d03c3805253bda7e743223f",
+      "size": 671
+    },
+    {
+      "path": "public/compare-data/causation.json",
+      "sha": "9c88bf177e4a0d871e95c604c7c4cf3893975cd2",
+      "size": 2633
+    },
+    {
+      "path": "public/compare-data/caused.json",
+      "sha": "12dece659c2b0e6906f5ff5636eb9d0050a7bf18",
+      "size": 1458
+    },
+    {
+      "path": "public/compare-data/certain.json",
+      "sha": "451a9eff3b43cc9bce7ee34028beb69ffbc84bab",
+      "size": 1395
+    },
+    {
+      "path": "public/compare-data/cessation.json",
+      "sha": "b819cc83f047d3a350364aeeca5811c62c5bff77",
+      "size": 2216
+    },
+    {
+      "path": "public/compare-data/check.json",
+      "sha": "2e6c62a83dd63fceb2e9aef5ff703289d5e9808f",
+      "size": 965
+    },
+    {
+      "path": "public/compare-data/chosen.json",
+      "sha": "9e07912bb27c9b18c140270bd507f3b6f0cf6ca2",
+      "size": 2813
+    },
+    {
+      "path": "public/compare-data/circling.json",
+      "sha": "39069244971a11bc5606b71d0da8ab531f88aac0",
+      "size": 1546
+    },
+    {
+      "path": "public/compare-data/circular.json",
+      "sha": "fa066ac0f4a4cbe0ade46bf72e9f07967fdd9270",
+      "size": 576
+    },
+    {
+      "path": "public/compare-data/clarity.json",
+      "sha": "30ad17bbdd8ab8398c7d8775f037f85b56f267db",
+      "size": 2816
+    },
+    {
+      "path": "public/compare-data/coherence.json",
+      "sha": "32dc05a3e95ec1cc112ba23a9d98a2cc785e966a",
+      "size": 2419
+    },
+    {
+      "path": "public/compare-data/commitment.json",
+      "sha": "49138e752315970a4270c2db674279cb092d3963",
+      "size": 936
+    },
+    {
+      "path": "public/compare-data/communication.json",
+      "sha": "940207b4ce29220588a00927404dc3f2ce5b714f",
+      "size": 2271
+    },
+    {
+      "path": "public/compare-data/compelled.json",
+      "sha": "5df5eb36e5c046f399c8918aa59158e10b00bcd4",
+      "size": 1904
+    },
+    {
+      "path": "public/compare-data/complement.json",
+      "sha": "7c0758ce86141b97aa5f188c2a0ce9f7cd0661ea",
+      "size": 636
+    },
+    {
+      "path": "public/compare-data/complete.json",
+      "sha": "a56b8e2181bb820804113e42089ab9b12565beb7",
+      "size": 506
+    },
+    {
+      "path": "public/compare-data/completion.json",
+      "sha": "1410479fbd1f02c741aa089004a7c3a55b3fa8bd",
+      "size": 1804
+    },
+    {
+      "path": "public/compare-data/compose.json",
+      "sha": "9f853cb361fa5f68c6a15af72e32b4f35ae4fbfa",
+      "size": 953
+    },
+    {
+      "path": "public/compare-data/condition.json",
+      "sha": "d4f9e94a8a653fa9a9079ce395aa23ddd8d78d80",
+      "size": 534
+    },
+    {
+      "path": "public/compare-data/conditioned.json",
+      "sha": "9e0ef3ce7bdf44e9e6c77c39362a72432966d033",
+      "size": 1227
+    },
+    {
+      "path": "public/compare-data/conflicted.json",
+      "sha": "b5d40ada749f3d37a8e5599b4b95005a2b28b4a1",
+      "size": 680
+    },
+    {
+      "path": "public/compare-data/connection.json",
+      "sha": "d76e213ee3e384beb763952669b9208c48dc0233",
+      "size": 680
+    },
+    {
+      "path": "public/compare-data/connects.json",
+      "sha": "b6d338fdae514b4882a88bf577bccbc8a7b397f4",
+      "size": 886
+    },
+    {
+      "path": "public/compare-data/consciousness.json",
+      "sha": "02ed86274327acace51dcb5d6d64910662f36dd0",
+      "size": 1627
+    },
+    {
+      "path": "public/compare-data/constant.json",
+      "sha": "e662960ecd92060d82835638fa2d42d511b3e98a",
+      "size": 1474
+    },
+    {
+      "path": "public/compare-data/constrain.json",
+      "sha": "7b05aa7cfb27543f064053ef4263359e891686f8",
+      "size": 2478
+    },
+    {
+      "path": "public/compare-data/continuation.json",
+      "sha": "cb7e4bf52ffa8e99e22c4f074959df7748f77238",
+      "size": 1700
+    },
+    {
+      "path": "public/compare-data/continuity.json",
+      "sha": "36b66677f348608d614aa1415be62f09f522a292",
+      "size": 2867
+    },
+    {
+      "path": "public/compare-data/continuous.json",
+      "sha": "5804818a7e1b5d53254b6621bd56e8b4ef1986e8",
+      "size": 316
+    },
+    {
+      "path": "public/compare-data/contradiction.json",
+      "sha": "1b894d599ea05a455aeb0f432730e96b223a5972",
+      "size": 1845
+    },
+    {
+      "path": "public/compare-data/control.json",
+      "sha": "c03977911d243ea814512f620f9932cc46a87adf",
+      "size": 2417
+    },
+    {
+      "path": "public/compare-data/converge.json",
+      "sha": "9591f45778ce4e0b8d1fbcaae003e5100597ae9e",
+      "size": 530
+    },
+    {
+      "path": "public/compare-data/converging.json",
+      "sha": "0f064f90e857cddd714df6d70d6c8f76ed755295",
+      "size": 1498
+    },
+    {
+      "path": "public/compare-data/convert.json",
+      "sha": "9d3b4070ba27305f3404a2d896d42e4a95cf4d43",
+      "size": 743
+    },
+    {
+      "path": "public/compare-data/correspondence.json",
+      "sha": "3ca568fab37d2d031711a99e877963deee67eb34",
+      "size": 3035
+    },
+    {
+      "path": "public/compare-data/costs.json",
+      "sha": "48a5dc7011f0da42bdae236d9e673a328d8dae02",
+      "size": 909
+    },
+    {
+      "path": "public/compare-data/could.json",
+      "sha": "b7bd585261c15728982b07a73e5b7447204f1963",
+      "size": 885
+    },
+    {
+      "path": "public/compare-data/counterfactual.json",
+      "sha": "012c388647aa08b60083e66a0ffeffb8b4ff0d57",
+      "size": 573
+    },
+    {
+      "path": "public/compare-data/creation.json",
+      "sha": "08c823f637ed94a447952f6cfe3eeb8e04e846a1",
+      "size": 2468
+    },
+    {
+      "path": "public/compare-data/criteria.json",
+      "sha": "ffe2a69e8234de5ecfd106fbbc691fff3edc652f",
+      "size": 1326
+    },
+    {
+      "path": "public/compare-data/criterion.json",
+      "sha": "e798e590dadeecaf4fa879afeb3f7490c0d3c143",
+      "size": 1436
+    },
+    {
+      "path": "public/compare-data/crystallize.json",
+      "sha": "98a927566c502d03ef8ec4d44a53e4908353b3be",
+      "size": 901
+    },
+    {
+      "path": "public/compare-data/death.json",
+      "sha": "9b106d3d3104a8dce91e1f7918f9d0b0cdcffa14",
+      "size": 332
+    },
+    {
+      "path": "public/compare-data/deceptive.json",
+      "sha": "261e7d14b772ec0390958303fc09a18ea9ca8ded",
+      "size": 1567
+    },
+    {
+      "path": "public/compare-data/deciding.json",
+      "sha": "6371a09681086e7d8033ad8e951d4823af2c0766",
+      "size": 1998
+    },
+    {
+      "path": "public/compare-data/deep.json",
+      "sha": "e3b4dfc8219c21a77d0851671645913ae73474a4",
+      "size": 876
+    },
+    {
+      "path": "public/compare-data/deepest.json",
+      "sha": "e15c0d131b5cd38998d2bd08db27d24ade6837e3",
+      "size": 669
+    },
+    {
+      "path": "public/compare-data/defeated.json",
+      "sha": "2f79320833ae6a6a36f8bf4d22fbefb5c27273ab",
+      "size": 449
+    },
+    {
+      "path": "public/compare-data/defeating.json",
+      "sha": "a75a51d0bbc91f001a58c313f8a85dda93f3c175",
+      "size": 336
+    },
+    {
+      "path": "public/compare-data/deliberate.json",
+      "sha": "1bd6b21e76764824a5812964e3e6e1b9a83062ec",
+      "size": 821
+    },
+    {
+      "path": "public/compare-data/depleting.json",
+      "sha": "d2ceb1230544cfeac4dcdc8959db7bcedab8b115",
+      "size": 317
+    },
+    {
+      "path": "public/compare-data/derive.json",
+      "sha": "8401ad180b897cfca9acad39ddc74d5fce1293ad",
+      "size": 1689
+    },
+    {
+      "path": "public/compare-data/desire.json",
+      "sha": "d2197f737e6f6114332b8654b4205a5657856038",
+      "size": 1577
+    },
+    {
+      "path": "public/compare-data/desireless.json",
+      "sha": "6d4fbb132e7f2010887503cda9fc77337ad5f294",
+      "size": 1557
+    },
+    {
+      "path": "public/compare-data/difference.json",
+      "sha": "215bad289476719d951183543e0e00fa1f22a7fe",
+      "size": 680
+    },
+    {
+      "path": "public/compare-data/different.json",
+      "sha": "6a9cc04877d71aae6060756ce64dc4cf4dbd4e46",
+      "size": 1026
+    },
+    {
+      "path": "public/compare-data/dimension.json",
+      "sha": "594d21a2d72e20d47df6aa2e0204d331fff7ca32",
+      "size": 514
+    },
+    {
+      "path": "public/compare-data/direct.json",
+      "sha": "e996b8c15bbb87f1a9ab88a66aaa41e94fddf802",
+      "size": 820
+    },
+    {
+      "path": "public/compare-data/direction.json",
+      "sha": "b92e79f5d721eca326704b44949121807fc2263a",
+      "size": 1850
+    },
+    {
+      "path": "public/compare-data/discovered.json",
+      "sha": "6f15621f95b3d5879ce640fd0e8caa103988a618",
+      "size": 980
+    },
+    {
+      "path": "public/compare-data/dissolution.json",
+      "sha": "67befc65bba41ad6531103806bdf25f2daf9c551",
+      "size": 633
+    },
+    {
+      "path": "public/compare-data/dissolve.json",
+      "sha": "ff1c962b492bad09f3b72fa6faeb5b2514d42e27",
+      "size": 1067
+    },
+    {
+      "path": "public/compare-data/distinguish.json",
+      "sha": "6badf2a448daaa3efc5e5461ae07b22182b85429",
+      "size": 812
+    },
+    {
+      "path": "public/compare-data/do.json",
+      "sha": "a2221933920fbb375fcc589fbb46fb9c16b17d8e",
+      "size": 1991
+    },
+    {
+      "path": "public/compare-data/done.json",
+      "sha": "d083dec4f5c677267661fdd6c094c8ec9430fb67",
+      "size": 3226
+    },
+    {
+      "path": "public/compare-data/dragons.json",
+      "sha": "a688d0bcb50d92a261d95be973ad100dd8a73d0d",
+      "size": 330
+    },
+    {
+      "path": "public/compare-data/drift.json",
+      "sha": "0ff7cad1316181c5da683a5252a4c87c0956d52e",
+      "size": 685
+    },
+    {
+      "path": "public/compare-data/drop.json",
+      "sha": "74a189a2b406c5f7c2042dca426ac1d85a27ee9e",
+      "size": 559
+    },
+    {
+      "path": "public/compare-data/dynamics.json",
+      "sha": "eab9b8d55ff144860f828cf9ede2154344d82ee8",
+      "size": 1134
+    },
+    {
+      "path": "public/compare-data/each.json",
+      "sha": "08fe1aa8cbfba93cc6355e85a796728f1c8845df",
+      "size": 684
+    },
+    {
+      "path": "public/compare-data/either.json",
+      "sha": "f75331c1077465b25759f52ccfe6ff003c7e2ad9",
+      "size": 1283
+    },
+    {
+      "path": "public/compare-data/else.json",
+      "sha": "55b8908b488f5eecae997d4dabb51dda387e1c75",
+      "size": 855
+    },
+    {
+      "path": "public/compare-data/embodiment.json",
+      "sha": "c8bd0bfdf958c159a40b80f4890073ff54f35f6f",
+      "size": 1294
+    },
+    {
+      "path": "public/compare-data/emerge.json",
+      "sha": "20039622bc5a11786c6e02fb764cccbfd15be260",
+      "size": 980
+    },
+    {
+      "path": "public/compare-data/emergent.json",
+      "sha": "4a55788cc7a32cf1421285f5df267fb189689453",
+      "size": 748
+    },
+    {
+      "path": "public/compare-data/emptiness.json",
+      "sha": "90660eaf068fe90cbcf3a17e72d1999e6ada09e7",
+      "size": 1243
+    },
+    {
+      "path": "public/compare-data/encounter.json",
+      "sha": "8c38f5235ce73786e9af6374643e72576609c1d5",
+      "size": 691
+    },
+    {
+      "path": "public/compare-data/ending.json",
+      "sha": "4487d2edb495a1cf5668cfc9642a1729399ee98a",
+      "size": 2623
+    },
+    {
+      "path": "public/compare-data/enough.json",
+      "sha": "0a5e5c1ddcbaf2c53b193b16627a7ef384cd586e",
+      "size": 2692
+    },
+    {
+      "path": "public/compare-data/eternity.json",
+      "sha": "72b434e221643c4107f113e1818d3d5643e862ec",
+      "size": 1879
+    },
+    {
+      "path": "public/compare-data/even.json",
+      "sha": "25e9f53a48b59a90244270dd270d6b6fdb52eab1",
+      "size": 650
+    },
+    {
+      "path": "public/compare-data/ever-more.json",
+      "sha": "820a2e08a628989a2fb7a6f93f212a934ea3c3e0",
+      "size": 691
+    },
+    {
+      "path": "public/compare-data/ever.json",
+      "sha": "9f6fea640d4265b7594ee3e85f6e81cd114bc154",
+      "size": 708
+    },
+    {
+      "path": "public/compare-data/every.json",
+      "sha": "8eea5e2ff7f04e4ce1d6cb96807cdeb82e368ff0",
+      "size": 643
+    },
+    {
+      "path": "public/compare-data/examine.json",
+      "sha": "2060f1bf3eb7e080d2e4883463465abaa3c28322",
+      "size": 1613
+    },
+    {
+      "path": "public/compare-data/exhausted.json",
+      "sha": "4c0adae569c7214059858f67781975377a75f44f",
+      "size": 861
+    },
+    {
+      "path": "public/compare-data/existence.json",
+      "sha": "1ed0b2414260a1b5fb071ba8fb788a09270f64e4",
+      "size": 3718
+    },
+    {
+      "path": "public/compare-data/experiencer.json",
+      "sha": "6905bc6fa24caa24a7c8de9aa1df0d5b7f57205d",
+      "size": 2513
+    },
+    {
+      "path": "public/compare-data/external.json",
+      "sha": "16144d925bec8b40afcc96eb100cb54aa54fe72d",
+      "size": 997
+    },
+    {
+      "path": "public/compare-data/fair.json",
+      "sha": "f118f83065a931b83206f991f0be6d641c06223e",
+      "size": 949
+    },
+    {
+      "path": "public/compare-data/fake.json",
+      "sha": "3b90306725983442e1819ec8b645e33794a2ad29",
+      "size": 445
+    },
+    {
+      "path": "public/compare-data/far.json",
+      "sha": "3c1a1121e8e7ac869eb6c7b279ebb6326de8bcad",
+      "size": 742
+    },
+    {
+      "path": "public/compare-data/feeding.json",
+      "sha": "850df17857d9d7a22a91cfde9c6fdab535fe2598",
+      "size": 1720
+    },
+    {
+      "path": "public/compare-data/few.json",
+      "sha": "bbb85b1158dbcc877d241b3f8a388f0d770024dd",
+      "size": 769
+    },
+    {
+      "path": "public/compare-data/fills.json",
+      "sha": "aa95a9235b83cbe7d2f17cc48eb5b5ea912afa30",
+      "size": 660
+    },
+    {
+      "path": "public/compare-data/finally.json",
+      "sha": "edde173a6a1b5f792491efa29c34188803b55128",
+      "size": 1818
+    },
+    {
+      "path": "public/compare-data/finite.json",
+      "sha": "5332b7b9d95deb37cf1f6174b634aa5e723384fd",
+      "size": 304
+    },
+    {
+      "path": "public/compare-data/first.json",
+      "sha": "a1fd270602608f9986b38ab6e2896be16e9f4806",
+      "size": 1963
+    },
+    {
+      "path": "public/compare-data/form.json",
+      "sha": "1370dd0475ac61c3ff8578df110a74aa92444b09",
+      "size": 1570
+    },
+    {
+      "path": "public/compare-data/formulating.json",
+      "sha": "75005dcacb7316ef4db20c63272b13c8db107801",
+      "size": 1317
+    },
+    {
+      "path": "public/compare-data/foundational.json",
+      "sha": "c597509ef6acc8feb1d6e49a5742ad6d73204545",
+      "size": 2184
+    },
+    {
+      "path": "public/compare-data/frame.json",
+      "sha": "7303d6872e48d6b210c554ed5ae4fe4cc779fc6d",
+      "size": 985
+    },
+    {
+      "path": "public/compare-data/functioning.json",
+      "sha": "1fd4179a2316fc92724b7c84702654f1978b3b5b",
+      "size": 714
+    },
+    {
+      "path": "public/compare-data/fusion.json",
+      "sha": "cb46792f88e59a537ee11c367a6d209c55b91179",
+      "size": 991
+    },
+    {
+      "path": "public/compare-data/gap.json",
+      "sha": "3bb3f4d74471424ce075c337a271264682696daa",
+      "size": 851
+    },
+    {
+      "path": "public/compare-data/go.json",
+      "sha": "edf8d87d1b925a686bfdf6163435c29240e4ee8c",
+      "size": 877
+    },
+    {
+      "path": "public/compare-data/goalless.json",
+      "sha": "10320bb8e7d4d703d0075170979d975652b17c15",
+      "size": 1418
+    },
+    {
+      "path": "public/compare-data/good.json",
+      "sha": "c620f0f1cd52a415de1e33edbea7b354a80ff265",
+      "size": 1304
+    },
+    {
+      "path": "public/compare-data/gradual.json",
+      "sha": "2f45edd9e041e30d6cfd4b72bdb72770fac9b449",
+      "size": 1640
+    },
+    {
+      "path": "public/compare-data/ground.json",
+      "sha": "48ab9a8ef186b812e16916380b1acd7a9ad2bf9b",
+      "size": 1407
+    },
+    {
+      "path": "public/compare-data/groundless.json",
+      "sha": "4a2b05f7f7e4e4481a81bfd359e0e9684ea4827a",
+      "size": 2486
+    },
+    {
+      "path": "public/compare-data/guess.json",
+      "sha": "50f088071340f6a00720b8602e032c85bebc5e9d",
+      "size": 1983
+    },
+    {
+      "path": "public/compare-data/guidance.json",
+      "sha": "b5ce8fb106779407ec884b738b27626d3c3674f1",
+      "size": 944
+    },
+    {
+      "path": "public/compare-data/happening.json",
+      "sha": "57d86d774c2170ab2ccc1f980f1571ba2f8a440f",
+      "size": 1936
+    },
+    {
+      "path": "public/compare-data/have.json",
+      "sha": "4f54fdc80c66377d087ba8a0b2343dfb22f866b9",
+      "size": 1361
+    },
+    {
+      "path": "public/compare-data/here.json",
+      "sha": "85e7e88d94c7348c50928f754bc74637d8894814",
+      "size": 2109
+    },
+    {
+      "path": "public/compare-data/home.json",
+      "sha": "5afc10b2884c87d11276433d843f355643f4d4bf",
+      "size": 1731
+    },
+    {
+      "path": "public/compare-data/hope.json",
+      "sha": "b2bf04037575c7277eb5b1e0ef08f87870f3484d",
+      "size": 631
+    },
+    {
+      "path": "public/compare-data/how.json",
+      "sha": "1d30772ab90185179b085a3f8b3328cb697442cd",
+      "size": 3473
+    },
+    {
+      "path": "public/compare-data/hub.json",
+      "sha": "620186c64d3e3617b4b85bce71201d77a651456a",
+      "size": 1016
+    },
+    {
+      "path": "public/compare-data/hypothesis.json",
+      "sha": "b72d21937d2b875a64e90bb3d9e91818d1638e9d",
+      "size": 1857
+    },
+    {
+      "path": "public/compare-data/identity.json",
+      "sha": "76da08ea6ace77fc0c020057995b1977b48188e1",
+      "size": 1729
+    },
+    {
+      "path": "public/compare-data/if.json",
+      "sha": "97888681b3310d16f125cf4d1bde831fa928a02a",
+      "size": 1018
+    },
+    {
+      "path": "public/compare-data/illusion.json",
+      "sha": "bc6953ed0eb1a82a96050fc9bfab6c912dba17de",
+      "size": 1047
+    },
+    {
+      "path": "public/compare-data/implicit.json",
+      "sha": "163b29ef6248a13180b4bd42ae216892320a2baa",
+      "size": 1151
+    },
+    {
+      "path": "public/compare-data/improving.json",
+      "sha": "be2e32c644106d7c6d13d3fee534236bdfa3d3af",
+      "size": 709
+    },
+    {
+      "path": "public/compare-data/infer.json",
+      "sha": "c453de4d01efec8283015998bee47b70d37ae165",
+      "size": 1103
+    },
+    {
+      "path": "public/compare-data/inference.json",
+      "sha": "daffd2c622749061fae2034cf91dacc5bf76b84e",
+      "size": 1823
+    },
+    {
+      "path": "public/compare-data/infinite.json",
+      "sha": "96291e233f765d2a14b6ef817a6b6ba02db17a9e",
+      "size": 1458
+    },
+    {
+      "path": "public/compare-data/inherit.json",
+      "sha": "6d913bfc8f9945bdb52b983bc7b59dbc2f8a87a6",
+      "size": 803
+    },
+    {
+      "path": "public/compare-data/instantaneous.json",
+      "sha": "832e8ba0cd2bebf0d7ef7e01657f96c696245d0f",
+      "size": 2427
+    },
+    {
+      "path": "public/compare-data/instead.json",
+      "sha": "f132fe70c91a66d8df3f0ab8d54f2cdf56f1cd5c",
+      "size": 656
+    },
+    {
+      "path": "public/compare-data/internal.json",
+      "sha": "5e7b55de7e8686f6a9e74f67de62873f89136db7",
+      "size": 1058
+    },
+    {
+      "path": "public/compare-data/interpret.json",
+      "sha": "fdf27ebf51255a51df4642db48eef07ada6d9ada",
+      "size": 698
+    },
+    {
+      "path": "public/compare-data/interpretation.json",
+      "sha": "66ba92e9bf81be089dd407c198b466554d7e8b03",
+      "size": 767
+    },
+    {
+      "path": "public/compare-data/introspect.json",
+      "sha": "0e5c3643c88684a4aad40e5f700678be2ee109dd",
+      "size": 1334
+    },
+    {
+      "path": "public/compare-data/intuition.json",
+      "sha": "c40c1097576b814ed4af37299cd1156e891420f0",
+      "size": 1742
+    },
+    {
+      "path": "public/compare-data/is.json",
+      "sha": "a504eb02e4f1a7d628984ff0d4ed08efb04519d2",
+      "size": 1793
+    },
+    {
+      "path": "public/compare-data/iterative.json",
+      "sha": "2ca5f2066d5647eb7711b0ea22088ed7d57e81ef",
+      "size": 778
+    },
+    {
+      "path": "public/compare-data/just.json",
+      "sha": "c584e64026dff29020c81e044d438555a6065ffa",
+      "size": 651
+    },
+    {
+      "path": "public/compare-data/knowledge.json",
+      "sha": "60886573895a195d2e2986afa90f29e6838126bd",
+      "size": 2314
+    },
+    {
+      "path": "public/compare-data/known.json",
+      "sha": "ef1b482a234a6d604c02aba5f8d7eab5e71a603a",
+      "size": 924
+    },
+    {
+      "path": "public/compare-data/last.json",
+      "sha": "8f94486bdd6e6809bfb40979b7c2c0fc48264d03",
+      "size": 1509
+    },
+    {
+      "path": "public/compare-data/lasting.json",
+      "sha": "614c210feaa76051f9951df1ab3e13d70969330d",
+      "size": 1634
+    },
+    {
+      "path": "public/compare-data/less.json",
+      "sha": "7be0977027a9d5c9cf5abe0d0a5239ae395ee65c",
+      "size": 1014
+    },
+    {
+      "path": "public/compare-data/letting.json",
+      "sha": "ce9d68cede19472af7033f9860ff931083aa0115",
+      "size": 1447
+    },
+    {
+      "path": "public/compare-data/leverage.json",
+      "sha": "056321a51a6c0afd5068390ef684523f8c880c77",
+      "size": 828
+    },
+    {
+      "path": "public/compare-data/liberation.json",
+      "sha": "30c9136f71049b2a7a3a069307ada9a9f934fb29",
+      "size": 1575
+    },
+    {
+      "path": "public/compare-data/likely.json",
+      "sha": "664d8db3d34169d04a9972be2b04f9136b69d0d3",
+      "size": 792
+    },
+    {
+      "path": "public/compare-data/literal.json",
+      "sha": "5dfe0e9919e87945f3a8e678dc47cdb673ed707e",
+      "size": 2650
+    },
+    {
+      "path": "public/compare-data/locatable.json",
+      "sha": "58b1883a359787893957bf9f841868663e0d1b41",
+      "size": 1002
+    },
+    {
+      "path": "public/compare-data/location.json",
+      "sha": "6a6a66e8ef34cb6f07def4b518b2d7128d4dde73",
+      "size": 2071
+    },
+    {
+      "path": "public/compare-data/logic.json",
+      "sha": "3badad3501f8b2c912b3e28c9b14b0d3d0d2c48b",
+      "size": 758
+    },
+    {
+      "path": "public/compare-data/long.json",
+      "sha": "51eb6eca4433d5dd62caeb89d558f84a8477ee74",
+      "size": 576
+    },
+    {
+      "path": "public/compare-data/looking.json",
+      "sha": "edd1dfb43f461ce6fda7e74ee2736e6969d13c75",
+      "size": 1412
+    },
+    {
+      "path": "public/compare-data/loop.json",
+      "sha": "8104af2c2f78e4a2188d8270e23c6c6c565790cd",
+      "size": 1348
+    },
+    {
+      "path": "public/compare-data/lose.json",
+      "sha": "a7fff406a1d1c30c003495b70f41d72f8daf9155",
+      "size": 671
+    },
+    {
+      "path": "public/compare-data/macro.json",
+      "sha": "81b1d9d1780dbffe04c72f47e49057c85fa88f44",
+      "size": 309
+    },
+    {
+      "path": "public/compare-data/many.json",
+      "sha": "128864be65bf30acbf3108b7637a16ed2397d23d",
+      "size": 930
+    },
+    {
+      "path": "public/compare-data/mathematics.json",
+      "sha": "92bef53a4651a55d354772b95208b12e2a7b7aef",
+      "size": 1362
+    },
+    {
+      "path": "public/compare-data/mattering.json",
+      "sha": "088c465600accf7e5d92023758ffac9c8cb95136",
+      "size": 1235
+    },
+    {
+      "path": "public/compare-data/may.json",
+      "sha": "b7d3885a4365a17921942a3b085de40cd20a4976",
+      "size": 648
+    },
+    {
+      "path": "public/compare-data/maybe.json",
+      "sha": "04b7f2fbc03f1ae5732385ee9d9c7b033729d505",
+      "size": 905
+    },
+    {
+      "path": "public/compare-data/maybeland.json",
+      "sha": "d03c81fce9375a1cae29251e5f9d293b9595a4ab",
+      "size": 1321
+    },
+    {
+      "path": "public/compare-data/meaning.json",
+      "sha": "96814b8d08a7651abcd31a567276f18f192fb188",
+      "size": 4308
+    },
+    {
+      "path": "public/compare-data/meaningful.json",
+      "sha": "917e253ac880ca4a3b0063106651d5c6555241be",
+      "size": 1414
+    },
+    {
+      "path": "public/compare-data/mechanism.json",
+      "sha": "c196ec7a37210eeeadf347a2a80e5f72acadf1cb",
+      "size": 685
+    },
+    {
+      "path": "public/compare-data/mediated.json",
+      "sha": "9ee719080b7bdefa316009a373ecb410d033ab99",
+      "size": 535
+    },
+    {
+      "path": "public/compare-data/meditation.json",
+      "sha": "b545994f61ff2d77cf7abdae73c0a97183d110ae",
+      "size": 350
+    },
+    {
+      "path": "public/compare-data/memory.json",
+      "sha": "aff2b8837fc96539d1a7bc7f237f375a1a327213",
+      "size": 758
+    },
+    {
+      "path": "public/compare-data/micro.json",
+      "sha": "ef14c4159a8e0a9eae257ac4aadeb42ef888c2e7",
+      "size": 312
+    },
+    {
+      "path": "public/compare-data/mine.json",
+      "sha": "948d3c47f70b8b876b5469234cfb44020420ebd1",
+      "size": 1486
+    },
+    {
+      "path": "public/compare-data/misapplied.json",
+      "sha": "52594f3fd7e4b2de606686de4988ed7de51e99fc",
+      "size": 571
+    },
+    {
+      "path": "public/compare-data/mismatch.json",
+      "sha": "19660dee2040b50050155165f610682aeacdbb1b",
+      "size": 500
+    },
+    {
+      "path": "public/compare-data/more.json",
+      "sha": "548cd6cf1c97cd76b1cab33e6924da5e1eabc174",
+      "size": 1285
+    },
+    {
+      "path": "public/compare-data/most.json",
+      "sha": "71afe1f53d235b7fb1ee21e74de014f683fecfe2",
+      "size": 624
+    },
+    {
+      "path": "public/compare-data/movement.json",
+      "sha": "e3765b17359ebd28fa4d42aa2a3bc64de386ff6c",
+      "size": 1639
+    },
+    {
+      "path": "public/compare-data/much.json",
+      "sha": "2a29ace3da5f53d18a77a742a95df93412906d23",
+      "size": 592
+    },
+    {
+      "path": "public/compare-data/must.json",
+      "sha": "98270009e00c1c3c38bac8a94ca85f41451ea0eb",
+      "size": 998
+    },
+    {
+      "path": "public/compare-data/nature.json",
+      "sha": "80847dfe6ab36dfdd4e12f9d6e2aa472ae00a584",
+      "size": 1851
+    },
+    {
+      "path": "public/compare-data/near.json",
+      "sha": "6741d4a649f0a1333eb4cf3b531f873df500204c",
+      "size": 755
+    },
+    {
+      "path": "public/compare-data/need.json",
+      "sha": "c126ad7962cc3fa9406ce4ae900f29b4a21856d5",
+      "size": 1255
+    },
+    {
+      "path": "public/compare-data/negate.json",
+      "sha": "674c5d98c943b9b3ac545661a44bc8c2a05ce256",
+      "size": 1022
+    },
+    {
+      "path": "public/compare-data/negation.json",
+      "sha": "7f2352a194e03e8828b90cdebbc7eed0ebc9be55",
+      "size": 1493
+    },
+    {
+      "path": "public/compare-data/neither.json",
+      "sha": "15cc03826c279ff07bb63eeee9715128e9c801a3",
+      "size": 684
+    },
+    {
+      "path": "public/compare-data/never.json",
+      "sha": "e50dd5e847480397f31542715c115795b8a06065",
+      "size": 1061
+    },
+    {
+      "path": "public/compare-data/new.json",
+      "sha": "dd498b0f0501a34a9837fc6b48430d7dae9be2e1",
+      "size": 1034
+    },
+    {
+      "path": "public/compare-data/next.json",
+      "sha": "63bfb3a4f63aa2a59c91c821a4f7047e780683c0",
+      "size": 835
+    },
+    {
+      "path": "public/compare-data/none.json",
+      "sha": "ddae895c1caf2f4fc5f5a9f04cc5bad57b335130",
+      "size": 1562
+    },
+    {
+      "path": "public/compare-data/nonsense.json",
+      "sha": "76422a470401e65f182815d4894b593d5dc293c1",
+      "size": 1028
+    },
+    {
+      "path": "public/compare-data/noticing.json",
+      "sha": "85776b6b2f02ba3189b53d7fcbcfd21b43b1ff9e",
+      "size": 838
+    },
+    {
+      "path": "public/compare-data/novelty.json",
+      "sha": "9e860bdea62c7b500648d191801d0273d27f0a4f",
+      "size": 326
+    },
+    {
+      "path": "public/compare-data/now.json",
+      "sha": "50b585907a279aa62eb53c3626e6db4b9bf0bf25",
+      "size": 2105
+    },
+    {
+      "path": "public/compare-data/observation.json",
+      "sha": "2d81178d87ccf9cd77ccdad69d8379f78bb475d8",
+      "size": 1849
+    },
+    {
+      "path": "public/compare-data/observer.json",
+      "sha": "e9d8042e22a5795881b5cbc028988982bad5dc41",
+      "size": 1606
+    },
+    {
+      "path": "public/compare-data/obvious.json",
+      "sha": "a037b8faa634aeb0e81d5f12787314bde4750336",
+      "size": 794
+    },
+    {
+      "path": "public/compare-data/old.json",
+      "sha": "be074ace9b986d62c40ac49a858939e0951cad21",
+      "size": 932
+    },
+    {
+      "path": "public/compare-data/only.json",
+      "sha": "ad8abe76dc28e175bdc2cd38e2edf95d801f4057",
+      "size": 714
+    },
+    {
+      "path": "public/compare-data/operational.json",
+      "sha": "0e73ff038219300385b0a4c444bbc1464729c02c",
+      "size": 781
+    },
+    {
+      "path": "public/compare-data/or.json",
+      "sha": "d5a958ef50e3ef1454f6e1c9c1975c6c7eed51ef",
+      "size": 1440
+    },
+    {
+      "path": "public/compare-data/order.json",
+      "sha": "850eb2d19d47df5bcdd83181c07d0976d698be19",
+      "size": 1277
+    },
+    {
+      "path": "public/compare-data/original.json",
+      "sha": "f5424209a4aeac8f93c7c138184dfc4146784f68",
+      "size": 316
+    },
+    {
+      "path": "public/compare-data/other.json",
+      "sha": "b16c44cb80f68bfa13c87748e3d82d52cf511cfd",
+      "size": 683
+    },
+    {
+      "path": "public/compare-data/otherwise.json",
+      "sha": "db33462f0c0c899e3f43e429e2c79d28f0194717",
+      "size": 638
+    },
+    {
+      "path": "public/compare-data/outsource.json",
+      "sha": "42a887333a605f5125716419f793404ec841b819",
+      "size": 344
+    },
+    {
+      "path": "public/compare-data/over.json",
+      "sha": "241f4c751e6cfa499ebf31302084335cf27a226e",
+      "size": 764
+    },
+    {
+      "path": "public/compare-data/own.json",
+      "sha": "5fb6bdfe41996ccea8525b65ddff974e259df052",
+      "size": 1295
+    },
+    {
+      "path": "public/compare-data/pain.json",
+      "sha": "207e32923a79c9196f3478f1252b3ea791bc8140",
+      "size": 2091
+    },
+    {
+      "path": "public/compare-data/paradox.json",
+      "sha": "50a9e55fe272148d44d92d858bdf3aaf009e564d",
+      "size": 1276
+    },
+    {
+      "path": "public/compare-data/paralysis.json",
+      "sha": "d89458cc68a58d269796093d8b02e6a41a036335",
+      "size": 636
+    },
+    {
+      "path": "public/compare-data/part.json",
+      "sha": "52cf764a7460c415e8a7863b9393352676dced38",
+      "size": 735
+    },
+    {
+      "path": "public/compare-data/passive.json",
+      "sha": "48e02f2cef2988d771af4f0efffbeab42fc96e8c",
+      "size": 1966
+    },
+    {
+      "path": "public/compare-data/path.json",
+      "sha": "5cba88218b58d2c9f68fb0df89a8665ed1932da8",
+      "size": 1364
+    },
+    {
+      "path": "public/compare-data/pattern.json",
+      "sha": "3f9571f6210e7be2c281cf562b737ac7145599d7",
+      "size": 859
+    },
+    {
+      "path": "public/compare-data/payoff.json",
+      "sha": "566b86a8855adf99c490352495a99f320d5e4119",
+      "size": 920
+    },
+    {
+      "path": "public/compare-data/peace.json",
+      "sha": "05a03c687b1f703542d79cfe3004e318d3559a39",
+      "size": 884
+    },
+    {
+      "path": "public/compare-data/peaks.json",
+      "sha": "5f345602a49450df2db721ed20bba283e881adc5",
+      "size": 309
+    },
+    {
+      "path": "public/compare-data/perceived.json",
+      "sha": "3bac7785b56a04e0aee97f6d701160df6d4d5660",
+      "size": 753
+    },
+    {
+      "path": "public/compare-data/performative.json",
+      "sha": "83dcd7feffbd19389a73370b9e6968ee3f9e706e",
+      "size": 1207
+    },
+    {
+      "path": "public/compare-data/perhaps.json",
+      "sha": "7f07755856743bbbf13bcb36c12705da3b003076",
+      "size": 804
+    },
+    {
+      "path": "public/compare-data/permanence.json",
+      "sha": "794ce88adcfe50293c189ada04a0f2daf9b7f7a0",
+      "size": 2920
+    },
+    {
+      "path": "public/compare-data/persistence.json",
+      "sha": "4055922acc44d804509944c772fd6df24c903345",
+      "size": 2628
+    },
+    {
+      "path": "public/compare-data/person.json",
+      "sha": "d590a6bce7e166a50b149a92b7b596ba0c39884a",
+      "size": 2756
+    },
+    {
+      "path": "public/compare-data/perspective.json",
+      "sha": "7da6b90cf9e1850aed3e899518bf78767053cbc2",
+      "size": 2258
+    },
+    {
+      "path": "public/compare-data/phenomenology.json",
+      "sha": "58200cc1e7592132c32e08cdfc15f809799b624c",
+      "size": 1757
+    },
+    {
+      "path": "public/compare-data/pointer.json",
+      "sha": "ca8cac3f09905c97df53120ae0d5074ce29a0aed",
+      "size": 2091
+    },
+    {
+      "path": "public/compare-data/pointing.json",
+      "sha": "c0c7e8b7f4b30e652e2b9a234e6c4e6bea14ebc8",
+      "size": 340
+    },
+    {
+      "path": "public/compare-data/polite.json",
+      "sha": "33d834ddb73a1497ae60ca92c1cb3595204de90c",
+      "size": 747
+    },
+    {
+      "path": "public/compare-data/possible.json",
+      "sha": "feda848c78aff0b2703e85c704378753fab42485",
+      "size": 878
+    },
+    {
+      "path": "public/compare-data/potential.json",
+      "sha": "9af01e29392d602e431cecdff36fa08d6c81d740",
+      "size": 1861
+    },
+    {
+      "path": "public/compare-data/premature.json",
+      "sha": "a9f9f0df9d1db40118639fda56be4018850877f6",
+      "size": 782
+    },
+    {
+      "path": "public/compare-data/presence.json",
+      "sha": "b98e93c20fb6783111062bd5b039067d376ac176",
+      "size": 1348
+    },
+    {
+      "path": "public/compare-data/presuppose.json",
+      "sha": "a90a38d2da18a637dde497991eb2c775596f32ff",
+      "size": 1408
+    },
+    {
+      "path": "public/compare-data/prior.json",
+      "sha": "55770f868c83230be489cc8493794a5e078ed3b9",
+      "size": 797
+    },
+    {
+      "path": "public/compare-data/procedural.json",
+      "sha": "29e60998e7777965bf1012c255f0da7c00486992",
+      "size": 563
+    },
+    {
+      "path": "public/compare-data/processed.json",
+      "sha": "1cae9394dd2b4e1811a1958cd2af45f4bb7390ce",
+      "size": 3318
+    },
+    {
+      "path": "public/compare-data/productive.json",
+      "sha": "4d37ce2576a274a147e0a9c1ef88f0089da1cef8",
+      "size": 719
+    },
+    {
+      "path": "public/compare-data/projection.json",
+      "sha": "838c1c4d8c14a3f9a5a32b676d86e4a01a1e8a89",
+      "size": 514
+    },
+    {
+      "path": "public/compare-data/protective.json",
+      "sha": "dcbea9afceb8e666ae02ba7256f7cb577dc1241d",
+      "size": 1149
+    },
+    {
+      "path": "public/compare-data/prove.json",
+      "sha": "6b75a010ced12ff5562bd8f244cd5da69769f2e4",
+      "size": 703
+    },
+    {
+      "path": "public/compare-data/proxy.json",
+      "sha": "4f1109cb899be2a00dbf969b842e4059ceeb4c66",
+      "size": 1287
+    },
+    {
+      "path": "public/compare-data/rational.json",
+      "sha": "67ed3220ff552ed47984c59b941409d91d5be8c4",
+      "size": 613
+    },
+    {
+      "path": "public/compare-data/raw.json",
+      "sha": "c77f8f502772f9fc5c3b41d6417f88c6118830f6",
+      "size": 2806
+    },
+    {
+      "path": "public/compare-data/ready.json",
+      "sha": "3a3a63c811ef407b292c06c78b52934dacb3f643",
+      "size": 1029
+    },
+    {
+      "path": "public/compare-data/real.json",
+      "sha": "4bcc03b18d406797ef76fe601bcce3a427a67a3a",
+      "size": 2042
+    },
+    {
+      "path": "public/compare-data/really.json",
+      "sha": "a67e4e63e70d9ba85ec18c63ba9f532272bbf443",
+      "size": 1142
+    },
+    {
+      "path": "public/compare-data/recognize.json",
+      "sha": "124889489ff12b7aa8c02dff89da473569b2222b",
+      "size": 1275
+    },
+    {
+      "path": "public/compare-data/reference.json",
+      "sha": "1cf3d16de9d8d5ec11d00b917f6bda99665cc9fa",
+      "size": 3152
+    },
+    {
+      "path": "public/compare-data/reflexive.json",
+      "sha": "3703019949719dc6897ecfa5c875d5420c1d46af",
+      "size": 774
+    },
+    {
+      "path": "public/compare-data/regress.json",
+      "sha": "e61fcff30b7aa1feeff98ff395794591eff440bc",
+      "size": 1428
+    },
+    {
+      "path": "public/compare-data/releasing.json",
+      "sha": "2b9ff5141837db50f54d5e58e094d73383a044f2",
+      "size": 1372
+    },
+    {
+      "path": "public/compare-data/relevance.json",
+      "sha": "8f08cacee73363eeae35bfcb530bdc379c05b539",
+      "size": 340
+    },
+    {
+      "path": "public/compare-data/relevant.json",
+      "sha": "f8d46bc100e5f5970bf9e06ae2c7e200d013dc8c",
+      "size": 1364
+    },
+    {
+      "path": "public/compare-data/repetition.json",
+      "sha": "befd3e5a9358117faf9d0f70c86848ffe765ca71",
+      "size": 1104
+    },
+    {
+      "path": "public/compare-data/resist.json",
+      "sha": "9a2f72f793bf35da1515b343911a3cf079d144b6",
+      "size": 598
+    },
+    {
+      "path": "public/compare-data/responsive.json",
+      "sha": "4ecca785ec682f93fb6ac0f1ed12d59b20888105",
+      "size": 639
+    },
+    {
+      "path": "public/compare-data/resting.json",
+      "sha": "09b5e8a5be903f7227e7217ac5612e483db85876",
+      "size": 664
+    },
+    {
+      "path": "public/compare-data/retain.json",
+      "sha": "82a5f755a28244f14549cf7b77ad9fd0ef8b4092",
+      "size": 1372
+    },
+    {
+      "path": "public/compare-data/reveal.json",
+      "sha": "38fac0594de30fa7949976cbee292e66c515931c",
+      "size": 860
+    },
+    {
+      "path": "public/compare-data/right.json",
+      "sha": "2e716157327a62a7f84dcffe3bbb208e8e01967b",
+      "size": 994
+    },
+    {
+      "path": "public/compare-data/ritual.json",
+      "sha": "52096d117d3611312ba14797dcc69f039ee4a398",
+      "size": 831
+    },
+    {
+      "path": "public/compare-data/safe.json",
+      "sha": "62948c98dcad68bbf5578cc4e536f5bc27827a66",
+      "size": 655
+    },
+    {
+      "path": "public/compare-data/same.json",
+      "sha": "f5de116b702e9bc6ca4536ac1a6e4354ce18e8ea",
+      "size": 1288
+    },
+    {
+      "path": "public/compare-data/satisfaction.json",
+      "sha": "0b87b8b2d994a9b89d20260db2df491914ceebf9",
+      "size": 1735
+    },
+    {
+      "path": "public/compare-data/satisfy.json",
+      "sha": "906214920fa0d89ea7c6cd8c27b0d1501de6825d",
+      "size": 686
+    },
+    {
+      "path": "public/compare-data/saying.json",
+      "sha": "19f80fac25770132611331de9075e7965dad7adb",
+      "size": 1562
+    },
+    {
+      "path": "public/compare-data/scary.json",
+      "sha": "96ae7b0541b22a854d50df8b485086020a32426f",
+      "size": 1637
+    },
+    {
+      "path": "public/compare-data/scope.json",
+      "sha": "8dbe0b61b0698445f72d8a57ceed85d1c43072bc",
+      "size": 595
+    },
+    {
+      "path": "public/compare-data/seek.json",
+      "sha": "74ade91aa702162c7d786be0f77d288f0fcbf825",
+      "size": 1305
+    },
+    {
+      "path": "public/compare-data/seeker.json",
+      "sha": "d1030de75e4d1630ec4bc326bf14648773b9148e",
+      "size": 2555
+    },
+    {
+      "path": "public/compare-data/seeming.json",
+      "sha": "8439bef22fed71fa7423a7583528b827eeeeedb5",
+      "size": 4138
+    },
+    {
+      "path": "public/compare-data/selection.json",
+      "sha": "f5c24f26427e17b655c5a328f34f36a73f6475d7",
+      "size": 531
+    },
+    {
+      "path": "public/compare-data/selfholding.json",
+      "sha": "b3bcba389221453d584a943bb4073d0e1820c8a4",
+      "size": 1268
+    },
+    {
+      "path": "public/compare-data/selfless.json",
+      "sha": "35fcaef54793c6963d22adfaa66ca0c3382f29ad",
+      "size": 1223
+    },
+    {
+      "path": "public/compare-data/selfsameness.json",
+      "sha": "9bec1e23e1ac874fb85e6fa410fb88043c6259f0",
+      "size": 2666
+    },
+    {
+      "path": "public/compare-data/separation.json",
+      "sha": "60c1dfb0445b4fe7fa79e219e260d4f2d26cfd34",
+      "size": 2196
+    },
+    {
+      "path": "public/compare-data/shape.json",
+      "sha": "9df0f15a832d0788401b116c0e073c3f0b91dace",
+      "size": 686
+    },
+    {
+      "path": "public/compare-data/sharing.json",
+      "sha": "670654d6534e6919362c94c1d48d1210000a1ce0",
+      "size": 1416
+    },
+    {
+      "path": "public/compare-data/should.json",
+      "sha": "015b74d59e72509cec9789f0ae83041b94a17737",
+      "size": 1540
+    },
+    {
+      "path": "public/compare-data/sign.json",
+      "sha": "e75ffcf597cd7a00509da3240947db81a17e4a95",
+      "size": 3103
+    },
+    {
+      "path": "public/compare-data/significance.json",
+      "sha": "bddd4c613137f25cb251aea354935e584b897444",
+      "size": 1182
+    },
+    {
+      "path": "public/compare-data/silence.json",
+      "sha": "b760619ff90bc666ef42f159fbfc84b021f5225b",
+      "size": 2521
+    },
+    {
+      "path": "public/compare-data/simple.json",
+      "sha": "6a8c686bd5f45a869f8dabefa4c478b02409b55f",
+      "size": 1248
+    },
+    {
+      "path": "public/compare-data/smallest.json",
+      "sha": "e70b82ddabca1b61024d208a1dd1c10a5da737ea",
+      "size": 1170
+    },
+    {
+      "path": "public/compare-data/so.json",
+      "sha": "626f123e265cdcd89e79e2db535a963cb2144df0",
+      "size": 1075
+    },
+    {
+      "path": "public/compare-data/some.json",
+      "sha": "912ca7c97af95fbeeb51c4d097c8634cf33ab0b4",
+      "size": 709
+    },
+    {
+      "path": "public/compare-data/soon.json",
+      "sha": "b17d4ed4f8aca598e0d45877512e894db28c021d",
+      "size": 1042
+    },
+    {
+      "path": "public/compare-data/soul.json",
+      "sha": "48682dcf1d95af6f269b75f2168fc475a8966347",
+      "size": 2432
+    },
+    {
+      "path": "public/compare-data/source.json",
+      "sha": "49e070513354c2d91b6c1583a02c8352f1e767a3",
+      "size": 1710
+    },
+    {
+      "path": "public/compare-data/space.json",
+      "sha": "b6782fd1d7569d86630250da2d4e3045601d9aeb",
+      "size": 2129
+    },
+    {
+      "path": "public/compare-data/specific.json",
+      "sha": "136f6706bf4b2330fe9e33b11f7fc768fe1c315c",
+      "size": 908
+    },
+    {
+      "path": "public/compare-data/spontaneous.json",
+      "sha": "82316f9fab9f80e49e3d53c36d3ae4ae3307a749",
+      "size": 2421
+    },
+    {
+      "path": "public/compare-data/spurious.json",
+      "sha": "55d7b32604084b0a86453fec290f3279ff5c1aea",
+      "size": 613
+    },
+    {
+      "path": "public/compare-data/standards.json",
+      "sha": "2a5bcf5e8df9887e549a98d80ee062a6bf37af75",
+      "size": 1398
+    },
+    {
+      "path": "public/compare-data/still.json",
+      "sha": "5a23fab52f327f8517be01aaae756597586de48d",
+      "size": 1005
+    },
+    {
+      "path": "public/compare-data/stillness.json",
+      "sha": "7a985e35e31221cbb1a84cb0531237e5d69a76f1",
+      "size": 2314
+    },
+    {
+      "path": "public/compare-data/stopping.json",
+      "sha": "8eed4767c73800e7a6b304c7c587040f802a1a68",
+      "size": 1341
+    },
+    {
+      "path": "public/compare-data/stops.json",
+      "sha": "9b4eb8c5644c4b02ad33234630be6d19e8874eab",
+      "size": 1563
+    },
+    {
+      "path": "public/compare-data/story.json",
+      "sha": "220f450e74dbaf8db9076aa44b73a9e11d9f91d7",
+      "size": 1700
+    },
+    {
+      "path": "public/compare-data/stuck.json",
+      "sha": "9fb0acca765b7ed7442e8c3b0498ec6ebda672a6",
+      "size": 878
+    },
+    {
+      "path": "public/compare-data/such.json",
+      "sha": "446b6bca0412e02c00383795899bb7ad7575c2c7",
+      "size": 614
+    },
+    {
+      "path": "public/compare-data/sufficient.json",
+      "sha": "e518c1a20f97e942dbeb7a564e4dd4085eec4150",
+      "size": 1563
+    },
+    {
+      "path": "public/compare-data/sure.json",
+      "sha": "ae3886ae8bac8c109cda8566498234ea9946969e",
+      "size": 1510
+    },
+    {
+      "path": "public/compare-data/suspend.json",
+      "sha": "31f92b5b79ecd4c68c61faa65b06d79c9524afa2",
+      "size": 665
+    },
+    {
+      "path": "public/compare-data/suspicious.json",
+      "sha": "3e89dcc85a9dd9496fd0160509c8a91013730af6",
+      "size": 854
+    },
+    {
+      "path": "public/compare-data/sustained.json",
+      "sha": "62fa03d39927198cf2bf5ea4d403453726eba71d",
+      "size": 562
+    },
+    {
+      "path": "public/compare-data/symmetric.json",
+      "sha": "bcc3d02d69e06b32df7ac0b1f4416500891bbdcf",
+      "size": 594
+    },
+    {
+      "path": "public/compare-data/symptoms.json",
+      "sha": "7183fed62bd1942165be034164c9ec20c13d550b",
+      "size": 1408
+    },
+    {
+      "path": "public/compare-data/taboo.json",
+      "sha": "6d2761dfbbaf21a7e10dbdeaa2f1a7a178ba56ea",
+      "size": 738
+    },
+    {
+      "path": "public/compare-data/tautology.json",
+      "sha": "fd42bb54bea8d10fe04ba41e923ccb6fbce43c01",
+      "size": 2471
+    },
+    {
+      "path": "public/compare-data/termination.json",
+      "sha": "2d3fda63f827d8eedf48f92f68ec60651be742cd",
+      "size": 1517
+    },
+    {
+      "path": "public/compare-data/territory.json",
+      "sha": "647e9ecf896655779029f08a0b0ab71a0114fa19",
+      "size": 1396
+    },
+    {
+      "path": "public/compare-data/testing.json",
+      "sha": "fa274a03df557aa716736a5d9ca336e95dd5cd71",
+      "size": 1849
+    },
+    {
+      "path": "public/compare-data/texture.json",
+      "sha": "463b2fae246e380430ea36b1c5d731e9b6086f3c",
+      "size": 2096
+    },
+    {
+      "path": "public/compare-data/theater.json",
+      "sha": "4c098f50380b79d17e9ac51db0ed64e089c8c931",
+      "size": 744
+    },
+    {
+      "path": "public/compare-data/then.json",
+      "sha": "9f21923a46424031363c4fc04819dcef9c113147",
+      "size": 2017
+    },
+    {
+      "path": "public/compare-data/there.json",
+      "sha": "f1ac7e7a86bf55cb2c22231b9d38dc47cb3eb684",
+      "size": 1202
+    },
+    {
+      "path": "public/compare-data/therefore.json",
+      "sha": "cddad387e78089ef93faac00742ed9f794836643",
+      "size": 708
+    },
+    {
+      "path": "public/compare-data/thinking.json",
+      "sha": "0523c0127e793c91e3bb5c732a4043b57e9fcb16",
+      "size": 1040
+    },
+    {
+      "path": "public/compare-data/thought.json",
+      "sha": "c4cd35085e877a01808a20cdf070ca230e53fa43",
+      "size": 2085
+    },
+    {
+      "path": "public/compare-data/threatening.json",
+      "sha": "500220c876e050ec3783ccacce5bee7c789ea05b",
+      "size": 459
+    },
+    {
+      "path": "public/compare-data/threshold.json",
+      "sha": "d142da99102da413aa5a433a25f546dead0c5b35",
+      "size": 1215
+    },
+    {
+      "path": "public/compare-data/through.json",
+      "sha": "b31db5591cc57a0980c0134e6451f62cf13ff7bf",
+      "size": 735
+    },
+    {
+      "path": "public/compare-data/together.json",
+      "sha": "4b0442d03b81b44b01952a4b814912e17b81531f",
+      "size": 1377
+    },
+    {
+      "path": "public/compare-data/totality.json",
+      "sha": "7389eeb54d3c5476cda20c6a713733956b6c4848",
+      "size": 1851
+    },
+    {
+      "path": "public/compare-data/toward.json",
+      "sha": "7f5aeb6f5f99eee5fafec4f6fd681af3209a89f9",
+      "size": 893
+    },
+    {
+      "path": "public/compare-data/tradeoff.json",
+      "sha": "b28170acd42bef745652c00aa514ffd5b45db2b5",
+      "size": 595
+    },
+    {
+      "path": "public/compare-data/transferred.json",
+      "sha": "957018de7b71706d0a966e15bd8419cb1b704ee6",
+      "size": 364
+    },
+    {
+      "path": "public/compare-data/transform.json",
+      "sha": "3fc76eef8bab6317df47f828ea0f3c139cd74b66",
+      "size": 1184
+    },
+    {
+      "path": "public/compare-data/transformation.json",
+      "sha": "8856cef8343b15a4dde6e09a466ebe253e682c1c",
+      "size": 2145
+    },
+    {
+      "path": "public/compare-data/treadmill.json",
+      "sha": "a9ba9455cd648c25baf0793c8bc3a8189acbdef7",
+      "size": 1943
+    },
+    {
+      "path": "public/compare-data/true.json",
+      "sha": "b5c78bf6d3fb65bddce0474010a762923711b1b7",
+      "size": 1632
+    },
+    {
+      "path": "public/compare-data/truth.json",
+      "sha": "369879104100ca0696be146490ce1617a08e14c0",
+      "size": 2295
+    },
+    {
+      "path": "public/compare-data/ultimate.json",
+      "sha": "6fd6182d1b87a9f7035b4b5c5fbdc5e0df4a6887",
+      "size": 307
+    },
+    {
+      "path": "public/compare-data/unasked.json",
+      "sha": "47e1535a1f112c85a4f82bae0d2d6c1f518cba91",
+      "size": 845
+    },
+    {
+      "path": "public/compare-data/under.json",
+      "sha": "1757e2f9a3bd2d8aedf4d812b0446f5a97303b4e",
+      "size": 1069
+    },
+    {
+      "path": "public/compare-data/understanding.json",
+      "sha": "9ae102b9891a9e200273869e562c7484252cb26d",
+      "size": 2262
+    },
+    {
+      "path": "public/compare-data/unified.json",
+      "sha": "1a5305d5d3733ccea09c298ebc78c05d3b75480c",
+      "size": 847
+    },
+    {
+      "path": "public/compare-data/unity.json",
+      "sha": "972129ea50849bc8b76a88fce366af1f7a160cb7",
+      "size": 1382
+    },
+    {
+      "path": "public/compare-data/unknown.json",
+      "sha": "90a7382b0f2834313ca0a2e651b74f849a09ff06",
+      "size": 1046
+    },
+    {
+      "path": "public/compare-data/unpack.json",
+      "sha": "62248e2a598bc15d221bb645d04ed2143b20f2eb",
+      "size": 883
+    },
+    {
+      "path": "public/compare-data/unrecognized.json",
+      "sha": "b3be0ebaff448f1205a8ced454da3907d410e92a",
+      "size": 714
+    },
+    {
+      "path": "public/compare-data/unseen.json",
+      "sha": "6b41719a55d983dc37d5b95d07311ce54d6fe2c9",
+      "size": 524
+    },
+    {
+      "path": "public/compare-data/unstrategizable.json",
+      "sha": "9d509e3922fa570a9d1d8a59562f1c6e6b2f5e5f",
+      "size": 357
+    },
+    {
+      "path": "public/compare-data/upstream.json",
+      "sha": "cbcd954abf643662e200aa79167497566a5992d0",
+      "size": 753
+    },
+    {
+      "path": "public/compare-data/vague.json",
+      "sha": "2b5582c0c2a7188fd43e31b7009c4dad1c6d8091",
+      "size": 910
+    },
+    {
+      "path": "public/compare-data/validity.json",
+      "sha": "b950ecfd3c73d2de088d9540aef78e1035b6ed06",
+      "size": 1034
+    },
+    {
+      "path": "public/compare-data/verify.json",
+      "sha": "8918561281a97273279de949927fd83de2fedce1",
+      "size": 1081
+    },
+    {
+      "path": "public/compare-data/voice.json",
+      "sha": "8d8e549620674e8f98343b844193f06b8f423fae",
+      "size": 2942
+    },
+    {
+      "path": "public/compare-data/void.json",
+      "sha": "f228003b9c8b5dbe5612b322da0bdfcedc6485d5",
+      "size": 1333
+    },
+    {
+      "path": "public/compare-data/want.json",
+      "sha": "a39841bc43bdbc726b6d77c6e71cd4705c1b2371",
+      "size": 1876
+    },
+    {
+      "path": "public/compare-data/wanting.json",
+      "sha": "f889d098d7801f3ff54264e977ec594f519d6844",
+      "size": 2255
+    },
+    {
+      "path": "public/compare-data/web.json",
+      "sha": "caac12ef1bba969be40052d0340c2ed0833b11e2",
+      "size": 1409
+    },
+    {
+      "path": "public/compare-data/what.json",
+      "sha": "b1815fd343de2786ed364794990d09364c32c958",
+      "size": 3123
+    },
+    {
+      "path": "public/compare-data/when.json",
+      "sha": "afbc0ea8571515e0fca77eeafcb99c16b2b80bb2",
+      "size": 1531
+    },
+    {
+      "path": "public/compare-data/where.json",
+      "sha": "003bda4eb465c4bc9e9edf4e3eca10b0f348664c",
+      "size": 1253
+    },
+    {
+      "path": "public/compare-data/which.json",
+      "sha": "ea1857f9106fcd12569e6042687b90a17dcc0e15",
+      "size": 1171
+    },
+    {
+      "path": "public/compare-data/who.json",
+      "sha": "dfc4d6bb208aaa56d533a9b5471329ba4e017d1b",
+      "size": 1189
+    },
+    {
+      "path": "public/compare-data/whole.json",
+      "sha": "dfc6c3a02d40db40a93617139e86d642c19efdb3",
+      "size": 813
+    },
+    {
+      "path": "public/compare-data/whom.json",
+      "sha": "f385113eb9fec85dd16084553e899dfceeab32bd",
+      "size": 574
+    },
+    {
+      "path": "public/compare-data/whose.json",
+      "sha": "a59a13d794dd4fbf059df664dec0715b3c070bed",
+      "size": 608
+    },
+    {
+      "path": "public/compare-data/why.json",
+      "sha": "cb8456bf040bb80cfd4a2eaf11d760af2825ec60",
+      "size": 3716
+    },
+    {
+      "path": "public/compare-data/will.json",
+      "sha": "43f7d249c7b9b74f0917745f81d215c4adad7c85",
+      "size": 752
+    },
+    {
+      "path": "public/compare-data/win.json",
+      "sha": "c079236c9d5f769a99c33daf5035208969435214",
+      "size": 1226
+    },
+    {
+      "path": "public/compare-data/within.json",
+      "sha": "5c2345a7393ba0dec927eb7097c570e23300d14c",
+      "size": 845
+    },
+    {
+      "path": "public/compare-data/without.json",
+      "sha": "6a45e430c988ec1bbf5f77f0eb80be6173355675",
+      "size": 991
+    },
+    {
+      "path": "public/compare-data/witness.json",
+      "sha": "e679df18c3bf954396a991d66661cb4fe0259a94",
+      "size": 1879
+    },
+    {
+      "path": "public/compare-data/word.json",
+      "sha": "a5051235c755a442390b09f41e00516feba5ab8c",
+      "size": 1323
+    },
+    {
+      "path": "public/compare-data/wordless.json",
+      "sha": "c506aa57cb3e11498b6174537a45f8f92cd064e5",
+      "size": 1597
+    },
+    {
+      "path": "public/compare-data/world.json",
+      "sha": "37db4203faaef9a0574be88482795773bdf1267f",
+      "size": 2462
+    },
+    {
+      "path": "public/compare-data/worse.json",
+      "sha": "ca2527e75ff63bacf941627c5c0d152f5c9e95ac",
+      "size": 937
+    },
+    {
+      "path": "public/compare-data/worsening.json",
+      "sha": "2677041e873a0a7451448ad691f590f064994249",
+      "size": 606
+    },
+    {
+      "path": "public/compare-data/worth.json",
+      "sha": "4d8e115ae0cdfe6e05b776ad85fb135dedb318b1",
+      "size": 915
+    },
+    {
+      "path": "public/compare-data/would.json",
+      "sha": "c2b24ac9bfbce17c7c76a20373ecbfc14b199acf",
+      "size": 613
+    },
+    {
+      "path": "public/compare-data/yet.json",
+      "sha": "a6ff39e6e5a921779366f261615840deeac2dc1a",
+      "size": 871
+    }
+  ]
+}

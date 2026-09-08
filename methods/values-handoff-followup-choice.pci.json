@@ -1,0 +1,88 @@
+{
+  "name": "Invitation follow-up choice",
+  "description": "Select a draft acknowledgement or clarification from a response record while retaining each participant's stated boundaries.",
+  "inputs": {
+    "response_record": "Component-level stances with evidence and conditions.",
+    "available_actions": "Concrete possible acknowledgements, clarifications or no further action.",
+    "goal": "The original invitation goal, retained even when not achievable yet."
+  },
+  "outputs": {
+    "draft": "A concrete unsent acknowledgement or question, or a no-action record.",
+    "reason": "The explicit stance or unresolved meaning that selects it.",
+    "goal_status": "Current achievable, conditional or unresolved parts."
+  },
+  "success_criteria": [
+    "An accepted bounded role is not broadened.",
+    "A stated refusal is not treated as a request for persuasion.",
+    "A condition is carried into the draft."
+  ],
+  "steps": [
+    "Read the response record and its conditions.",
+    "For accepted components, draft the bounded acknowledgement.",
+    "For conditional components, expose the stated condition and an available matching option if one exists.",
+    "For unknown components, draft one question about the missing meaning when needed.",
+    "For declined components, draft an acknowledgement that leaves that component declined.",
+    "Return the draft, selection reason and remaining goal status without sending anything."
+  ],
+  "verification": [
+    "Compare every proposed commitment in the draft with the supplied response record.",
+    "Confirm the original desired goal is still visible when currently unmet."
+  ],
+  "complexity": "simple for explicit stances; moderate for mixed records.",
+  "dependencies": [
+    "Invitation response record."
+  ],
+  "reuse_potential": "Repeated bounded collaboration invitations.",
+  "id": "local-followup-choice",
+  "version": "1.0.0",
+  "when_to_use": [
+    "A scoped response record is available and a draft next step is useful.",
+    "Several different stances occur in one reply."
+  ],
+  "examples": [
+    {
+      "input": "Reading accepted for two pages; hosting declined.",
+      "output": "Thank them for two-page reading; acknowledge no hosting; assign neither extra reading nor hosting."
+    },
+    {
+      "input": "Joining conditional on audio; audio option available.",
+      "output": "Draft the audio option as a proposal with confirmation pending."
+    },
+    {
+      "input": "Unknown whether “too much” concerns length or recurrence.",
+      "output": "Draft one question distinguishing those two meanings."
+    },
+    {
+      "input": "All requested components explicitly declined.",
+      "output": "Acknowledge decline; do not generate persuasion as an accepted next step."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Goal silently replaced after refusal",
+      "consequence": "The original desired relationship disappears.",
+      "prevention": "Retain the desired goal and its current unmet components."
+    },
+    {
+      "failure": "Draft is treated as delivery",
+      "consequence": "The record invents an interaction.",
+      "prevention": "Label draft and keep delivery unperformed."
+    },
+    {
+      "failure": "Repeated invitation after a clear no",
+      "consequence": "Selection ignores the stated boundary.",
+      "prevention": "Choose bounded acknowledgement or no further action."
+    },
+    {
+      "failure": "A promise attached to a conditional option",
+      "consequence": "Recipient appears committed before an answer.",
+      "prevention": "Preserve proposed and confirmed states."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Invitation response record.",
+    "before": "Any separately authorized human interaction.",
+    "external_gate": "No external message is authorized by this artifact.",
+    "artifact_scope": "Local draft selection."
+  }
+}

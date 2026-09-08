@@ -1,0 +1,131 @@
+{
+  "run_at_utc": "2026-09-08T04:44:48.003674+00:00",
+  "prediction_sha256": "c65483172f3abdabe59844de54b0f0678dd6a27ea338a2c4ad091efb1353cb18",
+  "predictions_frozen_at": "2026-09-08T04:44:18.951646+00:00",
+  "results": [
+    {
+      "id": "NEW-1",
+      "input": {
+        "budget": 24
+      },
+      "prediction": {
+        "actions": [
+          "E"
+        ],
+        "cost": 20,
+        "value": 18
+      },
+      "confidence": 85,
+      "actual": {
+        "actions": [
+          "E"
+        ],
+        "cost": 20,
+        "value": 18
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-2",
+      "input": {
+        "budget": 44
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C"
+        ],
+        "cost": 35,
+        "value": 40
+      },
+      "confidence": 85,
+      "actual": {
+        "actions": [
+          "S",
+          "C"
+        ],
+        "cost": 35,
+        "value": 40
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-3",
+      "input": {
+        "budget": 54
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "G"
+        ],
+        "cost": 50,
+        "value": 48
+      },
+      "confidence": 80,
+      "actual": {
+        "actions": [
+          "S",
+          "C",
+          "G"
+        ],
+        "cost": 50,
+        "value": 48
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-4",
+      "input": {
+        "budget": 64
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "confidence": 85,
+      "actual": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "matched": true
+    },
+    {
+      "id": "NEW-5",
+      "input": {
+        "budget": 69
+      },
+      "prediction": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "confidence": 85,
+      "actual": {
+        "actions": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      },
+      "matched": true
+    }
+  ]
+}

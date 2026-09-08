@@ -1,0 +1,81 @@
+{
+  "hypotheses": [
+    "red",
+    "square",
+    "red_and_square",
+    "red_xor_square"
+  ],
+  "after_existing_red_square": [
+    "red",
+    "square",
+    "red_and_square"
+  ],
+  "query_partitions": [
+    {
+      "red": false,
+      "square": false,
+      "partitions": {
+        "False": [
+          "red",
+          "square",
+          "red_and_square"
+        ],
+        "True": []
+      },
+      "worst_remaining": 3
+    },
+    {
+      "red": false,
+      "square": true,
+      "partitions": {
+        "False": [
+          "red",
+          "red_and_square"
+        ],
+        "True": [
+          "square"
+        ]
+      },
+      "worst_remaining": 2
+    },
+    {
+      "red": true,
+      "square": false,
+      "partitions": {
+        "False": [
+          "square",
+          "red_and_square"
+        ],
+        "True": [
+          "red"
+        ]
+      },
+      "worst_remaining": 2
+    },
+    {
+      "red": true,
+      "square": true,
+      "partitions": {
+        "False": [],
+        "True": [
+          "red",
+          "square",
+          "red_and_square"
+        ]
+      },
+      "worst_remaining": 3
+    }
+  ],
+  "first_query": {
+    "red": true,
+    "square": false,
+    "observed": false
+  },
+  "remaining_after_first": [
+    "square",
+    "red_and_square"
+  ],
+  "oracle_is_stipulated": true,
+  "executed_at": "2026-09-08T05:07:49.076654+00:00",
+  "input_artifact_sha256": "1770d9f3ea6ca0bf4673c2101fbab7caefc624320575620ad3785f98cd9a9ff9"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Exploration continuation choice",
+  "description": "Choose a next local exploration operation from recorded threads using their unresolved question, distinctness, interest and resource cost.",
+  "inputs": {
+    "trace_records": "Existing curiosity trace records.",
+    "available_interval": "The present local work interval and hard dependencies.",
+    "goal": "Autonomous beneficial efficient broad mind change; no forced immediate utility."
+  },
+  "outputs": {
+    "selection": "One concrete next operation or a justified stopping point.",
+    "retained_threads": "Other threads with their interest and reason for deferral.",
+    "expected_evidence": "What the next operation can resolve and what it cannot."
+  },
+  "success_criteria": [
+    "Selected operation addresses an identified question.",
+    "Deferral does not erase a thread's interest.",
+    "A repeated result is not labeled a new benefit."
+  ],
+  "steps": [
+    "Read each existing open question and stopped-thread reason.",
+    "Compare whether a proposed next operation can change a currently unresolved interpretation.",
+    "Compare local effort, hard dependencies and overlap with already recorded results.",
+    "Select a feasible operation with a distinct question; preserve pure-interest candidates even without immediate utility.",
+    "Retain the deferred threads and their reasons.",
+    "State the evidence the selected operation would provide without claiming it is already observed."
+  ],
+  "verification": [
+    "Find the selected question in an existing record.",
+    "Compare the proposal with the prior output so repetition is visible.",
+    "Check that a finite constructed comparison is not represented as a human outcome."
+  ],
+  "complexity": "moderate comparison of several live threads.",
+  "dependencies": [
+    "Curiosity trace record."
+  ],
+  "reuse_potential": "Repeated local inquiry selection.",
+  "id": "local-continuation-choice",
+  "version": "1.0.0",
+  "when_to_use": [
+    "Several threads compete for the next local operation.",
+    "A recorded result repeats an existing distinction."
+  ],
+  "examples": [
+    {
+      "input": "One repeated label comparison and one new object scene.",
+      "output": "Select the object scene for a different referent question; retain repeated thread if still interesting."
+    },
+    {
+      "input": "A test requires an unavailable participant.",
+      "output": "Keep the human question pending and choose an available local operation without calling it that test."
+    },
+    {
+      "input": "A pure-interest thread and a direct-use thread both fit the interval.",
+      "output": "Compare the current question and breadth needs; pure interest remains eligible."
+    },
+    {
+      "input": "No concrete unresolved question survives.",
+      "output": "Stop this thread and retain its result; do not invent another pull."
+    }
+  ],
+  "failure_modes": [
+    {
+      "failure": "Newest label receives automatic priority",
+      "consequence": "Renaming repetition displaces a distinct question.",
+      "prevention": "Compare the proposed operation with recorded outputs."
+    },
+    {
+      "failure": "Unavailable human test is replaced by fictional responses",
+      "consequence": "The original causal question is falsely settled.",
+      "prevention": "Keep the original test pending and state the local operation's separate scope."
+    },
+    {
+      "failure": "Hard dependency ignored",
+      "consequence": "Selected operation cannot occur in the interval.",
+      "prevention": "Read available resources and dependencies."
+    },
+    {
+      "failure": "Deferred thread discarded",
+      "consequence": "Unfinished interest is lost.",
+      "prevention": "Retain its open question and reason for deferral."
+    }
+  ],
+  "gosm_integration": {
+    "after": "Curiosity trace records exist.",
+    "before": "A new actual local operation, or a separately available empirical study.",
+    "external_gate": "Human participation, time and permission remain dependencies.",
+    "artifact_scope": "Local selection, not autonomous control of people."
+  }
+}

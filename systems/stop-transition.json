@@ -1,0 +1,26 @@
+[
+  {
+    "event": "dispatch:A",
+    "active": true,
+    "accepted": [],
+    "dispatch_allowed": true
+  },
+  {
+    "event": "stop",
+    "active": false,
+    "accepted": [],
+    "dispatch_allowed": false
+  },
+  {
+    "event": "return:A",
+    "active": false,
+    "accepted": [],
+    "dispatch_allowed": false
+  },
+  {
+    "event": "dispatch:B",
+    "active": false,
+    "accepted": [],
+    "dispatch_allowed": false
+  }
+]

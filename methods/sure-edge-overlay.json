@@ -1,0 +1,122 @@
+[
+  {
+    "source": "sure",
+    "target": "true",
+    "relation": "prerequisite",
+    "weight": "high",
+    "original_reason": "Being sure requires that the underlying claim is true",
+    "target_definition": "Truth or validity",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "really",
+    "relation": "clarification",
+    "weight": "high",
+    "original_reason": "Sureness invites the challenge \u2014 are you really sure",
+    "target_definition": "The question of verification and emphasis \u2014 is this actually true or sincere?",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "enough",
+    "relation": "expansion",
+    "weight": "medium",
+    "original_reason": "Certainty can be partial \u2014 are you sure enough to act",
+    "target_definition": "Sufficiency",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "hope",
+    "relation": "contradiction",
+    "weight": "medium",
+    "original_reason": "certainty contradicts uncertainty",
+    "target_definition": "Searches for what hope is as a psychological state and what function it serves in sustaining seeking or action",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "maybe",
+    "relation": "contradiction",
+    "weight": "medium",
+    "original_reason": "certainty contradicts uncertainty",
+    "target_definition": "The question of possibility \u2014 is there a chance this could be true or happen?",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "perhaps",
+    "relation": "contradiction",
+    "weight": "medium",
+    "original_reason": "certainty contradicts uncertainty",
+    "target_definition": "The question of uncertainty \u2014 is this worth considering despite being unconfirmed?",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "threatening",
+    "relation": "contradiction",
+    "weight": "medium",
+    "original_reason": "certainty contradicts uncertainty",
+    "target_definition": "Searches for why a state of not-knowing feels dangerous rather than merely uncomfortable or neutral",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  },
+  {
+    "source": "sure",
+    "target": "unknown",
+    "relation": "contradiction",
+    "weight": "medium",
+    "original_reason": "certainty contradicts uncertainty",
+    "target_definition": "The question of mystery \u2014 what remains hidden or unidentified?",
+    "endorsed_inference": null,
+    "scope": {
+      "actor": null,
+      "proposition": null,
+      "time": null,
+      "sense": null
+    }
+  }
+]

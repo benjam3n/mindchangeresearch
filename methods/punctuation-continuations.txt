@@ -1,0 +1,15 @@
+Seed, unchanged: . . : / .
+
+A. Two readings for the same marks
+Spatial: dot, gap, dot, gap, pair, gap, crossing, gap, dot.
+Temporal score: tap — tap — two together — sweep — tap.
+The spatial reading asks where; the score asks what to do next. These are offered conventions, not recovered meanings.
+
+B. A reply
+. . : / .
+. / : . .
+
+C. The pair leaves itself
+. . : / .
+. . . . / .
+The colon has become two separate dots in the continuation. The first line remains untouched.

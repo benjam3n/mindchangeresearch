@@ -1,0 +1,61 @@
+{
+  "queue_four": {
+    "jobs": [
+      {
+        "id": "A",
+        "p": 9,
+        "d": 10
+      },
+      {
+        "id": "B",
+        "p": 1,
+        "d": 100
+      },
+      {
+        "id": "C",
+        "p": 3,
+        "d": 100
+      },
+      {
+        "id": "D",
+        "p": 2,
+        "d": 100
+      }
+    ],
+    "prediction": "SJF reduces average wait but misses A; FIFO meets all declared deadlines."
+  },
+  "release_wait": {
+    "jobs": [
+      {
+        "id": "A",
+        "r": 0,
+        "p": 4,
+        "d": 7
+      },
+      {
+        "id": "B",
+        "r": 1,
+        "p": 2,
+        "d": 3
+      }
+    ],
+    "prediction_before_test": "Work-conserving earliest-deadline choice at t=0 starts A; waiting for B appears necessary to meet both deadlines. This is a countercase to unqualified EDF optimality for nonpreemptive jobs with release times."
+  },
+  "quiet_room": {
+    "window": 30,
+    "travel": 5,
+    "setup": 4,
+    "task": 20,
+    "cleanup": 2,
+    "buffer": 3
+  },
+  "uninterrupted": {
+    "task": 12,
+    "slices": [
+      6,
+      6,
+      10
+    ],
+    "prediction": "Total 22 available minutes cannot fit an indivisible 12-minute task."
+  }
+}

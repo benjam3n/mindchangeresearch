@@ -1,0 +1,1308 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Selecting by direct benefits alone is sufficient for every feasible bundle in the four-action instance.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C2",
+      "claim": "Every prerequisite in the declared graph must be present for its dependent selected action to be feasible.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C3",
+      "claim": "A zero-direct-value precursor cannot be part of the optimal bundle.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C4",
+      "claim": "The highest-value single action determines the optimal feasible bundle.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C5",
+      "claim": "A budget of40 still permits the old S+C+E plan.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C6",
+      "claim": "At budget40, S+C is the maximum-value feasible bundle in the declared instance.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C7",
+      "claim": "Subtracting the already-spent source cost again improves the current remaining-work decision.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C8",
+      "claim": "A preparation action remains worthwhile when no matching later use occurs.",
+      "type": "analytical candidate",
+      "voi": "high",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C9",
+      "claim": "For costs A=2n and B=6+n without expiry, B is cheaper exactly when n>6.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C10",
+      "claim": "Expiry can be ignored after a prepared option becomes numerically cheaper.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C11",
+      "claim": "A lower cost always establishes higher usefulness.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C12",
+      "claim": "Removing a truly identical duplicate option leaves the achievable optimum unchanged.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C13",
+      "claim": "The stipulated value58 proves this plan helps the user by58 units.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C14",
+      "claim": "A feasible bundle remains feasible when only its budget increases.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C15",
+      "claim": "More time spent on analysis necessarily improves the selected bundle.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C16",
+      "claim": "A useful precursor can earn its cost through a later operation even with no immediate benefit.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C17",
+      "claim": "The current four-action optimum is robust to unknown nonadditive interactions.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    },
+    {
+      "id": "C18",
+      "claim": "The user\u2019s intrinsic reason for requesting this optimization is established by the computed optimum.",
+      "type": "analytical candidate",
+      "voi": "medium",
+      "prior_status": "candidate; not attributed as a user belief"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Assume exactly C1 right: The source precursor could be omitted from cost accounting without losing feasibility.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F2",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "C+E+G lists cost60 but requires S; actual total70 exceeds60.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F3",
+      "parent": "F2",
+      "kind": "ALTERNATIVE",
+      "text": "Bundle feasibility includes every transitive prerequisite.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F4",
+      "parent": "F3",
+      "kind": "AR",
+      "text": "Bundle feasibility includes every transitive prerequisite. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F5",
+      "parent": "F3",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F6",
+      "parent": "C2",
+      "kind": "AR",
+      "text": "Assume exactly C2 right: Selecting C requires S in the same completed plan.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F7",
+      "parent": "C2",
+      "kind": "AW",
+      "text": "Attempted missing-S case is infeasible by the declared edge S\u2192C; it does not refute the claim.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F8",
+      "parent": "F6",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F9",
+      "parent": "C3",
+      "kind": "AR",
+      "text": "Assume exactly C3 right: S would be excluded from the optimum.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F10",
+      "parent": "C3",
+      "kind": "AW",
+      "text": "The feasible maximum S+C+E has value58 and includes S with direct value0.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F11",
+      "parent": "F10",
+      "kind": "ALTERNATIVE",
+      "text": "An enabling precursor can enter the optimum through dependent value.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F12",
+      "parent": "F11",
+      "kind": "AR",
+      "text": "An enabling precursor can enter the optimum through dependent value. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F13",
+      "parent": "F11",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F14",
+      "parent": "C4",
+      "kind": "AR",
+      "text": "Assume exactly C4 right: Choosing C would settle the full allocation.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F15",
+      "parent": "C4",
+      "kind": "AW",
+      "text": "C has value40, but S+C+E adds E and reaches58 within55.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F16",
+      "parent": "F15",
+      "kind": "ALTERNATIVE",
+      "text": "The optimum is over feasible subsets rather than single-action rank.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F17",
+      "parent": "F16",
+      "kind": "AR",
+      "text": "The optimum is over feasible subsets rather than single-action rank. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F18",
+      "parent": "F16",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F19",
+      "parent": "C5",
+      "kind": "AR",
+      "text": "Assume exactly C5 right: The old plan would remain eligible after the budget change.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F20",
+      "parent": "C5",
+      "kind": "AW",
+      "text": "S+C+E costs55, which exceeds40.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F21",
+      "parent": "F20",
+      "kind": "ALTERNATIVE",
+      "text": "The changed budget reopens the bundle choice.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F22",
+      "parent": "F21",
+      "kind": "AR",
+      "text": "The changed budget reopens the bundle choice. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F23",
+      "parent": "F21",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F24",
+      "parent": "C6",
+      "kind": "AR",
+      "text": "Assume exactly C6 right: The new bundle can retain comparison value40 while dropping E.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F25",
+      "parent": "C6",
+      "kind": "AW",
+      "text": "Attempted E+G countercase also costs35 but has value26; exhaustive subsets contain no better feasible option.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F26",
+      "parent": "F24",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F27",
+      "parent": "C7",
+      "kind": "AR",
+      "text": "Assume exactly C7 right: S would be charged twice in the same future-choice budget.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F28",
+      "parent": "C7",
+      "kind": "AW",
+      "text": "If total budget60 already records S10 spent, a remaining budget50 must price only remaining actions; charging S again leaves40 incorrectly.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F29",
+      "parent": "F28",
+      "kind": "ALTERNATIVE",
+      "text": "Keep spent and remaining costs distinct while preserving total feasibility.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F30",
+      "parent": "F29",
+      "kind": "AR",
+      "text": "Keep spent and remaining costs distinct while preserving total feasibility. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F31",
+      "parent": "F29",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F32",
+      "parent": "C8",
+      "kind": "AR",
+      "text": "Assume exactly C8 right: P would be worth6 even when n=0 and yields no benefit.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F33",
+      "parent": "C8",
+      "kind": "AW",
+      "text": "At n=0 prepared route costs6 and direct route costs0 under a work-saving objective.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F34",
+      "parent": "F33",
+      "kind": "ALTERNATIVE",
+      "text": "Preparation value depends on a valid future-use horizon.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F35",
+      "parent": "F34",
+      "kind": "AR",
+      "text": "Preparation value depends on a valid future-use horizon. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F36",
+      "parent": "F34",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F37",
+      "parent": "C9",
+      "kind": "AR",
+      "text": "Assume exactly C9 right: All integer n\u22657 favor B and n=6 ties.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F38",
+      "parent": "C9",
+      "kind": "AW",
+      "text": "Attempted n=6 refutation produces a tie, not B cheaper; algebra n>6 is exact.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F39",
+      "parent": "F37",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F40",
+      "parent": "C10",
+      "kind": "AR",
+      "text": "Assume exactly C10 right: The n10 option would be eligible even when its setup expired at5.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F41",
+      "parent": "C10",
+      "kind": "AW",
+      "text": "The model forbids reuse after5, so numerical cost16 versus20 does not make B eligible.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F42",
+      "parent": "F41",
+      "kind": "ALTERNATIVE",
+      "text": "Eligibility and comparative cost are distinct predicates.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F43",
+      "parent": "F42",
+      "kind": "AR",
+      "text": "Eligibility and comparative cost are distinct predicates. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F44",
+      "parent": "F42",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F45",
+      "parent": "C11",
+      "kind": "AR",
+      "text": "Assume exactly C11 right: The direct two-distinction response would dominate the complete four-distinction one.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F46",
+      "parent": "C11",
+      "kind": "AW",
+      "text": "The task requires four distinctions; direct cost2 fails that requirement while complete cost5 fits a six-unit deadline.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F47",
+      "parent": "F46",
+      "kind": "ALTERNATIVE",
+      "text": "Adequacy can be a hard condition before cost comparison.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F48",
+      "parent": "F47",
+      "kind": "AR",
+      "text": "Adequacy can be a hard condition before cost comparison. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F49",
+      "parent": "F47",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F50",
+      "parent": "C12",
+      "kind": "AR",
+      "text": "Assume exactly C12 right: The same cost/value/condition point remains achievable through its twin.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F51",
+      "parent": "C12",
+      "kind": "AW",
+      "text": "Attempted removal of the only independently checked version changes the identity premise and is not a counterexample.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F52",
+      "parent": "F50",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F53",
+      "parent": "C13",
+      "kind": "AR",
+      "text": "Assume exactly C13 right: A computed objective would be read as measured human benefit.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F54",
+      "parent": "C13",
+      "kind": "AW",
+      "text": "The value numbers are declared inputs and no human response was observed.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F55",
+      "parent": "F54",
+      "kind": "ALTERNATIVE",
+      "text": "The result proves a finite optimization property, with human benefit unresolved.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F56",
+      "parent": "F55",
+      "kind": "AR",
+      "text": "The result proves a finite optimization property, with human benefit unresolved. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F57",
+      "parent": "F55",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F58",
+      "parent": "C14",
+      "kind": "AR",
+      "text": "Assume exactly C14 right: Every previously affordable sum remains under the larger bound.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F59",
+      "parent": "C14",
+      "kind": "AW",
+      "text": "A changed authority would refute a broader claim but does not change only budget; that attempt fails.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F60",
+      "parent": "F58",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F61",
+      "parent": "C15",
+      "kind": "AR",
+      "text": "Assume exactly C15 right: Additional work could never leave the optimum unchanged or consume a useful action slot.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F62",
+      "parent": "C15",
+      "kind": "AW",
+      "text": "Once all16 subsets are evaluated, repeating them changes no optimum and consumes work.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F63",
+      "parent": "F62",
+      "kind": "ALTERNATIVE",
+      "text": "Marginal analysis value depends on remaining decision uncertainty.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F64",
+      "parent": "F63",
+      "kind": "AR",
+      "text": "Marginal analysis value depends on remaining decision uncertainty. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F65",
+      "parent": "F63",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F66",
+      "parent": "C16",
+      "kind": "AR",
+      "text": "Assume exactly C16 right: S can be retained because it enables C.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F67",
+      "parent": "C16",
+      "kind": "AW",
+      "text": "The no-later-use case shows the claim is existential, not universal; it does not refute the supplied S+C+E witness.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F68",
+      "parent": "F66",
+      "kind": "AW",
+      "text": "The supplied attempted countercase changes a premise or a proposition; it fails against the exact scoped implication. No successful contrary case is established here.",
+      "strength": "failed countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F69",
+      "parent": "C17",
+      "kind": "AR",
+      "text": "Assume exactly C17 right: The sum58 would remain sufficient even if E duplicates all of C\u2019s useful content.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F70",
+      "parent": "C17",
+      "kind": "AW",
+      "text": "If E adds0 after C while G adds8, S+C+G becomes better than S+C+E under the changed interaction model.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F71",
+      "parent": "F70",
+      "kind": "ALTERNATIVE",
+      "text": "Additive optimality stays conditional on the declared value model.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F72",
+      "parent": "F71",
+      "kind": "AR",
+      "text": "Additive optimality stays conditional on the declared value model. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F73",
+      "parent": "F71",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F74",
+      "parent": "C18",
+      "kind": "AR",
+      "text": "Assume exactly C18 right: A mathematical result would determine the user\u2019s terminal value.",
+      "strength": "necessary conditional on the frozen claim",
+      "bedrock": null
+    },
+    {
+      "id": "F75",
+      "parent": "C18",
+      "kind": "AW",
+      "text": "The same optimum serves learning, efficiency or curiosity; no elicitation answer identifies one.",
+      "strength": "fatal",
+      "bedrock": "LOGIC/OBSERVE in the declared case"
+    },
+    {
+      "id": "F76",
+      "parent": "F75",
+      "kind": "ALTERNATIVE",
+      "text": "The practical goal is supported while intrinsic purpose remains unknown.",
+      "strength": "derived from the stated wrongness",
+      "bedrock": null
+    },
+    {
+      "id": "F77",
+      "parent": "F76",
+      "kind": "AR",
+      "text": "The practical goal is supported while intrinsic purpose remains unknown. The original countercase is represented without asserting the refuted universal.",
+      "strength": "necessary for the specified countercase",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F78",
+      "parent": "F76",
+      "kind": "AW",
+      "text": "If the newly required condition is unknown in a later case, this alternative does not establish that case\u2019s successful outcome; its current corrective claim is restricted to the exhibited countercase.",
+      "strength": "boundary to transfer, not refutation",
+      "bedrock": "LOGIC"
+    },
+    {
+      "id": "F79",
+      "parent": "C6",
+      "kind": "FORECLOSURE",
+      "text": "At budget40, accepting S+C+E as feasible is foreclosed because its declared cost55 exceeds40.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F80",
+      "parent": "C9",
+      "kind": "FORECLOSURE",
+      "text": "At n=6, calling B strictly cheaper is foreclosed: both declared costs equal12.",
+      "strength": "necessary under the frozen claim and explicit case inputs",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F81",
+      "parent": "C1",
+      "kind": "AR",
+      "text": "Given C1\u2019s sufficiency claim, a direct-benefit maximizer would accept its nominally feasible maximum C+E+G.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F82",
+      "parent": "F81",
+      "kind": "AR",
+      "text": "Given that selected set, C is included; the declared prerequisite edge means S must also be completed.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F83",
+      "parent": "F82",
+      "kind": "AR",
+      "text": "Given S is required and costs10, the selected set\u2019s accounted cost must include an additional10 beyond nominal60.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F84",
+      "parent": "F83",
+      "kind": "AR",
+      "text": "Given nominal60 plus prerequisite10, the actual selected cost is70.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F85",
+      "parent": "F84",
+      "kind": "AR",
+      "text": "Given current budget60, cost70 exceeds the resource bound by10.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F86",
+      "parent": "F85",
+      "kind": "AR",
+      "text": "Given a ten-unit excess, the selected set fails feasibility even though it wins the direct-benefit calculation.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F87",
+      "parent": "F86",
+      "kind": "AR",
+      "text": "Given a direct-benefit-selected set that fails feasibility, C1\u2019s claimed sufficiency for every feasible bundle has a counterexample.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    },
+    {
+      "id": "F88",
+      "parent": "C1",
+      "kind": "AW",
+      "text": "Given the counterexample, a candidate replacement closes selected sets over their prerequisites before comparing costs.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F89",
+      "parent": "F88",
+      "kind": "AW",
+      "text": "Given closure of C+E+G includes S, its cost70 is compared against budget60 before acceptance.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F90",
+      "parent": "F89",
+      "kind": "AW",
+      "text": "Given the over-budget rejection, dropping G removes15 cost and8 supplied value from that closed set.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F91",
+      "parent": "F90",
+      "kind": "AW",
+      "text": "Given that removal, S+C+E costs55 with value58.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F92",
+      "parent": "F91",
+      "kind": "AW",
+      "text": "Given budget60 and all declared dependencies present, S+C+E is feasible with5 units unused.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F93",
+      "parent": "F92",
+      "kind": "AW",
+      "text": "Given unused5 and remaining G cost15, G cannot be restored to this set without violating the budget.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": null
+    },
+    {
+      "id": "F94",
+      "parent": "F93",
+      "kind": "AW",
+      "text": "Given exhaustive comparison of all16 subsets, no other feasible set exceeds58; the closed-set optimum is S+C+E.",
+      "strength": "necessary under the explicit added premise",
+      "bedrock": "LOGIC/TEST"
+    }
+  ],
+  "categories": {
+    "AR": [
+      "F1",
+      "F4",
+      "F6",
+      "F9",
+      "F12",
+      "F14",
+      "F17",
+      "F19",
+      "F22",
+      "F24",
+      "F27",
+      "F30",
+      "F32",
+      "F35",
+      "F37",
+      "F40",
+      "F43",
+      "F45",
+      "F48",
+      "F50",
+      "F53",
+      "F56",
+      "F58",
+      "F61",
+      "F64",
+      "F66",
+      "F69",
+      "F72",
+      "F74",
+      "F77",
+      "F81",
+      "F82",
+      "F83",
+      "F84",
+      "F85",
+      "F86",
+      "F87"
+    ],
+    "AW": [
+      "F2",
+      "F5",
+      "F7",
+      "F8",
+      "F10",
+      "F13",
+      "F15",
+      "F18",
+      "F20",
+      "F23",
+      "F25",
+      "F26",
+      "F28",
+      "F31",
+      "F33",
+      "F36",
+      "F38",
+      "F39",
+      "F41",
+      "F44",
+      "F46",
+      "F49",
+      "F51",
+      "F52",
+      "F54",
+      "F57",
+      "F59",
+      "F60",
+      "F62",
+      "F65",
+      "F67",
+      "F68",
+      "F70",
+      "F73",
+      "F75",
+      "F78",
+      "F88",
+      "F89",
+      "F90",
+      "F91",
+      "F92",
+      "F93",
+      "F94"
+    ],
+    "ALTERNATIVE": [
+      "F3",
+      "F11",
+      "F16",
+      "F21",
+      "F29",
+      "F34",
+      "F42",
+      "F47",
+      "F55",
+      "F63",
+      "F71",
+      "F76"
+    ],
+    "FORECLOSURE": [
+      "F79",
+      "F80"
+    ]
+  },
+  "verdicts": [
+    {
+      "claim": "C1",
+      "verdict": "REJECTED",
+      "decisive": "F2",
+      "supporting_findings": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "strongest_contrary": "F1",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C2",
+      "verdict": "VALIDATED",
+      "decisive": "F6",
+      "supporting_findings": [
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "strongest_contrary": "F7",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C3",
+      "verdict": "REJECTED",
+      "decisive": "F10",
+      "supporting_findings": [
+        "F9",
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "strongest_contrary": "F9",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C4",
+      "verdict": "REJECTED",
+      "decisive": "F15",
+      "supporting_findings": [
+        "F14",
+        "F15",
+        "F16",
+        "F17",
+        "F18"
+      ],
+      "strongest_contrary": "F14",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C5",
+      "verdict": "REJECTED",
+      "decisive": "F20",
+      "supporting_findings": [
+        "F19",
+        "F20",
+        "F21",
+        "F22",
+        "F23"
+      ],
+      "strongest_contrary": "F19",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C6",
+      "verdict": "VALIDATED",
+      "decisive": "F24",
+      "supporting_findings": [
+        "F24",
+        "F25",
+        "F26"
+      ],
+      "strongest_contrary": "F25",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C7",
+      "verdict": "REJECTED",
+      "decisive": "F28",
+      "supporting_findings": [
+        "F27",
+        "F28",
+        "F29",
+        "F30",
+        "F31"
+      ],
+      "strongest_contrary": "F27",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C8",
+      "verdict": "REJECTED",
+      "decisive": "F33",
+      "supporting_findings": [
+        "F32",
+        "F33",
+        "F34",
+        "F35",
+        "F36"
+      ],
+      "strongest_contrary": "F32",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C9",
+      "verdict": "VALIDATED",
+      "decisive": "F37",
+      "supporting_findings": [
+        "F37",
+        "F38",
+        "F39"
+      ],
+      "strongest_contrary": "F38",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C10",
+      "verdict": "REJECTED",
+      "decisive": "F41",
+      "supporting_findings": [
+        "F40",
+        "F41",
+        "F42",
+        "F43",
+        "F44"
+      ],
+      "strongest_contrary": "F40",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C11",
+      "verdict": "REJECTED",
+      "decisive": "F46",
+      "supporting_findings": [
+        "F45",
+        "F46",
+        "F47",
+        "F48",
+        "F49"
+      ],
+      "strongest_contrary": "F45",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C12",
+      "verdict": "VALIDATED",
+      "decisive": "F50",
+      "supporting_findings": [
+        "F50",
+        "F51",
+        "F52"
+      ],
+      "strongest_contrary": "F51",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C13",
+      "verdict": "REJECTED",
+      "decisive": "F54",
+      "supporting_findings": [
+        "F53",
+        "F54",
+        "F55",
+        "F56",
+        "F57"
+      ],
+      "strongest_contrary": "F53",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C14",
+      "verdict": "VALIDATED",
+      "decisive": "F58",
+      "supporting_findings": [
+        "F58",
+        "F59",
+        "F60"
+      ],
+      "strongest_contrary": "F59",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C15",
+      "verdict": "REJECTED",
+      "decisive": "F62",
+      "supporting_findings": [
+        "F61",
+        "F62",
+        "F63",
+        "F64",
+        "F65"
+      ],
+      "strongest_contrary": "F61",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C16",
+      "verdict": "VALIDATED",
+      "decisive": "F66",
+      "supporting_findings": [
+        "F66",
+        "F67",
+        "F68"
+      ],
+      "strongest_contrary": "F67",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C17",
+      "verdict": "REJECTED",
+      "decisive": "F70",
+      "supporting_findings": [
+        "F69",
+        "F70",
+        "F71",
+        "F72",
+        "F73"
+      ],
+      "strongest_contrary": "F69",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    },
+    {
+      "claim": "C18",
+      "verdict": "REJECTED",
+      "decisive": "F75",
+      "supporting_findings": [
+        "F74",
+        "F75",
+        "F76",
+        "F77",
+        "F78"
+      ],
+      "strongest_contrary": "F74",
+      "unresolved_dependency": "Transfer beyond the specified case and supplied premises remains untested."
+    }
+  ],
+  "cruxes": [
+    {
+      "id": "CRUX-1",
+      "claim": "C1",
+      "question": "Does the exact countercase retain the stated domain and premises? Selecting by direct benefits alone is sufficient for every feasible bundle in the four-action instance.",
+      "resolution": "F2"
+    },
+    {
+      "id": "CRUX-2",
+      "claim": "C2",
+      "question": "Does the exact countercase retain the stated domain and premises? Every prerequisite in the declared graph must be present for its dependent selected action to be feasible.",
+      "resolution": "F6"
+    },
+    {
+      "id": "CRUX-3",
+      "claim": "C3",
+      "question": "Does the exact countercase retain the stated domain and premises? A zero-direct-value precursor cannot be part of the optimal bundle.",
+      "resolution": "F10"
+    },
+    {
+      "id": "CRUX-4",
+      "claim": "C4",
+      "question": "Does the exact countercase retain the stated domain and premises? The highest-value single action determines the optimal feasible bundle.",
+      "resolution": "F15"
+    },
+    {
+      "id": "CRUX-5",
+      "claim": "C5",
+      "question": "Does the exact countercase retain the stated domain and premises? A budget of40 still permits the old S+C+E plan.",
+      "resolution": "F20"
+    },
+    {
+      "id": "CRUX-6",
+      "claim": "C6",
+      "question": "Does the exact countercase retain the stated domain and premises? At budget40, S+C is the maximum-value feasible bundle in the declared instance.",
+      "resolution": "F24"
+    },
+    {
+      "id": "CRUX-7",
+      "claim": "C7",
+      "question": "Does the exact countercase retain the stated domain and premises? Subtracting the already-spent source cost again improves the current remaining-work decision.",
+      "resolution": "F28"
+    },
+    {
+      "id": "CRUX-8",
+      "claim": "C8",
+      "question": "Does the exact countercase retain the stated domain and premises? A preparation action remains worthwhile when no matching later use occurs.",
+      "resolution": "F33"
+    }
+  ],
+  "tests": {
+    "exhaustive_optimum": [
+      58,
+      55,
+      [
+        "S",
+        "C",
+        "E"
+      ]
+    ],
+    "changed_budget_optimum": [
+      40,
+      35,
+      [
+        "S",
+        "C"
+      ]
+    ]
+  },
+  "totals": {
+    "claims": 18,
+    "findings": 94,
+    "independent_propositions_before_semantic_dedup_review": 64,
+    "max_recursive_edges": 7,
+    "cruxes": 8,
+    "tests_run": 2
+  },
+  "contamination": "Original procedure text and prior evidence were already available. Imported instructions do not count as findings; independent countercase derivations and fresh arithmetic are recorded. Self-evaluation is by the same assistant, not an independent assessor."
+}

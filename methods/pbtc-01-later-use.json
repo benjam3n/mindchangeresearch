@@ -1,0 +1,21 @@
+{
+  "input": "unchanged SP-03 prompt and actual CRTV-01 continuations",
+  "stories": [
+    "The room remembered the rain. Beneath the fresh paint, a brown horizon returned each winter. The new owners kept moving the picture higher.",
+    "The room remembered the rain. Long after the roof was repaired, the empty bucket beside the piano answered the lowest note. Nobody could agree whether they had heard it before.",
+    "The room remembered the rain. They had dismantled it brick by brick and rebuilt it where the desert began. Every evening, the window faced a weather report from a year that had not yet happened."
+  ],
+  "exact_seed_preserved": [
+    true,
+    true,
+    true
+  ],
+  "mechanisms_observed": [
+    "material stain recurrence",
+    "acoustic recurrence with witness disagreement",
+    "future weather after relocation"
+  ],
+  "nonselection_observed": "CRTV-01 explicitly states no true interpretation is selected",
+  "causal_attribution": "Unchanged prompt compliance does not establish an SP treatment effect",
+  "new_keep_credit": false
+}

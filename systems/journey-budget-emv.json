@@ -1,0 +1,177 @@
+{
+  "tests": [
+    {
+      "budget": 0,
+      "best": {
+        "names": [],
+        "cost": 0,
+        "value": 0
+      }
+    },
+    {
+      "budget": 9,
+      "best": {
+        "names": [],
+        "cost": 0,
+        "value": 0
+      }
+    },
+    {
+      "budget": 10,
+      "best": {
+        "names": [],
+        "cost": 0,
+        "value": 0
+      }
+    },
+    {
+      "budget": 14,
+      "best": {
+        "names": [],
+        "cost": 0,
+        "value": 0
+      }
+    },
+    {
+      "budget": 15,
+      "best": {
+        "names": [
+          "G"
+        ],
+        "cost": 15,
+        "value": 8
+      }
+    },
+    {
+      "budget": 20,
+      "best": {
+        "names": [
+          "E"
+        ],
+        "cost": 20,
+        "value": 18
+      }
+    },
+    {
+      "budget": 34,
+      "best": {
+        "names": [
+          "E"
+        ],
+        "cost": 20,
+        "value": 18
+      }
+    },
+    {
+      "budget": 35,
+      "best": {
+        "names": [
+          "S",
+          "C"
+        ],
+        "cost": 35,
+        "value": 40
+      }
+    },
+    {
+      "budget": 40,
+      "best": {
+        "names": [
+          "S",
+          "C"
+        ],
+        "cost": 35,
+        "value": 40
+      }
+    },
+    {
+      "budget": 55,
+      "best": {
+        "names": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      }
+    },
+    {
+      "budget": 60,
+      "best": {
+        "names": [
+          "S",
+          "C",
+          "E"
+        ],
+        "cost": 55,
+        "value": 58
+      }
+    },
+    {
+      "budget": 70,
+      "best": {
+        "names": [
+          "S",
+          "C",
+          "E",
+          "G"
+        ],
+        "cost": 70,
+        "value": 66
+      }
+    }
+  ],
+  "checks": {
+    "all_feasible": true,
+    "prerequisite_closed": true,
+    "value_monotonic": true,
+    "whole_bundle_algebra": true,
+    "direct_40_case": true
+  },
+  "edge_cases": [
+    "zero budget",
+    "below all positive-value actions",
+    "zero-value source-only option",
+    "first useful action exactly affordable",
+    "prerequisite pair exactly affordable",
+    "all actions exactly affordable"
+  ],
+  "calibrations": [
+    {
+      "id": "P1",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "budget0 selects empty",
+      "outcome": true
+    },
+    {
+      "id": "P2",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "budget9 selects empty",
+      "outcome": true
+    },
+    {
+      "id": "P3",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "budget15 selects G",
+      "outcome": true
+    },
+    {
+      "id": "P4",
+      "confidence": 80,
+      "status": "CONFIRMED",
+      "prediction": "budget35 selects S+C",
+      "outcome": true
+    },
+    {
+      "id": "P5",
+      "confidence": 90,
+      "status": "CONFIRMED",
+      "prediction": "budget70 reaches66",
+      "outcome": true
+    }
+  ]
+}

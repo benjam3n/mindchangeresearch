@@ -1,0 +1,37 @@
+{
+  "name": "Exploration continuation choice",
+  "description": "Choose a next local exploration operation from recorded threads using their unresolved question, distinctness, interest and resource cost.",
+  "inputs": {
+    "trace_records": "Existing curiosity trace records.",
+    "available_interval": "The present local work interval and hard dependencies.",
+    "goal": "Autonomous beneficial efficient broad mind change; no forced immediate utility."
+  },
+  "outputs": {
+    "selection": "One concrete next operation or a justified stopping point.",
+    "retained_threads": "Other threads with their interest and reason for deferral.",
+    "expected_evidence": "What the next operation can resolve and what it cannot."
+  },
+  "success_criteria": [
+    "Selected operation addresses an identified question.",
+    "Deferral does not erase a thread's interest.",
+    "A repeated result is not labeled a new benefit."
+  ],
+  "steps": [
+    "Read each existing open question and stopped-thread reason.",
+    "Compare whether a proposed next operation can change a currently unresolved interpretation.",
+    "Compare local effort, hard dependencies and overlap with already recorded results.",
+    "Select a feasible operation with a distinct question; preserve pure-interest candidates even without immediate utility.",
+    "Retain the deferred threads and their reasons.",
+    "State the evidence the selected operation would provide without claiming it is already observed."
+  ],
+  "verification": [
+    "Find the selected question in an existing record.",
+    "Compare the proposal with the prior output so repetition is visible.",
+    "Check that a finite constructed comparison is not represented as a human outcome."
+  ],
+  "complexity": "moderate comparison of several live threads.",
+  "dependencies": [
+    "Curiosity trace record."
+  ],
+  "reuse_potential": "Repeated local inquiry selection."
+}

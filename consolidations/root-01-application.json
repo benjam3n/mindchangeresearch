@@ -1,0 +1,10 @@
+{
+  "inputs": {"target": "x", "west_observes": ["x", "y"], "east_observes": ["y", "z"], "observation_time": 2, "safe_expiry": 1, "p_favorable": 0.75, "safe_value": 5, "favorable_value": 8, "visit_cost": 1, "reservation_cost": 1},
+  "used_findings": ["gosm/02-location-and-observation.md", "gosm/01-time-and-options.md"],
+  "first_disposition": {"west": "resolves x", "east": "does not resolve x"},
+  "eligible_timing_case": "west",
+  "values": {"commit_now": 5, "west_no_reservation": 5, "west_with_reservation": 5.25},
+  "selected": "reserve safe task and visit west",
+  "boundary": "Do not use the perfect-test value formula for the east visit.",
+  "evidence_scope": "Reproducible constructed arithmetic and observation mapping; no observed human outcome"
+}

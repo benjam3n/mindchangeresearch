@@ -1,0 +1,158 @@
+{
+  "assumed_units": true,
+  "subsets": [
+    {
+      "actions": [],
+      "cost": 0,
+      "value": 0,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "G"
+      ],
+      "cost": 15,
+      "value": 8,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "E"
+      ],
+      "cost": 20,
+      "value": 18,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "E",
+        "G"
+      ],
+      "cost": 35,
+      "value": 26,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "C"
+      ],
+      "cost": 25,
+      "value": 40,
+      "feasible": false
+    },
+    {
+      "actions": [
+        "C",
+        "G"
+      ],
+      "cost": 40,
+      "value": 48,
+      "feasible": false
+    },
+    {
+      "actions": [
+        "C",
+        "E"
+      ],
+      "cost": 45,
+      "value": 58,
+      "feasible": false
+    },
+    {
+      "actions": [
+        "C",
+        "E",
+        "G"
+      ],
+      "cost": 60,
+      "value": 66,
+      "feasible": false
+    },
+    {
+      "actions": [
+        "S"
+      ],
+      "cost": 10,
+      "value": 0,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "G"
+      ],
+      "cost": 25,
+      "value": 8,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "E"
+      ],
+      "cost": 30,
+      "value": 18,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "E",
+        "G"
+      ],
+      "cost": 45,
+      "value": 26,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "C"
+      ],
+      "cost": 35,
+      "value": 40,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "C",
+        "G"
+      ],
+      "cost": 50,
+      "value": 48,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "C",
+        "E"
+      ],
+      "cost": 55,
+      "value": 58,
+      "feasible": true
+    },
+    {
+      "actions": [
+        "S",
+        "C",
+        "E",
+        "G"
+      ],
+      "cost": 70,
+      "value": 66,
+      "feasible": false
+    }
+  ],
+  "best": {
+    "actions": [
+      "S",
+      "C",
+      "E"
+    ],
+    "cost": 55,
+    "value": 58,
+    "feasible": true
+  }
+}

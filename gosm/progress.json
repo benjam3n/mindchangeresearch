@@ -1,0 +1,96 @@
+{
+  "required": 10,
+  "records": [
+    {
+      "id": 1,
+      "file": "01-time-and-options.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 scoped finite decision result; not evidence that waiting generally improves cognition.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 2,
+      "file": "02-location-and-observation.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 exact information-access result with a demonstrated second use.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 3,
+      "file": "03-representation-and-loss.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 finite representation finding and a distinct reuse boundary.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 4,
+      "file": "04-motivation-and-plural-values.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 scoped ranking and attribution result; the assumed scores do not establish what this user should value.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 5,
+      "file": "05-trust-and-duplication.md",
+      "variant": "Explore",
+      "verdict": "REJECT \u2014 as a claim of a new beneficial trust method; preserve the exact negative result and conditional model calculation.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 6,
+      "file": "06-uncertainty-and-next-query.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 distinct finite evidence-selection result with a cost boundary.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 7,
+      "file": "07-order-and-loss.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 finite operation-order result with explicit target semantics.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 8,
+      "file": "08-capability-and-reachable-states.md",
+      "variant": "Explore",
+      "verdict": "KEEP \u2014 constructed capability change and executed target-specific use.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Finite constructed case; primary assistant working state"
+    },
+    {
+      "id": 9,
+      "file": "09-review-and-exact-defects.md",
+      "variant": "After",
+      "verdict": "KEEP \u2014 observed improvement in these specific review dispositions; no universal reviewer-reliability claim.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Observed source and application inspection; primary assistant review state"
+    },
+    {
+      "id": 10,
+      "file": "10-resource-recovery.md",
+      "variant": "After",
+      "verdict": "KEEP \u2014 actual source-access and reuse result, with semantic and field-completeness limits retained.",
+      "completed_variant": true,
+      "depth_status": "expanded_original_no_numeric_8x_definition",
+      "benefit_scope": "Observed authorized source recovery and a later source lookup; primary assistant resource state"
+    }
+  ],
+  "completed": 10
+}

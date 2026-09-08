@@ -1,0 +1,44 @@
+{
+  "script": {
+    "url": "https://github.com/benjam3n/GOSM/blob/b8fca7685ce19218ac2b305294a4dc36012e8675/claude-code-plugin/scripts/guess_library.py",
+    "git_blob": "4bce081a5cb54ecc1bee8c1170931aa546ac7f9a",
+    "computed_git_blob": "4bce081a5cb54ecc1bee8c1170931aa546ac7f9a",
+    "bytes": 7957,
+    "sha256": "e86a14ec3ef2d38d95aa158bdffdf67a8e464d1fea58a985a5a6b58fbc07d19d",
+    "matches": true
+  },
+  "index": {
+    "url": "https://github.com/benjam3n/GOSM/blob/b8fca7685ce19218ac2b305294a4dc36012e8675/claude-code-plugin/data/guess_libraries/index.json",
+    "git_blob": "d92bfa58dbe820e15ba277fcc17026aa4650f9b7",
+    "computed_git_blob": "d92bfa58dbe820e15ba277fcc17026aa4650f9b7",
+    "bytes": 8769,
+    "sha256": "a74fa8fd3091ed8a6c37791a7729d8a645ba53846c746eef07ac2c19346f83fa",
+    "matches": true
+  },
+  "failed_paths": [
+    {
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+        "message": "Not Found",
+        "status": "404"
+      }
+    },
+    {
+      "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+      "error_code": "NOT_FOUND",
+      "error_data": {
+        "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+        "message": "Not Found",
+        "status": "404"
+      }
+    }
+  ],
+  "lookup": {
+    "input": "Find concrete changes to uncertainty, confidence, and action thresholds that help this model choose an adequate next observation on a missing-source case, an ambiguous-source-reason case, and an interval-crosses-threshold case. Use 03-dd-uncertainty.md, 06-qr-sure.md, and the stipulated interval 4\u20139 with threshold 6. Preserve warranted uncertainty where resolution does not change the action.",
+    "returncode": 0,
+    "stdout": "Found matching library: domain_design_decisions\n\nLibrary: domain_design_decisions\nType: DECISION\nKeywords: decision, choose, option, alternative, trade-off, criteria, evaluate, compare, select, architecture\nGuesses: 512\nRelated Goals: make_decision, evaluate_options, reduce_risk, optimize_choice, justify_decision\nUses: 2\n\n\nTo get content: python guess_library.py get domain_design_decisions\n",
+    "stderr": ""
+  }
+}

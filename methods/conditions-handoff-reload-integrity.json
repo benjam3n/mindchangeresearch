@@ -1,0 +1,145 @@
+[
+  {
+    "id": "uf",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-uf.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-uf.reload.requirements.txt",
+    "stdout_sha256": "bddade1a3612c0053979bed5e1845ef8b5293df488f43ec30d109b6a9609eea4",
+    "stderr_sha256": "3b36aa3f7f2b7ff7dd6cc95bbce898ac585fb6ddfa4a82773d9aa4d0705e152c",
+    "stdout_bytes": 6579,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "boc",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-boc.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-boc.reload.requirements.txt",
+    "stdout_sha256": "7a7c025ae6b93ee18b073a504e1de5bf0b0a58f2862d1f8a3968080d4d46ccaa",
+    "stderr_sha256": "b6508ccee815920ee96d261cde3af300f6557d63e78930806368ea79b590158b",
+    "stdout_bytes": 7893,
+    "stderr_bytes": 9341,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "adep",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-adep.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-adep.reload.requirements.txt",
+    "stdout_sha256": "6275109031ca095cb778213f6a6cb29e86593db23751735c08109b314872371a",
+    "stderr_sha256": "1c84a3e8510403235b01bba770c99b358121fa9feb2da2c5bd21c6aaedbd802d",
+    "stdout_bytes": 6071,
+    "stderr_bytes": 9342,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "cta",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-cta.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-cta.reload.requirements.txt",
+    "stdout_sha256": "5a023d5153de1aa42976334e6976a2d684427181538553e20c0b2a95460a765b",
+    "stderr_sha256": "09eccbfd5ab2b34a467099ac503730681ea2c447594d12e4556be1a0b8b66b26",
+    "stdout_bytes": 7332,
+    "stderr_bytes": 9341,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "qs",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-qs.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-qs.reload.requirements.txt",
+    "stdout_sha256": "872ee2d9683a4d28f4089e69a5cfb0d74799868c351ace929a6227964eeebe24",
+    "stderr_sha256": "b5be270c41ea673668411b3e59997748182f7b4b17d6a230507beb304b00fea6",
+    "stdout_bytes": 2210,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "td",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-td.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-td.reload.requirements.txt",
+    "stdout_sha256": "d1f6e2501d163ed9bea1a66fd61f44dfa04cf83768d023b0a85168c6fc1fcb60",
+    "stderr_sha256": "dabdc9ea60fd865eaf7ccd54fc6a2aff239f1ea7c9d61d4a2a0ca9a2e24c9f42",
+    "stdout_bytes": 2038,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "rso",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-rso.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-rso.reload.requirements.txt",
+    "stdout_sha256": "885c2ff81a63c41a48aa4906d11f79e485350842b459b1a36269ec83ff3b1bc8",
+    "stderr_sha256": "2c758203c008da352a61cc9960a08ecb2c0939d7fc89fd0933174f3349816f15",
+    "stdout_bytes": 1666,
+    "stderr_bytes": 9341,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "to",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-to.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-to.reload.requirements.txt",
+    "stdout_sha256": "fe51a424fd241687178bd23fe83b7560799663336c1597fc36c40190732051d7",
+    "stderr_sha256": "7287545191ce59e25cd39ddf8ee76a50727a1675ee4be004c5e31fe6f33528ef",
+    "stdout_bytes": 8396,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "de",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-de.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-de.reload.requirements.txt",
+    "stdout_sha256": "63c3e91be87f6c3465be7972dfe5eb58ca301632b4e670a6c79a9f2406fa6aed",
+    "stderr_sha256": "6ffa7435f4631d95ff819bacf92e51981bd7f610069ae265eb78b00d2172e414",
+    "stdout_bytes": 8074,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "ecal",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-ecal.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-ecal.reload.requirements.txt",
+    "stdout_sha256": "a89b0c6c9d8a5304e68b7bfd94c4df0260428537e27c6fc2d62395605280c69a",
+    "stderr_sha256": "b787a81263f4030eb42c6655763e7d1557087eeaf883d99cdd1fd8636ec74a00",
+    "stdout_bytes": 19412,
+    "stderr_bytes": 9342,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "lt",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-lt.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-lt.reload.requirements.txt",
+    "stdout_sha256": "67cdb6c9b1669873e01c1ec2fe7ac42317f70c367decccb981c1a9a30ac9467e",
+    "stderr_sha256": "5bf58baece9277fefc5f4423a704896e673db7ba4b5accba9271bded52bd2e47",
+    "stdout_bytes": 6089,
+    "stderr_bytes": 9340,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "enough",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-enough.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-enough.reload.requirements.txt",
+    "stdout_sha256": "fc9034f5f7b8bea8ac55f953916e27b1d74822f2adb7f934308dcbca893527a4",
+    "stderr_sha256": "b2d239c9708d856b118992438751aa2650ea8b514d9337e9be712182fea42883",
+    "stdout_bytes": 9109,
+    "stderr_bytes": 9344,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  },
+  {
+    "id": "tobd",
+    "stdout": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-tobd.reload.original.md",
+    "stderr": "/workspace/scratch/78b838bd97fc/mind-change-research/methods/conditions-handoff-tobd.reload.requirements.txt",
+    "stdout_sha256": "e5fffa2a8173b1f275751c71e815279ec2b0cc2e2134d92cdcd455f1fe7fa0d5",
+    "stderr_sha256": "78072cb6a1f783b4ae54b535f7132935e7d9d5e956558d7504afca0708eeeafe",
+    "stdout_bytes": 7150,
+    "stderr_bytes": 9342,
+    "receipt_matches_emission": true,
+    "prior_stdout_match": true
+  }
+]

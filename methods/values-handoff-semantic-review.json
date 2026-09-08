@@ -1,0 +1,56 @@
+{
+  "specifications_reviewed": [
+    "values-handoff-invitation-record.iterate.json",
+    "values-handoff-followup-choice.iterate.json",
+    "values-handoff-curiosity-trace.iterate.json",
+    "values-handoff-continuation-choice.iterate.json"
+  ],
+  "actual_gaps_repaired": [
+    {
+      "gap": "Invitation correction handling absent from the initial PCD/PCI input and step contracts.",
+      "repair": "The executable revision now requires base_state_id, correction_of event IDs, component revision IDs, unchanged-attribute carry, superseded-value retention, reaffirmations and unresolved chronology/identity states.",
+      "later_use": ["L02-corrected-day", "L03-inherited-amount", "L07-superseded-set", "L08-reaffirmations", "L12-ambiguous-order"]
+    },
+    {
+      "gap": "Actual, constructed and planned were alternatives in one trace status although origin, execution and evidence kind are independent.",
+      "repair": "The executable trace separates input.origin, operation.state and each claim.kind.",
+      "later_use": ["T07-mixed-status-separated", "T08-unavailable-human-stage"]
+    },
+    {
+      "gap": "Event, state, component revision, trace, claim, selection and draft identities were incomplete or unresolved in the actual fixtures.",
+      "repair": "Stable scoped IDs and typed parent/target references now appear in both specifications and products; duplicate collision, missing target, missing parent and cycle are distinct failures.",
+      "later_use": ["L09-identical-replay", "L10-conflicting-id", "L13-current-draft-bindings", "T01-unique-identities", "T02-typed-relations", "T04-missing-parent", "T05-cycle", "T06-missing-target"]
+    }
+  ],
+  "cross_reference_review": {
+    "invitation": "All eight D1 component bindings resolve to S1 attributes; D0 remains addressable and is stale because three cited revisions were superseded.",
+    "exploration": "All five trace IDs and nine claim IDs are unique; every non-root relation resolves to its parent and claims owned by that parent.",
+    "invalid_cases_preserved": ["identity_conflict", "mixed_scope", "unresolved_chronology", "missing_parent", "missing_target", "cycle"]
+  },
+  "registry_review": {
+    "entries": 72,
+    "ids": "I01–I72 sequential and unique",
+    "kinds": ["OBSERVED", "DERIVED", "TESTED"],
+    "semantic_groups": {
+      "I01-I24": "invitation correction, order, authority and confirmation",
+      "I25-I33": "draft binding and option availability",
+      "I34-I50": "independent trace evidence dimensions and typed identity",
+      "I51-I64": "selection-mode conflict, execution and reopening boundaries",
+      "I65-I72": "preservation, organization, test scope and stopping"
+    },
+    "independence_result": "No exact duplicate proposition remains. Adjacent entries that share a case have different roles: inspected premise, derived consequence, concrete test, or explicit boundary. No compatible caution is counted as a refutation, no instruction is counted as an alternative, and no invalid edge contributes to ancestry.",
+    "count_limit": "The 72 entries meet ITERATE's total-findings guideline; the count does not establish correctness or independent empirical replication."
+  },
+  "novelty_review": {
+    "existing_keep": "values/020-ve-1.md already keeps a pure-interest thread selectable without manufacturing benefit credit.",
+    "supporting_existing_distinction": "values/020-ve-3.md already separates interest from truth status.",
+    "iterate_disposition": "The Q4 revisit is a concrete later local use of those findings and repairs a contradiction in the authored selector, but it is not a new within-case finding. New KEEP credit is rejected; identity and correction changes remain local repairs."
+  },
+  "remaining_gates": [
+    "Natural-language clause-to-component interpretation was stipulated in the constructed fixture, not tested.",
+    "Unknown or conflicting effective chronology returns unresolved_chronology; no external ordering fact is available.",
+    "Third-party authority remains excluded unless separately supplied.",
+    "Q3 remains paused because no participant-response observations were supplied.",
+    "No comparison beyond these finite fixtures establishes general superiority, external use, preference, timing, learning or transfer."
+  ]
+}

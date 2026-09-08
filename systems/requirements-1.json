@@ -1,0 +1,802 @@
+[
+  {
+    "id": "R1-01",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Preserve the exact requested action",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve the exact requested action\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-02",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Retain the named actor",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain the named actor\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-03",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Retain the requested object",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain the requested object\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-04",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Retain the declared time horizon",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain the declared time horizon\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-05",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Retain hard constraints",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain hard constraints\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-06",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Label an inferred purpose",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Label an inferred purpose\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-07",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Keep alternative interpretations separately",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Keep alternative interpretations separately\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-08",
+    "category": "Goal identity",
+    "stakeholder_role": "requester",
+    "requirement": "Reject an unauthorized goal substitution",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reject an unauthorized goal substitution\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-09",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Detect a missing source",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Detect a missing source\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-10",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Distinguish inaccessible from nonexistent input",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Distinguish inaccessible from nonexistent input\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-11",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Retain source version",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain source version\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-12",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Retain units on numeric inputs",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain units on numeric inputs\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-13",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Represent unknown inputs explicitly",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Represent unknown inputs explicitly\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-14",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Reject malformed dates before sequencing",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reject malformed dates before sequencing\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-15",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Preserve provided counterexamples",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve provided counterexamples\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-16",
+    "category": "Input availability",
+    "stakeholder_role": "current operator",
+    "requirement": "Separate user statements from assistant assumptions",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Separate user statements from assistant assumptions\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-17",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include the strongest ordinary continuation",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include the strongest ordinary continuation\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-18",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a no-change candidate where feasible",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a no-change candidate where feasible\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-19",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a preparation candidate",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a preparation candidate\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-20",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a representation change candidate",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a representation change candidate\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-21",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a timing change candidate",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a timing change candidate\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-22",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a resource change candidate",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a resource change candidate\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-23",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Include a coordination change candidate",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include a coordination change candidate\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-24",
+    "category": "Option creation",
+    "stakeholder_role": "source owner",
+    "requirement": "Preserve an unconventional derived alternative",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve an unconventional derived alternative\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-25",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "State each option input conditions",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"State each option input conditions\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-26",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "State evidence population or constructed scope",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"State evidence population or constructed scope\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-27",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Separate observation from prediction",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Separate observation from prediction\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-28",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Separate performance from explanation",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Separate performance from explanation\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-29",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Retain negative evidence",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain negative evidence\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-30",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Reject transfer beyond measured setting as unproven",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reject transfer beyond measured setting as unproven\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-31",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Preserve unresolved causal attribution",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve unresolved causal attribution\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-32",
+    "category": "Evidence fit",
+    "stakeholder_role": "evidence reviewer",
+    "requirement": "Link a consequence to its performed operation",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Link a consequence to its performed operation\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-33",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Represent an explicit budget",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Represent an explicit budget\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-34",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Include preparation cost in bundle cost",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Include preparation cost in bundle cost\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-35",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Represent resource exclusivity",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Represent resource exclusivity\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-36",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Represent required authority",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Represent required authority\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-37",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Represent task deadline",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Represent task deadline\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-38",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Preserve prerequisites in order",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve prerequisites in order\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-39",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Detect a cycle in action dependencies",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Detect a cycle in action dependencies\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-40",
+    "category": "Action constraints",
+    "stakeholder_role": "action executor",
+    "requirement": "Reject a missing prerequisite at commitment",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reject a missing prerequisite at commitment\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-41",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Retain criterion version",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain criterion version\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-42",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Retain criterion owner",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain criterion owner\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-43",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Distinguish threshold from maximization",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Distinguish threshold from maximization\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-44",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Keep unmeasured intangibles visible",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Keep unmeasured intangibles visible\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-45",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Prevent double counting identical effects",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Prevent double counting identical effects\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-46",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Retain the comparison under previous criteria",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain the comparison under previous criteria\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-47",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Calculate dominance only on declared dimensions",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Calculate dominance only on declared dimensions\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-48",
+    "category": "Choice criteria",
+    "stakeholder_role": "affected person",
+    "requirement": "Expose the crossover of a weighted decision",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Expose the crossover of a weighted decision\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-49",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Transmit task revision",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Transmit task revision\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-50",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Transmit exact operation input",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Transmit exact operation input\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-51",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Name output contract",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Name output contract\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-52",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Name endpoint owner",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Name endpoint owner\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-53",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Return explicit error state",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Return explicit error state\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-54",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Reject an obsolete returned revision",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reject an obsolete returned revision\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-55",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Deduplicate repeated returned identity",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Deduplicate repeated returned identity\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-56",
+    "category": "Execution interface",
+    "stakeholder_role": "tool host",
+    "requirement": "Retain an interrupted action state",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain an interrupted action state\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-57",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Compare expected with actual consequence",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Compare expected with actual consequence\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-58",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Keep the initial baseline visible",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Keep the initial baseline visible\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-59",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Separate repair success from first-pass success",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Separate repair success from first-pass success\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-60",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Preserve an unchanged result",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve an unchanged result\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-61",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Classify a harmful result explicitly",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Classify a harmful result explicitly\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-62",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Do not infer human benefit from model agreement",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Do not infer human benefit from model agreement\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-63",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Do not infer weight updates from context change",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Do not infer weight updates from context change\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-64",
+    "category": "Consequence assessment",
+    "stakeholder_role": "maintainer",
+    "requirement": "Retain limits on measurement",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain limits on measurement\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-65",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Reopen a rejected inference",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Reopen a rejected inference\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-66",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Invalidate descendants of a removed premise",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Invalidate descendants of a removed premise\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-67",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Retain useful incompatible alternatives",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain useful incompatible alternatives\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-68",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Preserve original sources unchanged",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Preserve original sources unchanged\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-69",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Limit automatic retries",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Limit automatic retries\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-70",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Allow the current requester to stop",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Allow the current requester to stop\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-71",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Avoid committing an unreviewable irreversible action",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Avoid committing an unreviewable irreversible action\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-72",
+    "category": "Revision control",
+    "stakeholder_role": "future operator",
+    "requirement": "Record the reason a selected option changed",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Record the reason a selected option changed\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-73",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Give a direct answer at the relevant level",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Give a direct answer at the relevant level\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-74",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Keep useful scope next to recommendation",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Keep useful scope next to recommendation\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-75",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Provide a readable local artifact",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Provide a readable local artifact\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-76",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Separate provenance from live decision view",
+    "priority": "MUST",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Separate provenance from live decision view\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-77",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Retain an empty-state explanation",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Retain an empty-state explanation\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-78",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Make missing evidence visible in handoff",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Make missing evidence visible in handoff\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-79",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Provide a boundary case for reuse",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Provide a boundary case for reuse\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  },
+  {
+    "id": "R1-80",
+    "category": "Usability and maintenance",
+    "stakeholder_role": "integrator",
+    "requirement": "Do not turn method bookkeeping into the product flow",
+    "priority": "SHOULD",
+    "source": "shared selector requirement or explicitly derived design condition",
+    "verification": "An input exercising \"Do not turn method bookkeeping into the product flow\" yields the specified retained field or rejection, with evidence path.",
+    "status": "specified; implementation not presumed"
+  }
+]

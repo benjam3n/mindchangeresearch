@@ -1,0 +1,62 @@
+{
+  "A": [
+    "gather",
+    "connect",
+    "select",
+    "power",
+    "check",
+    "start"
+  ],
+  "B": [
+    "gather",
+    "power",
+    "connect",
+    "select",
+    "check",
+    "start"
+  ],
+  "B2": [
+    "gather",
+    "connect",
+    "select",
+    "power",
+    "start",
+    "check"
+  ],
+  "removed_precedence": [
+    [
+      "connect",
+      "power"
+    ],
+    [
+      "select",
+      "power"
+    ]
+  ],
+  "added_precedence": [
+    [
+      "power",
+      "connect"
+    ],
+    [
+      "power",
+      "select"
+    ]
+  ],
+  "A_check": {
+    "power_before_connect": false,
+    "start_requires_prior_successful_check": "satisfiable_order",
+    "physical_power_constraint": "unspecified"
+  },
+  "B_check": {
+    "power_before_connect": true,
+    "start_requires_prior_successful_check": "satisfiable_order",
+    "physical_power_constraint": "unspecified"
+  },
+  "B2_check": {
+    "power_before_connect": false,
+    "start_requires_prior_successful_check": "violated_order",
+    "physical_power_constraint": "unspecified"
+  },
+  "gather_wording": "A: Gather materials. B: Assemble the materials."
+}

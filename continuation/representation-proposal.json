@@ -1,0 +1,168 @@
+{
+  "line": "representation",
+  "owner": "resume_representation",
+  "scope": "DRAFT1-2, WRE1-3, W1-3",
+  "integration_authority": "root",
+  "slots": [
+    {
+      "skill_id": "draft",
+      "application_number": 1,
+      "file": "representation/044-draft-1.md",
+      "status": "complete",
+      "source_fidelity": "Exact DRAFT source and separate current requirements loaded through read_original.py; interpretation 1; three pre-prose skeletons, full selected skeleton, complete drafts 1/2/3, every-paragraph audit, model-labeled external-reader simulation, sentence/tone/voice/spoken passes, final cut and metrics retained.",
+      "depth_status": "explicit_8x_floor_met",
+      "missing_requirements": [],
+      "verdict": "KEEP",
+      "novelty": "new_within_case: exact all-common-mixtures formula and bounded prose revision; no theorem/global novelty claim",
+      "later_use": [
+        "q=3/4 common-mixture calculation in the same record",
+        "changed B hard-rate threshold countercase in the same record"
+      ]
+    },
+    {
+      "skill_id": "draft",
+      "application_number": 2,
+      "file": "representation/045-draft-2.md",
+      "status": "complete",
+      "source_fidelity": "Exact DRAFT source and separate current requirements loaded through read_original.py; interpretation 1; three skeletons, complete drafts 1/2/3, every-paragraph audit, model-labeled external-reader simulation, sentence/tone/voice/spoken passes, failed send-event check retained and repaired, final metrics present.",
+      "depth_status": "explicit_8x_floor_met",
+      "missing_requirements": [],
+      "verdict": "KEEP",
+      "novelty": "new_within_case: prepared-to-send versus sent constraint repair; existing ambiguity earns no new credit",
+      "later_use": [
+        "borrowed-book performed-handoff fixture in the same record"
+      ]
+    },
+    {
+      "skill_id": "wre",
+      "application_number": 1,
+      "file": "representation/046-wre-1.md",
+      "status": "partial",
+      "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all WRE stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; preserved ARAW linked without upgrading its declared partial result.",
+      "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW has 18 claims, 80 nodes and live tests but lacks semantically certified 6-8-level recursion",
+      "missing_requirements": [
+        "semantically valid original-ARAW 8x recursive-depth certification",
+        "genuine external reviewer endpoint comparison for the accuracy claim"
+      ],
+      "verdict": "KEEP",
+      "novelty": "local requirements adoption of saved route findings; no new independent discovery credit",
+      "later_use": [
+        "representation/049-w-1.md"
+      ]
+    },
+    {
+      "skill_id": "wre",
+      "application_number": 2,
+      "file": "representation/047-wre-2.md",
+      "status": "partial",
+      "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; ARAW partial preserved.",
+      "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW breadth/tests present but semantic recursive-depth floor not certified",
+      "missing_requirements": [
+        "semantically valid original-ARAW 8x recursive-depth certification",
+        "genuine external editor target-selection comparison"
+      ],
+      "verdict": "KEEP",
+      "novelty": "local requirements adoption of saved identity/position findings; no new independent discovery credit",
+      "later_use": [
+        "representation/050-w-2.md"
+      ]
+    },
+    {
+      "skill_id": "wre",
+      "application_number": 3,
+      "file": "representation/048-wre-3.md",
+      "status": "partial",
+      "source_fidelity": "Exact WRE/AEX/ARAW sources and separate requirements loaded; all stages 0-8 executed with 26 atomic T/P requirements, full traceability, sensitivity and adversarial review; completed AEX linked; ARAW partial preserved.",
+      "depth_status": "partial_8x: WRE products and AEX floor complete; ARAW breadth/tests present but semantic recursive-depth floor not certified",
+      "missing_requirements": [
+        "semantically valid original-ARAW 8x recursive-depth certification",
+        "genuine participant comparison for useful-thinking-time claim"
+      ],
+      "verdict": "KEEP",
+      "novelty": "local requirements adoption of saved event-scope findings; no new independent discovery credit",
+      "later_use": [
+        "representation/051-w-3.md"
+      ]
+    },
+    {
+      "skill_id": "w",
+      "application_number": 1,
+      "file": "representation/049-w-1.md",
+      "status": "partial",
+      "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final card, route-coordinate checks and bounded downstream diagnostic completed; source has no numerical 8x table and upstream human-relative criteria were not claimed from simulation.",
+      "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+      "missing_requirements": [
+        "actual reviewer unresolvedness and caring",
+        "actual reviewer recognition, experienced momentum and conclusion pre-arrival"
+      ],
+      "verdict": "KEEP",
+      "novelty": "later uptake of 046/route ARAW; no new independent credit",
+      "later_use": [
+        "route.held_out_anchored in representation/finish-fixture-results.json",
+        "route.reverse_turn_order in representation/finish-fixture-results.json"
+      ]
+    },
+    {
+      "skill_id": "w",
+      "application_number": 2,
+      "file": "representation/050-w-2.md",
+      "status": "partial",
+      "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final instruction, edit-position/reorder/duplicate checks and downstream diagnostic completed; human-relative upstream criteria remain unperformed.",
+      "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+      "missing_requirements": [
+        "actual editor unresolvedness and caring",
+        "actual editor recognition, experienced momentum and conclusion pre-arrival"
+      ],
+      "verdict": "KEEP",
+      "novelty": "later uptake of 047/edit ARAW; no new independent credit",
+      "later_use": [
+        "edit.live_vs_initial_position in representation/finish-fixture-results.json",
+        "edit.reordered_held_out and edit.duplicate_identity in representation/finish-fixture-results.json"
+      ]
+    },
+    {
+      "skill_id": "w",
+      "application_number": 3,
+      "file": "representation/051-w-3.md",
+      "status": "partial",
+      "source_fidelity": "Exact W source and separate requirements loaded; interpretation 1; reader/question, five-step path, removal tests, final policy, duplicate/cancel/restart/held-out checks and downstream diagnostic completed; human-relative upstream criteria remain unperformed.",
+      "depth_status": "expanded_execution_original_has_no_numeric_8x_definition; upstream_reader_gates_partial",
+      "missing_requirements": [
+        "actual implementer/participant unresolvedness and caring",
+        "actual recognition, experienced momentum and conclusion pre-arrival"
+      ],
+      "verdict": "KEEP",
+      "novelty": "later uptake of 048/clock ARAW; no new independent credit",
+      "later_use": [
+        "clock.duplicate_ready, clock.cancel_and_restart and clock.held_out in representation/finish-fixture-results.json"
+      ]
+    }
+  ],
+  "file_changes": [
+    {"action":"add","path":"representation/044-draft-1.md","sha256":"3c621872c062f45cbc6aed875a39aa5c500818caebacd440a1c3ccde26682a0d","source":"adapted from supplement/Quantitative_Draft_Review.md after exact DRAFT audit and removal of one cross-candidate sentence"},
+    {"action":"add","path":"representation/045-draft-2.md","sha256":"0651729f64be191ab6ae56c08cb361ce2c8c72140693deda42c81e47c5d038b9","source":"adapted from supplement/Story_Draft_Review.md after exact DRAFT audit and removal of one cross-candidate clause"},
+    {"action":"add","path":"representation/046-wre-1.md","sha256":"6841985c7114b16e42d3e28a443ddfd44521c4168b0c908acf5e5a306de12bea","source":"new WRE route requirements using preserved ARAW plus completed AEX"},
+    {"action":"add","path":"representation/047-wre-2.md","sha256":"2b135d2e0d283f7d0b8a3ef5b641914f054556e7e93118c44dbe27bce0b6a56c","source":"new WRE edit requirements using preserved ARAW plus completed AEX"},
+    {"action":"add","path":"representation/048-wre-3.md","sha256":"37aa4e8cfda4c4cb20157644890ea7852205066a6ff4246f40f8975575492d13","source":"new WRE timer requirements using preserved ARAW plus completed AEX"},
+    {"action":"add","path":"representation/049-w-1.md","sha256":"ff60588973d864077a24776f4843a96d60abf50d2bb8ca038b424bb0487cd495","source":"new route checkpoint writing and fixture checks"},
+    {"action":"add","path":"representation/050-w-2.md","sha256":"6f77e44ced80033d7c2b38c232a8c5951e6708def3e1498cbf9e690bc9c4128c","source":"new edit instruction writing and fixture checks"},
+    {"action":"add","path":"representation/051-w-3.md","sha256":"9f5ca863b97c9489e8bf41363991af624f638cbb3b13c16dc2c84961e77e3cd8","source":"new timer policy writing and fixture checks"},
+    {"action":"add","path":"representation/finish-wre-route-aex.md","sha256":"350659abf9bfb6707ac2855a8a642cd53bdc7d55444bd8770ceeb22f279344fc","source":"completed route AEX 8x dependency"},
+    {"action":"add","path":"representation/finish-wre-edit-aex.md","sha256":"51336c713ff041dd0b759e1f6f299e95d39072e3f7202139543e12b6ac203560","source":"completed edit AEX 8x dependency"},
+    {"action":"add","path":"representation/finish-wre-clock-aex.md","sha256":"4abdab0399c16e80004900b91eb8f22510477a7a893b3a84fea5861a45a5a186","source":"completed timer AEX 8x dependency"},
+    {"action":"add","path":"representation/resume-wre-local-tests.json","sha256":"921fb2c26e00f0cdd1ebaa7e44fffbb953a31d3be20f2400c9f0a0e8d03c5ee0","source":"executed version-guard, missing-ID and round-identity state checks"},
+    {"action":"add","path":"representation/representation-resume-source-audit.json","sha256":"9d2cede2c709fe6f47ada1b475c658818a411d1f942b4f706314e3a7372854ab","source":"exact reader source/floor receipt"},
+    {"action":"add","path":"continuation/representation-proposal.json","source":"this eight-slot root integration proposal"}
+  ],
+  "unchanged_common_files": [
+    "representation/application-ledger.json",
+    "representation/progress.json",
+    "Mind_Change_Research_Index.md",
+    "Research_Ledger.json"
+  ],
+  "consolidation": {
+    "created": false,
+    "reason": "Only DRAFT1 and DRAFT2 add distinct demonstrated new keeps. WRE and W records apply or reuse the preserved route/edit/timer findings and receive no new independent novelty credit; the four-new-keep trigger is not met."
+  },
+  "endpoint": "All currently executable stages addressed. DRAFT1-2 complete. WRE1-3 and W1-3 retain exact unperformed semantic-depth or external-reader gates."
+}

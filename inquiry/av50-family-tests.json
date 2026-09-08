@@ -1,0 +1,282 @@
+[
+  {
+    "sensitivity": 0.6,
+    "false_positive": 0.0,
+    "accuracy": 0.8,
+    "net_signal": 0.7999999999999998,
+    "buy_probability": 0,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.6,
+    "false_positive": 0.0,
+    "accuracy": 0.8,
+    "net_signal": 0.7999999999999998,
+    "buy_probability": 0.25,
+    "regret": 0.050000000000000044
+  },
+  {
+    "sensitivity": 0.6,
+    "false_positive": 0.0,
+    "accuracy": 0.8,
+    "net_signal": 0.7999999999999998,
+    "buy_probability": 0.5,
+    "regret": 0.10000000000000009
+  },
+  {
+    "sensitivity": 0.6,
+    "false_positive": 0.0,
+    "accuracy": 0.8,
+    "net_signal": 0.7999999999999998,
+    "buy_probability": 0.75,
+    "regret": 0.15000000000000013
+  },
+  {
+    "sensitivity": 0.6,
+    "false_positive": 0.0,
+    "accuracy": 0.8,
+    "net_signal": 0.7999999999999998,
+    "buy_probability": 1,
+    "regret": 0.20000000000000018
+  },
+  {
+    "sensitivity": 0.63,
+    "false_positive": 0.030000000000000027,
+    "accuracy": 0.8,
+    "net_signal": 0.8300000000000001,
+    "buy_probability": 0,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.63,
+    "false_positive": 0.030000000000000027,
+    "accuracy": 0.8,
+    "net_signal": 0.8300000000000001,
+    "buy_probability": 0.25,
+    "regret": 0.04249999999999998
+  },
+  {
+    "sensitivity": 0.63,
+    "false_positive": 0.030000000000000027,
+    "accuracy": 0.8,
+    "net_signal": 0.8300000000000001,
+    "buy_probability": 0.5,
+    "regret": 0.08499999999999996
+  },
+  {
+    "sensitivity": 0.63,
+    "false_positive": 0.030000000000000027,
+    "accuracy": 0.8,
+    "net_signal": 0.8300000000000001,
+    "buy_probability": 0.75,
+    "regret": 0.12749999999999995
+  },
+  {
+    "sensitivity": 0.63,
+    "false_positive": 0.030000000000000027,
+    "accuracy": 0.8,
+    "net_signal": 0.8300000000000001,
+    "buy_probability": 1,
+    "regret": 0.16999999999999993
+  },
+  {
+    "sensitivity": 0.72,
+    "false_positive": 0.12,
+    "accuracy": 0.8,
+    "net_signal": 0.9200000000000002,
+    "buy_probability": 0,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.72,
+    "false_positive": 0.12,
+    "accuracy": 0.8,
+    "net_signal": 0.9200000000000002,
+    "buy_probability": 0.25,
+    "regret": 0.020000000000000018
+  },
+  {
+    "sensitivity": 0.72,
+    "false_positive": 0.12,
+    "accuracy": 0.8,
+    "net_signal": 0.9200000000000002,
+    "buy_probability": 0.5,
+    "regret": 0.039999999999999925
+  },
+  {
+    "sensitivity": 0.72,
+    "false_positive": 0.12,
+    "accuracy": 0.8,
+    "net_signal": 0.9200000000000002,
+    "buy_probability": 0.75,
+    "regret": 0.05999999999999983
+  },
+  {
+    "sensitivity": 0.72,
+    "false_positive": 0.12,
+    "accuracy": 0.8,
+    "net_signal": 0.9200000000000002,
+    "buy_probability": 1,
+    "regret": 0.07999999999999985
+  },
+  {
+    "sensitivity": 0.8,
+    "false_positive": 0.20000000000000007,
+    "accuracy": 0.8,
+    "net_signal": 1.0,
+    "buy_probability": 0,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.8,
+    "false_positive": 0.20000000000000007,
+    "accuracy": 0.8,
+    "net_signal": 1.0,
+    "buy_probability": 0.25,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.8,
+    "false_positive": 0.20000000000000007,
+    "accuracy": 0.8,
+    "net_signal": 1.0,
+    "buy_probability": 0.5,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.8,
+    "false_positive": 0.20000000000000007,
+    "accuracy": 0.8,
+    "net_signal": 1.0,
+    "buy_probability": 0.75,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.8,
+    "false_positive": 0.20000000000000007,
+    "accuracy": 0.8,
+    "net_signal": 1.0,
+    "buy_probability": 1,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.88,
+    "false_positive": 0.28,
+    "accuracy": 0.8,
+    "net_signal": 1.08,
+    "buy_probability": 0,
+    "regret": 0.08000000000000007
+  },
+  {
+    "sensitivity": 0.88,
+    "false_positive": 0.28,
+    "accuracy": 0.8,
+    "net_signal": 1.08,
+    "buy_probability": 0.25,
+    "regret": 0.06000000000000005
+  },
+  {
+    "sensitivity": 0.88,
+    "false_positive": 0.28,
+    "accuracy": 0.8,
+    "net_signal": 1.08,
+    "buy_probability": 0.5,
+    "regret": 0.040000000000000036
+  },
+  {
+    "sensitivity": 0.88,
+    "false_positive": 0.28,
+    "accuracy": 0.8,
+    "net_signal": 1.08,
+    "buy_probability": 0.75,
+    "regret": 0.020000000000000018
+  },
+  {
+    "sensitivity": 0.88,
+    "false_positive": 0.28,
+    "accuracy": 0.8,
+    "net_signal": 1.08,
+    "buy_probability": 1,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 0.97,
+    "false_positive": 0.37,
+    "accuracy": 0.8,
+    "net_signal": 1.17,
+    "buy_probability": 0,
+    "regret": 0.16999999999999993
+  },
+  {
+    "sensitivity": 0.97,
+    "false_positive": 0.37,
+    "accuracy": 0.8,
+    "net_signal": 1.17,
+    "buy_probability": 0.25,
+    "regret": 0.12749999999999995
+  },
+  {
+    "sensitivity": 0.97,
+    "false_positive": 0.37,
+    "accuracy": 0.8,
+    "net_signal": 1.17,
+    "buy_probability": 0.5,
+    "regret": 0.08499999999999996
+  },
+  {
+    "sensitivity": 0.97,
+    "false_positive": 0.37,
+    "accuracy": 0.8,
+    "net_signal": 1.17,
+    "buy_probability": 0.75,
+    "regret": 0.04249999999999998
+  },
+  {
+    "sensitivity": 0.97,
+    "false_positive": 0.37,
+    "accuracy": 0.8,
+    "net_signal": 1.17,
+    "buy_probability": 1,
+    "regret": 0.0
+  },
+  {
+    "sensitivity": 1,
+    "false_positive": 0.4,
+    "accuracy": 0.8,
+    "net_signal": 1.2000000000000002,
+    "buy_probability": 0,
+    "regret": 0.20000000000000018
+  },
+  {
+    "sensitivity": 1,
+    "false_positive": 0.4,
+    "accuracy": 0.8,
+    "net_signal": 1.2000000000000002,
+    "buy_probability": 0.25,
+    "regret": 0.15000000000000013
+  },
+  {
+    "sensitivity": 1,
+    "false_positive": 0.4,
+    "accuracy": 0.8,
+    "net_signal": 1.2000000000000002,
+    "buy_probability": 0.5,
+    "regret": 0.10000000000000009
+  },
+  {
+    "sensitivity": 1,
+    "false_positive": 0.4,
+    "accuracy": 0.8,
+    "net_signal": 1.2000000000000002,
+    "buy_probability": 0.75,
+    "regret": 0.050000000000000044
+  },
+  {
+    "sensitivity": 1,
+    "false_positive": 0.4,
+    "accuracy": 0.8,
+    "net_signal": 1.2000000000000002,
+    "buy_probability": 1,
+    "regret": 0.0
+  }
+]

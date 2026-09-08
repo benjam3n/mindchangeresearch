@@ -1,0 +1,112 @@
+{
+  "FIFO": {
+    "rows": [
+      {
+        "id": "A",
+        "start": 0,
+        "finish": 9,
+        "deadline": 10,
+        "late": false
+      },
+      {
+        "id": "B",
+        "start": 9,
+        "finish": 10,
+        "deadline": 100,
+        "late": false
+      },
+      {
+        "id": "C",
+        "start": 10,
+        "finish": 13,
+        "deadline": 100,
+        "late": false
+      },
+      {
+        "id": "D",
+        "start": 13,
+        "finish": 15,
+        "deadline": 100,
+        "late": false
+      }
+    ],
+    "mean_wait": 8.0,
+    "misses": 0
+  },
+  "SJF": {
+    "rows": [
+      {
+        "id": "B",
+        "start": 0,
+        "finish": 1,
+        "deadline": 100,
+        "late": false
+      },
+      {
+        "id": "D",
+        "start": 1,
+        "finish": 3,
+        "deadline": 100,
+        "late": false
+      },
+      {
+        "id": "C",
+        "start": 3,
+        "finish": 6,
+        "deadline": 100,
+        "late": false
+      },
+      {
+        "id": "A",
+        "start": 6,
+        "finish": 15,
+        "deadline": 10,
+        "late": true
+      }
+    ],
+    "mean_wait": 2.5,
+    "misses": 1
+  },
+  "release_work_conserving": {
+    "rows": [
+      {
+        "id": "A",
+        "start": 0,
+        "finish": 4,
+        "late": false
+      },
+      {
+        "id": "B",
+        "start": 4,
+        "finish": 6,
+        "late": true
+      }
+    ]
+  },
+  "release_wait": {
+    "rows": [
+      {
+        "id": "B",
+        "start": 1,
+        "finish": 3,
+        "late": false
+      },
+      {
+        "id": "A",
+        "start": 3,
+        "finish": 7,
+        "late": false
+      }
+    ]
+  },
+  "quiet_room": {
+    "total_without_buffer": 31,
+    "total_with_buffer": 34,
+    "deficit": 4
+  },
+  "uninterrupted": {
+    "sum_available": 22,
+    "max_contiguous": 10,
+    "fits": false
+  }
+}

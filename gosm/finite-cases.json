@@ -1,0 +1,1153 @@
+{
+  "time": [
+    {
+      "p": "0",
+      "values": {
+        "commit_now": "5",
+        "wait": "-1",
+        "reserve_and_wait": "3"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "1/8",
+      "values": {
+        "commit_now": "5",
+        "wait": "0",
+        "reserve_and_wait": "27/8"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "1/4",
+      "values": {
+        "commit_now": "5",
+        "wait": "1",
+        "reserve_and_wait": "15/4"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "3/8",
+      "values": {
+        "commit_now": "5",
+        "wait": "2",
+        "reserve_and_wait": "33/8"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "1/2",
+      "values": {
+        "commit_now": "5",
+        "wait": "3",
+        "reserve_and_wait": "9/2"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "5/8",
+      "values": {
+        "commit_now": "5",
+        "wait": "4",
+        "reserve_and_wait": "39/8"
+      },
+      "winners": [
+        "commit_now"
+      ]
+    },
+    {
+      "p": "2/3",
+      "values": {
+        "commit_now": "5",
+        "wait": "13/3",
+        "reserve_and_wait": "5"
+      },
+      "winners": [
+        "commit_now",
+        "reserve_and_wait"
+      ]
+    },
+    {
+      "p": "3/4",
+      "values": {
+        "commit_now": "5",
+        "wait": "5",
+        "reserve_and_wait": "21/4"
+      },
+      "winners": [
+        "reserve_and_wait"
+      ]
+    },
+    {
+      "p": "4/5",
+      "values": {
+        "commit_now": "5",
+        "wait": "27/5",
+        "reserve_and_wait": "27/5"
+      },
+      "winners": [
+        "wait",
+        "reserve_and_wait"
+      ]
+    },
+    {
+      "p": "7/8",
+      "values": {
+        "commit_now": "5",
+        "wait": "6",
+        "reserve_and_wait": "45/8"
+      },
+      "winners": [
+        "wait"
+      ]
+    },
+    {
+      "p": "1",
+      "values": {
+        "commit_now": "5",
+        "wait": "7",
+        "reserve_and_wait": "6"
+      },
+      "winners": [
+        "wait"
+      ]
+    }
+  ],
+  "location": {
+    "worlds": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "entrance": {
+      "()": [
+        "000",
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ]
+    },
+    "west": {
+      "(0, 0)": [
+        "000",
+        "001"
+      ],
+      "(0, 1)": [
+        "010",
+        "011"
+      ],
+      "(1, 0)": [
+        "100",
+        "101"
+      ],
+      "(1, 1)": [
+        "110",
+        "111"
+      ]
+    },
+    "east": {
+      "(0, 0)": [
+        "000",
+        "100"
+      ],
+      "(0, 1)": [
+        "001",
+        "101"
+      ],
+      "(1, 0)": [
+        "010",
+        "110"
+      ],
+      "(1, 1)": [
+        "011",
+        "111"
+      ]
+    },
+    "both": {
+      "(0, 0, 0)": [
+        "000"
+      ],
+      "(0, 0, 1)": [
+        "001"
+      ],
+      "(0, 1, 0)": [
+        "010"
+      ],
+      "(0, 1, 1)": [
+        "011"
+      ],
+      "(1, 0, 0)": [
+        "100"
+      ],
+      "(1, 0, 1)": [
+        "101"
+      ],
+      "(1, 1, 0)": [
+        "110"
+      ],
+      "(1, 1, 1)": [
+        "111"
+      ]
+    }
+  },
+  "representation": {
+    "full_edges": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "A",
+        "F"
+      ],
+      [
+        "A",
+        "G"
+      ],
+      [
+        "A",
+        "H"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "B",
+        "F"
+      ],
+      [
+        "B",
+        "G"
+      ],
+      [
+        "B",
+        "H"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "C",
+        "F"
+      ],
+      [
+        "C",
+        "G"
+      ],
+      [
+        "C",
+        "H"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "D",
+        "F"
+      ],
+      [
+        "D",
+        "G"
+      ],
+      [
+        "D",
+        "H"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "E",
+        "G"
+      ],
+      [
+        "E",
+        "H"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "F",
+        "H"
+      ],
+      [
+        "G",
+        "H"
+      ]
+    ],
+    "chain_edges": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ],
+      [
+        "D",
+        "E"
+      ],
+      [
+        "E",
+        "F"
+      ],
+      [
+        "F",
+        "G"
+      ],
+      [
+        "G",
+        "H"
+      ]
+    ],
+    "pairs": [
+      {
+        "from": "A",
+        "to": "B",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "A",
+        "to": "C",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "A",
+        "to": "D",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "from": "A",
+        "to": "E",
+        "before": 1,
+        "after": 4
+      },
+      {
+        "from": "A",
+        "to": "F",
+        "before": 1,
+        "after": 5
+      },
+      {
+        "from": "A",
+        "to": "G",
+        "before": 1,
+        "after": 6
+      },
+      {
+        "from": "A",
+        "to": "H",
+        "before": 1,
+        "after": 7
+      },
+      {
+        "from": "B",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "B",
+        "to": "C",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "B",
+        "to": "D",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "B",
+        "to": "E",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "from": "B",
+        "to": "F",
+        "before": 1,
+        "after": 4
+      },
+      {
+        "from": "B",
+        "to": "G",
+        "before": 1,
+        "after": 5
+      },
+      {
+        "from": "B",
+        "to": "H",
+        "before": 1,
+        "after": 6
+      },
+      {
+        "from": "C",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "C",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "C",
+        "to": "D",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "C",
+        "to": "E",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "C",
+        "to": "F",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "from": "C",
+        "to": "G",
+        "before": 1,
+        "after": 4
+      },
+      {
+        "from": "C",
+        "to": "H",
+        "before": 1,
+        "after": 5
+      },
+      {
+        "from": "D",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "D",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "D",
+        "to": "C",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "D",
+        "to": "E",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "D",
+        "to": "F",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "D",
+        "to": "G",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "from": "D",
+        "to": "H",
+        "before": 1,
+        "after": 4
+      },
+      {
+        "from": "E",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "E",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "E",
+        "to": "C",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "E",
+        "to": "D",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "E",
+        "to": "F",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "E",
+        "to": "G",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "E",
+        "to": "H",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "from": "F",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "F",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "F",
+        "to": "C",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "F",
+        "to": "D",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "F",
+        "to": "E",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "F",
+        "to": "G",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "F",
+        "to": "H",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "from": "G",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "C",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "D",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "E",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "F",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "G",
+        "to": "H",
+        "before": 1,
+        "after": 1
+      },
+      {
+        "from": "H",
+        "to": "A",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "B",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "C",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "D",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "E",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "F",
+        "before": null,
+        "after": null
+      },
+      {
+        "from": "H",
+        "to": "G",
+        "before": null,
+        "after": null
+      }
+    ],
+    "reachability_preserved": true,
+    "distance_changes": 21
+  },
+  "motivation": {
+    "options": {
+      "Explore": [
+        8,
+        1
+      ],
+      "Apply": [
+        1,
+        8
+      ],
+      "Blend": [
+        5,
+        5
+      ],
+      "Busywork": [
+        3,
+        3
+      ]
+    },
+    "weights": [
+      {
+        "interest_weight": "0",
+        "values": {
+          "Explore": "1",
+          "Apply": "8",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Apply"
+        ]
+      },
+      {
+        "interest_weight": "1/4",
+        "values": {
+          "Explore": "11/4",
+          "Apply": "25/4",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Apply"
+        ]
+      },
+      {
+        "interest_weight": "3/7",
+        "values": {
+          "Explore": "4",
+          "Apply": "5",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Apply",
+          "Blend"
+        ]
+      },
+      {
+        "interest_weight": "1/2",
+        "values": {
+          "Explore": "9/2",
+          "Apply": "9/2",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Blend"
+        ]
+      },
+      {
+        "interest_weight": "4/7",
+        "values": {
+          "Explore": "5",
+          "Apply": "4",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Explore",
+          "Blend"
+        ]
+      },
+      {
+        "interest_weight": "3/4",
+        "values": {
+          "Explore": "25/4",
+          "Apply": "11/4",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Explore"
+        ]
+      },
+      {
+        "interest_weight": "1",
+        "values": {
+          "Explore": "8",
+          "Apply": "1",
+          "Blend": "5",
+          "Busywork": "3"
+        },
+        "winners": [
+          "Explore"
+        ]
+      }
+    ]
+  },
+  "trust": {
+    "rows": [
+      {
+        "id": 1,
+        "kind": "color",
+        "truth": 0,
+        "A": 0,
+        "B": 1,
+        "three_copies_of_A": [
+          0,
+          0,
+          0
+        ],
+        "domain_route": 0
+      },
+      {
+        "id": 2,
+        "kind": "color",
+        "truth": 1,
+        "A": 1,
+        "B": 0,
+        "three_copies_of_A": [
+          1,
+          1,
+          1
+        ],
+        "domain_route": 1
+      },
+      {
+        "id": 3,
+        "kind": "color",
+        "truth": 0,
+        "A": 0,
+        "B": 1,
+        "three_copies_of_A": [
+          0,
+          0,
+          0
+        ],
+        "domain_route": 0
+      },
+      {
+        "id": 4,
+        "kind": "color",
+        "truth": 1,
+        "A": 1,
+        "B": 0,
+        "three_copies_of_A": [
+          1,
+          1,
+          1
+        ],
+        "domain_route": 1
+      },
+      {
+        "id": 5,
+        "kind": "shape",
+        "truth": 1,
+        "A": 0,
+        "B": 1,
+        "three_copies_of_A": [
+          0,
+          0,
+          0
+        ],
+        "domain_route": 1
+      },
+      {
+        "id": 6,
+        "kind": "shape",
+        "truth": 0,
+        "A": 1,
+        "B": 0,
+        "three_copies_of_A": [
+          1,
+          1,
+          1
+        ],
+        "domain_route": 0
+      },
+      {
+        "id": 7,
+        "kind": "shape",
+        "truth": 1,
+        "A": 0,
+        "B": 1,
+        "three_copies_of_A": [
+          0,
+          0,
+          0
+        ],
+        "domain_route": 1
+      },
+      {
+        "id": 8,
+        "kind": "shape",
+        "truth": 0,
+        "A": 1,
+        "B": 0,
+        "three_copies_of_A": [
+          1,
+          1,
+          1
+        ],
+        "domain_route": 0
+      }
+    ],
+    "correct": {
+      "A": 4,
+      "B": 4,
+      "domain_route": 8
+    }
+  },
+  "uncertainty": {
+    "observed_A0_unknown_r": {
+      "worlds": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "probability_x1": "1/2",
+      "query_A": {
+        "0": [
+          {
+            "x": 0,
+            "r": 0
+          },
+          {
+            "x": 1,
+            "r": 1
+          }
+        ]
+      },
+      "query_r": {
+        "0": [
+          {
+            "x": 0,
+            "r": 0
+          }
+        ],
+        "1": [
+          {
+            "x": 1,
+            "r": 1
+          }
+        ]
+      }
+    },
+    "known_r0_unobserved_A": {
+      "worlds": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "probability_x1": "1/2",
+      "query_A": {
+        "0": [
+          {
+            "x": 0,
+            "r": 0
+          }
+        ],
+        "1": [
+          {
+            "x": 1,
+            "r": 0
+          }
+        ]
+      },
+      "query_r": {
+        "0": [
+          {
+            "x": 0,
+            "r": 0
+          },
+          {
+            "x": 1,
+            "r": 0
+          }
+        ]
+      }
+    }
+  },
+  "order": [
+    {
+      "input": [
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "51/100"
+      ],
+      "sum_exact": "197/50",
+      "round_each_then_sum": 1,
+      "sum_then_round": 4
+    },
+    {
+      "input": [
+        "51/100",
+        "51/100",
+        "51/100",
+        "51/100",
+        "51/100",
+        "51/100",
+        "51/100",
+        "51/100"
+      ],
+      "sum_exact": "102/25",
+      "round_each_then_sum": 8,
+      "sum_then_round": 4
+    },
+    {
+      "input": [
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100",
+        "49/100"
+      ],
+      "sum_exact": "98/25",
+      "round_each_then_sum": 0,
+      "sum_then_round": 4
+    },
+    {
+      "input": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "sum_exact": "1",
+      "round_each_then_sum": 0,
+      "sum_then_round": 1
+    },
+    {
+      "input": [
+        "3/2",
+        "3/2"
+      ],
+      "sum_exact": "3",
+      "round_each_then_sum": 4,
+      "sum_then_round": 3
+    },
+    {
+      "input": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "sum_exact": "1",
+      "round_each_then_sum": 0,
+      "sum_then_round": 1
+    },
+    {
+      "input": [
+        "1",
+        "2",
+        "3"
+      ],
+      "sum_exact": "6",
+      "round_each_then_sum": 6,
+      "sum_then_round": 6
+    },
+    {
+      "input": [
+        "49/100",
+        "51/100"
+      ],
+      "sum_exact": "1",
+      "round_each_then_sum": 1,
+      "sum_then_round": 1
+    }
+  ],
+  "capability": {
+    "before": {
+      "000": [],
+      "100": [
+        0
+      ],
+      "010": [
+        1
+      ],
+      "110": [
+        0,
+        1
+      ]
+    },
+    "after": {
+      "000": [],
+      "100": [
+        0
+      ],
+      "010": [
+        1
+      ],
+      "001": [
+        2
+      ],
+      "110": [
+        0,
+        1
+      ],
+      "101": [
+        0,
+        2
+      ],
+      "011": [
+        1,
+        2
+      ],
+      "111": [
+        0,
+        1,
+        2
+      ]
+    },
+    "relabel_only": {
+      "000": [],
+      "100": [
+        0
+      ],
+      "010": [
+        1
+      ],
+      "110": [
+        0,
+        1
+      ]
+    }
+  }
+}

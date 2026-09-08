@@ -1,0 +1,58 @@
+[
+  {
+    "input": "[1, 0]",
+    "every": "false",
+    "some": "true",
+    "none": "false",
+    "not_every": "true"
+  },
+  {
+    "input": "[1, '?']",
+    "every": "unresolved",
+    "some": "true",
+    "none": "false",
+    "not_every": "unresolved"
+  },
+  {
+    "input": "[]",
+    "every": "true",
+    "some": "false",
+    "none": "true",
+    "not_every": "false"
+  },
+  {
+    "input": "[1]",
+    "every": "true",
+    "some": "true",
+    "none": "false",
+    "not_every": "false"
+  },
+  {
+    "input": "[0]",
+    "every": "false",
+    "some": "false",
+    "none": "true",
+    "not_every": "true"
+  },
+  {
+    "input": "[0, '?']",
+    "every": "false",
+    "some": "unresolved",
+    "none": "unresolved",
+    "not_every": "true"
+  },
+  {
+    "input": "['?']",
+    "every": "unresolved",
+    "some": "unresolved",
+    "none": "unresolved",
+    "not_every": "unresolved"
+  },
+  {
+    "input": "[1] or [1,0] by membership",
+    "every": "unresolved",
+    "some": "true",
+    "none": "false",
+    "not_every": "unresolved"
+  }
+]

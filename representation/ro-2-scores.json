@@ -1,0 +1,172 @@
+{
+  "weights": [
+    3,
+    3,
+    2,
+    2,
+    1,
+    2
+  ],
+  "alternative_weights": [
+    1,
+    1,
+    1,
+    2,
+    5,
+    1
+  ],
+  "items": {
+    "E": {
+      "name": "Empty domain []",
+      "s": [
+        4,
+        2,
+        3,
+        3,
+        5,
+        2
+      ],
+      "why": [
+        "changes vacuous truth",
+        "current task has observed member",
+        "adds domain convention",
+        "needs convention stated",
+        "one empty vector",
+        "does not isolate value versus membership"
+      ],
+      "reason": "Boundary convention matters, but is not the live unknown-value question."
+    },
+    "P": {
+      "name": "Positive singleton [1]",
+      "s": [
+        2,
+        2,
+        1,
+        5,
+        5,
+        1
+      ],
+      "why": [
+        "confirms familiar agreement",
+        "no missing value",
+        "already implicit in positive anchor",
+        "self-contained value",
+        "one value",
+        "one obvious interpretation"
+      ],
+      "reason": "Useful anchor, lowest new discrimination for this target."
+    },
+    "N": {
+      "name": "Negative singleton [0]",
+      "s": [
+        3,
+        3,
+        2,
+        5,
+        5,
+        2
+      ],
+      "why": [
+        "contrasts every with none",
+        "negative anchor is relevant",
+        "removes unknown rather than tests it",
+        "self-contained value",
+        "one value",
+        "isolates known negative"
+      ],
+      "reason": "Cheap negative anchor; less direct than the unknown cases."
+    },
+    "U": {
+      "name": "Negative plus unknown [0,?]",
+      "s": [
+        5,
+        5,
+        4,
+        5,
+        4,
+        3
+      ],
+      "why": [
+        "every settled while some open",
+        "exact current missing-data issue",
+        "opposite anchor from slide",
+        "two explicit completions",
+        "two completions",
+        "distinguishes false from unknown"
+      ],
+      "reason": "Highest live-query fit and direct separating completions."
+    },
+    "Q": {
+      "name": "Only unknown [?]",
+      "s": [
+        4,
+        4,
+        3,
+        4,
+        5,
+        3
+      ],
+      "why": [
+        "neither quantifier fixed",
+        "missing result without anchor",
+        "removes known evidence",
+        "two completions need notation",
+        "one missing value",
+        "tests lack of any fixed result"
+      ],
+      "reason": "Removes the anchor and checks both unresolved claims."
+    },
+    "M": {
+      "name": "Uncertain membership of known zero",
+      "s": [
+        5,
+        4,
+        5,
+        2,
+        2,
+        5
+      ],
+      "why": [
+        "denominator can flip every",
+        "live scope issue",
+        "different uncertainty source",
+        "eligibility definition needed",
+        "two domains plus known value",
+        "separates membership from value uncertainty"
+      ],
+      "reason": "Best source-of-uncertainty distinction, with greater setup."
+    }
+  },
+  "scores": {
+    "E": 39,
+    "P": 31,
+    "N": 41,
+    "U": 58,
+    "Q": 49,
+    "M": 53
+  },
+  "order": [
+    "U",
+    "M",
+    "Q",
+    "N",
+    "E",
+    "P"
+  ],
+  "alternative_scores": {
+    "E": 42,
+    "P": 41,
+    "N": 45,
+    "U": 47,
+    "Q": 47,
+    "M": 33
+  },
+  "alternative_order": [
+    "U",
+    "Q",
+    "N",
+    "E",
+    "P",
+    "M"
+  ]
+}

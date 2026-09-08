@@ -1,0 +1,11 @@
+{
+  "candidate_A": "chronological records with full fields",
+  "candidate_B": "decision-index.json + same full records",
+  "queries": {
+    "next_execution": true,
+    "consolidation_eligibility": true,
+    "completion": true,
+    "handoff": true
+  },
+  "preserved_source_records": 4
+}

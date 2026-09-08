@@ -1,0 +1,5 @@
+- [Subject Systems](theory-manifest.json)
+- [Subject definitions](subject-bindings.json)
+- [Perspective hypotheses](perspective-clarification-2026-09-07.txt)
+- [Hypothesis source](clarification-source.json)
+- [Starter questions](starter-questions.txt)

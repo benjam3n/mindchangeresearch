@@ -1,0 +1,19 @@
+{
+  "source": "BENF-01 cost 10 and saving 4 per use",
+  "queries": [
+    {
+      "uses": 4,
+      "gross": 16,
+      "net": 6,
+      "time_only_choice": "create"
+    },
+    {
+      "uses": 2,
+      "gross": 8,
+      "net": -2,
+      "time_only_choice": "retain existing source"
+    }
+  ],
+  "empirical_probabilities_validated": false,
+  "new_keep_credit": false
+}
